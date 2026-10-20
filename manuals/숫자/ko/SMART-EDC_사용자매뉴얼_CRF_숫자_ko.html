@@ -65,7 +65,9 @@ a{color:inherit;text-decoration:none}
 .pno{position:absolute;right:56px;top:1063px;font-size:13.5px;color:#8590AE;line-height:20px}
 
 /* ---------- 본문 ---------- */
-.hdr{height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px}
+.hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
+/* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
+.hx{min-width:0}
 .ht{display:flex;align-items:baseline;padding-top:38px;font-size:31.5px;line-height:44px;font-weight:700;color:#fff;letter-spacing:-0.03em}
 .hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
 .area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
@@ -597,7 +599,10 @@ table.wide th:nth-child(1){width:61px}table.wide th:nth-child(2){width:164px}tab
       if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
       p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
       first = false;
-      return p.querySelector('.area');
+      // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
+      const area = p.querySelector('.area');
+      area.style.top = (p.querySelector('.hdr').getBoundingClientRect().height + 22) + 'px';
+      return area;
     });
   }
   src.remove();
