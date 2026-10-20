@@ -1,0 +1,45 @@
+{
+ "manual": "이메일",
+ "lang": "ko",
+ "pages": 46,
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 36,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.832
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 26,
+    "Pretendard-Regular": 8758,
+    "Pretendard-Bold": 4990,
+    "Pretendard-Medium": 5672,
+    "Unnamed-T3": 25
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 27
+  }
+ },
+ "pass": true
+}

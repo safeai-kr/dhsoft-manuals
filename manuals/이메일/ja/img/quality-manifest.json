@@ -1,0 +1,8009 @@
+{
+ "lang": "ja",
+ "method": "글자 영역 교체(결정적 편집): 원본 Lanczos 확대 → 배경색 채움 → Pretendard로 번역어 렌더링",
+ "files": {
+  "s1_1_1.png": {
+   "output_px": [
+    2366,
+    2160
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 51,
+   "flags": [
+    {
+     "id": "s1_1_1_000_0",
+     "ko": "대시보드",
+     "tr": "ダッシュボード",
+     "box_px_orig": [
+      12,
+      9,
+      42,
+      11
+     ],
+     "font_px": 12.9,
+     "scale": 0.522,
+     "weight": 500,
+     "stroke_ratio": 3.76,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s1_1_1_007_1",
+     "ko": "미리보기",
+     "tr": "プレビュー",
+     "box_px_orig": [
+      883,
+      69,
+      42,
+      11
+     ],
+     "font_px": 18.1,
+     "scale": 0.73,
+     "weight": 700,
+     "stroke_ratio": 4.91,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_004_1",
+     "ko": "도메인 코드",
+     "tr": "ドメインコード",
+     "box_px_orig": [
+      164,
+      97,
+      57,
+      16
+     ],
+     "font_px": 17.5,
+     "scale": 0.708,
+     "weight": 500,
+     "stroke_ratio": 3.86,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_004_0",
+     "ko": "반복 입력 양식",
+     "tr": "反復入力フォーム",
+     "box_px_orig": [
+      80,
+      98,
+      70,
+      14
+     ],
+     "font_px": 18.8,
+     "scale": 0.761,
+     "weight": 500,
+     "stroke_ratio": 4.45,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_016_0",
+     "ko": "1필드/1섹션",
+     "tr": "1 項目 / 1 セクション",
+     "box_px_orig": [
+      150,
+      163,
+      71,
+      12
+     ],
+     "font_px": 16.8,
+     "scale": 0.623,
+     "weight": 700,
+     "stroke_ratio": 5.2,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s1_1_1_030_0",
+     "ko": "저장 후 변경 시 기존 데이터 매칭 깨짐. ACTIVE 이후 PUBLISHED 는",
+     "tr": "保存後の変更で既存データの紐付けが切れる。ACTIVE 以降 PUBLISHED",
+     "box_px_orig": [
+      892,
+      330,
+      283,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.54,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_031_0",
+     "ko": "자동 readonly.",
+     "tr": "は自動 readonly。",
+     "box_px_orig": [
+      892,
+      344,
+      62,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_020_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      544,
+      363,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s1_1_1_038_0",
+     "ko": "검증 필수 (미검중 시 품질",
+     "tr": "検証必須 (未検証時は品質",
+     "box_px_orig": [
+      954,
+      579,
+      141,
+      14
+     ],
+     "font_px": 26.2,
+     "scale": 0.834,
+     "weight": 700,
+     "stroke_ratio": 5.7,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_050_0",
+     "ko": "입력 화면에서 \"미측정\" 체크박스를 제공합니다 - 선언 시 값이",
+     "tr": "入力画面で「未測定」チェックボックスを提供します — 宣言時に値が",
+     "box_px_orig": [
+      905,
+      846,
+      256,
+      10
+     ],
+     "font_px": 18.0,
+     "scale": 0.799,
+     "weight": 500,
+     "stroke_ratio": 3.63,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_051_0",
+     "ko": "삭제되고 필수 항목 집계에서 제외됩니다.",
+     "tr": "削除され、必須項目の集計から除外されます。",
+     "box_px_orig": [
+      905,
+      859,
+      168,
+      10
+     ],
+     "font_px": 18.0,
+     "scale": 0.799,
+     "weight": 500,
+     "stroke_ratio": 3.79,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1_1_1_000_0",
+     "ko": "대시보드",
+     "tr": "ダッシュボード",
+     "box_px_orig": [
+      12,
+      9,
+      42,
+      11
+     ],
+     "font_px": 12.9,
+     "scale": 0.522,
+     "weight": 500,
+     "stroke_ratio": 3.76,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s1_1_1_000_2",
+     "ko": "Datarorm 설계",
+     "tr": "DataForm設計",
+     "box_px_orig": [
+      78,
+      9,
+      77,
+      11
+     ],
+     "font_px": 23.6,
+     "scale": 0.957,
+     "weight": 500,
+     "stroke_ratio": 3.84,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_000_4",
+     "ko": "임상 대상자 기본정보 및 건강상태 평가서",
+     "tr": "臨床対象者基本情報および健康状態評価票",
+     "box_px_orig": [
+      178,
+      9,
+      201,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.96,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_003_0",
+     "ko": "임상 대상자 기본정보 및 건강상태 평가서",
+     "tr": "臨床対象者基本情報および健康状態評価票",
+     "box_px_orig": [
+      72,
+      62,
+      268,
+      20
+     ],
+     "font_px": 36.0,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.83,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_006_0",
+     "ko": "자동 저장됨 • 방금 전",
+     "tr": "自動保存済み · たった今",
+     "box_px_orig": [
+      684,
+      69,
+      102,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.12,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_007_0",
+     "ko": "편집",
+     "tr": "編集",
+     "box_px_orig": [
+      824,
+      69,
+      20,
+      12
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 700,
+     "stroke_ratio": 5.27,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_007_1",
+     "ko": "미리보기",
+     "tr": "プレビュー",
+     "box_px_orig": [
+      883,
+      69,
+      42,
+      11
+     ],
+     "font_px": 18.1,
+     "scale": 0.73,
+     "weight": 700,
+     "stroke_ratio": 4.91,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_008_0",
+     "ko": "저장",
+     "tr": "保存",
+     "box_px_orig": [
+      1062,
+      69,
+      22,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.13,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_009_1",
+     "ko": "발행",
+     "tr": "発行",
+     "box_px_orig": [
+      1145,
+      69,
+      22,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.64,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004_1",
+     "ko": "도메인 코드",
+     "tr": "ドメインコード",
+     "box_px_orig": [
+      164,
+      97,
+      57,
+      16
+     ],
+     "font_px": 17.5,
+     "scale": 0.708,
+     "weight": 500,
+     "stroke_ratio": 3.86,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_004_0",
+     "ko": "반복 입력 양식",
+     "tr": "反復入力フォーム",
+     "box_px_orig": [
+      80,
+      98,
+      70,
+      14
+     ],
+     "font_px": 18.8,
+     "scale": 0.761,
+     "weight": 500,
+     "stroke_ratio": 4.45,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_010_0",
+     "ko": "비우고 저장하면 지정이 해제됩니다.",
+     "tr": "空欄で保存すると指定が解除されます。",
+     "box_px_orig": [
+      346,
+      101,
+      147,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.45,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_011_0",
+     "ko": "구조",
+     "tr": "構造",
+     "box_px_orig": [
+      7,
+      163,
+      22,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.91,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_016_0",
+     "ko": "1필드/1섹션",
+     "tr": "1 項目 / 1 セクション",
+     "box_px_orig": [
+      150,
+      163,
+      71,
+      12
+     ],
+     "font_px": 16.8,
+     "scale": 0.623,
+     "weight": 700,
+     "stroke_ratio": 5.2,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s1_1_1_021_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      892,
+      167,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_023_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      1143,
+      178,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_022_0",
+     "ko": "새 필드",
+     "tr": "新しいフィールド",
+     "box_px_orig": [
+      892,
+      185,
+      42,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.37,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_018_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      436,
+      191,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_053_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      722,
+      191,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_012_1",
+     "ko": "필드 추가",
+     "tr": "フィールド追加",
+     "box_px_orig": [
+      48,
+      195,
+      47,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.36,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_013_1",
+     "ko": "필드 검색",
+     "tr": "フィールド検索",
+     "box_px_orig": [
+      37,
+      235,
+      45,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.22,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_024_0",
+     "ko": "기분",
+     "tr": "基本",
+     "box_px_orig": [
+      915,
+      236,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.27,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_025_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      961,
+      236,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_026_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      1027,
+      236,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_027_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      1134,
+      237,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_019_0",
+     "ko": "새 필드",
+     "tr": "新しいフィールド",
+     "box_px_orig": [
+      312,
+      241,
+      42,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 5.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_014_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      35,
+      273,
+      47,
+      12
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.51,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_015_1",
+     "ko": "새 필드",
+     "tr": "新しいフィールド",
+     "box_px_orig": [
+      72,
+      303,
+      33,
+      12
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.84,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_030_0",
+     "ko": "저장 후 변경 시 기존 데이터 매칭 깨짐. ACTIVE 이후 PUBLISHED 는",
+     "tr": "保存後の変更で既存データの紐付けが切れる。ACTIVE 以降 PUBLISHED",
+     "box_px_orig": [
+      892,
+      330,
+      283,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.54,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_031_0",
+     "ko": "자동 readonly.",
+     "tr": "は自動 readonly。",
+     "box_px_orig": [
+      892,
+      344,
+      62,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_020_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      544,
+      363,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s1_1_1_032_0",
+     "ko": "label (표시명)",
+     "tr": "label (表示名)",
+     "box_px_orig": [
+      893,
+      368,
+      81,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.14,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_033_0",
+     "ko": "새 필드",
+     "tr": "新しいフィールド",
+     "box_px_orig": [
+      905,
+      398,
+      42,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.53,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_034_0",
+     "ko": "description (도움말)",
+     "tr": "description (ヘルプ)",
+     "box_px_orig": [
+      892,
+      434,
+      124,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.72,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_035_0",
+     "ko": "필드 도움말 (선택)",
+     "tr": "フィールドのヘルプ (任意)",
+     "box_px_orig": [
+      906,
+      463,
+      104,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.74,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_036_0",
+     "ko": "필수 입력",
+     "tr": "必須入力",
+     "box_px_orig": [
+      930,
+      509,
+      53,
+      16
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.34,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_037_0",
+     "ko": "SDV 검증 대상 (CRA 원자료 대조)",
+     "tr": "SDV検証対象 (CRA原資料照合)",
+     "box_px_orig": [
+      929,
+      555,
+      198,
+      16
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.9,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_038_0",
+     "ko": "검증 필수 (미검중 시 품질",
+     "tr": "検証必須 (未検証時は品質",
+     "box_px_orig": [
+      954,
+      579,
+      141,
+      14
+     ],
+     "font_px": 26.2,
+     "scale": 0.834,
+     "weight": 700,
+     "stroke_ratio": 5.7,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_040_0",
+     "ko": "검증 대상으로 지정해야 필수 여부를 정할 수 있습니",
+     "tr": "検証対象に指定した場合のみ必須かどうかを設定できま",
+     "box_px_orig": [
+      930,
+      617,
+      230,
+      10
+     ],
+     "font_px": 20.5,
+     "scale": 0.91,
+     "weight": 500,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_041_0",
+     "ko": "다.",
+     "tr": "す。",
+     "box_px_orig": [
+      930,
+      631,
+      11,
+      10
+     ],
+     "font_px": 20.5,
+     "scale": 0.91,
+     "weight": 500,
+     "stroke_ratio": 2.95,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_042_0",
+     "ko": "AE 의미 역할",
+     "tr": "AE意味ロール",
+     "box_px_orig": [
+      905,
+      674,
+      76,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.31,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_043_0",
+     "ko": "지정 안 함",
+     "tr": "指定しない",
+     "box_px_orig": [
+      918,
+      702,
+      50,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.21,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_044_0",
+     "ko": "이상사례 양식에서 이 필드가 무엇을 뜻하는지 지정합니다 - 필",
+     "tr": "有害事象フォームでのこのフィールドの意味を指定します —",
+     "box_px_orig": [
+      905,
+      729,
+      258,
+      10
+     ],
+     "font_px": 17.7,
+     "scale": 0.874,
+     "weight": 500,
+     "stroke_ratio": 3.62,
+     "paragraph_lines": 5,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_045_0",
+     "ko": "드 구성은 과제마다 자유롭게 두고 의미만 시스템이 알게 하는",
+     "tr": "フィールド構成は課題ごとに自由にし、意味だけをシステムに",
+     "box_px_orig": [
+      905,
+      743,
+      250,
+      9
+     ],
+     "font_px": 17.7,
+     "scale": 0.874,
+     "weight": 500,
+     "stroke_ratio": 3.63,
+     "paragraph_lines": 5,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_046_0",
+     "ko": "축입니다. 'SAE 여부' 는 중대성 판정을 동보•추출로 잇는 죽이라",
+     "tr": "伝える軸です。「SAE の有無」は重大性判定を通知·抽出に",
+     "box_px_orig": [
+      905,
+      756,
+      260,
+      10
+     ],
+     "font_px": 17.7,
+     "scale": 0.874,
+     "weight": 500,
+     "stroke_ratio": 3.45,
+     "paragraph_lines": 5,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_047_0",
+     "ko": "예/아니오 또는 단일 선택 필드에 지정하십시오. 지정하지 않으",
+     "tr": "つなぐ軸なので、はい/いいえか単一選択フィールドに指定",
+     "box_px_orig": [
+      905,
+      770,
+      254,
+      9
+     ],
+     "font_px": 17.7,
+     "scale": 0.874,
+     "weight": 500,
+     "stroke_ratio": 3.61,
+     "paragraph_lines": 5,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_048_0",
+     "ko": "면 이 양식은 AE 검중을 받지 않습니다.",
+     "tr": "してください。指定しないと、このフォームは AE 検証を受けません。",
+     "box_px_orig": [
+      906,
+      783,
+      157,
+      9
+     ],
+     "font_px": 17.7,
+     "scale": 0.874,
+     "weight": 500,
+     "stroke_ratio": 3.63,
+     "paragraph_lines": 5,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_049_0",
+     "ko": "미측정 선언 허용",
+     "tr": "未測定宣言を許可",
+     "box_px_orig": [
+      930,
+      825,
+      96,
+      16
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.35,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_050_0",
+     "ko": "입력 화면에서 \"미측정\" 체크박스를 제공합니다 - 선언 시 값이",
+     "tr": "入力画面で「未測定」チェックボックスを提供します — 宣言時に値が",
+     "box_px_orig": [
+      905,
+      846,
+      256,
+      10
+     ],
+     "font_px": 18.0,
+     "scale": 0.799,
+     "weight": 500,
+     "stroke_ratio": 3.63,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_051_0",
+     "ko": "삭제되고 필수 항목 집계에서 제외됩니다.",
+     "tr": "削除され、必須項目の集計から除外されます。",
+     "box_px_orig": [
+      905,
+      859,
+      168,
+      10
+     ],
+     "font_px": 18.0,
+     "scale": 0.799,
+     "weight": 500,
+     "stroke_ratio": 3.79,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_052_0",
+     "ko": "필드 삭제",
+     "tr": "フィールド削除",
+     "box_px_orig": [
+      1027,
+      1055,
+      46,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.16,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s2_1_1.png": {
+   "output_px": [
+    1884,
+    664
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 18,
+   "flags": [
+    {
+     "id": "s2_1_1_014_0",
+     "ko": "저장 후 변경 시 기존 데이터 매칭 깨짐. ACTIVE 이후 PUBLISHED 는",
+     "tr": "保存後の変更で既存データの紐付けが切れる。ACTIVE 以降 PUBLISHED",
+     "box_px_orig": [
+      654,
+      175,
+      283,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.828,
+     "weight": 500,
+     "stroke_ratio": 3.54,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_015_0",
+     "ko": "자동 readonly.",
+     "tr": "は自動 readonly。",
+     "box_px_orig": [
+      654,
+      189,
+      62,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.828,
+     "weight": 500,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_004_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      230,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s2_1_1_006_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      654,
+      12,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_008_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      905,
+      23,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_007_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      654,
+      30,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_001_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      198,
+      36,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_005_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      484,
+      36,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_009_0",
+     "ko": "기분",
+     "tr": "基本",
+     "box_px_orig": [
+      677,
+      81,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.27,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_010_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      723,
+      81,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_010_1",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      789,
+      81,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_011_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      896,
+      82,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_002_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      74,
+      86,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_003_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      74,
+      153,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_014_0",
+     "ko": "저장 후 변경 시 기존 데이터 매칭 깨짐. ACTIVE 이후 PUBLISHED 는",
+     "tr": "保存後の変更で既存データの紐付けが切れる。ACTIVE 以降 PUBLISHED",
+     "box_px_orig": [
+      654,
+      175,
+      283,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.828,
+     "weight": 500,
+     "stroke_ratio": 3.54,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_015_0",
+     "ko": "자동 readonly.",
+     "tr": "は自動 readonly。",
+     "box_px_orig": [
+      654,
+      189,
+      62,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.828,
+     "weight": 500,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_016_0",
+     "ko": "label (표시명)",
+     "tr": "label (表示名)",
+     "box_px_orig": [
+      655,
+      213,
+      81,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.14,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_004_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      230,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s2_1_1_017_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      668,
+      243,
+      108,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "stroke_ratio": 4.64,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_018_0",
+     "ko": "description (도움말)",
+     "tr": "description (ヘルプ)",
+     "box_px_orig": [
+      654,
+      279,
+      124,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.72,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_019_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      668,
+      309,
+      205,
+      13
+     ],
+     "font_px": 27.7,
+     "scale": 0.949,
+     "weight": 400,
+     "stroke_ratio": 4.61,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s2_2_1.png": {
+   "output_px": [
+    1888,
+    760
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 19,
+   "flags": [
+    {
+     "id": "s2_2_1_016_0",
+     "ko": "저장 후 변경 시 기존 데이터 매칭 깨짐. ACTIVE 이후 PUBLISHED 는",
+     "tr": "保存後の変更で既存データの紐付けが切れる。ACTIVE 以降 PUBLISHED",
+     "box_px_orig": [
+      653,
+      173,
+      283,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.54,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_017_0",
+     "ko": "자동 readonly.",
+     "tr": "は自動 readonly。",
+     "box_px_orig": [
+      653,
+      187,
+      62,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_005_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      305,
+      228,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s2_2_1_007_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      653,
+      10,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_009_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      902,
+      21,
+      31,
+      10
+     ],
+     "font_px": 22.1,
+     "scale": 0.984,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_008_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      653,
+      28,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      197,
+      34,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_006_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      483,
+      34,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_010_0",
+     "ko": "기분",
+     "tr": "基本",
+     "box_px_orig": [
+      676,
+      79,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.27,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_011_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      722,
+      79,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_012_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      788,
+      79,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_013_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      895,
+      80,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_003_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      73,
+      84,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_004_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      73,
+      151,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_016_0",
+     "ko": "저장 후 변경 시 기존 데이터 매칭 깨짐. ACTIVE 이후 PUBLISHED 는",
+     "tr": "保存後の変更で既存データの紐付けが切れる。ACTIVE 以降 PUBLISHED",
+     "box_px_orig": [
+      653,
+      173,
+      283,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.54,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_017_0",
+     "ko": "자동 readonly.",
+     "tr": "は自動 readonly。",
+     "box_px_orig": [
+      653,
+      187,
+      62,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.836,
+     "weight": 500,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_018_0",
+     "ko": "label (표시명)",
+     "tr": "label (表示名)",
+     "box_px_orig": [
+      654,
+      211,
+      84,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.14,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_005_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      305,
+      228,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s2_2_1_019_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      667,
+      241,
+      108,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "stroke_ratio": 4.64,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_020_0",
+     "ko": "description (도움말)",
+     "tr": "description (ヘルプ)",
+     "box_px_orig": [
+      653,
+      277,
+      124,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.72,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_021_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      667,
+      307,
+      205,
+      13
+     ],
+     "font_px": 27.7,
+     "scale": 0.949,
+     "weight": 400,
+     "stroke_ratio": 4.61,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_022_0",
+     "ko": "필수 입력",
+     "tr": "必須入力",
+     "box_px_orig": [
+      691,
+      352,
+      53,
+      16
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.34,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s2_3_1.png": {
+   "output_px": [
+    916,
+    380
+   ],
+   "scale_from_orig": 2.871,
+   "replaced": 4,
+   "flags": [],
+   "segments": [
+    {
+     "id": "s2_3_1_000_0",
+     "ko": "SDV 검증 대상 (CRA 원자료 대조)",
+     "tr": "SDV検証対象 (CRA原資料照合)",
+     "box_px_orig": [
+      61,
+      29,
+      198,
+      14
+     ],
+     "font_px": 45.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.9,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_001_0",
+     "ko": "검중 필수 (미검중 시 품질 PENDING)",
+     "tr": "検証必須 (未検証時は品質 PENDING)",
+     "box_px_orig": [
+      82,
+      51,
+      150,
+      28
+     ],
+     "font_px": 45.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 5.77,
+     "paragraph_lines": 1,
+     "lines_in_segment": 2,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_003_0",
+     "ko": "검증 대상으로 지정해야 필수 여부를 정할 수 있습니",
+     "tr": "検証対象に指定した場合のみ必須かどうかを設定できま",
+     "box_px_orig": [
+      62,
+      90,
+      230,
+      10
+     ],
+     "font_px": 29.5,
+     "scale": 0.915,
+     "weight": 500,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_004_0",
+     "ko": "다.",
+     "tr": "す。",
+     "box_px_orig": [
+      62,
+      104,
+      11,
+      10
+     ],
+     "font_px": 29.5,
+     "scale": 0.915,
+     "weight": 500,
+     "stroke_ratio": 2.95,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s2_3_2.png": {
+   "output_px": [
+    919,
+    286
+   ],
+   "scale_from_orig": 2.854,
+   "replaced": 2,
+   "flags": [],
+   "segments": [
+    {
+     "id": "s2_3_2_000_0",
+     "ko": "SDV 검증 대상 (CRA 원자료 대조)",
+     "tr": "SDV検証対象 (CRA原資料照合)",
+     "box_px_orig": [
+      62,
+      27,
+      198,
+      16
+     ],
+     "font_px": 44.9,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.9,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_2_001_0",
+     "ko": "검중 필수 (미검중 시 품질 PENDING)",
+     "tr": "検証必須 (未検証時は品質 PENDING)",
+     "box_px_orig": [
+      84,
+      50,
+      150,
+      30
+     ],
+     "font_px": 44.9,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 5.65,
+     "paragraph_lines": 1,
+     "lines_in_segment": 2,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s2_4_1.png": {
+   "output_px": [
+    727,
+    677
+   ],
+   "scale_from_orig": 2.644,
+   "replaced": 11,
+   "flags": [
+    {
+     "id": "s2_4_1_005_0",
+     "ko": "비워 두면 \"미측정\". 입력 화면의 체크박스 문구와 잠김 안내",
+     "tr": "空欄なら「未測定」。入力画面のチェックボックス文言とロック案内",
+     "box_px_orig": [
+      16,
+      134,
+      239,
+      9
+     ],
+     "font_px": 22.7,
+     "scale": 0.849,
+     "weight": 700,
+     "stroke_ratio": 3.81,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_4_1_006_0",
+     "ko": "에 함께 쓰입니다.",
+     "tr": "に共通で使われます。",
+     "box_px_orig": [
+      15,
+      147,
+      71,
+      9
+     ],
+     "font_px": 22.7,
+     "scale": 0.849,
+     "weight": 700,
+     "stroke_ratio": 3.8,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_4_1_007_0",
+     "ko": "지시등",
+     "tr": "表示灯",
+     "box_px_orig": [
+      15,
+      169,
+      30,
+      10
+     ],
+     "font_px": 22.7,
+     "scale": 0.849,
+     "weight": 700,
+     "stroke_ratio": 4.26,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s2_4_1_000_0",
+     "ko": "미측정 선언 허용",
+     "tr": "未測定宣言を許可",
+     "box_px_orig": [
+      40,
+      18,
+      96,
+      16
+     ],
+     "font_px": 41.6,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.35,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_1_001_0",
+     "ko": "입력 화면에서 \"미측정\" 체크박스를 제공합니다 - 선언 시",
+     "tr": "入力画面で「未測定」チェックボックスを提供します — 宣言",
+     "box_px_orig": [
+      15,
+      39,
+      235,
+      10
+     ],
+     "font_px": 25.4,
+     "scale": 0.854,
+     "weight": 500,
+     "stroke_ratio": 3.61,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_1_002_0",
+     "ko": "값이 삭제되고 필수 항목 집계에서 제외됩니다.",
+     "tr": "時に値が削除され、必須項目の集計から除外されます。",
+     "box_px_orig": [
+      15,
+      52,
+      189,
+      10
+     ],
+     "font_px": 25.4,
+     "scale": 0.854,
+     "weight": 500,
+     "stroke_ratio": 3.83,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_1_003_0",
+     "ko": "표기 라벨",
+     "tr": "表示ラベル",
+     "box_px_orig": [
+      15,
+      83,
+      43,
+      10
+     ],
+     "font_px": 29.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.35,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_1_004_0",
+     "ko": "미측정",
+     "tr": "未測定",
+     "box_px_orig": [
+      29,
+      108,
+      31,
+      11
+     ],
+     "font_px": 32.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.74,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_1_005_0",
+     "ko": "비워 두면 \"미측정\". 입력 화면의 체크박스 문구와 잠김 안내",
+     "tr": "空欄なら「未測定」。入力画面のチェックボックス文言とロック案内",
+     "box_px_orig": [
+      16,
+      134,
+      239,
+      9
+     ],
+     "font_px": 22.7,
+     "scale": 0.849,
+     "weight": 700,
+     "stroke_ratio": 3.81,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_4_1_006_0",
+     "ko": "에 함께 쓰입니다.",
+     "tr": "に共通で使われます。",
+     "box_px_orig": [
+      15,
+      147,
+      71,
+      9
+     ],
+     "font_px": 22.7,
+     "scale": 0.849,
+     "weight": 700,
+     "stroke_ratio": 3.8,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_4_1_007_0",
+     "ko": "지시등",
+     "tr": "表示灯",
+     "box_px_orig": [
+      15,
+      169,
+      30,
+      10
+     ],
+     "font_px": 22.7,
+     "scale": 0.849,
+     "weight": 700,
+     "stroke_ratio": 4.26,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_4_1_008_0",
+     "ko": "없음",
+     "tr": "なし",
+     "box_px_orig": [
+      28,
+      193,
+      22,
+      11
+     ],
+     "font_px": 32.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.91,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_1_010_0",
+     "ko": "선언된 값 옆에 표시할 색. 지정하지 않으면 지시등을 넣지 않",
+     "tr": "宣言された値の横に表示する色。指定しないと表示灯は付けま",
+     "box_px_orig": [
+      15,
+      218,
+      245,
+      10
+     ],
+     "font_px": 25.5,
+     "scale": 0.904,
+     "weight": 500,
+     "stroke_ratio": 3.74,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_1_011_0",
+     "ko": "습니다.",
+     "tr": "せん。",
+     "box_px_orig": [
+      15,
+      233,
+      29,
+      9
+     ],
+     "font_px": 25.5,
+     "scale": 0.904,
+     "weight": 500,
+     "stroke_ratio": 3.43,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s2_4_2.png": {
+   "output_px": [
+    727,
+    660
+   ],
+   "scale_from_orig": 2.587,
+   "replaced": 11,
+   "flags": [],
+   "segments": [
+    {
+     "id": "s2_4_2_000_0",
+     "ko": "미측정 선언 허용",
+     "tr": "未測定宣言を許可",
+     "box_px_orig": [
+      46,
+      17,
+      96,
+      16
+     ],
+     "font_px": 40.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.35,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_001_0",
+     "ko": "입력 화면에서 \"미측정\" 체크박스를 제공합니다 - 선언 시",
+     "tr": "入力画面で「未測定」チェックボックスを提供します — 宣言",
+     "box_px_orig": [
+      21,
+      38,
+      235,
+      10
+     ],
+     "font_px": 25.2,
+     "scale": 0.866,
+     "weight": 500,
+     "stroke_ratio": 3.61,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_002_0",
+     "ko": "값이 삭제되고 필수 항목 집계에서 제외됩니다.",
+     "tr": "時に値が削除され、必須項目の集計から除外されます。",
+     "box_px_orig": [
+      21,
+      51,
+      189,
+      10
+     ],
+     "font_px": 25.2,
+     "scale": 0.866,
+     "weight": 500,
+     "stroke_ratio": 3.83,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_003_0",
+     "ko": "표기 라벨",
+     "tr": "表示ラベル",
+     "box_px_orig": [
+      21,
+      82,
+      43,
+      10
+     ],
+     "font_px": 29.1,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.35,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_004_0",
+     "ko": "이메일 미상",
+     "tr": "メール不明",
+     "box_px_orig": [
+      35,
+      108,
+      57,
+      11
+     ],
+     "font_px": 32.0,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.64,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_005_0",
+     "ko": "비워 두면 \"미측정\". 입력 화면의 체크박스 문구와 잠김 안내",
+     "tr": "空欄なら「未測定」。入力画面のチェックボックス文言とロック案内",
+     "box_px_orig": [
+      22,
+      133,
+      239,
+      9
+     ],
+     "font_px": 22.6,
+     "scale": 0.866,
+     "weight": 700,
+     "stroke_ratio": 3.81,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_006_0",
+     "ko": "에 함께 쓰입니다.",
+     "tr": "に共通で使われます。",
+     "box_px_orig": [
+      21,
+      146,
+      71,
+      9
+     ],
+     "font_px": 22.6,
+     "scale": 0.866,
+     "weight": 700,
+     "stroke_ratio": 3.8,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_007_0",
+     "ko": "지시등",
+     "tr": "表示灯",
+     "box_px_orig": [
+      21,
+      168,
+      30,
+      10
+     ],
+     "font_px": 22.6,
+     "scale": 0.866,
+     "weight": 700,
+     "stroke_ratio": 4.26,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_008_0",
+     "ko": "주의 (amber)",
+     "tr": "注意 (amber)",
+     "box_px_orig": [
+      34,
+      192,
+      67,
+      12
+     ],
+     "font_px": 34.9,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.61,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_009_0",
+     "ko": "선언된 값 옆에 표시할 색. 지정하지 않으면 지시등을 넣지 않",
+     "tr": "宣言された値の横に表示する色。指定しないと表示灯は付けま",
+     "box_px_orig": [
+      21,
+      217,
+      245,
+      10
+     ],
+     "font_px": 24.4,
+     "scale": 0.885,
+     "weight": 500,
+     "stroke_ratio": 3.74,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s2_4_2_010_0",
+     "ko": "습니다.",
+     "tr": "せん。",
+     "box_px_orig": [
+      21,
+      232,
+      29,
+      9
+     ],
+     "font_px": 24.4,
+     "scale": 0.885,
+     "weight": 500,
+     "stroke_ratio": 3.43,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s3_1_1.png": {
+   "output_px": [
+    1896,
+    800
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 17,
+   "flags": [
+    {
+     "id": "s3_1_1_005_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      310,
+      255,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s3_1_1_007_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      658,
+      37,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_009_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      906,
+      48,
+      30,
+      10
+     ],
+     "font_px": 21.4,
+     "scale": 0.952,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_008_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      658,
+      55,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_001_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      202,
+      61,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_006_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      488,
+      61,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_010_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      681,
+      106,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_011_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      726,
+      106,
+      38,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.29,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_012_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      793,
+      106,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_013_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      900,
+      107,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_003_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      78,
+      111,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_014_0",
+     "ko": "이메일 형식(예: name@example.com)이 저장 시 자동으로 검",
+     "tr": "メール形式(例: name@example.com)は保存時に自動で検",
+     "box_px_orig": [
+      659,
+      144,
+      280,
+      11
+     ],
+     "font_px": 22.5,
+     "scale": 0.953,
+     "weight": 500,
+     "stroke_ratio": 3.64,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_015_0",
+     "ko": "증딥니다. 추가 설정은 없습니다.",
+     "tr": "証されます。追加設定はありません。",
+     "box_px_orig": [
+      659,
+      162,
+      143,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 0.953,
+     "weight": 500,
+     "stroke_ratio": 3.84,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_004_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      78,
+      178,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_016_0",
+     "ko": "자동 계산 (calculation)",
+     "tr": "自動計算 (calculation)",
+     "box_px_orig": [
+      687,
+      198,
+      109,
+      14
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.91,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_017_0",
+     "ko": "기본값 (defaultValue)",
+     "tr": "デフォルト値 (defaultValue)",
+     "box_px_orig": [
+      659,
+      233,
+      132,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_005_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      310,
+      255,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s3_1_1_018_0",
+     "ko": "신규 입력 시 미리 채워지는 초기값 (선택).",
+     "tr": "新規入力時にあらかじめ入る初期値 (任意)。",
+     "box_px_orig": [
+      658,
+      293,
+      170,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.66,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s3_2_1.png": {
+   "output_px": [
+    1890,
+    606
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 17,
+   "flags": [
+    {
+     "id": "s3_2_1_006_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      303,
+      229,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s3_2_1_008_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      651,
+      11,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_010_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      902,
+      22,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_009_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      651,
+      29,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      195,
+      35,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_007_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      481,
+      35,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_011_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      674,
+      80,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_012_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      719,
+      80,
+      38,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.29,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_013_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      786,
+      80,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_015_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      893,
+      81,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_003_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      71,
+      85,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_016_0",
+     "ko": "이메일 형식(예: name@example.com)이 저장 시 자동으로 검",
+     "tr": "メール形式(例: name@example.com)は保存時に自動で検",
+     "box_px_orig": [
+      652,
+      118,
+      280,
+      11
+     ],
+     "font_px": 22.8,
+     "scale": 0.966,
+     "weight": 500,
+     "stroke_ratio": 3.64,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_017_0",
+     "ko": "증딥니다. 추가 설정은 없습니다.",
+     "tr": "証されます。追加設定はありません。",
+     "box_px_orig": [
+      652,
+      136,
+      143,
+      10
+     ],
+     "font_px": 22.8,
+     "scale": 0.966,
+     "weight": 500,
+     "stroke_ratio": 3.84,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_005_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      71,
+      152,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_018_0",
+     "ko": "자동 계산 (calculation)",
+     "tr": "自動計算 (calculation)",
+     "box_px_orig": [
+      680,
+      172,
+      109,
+      14
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.91,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_019_0",
+     "ko": "기본값 (defaultValue)",
+     "tr": "デフォルト値 (defaultValue)",
+     "box_px_orig": [
+      652,
+      207,
+      132,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_006_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      303,
+      229,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s3_2_1_021_0",
+     "ko": "신규 입력 시 미리 채워지는 초기값 (선택).",
+     "tr": "新規入力時にあらかじめ入る初期値 (任意)。",
+     "box_px_orig": [
+      651,
+      267,
+      170,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.66,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s4_1_1.png": {
+   "output_px": [
+    1882,
+    866
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 20,
+   "flags": [
+    {
+     "id": "s4_1_1_023_0",
+     "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
+     "tr": "ここの規則は保存前にチェックします。他のフォームの値を参照する検証",
+     "box_px_orig": [
+      654,
+      284,
+      282,
+      10
+     ],
+     "font_px": 18.5,
+     "scale": 0.821,
+     "weight": 500,
+     "stroke_ratio": 3.53,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_024_0",
+     "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
+     "tr": "はプロジェクト検証規則で登録してください。",
+     "box_px_orig": [
+      654,
+      300,
+      159,
+      10
+     ],
+     "font_px": 18.5,
+     "scale": 0.821,
+     "weight": 500,
+     "stroke_ratio": 3.56,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_008_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      330,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s4_1_1_011_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      654,
+      28,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_013_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      905,
+      39,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_012_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      654,
+      46,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      198,
+      52,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_009_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      484,
+      52,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_014_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      677,
+      97,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_016_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      723,
+      97,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_017_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      789,
+      97,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.32,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_018_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      896,
+      98,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_003_1",
+     "ko": "이메일 수신 여부",
+     "tr": "メール受信有無",
+     "box_px_orig": [
+      75,
+      102,
+      96,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.08,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_015_0",
+     "ko": "검증 규칙",
+     "tr": "検証規則",
+     "box_px_orig": [
+      654,
+      135,
+      42,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.98,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_019_0",
+     "ko": "개",
+     "tr": "件",
+     "box_px_orig": [
+      924,
+      135,
+      8,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.98,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_020_0",
+     "ko": "등록된 검증 규칙이 없습니다.",
+     "tr": "登録された検証規則はありません。",
+     "box_px_orig": [
+      732,
+      185,
+      131,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.01,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_006_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      74,
+      186,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_021_0",
+     "ko": "하단 버튼으로 첫 규칙을 추가하세요.",
+     "tr": "下のボタンから最初の規則を追加してください。",
+     "box_px_orig": [
+      715,
+      200,
+      165,
+      10
+     ],
+     "font_px": 21.0,
+     "scale": 0.935,
+     "weight": 500,
+     "stroke_ratio": 3.69,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_022_1",
+     "ko": "규칙 추가",
+     "tr": "規則追加",
+     "box_px_orig": [
+      788,
+      248,
+      47,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_007_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      74,
+      253,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_023_0",
+     "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
+     "tr": "ここの規則は保存前にチェックします。他のフォームの値を参照する検証",
+     "box_px_orig": [
+      654,
+      284,
+      282,
+      10
+     ],
+     "font_px": 18.5,
+     "scale": 0.821,
+     "weight": 500,
+     "stroke_ratio": 3.53,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_024_0",
+     "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
+     "tr": "はプロジェクト検証規則で登録してください。",
+     "box_px_orig": [
+      654,
+      300,
+      159,
+      10
+     ],
+     "font_px": 18.5,
+     "scale": 0.821,
+     "weight": 500,
+     "stroke_ratio": 3.56,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_008_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      330,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ]
+  },
+  "s4_2_1.png": {
+   "output_px": [
+    1892,
+    1158
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 27,
+   "flags": [
+    {
+     "id": "s4_2_1_005_0",
+     "ko": "규칙",
+     "tr": "規則",
+     "box_px_orig": [
+      203,
+      168,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_026_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      309,
+      310,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s4_2_1_034_0",
+     "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
+     "tr": "ここの規則は保存前にチェックします。他のフォームの値を参照する検証",
+     "box_px_orig": [
+      657,
+      522,
+      282,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.827,
+     "weight": 500,
+     "stroke_ratio": 3.53,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_035_0",
+     "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
+     "tr": "はプロジェクト検証規則で登録してください。",
+     "box_px_orig": [
+      657,
+      539,
+      159,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.827,
+     "weight": 500,
+     "stroke_ratio": 3.56,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s4_2_1_008_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      657,
+      8,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_013_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      908,
+      19,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_009_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      657,
+      26,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      201,
+      32,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_007_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      487,
+      32,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_010_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      680,
+      77,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_012_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      726,
+      77,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_014_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      792,
+      77,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.32,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_015_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      899,
+      78,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_003_0",
+     "ko": "이메일 수신 여부",
+     "tr": "メール受信有無",
+     "box_px_orig": [
+      78,
+      82,
+      96,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.08,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_011_0",
+     "ko": "검증 규칙",
+     "tr": "検証規則",
+     "box_px_orig": [
+      657,
+      115,
+      42,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.98,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_016_0",
+     "ko": "개",
+     "tr": "件",
+     "box_px_orig": [
+      927,
+      115,
+      8,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.98,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_004_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      77,
+      166,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_005_0",
+     "ko": "규칙",
+     "tr": "規則",
+     "box_px_orig": [
+      203,
+      168,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_022_0",
+     "ko": "환성",
+     "tr": "有効",
+     "box_px_orig": [
+      881,
+      169,
+      17,
+      13
+     ],
+     "font_px": 20.7,
+     "scale": 0.919,
+     "weight": 500,
+     "stroke_ratio": 3.96,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_017_0",
+     "ko": "규칙",
+     "tr": "規則",
+     "box_px_orig": [
+      670,
+      170,
+      18,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 700,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_019_0",
+     "ko": "값 범위",
+     "tr": "値の範囲",
+     "box_px_orig": [
+      683,
+      224,
+      32,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 400,
+     "stroke_ratio": 3.98,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_006_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      77,
+      233,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_026_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      309,
+      310,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s4_2_1_027_0",
+     "ko": "한쪽만 정의해도 유효합니다.",
+     "tr": "片方だけ定義しても有効です。",
+     "box_px_orig": [
+      670,
+      325,
+      117,
+      9
+     ],
+     "font_px": 21.1,
+     "scale": 0.94,
+     "weight": 500,
+     "stroke_ratio": 3.71,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_028_0",
+     "ko": "message (위반시 표시)",
+     "tr": "message (違反時表示)",
+     "box_px_orig": [
+      670,
+      346,
+      101,
+      11
+     ],
+     "font_px": 21.1,
+     "scale": 0.94,
+     "weight": 500,
+     "stroke_ratio": 3.58,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_029_0",
+     "ko": "예: 값은 0~100 사이여야 합니다.",
+     "tr": "例: 値は0~100の間である必要があります。",
+     "box_px_orig": [
+      683,
+      373,
+      149,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.51,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_030_0",
+     "ko": "위반시",
+     "tr": "違反時",
+     "box_px_orig": [
+      670,
+      403,
+      29,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.08,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_031_0",
+     "ko": "저장 차단",
+     "tr": "保存ブロック",
+     "box_px_orig": [
+      683,
+      430,
+      43,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_033_1",
+     "ko": "규칙 추가",
+     "tr": "規則追加",
+     "box_px_orig": [
+      791,
+      486,
+      47,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_034_0",
+     "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
+     "tr": "ここの規則は保存前にチェックします。他のフォームの値を参照する検証",
+     "box_px_orig": [
+      657,
+      522,
+      282,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.827,
+     "weight": 500,
+     "stroke_ratio": 3.53,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_035_0",
+     "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
+     "tr": "はプロジェクト検証規則で登録してください。",
+     "box_px_orig": [
+      657,
+      539,
+      159,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.827,
+     "weight": 500,
+     "stroke_ratio": 3.56,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s4_3_1.png": {
+   "output_px": [
+    1900,
+    1474
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 36,
+   "flags": [
+    {
+     "id": "s4_3_1_014_0",
+     "ko": "규칙",
+     "tr": "規則",
+     "box_px_orig": [
+      203,
+      170,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_3_1_020_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      309,
+      312,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s4_3_1_039_0",
+     "ko": "다른 필드와 비교는 서버가 강제하므로 항상 저장을 차단합니다.",
+     "tr": "他フィールドと比較はサーバーが強制するため、常に保存をブロックします。",
+     "box_px_orig": [
+      670,
+      604,
+      259,
+      10
+     ],
+     "font_px": 16.1,
+     "scale": 0.718,
+     "weight": 500,
+     "stroke_ratio": 3.61,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_3_1_041_0",
+     "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
+     "tr": "ここの規則は保存前にチェックします。他のフォームの値を参照する検証",
+     "box_px_orig": [
+      657,
+      687,
+      282,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.838,
+     "weight": 500,
+     "stroke_ratio": 3.53,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_3_1_042_0",
+     "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
+     "tr": "はプロジェクト検証規則で登録してください。",
+     "box_px_orig": [
+      657,
+      703,
+      159,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.838,
+     "weight": 500,
+     "stroke_ratio": 3.56,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s4_3_1_006_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      657,
+      10,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_011_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      908,
+      21,
+      29,
+      10
+     ],
+     "font_px": 20.7,
+     "scale": 0.921,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_007_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      657,
+      28,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_001_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      201,
+      34,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_002_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      487,
+      34,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_008_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      680,
+      79,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_010_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      726,
+      79,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_012_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      792,
+      79,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.32,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_015_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      899,
+      80,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_004_0",
+     "ko": "이메일 수신 여부",
+     "tr": "メール受信有無",
+     "box_px_orig": [
+      78,
+      84,
+      96,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.08,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_009_0",
+     "ko": "검증 규칙",
+     "tr": "検証規則",
+     "box_px_orig": [
+      657,
+      117,
+      42,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.98,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_016_0",
+     "ko": "개",
+     "tr": "件",
+     "box_px_orig": [
+      927,
+      117,
+      8,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.98,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_013_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      77,
+      168,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_014_0",
+     "ko": "규칙",
+     "tr": "規則",
+     "box_px_orig": [
+      203,
+      170,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_3_1_017_0",
+     "ko": "환성",
+     "tr": "有効",
+     "box_px_orig": [
+      881,
+      171,
+      17,
+      13
+     ],
+     "font_px": 20.7,
+     "scale": 0.919,
+     "weight": 500,
+     "stroke_ratio": 3.96,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_021_0",
+     "ko": "규칙",
+     "tr": "規則",
+     "box_px_orig": [
+      670,
+      172,
+      18,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 700,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_023_0",
+     "ko": "다른 필드와 비교",
+     "tr": "他フィールドと比較",
+     "box_px_orig": [
+      684,
+      226,
+      75,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 400,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_019_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      77,
+      235,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_025_0",
+     "ko": "비교할 항목",
+     "tr": "比較項目",
+     "box_px_orig": [
+      671,
+      273,
+      47,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_026_0",
+     "ko": "f10ld_uwau(이메일",
+     "tr": "field_uwau(メール",
+     "box_px_orig": [
+      679,
+      300,
+      102,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.21,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_026_1",
+     "ko": "수신",
+     "tr": "受信",
+     "box_px_orig": [
+      789,
+      300,
+      19,
+      10
+     ],
+     "font_px": 20.3,
+     "scale": 0.905,
+     "weight": 500,
+     "stroke_ratio": 3.24,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_026_2",
+     "ko": "여부",
+     "tr": "有無",
+     "box_px_orig": [
+      816,
+      300,
+      19,
+      10
+     ],
+     "font_px": 20.3,
+     "scale": 0.905,
+     "weight": 500,
+     "stroke_ratio": 3.63,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_020_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      309,
+      312,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s4_3_1_030_0",
+     "ko": "비교 대상",
+     "tr": "比較対象",
+     "box_px_orig": [
+      671,
+      388,
+      38,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.92,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_031_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      686,
+      405,
+      18,
+      12
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.39,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_031_1",
+     "ko": "직접 입력",
+     "tr": "直接入力",
+     "box_px_orig": [
+      733,
+      405,
+      38,
+      12
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.6,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_033_0",
+     "ko": "폼에 있는 2개 항목에서만 고를 수 있습니다. 비교 대상은 값을",
+     "tr": "フォームにある 2 項目からのみ選択できます。比較対象は値を",
+     "box_px_orig": [
+      670,
+      459,
+      251,
+      9
+     ],
+     "font_px": 20.1,
+     "scale": 0.992,
+     "weight": 500,
+     "stroke_ratio": 3.59,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_034_0",
+     "ko": "직접 넣을 수도 있습니다(숫자•\"문자일\" - true/false).",
+     "tr": "直接入力することもできます(数値 · \"文字列\" · true/false)。",
+     "box_px_orig": [
+      670,
+      473,
+      219,
+      9
+     ],
+     "font_px": 20.1,
+     "scale": 0.992,
+     "weight": 500,
+     "stroke_ratio": 3.55,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_035_0",
+     "ko": "message (위반시 표시)",
+     "tr": "message (違反時表示)",
+     "box_px_orig": [
+      670,
+      493,
+      101,
+      11
+     ],
+     "font_px": 20.1,
+     "scale": 0.992,
+     "weight": 500,
+     "stroke_ratio": 3.58,
+     "paragraph_lines": 3,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_036_0",
+     "ko": "이메일 수신 동의시에만 입력 가능합니다.",
+     "tr": "メール受信に同意した場合のみ入力できます。",
+     "box_px_orig": [
+      683,
+      521,
+      185,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.62,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_037_0",
+     "ko": "위반시",
+     "tr": "違反時",
+     "box_px_orig": [
+      670,
+      550,
+      29,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.08,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_038_0",
+     "ko": "저장 차단",
+     "tr": "保存ブロック",
+     "box_px_orig": [
+      683,
+      578,
+      43,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.4,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_039_0",
+     "ko": "다른 필드와 비교는 서버가 강제하므로 항상 저장을 차단합니다.",
+     "tr": "他フィールドと比較はサーバーが強制するため、常に保存をブロックします。",
+     "box_px_orig": [
+      670,
+      604,
+      259,
+      10
+     ],
+     "font_px": 16.1,
+     "scale": 0.718,
+     "weight": 500,
+     "stroke_ratio": 3.61,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_3_1_040_1",
+     "ko": "규칙 추가",
+     "tr": "規則追加",
+     "box_px_orig": [
+      791,
+      651,
+      47,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s4_3_1_041_0",
+     "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
+     "tr": "ここの規則は保存前にチェックします。他のフォームの値を参照する検証",
+     "box_px_orig": [
+      657,
+      687,
+      282,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.838,
+     "weight": 500,
+     "stroke_ratio": 3.53,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_3_1_042_0",
+     "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
+     "tr": "はプロジェクト検証規則で登録してください。",
+     "box_px_orig": [
+      657,
+      703,
+      159,
+      10
+     ],
+     "font_px": 18.8,
+     "scale": 0.838,
+     "weight": 500,
+     "stroke_ratio": 3.56,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s5_1_1.png": {
+   "output_px": [
+    1896,
+    1086
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 23,
+   "flags": [
+    {
+     "id": "s5_1_1_010_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      308,
+      230,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s5_1_1_026_0",
+     "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
+     "tr": "フィールド下に案内文で表示。フォームビルダーメモ(description)とは別",
+     "box_px_orig": [
+      656,
+      435,
+      264,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.5,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s5_1_1_027_0",
+     "ko": "사용자 입력 시 보조.",
+     "tr": "ユーザー入力時の補助。",
+     "box_px_orig": [
+      656,
+      448,
+      83,
+      9
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.32,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s5_1_1_004_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      656,
+      12,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_006_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      907,
+      23,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_005_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      656,
+      30,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      200,
+      36,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_003_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      486,
+      36,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_011_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      679,
+      81,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_011_1",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      725,
+      81,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_901_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      791,
+      81,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_014_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      898,
+      82,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_008_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      76,
+      86,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_015_0",
+     "ko": "레이아웃 너비",
+     "tr": "レイアウト幅",
+     "box_px_orig": [
+      657,
+      116,
+      78,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.24,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_016_0",
+     "ko": "전체",
+     "tr": "全体",
+     "box_px_orig": [
+      674,
+      146,
+      20,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.77,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_009_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      76,
+      153,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_018_0",
+     "ko": "12-col grid 기준 - full (12) - half (6) · third (4) - quarter (3)",
+     "tr": "12-col grid 基準 — full (12) · half (6) · third (4) · quarter (3)",
+     "box_px_orig": [
+      656,
+      176,
+      251,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_019_0",
+     "ko": "읽기 전용 (입력 차단)",
+     "tr": "読み取り専用 (入力ブロック)",
+     "box_px_orig": [
+      693,
+      208,
+      121,
+      16
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.33,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_010_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      308,
+      230,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s5_1_1_020_0",
+     "ko": "숨김 (UI 미렌더• 데이터 보존)",
+     "tr": "非表示 (UI 非レンダリング · データ保持)",
+     "box_px_orig": [
+      693,
+      254,
+      171,
+      16
+     ],
+     "font_px": 28.1,
+     "scale": 0.892,
+     "weight": 500,
+     "stroke_ratio": 5.48,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_022_0",
+     "ko": "입력 안내 (예: YYYY-MM-DD)",
+     "tr": "入力ガイド (例: YYYY-MM-DD)",
+     "box_px_orig": [
+      670,
+      320,
+      174,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.4,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_023_0",
+     "ko": "값이 없을 때 입력 칸에 회색 안내 텍스트로 노존.",
+     "tr": "値がないとき、入力欄にグレーの案内テキストで表示。",
+     "box_px_orig": [
+      656,
+      351,
+      197,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.87,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_024_0",
+     "ko": "helpText (도움말)",
+     "tr": "helpText (ヘルプ)",
+     "box_px_orig": [
+      657,
+      375,
+      104,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.78,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_025_0",
+     "ko": "입력 보조 설명 (선택)",
+     "tr": "入力補助説明 (任意)",
+     "box_px_orig": [
+      670,
+      404,
+      120,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.93,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_1_1_026_0",
+     "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
+     "tr": "フィールド下に案内文で表示。フォームビルダーメモ(description)とは別",
+     "box_px_orig": [
+      656,
+      435,
+      264,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.5,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s5_1_1_027_0",
+     "ko": "사용자 입력 시 보조.",
+     "tr": "ユーザー入力時の補助。",
+     "box_px_orig": [
+      656,
+      448,
+      83,
+      9
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.32,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s5_2_1.png": {
+   "output_px": [
+    1876,
+    604
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 17,
+   "flags": [
+    {
+     "id": "s5_2_1_005_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      300,
+      228,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s5_2_1_007_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      648,
+      10,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_009_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      899,
+      21,
+      29,
+      10
+     ],
+     "font_px": 20.7,
+     "scale": 0.921,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_008_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      648,
+      28,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      192,
+      34,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_006_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      478,
+      34,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_010_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      671,
+      79,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_011_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      717,
+      79,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_012_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      783,
+      79,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_018_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      890,
+      80,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_003_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      68,
+      84,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_014_0",
+     "ko": "레이아웃 너비",
+     "tr": "レイアウト幅",
+     "box_px_orig": [
+      649,
+      114,
+      82,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.26,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_015_0",
+     "ko": "절반 (1/2)",
+     "tr": "半分 (1/2)",
+     "box_px_orig": [
+      665,
+      144,
+      49,
+      12
+     ],
+     "font_px": 27.0,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_004_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      68,
+      151,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_016_0",
+     "ko": "12-col grid 기준 - full (12) - half (6) · third (4) - quarter (3)",
+     "tr": "12-col grid 基準 — full (12) · half (6) · third (4) · quarter (3)",
+     "box_px_orig": [
+      648,
+      174,
+      251,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_017_0",
+     "ko": "읽기 전용 (입력 차단)",
+     "tr": "読み取り専用 (入力ブロック)",
+     "box_px_orig": [
+      685,
+      206,
+      121,
+      16
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.33,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_2_1_005_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      300,
+      228,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s5_2_1_019_0",
+     "ko": "숨김 (UI 미렌더• 데이터 보존)",
+     "tr": "非表示 (UI 非レンダリング · データ保持)",
+     "box_px_orig": [
+      685,
+      252,
+      171,
+      16
+     ],
+     "font_px": 28.1,
+     "scale": 0.892,
+     "weight": 500,
+     "stroke_ratio": 5.48,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s5_3_1.png": {
+   "output_px": [
+    1886,
+    600
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 15,
+   "flags": [
+    {
+     "id": "s5_3_1_003_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      304,
+      172,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s5_3_1_005_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      652,
+      10,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_007_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      901,
+      21,
+      31,
+      10
+     ],
+     "font_px": 22.1,
+     "scale": 0.984,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_006_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      652,
+      28,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      196,
+      34,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_004_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      482,
+      34,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_008_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      675,
+      79,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_009_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      721,
+      79,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_010_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      787,
+      79,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_015_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      894,
+      80,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_011_0",
+     "ko": "레이아웃 너비",
+     "tr": "レイアウト幅",
+     "box_px_orig": [
+      653,
+      114,
+      81,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.26,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_012_0",
+     "ko": "전체",
+     "tr": "全体",
+     "box_px_orig": [
+      670,
+      144,
+      20,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.77,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_003_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      304,
+      172,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s5_3_1_013_0",
+     "ko": "12-col grid 기준 - full (12) - half (6) · third (4) - quarter (3)",
+     "tr": "12-col grid 基準 — full (12) · half (6) · third (4) · quarter (3)",
+     "box_px_orig": [
+      652,
+      174,
+      251,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_014_0",
+     "ko": "읽기 전용 (입력 차단)",
+     "tr": "読み取り専用 (入力ブロック)",
+     "box_px_orig": [
+      689,
+      206,
+      121,
+      16
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.33,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_3_1_016_1",
+     "ko": "숨김 (UI 미렌더 • 데이터 보존)",
+     "tr": "非表示 (UI 非レンダリング · データ保持)",
+     "box_px_orig": [
+      689,
+      253,
+      171,
+      14
+     ],
+     "font_px": 28.3,
+     "scale": 0.899,
+     "weight": 500,
+     "stroke_ratio": 5.48,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s5_4_1.png": {
+   "output_px": [
+    1874,
+    944
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 23,
+   "flags": [
+    {
+     "id": "s5_4_1_011_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      301,
+      249,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s5_4_1_025_0",
+     "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
+     "tr": "フィールド下に案内文で表示。フォームビルダーメモ(description)とは別",
+     "box_px_orig": [
+      649,
+      432,
+      264,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.5,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s5_4_1_026_0",
+     "ko": "사용자 입력 시 보조.",
+     "tr": "ユーザー入力時の補助。",
+     "box_px_orig": [
+      649,
+      445,
+      83,
+      9
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.32,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s5_4_1_004_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      649,
+      9,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_006_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      900,
+      20,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_005_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      649,
+      27,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_002_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      193,
+      33,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_003_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      479,
+      33,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_012_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      672,
+      78,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_013_0",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      718,
+      78,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_013_1",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      784,
+      78,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_014_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      891,
+      79,
+      27,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_007_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      69,
+      83,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_015_0",
+     "ko": "레이아웃 너비",
+     "tr": "レイアウト幅",
+     "box_px_orig": [
+      650,
+      113,
+      78,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.24,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_016_0",
+     "ko": "전체",
+     "tr": "全体",
+     "box_px_orig": [
+      667,
+      143,
+      20,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.77,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_009_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      69,
+      150,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_010_1",
+     "ko": "이메일 형식이 아닐경우 저장되지 않습니다.",
+     "tr": "メール形式でない場合は保存されません。",
+     "box_px_orig": [
+      89,
+      172,
+      212,
+      11
+     ],
+     "font_px": 24.0,
+     "scale": 0.97,
+     "weight": 500,
+     "stroke_ratio": 4.24,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_017_0",
+     "ko": "12-col grid 기준 - full (12) - half (6) · third (4) - quarter (3)",
+     "tr": "12-col grid 基準 — full (12) · half (6) · third (4) · quarter (3)",
+     "box_px_orig": [
+      649,
+      173,
+      251,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_018_0",
+     "ko": "읽기 전용 (입력 차단)",
+     "tr": "読み取り専用 (入力ブロック)",
+     "box_px_orig": [
+      686,
+      205,
+      121,
+      16
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.33,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_011_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      301,
+      249,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s5_4_1_019_0",
+     "ko": "숨김 (UI 미렌더• 데이터 보존)",
+     "tr": "非表示 (UI 非レンダリング · データ保持)",
+     "box_px_orig": [
+      686,
+      251,
+      171,
+      16
+     ],
+     "font_px": 28.1,
+     "scale": 0.892,
+     "weight": 500,
+     "stroke_ratio": 5.48,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_022_0",
+     "ko": "값이 없을 때 입력 칸에 회색 안내 텍스트로 노존.",
+     "tr": "値がないとき、入力欄にグレーの案内テキストで表示。",
+     "box_px_orig": [
+      649,
+      348,
+      197,
+      9
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 3.87,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_023_0",
+     "ko": "helpText (도움말)",
+     "tr": "helpText (ヘルプ)",
+     "box_px_orig": [
+      650,
+      372,
+      104,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.78,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_024_0",
+     "ko": "이메일 형식이 아닐경우 저장되지 않습니다.",
+     "tr": "メール形式でない場合は保存されません。",
+     "box_px_orig": [
+      663,
+      402,
+      247,
+      13
+     ],
+     "font_px": 28.1,
+     "scale": 0.963,
+     "weight": 400,
+     "stroke_ratio": 4.53,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s5_4_1_025_0",
+     "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
+     "tr": "フィールド下に案内文で表示。フォームビルダーメモ(description)とは別",
+     "box_px_orig": [
+      649,
+      432,
+      264,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.5,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s5_4_1_026_0",
+     "ko": "사용자 입력 시 보조.",
+     "tr": "ユーザー入力時の補助。",
+     "box_px_orig": [
+      649,
+      445,
+      83,
+      9
+     ],
+     "font_px": 17.0,
+     "scale": 0.798,
+     "weight": 500,
+     "stroke_ratio": 3.32,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s6_1_1.png": {
+   "output_px": [
+    1896,
+    1108
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 24,
+   "flags": [
+    {
+     "id": "s6_1_1_016_0",
+     "ko": "권위 평가 - 숨겨진 필드는 required 검증이 면제됨니다 (데이터",
+     "tr": "権威評価 — 非表示フィールドは required 検証が免除されます (データ",
+     "box_px_orig": [
+      670,
+      177,
+      261,
+      10
+     ],
+     "font_px": 18.5,
+     "scale": 0.824,
+     "weight": 700,
+     "stroke_ratio": 3.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_1_1_014_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      355,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s6_1_1_026_0",
+     "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
+     "tr": "operator 別 value 精密分岐 (number ウィジェット) は後続",
+     "box_px_orig": [
+      654,
+      428,
+      215,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.757,
+     "weight": 700,
+     "stroke_ratio": 3.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s6_1_1_008_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      654,
+      28,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_010_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      905,
+      39,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_009_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      654,
+      46,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_001_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      198,
+      52,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_006_0",
+     "ko": "필드",
+     "tr": "項目",
+     "box_px_orig": [
+      484,
+      52,
+      20,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 4.19,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_011_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      677,
+      97,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_011_1",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      723,
+      97,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_012_0",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      789,
+      97,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_013_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      895,
+      97,
+      28,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.22,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_002_1",
+     "ko": "이메일 수신 여부",
+     "tr": "メール受信有無",
+     "box_px_orig": [
+      75,
+      102,
+      96,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.08,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_015_0",
+     "ko": "조건부 표시 (condition) 활성",
+     "tr": "条件付き表示 (condition) 有効",
+     "box_px_orig": [
+      691,
+      141,
+      168,
+      16
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.84,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_016_0",
+     "ko": "권위 평가 - 숨겨진 필드는 required 검증이 면제됨니다 (데이터",
+     "tr": "権威評価 — 非表示フィールドは required 検証が免除されます (データ",
+     "box_px_orig": [
+      670,
+      177,
+      261,
+      10
+     ],
+     "font_px": 18.5,
+     "scale": 0.824,
+     "weight": 700,
+     "stroke_ratio": 3.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_1_1_017_0",
+     "ko": "무결성에 영향).",
+     "tr": "整合性に影響)。",
+     "box_px_orig": [
+      654,
+      192,
+      62,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.89,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_004_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      74,
+      211,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_018_0",
+     "ko": "참조 필드 fieldKey",
+     "tr": "参照フィールド fieldKey",
+     "box_px_orig": [
+      654,
+      219,
+      114,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.79,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_019_0",
+     "ko": "예",
+     "tr": "例",
+     "box_px_orig": [
+      667,
+      249,
+      10,
+      11
+     ],
+     "font_px": 21.5,
+     "scale": 0.87,
+     "weight": 500,
+     "stroke_ratio": 5.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_005_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      74,
+      278,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_020_0",
+     "ko": "같은 폼 내 1개 형제 필드 자동완성 (목록 외 직접 입력도 가능).",
+     "tr": "同じフォーム内の兄弟フィールド 1 件を自動補完 (一覧外の直接入力も可能)。",
+     "box_px_orig": [
+      654,
+      279,
+      250,
+      9
+     ],
+     "font_px": 17.7,
+     "scale": 0.875,
+     "weight": 700,
+     "stroke_ratio": 3.71,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_022_0",
+     "ko": "(같음)",
+     "tr": "(等しい)",
+     "box_px_orig": [
+      688,
+      332,
+      28,
+      12
+     ],
+     "font_px": 27.0,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.66,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_014_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      355,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s6_1_1_025_0",
+     "ko": "예: M",
+     "tr": "例: M",
+     "box_px_orig": [
+      667,
+      397,
+      32,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.63,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_026_0",
+     "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
+     "tr": "operator 別 value 精密分岐 (number ウィジェット) は後続",
+     "box_px_orig": [
+      654,
+      428,
+      215,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.757,
+     "weight": 700,
+     "stroke_ratio": 3.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_1_1_027_0",
+     "ko": "예시: fieldKey-\"gender\"-operator=\"eq\" - value=\"M\" - 성별",
+     "tr": "例: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\" → 性別",
+     "box_px_orig": [
+      663,
+      462,
+      262,
+      11
+     ],
+     "font_px": 21.4,
+     "scale": 0.952,
+     "weight": 500,
+     "stroke_ratio": 3.1,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_1_1_028_0",
+     "ko": "이 M 일 때만 본 필드 노존.",
+     "tr": "が M のときだけ本フィールドを表示。",
+     "box_px_orig": [
+      663,
+      479,
+      108,
+      9
+     ],
+     "font_px": 21.4,
+     "scale": 0.952,
+     "weight": 500,
+     "stroke_ratio": 3.95,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  },
+  "s6_2_1.png": {
+   "output_px": [
+    1898,
+    1058
+   ],
+   "scale_from_orig": 2.0,
+   "replaced": 25,
+   "flags": [
+    {
+     "id": "s6_2_1_018_0",
+     "ko": "권위 평가 - 숨겨진 필드는 required 검증이 면제됨니다 (데이터",
+     "tr": "権威評価 — 非表示フィールドは required 検証が免除されます (データ",
+     "box_px_orig": [
+      670,
+      184,
+      261,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.827,
+     "weight": 700,
+     "stroke_ratio": 3.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_013_1",
+     "ko": "수신",
+     "tr": "受信",
+     "box_px_orig": [
+      196,
+      196,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.2,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_013_2",
+     "ko": "여부",
+     "tr": "有無",
+     "box_px_orig": [
+      221,
+      196,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.94,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_016_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      362,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s6_2_1_026_0",
+     "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
+     "tr": "operator 別 value 精密分岐 (number ウィジェット) は後続",
+     "box_px_orig": [
+      654,
+      435,
+      215,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.757,
+     "weight": 700,
+     "stroke_ratio": 3.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s6_2_1_005_0",
+     "ko": "필드 속성",
+     "tr": "フィールド属性",
+     "box_px_orig": [
+      654,
+      35,
+      39,
+      10
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.52,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_007_0",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      905,
+      46,
+      27,
+      10
+     ],
+     "font_px": 19.3,
+     "scale": 0.857,
+     "weight": 500,
+     "stroke_ratio": 4.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_006_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      654,
+      53,
+      109,
+      13
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.28,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_004_0",
+     "ko": "2 필드",
+     "tr": "2 項目",
+     "box_px_orig": [
+      473,
+      57,
+      31,
+      15
+     ],
+     "font_px": 22.9,
+     "scale": 0.925,
+     "weight": 500,
+     "stroke_ratio": 4.16,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_003_0",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      198,
+      59,
+      55,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 6.09,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_008_0",
+     "ko": "기본",
+     "tr": "基本",
+     "box_px_orig": [
+      677,
+      104,
+      18,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_008_1",
+     "ko": "타입 설정",
+     "tr": "タイプ設定",
+     "box_px_orig": [
+      723,
+      104,
+      37,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_008_2",
+     "ko": "검증",
+     "tr": "検証",
+     "box_px_orig": [
+      789,
+      104,
+      17,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.56,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "right",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_012_0",
+     "ko": "조건부",
+     "tr": "条件付き",
+     "box_px_orig": [
+      895,
+      104,
+      28,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.22,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_009_0",
+     "ko": "이메일 수신 여부",
+     "tr": "メール受信有無",
+     "box_px_orig": [
+      75,
+      109,
+      96,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.08,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_017_1",
+     "ko": "조건부 표시 (condition) 활성",
+     "tr": "条件付き表示 (condition) 有効",
+     "box_px_orig": [
+      691,
+      149,
+      168,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.84,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_018_0",
+     "ko": "권위 평가 - 숨겨진 필드는 required 검증이 면제됨니다 (데이터",
+     "tr": "権威評価 — 非表示フィールドは required 検証が免除されます (データ",
+     "box_px_orig": [
+      670,
+      184,
+      261,
+      10
+     ],
+     "font_px": 18.6,
+     "scale": 0.827,
+     "weight": 700,
+     "stroke_ratio": 3.68,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_013_0",
+     "ko": "fie1d_uwau(이메일",
+     "tr": "field_uwau(メール",
+     "box_px_orig": [
+      97,
+      196,
+      92,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.28,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_013_1",
+     "ko": "수신",
+     "tr": "受信",
+     "box_px_orig": [
+      196,
+      196,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.2,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_013_2",
+     "ko": "여부",
+     "tr": "有無",
+     "box_px_orig": [
+      221,
+      196,
+      17,
+      10
+     ],
+     "font_px": 18.2,
+     "scale": 0.81,
+     "weight": 500,
+     "stroke_ratio": 3.94,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_019_0",
+     "ko": "무결성에 영향).",
+     "tr": "整合性に影響)。",
+     "box_px_orig": [
+      654,
+      199,
+      62,
+      10
+     ],
+     "font_px": 22.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 3.89,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_014_0",
+     "ko": "임상 대상자 이메일",
+     "tr": "臨床対象者メール",
+     "box_px_orig": [
+      74,
+      218,
+      109,
+      13
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 5.49,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_020_0",
+     "ko": "참조 필드 fieldKey",
+     "tr": "参照フィールド fieldKey",
+     "box_px_orig": [
+      654,
+      226,
+      114,
+      14
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.79,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_015_0",
+     "ko": "임상 대상자의 이메일을 입력합니다.",
+     "tr": "臨床対象者のメールを入力します。",
+     "box_px_orig": [
+      74,
+      285,
+      177,
+      11
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.44,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_022_0",
+     "ko": "같은 폼 내 1개 형제 필드 자동완성 (목록 외 직접 입력도 가능).",
+     "tr": "同じフォーム内の兄弟フィールド 1 件を自動補完 (一覧外の直接入力も可能)。",
+     "box_px_orig": [
+      654,
+      286,
+      250,
+      9
+     ],
+     "font_px": 17.8,
+     "scale": 0.878,
+     "weight": 700,
+     "stroke_ratio": 3.71,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_024_0",
+     "ko": "(같음)",
+     "tr": "(等しい)",
+     "box_px_orig": [
+      688,
+      339,
+      28,
+      12
+     ],
+     "font_px": 27.0,
+     "scale": 1.0,
+     "weight": 500,
+     "stroke_ratio": 4.66,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_016_1",
+     "ko": "섹션 추가",
+     "tr": "セクション追加",
+     "box_px_orig": [
+      306,
+      362,
+      47,
+      11
+     ],
+     "font_px": 15.1,
+     "scale": 0.611,
+     "weight": 700,
+     "stroke_ratio": 4.17,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s6_2_1_026_0",
+     "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
+     "tr": "operator 別 value 精密分岐 (number ウィジェット) は後続",
+     "box_px_orig": [
+      654,
+      435,
+      215,
+      10
+     ],
+     "font_px": 17.0,
+     "scale": 0.757,
+     "weight": 700,
+     "stroke_ratio": 3.55,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_027_0",
+     "ko": "예시: fieldKey-\"gender\"-operator=\"eq\" - value=\"M\" - 성별",
+     "tr": "例: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\" → 性別",
+     "box_px_orig": [
+      663,
+      469,
+      262,
+      11
+     ],
+     "font_px": 21.4,
+     "scale": 0.952,
+     "weight": 500,
+     "stroke_ratio": 3.1,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    },
+    {
+     "id": "s6_2_1_028_0",
+     "ko": "이 M 일 때만 본 필드 노존.",
+     "tr": "が M のときだけ本フィールドを表示。",
+     "box_px_orig": [
+      663,
+      486,
+      108,
+      9
+     ],
+     "font_px": 21.4,
+     "scale": 0.952,
+     "weight": 500,
+     "stroke_ratio": 3.95,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "flag": ""
+    }
+   ]
+  }
+ }
+}

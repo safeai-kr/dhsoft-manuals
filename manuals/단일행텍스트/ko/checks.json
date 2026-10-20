@@ -1,0 +1,45 @@
+{
+ "manual": "단일행텍스트",
+ "lang": "ko",
+ "pages": 50,
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 40,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.824
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 31,
+    "Pretendard-Regular": 8945,
+    "Pretendard-Bold": 4576,
+    "Pretendard-Medium": 5777,
+    "Unnamed-T3": 7
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 29
+  }
+ },
+ "pass": true
+}

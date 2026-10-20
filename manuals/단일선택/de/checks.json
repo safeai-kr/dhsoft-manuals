@@ -1,0 +1,73 @@
+{
+ "manual": "단일선택",
+ "lang": "de",
+ "pages": 52,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {
+    "s4_1_1.png": [
+     "Rauchmenge웺"
+    ],
+    "s4_2_1.png": [
+     "Rauchmenge웺"
+    ],
+    "s4_3_1.png": [
+     "Rauchmenge옓"
+    ],
+    "s6_2_1.png": [
+     "Rauchmenge웺"
+    ]
+   }
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 42,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98,
+    142
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.798
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 36,
+    "Pretendard-Regular": 23425,
+    "Pretendard-Bold": 12132,
+    "Pretendard-Medium": 16223,
+    "Unnamed-T3": 18
+   },
+   "non_pretendard_chars": "⛔💡🔗🗑"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 63,
+   "lang": 63,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 29
+  }
+ },
+ "pass": true
+}

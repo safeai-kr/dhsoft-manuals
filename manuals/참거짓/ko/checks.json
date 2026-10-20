@@ -1,0 +1,45 @@
+{
+ "manual": "참거짓",
+ "lang": "ko",
+ "pages": 50,
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 40,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.832
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 27,
+    "Pretendard-Regular": 9973,
+    "Pretendard-Bold": 5593,
+    "Pretendard-Medium": 7162,
+    "Unnamed-T3": 23
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 29
+  }
+ },
+ "pass": true
+}

@@ -1,0 +1,67 @@
+{
+ "manual": "전화번호",
+ "lang": "de",
+ "pages": 48,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {
+    "s4_3_1.png": [
+     "field_기0W(Bezugsperson vorhanden)"
+    ],
+    "s6_2_1.png": [
+     "CJ field_기10w(Bezugsperson vorhandergq 1"
+    ]
+   }
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 38,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98,
+    142
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.784
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 36,
+    "Pretendard-Regular": 20145,
+    "Pretendard-Bold": 10616,
+    "Pretendard-Medium": 14402,
+    "Unnamed-T3": 25
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 56,
+   "lang": 56,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 27
+  }
+ },
+ "pass": true
+}

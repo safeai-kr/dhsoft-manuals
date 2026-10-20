@@ -1,0 +1,45 @@
+{
+ "manual": "척도",
+ "lang": "ko",
+ "pages": 38,
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 30,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.77
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 23,
+    "Pretendard-Regular": 7365,
+    "Pretendard-Bold": 4138,
+    "Pretendard-Medium": 5637,
+    "Unnamed-T3": 12
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 23
+  }
+ },
+ "pass": true
+}

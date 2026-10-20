@@ -1,0 +1,60 @@
+{
+ "manual": "다중선택",
+ "lang": "de",
+ "pages": 48,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {}
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 38,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98,
+    142
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.825
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 38,
+    "Pretendard-Regular": 21769,
+    "Pretendard-Bold": 11355,
+    "Pretendard-Medium": 15047,
+    "Unnamed-T3": 20
+   },
+   "non_pretendard_chars": "⛔💡🔗🗑"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 55,
+   "lang": 55,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 27
+  }
+ },
+ "pass": true
+}

@@ -1,0 +1,64 @@
+{
+ "manual": "주소",
+ "lang": "en",
+ "pages": 40,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {
+    "s3_2_1.png": [
+     "Value range얧"
+    ]
+   }
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 32,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98,
+    142
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.806
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 28,
+    "Pretendard-Regular": 16549,
+    "Pretendard-Bold": 9425,
+    "Pretendard-Medium": 11350,
+    "Unnamed-T3": 32
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 66,
+   "lang": 66,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 24
+  }
+ },
+ "pass": true
+}

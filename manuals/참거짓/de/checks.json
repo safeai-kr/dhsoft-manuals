@@ -1,0 +1,67 @@
+{
+ "manual": "참거짓",
+ "lang": "de",
+ "pages": 52,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {
+    "s1_1_1.png": [
+     "erhat dieses Formular keine AE-Validierung.듃"
+    ],
+    "s5_3_1.png": [
+     "Layoutbreite웺"
+    ]
+   }
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 42,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98,
+    142
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.797
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 34,
+    "Pretendard-Regular": 23017,
+    "Pretendard-Bold": 11944,
+    "Pretendard-Medium": 16957,
+    "Unnamed-T3": 23
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 72,
+   "lang": 72,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 29
+  }
+ },
+ "pass": true
+}

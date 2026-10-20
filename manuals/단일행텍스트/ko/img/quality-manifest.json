@@ -1,0 +1,614 @@
+{
+ "lang": "ko",
+ "files": [
+  {
+   "name": "s1_1_1.png",
+   "section": "1.1",
+   "source_xref": 30,
+   "source_px": [
+    1184,
+    927
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1181,
+    924
+   ],
+   "crop_px": [
+    1181,
+    924
+   ],
+   "output_px": [
+    2362,
+    1848
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    511.3,
+    400.0
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_1_1.png",
+   "section": "2.1",
+   "source_xref": 42,
+   "source_px": [
+    937,
+    333
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    935,
+    331
+   ],
+   "crop_px": [
+    935,
+    331
+   ],
+   "output_px": [
+    1870,
+    662
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    198.2
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_2_1.png",
+   "section": "2.2",
+   "source_xref": 50,
+   "source_px": [
+    932,
+    380
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    930,
+    378
+   ],
+   "crop_px": [
+    930,
+    378
+   ],
+   "output_px": [
+    1860,
+    756
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    227.6
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_3_1.png",
+   "section": "2.3",
+   "source_xref": 59,
+   "source_px": [
+    1192,
+    665
+   ],
+   "crop_box_px": [
+    871,
+    531,
+    1190,
+    663
+   ],
+   "crop_px": [
+    319,
+    132
+   ],
+   "output_px": [
+    916,
+    380
+   ],
+   "scale": 2.871,
+   "planned_display_css_px": [
+    293.0,
+    121.2
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_3_2.png",
+   "section": "2.3",
+   "source_xref": 63,
+   "source_px": [
+    1198,
+    631
+   ],
+   "crop_box_px": [
+    874,
+    529,
+    1196,
+    629
+   ],
+   "crop_px": [
+    322,
+    100
+   ],
+   "output_px": [
+    919,
+    286
+   ],
+   "scale": 2.854,
+   "planned_display_css_px": [
+    294.0,
+    91.3
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_4_1.png",
+   "section": "2.4",
+   "source_xref": 71,
+   "source_px": [
+    277,
+    258
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    275,
+    256
+   ],
+   "crop_px": [
+    275,
+    256
+   ],
+   "output_px": [
+    727,
+    677
+   ],
+   "scale": 2.644,
+   "planned_display_css_px": [
+    232.5,
+    216.4
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_4_2.png",
+   "section": "2.4",
+   "source_xref": 75,
+   "source_px": [
+    280,
+    252
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    278,
+    250
+   ],
+   "crop_px": [
+    278,
+    250
+   ],
+   "output_px": [
+    727,
+    654
+   ],
+   "scale": 2.615,
+   "planned_display_css_px": [
+    232.5,
+    209.1
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_1_1.png",
+   "section": "3.1",
+   "source_xref": 84,
+   "source_px": [
+    1192,
+    638
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1189,
+    635
+   ],
+   "crop_px": [
+    1189,
+    635
+   ],
+   "output_px": [
+    2378,
+    1270
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    299.1
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_2_1.png",
+   "section": "3.2",
+   "source_xref": 92,
+   "source_px": [
+    1190,
+    649
+   ],
+   "crop_box_px": [
+    881,
+    230,
+    1189,
+    336
+   ],
+   "crop_px": [
+    308,
+    106
+   ],
+   "output_px": [
+    1650,
+    568
+   ],
+   "scale": 5.357,
+   "planned_display_css_px": [
+    528.0,
+    181.7
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_3_1.png",
+   "section": "3.3",
+   "source_xref": 100,
+   "source_px": [
+    306,
+    235
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    305,
+    234
+   ],
+   "crop_px": [
+    305,
+    234
+   ],
+   "output_px": [
+    1390,
+    1067
+   ],
+   "scale": 4.557,
+   "planned_display_css_px": [
+    444.5,
+    341.0
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_4_1.png",
+   "section": "3.4",
+   "source_xref": 108,
+   "source_px": [
+    1191,
+    488
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1188,
+    485
+   ],
+   "crop_px": [
+    1188,
+    485
+   ],
+   "output_px": [
+    2376,
+    970
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    228.6
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_5_1.png",
+   "section": "3.5",
+   "source_xref": 118,
+   "source_px": [
+    945,
+    464
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    942,
+    462
+   ],
+   "crop_px": [
+    942,
+    462
+   ],
+   "output_px": [
+    1884,
+    924
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    274.6
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s4_1_1.png",
+   "section": "4.1",
+   "source_xref": 126,
+   "source_px": [
+    1197,
+    506
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1194,
+    503
+   ],
+   "crop_px": [
+    1194,
+    503
+   ],
+   "output_px": [
+    2388,
+    1006
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    235.9
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s4_2_1.png",
+   "section": "4.2",
+   "source_xref": 134,
+   "source_px": [
+    1197,
+    730
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1194,
+    727
+   ],
+   "crop_px": [
+    1194,
+    727
+   ],
+   "output_px": [
+    2388,
+    1454
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    341.0
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s4_3_1.png",
+   "section": "4.3",
+   "source_xref": 150,
+   "source_px": [
+    1197,
+    729
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1194,
+    726
+   ],
+   "crop_px": [
+    1194,
+    726
+   ],
+   "output_px": [
+    2388,
+    1452
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    340.5
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_1_1.png",
+   "section": "5.1",
+   "source_xref": 164,
+   "source_px": [
+    1191,
+    703
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1188,
+    698
+   ],
+   "crop_px": [
+    1188,
+    698
+   ],
+   "output_px": [
+    2376,
+    1396
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    329.0
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_2_1.png",
+   "section": "5.2",
+   "source_xref": 172,
+   "source_px": [
+    946,
+    304
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    944,
+    302
+   ],
+   "crop_px": [
+    944,
+    302
+   ],
+   "output_px": [
+    1888,
+    604
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    179.2
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_3_1.png",
+   "section": "5.3",
+   "source_xref": 180,
+   "source_px": [
+    1192,
+    624
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1189,
+    621
+   ],
+   "crop_px": [
+    1189,
+    621
+   ],
+   "output_px": [
+    2378,
+    1242
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    292.5
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_4_1.png",
+   "section": "5.4",
+   "source_xref": 190,
+   "source_px": [
+    1194,
+    653
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1191,
+    650
+   ],
+   "crop_px": [
+    1191,
+    650
+   ],
+   "output_px": [
+    2382,
+    1300
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    305.6
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s6_1_1.png",
+   "section": "6.1",
+   "source_xref": 200,
+   "source_px": [
+    1195,
+    705
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1192,
+    702
+   ],
+   "crop_px": [
+    1192,
+    702
+   ],
+   "output_px": [
+    2384,
+    1404
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    329.8
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s6_2_1.png",
+   "section": "6.2",
+   "source_xref": 209,
+   "source_px": [
+    1189,
+    728
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1186,
+    725
+   ],
+   "crop_px": [
+    1186,
+    725
+   ],
+   "output_px": [
+    2372,
+    1450
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    342.3
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  }
+ ]
+}

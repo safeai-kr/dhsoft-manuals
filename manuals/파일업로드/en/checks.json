@@ -1,0 +1,60 @@
+{
+ "manual": "파일업로드",
+ "lang": "en",
+ "pages": 46,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {}
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 36,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98,
+    142
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.784
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 34,
+    "Pretendard-Regular": 17898,
+    "Pretendard-Bold": 9464,
+    "Pretendard-Medium": 11970,
+    "Unnamed-T3": 23
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 68,
+   "lang": 68,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 27
+  }
+ },
+ "pass": true
+}

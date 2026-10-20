@@ -1,0 +1,60 @@
+{
+ "manual": "날짜시간",
+ "lang": "en",
+ "pages": 47,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {}
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 37,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98,
+    142
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.823
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 32,
+    "Pretendard-Regular": 17919,
+    "Pretendard-Bold": 8855,
+    "Pretendard-Medium": 12720,
+    "Unnamed-T3": 14
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 51,
+   "lang": 51,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 27
+  }
+ },
+ "pass": true
+}

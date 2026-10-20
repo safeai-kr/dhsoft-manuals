@@ -1,7 +1,7 @@
 {
  "manual": "숫자",
  "lang": "de",
- "pages": 57,
+ "pages": 56,
  "checks": {
   "hangul_zero": {
    "pass": true,
@@ -21,7 +21,7 @@
   },
   "header_position": {
    "pass": true,
-   "pages": 47,
+   "pages": 46,
    "bad_top": [],
    "bad_gap": [],
    "header_heights": [
@@ -34,6 +34,11 @@
    "pass": true,
    "pages": []
   },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.824
+  },
   "header_top_pixel": {
    "pass": true,
    "white_pages": []
@@ -42,8 +47,8 @@
    "pass": true,
    "fonts": {
     "Pretendard-ExtraBold": 27,
-    "Pretendard-Regular": 24728,
-    "Pretendard-Bold": 12085,
+    "Pretendard-Regular": 24843,
+    "Pretendard-Bold": 12079,
     "Pretendard-Medium": 18426,
     "Unnamed-T3": 16
    },

@@ -1,0 +1,517 @@
+{
+ "필드": {
+  "field": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "척도",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "fields": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "숫자",
+   "주소",
+   "척도"
+  ],
+  "Field": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓"
+  ],
+  "New field": [
+   "숫자"
+  ]
+ },
+ "타입 설정": {
+  "Type": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "척도",
+   "파일업로드"
+  ],
+  "Type settings": [
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "필드그룹"
+  ]
+ },
+ "검증 필수 (미검증 시 품질": {
+  "Verification required (if unverified, quality": [
+   "날짜",
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "척도",
+   "파일업로드"
+  ],
+  "Verification required (else quality": [
+   "다중행텍스트"
+  ]
+ },
+ "예/아니오 또는 단일 선택 필드에 지정하십시오. 지정하지 않으": {
+  "notification·extraction, so assign it to a Yes/No or single-choice": [
+   "날짜",
+   "날짜시간",
+   "단일선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드"
+  ],
+  "notification·extraction, so assign it to a Yes/No or single-select": [
+   "다중선택"
+  ]
+ },
+ "입력 화면에서 \"미측정\" 체크박스를 제공합니다 — 선언 시 값이": {
+  "Provides a \"Not measured\" checkbox on the entry screen — when": [
+   "날짜",
+   "날짜시간",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓"
+  ],
+  "Provides a \"Not measured\" checkbox on the entry screen — when declared, the value": [
+   "다중선택"
+  ],
+  "Provides a \"Not measured\" checkbox on the entry screen — when declared,": [
+   "단일선택"
+  ]
+ },
+ "삭제되고 필수 항목 집계에서 제외됩니다.": {
+  "declared, the value is deleted and excluded from the required-item count.": [
+   "날짜",
+   "날짜시간",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓"
+  ],
+  "is deleted and excluded from the required-item count.": [
+   "다중선택"
+  ],
+  "the value is deleted and excluded from the required-item count.": [
+   "단일선택"
+  ]
+ },
+ "개": {
+  "items": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "item": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "다중행텍스트",
+   "숫자",
+   "전화번호",
+   "주소",
+   "파일업로드"
+  ]
+ },
+ "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검증": {
+  "Rules here are checked before saving. Register validations that reference": [
+   "날짜",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "Rules here are checked before saving. Register validations": [
+   "날짜시간",
+   "다중행텍스트"
+  ],
+  "Rules here are checked before saving. Validations that": [
+   "다중선택"
+  ]
+ },
+ "은 프로젝트 검증 규칙에서 등록하세요.": {
+  "values in other forms in Project validation rules.": [
+   "날짜",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "that reference values in other forms in Project validation rules.": [
+   "날짜시간",
+   "다중행텍스트"
+  ],
+  "reference other forms belong in Project validation rules.": [
+   "다중선택"
+  ]
+ },
+ "message (위반 시 표시)": {
+  "message (shown on violation)": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "message (on violation)": [
+   "다중행텍스트"
+  ]
+ },
+ "예": {
+  "Yes": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "다중행텍스트",
+   "이메일",
+   "전화번호",
+   "참거짓",
+   "척도",
+   "필드그룹"
+  ],
+  "Ex": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "주소",
+   "척도",
+   "파일업로드"
+  ]
+ },
+ "권위 평가 — 숨겨진 필드는 required 검증이 면제됩니다 (데이터": {
+  "authoritative evaluation — hidden fields are exempt": [
+   "날짜",
+   "날짜시간",
+   "다중선택"
+  ],
+  "authoritative evaluation — hidden fields are exempt from required validation": [
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "필드그룹"
+  ],
+  "authoritative evaluation — hidden fields are": [
+   "척도"
+  ],
+  "authoritative evaluation — hidden fields are exempt from": [
+   "파일업로드"
+  ]
+ },
+ "무결성에 영향).": {
+  "from required validation (affects data integrity).": [
+   "날짜",
+   "날짜시간",
+   "다중선택"
+  ],
+  "(affects data integrity).": [
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "exempt from required validation (affects data integrity).": [
+   "척도"
+  ],
+  "required validation (affects data integrity).": [
+   "파일업로드"
+  ]
+ },
+ "같은 폼 내 1개 형제 필드 자동완성 (목록 외 직접 입력도 가능).": {
+  "Autocompletes 1 sibling field in same form (or type one not listed).": [
+   "날짜",
+   "날짜시간"
+  ],
+  "Autocompletes 1 sibling field in the same form (unlisted values can also be typed).": [
+   "다중선택",
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓"
+  ],
+  "Autocompletes 1 sibling field in the same form (free input OK).": [
+   "척도"
+  ],
+  "Autocompletes 1 sibling field in the same form (unlisted values can be typed).": [
+   "파일업로드"
+  ]
+ },
+ "operator 별 value 정밀 분기 (number 위젯) 는 후속": {
+  "Precise per-operator value branching (number widget) is a follow-up": [
+   "날짜",
+   "날짜시간",
+   "다중행텍스트",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "척도",
+   "필드그룹"
+  ],
+  "Per-op value split (number widget): later": [
+   "다중선택"
+  ],
+  "Precise per-operator value split (number widget) is a later": [
+   "파일업로드"
+  ]
+ },
+ "예시: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\" → 성별": {
+  "Example: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\"": [
+   "날짜",
+   "날짜시간",
+   "다중행텍스트"
+  ],
+  "Example: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\" →": [
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "척도",
+   "파일업로드",
+   "필드그룹"
+  ]
+ },
+ "이 M 일 때만 본 필드 노출.": {
+  "→ show this field only when gender is M.": [
+   "날짜",
+   "날짜시간",
+   "다중행텍스트"
+  ],
+  "show this field only when gender is M.": [
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "숫자",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "척도",
+   "파일업로드",
+   "필드그룹"
+  ]
+ },
+ "여부)": {
+  "history)": [
+   "날짜"
+  ],
+  " taken)": [
+   "날짜시간"
+  ],
+  "": [
+   "다중선택"
+  ],
+  ")": [
+   "단일행텍스트"
+  ]
+ },
+ "미지정=가로 채움 · 1=세로(한 줄에 하나) · N=한 줄에 N개.": {
+  "Unset=fill horizontally · 1=vertical (one per row) · N=N per row.": [
+   "다중선택"
+  ],
+  "Unset=fill across · 1=vertical (one per row) · N=N per row.": [
+   "단일선택"
+  ]
+ },
+ "다른 필드와 비교": {
+  "Compare with another field": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "Compare to other field": [
+   "단일선택"
+  ]
+ },
+ "여부": {
+  "": [
+   "다중선택"
+  ],
+  "status": [
+   "단일선택",
+   "이메일"
+  ],
+  "done": [
+   "파일업로드"
+  ]
+ },
+ "폼에 있는 2개 항목에서만 고를 수 있습니다. 비교 대상은 값을": {
+  "You can only choose from the 2 items in the form. For the comparison target, you can": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드"
+  ],
+  "You can pick only from the 2 items in the form. You can also enter": [
+   "단일선택"
+  ]
+ },
+ "직접 넣을 수도 있습니다(숫자 · \"문자열\" · true/false).": {
+  "also enter a value directly (number · \"string\" · true/false).": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "a value directly to compare against (number · \"string\" · true/false).": [
+   "단일선택"
+  ]
+ },
+ "다른 필드와 비교는 서버가 강제하므로 항상 저장을 차단합니다.": {
+  "Field comparison is server-enforced, so it always blocks saving.": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드",
+   "필드그룹"
+  ],
+  "Compare to other field is enforced by the server, so it always blocks saving.": [
+   "단일선택"
+  ]
+ },
+ "prefix/postfix 는 입력 칸 좌우 고정 텍스트 — UI placeholder 와 별": {
+  "prefix/postfix are fixed text on both sides of the input — separate from UI": [
+   "다중행텍스트"
+  ],
+  "prefix/postfix: fixed text left/right of input — separate from UI": [
+   "단일행텍스트"
+  ]
+ },
+ "정규식 pattern (flags 미지원 — 후속 RF). BE 검증 시 case-": {
+  "Regex pattern (flags not supported — follow-up RF). BE validation is case-": [
+   "다중행텍스트"
+  ],
+  "Regex pattern (flags not supported — follow-up RF). Case-": [
+   "단일행텍스트"
+  ]
+ },
+ "sensitive 기본.": {
+  "sensitive by default.": [
+   "다중행텍스트"
+  ],
+  "sensitive by default in BE validation.": [
+   "단일행텍스트"
+  ]
+ },
+ "유무)": {
+  "available)": [
+   "숫자",
+   "참거짓"
+  ],
+  "pain)": [
+   "척도"
+  ]
+ },
+ "축입니다. 'SAE 여부' 는 중대성 판정을 통보·추출로 잇는 축이라": {
+  "system. 'SAE status' links the seriousness assessment to": [
+   "전화번호"
+  ],
+  "system. ‘SAE status’ links the seriousness assessment to": [
+   "주소",
+   "참거짓"
+  ]
+ },
+ "측정": {
+  "data": [
+   "참거짓"
+  ],
+  "signs": [
+   "필드그룹"
+  ]
+ },
+ "field_55in(사전": {
+  "field_55in(Prior": [
+   "파일업로드"
+  ],
+  "required validation (affects data integrity).": [
+   "파일업로드"
+  ]
+ }
+}

@@ -1,0 +1,921 @@
+{
+ "표시명은 언제든 변경해도 안전합니다. 저장 키가 아니라 화면 문구이기 때문입니다.": {
+  "Den Anzeigenamen können Sie jederzeit gefahrlos ändern, denn er ist kein Speicherschlüssel, sondern ein Bildschirmtext.": [
+   "날짜",
+   "날짜시간"
+  ],
+  "Den Anzeigenamen können Sie jederzeit gefahrlos ändern. Denn er ist kein Speicherschlüssel, sondern ein Bildschirmtext.": [
+   "다중선택",
+   "척도"
+  ],
+  "Der Anzeigename kann jederzeit gefahrlos geändert werden, denn er ist kein Speicherschlüssel, sondern ein Bildschirmtext.": [
+   "단일선택",
+   "단일행텍스트"
+  ]
+ },
+ "미측정 선언을 허용한 경우, 사용자가 선언하면 그 필드는 필수 집계에서 제외됩니다. (2.4)": {
+  "Ist „Nicht gemessen“ zulassen aktiviert und gibt der Benutzer die Erklärung ab, wird dieses Feld aus der Pflichtfeldzählung ausgenommen. (2.4)": [
+   "날짜"
+  ],
+  "Wenn „Nicht gemessen“ zugelassen ist und der Benutzer die Erklärung abgibt, wird dieses Feld aus der Pflichtfeldzählung ausgenommen. (2.4)": [
+   "척도"
+  ]
+ },
+ "이 탭의 구성은 <b>필드를 생성할 때 선택한 타입</b>으로 고정됩니다. 타입이 다르면 이 탭의 항목도 달라집니다.": {
+  "Der Aufbau dieses Tabs ist durch den <b>beim Erstellen des Felds gewählten Typ</b> festgelegt. Bei einem anderen Typ ändern sich auch die Elemente dieses Tabs.": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "척도"
+  ],
+  "Der Aufbau dieses Tabs ist durch den <b>beim Erstellen des Felds gewählten Typ</b> festgelegt. Bei einem anderen Typ unterscheiden sich auch die Elemente dieses Tabs.": [
+   "다중행텍스트"
+  ]
+ },
+ "<b>[미리보기]</b> — 상단에서 미리보기로 전환합니다.": {
+  "<b>[Vorschau]</b> — wechselt oben zur Vorschau.": [
+   "날짜",
+   "날짜시간"
+  ],
+  "<b>[Vorschau]</b> — wechseln Sie oben zur Vorschau.": [
+   "단일선택"
+  ]
+ },
+ "message 를 공란으로 두면 사용자는 차단된 이유를 알 수 없습니다. 반드시 입력하십시오.": {
+  "Bleibt message leer, wissen Benutzer nicht, warum gesperrt wurde. Geben Sie den Text unbedingt ein.": [
+   "날짜",
+   "날짜시간",
+   "다중행텍스트"
+  ],
+  "Bleibt message leer, wissen Benutzer nicht, warum gesperrt wurde. Geben Sie unbedingt einen Text ein.": [
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드"
+  ]
+ },
+ "숨김은 데이터를 삭제하지 않습니다. 화면에서만 사라지므로, 값을 삭제하려면 필드를 삭제해야 합니다.": {
+  "Ausblenden löscht keine Daten. Das Feld verschwindet nur vom Bildschirm; um den Wert zu löschen, müssen Sie das Feld löschen.": [
+   "날짜",
+   "날짜시간",
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "척도"
+  ],
+  "Ausblenden löscht keine Daten. Das Feld verschwindet nur vom Bildschirm; um Werte zu löschen, müssen Sie das Feld löschen.": [
+   "다중행텍스트"
+  ]
+ },
+ "<b>자동 계산 (calculation)</b> — 타입 설정 탭에 항목이 표시되지만 이 타입에서는 사용하지 않습니다. 다른 필드 값으로 수치를 산출하는 기능이므로 <b>숫자</b> 타입에서 사용하십시오. (3.1)": {
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird im Tab „Typeinstellungen“ angezeigt, bei diesem Typ aber nicht verwendet. Es berechnet Zahlenwerte aus anderen Feldwerten; verwenden Sie es daher beim Typ <b>Zahl</b>. (3.1)": [
+   "날짜",
+   "날짜시간"
+  ],
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird im Tab „Typeinstellungen“ angezeigt, bei diesem Typ aber nicht verwendet. Diese Funktion berechnet Zahlenwerte aus anderen Feldwerten; verwenden Sie sie daher beim Typ <b>Zahl</b>. (3.1)": [
+   "척도"
+  ]
+ },
+ "<b>자동 계산 (calculation)</b> — 항목은 표시되지만 <b>이 타입에서는 사용하지 않습니다.</b> 다른 필드 값으로 수치를 산출하는 기능이므로 <b>숫자</b> 타입에서 사용하십시오.": {
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird angezeigt, <b>wird bei diesem Typ aber nicht verwendet.</b> Es berechnet Zahlenwerte aus anderen Feldwerten; verwenden Sie es daher beim Typ <b>Zahl</b>.": [
+   "날짜시간",
+   "단일선택"
+  ],
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird angezeigt, <b>bei diesem Typ aber nicht verwendet.</b> Es berechnet Zahlenwerte aus anderen Feldwerten; verwenden Sie es daher beim Typ <b>Zahl</b>.": [
+   "다중선택"
+  ]
+ },
+ "편집 화면만 보고 설정이 안 됐다고 판단하지 마십시오. 이 타입은 기본값이 편집 화면 캔버스에 나타나지 않습니다 — 반드시 [미리보기] 로 확인하십시오.": {
+  "Schließen Sie nicht allein aus dem Bearbeitungsbildschirm, dass die Einstellung nicht wirksam ist. Bei diesem Typ erscheint der Standardwert nicht auf dem Canvas des Bearbeitungsbildschirms — prüfen Sie unbedingt in [Vorschau].": [
+   "날짜시간"
+  ],
+  "Schließen Sie nicht allein anhand der Bearbeitungsansicht darauf, dass die Einstellung nicht übernommen wurde. Bei diesem Typ erscheint der Standardwert nicht auf dem Canvas der Bearbeitungsansicht — prüfen Sie ihn unbedingt in der [Vorschau].": [
+   "단일선택"
+  ]
+ },
+ "<b>필수 입력</b> · <b>SDV 검증 대상</b> — 2.2 · 2.3 에서 다룹니다.": {
+  "<b>Pflichtfeld</b> · <b>SDV-Verifizierung</b> — werden in 2.2 · 2.3 behandelt.": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드"
+  ],
+  "<b>Pflichtfeld</b> · <b>SDV-Verifizierung</b> — werden in 2.2 · 2.3 erläutert.": [
+   "단일선택"
+  ]
+ },
+ "<b>미측정 선언 허용</b> — 2.4 에서 다룹니다.": {
+  "<b>„Nicht gemessen“ zulassen</b> — wird in 2.4 behandelt.": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓"
+  ],
+  "<b>„Nicht gemessen“ zulassen</b> — wird in 2.4 erläutert.": [
+   "단일선택"
+  ]
+ },
+ "선택지를 <b>한 줄에 하나씩</b> 만듭니다. 한 줄은 <b>저장값(value) · 표시 문구(label) · 활성 여부</b>로 이루어지며, 오른쪽 버튼으로 순서를 바꾸거나 줄을 지울 수 있습니다. <b>이 화면이 이 타입의 핵심</b>입니다.": {
+  "Erstellen Sie die Optionen <b>eine pro Zeile</b>. Eine Zeile besteht aus <b>gespeichertem Wert (value) · Anzeigetext (label) · Aktiv-Status</b>; mit den Schaltflächen rechts können Sie die Reihenfolge ändern oder die Zeile löschen. <b>Dieser Bildschirm ist der Kern dieses Typs</b>.": [
+   "다중선택"
+  ],
+  "Sie erstellen die Optionen <b>eine pro Zeile</b>. Eine Zeile besteht aus <b>gespeichertem Wert (value) · Anzeigetext (label) · Aktiv-Status</b>; mit den Schaltflächen rechts können Sie die Reihenfolge ändern oder die Zeile löschen. <b>Dieser Bildschirm ist der Kern dieses Typs</b>.": [
+   "단일선택"
+  ]
+ },
+ "<b>활성 · 순서(↑↓) · 삭제(</b>🗑<b>)</b> — 활성을 해제하면 그 선택지를 <b>지우지 않고</b> 목록에서 빼 둘 수 있습니다. 화살표로 표시 순서를 바꾸고, 휴지통으로 줄을 삭제합니다.": {
+  "<b>Aktiv · Reihenfolge (↑↓) · Löschen (</b>🗑<b>)</b> — Wenn Sie Aktiv deaktivieren, können Sie die Option <b>ohne sie zu löschen</b> aus der Liste herausnehmen. Mit den Pfeilen ändern Sie die Anzeigereihenfolge, mit dem Papierkorb löschen Sie die Zeile.": [
+   "다중선택"
+  ],
+  "<b>Aktiv · Reihenfolge (↑↓) · Löschen (</b>🗑<b>)</b> — wenn Sie Aktiv deaktivieren, können Sie die Option aus der Liste nehmen, <b>ohne sie zu löschen</b>. Mit den Pfeilen ändern Sie die Anzeigereihenfolge, mit dem Papierkorb löschen Sie die Zeile.": [
+   "단일선택"
+  ]
+ },
+ "세 칸의 역할": {
+  "Rollen der drei Spalten": [
+   "다중선택"
+  ],
+  "Rolle der drei Spalten": [
+   "단일선택"
+  ]
+ },
+ "<b>발행 후 변경 금지</b>": {
+  "<b>Nach der Veröffentlichung keine Änderung</b>": [
+   "다중선택"
+  ],
+  "<b>Nach der Veröffentlichung nicht ändern</b>": [
+   "단일선택"
+  ]
+ },
+ "운영 중 변경은 신중히": {
+  "Im laufenden Betrieb nur mit Bedacht ändern": [
+   "다중선택"
+  ],
+  "Änderung im laufenden Betrieb mit Bedacht": [
+   "단일선택"
+  ]
+ },
+ "<b>옵션 출력 방향 (한 줄당 개수)</b> — 숫자를 입력합니다. 캡처는 <code>1</code> 입니다.": {
+  "<b>Optionsausrichtung (Anzahl pro Zeile)</b> — Geben Sie eine Zahl ein. In der Aufnahme <code>1</code>.": [
+   "다중선택"
+  ],
+  "<b>Optionsausrichtung (Anzahl pro Zeile)</b> — geben Sie eine Zahl ein. In der Aufnahme <code>1</code>.": [
+   "단일선택"
+  ]
+ },
+ "레이아웃 너비(5.2)와 함께 영향을 줍니다. 필드 폭을 좁혀 두면 지정한 개수가 한 줄에 들어가지 못할 수 있습니다.": {
+  "Die Wirkung hängt auch von der Layoutbreite (5.2) ab. Wenn Sie die Feldbreite verringern, passt die festgelegte Anzahl möglicherweise nicht in eine Zeile.": [
+   "다중선택"
+  ],
+  "Wirkt zusammen mit der Layoutbreite (5.2). Ist das Feld schmal eingestellt, passt die festgelegte Anzahl unter Umständen nicht in eine Zeile.": [
+   "단일선택"
+  ]
+ },
+ "가로로 채움 — 폭이 남는 만큼 이어 붙임": {
+  "Horizontal füllen — so viele nebeneinander, wie die Breite zulässt": [
+   "다중선택"
+  ],
+  "Horizontal aufgefüllt — aneinandergereiht, solange Breite übrig ist": [
+   "단일선택"
+  ]
+ },
+ "2열 · 3열로 가지런히 놓고 싶을 때": {
+  "eine gleichmäßige Anordnung in 2 · 3 Spalten gewünscht ist": [
+   "다중선택"
+  ],
+  "Ordentliche Anordnung in 2 · 3 Spalten gewünscht ist": [
+   "단일선택"
+  ]
+ },
+ "검증 탭 — 규칙이 하나도 없는 처음 상태 (필드가 둘로 늘었다)": {
+  "Tab „Validierung“ — Anfangszustand ohne Regeln (auf zwei Felder erweitert)": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "참거짓",
+   "파일업로드"
+  ],
+  "Tab „Validierung“ — Anfangszustand ohne Regeln (jetzt zwei Felder)": [
+   "단일선택",
+   "주소"
+  ]
+ },
+ "[+ 규칙 추가] 직후 — 「규칙 1」 블록이 생성된 상태 (ruleType 은 값 범위가 기본)": {
+  "Direkt nach [+ Regel hinzufügen] — Block „Regel 1“ erstellt (ruleType standardmäßig Wertebereich)": [
+   "다중선택"
+  ],
+  "Direkt nach [+ Regel hinzufügen] — der Block „Regel 1“ ist erstellt (ruleType standardmäßig Wertebereich)": [
+   "단일선택"
+  ]
+ },
+ "<b>위반 시</b> — <b>저장 차단</b> 또는 <b>경고</b> 중에서 선택합니다. (ruleType 에 따라 고를 수 없게 되기도 합니다 — 4.3)": {
+  "<b>Bei Verstoß</b> — Wählen Sie <b>Speichern blockieren</b> oder <b>Warnung</b>. (Je nach ruleType ist die Auswahl teils nicht möglich — 4.3)": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "파일업로드"
+  ],
+  "<b>Bei Verstoß</b> — wählen Sie <b>Speichern blockieren</b> oder <b>Warnung</b>. (Je nach ruleType ist die Auswahl unter Umständen nicht möglich — 4.3)": [
+   "단일선택"
+  ]
+ },
+ "이 타입에서 쓸모 있는 것은 「다른 필드와 비교」 입니다. “앞 질문에 특정 값을 골랐을 때만 이 항목에 답할 수 있다” 같은 관계를 검사합니다. (4.3)": {
+  "Nützlich ist bei diesem Typ „Vergleich mit anderem Feld“. Damit wird eine Beziehung geprüft wie „dieses Element kann nur beantwortet werden, wenn bei der vorherigen Frage ein bestimmter Wert ausgewählt wurde“. (4.3)": [
+   "다중선택"
+  ],
+  "Bei diesem Typ ist „Vergleich mit anderem Feld“ sinnvoll. Damit prüfen Sie Beziehungen wie „Dieses Element darf nur beantwortet werden, wenn in der vorherigen Frage ein bestimmter Wert gewählt wurde“. (4.3)": [
+   "단일선택"
+  ]
+ },
+ "ruleType 을 <b>다른 필드와 비교</b> 로 바꾸면 화면이 완전히 달라집니다. <b>같은 폼의 다른 필드 값과 견주어</b> 검사하므로, 앞 질문의 답에 따라 이 항목의 가부가 갈리는 관계를 표현할 수 있습니다.": {
+  "Wenn Sie ruleType auf <b>Vergleich mit anderem Feld</b> ändern, ändert sich der Bildschirm vollständig. Da <b>mit dem Wert eines anderen Felds im selben Formular verglichen</b> wird, lässt sich eine Beziehung abbilden, bei der von der Antwort auf die vorherige Frage abhängt, ob dieses Element zulässig ist.": [
+   "다중선택"
+  ],
+  "Wenn Sie ruleType auf <b>Vergleich mit anderem Feld</b> ändern, ändert sich der Bildschirm vollständig. Da <b>mit dem Wert eines anderen Felds im selben Formular verglichen</b> wird, lassen sich Beziehungen abbilden, bei denen die Zulässigkeit dieses Elements von der Antwort auf die vorherige Frage abhängt.": [
+   "단일선택"
+  ]
+ },
+ "<b>ruleType = 다른 필드와 비교</b> — 선택하면 아래 칸이 비교용으로 바뀝니다.": {
+  "<b>ruleType = Vergleich mit anderem Feld</b> — Wenn ausgewählt, werden die Felder darunter für den Vergleich umgestellt.": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드"
+  ],
+  "<b>ruleType = Vergleich mit anderem Feld</b> — wenn ausgewählt, werden die Felder darunter für den Vergleich umgestellt.": [
+   "단일선택"
+  ]
+ },
+ "화면 안내 — “폼에 있는 2개 항목에서만 고를 수 있습니다. 비교 대상은 값을 직접 넣을 수도 있습니다(숫자 · &quot;문자열&quot; · true/false).”": {
+  "Bildschirmhinweis — „Nur aus 2 Elementen im Formular wählbar. Als Vergleichsziel kann auch ein Wert direkt eingegeben werden (Zahl · &quot;Zeichenkette&quot; · true/false).“": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "파일업로드"
+  ],
+  "Bildschirmhinweis — „Nur die 2 Elemente im Formular sind wählbar. Als Vergleichsziel kann auch direkt ein Wert eingegeben werden (Zahl · &quot;Zeichenkette&quot; · true/false).“": [
+   "단일선택"
+  ]
+ },
+ "<b>위반 시</b> — <b>회색으로 비활성</b>입니다. 화면 안내와 같이 “다른 필드와 비교는 서버가 강제하므로 항상 저장을 차단합니다.” — 이 규칙에서는 <b>경고를 고를 수 없고 저장 차단으로 고정</b>됩니다.": {
+  "<b>Bei Verstoß</b> — <b>grau und inaktiv</b>. Wie der Bildschirmhinweis sagt: „Vergleich mit anderem Feld wird vom Server erzwungen und blockiert das Speichern immer.“ — bei dieser Regel <b>kann keine Warnung gewählt werden; sie ist auf Speichern blockieren festgelegt</b>.": [
+   "다중선택",
+   "이메일",
+   "전화번호",
+   "주소",
+   "참거짓",
+   "파일업로드"
+  ],
+  "<b>Bei Verstoß</b> — <b>grau und inaktiv</b>. Wie der Bildschirmhinweis sagt: „Vergleich mit anderem Feld wird vom Server erzwungen und blockiert daher immer das Speichern.“ — bei dieser Regel <b>kann Warnung nicht gewählt werden; sie ist auf Speichern blockieren festgelegt</b>.": [
+   "단일선택"
+  ]
+ },
+ "같은 관계라면 조건부 표시가 먼저입니다 — 애초에 묻지 않으면 잘못 입력할 일도 없습니다. (6장)": {
+  "Bei derselben Beziehung hat die bedingte Anzeige Vorrang — was gar nicht erst abgefragt wird, kann auch nicht falsch eingegeben werden. (Kap. 6)": [
+   "다중선택"
+  ],
+  "Bei derselben Beziehung hat die bedingte Anzeige Vorrang — wird gar nicht erst gefragt, kann auch nichts falsch eingegeben werden. (Kap. 6)": [
+   "단일선택"
+  ]
+ },
+ "<b>읽기 전용 (입력 차단)</b> — 표시하되 바꾸지 못하게 합니다. (5.3)": {
+  "<b>Schreibgeschützt (Eingabe gesperrt)</b> — wird angezeigt, kann aber nicht geändert werden. (5.3)": [
+   "다중선택"
+  ],
+  "<b>Schreibgeschützt (Eingabe gesperrt)</b> — angezeigt, aber nicht änderbar. (5.3)": [
+   "단일선택"
+  ]
+ },
+ "필드를 <b>바꾸지 못하게</b> 하거나 <b>표시되지 않게</b> 합니다. 둘 다 저장된 값은 그대로 보존됩니다.": {
+  "Damit wird das Feld <b>gegen Änderungen gesperrt</b> oder <b>nicht angezeigt</b>. In beiden Fällen bleiben gespeicherte Werte unverändert erhalten.": [
+   "다중선택"
+  ],
+  "Macht das Feld <b>nicht änderbar</b> oder <b>blendet es aus</b>. In beiden Fällen bleiben gespeicherte Werte unverändert erhalten.": [
+   "단일선택"
+  ]
+ },
+ "규칙 종류 — 이 타입에서는 <b>다른 필드와 비교</b> 를 사용": {
+  "Regelart — bei diesem Typ wird <b>Vergleich mit anderem Feld</b> verwendet": [
+   "다중선택"
+  ],
+  "Art der Regel — bei diesem Typ wird <b>Vergleich mit anderem Feld</b> verwendet": [
+   "단일선택"
+  ]
+ },
+ "<b>비교할 항목 · operator · 비교 대상</b>": {
+  "<b>Vergleichselement · operator · Vergleichsziel</b>": [
+   "다중선택",
+   "참거짓",
+   "파일업로드"
+  ],
+  "<b>Vergleichsfeld · operator · Vergleichsziel</b>": [
+   "단일선택"
+  ]
+ },
+ "같은 폼의 다른 필드와 견주는 조건 (<b>value</b> 로 비교)": {
+  "Bedingung im Vergleich mit einem anderen Feld im selben Formular (Vergleich mit <b>value</b>)": [
+   "다중선택"
+  ],
+  "Bedingung im Vergleich mit einem anderen Feld im selben Formular (Vergleich per <b>value</b>)": [
+   "단일선택"
+  ]
+ },
+ "위반 시 사용자에게 표시할 문구": {
+  "Bei Verstoß angezeigter Text": [
+   "다중선택",
+   "단일선택",
+   "단일행텍스트",
+   "참거짓",
+   "파일업로드"
+  ],
+  "Text, der Benutzern bei einem Verstoß angezeigt wird": [
+   "다중행텍스트"
+  ]
+ },
+ "<b>공통 코드(CodeGroup) 연동</b> — 선택지를 프로젝트 공통 코드로 관리하는 길이 시스템에는 있으나 <b>이 화면에는 항목이 없습니다.</b> 폼마다 직접 나열해야 하므로 <b>value 와 label 을 똑같이 맞추는지</b> 확인하십시오. (3.2)": {
+  "<b>Anbindung an gemeinsame Codes (CodeGroup)</b> — das System bietet zwar die Möglichkeit, Optionen als projektweite gemeinsame Codes zu verwalten, <b>auf diesem Bildschirm gibt es dafür jedoch kein Element.</b> Da die Optionen in jedem Formular direkt aufgelistet werden müssen, prüfen Sie, <b>ob value und label einheitlich übereinstimmen</b>. (3.2)": [
+   "다중선택"
+  ],
+  "<b>Anbindung gemeinsamer Codes (CodeGroup)</b> — das System bietet zwar die Möglichkeit, Optionen als projektweite gemeinsame Codes zu verwalten, <b>auf diesem Bildschirm gibt es dafür jedoch kein Element.</b> Da die Optionen in jedem Formular direkt aufgelistet werden müssen, prüfen Sie, ob <b>value und label identisch gehalten werden</b>. (3.2)": [
+   "단일선택"
+  ]
+ },
+ "<b>자동 계산 (calculation)</b> — 항목은 표시되지만 이 타입에서는 사용하지 않습니다. <b>숫자</b> 타입에서 사용하십시오. (3.1)": {
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird angezeigt, bei diesem Typ aber nicht verwendet. Verwenden Sie es beim Typ <b>Zahl</b>. (3.1)": [
+   "다중선택"
+  ],
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird angezeigt, wird bei diesem Typ aber nicht verwendet. Verwenden Sie es beim Typ <b>Zahl</b>. (3.1)": [
+   "단일선택"
+  ]
+ },
+ "도움말(<code>description</code>)과 UI 탭의 <code>helpText</code> 는 <b>서로 다른 항목</b>입니다. 차이는 5.4 에서 설명합니다.": {
+  "Hilfetext (<code>description</code>) und <code>helpText</code> im Tab „UI“ sind <b>unterschiedliche Elemente</b>. Der Unterschied wird in 5.4 erläutert.": [
+   "다중행텍스트"
+  ],
+  "Der Hilfetext (<code>description</code>) und <code>helpText</code> im Tab „UI“ sind <b>unterschiedliche Elemente</b>. Der Unterschied wird in 5.4 erläutert.": [
+   "단일행텍스트"
+  ]
+ },
+ "UI 탭의 숨김은 필수 집계에서 제외되지 않습니다. 조건부 표시와 혼동하지 마십시오. (5.3)": {
+  "Das Ausblenden im Tab „UI“ nimmt Felder nicht aus der Pflichtfeldzählung aus. Verwechseln Sie es nicht mit der bedingten Anzeige. (5.3)": [
+   "다중행텍스트"
+  ],
+  "Das Ausblenden im Tab „UI“ nimmt das Feld nicht aus der Pflichtfeldzählung aus. Verwechseln Sie es nicht mit der bedingten Anzeige. (5.3)": [
+   "단일행텍스트"
+  ]
+ },
+ "입력란에 흐린 글씨로 보이는 <code>^[A-Z]{3}\\d{6}$</code> · <code>$</code> · <code>kg</code> 는 입력 예시(placeholder) 이며 설정된 값이 아닙니다. 공란이면 해당 제한은 적용되지 않습니다.": {
+  "Die hellgrau angezeigten <code>^[A-Z]{3}\\d{6}$</code> · <code>$</code> · <code>kg</code> in den Eingabefeldern sind Eingabebeispiele (placeholder) und keine eingestellten Werte. Bleibt ein Feld leer, gilt die betreffende Einschränkung nicht.": [
+   "다중행텍스트"
+  ],
+  "<code>^[A-Z]{3}\\d{6}$</code> · <code>$</code> · <code>kg</code>, die in heller Schrift in den Eingabefeldern erscheinen, sind Eingabebeispiele (placeholder) und keine festgelegten Werte. Ist ein Feld leer, gilt die betreffende Begrenzung nicht.": [
+   "단일행텍스트"
+  ]
+ },
+ "입력 가능한 <b>문자 수의 범위</b>를 정합니다. 두 항목은 서로 독립적이므로 <b>한쪽만 입력해도 동작</b>합니다.": {
+  "Legt den <b>Bereich der Zeichenanzahl</b> fest, die eingegeben werden kann. Die beiden Elemente sind voneinander unabhängig; <b>es funktioniert auch, wenn nur eines eingegeben wird</b>.": [
+   "다중행텍스트"
+  ],
+  "Legt den <b>Bereich der Zeichenanzahl</b> fest, die eingegeben werden kann. Die beiden Elemente sind voneinander unabhängig; <b>die Begrenzung funktioniert auch, wenn nur eines eingegeben ist</b>.": [
+   "단일행텍스트"
+  ]
+ },
+ "<b>minLength</b> — 최소 문자 수입니다. 예시의 <code>2</code> 는 “두 글자 이상” 을 의미합니다.": {
+  "<b>minLength</b> — die minimale Zeichenanzahl. <code>2</code> im Beispiel bedeutet „mindestens zwei Zeichen“.": [
+   "다중행텍스트"
+  ],
+  "<b>minLength</b> — minimale Zeichenanzahl. Die <code>2</code> im Beispiel bedeutet „mindestens zwei Zeichen“.": [
+   "단일행텍스트"
+  ]
+ },
+ "<b>maxLength</b> — 최대 문자 수입니다. 예시의 <code>10</code> 은 “열 글자 이하” 를 의미합니다.": {
+  "<b>maxLength</b> — die maximale Zeichenanzahl. <code>10</code> im Beispiel bedeutet „höchstens zehn Zeichen“.": [
+   "다중행텍스트"
+  ],
+  "<b>maxLength</b> — maximale Zeichenanzahl. Die <code>10</code> im Beispiel bedeutet „höchstens zehn Zeichen“.": [
+   "단일행텍스트"
+  ]
+ },
+ "길이 제한은 캔버스 모양을 변경하지 않습니다. 화면으로는 확인할 수 없고, 값이 범위를 벗어났을 때 저장 단계에서 차단됩니다.": {
+  "Längenbegrenzungen ändern das Aussehen auf dem Canvas nicht. Sie sind auf dem Bildschirm nicht erkennbar; liegt der Wert außerhalb des Bereichs, wird er beim Speichern blockiert.": [
+   "다중행텍스트"
+  ],
+  "Die Längenbegrenzung ändert das Aussehen des Canvas nicht. Sie ist auf dem Bildschirm nicht erkennbar; liegt ein Wert außerhalb des Bereichs, wird er beim Speichern blockiert.": [
+   "단일행텍스트"
+  ]
+ },
+ "이미 운영 중인 폼에서 제한을 좁히면 기존 데이터가 새 제한을 위반한 상태로 남을 수 있습니다. 해당 값은 다시 저장할 때 차단되므로 발행 후 축소는 신중히 결정하십시오.": {
+  "Wenn Sie die Begrenzung bei einem bereits laufenden Formular verengen, können vorhandene Daten in einem Zustand verbleiben, der gegen die neue Begrenzung verstößt. Diese Werte werden beim erneuten Speichern blockiert; entscheiden Sie daher über eine Verengung nach der Veröffentlichung mit Bedacht.": [
+   "다중행텍스트"
+  ],
+  "Wenn Sie die Begrenzung in einem bereits produktiv genutzten Formular verengen, können vorhandene Daten gegen die neue Begrenzung verstoßen. Solche Werte werden beim erneuten Speichern blockiert; entscheiden Sie daher sorgfältig, ob Sie die Begrenzung nach der Veröffentlichung verengen.": [
+   "단일행텍스트"
+  ]
+ },
+ "정규식 검사는 대소문자를 구분합니다. 소문자도 허용하려면 <code>^[A-Za-z]+$</code> 처럼 범위에 함께 지정하십시오.": {
+  "Die Prüfung mit regulären Ausdrücken unterscheidet Groß- und Kleinschreibung. Um auch Kleinbuchstaben zuzulassen, geben Sie sie im Bereich mit an, z. B. <code>^[A-Za-z]+$</code>.": [
+   "다중행텍스트"
+  ],
+  "Die Prüfung mit regulären Ausdrücken unterscheidet Groß- und Kleinschreibung. Um auch Kleinbuchstaben zuzulassen, geben Sie sie wie in <code>^[A-Za-z]+$</code> im Bereich mit an.": [
+   "단일행텍스트"
+  ]
+ },
+ "캔버스 입력란에 기본값이 입력된 상태로 표시됩니다.": {
+  "Das Eingabefeld auf dem Canvas erscheint mit eingetragenem Standardwert.": [
+   "다중행텍스트"
+  ],
+  "Im Eingabefeld auf dem Canvas erscheint der Standardwert bereits eingetragen.": [
+   "단일행텍스트"
+  ]
+ },
+ "4.2 의 빈 항목을 끝까지 입력한 상태입니다. 이 설정이면 한글이 아닌 값을 입력했을 때 저장이 차단되고 지정한 문구가 표시됩니다.": {
+  "Die leeren Elemente aus 4.2 sind vollständig ausgefüllt. Mit dieser Einstellung wird das Speichern blockiert, wenn ein Wert eingegeben wird, der nicht aus Hangul besteht, und der festgelegte Text wird angezeigt.": [
+   "다중행텍스트"
+  ],
+  "Die leeren Elemente aus 4.2 sind vollständig ausgefüllt. Mit dieser Einstellung wird bei Eingabe eines Werts, der nicht nur aus Buchstaben besteht, das Speichern blockiert und der festgelegte Text angezeigt.": [
+   "단일행텍스트"
+  ]
+ },
+ "형식(정규식) 규칙 — 한글만 허용하도록 완성한 상태": {
+  "Regel „Format (Regex)“ — so fertiggestellt, dass nur Hangul zulässig ist": [
+   "다중행텍스트"
+  ],
+  "Regel Format (Regex) — so fertiggestellt, dass nur Buchstaben zugelassen sind": [
+   "단일행텍스트"
+  ]
+ },
+ "<b>expression = <code>^[</code></b><code>가</code><b><code>-</code></b><code>힣</code><b><code>]+$</code></b> — “한글만, 1자 이상” 을 의미합니다.": {
+  "<b>expression = <code>^[</code></b><code>\\uAC00</code><b><code>-</code></b><code>\\uD7A3</code><b><code>]+$</code></b> — bedeutet „nur Hangul, mindestens 1 Zeichen“.": [
+   "다중행텍스트"
+  ],
+  "<b>expression = <code>^[</code></b><code>A</code><b><code>-</code></b><code>Za-z</code><b><code>]+$</code></b> — bedeutet „nur Buchstaben, mindestens 1 Zeichen“.": [
+   "단일행텍스트"
+  ]
+ },
+ "둘을 동시에 설정하면 모두 만족해야 저장됩니다. 서로 어긋나는 형식을 지정하면 어떤 값도 저장할 수 없게 되므로 한쪽만 사용하는 편이 안전합니다.": {
+  "Legen Sie beide gleichzeitig fest, wird nur gespeichert, wenn beide erfüllt sind. Widersprechen sich die Formate, kann gar kein Wert gespeichert werden; es ist daher sicherer, nur eines von beiden zu verwenden.": [
+   "다중행텍스트"
+  ],
+  "Sind beide gleichzeitig festgelegt, wird nur gespeichert, wenn beide erfüllt sind. Widersprechen sich die Formate, kann gar kein Wert gespeichert werden; es ist daher sicherer, nur eine von beiden zu verwenden.": [
+   "단일행텍스트"
+  ]
+ },
+ "모든 항목이 선택입니다. 그대로 두어도 폼은 정상 동작합니다.": {
+  "Alle Elemente sind optional. Auch unverändert funktioniert das Formular normal.": [
+   "다중행텍스트"
+  ],
+  "Alle Elemente sind optional. Auch wenn Sie sie unverändert lassen, funktioniert das Formular normal.": [
+   "단일행텍스트"
+  ]
+ },
+ "참조 필드는 같은 폼 안에 있어야 합니다. 다른 폼의 값은 참조할 수 없습니다.": {
+  "Das Referenzfeld muss sich im selben Formular befinden. Auf Werte anderer Formulare kann nicht verwiesen werden.": [
+   "다중행텍스트"
+  ],
+  "Das Referenzfeld muss sich im selben Formular befinden. Werte anderer Formulare können nicht referenziert werden.": [
+   "단일행텍스트"
+  ]
+ },
+ "저장한 뒤 fieldKey 를 변경하면 기존 데이터와의 연결이 끊어집니다. (2.1)": {
+  "Wenn Sie den fieldKey nach dem Speichern ändern, geht die Verknüpfung mit vorhandenen Daten verloren. (2.1)": [
+   "다중행텍스트"
+  ],
+  "Wenn Sie nach dem Speichern den fieldKey ändern, reißt die Verknüpfung zu vorhandenen Daten ab. (2.1)": [
+   "단일행텍스트"
+  ]
+ },
+ "값을 수정하면 SDV 검증이 해제되어 품질 상태가 PENDING 으로 되돌아갑니다. (2.3)": {
+  "Wenn Sie einen Wert ändern, wird die SDV-Verifizierung aufgehoben, und der Qualitätsstatus fällt auf PENDING zurück. (2.3)": [
+   "다중행텍스트"
+  ],
+  "Wird ein Wert geändert, wird die SDV-Verifizierung aufgehoben, und der Qualitätsstatus kehrt zu PENDING zurück. (2.3)": [
+   "단일행텍스트"
+  ]
+ },
+ "타입 설정 탭 — 고유 설정이 없는 타입": {
+  "Tab „Typeinstellungen“ — ein Typ ohne eigene Einstellungen": [
+   "이메일"
+  ],
+  "Tab „Typeinstellungen“ — Typ ohne eigene Einstellungen": [
+   "전화번호"
+  ]
+ },
+ "<b>AE 의미 역할</b> — 화면 안내가 밝히듯 <b>예/아니오 또는 단일 선택 필드</b>가 지정 대상이므로 <b>이 타입에서는 지정하지 않습니다.</b>": {
+  "<b>AE-Bedeutungsrolle</b> — Wie der Bildschirmhinweis angibt, ist sie für <b>Ja/Nein- oder Einzelauswahlfelder</b> vorgesehen; <b>bei diesem Typ wird sie daher nicht festgelegt.</b>": [
+   "이메일"
+  ],
+  "<b>AE-Bedeutungsrolle</b> — Wie der Bildschirmhinweis angibt, sind <b>Ja/Nein- oder Einzelauswahlfelder</b> das Zuordnungsziel; <b>bei diesem Typ wird sie daher nicht festgelegt.</b>": [
+   "전화번호"
+  ],
+  "<b>AE-Bedeutungsrolle</b> — Wie der Bildschirmhinweis angibt, sind <b>Ja/Nein- oder Einzelauswahlfelder</b> zuzuordnen; <b>bei diesem Typ wird sie daher nicht festgelegt.</b>": [
+   "주소"
+  ]
+ },
+ "타입은 추가한 뒤에 변경할 수 없고, 발행(PUBLISH) 이후에는 구조 자체를 변경할 수 없습니다. 잘못 선택했다면 필드를 삭제하고 다시 추가하십시오.": {
+  "Der Typ kann nach dem Hinzufügen nicht geändert werden, und nach der Veröffentlichung (PUBLISH) lässt sich die Struktur selbst nicht mehr ändern. Wenn Sie falsch gewählt haben, löschen Sie das Feld und fügen Sie es neu hinzu.": [
+   "이메일"
+  ],
+  "Der Typ kann nach dem Hinzufügen nicht geändert werden, und nach der Veröffentlichung (PUBLISH) kann die Struktur selbst nicht mehr geändert werden. Haben Sie falsch gewählt, löschen Sie das Feld und fügen Sie es erneut hinzu.": [
+   "전화번호",
+   "파일업로드"
+  ],
+  "Der Typ kann nach dem Hinzufügen nicht geändert werden, und nach der Veröffentlichung (PUBLISH) kann die Struktur selbst nicht mehr geändert werden. Wenn Sie den falschen Typ gewählt haben, löschen Sie das Feld und fügen Sie es erneut hinzu.": [
+   "주소"
+  ]
+ },
+ "fieldKey 는 저장한 뒤에 변경하지 마십시오. 이미 입력된 데이터와의 연결이 끊어지고, 이 필드를 참조하던 검증 규칙(4.3)과 조건부 표시(6장)도 함께 깨집니다.": {
+  "Ändern Sie fieldKey nach dem Speichern nicht. Die Verbindung zu bereits eingegebenen Daten geht verloren, und Validierungsregeln (4.3) und bedingte Anzeigen (Kap. 6), die auf dieses Feld verweisen, funktionieren ebenfalls nicht mehr.": [
+   "이메일"
+  ],
+  "Ändern Sie fieldKey nach dem Speichern nicht. Die Verbindung zu bereits eingegebenen Daten geht verloren, und Validierungsregeln (4.3) sowie bedingte Anzeigen (Kap. 6), die auf dieses Feld verweisen, funktionieren ebenfalls nicht mehr.": [
+   "전화번호"
+  ],
+  "Ändern Sie den fieldKey nach dem Speichern nicht. Die Verbindung zu bereits eingegebenen Daten geht verloren, und Validierungsregeln (4.3) und bedingte Anzeigen (Kap. 6), die auf dieses Feld verweisen, brechen ebenfalls.": [
+   "참거짓"
+  ]
+ },
+ "표시명(label)은 언제든 변경할 수 있습니다. 저장된 값에는 영향을 주지 않습니다.": {
+  "Der Anzeigename (label) kann jederzeit geändert werden. Gespeicherte Werte sind davon nicht betroffen.": [
+   "이메일",
+   "전화번호",
+   "참거짓",
+   "파일업로드"
+  ],
+  "Der Anzeigename (label) kann jederzeit geändert werden. Er wirkt sich nicht auf gespeicherte Werte aus.": [
+   "주소"
+  ]
+ },
+ "필수 입력을 선택하면 캔버스 표시명 옆에 빨간 <code>*</code> 가 표시된다": {
+  "Bei Auswahl von Pflichtfeld erscheint neben dem Anzeigenamen auf dem Canvas ein rotes <code>*</code>": [
+   "이메일",
+   "전화번호",
+   "주소",
+   "파일업로드"
+  ],
+  "Bei aktiviertem Pflichtfeld erscheint neben dem Anzeigenamen auf dem Canvas ein rotes <code>*</code>": [
+   "참거짓"
+  ]
+ },
+ "<b>필수 입력</b> — 선택하면 이 필드가 필수 항목이 됩니다.": {
+  "<b>Pflichtfeld</b> — Wenn ausgewählt, wird dieses Feld zum Pflichtfeld.": [
+   "이메일"
+  ],
+  "<b>Pflichtfeld</b> — Wenn aktiviert, wird dieses Feld zum Pflichtfeld.": [
+   "전화번호",
+   "주소"
+  ],
+  "<b>Pflichtfeld</b> — wenn aktiviert, wird dieses Feld zum Pflichtfeld.": [
+   "참거짓"
+  ],
+  "<b>Pflichtfeld</b> — wenn ausgewählt, wird dieses Feld zum Pflichtelement.": [
+   "파일업로드"
+  ]
+ },
+ "캔버스 <b>표시명 오른쪽에 빨간 <code>*</code></b> 가 표시됩니다.": {
+  "Auf dem Canvas erscheint <b>rechts neben dem Anzeigenamen ein rotes <code>*</code></b>.": [
+   "이메일",
+   "전화번호",
+   "참거짓"
+  ],
+  "Auf dem Canvas erscheint <b>rechts vom Anzeigenamen ein rotes <code>*</code></b>.": [
+   "파일업로드"
+  ]
+ },
+ "숨겨진 필드는 필수 검사에서 제외됩니다. 조건부 표시(6장)로 감춰진 동안에는 필수여도 비어 있는 상태로 폼이 완료됩니다.": {
+  "Ausgeblendete Felder sind von der Pflichtprüfung ausgenommen. Solange ein Feld über die bedingte Anzeige (Kap. 6) verborgen ist, wird das Formular auch dann abgeschlossen, wenn das Pflichtfeld leer ist.": [
+   "이메일"
+  ],
+  "Ausgeblendete Felder sind von der Pflichtprüfung ausgenommen. Solange ein Feld durch bedingte Anzeige (Kap. 6) verborgen ist, wird das Formular auch bei einem Pflichtfeld im leeren Zustand abgeschlossen.": [
+   "전화번호"
+  ],
+  "Ausgeblendete Felder sind von der Pflichtprüfung ausgenommen. Solange ein Feld durch bedingte Anzeige (Kap. 6) verborgen ist, wird das Formular abgeschlossen, auch wenn das Pflichtfeld leer ist.": [
+   "참거짓"
+  ]
+ },
+ "미측정 선언이 켜져 있고 기록자가 선언하면, 필수 항목이어도 폼을 완료할 수 있습니다. (2.4)": {
+  "Ist „Nicht gemessen“ zugelassen und gibt die erfassende Person die Erklärung ab, kann das Formular auch bei einem Pflichtfeld abgeschlossen werden. (2.4)": [
+   "이메일"
+  ],
+  "Ist die Erklärung „Nicht gemessen“ aktiviert und gibt der Erfasser sie ab, kann das Formular auch bei einem Pflichtfeld abgeschlossen werden. (2.4)": [
+   "전화번호"
+  ],
+  "Wenn die Erklärung „Nicht gemessen“ aktiviert ist und die erfassende Person sie abgibt, kann das Formular auch bei einem Pflichtfeld abgeschlossen werden. (2.4)": [
+   "주소"
+  ],
+  "Ist „Nicht gemessen“ zulassen aktiviert und gibt der Erfasser die Erklärung ab, kann das Formular auch bei einem Pflichtfeld abgeschlossen werden. (2.4)": [
+   "참거짓"
+  ]
+ },
+ "선택 전 — 하위 항목 비활성 (타입 공통)": {
+  "Vor der Auswahl — Unterelement inaktiv (für alle Typen gleich)": [
+   "이메일",
+   "전화번호",
+   "주소",
+   "파일업로드"
+  ],
+  "Vor der Aktivierung — Unterelement inaktiv (für alle Typen gleich)": [
+   "참거짓"
+  ]
+ },
+ "선택 후 — 하위 항목 활성 (타입 공통)": {
+  "Nach der Auswahl — Unterelement aktiv (für alle Typen gleich)": [
+   "이메일",
+   "전화번호",
+   "주소",
+   "파일업로드"
+  ],
+  "Nach der Aktivierung — Unterelement aktiv (für alle Typen gleich)": [
+   "참거짓"
+  ]
+ },
+ "<b>속성 탭</b> — 현재 <b>타입 설정</b> 탭입니다.": {
+  "<b>Eigenschafts-Tabs</b> — aktuell ist der Tab <b>Typeinstellungen</b> geöffnet.": [
+   "이메일",
+   "파일업로드"
+  ],
+  "<b>Eigenschafts-Tabs</b> — aktuell der Tab <b>Typeinstellungen</b>.": [
+   "전화번호"
+  ],
+  "<b>Eigenschafts-Tabs</b> — derzeit der Tab <b>Typeinstellungen</b>.": [
+   "참거짓"
+  ]
+ },
+ "기본값을 넣으면 <b>편집 화면 캔버스에 바로</b> 표시된다": {
+  "Ein eingegebener Standardwert erscheint <b>sofort auf dem Canvas im Bearbeitungsbildschirm</b>": [
+   "이메일"
+  ],
+  "Ein eingegebener Standardwert erscheint <b>sofort auf dem Canvas der Bearbeitungsansicht</b>": [
+   "전화번호"
+  ]
+ },
+ "기본값을 둔 필드는 기록자가 손대지 않아도 필수 검사를 통과합니다. 필수 입력(2.2)과 함께 사용할 때 특히 주의하십시오.": {
+  "Ein Feld mit Standardwert besteht die Pflichtprüfung, auch wenn die erfassende Person es nicht anrührt. Achten Sie besonders darauf, wenn Sie es zusammen mit Pflichtfeld (2.2) verwenden.": [
+   "이메일"
+  ],
+  "Ein Feld mit Standardwert besteht die Pflichtprüfung, auch wenn der Erfasser es nicht anfasst. Seien Sie besonders vorsichtig, wenn Sie es zusammen mit Pflichtfeld (2.2) verwenden.": [
+   "전화번호"
+  ],
+  "Ein Feld mit Standardwert besteht die Pflichtprüfung, auch wenn der Erfasser es nicht anrührt. Seien Sie besonders vorsichtig, wenn Sie es zusammen mit Pflichtfeld (2.2) verwenden.": [
+   "참거짓"
+  ]
+ },
+ "흐린 글씨 <code>0</code> · <code>100</code> 과 “한쪽만 정의해도 유효합니다.” 는 <b>값 범위에 대한 안내</b>이며 설정된 값이 아닙니다.": {
+  "Die blasse Schrift <code>0</code> · <code>100</code> und „Eine Grenze allein ist gültig.“ sind <b>Hinweise zum Wertebereich</b> und keine eingestellten Werte.": [
+   "이메일"
+  ],
+  "Die graue Schrift <code>0</code> · <code>100</code> und „Eine Grenze allein ist gültig.“ sind <b>Hinweise zum Wertebereich</b> und keine eingestellten Werte.": [
+   "전화번호"
+  ],
+  "Die blasse Schrift <code>0</code> · <code>100</code> und „Eine Grenze allein ist gültig.“ sind <b>Hinweise zum Wertebereich</b>, keine festgelegten Werte.": [
+   "주소"
+  ],
+  "Die hellgrauen <code>0</code> · <code>100</code> und „Eine Grenze allein ist gültig.“ sind <b>Hinweise zum Wertebereich</b> und keine eingestellten Werte.": [
+   "파일업로드"
+  ]
+ },
+ "이 규칙은 경고로 둘 수 없습니다. 반드시 막아야 하는 관계에만 사용하십시오. 참고로만 알리고 싶다면 조건부 표시(6장)로 아예 묻지 않는 편이 낫습니다.": {
+  "Diese Regel kann nicht als Warnung eingestellt werden. Verwenden Sie sie nur für Beziehungen, die unbedingt verhindert werden müssen. Wenn Sie nur informieren möchten, ist es besser, über die bedingte Anzeige (Kap. 6) gar nicht erst danach zu fragen.": [
+   "이메일"
+  ],
+  "Diese Regel kann nicht als Warnung eingestellt werden. Verwenden Sie sie nur für Beziehungen, die unbedingt verhindert werden müssen. Wenn Sie nur informieren möchten, ist es besser, per bedingter Anzeige (Kap. 6) gar nicht erst zu fragen.": [
+   "전화번호"
+  ]
+ },
+ "<b>읽기 전용 (입력 차단)</b> — 보여 주되 바꾸지 못하게 합니다. (5.3)": {
+  "<b>Schreibgeschützt (Eingabe gesperrt)</b> — zeigt das Feld an, verhindert aber Änderungen. (5.3)": [
+   "이메일",
+   "전화번호"
+  ],
+  "<b>Schreibgeschützt (Eingabe gesperrt)</b> — anzeigen, aber nicht änderbar machen. (5.3)": [
+   "참거짓"
+  ]
+ },
+ "이 탭의 설정은 저장된 값을 바꾸지 않습니다. 배치와 안내만 달라집니다.": {
+  "Die Einstellungen in diesem Tab ändern gespeicherte Werte nicht. Nur Anordnung und Hinweise ändern sich.": [
+   "이메일",
+   "전화번호",
+   "주소"
+  ],
+  "Die Einstellungen dieses Tabs ändern die gespeicherten Werte nicht. Es ändern sich nur Anordnung und Hinweise.": [
+   "참거짓"
+  ]
+ },
+ "<b>읽기 전용과 숨김을 함께 사용하지 마십시오.</b> 숨김이 우선 적용되어 읽기 전용 설정은 효과가 없습니다. (5.3)": {
+  "<b>Verwenden Sie Schreibgeschützt und Ausblenden nicht zusammen.</b> Ausblenden hat Vorrang, die Einstellung Schreibgeschützt bleibt dann wirkungslos. (5.3)": [
+   "이메일",
+   "전화번호"
+  ],
+  "<b>Verwenden Sie Schreibgeschützt und Ausblenden nicht zusammen.</b> Ausblenden hat Vorrang, und die Einstellung Schreibgeschützt bleibt wirkungslos. (5.3)": [
+   "참거짓"
+  ],
+  "<b>Verwenden Sie Schreibgeschützt und Ausblenden nicht gemeinsam.</b> Ausblenden hat Vorrang, sodass die Einstellung Schreibgeschützt wirkungslos ist. (5.3)": [
+   "파일업로드"
+  ]
+ },
+ "<b>절반 (1/2)</b> 로 지정하면 캔버스 입력란 폭이 줄어든다": {
+  "Mit <b>Halb (1/2)</b> wird das Eingabefeld auf dem Canvas schmaler": [
+   "이메일"
+  ],
+  "Bei <b>Halb (1/2)</b> wird das Eingabefeld auf dem Canvas schmaler": [
+   "전화번호"
+  ]
+ },
+ "<b>레이아웃 너비</b> — <b>전체</b> · <b>절반 (1/2)</b> · <b>1/3</b> · <b>1/4</b> 중에서 선택합니다.": {
+  "<b>Layoutbreite</b> — Wählen Sie zwischen <b>Voll</b> · <b>Halb (1/2)</b> · <b>1/3</b> · <b>1/4</b>.": [
+   "이메일",
+   "전화번호",
+   "주소"
+  ],
+  "<b>Layoutbreite</b> — wählen Sie zwischen <b>Voll</b> · <b>Halb (1/2)</b> · <b>1/3</b> · <b>1/4</b>.": [
+   "참거짓"
+  ],
+  "<b>Layoutbreite</b> — wählen Sie <b>Voll</b> · <b>Halb (1/2)</b> · <b>1/3</b> · <b>1/4</b>.": [
+   "파일업로드"
+  ]
+ },
+ "캔버스 입력란의 <b>폭이 절반으로 줄어듭니다.</b> 같은 줄의 남은 자리에 다른 필드가 배치됩니다.": {
+  "Das Eingabefeld auf dem Canvas <b>wird halb so breit.</b> Auf dem verbleibenden Platz derselben Zeile werden andere Felder angeordnet.": [
+   "이메일"
+  ],
+  "Das Eingabefeld auf dem Canvas <b>wird auf die halbe Breite verkleinert.</b> Auf dem restlichen Platz derselben Zeile werden andere Felder angeordnet.": [
+   "전화번호"
+  ]
+ },
+ "지정하지 않으면 <b>전체 폭</b>이 적용됩니다.": {
+  "Ohne Angabe gilt die <b>volle Breite</b>.": [
+   "이메일",
+   "전화번호"
+  ],
+  "Ohne Festlegung gilt die <b>volle Breite</b>.": [
+   "주소"
+  ],
+  "Ohne Angabe gilt <b>volle Breite</b>.": [
+   "참거짓"
+  ],
+  "Ohne Festlegung wird die <b>volle Breite</b> angewendet.": [
+   "파일업로드"
+  ]
+ },
+ "숨김을 선택하면 캔버스 카드가 <b>빈 테두리만</b> 남는다": {
+  "Bei Auswahl von Ausblenden bleibt von der Karte auf dem Canvas <b>nur ein leerer Rahmen</b>": [
+   "이메일",
+   "전화번호"
+  ],
+  "Bei aktiviertem Ausblenden bleibt von der Karte auf dem Canvas <b>nur ein leerer Rahmen</b>": [
+   "참거짓"
+  ]
+ },
+ "<b>숨김 (UI 미렌더 · 데이터 보존)</b> — 선택하면 입력 화면에서 이 필드가 표시되지 않습니다.": {
+  "<b>Ausblenden (kein UI-Rendering · Daten bleiben erhalten)</b> — Wenn ausgewählt, wird dieses Feld in der Eingabemaske nicht angezeigt.": [
+   "이메일"
+  ],
+  "<b>Ausblenden (kein UI-Rendering · Daten bleiben erhalten)</b> — Wenn aktiviert, wird dieses Feld in der Eingabemaske nicht angezeigt.": [
+   "전화번호",
+   "주소"
+  ],
+  "<b>Ausblenden (kein UI-Rendering · Daten bleiben erhalten)</b> — wenn aktiviert, wird dieses Feld in der Eingabemaske nicht angezeigt.": [
+   "참거짓"
+  ],
+  "<b>Ausblenden (kein UI-Rendering · Daten bleiben erhalten)</b> — wenn ausgewählt, wird dieses Feld in der Eingabemaske nicht angezeigt.": [
+   "파일업로드"
+  ]
+ },
+ "조건에 따라 감추려면 조건부 표시를 사용하십시오. 이 탭의 숨김은 언제나 감추는 설정입니다. (6장)": {
+  "Um ein Feld abhängig von Bedingungen zu verbergen, verwenden Sie die bedingte Anzeige. Ausblenden in diesem Tab verbirgt das Feld immer. (Kap. 6)": [
+   "이메일",
+   "전화번호"
+  ],
+  "Um abhängig von einer Bedingung zu verbergen, verwenden Sie die bedingte Anzeige. Ausblenden in diesem Tab verbirgt immer. (Kap. 6)": [
+   "파일업로드"
+  ]
+ },
+ "description 과 helpText 는 함께 표시됩니다. 둘 다 입력하면 두 줄이 되므로 같은 내용을 두 번 적지 마십시오. (2.1)": {
+  "description und helpText werden zusammen angezeigt. Wenn Sie beide eingeben, ergeben sich zwei Zeilen; schreiben Sie daher nicht zweimal denselben Inhalt. (2.1)": [
+   "이메일"
+  ],
+  "description und helpText werden zusammen angezeigt. Wenn Sie beide eingeben, entstehen zwei Zeilen; schreiben Sie daher nicht zweimal denselben Inhalt. (2.1)": [
+   "전화번호"
+  ],
+  "description und helpText werden zusammen angezeigt. Werden beide eingegeben, entstehen zwei Zeilen; schreiben Sie daher nicht denselben Inhalt doppelt. (2.1)": [
+   "주소"
+  ]
+ },
+ "⛔ 조건을 설정하면 필수 검증이 면제됩니다. 조건이 맞지 않아 숨겨진 동안에는 그 필드가 필수여도 비어 있는 상태로 폼이 완료됩니다.": {
+  "⛔ Wenn Sie eine Bedingung festlegen, entfällt die Pflichtprüfung. Solange das Feld verborgen ist, weil die Bedingung nicht erfüllt ist, wird das Formular auch dann abgeschlossen, wenn das Pflichtfeld leer ist.": [
+   "이메일"
+  ],
+  "⛔ Wenn Sie eine Bedingung festlegen, entfällt die Pflichtprüfung. Solange das Feld verborgen ist, weil die Bedingung nicht erfüllt ist, wird das Formular auch bei einem Pflichtfeld im leeren Zustand abgeschlossen.": [
+   "전화번호"
+  ],
+  "⛔ Wird eine Bedingung festgelegt, ist das Feld von der Pflichtprüfung befreit. Solange das Feld verborgen ist, weil die Bedingung nicht erfüllt ist, wird das Formular auch als Pflichtfeld im leeren Zustand abgeschlossen.": [
+   "주소"
+  ]
+ },
+ "<b>value = 1</b> — 화면에 보이는 <b><code>O</code></b> 가 아니라 그 선택지의 <b>저장값</b>을 입력합니다.": {
+  "<b>value = 1</b> — Geben Sie nicht das auf dem Bildschirm angezeigte <b><code>O</code></b> ein, sondern den <b>gespeicherten Wert</b> dieser Option.": [
+   "이메일"
+  ],
+  "<b>value = 1</b> — Geben Sie nicht das angezeigte <b><code>O</code></b>, sondern den <b>gespeicherten Wert</b> dieser Option ein.": [
+   "전화번호"
+  ],
+  "<b>value = 1</b> — Geben Sie nicht das auf dem Bildschirm sichtbare <b><code>O</code></b> ein, sondern den <b>gespeicherten Wert</b> dieser Option.": [
+   "주소"
+  ],
+  "<b>value = 1</b> — geben Sie nicht das auf dem Bildschirm sichtbare <b><code>O</code></b>, sondern den <b>gespeicherten Wert</b> dieser Option ein.": [
+   "파일업로드"
+  ]
+ },
+ "⛔ 참조 필드의 저장값을 바꾸면 조건이 조용히 깨집니다. 저장값을 <code>1</code> 에서 <code>Y</code> 로 바꾸면 이 조건은 오류 없이 그냥 성립하지 않게 됩니다 — 그래서 발행 후 저장값 변경이 위험합니다.": {
+  "⛔ Wenn Sie den gespeicherten Wert des Referenzfelds ändern, funktioniert die Bedingung unbemerkt nicht mehr. Ändern Sie den gespeicherten Wert von <code>1</code> auf <code>Y</code>, ist diese Bedingung ohne Fehlermeldung einfach nicht mehr erfüllt — deshalb ist das Ändern gespeicherter Werte nach der Veröffentlichung gefährlich.": [
+   "이메일"
+  ],
+  "⛔ Wird der gespeicherte Wert des Referenzfelds geändert, bricht die Bedingung unbemerkt. Ändern Sie den gespeicherten Wert von <code>1</code> auf <code>Y</code>, ist diese Bedingung ohne Fehlermeldung einfach nicht mehr erfüllt — deshalb ist eine Änderung gespeicherter Werte nach der Veröffentlichung riskant.": [
+   "전화번호"
+  ],
+  "⛔ Wenn Sie den gespeicherten Wert des Referenzfelds ändern, bricht die Bedingung unbemerkt. Wird der gespeicherte Wert von <code>1</code> auf <code>Y</code> geändert, ist diese Bedingung ohne Fehlermeldung einfach nicht mehr erfüllt — deshalb ist eine Änderung gespeicherter Werte nach der Veröffentlichung riskant.": [
+   "주소"
+  ]
+ },
+ "같은 관계를 검증 규칙(4.3)으로도 만들 수 있습니다. 둘 다 걸면 묻지도 않으면서 저장도 막는 중복이 되므로 한쪽만 사용하십시오.": {
+  "Dieselbe Beziehung können Sie auch als Validierungsregel (4.3) erstellen. Setzen Sie beides, entsteht eine Doppelung: Es wird nicht gefragt und zugleich das Speichern blockiert; verwenden Sie daher nur eine der beiden Möglichkeiten.": [
+   "이메일"
+  ],
+  "Dieselbe Beziehung lässt sich auch mit einer Validierungsregel (4.3) abbilden. Verwenden Sie beide, entsteht eine Doppelung, die weder fragt noch das Speichern zulässt; verwenden Sie daher nur eine davon.": [
+   "전화번호"
+  ]
+ },
+ "설정한 뒤 미리보기로 확인하십시오. 기준 값을 바꿔 가며 입력란이 실제로 나타나고 사라지는지 확인해야 합니다.": {
+  "Prüfen Sie die Einstellung anschließend in der Vorschau. Ändern Sie dabei den Ausgangswert und prüfen Sie, ob das Eingabefeld tatsächlich erscheint und verschwindet.": [
+   "이메일"
+  ],
+  "Prüfen Sie die Einstellung anschließend in der Vorschau. Ändern Sie dabei den Bezugswert und prüfen Sie, ob das Eingabefeld tatsächlich erscheint und verschwindet.": [
+   "전화번호"
+  ]
+ },
+ "(타입 고유 설정)": {
+  "(Typspezifische Einstellungen)": [
+   "이메일"
+  ],
+  "(Typeigene Einstellungen)": [
+   "전화번호"
+  ]
+ },
+ "보여 주되 고치지 못하게": {
+  "Anzeigen, aber keine Korrektur zulassen": [
+   "이메일"
+  ],
+  "Anzeigen, aber nicht korrigierbar": [
+   "전화번호"
+  ]
+ },
+ "<b>자동 계산 (calculation)</b> — 타입 설정 탭에 항목은 표시되지만 이 타입에서는 사용하지 않습니다. 수식으로 값을 산출하는 기능이므로 <b>숫자</b> 타입에서 사용하십시오. (3.1)": {
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird im Tab „Typeinstellungen“ angezeigt, bei diesem Typ aber nicht verwendet. Da diese Funktion Werte per Formel berechnet, verwenden Sie sie beim Typ <b>Zahl</b>. (3.1)": [
+   "이메일"
+  ],
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird im Tab „Typeinstellungen“ angezeigt, wird bei diesem Typ aber nicht verwendet. Da diese Funktion Werte per Formel berechnet, verwenden Sie sie beim Typ <b>Zahl</b>. (3.1)": [
+   "전화번호"
+  ],
+  "<b>Automatische Berechnung (calculation)</b> — das Element wird im Tab „Typeinstellungen“ angezeigt, wird bei diesem Typ aber nicht verwendet. Es berechnet Werte über eine Formel; verwenden Sie es daher beim Typ <b>Zahl</b>. (3.1)": [
+   "참거짓"
+  ]
+ },
+ "<b>AE 의미 역할</b> — 기본 탭에 항목은 있으나 <b>이 타입은 지정 대상이 아닙니다.</b> 예/아니오 또는 단일 선택 필드에 지정하십시오. (1.1)": {
+  "<b>AE-Bedeutungsrolle</b> — das Element ist im Tab „Allgemein“ vorhanden, <b>dieser Typ kann aber nicht zugeordnet werden.</b> Ordnen Sie sie einem Ja/Nein- oder Einzelauswahlfeld zu. (1.1)": [
+   "이메일"
+  ],
+  "<b>AE-Bedeutungsrolle</b> — das Element ist im Tab „Allgemein“ vorhanden, <b>dieser Typ kann jedoch nicht zugeordnet werden.</b> Ordnen Sie sie einem Ja/Nein- oder Einzelauswahlfeld zu. (1.1)": [
+   "전화번호",
+   "파일업로드"
+  ],
+  "<b>AE-Bedeutungsrolle</b> — im Tab „Allgemein“ gibt es das Element zwar, aber <b>dieser Typ kann nicht zugeordnet werden.</b> Ordnen Sie sie einem Ja/Nein- oder Einzelauswahlfeld zu. (1.1)": [
+   "주소"
+  ]
+ },
+ "<b>ruleType</b> — 규칙의 종류입니다. <b>생성 직후에는 「값 범위」</b> 이므로 <b>「다른 필드와 비교」</b> 로 변경하십시오.": {
+  "<b>ruleType</b> — die Art der Regel. <b>Direkt nach dem Erstellen ist „Wertebereich“</b> eingestellt; ändern Sie sie auf <b>„Vergleich mit anderem Feld“</b>.": [
+   "참거짓"
+  ],
+  "<b>ruleType</b> — die Art der Regel. <b>Direkt nach der Erstellung ist „Wertebereich“</b> eingestellt; ändern Sie auf <b>„Vergleich mit anderem Feld“</b>.": [
+   "파일업로드"
+  ]
+ },
+ "규칙 종류 — 이 타입에서 쓸 수 있는 것은 <b>다른 필드와 비교</b> 뿐": {
+  "Regelart — bei diesem Typ nutzbar ist nur <b>Vergleich mit anderem Feld</b>": [
+   "참거짓"
+  ],
+  "Regelart — bei diesem Typ nur <b>Vergleich mit anderem Feld</b> verwendbar": [
+   "파일업로드"
+  ]
+ }
+}

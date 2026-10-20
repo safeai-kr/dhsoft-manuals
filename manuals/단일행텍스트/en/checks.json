@@ -1,0 +1,72 @@
+{
+ "manual": "단일행텍스트",
+ "lang": "en",
+ "pages": 51,
+ "checks": {
+  "hangul_zero": {
+   "pass": true,
+   "text_pages": {},
+   "bookmarks": [],
+   "metadata": [],
+   "image_ocr_unchanged_korean": {},
+   "image_ocr_review_changed": {
+    "s3_4_1.png": [
+     "그 Basic information"
+    ],
+    "s4_3_1.png": [
+     "User name쵸"
+    ],
+    "s5_4_1.png": [
+     "User name옓"
+    ],
+    "s6_2_1.png": [
+     "Structure쵸"
+    ]
+   }
+  },
+  "header_position": {
+   "pass": true,
+   "pages": 41,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.867
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 39,
+    "Pretendard-Regular": 17957,
+    "Pretendard-Bold": 8325,
+    "Pretendard-Medium": 11573,
+    "Unnamed-T3": 7
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "refs_match": {
+   "pass": true,
+   "ko": 34,
+   "lang": 34,
+   "diff": []
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 29
+  }
+ },
+ "pass": true
+}

@@ -1,0 +1,585 @@
+{
+ "lang": "ko",
+ "files": [
+  {
+   "name": "s1_1_1.png",
+   "section": "1.1",
+   "source_xref": 30,
+   "source_px": [
+    1425,
+    993
+   ],
+   "crop_box_px": [
+    233,
+    56,
+    1422,
+    992
+   ],
+   "crop_px": [
+    1189,
+    936
+   ],
+   "output_px": [
+    2378,
+    1872
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    508.1,
+    400.0
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_1_1.png",
+   "section": "2.1",
+   "source_xref": 42,
+   "source_px": [
+    938,
+    336
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    936,
+    332
+   ],
+   "crop_px": [
+    936,
+    332
+   ],
+   "output_px": [
+    1872,
+    664
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    198.6
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_2_1.png",
+   "section": "2.2",
+   "source_xref": 50,
+   "source_px": [
+    933,
+    383
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    931,
+    381
+   ],
+   "crop_px": [
+    931,
+    381
+   ],
+   "output_px": [
+    1862,
+    762
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    229.2
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_3_1.png",
+   "section": "2.3",
+   "source_xref": 59,
+   "source_px": [
+    1192,
+    665
+   ],
+   "crop_box_px": [
+    871,
+    531,
+    1190,
+    663
+   ],
+   "crop_px": [
+    319,
+    132
+   ],
+   "output_px": [
+    916,
+    380
+   ],
+   "scale": 2.871,
+   "planned_display_css_px": [
+    293.0,
+    121.2
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_3_2.png",
+   "section": "2.3",
+   "source_xref": 63,
+   "source_px": [
+    1198,
+    631
+   ],
+   "crop_box_px": [
+    874,
+    529,
+    1196,
+    629
+   ],
+   "crop_px": [
+    322,
+    100
+   ],
+   "output_px": [
+    919,
+    286
+   ],
+   "scale": 2.854,
+   "planned_display_css_px": [
+    294.0,
+    91.3
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_4_1.png",
+   "section": "2.4",
+   "source_xref": 77,
+   "source_px": [
+    277,
+    258
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    275,
+    256
+   ],
+   "crop_px": [
+    275,
+    256
+   ],
+   "output_px": [
+    727,
+    677
+   ],
+   "scale": 2.644,
+   "planned_display_css_px": [
+    232.5,
+    216.4
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s2_4_2.png",
+   "section": "2.4",
+   "source_xref": 81,
+   "source_px": [
+    277,
+    250
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    275,
+    249
+   ],
+   "crop_px": [
+    275,
+    249
+   ],
+   "output_px": [
+    727,
+    659
+   ],
+   "scale": 2.644,
+   "planned_display_css_px": [
+    232.5,
+    210.5
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_1_1.png",
+   "section": "3.1",
+   "source_xref": 90,
+   "source_px": [
+    1187,
+    620
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1184,
+    617
+   ],
+   "crop_px": [
+    1184,
+    617
+   ],
+   "output_px": [
+    2368,
+    1234
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    291.8
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_2_1.png",
+   "section": "3.2",
+   "source_xref": 98,
+   "source_px": [
+    303,
+    107
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    302,
+    107
+   ],
+   "crop_px": [
+    302,
+    107
+   ],
+   "output_px": [
+    1318,
+    467
+   ],
+   "scale": 4.364,
+   "planned_display_css_px": [
+    421.5,
+    149.3
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_3_1.png",
+   "section": "3.3",
+   "source_xref": 108,
+   "source_px": [
+    299,
+    168
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    298,
+    167
+   ],
+   "crop_px": [
+    298,
+    167
+   ],
+   "output_px": [
+    1318,
+    739
+   ],
+   "scale": 4.423,
+   "planned_display_css_px": [
+    421.5,
+    236.2
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s3_4_1.png",
+   "section": "3.4",
+   "source_xref": 119,
+   "source_px": [
+    949,
+    468
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    946,
+    467
+   ],
+   "crop_px": [
+    946,
+    467
+   ],
+   "output_px": [
+    1892,
+    934
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    276.4
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s4_1_1.png",
+   "section": "4.1",
+   "source_xref": 127,
+   "source_px": [
+    1190,
+    513
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1187,
+    510
+   ],
+   "crop_px": [
+    1187,
+    510
+   ],
+   "output_px": [
+    2374,
+    1020
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    240.6
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s4_2_1.png",
+   "section": "4.2",
+   "source_xref": 135,
+   "source_px": [
+    1186,
+    730
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1183,
+    727
+   ],
+   "crop_px": [
+    1183,
+    727
+   ],
+   "output_px": [
+    2366,
+    1454
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    344.1
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s4_3_1.png",
+   "section": "4.3",
+   "source_xref": 150,
+   "source_px": [
+    1193,
+    742
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1190,
+    739
+   ],
+   "crop_px": [
+    1190,
+    739
+   ],
+   "output_px": [
+    2380,
+    1478
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    347.8
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_1_1.png",
+   "section": "5.1",
+   "source_xref": 161,
+   "source_px": [
+    1196,
+    707
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1193,
+    704
+   ],
+   "crop_px": [
+    1193,
+    704
+   ],
+   "output_px": [
+    2386,
+    1408
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    330.5
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_2_1.png",
+   "section": "5.2",
+   "source_xref": 169,
+   "source_px": [
+    950,
+    306
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    948,
+    304
+   ],
+   "crop_px": [
+    948,
+    304
+   ],
+   "output_px": [
+    1896,
+    608
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    179.6
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_3_1.png",
+   "section": "5.3",
+   "source_xref": 177,
+   "source_px": [
+    946,
+    460
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    943,
+    456
+   ],
+   "crop_px": [
+    943,
+    456
+   ],
+   "output_px": [
+    1886,
+    912
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    270.8
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s5_4_1.png",
+   "section": "5.4",
+   "source_xref": 187,
+   "source_px": [
+    1192,
+    645
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1189,
+    642
+   ],
+   "crop_px": [
+    1189,
+    642
+   ],
+   "output_px": [
+    2378,
+    1284
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    302.4
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s6_1_1.png",
+   "section": "6.1",
+   "source_xref": 197,
+   "source_px": [
+    1191,
+    748
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1188,
+    745
+   ],
+   "crop_px": [
+    1188,
+    745
+   ],
+   "output_px": [
+    2376,
+    1490
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    351.2
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  },
+  {
+   "name": "s6_2_1.png",
+   "section": "6.2",
+   "source_xref": 206,
+   "source_px": [
+    1195,
+    692
+   ],
+   "crop_box_px": [
+    0,
+    0,
+    1192,
+    689
+   ],
+   "crop_px": [
+    1192,
+    689
+   ],
+   "output_px": [
+    2384,
+    1378
+   ],
+   "scale": 2.0,
+   "planned_display_css_px": [
+    560,
+    323.7
+   ],
+   "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)"
+  }
+ ]
+}
