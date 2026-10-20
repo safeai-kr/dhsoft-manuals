@@ -1,7 +1,7 @@
 {
  "manual": "다중행텍스트",
  "lang": "de",
- "pages": 49,
+ "pages": 50,
  "checks": {
   "hangul_zero": {
    "pass": true,
@@ -10,20 +10,26 @@
    "metadata": [],
    "image_ocr_unchanged_korean": {},
    "image_ocr_review_changed": {
+    "s1_1_1.png": [
+     "zu. Ohne Angabe erhalt dieses Formular keine AE-Validierung.듃"
+    ],
     "s3_1_1.png": [
      "비 Details zum UE"
     ],
     "s4_1_1.png": [
-     "# 비 Details zum UE"
+     "\": 비 Details zum UE"
     ],
     "s4_2_1.png": [
      ": 비 Details zum UE"
+    ],
+    "s6_2_1.png": [
+     "닉 (아이콘 오인식 추정)"
     ]
    }
   },
   "header_position": {
    "pass": true,
-   "pages": 39,
+   "pages": 40,
    "bad_top": [],
    "bad_gap": [],
    "header_heights": [
@@ -38,7 +44,7 @@
   "no_large_blank": {
    "pass": true,
    "sparse": [],
-   "min_fill_mid_pages": 0.777
+   "min_fill_mid_pages": 0.691
   },
   "header_top_pixel": {
    "pass": true,
@@ -48,9 +54,9 @@
    "pass": true,
    "fonts": {
     "Pretendard-ExtraBold": 40,
-    "Pretendard-Regular": 21257,
-    "Pretendard-Bold": 9674,
-    "Pretendard-Medium": 16308,
+    "Pretendard-Regular": 21252,
+    "Pretendard-Bold": 9710,
+    "Pretendard-Medium": 16282,
     "Unnamed-T3": 12
    },
    "non_pretendard_chars": "⛔💡🔗"
@@ -60,6 +66,10 @@
    "ko": 41,
    "lang": 41,
    "diff": []
+  },
+  "image_right_edge": {
+   "pass": true,
+   "cut": []
   },
   "tagged_bookmarks": {
    "pass": true,

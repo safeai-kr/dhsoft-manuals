@@ -1,7 +1,7 @@
 {
  "manual": "척도",
  "lang": "en",
- "pages": 39,
+ "pages": 40,
  "checks": {
   "hangul_zero": {
    "pass": true,
@@ -13,7 +13,7 @@
   },
   "header_position": {
    "pass": true,
-   "pages": 31,
+   "pages": 32,
    "bad_top": [],
    "bad_gap": [],
    "header_heights": [
@@ -38,9 +38,9 @@
    "pass": true,
    "fonts": {
     "Pretendard-ExtraBold": 26,
-    "Pretendard-Regular": 14714,
-    "Pretendard-Bold": 7588,
-    "Pretendard-Medium": 11501,
+    "Pretendard-Regular": 14730,
+    "Pretendard-Bold": 7678,
+    "Pretendard-Medium": 11511,
     "Unnamed-T3": 12
    },
    "non_pretendard_chars": "⛔💡🔗"
@@ -50,6 +50,10 @@
    "ko": 39,
    "lang": 39,
    "diff": []
+  },
+  "image_right_edge": {
+   "pass": true,
+   "cut": []
   },
   "tagged_bookmarks": {
    "pass": true,

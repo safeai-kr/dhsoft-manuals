@@ -1,7 +1,7 @@
 {
  "manual": "다중선택",
  "lang": "de",
- "pages": 48,
+ "pages": 49,
  "checks": {
   "hangul_zero": {
    "pass": true,
@@ -9,11 +9,16 @@
    "bookmarks": [],
    "metadata": [],
    "image_ocr_unchanged_korean": {},
-   "image_ocr_review_changed": {}
+   "image_ocr_review_changed": {
+    "s5_4_1.png": [
+     "Valid.옓",
+     "Layoutbreite얧"
+    ]
+   }
   },
   "header_position": {
    "pass": true,
-   "pages": 38,
+   "pages": 39,
    "bad_top": [],
    "bad_gap": [],
    "header_heights": [
@@ -38,8 +43,8 @@
    "pass": true,
    "fonts": {
     "Pretendard-ExtraBold": 38,
-    "Pretendard-Regular": 21769,
-    "Pretendard-Bold": 11355,
+    "Pretendard-Regular": 21780,
+    "Pretendard-Bold": 11436,
     "Pretendard-Medium": 15047,
     "Unnamed-T3": 20
    },
@@ -50,6 +55,10 @@
    "ko": 55,
    "lang": 55,
    "diff": []
+  },
+  "image_right_edge": {
+   "pass": true,
+   "cut": []
   },
   "tagged_bookmarks": {
    "pass": true,

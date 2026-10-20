@@ -1,7 +1,7 @@
 {
  "manual": "주소",
  "lang": "en",
- "pages": 40,
+ "pages": 41,
  "checks": {
   "hangul_zero": {
    "pass": true,
@@ -17,7 +17,7 @@
   },
   "header_position": {
    "pass": true,
-   "pages": 32,
+   "pages": 33,
    "bad_top": [],
    "bad_gap": [],
    "header_heights": [
@@ -42,9 +42,9 @@
    "pass": true,
    "fonts": {
     "Pretendard-ExtraBold": 28,
-    "Pretendard-Regular": 16549,
-    "Pretendard-Bold": 9425,
-    "Pretendard-Medium": 11350,
+    "Pretendard-Regular": 16582,
+    "Pretendard-Bold": 9470,
+    "Pretendard-Medium": 11354,
     "Unnamed-T3": 32
    },
    "non_pretendard_chars": "⛔💡🔗"
@@ -54,6 +54,10 @@
    "ko": 66,
    "lang": 66,
    "diff": []
+  },
+  "image_right_edge": {
+   "pass": true,
+   "cut": []
   },
   "tagged_bookmarks": {
    "pass": true,

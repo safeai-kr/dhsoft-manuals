@@ -20,13 +20,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 20.3,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -49,6 +49,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s1_1_1_019_1",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1075,
+      82,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.13,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s1_1_1_020_1",
      "ko": "발행",
      "tr": "Publish",
@@ -58,33 +77,14 @@
       22,
       11
      ],
-     "font_px": 16.6,
-     "scale": 0.671,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_004_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      87,
-      111,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s1_1_1_004_1",
@@ -96,8 +96,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -115,8 +115,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -125,38 +125,19 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s1_1_1_021_0",
-     "ko": "필드",
-     "tr": "field",
+     "id": "s1_1_1_028_0",
+     "ko": "조건부",
+     "tr": "Conditional",
      "box_px_orig": [
-      735,
-      204,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_026_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      969,
+      1133,
       249,
-      38,
+      27,
       10
      ],
-     "font_px": 17.7,
-     "scale": 0.788,
+     "font_px": 17.3,
+     "scale": 0.772,
      "weight": 500,
-     "stroke_ratio": 4.52,
+     "stroke_ratio": 3.6,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -172,8 +153,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -191,8 +172,8 @@
       198,
       16
      ],
-     "font_px": 26.7,
-     "scale": 0.85,
+     "font_px": 26.4,
+     "scale": 0.84,
      "weight": 500,
      "stroke_ratio": 4.9,
      "paragraph_lines": 1,
@@ -203,15 +184,15 @@
     {
      "id": "s1_1_1_039_0",
      "ko": "검증 필수 (미검중 시 품질",
-     "tr": "Verification required (else quality",
+     "tr": "Verification required (if unverified, quality",
      "box_px_orig": [
       966,
       592,
       143,
       14
      ],
-     "font_px": 18.3,
-     "scale": 0.58,
+     "font_px": 19.4,
+     "scale": 0.617,
      "weight": 700,
      "stroke_ratio": 5.69,
      "paragraph_lines": 1,
@@ -229,8 +210,8 @@
       228,
       9
      ],
-     "font_px": 15.4,
-     "scale": 0.761,
+     "font_px": 14.4,
+     "scale": 0.711,
      "weight": 700,
      "stroke_ratio": 3.82,
      "paragraph_lines": 1,
@@ -241,15 +222,15 @@
     {
      "id": "s1_1_1_047_0",
      "ko": "게 하는 죽입니다. 'SAE 여부'는 중대성 판정을 동보추출로",
-     "tr": "to the system. ‘SAE status’ links the seriousness assessment to notification·extraction,",
+     "tr": "to the system. ‘SAE status’ links the seriousness assessment to",
      "box_px_orig": [
       918,
       769,
       241,
       10
      ],
-     "font_px": 13.0,
-     "scale": 0.58,
+     "font_px": 14.4,
+     "scale": 0.64,
      "weight": 500,
      "stroke_ratio": 3.47,
      "paragraph_lines": 3,
@@ -260,15 +241,15 @@
     {
      "id": "s1_1_1_048_0",
      "ko": "잇는 죽이라 예/아니오 또는 단일 선택 필드에 지정하십시오.",
-     "tr": "so assign it to a Yes/No or single-choice field.",
+     "tr": "notification·extraction, so assign it to a Yes/No or single-choice",
      "box_px_orig": [
       918,
       782,
       245,
       10
      ],
-     "font_px": 13.0,
-     "scale": 0.58,
+     "font_px": 14.4,
+     "scale": 0.64,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 3,
@@ -279,15 +260,15 @@
     {
      "id": "s1_1_1_049_0",
      "ko": "지정하지 않으면 이 양식은 AE 검중을 받지 않습니다.",
-     "tr": "If not set, this form is not subject to AE validation.",
+     "tr": "field. If not set, this form is not subject to AE validation.",
      "box_px_orig": [
       918,
       796,
       216,
       9
      ],
-     "font_px": 13.0,
-     "scale": 0.58,
+     "font_px": 14.4,
+     "scale": 0.64,
      "weight": 500,
      "stroke_ratio": 3.67,
      "paragraph_lines": 3,
@@ -305,8 +286,8 @@
       235,
       10
      ],
-     "font_px": 14.9,
-     "scale": 0.661,
+     "font_px": 14.4,
+     "scale": 0.641,
      "weight": 500,
      "stroke_ratio": 3.61,
      "paragraph_lines": 2,
@@ -324,8 +305,8 @@
       190,
       10
      ],
-     "font_px": 14.9,
-     "scale": 0.661,
+     "font_px": 14.4,
+     "scale": 0.641,
      "weight": 500,
      "stroke_ratio": 3.83,
      "paragraph_lines": 2,
@@ -345,13 +326,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 20.3,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -402,8 +383,8 @@
       268,
       16
      ],
-     "font_px": 33.4,
-     "scale": 0.929,
+     "font_px": 33.5,
+     "scale": 0.931,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -440,8 +421,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -459,8 +440,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -478,14 +459,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.13,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_1_1_020_1",
@@ -497,14 +478,14 @@
       22,
       11
      ],
-     "font_px": 16.6,
-     "scale": 0.671,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s1_1_1_004_0",
@@ -516,14 +497,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_004_1",
@@ -535,8 +516,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -592,8 +573,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -611,11 +592,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -630,8 +611,8 @@
       60,
       10
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -649,11 +630,11 @@
       42,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.37,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -687,14 +668,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_008_1",
@@ -750,27 +731,27 @@
      "stroke_ratio": 3.98,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": ""
     },
     {
      "id": "s1_1_1_026_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       969,
       249,
       38,
       10
      ],
-     "font_px": 17.7,
-     "scale": 0.788,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.52,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_026_1",
@@ -782,8 +763,8 @@
       18,
       10
      ],
-     "font_px": 21.6,
-     "scale": 0.96,
+     "font_px": 21.3,
+     "scale": 0.95,
      "weight": 500,
      "stroke_ratio": 4.38,
      "paragraph_lines": 1,
@@ -801,14 +782,14 @@
       27,
       10
      ],
-     "font_px": 21.3,
-     "scale": 0.947,
+     "font_px": 17.3,
+     "scale": 0.772,
      "weight": 500,
      "stroke_ratio": 3.6,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_1_1_015_0",
@@ -934,8 +915,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -1029,8 +1010,8 @@
       198,
       16
      ],
-     "font_px": 26.7,
-     "scale": 0.85,
+     "font_px": 26.4,
+     "scale": 0.84,
      "weight": 500,
      "stroke_ratio": 4.9,
      "paragraph_lines": 1,
@@ -1041,15 +1022,15 @@
     {
      "id": "s1_1_1_039_0",
      "ko": "검증 필수 (미검중 시 품질",
-     "tr": "Verification required (else quality",
+     "tr": "Verification required (if unverified, quality",
      "box_px_orig": [
       966,
       592,
       143,
       14
      ],
-     "font_px": 18.3,
-     "scale": 0.58,
+     "font_px": 19.4,
+     "scale": 0.617,
      "weight": 700,
      "stroke_ratio": 5.69,
      "paragraph_lines": 1,
@@ -1067,8 +1048,8 @@
       220,
       10
      ],
-     "font_px": 19.2,
-     "scale": 0.855,
+     "font_px": 17.4,
+     "scale": 0.775,
      "weight": 700,
      "stroke_ratio": 4.23,
      "paragraph_lines": 2,
@@ -1086,8 +1067,8 @@
       21,
       10
      ],
-     "font_px": 19.2,
-     "scale": 0.855,
+     "font_px": 17.4,
+     "scale": 0.775,
      "weight": 700,
      "stroke_ratio": 3.23,
      "paragraph_lines": 2,
@@ -1162,8 +1143,8 @@
       228,
       9
      ],
-     "font_px": 15.4,
-     "scale": 0.761,
+     "font_px": 14.4,
+     "scale": 0.711,
      "weight": 700,
      "stroke_ratio": 3.82,
      "paragraph_lines": 1,
@@ -1174,15 +1155,15 @@
     {
      "id": "s1_1_1_047_0",
      "ko": "게 하는 죽입니다. 'SAE 여부'는 중대성 판정을 동보추출로",
-     "tr": "to the system. ‘SAE status’ links the seriousness assessment to notification·extraction,",
+     "tr": "to the system. ‘SAE status’ links the seriousness assessment to",
      "box_px_orig": [
       918,
       769,
       241,
       10
      ],
-     "font_px": 13.0,
-     "scale": 0.58,
+     "font_px": 14.4,
+     "scale": 0.64,
      "weight": 500,
      "stroke_ratio": 3.47,
      "paragraph_lines": 3,
@@ -1193,15 +1174,15 @@
     {
      "id": "s1_1_1_048_0",
      "ko": "잇는 죽이라 예/아니오 또는 단일 선택 필드에 지정하십시오.",
-     "tr": "so assign it to a Yes/No or single-choice field.",
+     "tr": "notification·extraction, so assign it to a Yes/No or single-choice",
      "box_px_orig": [
       918,
       782,
       245,
       10
      ],
-     "font_px": 13.0,
-     "scale": 0.58,
+     "font_px": 14.4,
+     "scale": 0.64,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 3,
@@ -1212,15 +1193,15 @@
     {
      "id": "s1_1_1_049_0",
      "ko": "지정하지 않으면 이 양식은 AE 검중을 받지 않습니다.",
-     "tr": "If not set, this form is not subject to AE validation.",
+     "tr": "field. If not set, this form is not subject to AE validation.",
      "box_px_orig": [
       918,
       796,
       216,
       9
      ],
-     "font_px": 13.0,
-     "scale": 0.58,
+     "font_px": 14.4,
+     "scale": 0.64,
      "weight": 500,
      "stroke_ratio": 3.67,
      "paragraph_lines": 3,
@@ -1257,8 +1238,8 @@
       235,
       10
      ],
-     "font_px": 14.9,
-     "scale": 0.661,
+     "font_px": 14.4,
+     "scale": 0.641,
      "weight": 500,
      "stroke_ratio": 3.61,
      "paragraph_lines": 2,
@@ -1276,8 +1257,8 @@
       190,
       10
      ],
-     "font_px": 14.9,
-     "scale": 0.661,
+     "font_px": 14.4,
+     "scale": 0.641,
      "weight": 500,
      "stroke_ratio": 3.83,
      "paragraph_lines": 2,
@@ -1315,44 +1296,6 @@
    "replaced": 18,
    "flags": [
     {
-     "id": "s2_1_1_003_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      488,
-      32,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_011_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      722,
-      77,
-      38,
-      10
-     ],
-     "font_px": 17.7,
-     "scale": 0.788,
-     "weight": 500,
-     "stroke_ratio": 4.52,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s2_1_1_014_0",
      "ko": "조건부",
      "tr": "Conditional",
@@ -1362,32 +1305,13 @@
       27,
       10
      ],
-     "font_px": 18.9,
-     "scale": 0.841,
+     "font_px": 14.3,
+     "scale": 0.636,
      "weight": 500,
      "stroke_ratio": 3.6,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_008_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      73,
-      173,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -1400,8 +1324,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -1419,8 +1343,8 @@
       245,
       14
      ],
-     "font_px": 20.2,
-     "scale": 0.643,
+     "font_px": 19.3,
+     "scale": 0.613,
      "weight": 500,
      "stroke_ratio": 4.41,
      "paragraph_lines": 1,
@@ -1440,11 +1364,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -1459,8 +1383,8 @@
       65,
       14
      ],
-     "font_px": 21.0,
-     "scale": 0.935,
+     "font_px": 20.3,
+     "scale": 0.905,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -1478,11 +1402,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -1516,14 +1440,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_010_0",
@@ -1541,27 +1465,27 @@
      "stroke_ratio": 3.98,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": ""
     },
     {
      "id": "s2_1_1_011_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       722,
       77,
       38,
       10
      ],
-     "font_px": 17.7,
-     "scale": 0.788,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.52,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_012_0",
@@ -1573,8 +1497,8 @@
       18,
       10
      ],
-     "font_px": 21.6,
-     "scale": 0.96,
+     "font_px": 21.3,
+     "scale": 0.95,
      "weight": 500,
      "stroke_ratio": 4.38,
      "paragraph_lines": 1,
@@ -1592,8 +1516,8 @@
       27,
       10
      ],
-     "font_px": 18.9,
-     "scale": 0.841,
+     "font_px": 14.3,
+     "scale": 0.636,
      "weight": 500,
      "stroke_ratio": 3.6,
      "paragraph_lines": 1,
@@ -1649,14 +1573,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s2_1_1_018_0",
@@ -1725,8 +1649,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -1763,8 +1687,8 @@
       245,
       14
      ],
-     "font_px": 20.2,
-     "scale": 0.643,
+     "font_px": 19.3,
+     "scale": 0.613,
      "weight": 500,
      "stroke_ratio": 4.41,
      "paragraph_lines": 1,
@@ -1783,44 +1707,6 @@
    "replaced": 19,
    "flags": [
     {
-     "id": "s2_2_1_002_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      488,
-      36,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_010_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      722,
-      81,
-      38,
-      10
-     ],
-     "font_px": 17.7,
-     "scale": 0.788,
-     "weight": 500,
-     "stroke_ratio": 4.52,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s2_2_1_012_1",
      "ko": "조건부",
      "tr": "Conditional",
@@ -1830,14 +1716,14 @@
       27,
       10
      ],
-     "font_px": 16.9,
-     "scale": 0.752,
+     "font_px": 13.4,
+     "scale": 0.597,
      "weight": 500,
      "stroke_ratio": 3.6,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s2_2_1_006_0",
@@ -1849,32 +1735,13 @@
       108,
       13
      ],
-     "font_px": 19.7,
-     "scale": 0.673,
+     "font_px": 19.4,
+     "scale": 0.663,
      "weight": 500,
      "stroke_ratio": 5.48,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_007_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      73,
-      177,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -1887,8 +1754,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -1906,8 +1773,8 @@
       245,
       14
      ],
-     "font_px": 20.2,
-     "scale": 0.643,
+     "font_px": 19.3,
+     "scale": 0.613,
      "weight": 500,
      "stroke_ratio": 4.41,
      "paragraph_lines": 1,
@@ -1927,11 +1794,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -1946,8 +1813,8 @@
       64,
       10
      ],
-     "font_px": 20.7,
-     "scale": 0.921,
+     "font_px": 20.5,
+     "scale": 0.911,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -1965,11 +1832,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -2003,14 +1870,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_009_0",
@@ -2028,27 +1895,27 @@
      "stroke_ratio": 3.98,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": ""
     },
     {
      "id": "s2_2_1_010_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       722,
       81,
       38,
       10
      ],
-     "font_px": 17.7,
-     "scale": 0.788,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.52,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_011_0",
@@ -2060,8 +1927,8 @@
       18,
       10
      ],
-     "font_px": 21.6,
-     "scale": 0.96,
+     "font_px": 21.3,
+     "scale": 0.95,
      "weight": 500,
      "stroke_ratio": 4.38,
      "paragraph_lines": 1,
@@ -2079,14 +1946,14 @@
       27,
       10
      ],
-     "font_px": 16.9,
-     "scale": 0.752,
+     "font_px": 13.4,
+     "scale": 0.597,
      "weight": 500,
      "stroke_ratio": 3.6,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s2_2_1_006_0",
@@ -2098,8 +1965,8 @@
       108,
       13
      ],
-     "font_px": 19.7,
-     "scale": 0.673,
+     "font_px": 19.4,
+     "scale": 0.663,
      "weight": 500,
      "stroke_ratio": 5.48,
      "paragraph_lines": 1,
@@ -2136,14 +2003,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s2_2_1_016_0",
@@ -2212,8 +2079,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -2250,8 +2117,8 @@
       245,
       14
      ],
-     "font_px": 20.2,
-     "scale": 0.643,
+     "font_px": 19.3,
+     "scale": 0.613,
      "weight": 500,
      "stroke_ratio": 4.41,
      "paragraph_lines": 1,
@@ -2299,8 +2166,8 @@
       198,
       14
      ],
-     "font_px": 40.8,
-     "scale": 0.903,
+     "font_px": 40.3,
+     "scale": 0.893,
      "weight": 500,
      "stroke_ratio": 4.9,
      "paragraph_lines": 1,
@@ -2386,8 +2253,8 @@
       198,
       16
      ],
-     "font_px": 40.0,
-     "scale": 0.89,
+     "font_px": 39.1,
+     "scale": 0.87,
      "weight": 500,
      "stroke_ratio": 4.9,
      "paragraph_lines": 1,
@@ -2434,8 +2301,8 @@
       235,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.61,
      "paragraph_lines": 2,
@@ -2453,8 +2320,8 @@
       189,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.83,
      "paragraph_lines": 2,
@@ -2493,8 +2360,8 @@
       235,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.61,
      "paragraph_lines": 2,
@@ -2512,8 +2379,8 @@
       189,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.83,
      "paragraph_lines": 2,
@@ -2573,7 +2440,7 @@
      "scale": 0.899,
      "weight": 700,
      "stroke_ratio": 3.81,
-     "paragraph_lines": 3,
+     "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -2592,7 +2459,7 @@
      "scale": 0.899,
      "weight": 700,
      "stroke_ratio": 3.8,
-     "paragraph_lines": 3,
+     "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -2607,11 +2474,11 @@
       30,
       10
      ],
-     "font_px": 24.0,
-     "scale": 0.899,
+     "font_px": 29.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.26,
-     "paragraph_lines": 3,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -2693,8 +2560,8 @@
       235,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.61,
      "paragraph_lines": 2,
@@ -2712,8 +2579,8 @@
       189,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.83,
      "paragraph_lines": 2,
@@ -2752,8 +2619,8 @@
       235,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.61,
      "paragraph_lines": 2,
@@ -2771,8 +2638,8 @@
       189,
       10
      ],
-     "font_px": 19.3,
-     "scale": 0.65,
+     "font_px": 18.4,
+     "scale": 0.62,
      "weight": 500,
      "stroke_ratio": 3.83,
      "paragraph_lines": 2,
@@ -2832,7 +2699,7 @@
      "scale": 0.899,
      "weight": 700,
      "stroke_ratio": 3.81,
-     "paragraph_lines": 3,
+     "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -2851,7 +2718,7 @@
      "scale": 0.899,
      "weight": 700,
      "stroke_ratio": 3.8,
-     "paragraph_lines": 3,
+     "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -2866,11 +2733,11 @@
       30,
       10
      ],
-     "font_px": 24.0,
-     "scale": 0.899,
+     "font_px": 29.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.26,
-     "paragraph_lines": 3,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -2952,13 +2819,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -2981,6 +2848,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s3_1_1_012_0",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1065,
+      70,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.13,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s3_1_1_013_1",
      "ko": "발행",
      "tr": "Publish",
@@ -2990,33 +2876,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s3_1_1_006_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      77,
-      99,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_006_1",
@@ -3028,8 +2895,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -3047,51 +2914,13 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_1_1_029_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      963,
-      237,
-      38,
-      10
-     ],
-     "font_px": 18.4,
-     "scale": 0.818,
-     "weight": 500,
-     "stroke_ratio": 4.29,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_1_1_036_0",
-     "ko": "검증",
-     "tr": "Validation",
-     "box_px_orig": [
-      1030,
-      237,
-      17,
-      10
-     ],
-     "font_px": 15.6,
-     "scale": 0.692,
-     "weight": 700,
-     "stroke_ratio": 4.56,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -3104,32 +2933,13 @@
       27,
       9
      ],
-     "font_px": 16.3,
-     "scale": 0.806,
+     "font_px": 13.4,
+     "scale": 0.661,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_1_1_024_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      310,
-      333,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -3142,51 +2952,13 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_1_1_042_0",
-     "ko": "prefix/postfix는 입력 칸 좌우 고정 텍스트 - Ul placeholder 와 별",
-     "tr": "prefix/postfix are fixed text on both sides of the input — separate from UI",
-     "box_px_orig": [
-      895,
-      458,
-      281,
-      10
-     ],
-     "font_px": 16.4,
-     "scale": 0.766,
-     "weight": 700,
-     "stroke_ratio": 3.37,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_1_1_042_9",
-     "ko": "개.",
-     "tr": "placeholder.",
-     "box_px_orig": [
-      896,
-      471,
-      10,
-      9
-     ],
-     "font_px": 16.4,
-     "scale": 0.766,
-     "weight": 700,
-     "stroke_ratio": 4.31,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -3201,13 +2973,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -3258,8 +3030,8 @@
       268,
       16
      ],
-     "font_px": 33.4,
-     "scale": 0.929,
+     "font_px": 33.5,
+     "scale": 0.931,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -3296,8 +3068,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -3315,8 +3087,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -3334,14 +3106,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.13,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_013_1",
@@ -3353,8 +3125,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -3372,14 +3144,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_006_1",
@@ -3391,8 +3163,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -3448,8 +3220,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -3467,11 +3239,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -3486,8 +3258,8 @@
       60,
       15
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -3505,11 +3277,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -3524,8 +3296,8 @@
       32,
       16
      ],
-     "font_px": 23.3,
-     "scale": 0.941,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.23,
      "paragraph_lines": 1,
@@ -3612,21 +3384,21 @@
     {
      "id": "s3_1_1_029_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       963,
       237,
       38,
       10
      ],
-     "font_px": 18.4,
-     "scale": 0.818,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.29,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s3_1_1_036_0",
@@ -3638,14 +3410,14 @@
       17,
       10
      ],
-     "font_px": 15.6,
-     "scale": 0.692,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s3_1_1_037_0",
@@ -3657,8 +3429,8 @@
       27,
       9
      ],
-     "font_px": 16.3,
-     "scale": 0.806,
+     "font_px": 13.4,
+     "scale": 0.661,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
@@ -3733,14 +3505,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s3_1_1_031_0",
@@ -3771,8 +3543,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -3783,21 +3555,21 @@
     {
      "id": "s3_1_1_042_0",
      "ko": "prefix/postfix는 입력 칸 좌우 고정 텍스트 - Ul placeholder 와 별",
-     "tr": "prefix/postfix are fixed text on both sides of the input — separate from UI",
+     "tr": "prefix/postfix: fixed text left/right of input — separate from UI",
      "box_px_orig": [
       895,
       458,
       281,
       10
      ],
-     "font_px": 16.4,
-     "scale": 0.766,
+     "font_px": 19.0,
+     "scale": 0.892,
      "weight": 700,
      "stroke_ratio": 3.37,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_042_9",
@@ -3809,14 +3581,14 @@
       10,
       9
      ],
-     "font_px": 16.4,
-     "scale": 0.766,
+     "font_px": 17.3,
+     "scale": 0.812,
      "weight": 700,
      "stroke_ratio": 4.31,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_043_0",
@@ -3886,41 +3658,22 @@
    "replaced": 4,
    "flags": [
     {
-     "id": "s3_2_1_003_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
+     "id": "s3_2_1_007_0",
+     "ko": "조건부",
+     "tr": "Conditional",
      "box_px_orig": [
-      76,
-      18,
-      38,
-      10
+      250,
+      19,
+      27,
+      9
      ],
-     "font_px": 39.3,
-     "scale": 0.801,
-     "weight": 500,
-     "stroke_ratio": 4.29,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_2_1_004_0",
-     "ko": "검증",
-     "tr": "Validation",
-     "box_px_orig": [
-      143,
-      18,
-      17,
-      10
-     ],
-     "font_px": 32.8,
-     "scale": 0.669,
+     "font_px": 35.4,
+     "scale": 0.802,
      "weight": 700,
-     "stroke_ratio": 4.56,
+     "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
+     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -3947,21 +3700,21 @@
     {
      "id": "s3_2_1_003_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       76,
       18,
       38,
       10
      ],
-     "font_px": 39.3,
-     "scale": 0.801,
+     "font_px": 49.0,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.29,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s3_2_1_004_0",
@@ -3973,14 +3726,14 @@
       17,
       10
      ],
-     "font_px": 32.8,
-     "scale": 0.669,
+     "font_px": 49.0,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s3_2_1_007_0",
@@ -3992,14 +3745,14 @@
       27,
       9
      ],
-     "font_px": 40.1,
-     "scale": 0.908,
+     "font_px": 35.4,
+     "scale": 0.802,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ]
   },
@@ -4012,44 +3765,6 @@
    "replaced": 5,
    "flags": [
     {
-     "id": "s3_3_1_005_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      76,
-      20,
-      38,
-      10
-     ],
-     "font_px": 39.4,
-     "scale": 0.794,
-     "weight": 500,
-     "stroke_ratio": 4.29,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_3_1_006_0",
-     "ko": "검증",
-     "tr": "Validation",
-     "box_px_orig": [
-      143,
-      20,
-      17,
-      10
-     ],
-     "font_px": 32.8,
-     "scale": 0.661,
-     "weight": 700,
-     "stroke_ratio": 4.56,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s3_3_1_007_0",
      "ko": "조건부",
      "tr": "Conditional",
@@ -4059,8 +3774,8 @@
       27,
       9
      ],
-     "font_px": 36.8,
-     "scale": 0.823,
+     "font_px": 32.1,
+     "scale": 0.717,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
@@ -4092,21 +3807,21 @@
     {
      "id": "s3_3_1_005_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       76,
       20,
       38,
       10
      ],
-     "font_px": 39.4,
-     "scale": 0.794,
+     "font_px": 49.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.29,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s3_3_1_006_0",
@@ -4118,14 +3833,14 @@
       17,
       10
      ],
-     "font_px": 32.8,
-     "scale": 0.661,
+     "font_px": 49.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s3_3_1_007_0",
@@ -4137,8 +3852,8 @@
       27,
       9
      ],
-     "font_px": 36.8,
-     "scale": 0.823,
+     "font_px": 32.1,
+     "scale": 0.717,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
@@ -4176,63 +3891,6 @@
    "replaced": 20,
    "flags": [
     {
-     "id": "s3_4_1_003_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      485,
-      34,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_4_1_008_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      723,
-      79,
-      38,
-      10
-     ],
-     "font_px": 18.4,
-     "scale": 0.818,
-     "weight": 500,
-     "stroke_ratio": 4.29,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_4_1_009_0",
-     "ko": "검증",
-     "tr": "Validation",
-     "box_px_orig": [
-      790,
-      79,
-      17,
-      10
-     ],
-     "font_px": 15.6,
-     "scale": 0.692,
-     "weight": 700,
-     "stroke_ratio": 4.56,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s3_4_1_010_0",
      "ko": "조건부",
      "tr": "Conditional",
@@ -4242,32 +3900,13 @@
       27,
       9
      ],
-     "font_px": 17.0,
-     "scale": 0.842,
+     "font_px": 13.5,
+     "scale": 0.667,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_4_1_015_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      70,
-      175,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4280,51 +3919,13 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_4_1_022_0",
-     "ko": "prefix/postfix는 입력 칸 좌우 고정 텍스트 - Ul placeholder 와 별",
-     "tr": "prefix/postfix are fixed text on both sides of the input — separate from UI",
-     "box_px_orig": [
-      655,
-      300,
-      281,
-      10
-     ],
-     "font_px": 16.5,
-     "scale": 0.771,
-     "weight": 700,
-     "stroke_ratio": 3.37,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_4_1_022_9",
-     "ko": "개.",
-     "tr": "placeholder.",
-     "box_px_orig": [
-      656,
-      313,
-      10,
-      9
-     ],
-     "font_px": 16.5,
-     "scale": 0.771,
-     "weight": 700,
-     "stroke_ratio": 4.31,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -4339,11 +3940,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -4358,8 +3959,8 @@
       60,
       10
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -4377,11 +3978,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -4415,14 +4016,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_4_1_007_0",
@@ -4446,21 +4047,21 @@
     {
      "id": "s3_4_1_008_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       723,
       79,
       38,
       10
      ],
-     "font_px": 18.4,
-     "scale": 0.818,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.29,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s3_4_1_009_0",
@@ -4472,14 +4073,14 @@
       17,
       10
      ],
-     "font_px": 15.6,
-     "scale": 0.692,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s3_4_1_010_0",
@@ -4491,8 +4092,8 @@
       27,
       9
      ],
-     "font_px": 17.0,
-     "scale": 0.842,
+     "font_px": 13.5,
+     "scale": 0.667,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
@@ -4548,14 +4149,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s3_4_1_016_0",
@@ -4586,8 +4187,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -4598,21 +4199,21 @@
     {
      "id": "s3_4_1_022_0",
      "ko": "prefix/postfix는 입력 칸 좌우 고정 텍스트 - Ul placeholder 와 별",
-     "tr": "prefix/postfix are fixed text on both sides of the input — separate from UI",
+     "tr": "prefix/postfix: fixed text left/right of input — separate from UI",
      "box_px_orig": [
       655,
       300,
       281,
       10
      ],
-     "font_px": 16.5,
-     "scale": 0.771,
+     "font_px": 19.1,
+     "scale": 0.895,
      "weight": 700,
      "stroke_ratio": 3.37,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_4_1_022_9",
@@ -4624,14 +4225,14 @@
       10,
       9
      ],
-     "font_px": 16.5,
-     "scale": 0.771,
+     "font_px": 18.5,
+     "scale": 0.865,
      "weight": 700,
      "stroke_ratio": 4.31,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_4_1_023_0",
@@ -4729,13 +4330,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4758,6 +4359,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s4_1_1_009_0",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1064,
+      72,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.13,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s4_1_1_010_1",
      "ko": "발행",
      "tr": "Publish",
@@ -4767,33 +4387,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s4_1_1_005_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      76,
-      101,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_1_1_005_1",
@@ -4805,8 +4406,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -4824,8 +4425,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -4834,79 +4435,22 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s4_1_1_023_0",
-     "ko": "필드",
-     "tr": "field",
+     "id": "s4_1_1_031_0",
+     "ko": "조건부",
+     "tr": "Conditional",
      "box_px_orig": [
-      724,
-      194,
-      20,
-      11
+      1136,
+      240,
+      27,
+      9
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
+     "font_px": 14.4,
+     "scale": 0.713,
+     "weight": 700,
+     "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_1_1_028_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      963,
-      239,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_1_1_032_0",
-     "ko": "개",
-     "tr": "items",
-     "box_px_orig": [
-      1164,
-      277,
-      8,
-      10
-     ],
-     "font_px": 17.1,
-     "scale": 0.759,
-     "weight": 500,
-     "stroke_ratio": 3.98,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_1_1_033_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      309,
-      335,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4919,8 +4463,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -4940,13 +4484,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4997,8 +4541,8 @@
       268,
       19
      ],
-     "font_px": 33.1,
-     "scale": 0.921,
+     "font_px": 32.4,
+     "scale": 0.901,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -5035,8 +4579,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -5054,8 +4598,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -5073,14 +4617,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.13,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_1_1_010_1",
@@ -5092,8 +4636,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -5111,14 +4655,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_1_1_005_1",
@@ -5130,8 +4674,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -5187,8 +4731,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -5206,11 +4750,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -5225,8 +4769,8 @@
       60,
       10
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -5244,11 +4788,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -5282,14 +4826,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_1_1_013_1",
@@ -5351,21 +4895,21 @@
     {
      "id": "s4_1_1_028_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       963,
       239,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "right",
+     "flag": ""
     },
     {
      "id": "s4_1_1_029_0",
@@ -5383,7 +4927,7 @@
      "stroke_ratio": 4.32,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": ""
     },
     {
@@ -5396,14 +4940,14 @@
       27,
       9
      ],
-     "font_px": 17.8,
-     "scale": 0.878,
+     "font_px": 14.4,
+     "scale": 0.713,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_1_1_021_0",
@@ -5465,21 +5009,21 @@
     {
      "id": "s4_1_1_032_0",
      "ko": "개",
-     "tr": "items",
+     "tr": "",
      "box_px_orig": [
       1164,
       277,
       8,
       10
      ],
-     "font_px": 17.1,
-     "scale": 0.759,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.98,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_1_1_016_2",
@@ -5529,14 +5073,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s4_1_1_035_0",
@@ -5586,8 +5130,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -5598,15 +5142,15 @@
     {
      "id": "s4_1_1_038_0",
      "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
-     "tr": "Rules here are checked before saving. Register validations",
+     "tr": "Rules here are checked before saving. Register validations that",
      "box_px_orig": [
       894,
       426,
       282,
       10
      ],
-     "font_px": 21.2,
-     "scale": 0.945,
+     "font_px": 18.4,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.53,
      "paragraph_lines": 2,
@@ -5617,15 +5161,15 @@
     {
      "id": "s4_1_1_039_0",
      "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
-     "tr": "that reference values in other forms in Project validation rules.",
+     "tr": "reference values in other forms in Project validation rules.",
      "box_px_orig": [
       894,
       442,
       159,
       10
      ],
-     "font_px": 21.2,
-     "scale": 0.945,
+     "font_px": 18.4,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.56,
      "paragraph_lines": 2,
@@ -5653,13 +5197,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -5682,6 +5226,44 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s4_2_1_003_0",
+     "ko": "변경됨",
+     "tr": "Modified",
+     "box_px_orig": [
+      296,
+      39,
+      27,
+      10
+     ],
+     "font_px": 17.4,
+     "scale": 0.774,
+     "weight": 700,
+     "stroke_ratio": 4.95,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_018_1",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1065,
+      72,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.15,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s4_2_1_019_1",
      "ko": "발행",
      "tr": "Publish",
@@ -5691,33 +5273,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s4_2_1_005_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      77,
-      101,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_2_1_005_1",
@@ -5729,8 +5292,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -5748,48 +5311,10 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_2_1_028_0",
-     "ko": "1 필드",
-     "tr": "1 field",
-     "box_px_orig": [
-      717,
-      193,
-      28,
-      15
-     ],
-     "font_px": 20.4,
-     "scale": 0.824,
-     "weight": 500,
-     "stroke_ratio": 4.23,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_2_1_035_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      964,
-      239,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -5805,8 +5330,8 @@
       27,
       9
      ],
-     "font_px": 15.9,
-     "scale": 0.788,
+     "font_px": 12.4,
+     "scale": 0.613,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
@@ -5824,48 +5349,10 @@
       108,
       13
      ],
-     "font_px": 19.7,
-     "scale": 0.673,
+     "font_px": 19.4,
+     "scale": 0.663,
      "weight": 500,
      "stroke_ratio": 5.48,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_2_1_027_0",
-     "ko": "규칙",
-     "tr": "Rule",
-     "box_px_orig": [
-      435,
-      246,
-      17,
-      10
-     ],
-     "font_px": 17.8,
-     "scale": 0.791,
-     "weight": 500,
-     "stroke_ratio": 3.49,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_2_1_039_0",
-     "ko": "개",
-     "tr": "item",
-     "box_px_orig": [
-      1165,
-      277,
-      8,
-      10
-     ],
-     "font_px": 16.2,
-     "scale": 0.721,
-     "weight": 500,
-     "stroke_ratio": 3.98,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -5881,8 +5368,8 @@
       17,
       13
      ],
-     "font_px": 13.6,
-     "scale": 0.603,
+     "font_px": 12.4,
+     "scale": 0.553,
      "weight": 500,
      "stroke_ratio": 3.96,
      "paragraph_lines": 1,
@@ -5900,32 +5387,13 @@
       18,
       10
      ],
-     "font_px": 18.0,
-     "scale": 0.8,
+     "font_px": 17.3,
+     "scale": 0.77,
      "weight": 700,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_2_1_029_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      310,
-      335,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -5938,8 +5406,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -5959,13 +5427,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -6016,14 +5484,14 @@
       27,
       10
      ],
-     "font_px": 22.5,
-     "scale": 1.0,
+     "font_px": 17.4,
+     "scale": 0.774,
      "weight": 700,
      "stroke_ratio": 4.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": ""
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_2_1_004_0",
@@ -6035,8 +5503,8 @@
       268,
       16
      ],
-     "font_px": 33.4,
-     "scale": 0.929,
+     "font_px": 33.5,
+     "scale": 0.931,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -6073,8 +5541,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -6092,8 +5560,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -6111,14 +5579,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.15,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_2_1_019_1",
@@ -6130,8 +5598,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -6149,14 +5617,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_2_1_005_1",
@@ -6168,8 +5636,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -6225,8 +5693,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -6244,11 +5712,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -6263,8 +5731,8 @@
       60,
       10
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -6282,11 +5750,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -6301,14 +5769,14 @@
       28,
       15
      ],
-     "font_px": 20.4,
-     "scale": 0.824,
+     "font_px": 21.4,
+     "scale": 0.868,
      "weight": 500,
      "stroke_ratio": 4.23,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s4_2_1_026_0",
@@ -6389,21 +5857,21 @@
     {
      "id": "s4_2_1_035_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       964,
       239,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "right",
+     "flag": ""
     },
     {
      "id": "s4_2_1_036_0",
@@ -6421,7 +5889,7 @@
      "stroke_ratio": 4.32,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": ""
     },
     {
@@ -6434,8 +5902,8 @@
       27,
       9
      ],
-     "font_px": 15.9,
-     "scale": 0.788,
+     "font_px": 12.4,
+     "scale": 0.613,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
@@ -6453,8 +5921,8 @@
       108,
       13
      ],
-     "font_px": 19.7,
-     "scale": 0.673,
+     "font_px": 19.4,
+     "scale": 0.663,
      "weight": 500,
      "stroke_ratio": 5.48,
      "paragraph_lines": 1,
@@ -6472,14 +5940,14 @@
       17,
       10
      ],
-     "font_px": 17.8,
-     "scale": 0.791,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.49,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_2_1_012_0",
@@ -6522,21 +5990,21 @@
     {
      "id": "s4_2_1_039_0",
      "ko": "개",
-     "tr": "item",
+     "tr": "",
      "box_px_orig": [
       1165,
       277,
       8,
       10
      ],
-     "font_px": 16.2,
-     "scale": 0.721,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.98,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_2_1_013_1",
@@ -6567,8 +6035,8 @@
       17,
       13
      ],
-     "font_px": 13.6,
-     "scale": 0.603,
+     "font_px": 12.4,
+     "scale": 0.553,
      "weight": 500,
      "stroke_ratio": 3.96,
      "paragraph_lines": 1,
@@ -6586,8 +6054,8 @@
       18,
       10
      ],
-     "font_px": 18.0,
-     "scale": 0.8,
+     "font_px": 17.3,
+     "scale": 0.77,
      "weight": 700,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
@@ -6605,14 +6073,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s4_2_1_043_0",
@@ -6643,8 +6111,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -6662,11 +6130,11 @@
       117,
       9
      ],
-     "font_px": 20.3,
-     "scale": 0.902,
-     "weight": 500,
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 700,
      "stroke_ratio": 3.71,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -6674,18 +6142,18 @@
     {
      "id": "s4_2_1_050_0",
      "ko": "message (위반시 표시)",
-     "tr": "message (on violation)",
+     "tr": "message (shown on violation)",
      "box_px_orig": [
       908,
       508,
       101,
       11
      ],
-     "font_px": 20.3,
-     "scale": 0.902,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.58,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -6769,15 +6237,15 @@
     {
      "id": "s4_2_1_055_0",
      "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
-     "tr": "Rules here are checked before saving. Register validations",
+     "tr": "Rules here are checked before saving. Register validations that",
      "box_px_orig": [
       895,
       684,
       282,
       10
      ],
-     "font_px": 20.9,
-     "scale": 0.928,
+     "font_px": 18.4,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.53,
      "paragraph_lines": 2,
@@ -6788,15 +6256,15 @@
     {
      "id": "s4_2_1_056_0",
      "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
-     "tr": "that reference values in other forms in Project validation rules.",
+     "tr": "reference values in other forms in Project validation rules.",
      "box_px_orig": [
       895,
       701,
       159,
       10
      ],
-     "font_px": 20.9,
-     "scale": 0.928,
+     "font_px": 18.4,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.56,
      "paragraph_lines": 2,
@@ -6824,13 +6292,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -6853,6 +6321,44 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s4_3_1_003_0",
+     "ko": "변경됨",
+     "tr": "Modified",
+     "box_px_orig": [
+      299,
+      38,
+      27,
+      10
+     ],
+     "font_px": 17.4,
+     "scale": 0.774,
+     "weight": 700,
+     "stroke_ratio": 4.95,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_3_1_012_1",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1068,
+      71,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.15,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s4_3_1_013_0",
      "ko": "발행",
      "tr": "Publish",
@@ -6862,33 +6368,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s4_3_1_005_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      80,
-      100,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_3_1_005_1",
@@ -6900,8 +6387,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -6919,8 +6406,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -6929,38 +6416,19 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s4_3_1_025_0",
-     "ko": "필드",
-     "tr": "field",
+     "id": "s4_3_1_035_0",
+     "ko": "조건부",
+     "tr": "Conditional",
      "box_px_orig": [
-      728,
-      193,
-      20,
-      11
+      1140,
+      239,
+      27,
+      9
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_3_1_032_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      967,
-      238,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
+     "font_px": 14.5,
+     "scale": 0.715,
+     "weight": 700,
+     "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -6976,32 +6444,13 @@
       108,
       13
      ],
-     "font_px": 19.7,
-     "scale": 0.673,
+     "font_px": 19.4,
+     "scale": 0.663,
      "weight": 500,
      "stroke_ratio": 5.48,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_3_1_024_0",
-     "ko": "규칙",
-     "tr": "Rule",
-     "box_px_orig": [
-      438,
-      245,
-      17,
-      10
-     ],
-     "font_px": 17.8,
-     "scale": 0.791,
-     "weight": 500,
-     "stroke_ratio": 3.49,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -7014,8 +6463,8 @@
       17,
       13
      ],
-     "font_px": 13.6,
-     "scale": 0.603,
+     "font_px": 12.4,
+     "scale": 0.553,
      "weight": 500,
      "stroke_ratio": 3.96,
      "paragraph_lines": 1,
@@ -7033,32 +6482,13 @@
       18,
       10
      ],
-     "font_px": 18.0,
-     "scale": 0.8,
+     "font_px": 17.3,
+     "scale": 0.77,
      "weight": 700,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_3_1_026_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      313,
-      334,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -7071,70 +6501,13 @@
       47,
       12
      ],
-     "font_px": 16.5,
-     "scale": 0.668,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_3_1_045_0",
-     "ko": "정규식 palttern (flags 미지원 - 우속 RF). BE 검중 시 case-",
-     "tr": "Regex pattern (flags not supported — follow-up RF). BE validation is case-",
-     "box_px_orig": [
-      911,
-      468,
-      249,
-      11
-     ],
-     "font_px": 15.1,
-     "scale": 0.61,
-     "weight": 500,
-     "stroke_ratio": 3.31,
-     "paragraph_lines": 3,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_3_1_046_0",
-     "ko": "sensitive 기본.",
-     "tr": "sensitive by default.",
-     "box_px_orig": [
-      911,
-      482,
-      63,
-      9
-     ],
-     "font_px": 15.1,
-     "scale": 0.61,
-     "weight": 500,
-     "stroke_ratio": 3.47,
-     "paragraph_lines": 3,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s4_3_1_047_0",
-     "ko": "message (위반시 표시)",
-     "tr": "message (on violation)",
-     "box_px_orig": [
-      911,
-      503,
-      101,
-      11
-     ],
-     "font_px": 15.1,
-     "scale": 0.61,
-     "weight": 500,
-     "stroke_ratio": 3.58,
-     "paragraph_lines": 3,
-     "lines_in_segment": 1,
-     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -7149,13 +6522,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -7206,14 +6579,14 @@
       27,
       10
      ],
-     "font_px": 22.5,
-     "scale": 1.0,
+     "font_px": 17.4,
+     "scale": 0.774,
      "weight": 700,
      "stroke_ratio": 4.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": ""
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_3_1_004_0",
@@ -7225,8 +6598,8 @@
       268,
       19
      ],
-     "font_px": 33.0,
-     "scale": 0.918,
+     "font_px": 32.3,
+     "scale": 0.898,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -7263,8 +6636,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -7282,8 +6655,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -7301,14 +6674,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.15,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_3_1_013_0",
@@ -7320,8 +6693,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -7339,14 +6712,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_3_1_005_1",
@@ -7358,8 +6731,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -7415,8 +6788,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -7434,11 +6807,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -7453,8 +6826,8 @@
       62,
       10
      ],
-     "font_px": 20.0,
-     "scale": 0.892,
+     "font_px": 19.4,
+     "scale": 0.862,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -7472,11 +6845,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -7510,14 +6883,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_3_1_016_1",
@@ -7579,21 +6952,21 @@
     {
      "id": "s4_3_1_032_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       967,
       238,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "right",
+     "flag": ""
     },
     {
      "id": "s4_3_1_033_0",
@@ -7611,7 +6984,7 @@
      "stroke_ratio": 4.32,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": ""
     },
     {
@@ -7624,14 +6997,14 @@
       27,
       9
      ],
-     "font_px": 17.4,
-     "scale": 0.86,
+     "font_px": 14.5,
+     "scale": 0.715,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_3_1_022_0",
@@ -7643,8 +7016,8 @@
       108,
       13
      ],
-     "font_px": 19.7,
-     "scale": 0.673,
+     "font_px": 19.4,
+     "scale": 0.663,
      "weight": 500,
      "stroke_ratio": 5.48,
      "paragraph_lines": 1,
@@ -7662,14 +7035,14 @@
       17,
       10
      ],
-     "font_px": 17.8,
-     "scale": 0.791,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.49,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_3_1_018_0",
@@ -7712,15 +7085,15 @@
     {
      "id": "s4_3_1_037_0",
      "ko": "개",
-     "tr": "item",
+     "tr": "",
      "box_px_orig": [
       1168,
       276,
       8,
       10
      ],
-     "font_px": 20.4,
-     "scale": 0.907,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.98,
      "paragraph_lines": 1,
@@ -7757,8 +7130,8 @@
       17,
       13
      ],
-     "font_px": 13.6,
-     "scale": 0.603,
+     "font_px": 12.4,
+     "scale": 0.553,
      "weight": 500,
      "stroke_ratio": 3.96,
      "paragraph_lines": 1,
@@ -7776,8 +7149,8 @@
       18,
       10
      ],
-     "font_px": 18.0,
-     "scale": 0.8,
+     "font_px": 17.3,
+     "scale": 0.77,
      "weight": 700,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
@@ -7795,14 +7168,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s4_3_1_042_0",
@@ -7833,8 +7206,8 @@
       47,
       12
      ],
-     "font_px": 16.5,
-     "scale": 0.668,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -7864,64 +7237,64 @@
     {
      "id": "s4_3_1_045_0",
      "ko": "정규식 palttern (flags 미지원 - 우속 RF). BE 검중 시 case-",
-     "tr": "Regex pattern (flags not supported — follow-up RF). BE validation is case-",
+     "tr": "Regex pattern (flags not supported — follow-up",
      "box_px_orig": [
       911,
       468,
       249,
       11
      ],
-     "font_px": 15.1,
-     "scale": 0.61,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.31,
-     "paragraph_lines": 3,
+     "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_3_1_046_0",
      "ko": "sensitive 기본.",
-     "tr": "sensitive by default.",
+     "tr": "RF). BE validation is case- sensitive by default.",
      "box_px_orig": [
       911,
       482,
       63,
       9
      ],
-     "font_px": 15.1,
-     "scale": 0.61,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.47,
-     "paragraph_lines": 3,
+     "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_3_1_047_0",
      "ko": "message (위반시 표시)",
-     "tr": "message (on violation)",
+     "tr": "message (shown on violation)",
      "box_px_orig": [
       911,
       503,
       101,
       11
      ],
-     "font_px": 15.1,
-     "scale": 0.61,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.58,
-     "paragraph_lines": 3,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s4_3_1_048_0",
      "ko": "한글만 입력 가능합니다",
-     "tr": "Only Korean allowed",
+     "tr": "Only Korean (Hangul) can be entered",
      "box_px_orig": [
       924,
       531,
@@ -7997,15 +7370,15 @@
     {
      "id": "s4_3_1_053_0",
      "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검중",
-     "tr": "Rules here are checked before saving. Register validations",
+     "tr": "Rules here are checked before saving. Register validations that",
      "box_px_orig": [
       898,
       679,
       282,
       10
      ],
-     "font_px": 21.2,
-     "scale": 0.941,
+     "font_px": 18.4,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.53,
      "paragraph_lines": 2,
@@ -8016,15 +7389,15 @@
     {
      "id": "s4_3_1_054_0",
      "ko": "은 프로젝트 검증 규칙에서 등록하세요.",
-     "tr": "that reference values in other forms in Project validation rules.",
+     "tr": "reference values in other forms in Project validation rules.",
      "box_px_orig": [
       898,
       696,
       159,
       10
      ],
-     "font_px": 21.2,
-     "scale": 0.941,
+     "font_px": 18.4,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 3.56,
      "paragraph_lines": 2,
@@ -8052,13 +7425,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 19.0,
+     "scale": 0.768,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -8081,6 +7454,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s5_1_1_008_1",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1069,
+      72,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.13,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s5_1_1_009_0",
      "ko": "발행",
      "tr": "Publish",
@@ -8090,33 +7482,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s5_1_1_004_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      81,
-      101,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s5_1_1_004_1",
@@ -8128,8 +7501,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -8147,48 +7520,10 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_1_1_021_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      729,
-      194,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_1_1_028_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      968,
-      239,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -8204,32 +7539,32 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
-     "id": "s5_1_1_022_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
+     "id": "s5_1_1_030_0",
+     "ko": "조건부",
+     "tr": "Conditional",
      "box_px_orig": [
-      314,
-      335,
-      403,
-      12
+      1141,
+      240,
+      27,
+      9
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
+     "font_px": 15.4,
+     "scale": 0.761,
+     "weight": 700,
+     "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
+     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -8242,51 +7577,13 @@
       47,
       12
      ],
-     "font_px": 16.5,
-     "scale": 0.668,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_1_1_042_0",
-     "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
-     "tr": "Shown as guidance below the field. Separate from the form builder note (description)",
-     "box_px_orig": [
-      899,
-      593,
-      264,
-      10
-     ],
-     "font_px": 13.6,
-     "scale": 0.638,
-     "weight": 500,
-     "stroke_ratio": 3.5,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_1_1_043_0",
-     "ko": "사용자 입력 시 보조.",
-     "tr": "assists user input.",
-     "box_px_orig": [
-      899,
-      606,
-      83,
-      9
-     ],
-     "font_px": 13.6,
-     "scale": 0.638,
-     "weight": 500,
-     "stroke_ratio": 3.32,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -8301,13 +7598,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 19.0,
+     "scale": 0.768,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -8358,8 +7655,8 @@
       268,
       19
      ],
-     "font_px": 33.1,
-     "scale": 0.921,
+     "font_px": 32.4,
+     "scale": 0.901,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -8396,8 +7693,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -8415,8 +7712,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -8434,14 +7731,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.13,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s5_1_1_009_0",
@@ -8453,8 +7750,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -8472,14 +7769,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_1_1_004_1",
@@ -8491,8 +7788,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -8548,8 +7845,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -8567,11 +7864,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -8586,8 +7883,8 @@
       60,
       15
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -8605,11 +7902,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -8643,14 +7940,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_1_1_012_1",
@@ -8712,21 +8009,21 @@
     {
      "id": "s5_1_1_028_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       968,
       239,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_1_1_029_0",
@@ -8738,14 +8035,14 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s5_1_1_030_0",
@@ -8757,14 +8054,14 @@
       27,
       9
      ],
-     "font_px": 18.1,
-     "scale": 0.896,
+     "font_px": 15.4,
+     "scale": 0.761,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s5_1_1_019_0",
@@ -8871,8 +8168,8 @@
       251,
       10
      ],
-     "font_px": 21.2,
-     "scale": 0.945,
+     "font_px": 20.3,
+     "scale": 0.904,
      "weight": 500,
      "stroke_ratio": 3.28,
      "paragraph_lines": 1,
@@ -8890,14 +8187,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s5_1_1_035_0",
@@ -8928,8 +8225,8 @@
       47,
       12
      ],
-     "font_px": 16.5,
-     "scale": 0.668,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -9035,40 +8332,40 @@
     {
      "id": "s5_1_1_042_0",
      "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
-     "tr": "Shown as guidance below the field. Separate from the form builder note (description)",
+     "tr": "Shown as guidance below the field. Separate from the",
      "box_px_orig": [
       899,
       593,
       264,
       10
      ],
-     "font_px": 13.6,
-     "scale": 0.638,
+     "font_px": 21.3,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.5,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_1_1_043_0",
      "ko": "사용자 입력 시 보조.",
-     "tr": "assists user input.",
+     "tr": "form builder note (description) assists user input.",
      "box_px_orig": [
       899,
       606,
       83,
       9
      ],
-     "font_px": 13.6,
-     "scale": 0.638,
+     "font_px": 21.3,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.32,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     }
    ]
   },
@@ -9081,44 +8378,6 @@
    "replaced": 18,
    "flags": [
     {
-     "id": "s5_2_1_023_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      487,
-      35,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_2_1_012_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      726,
-      80,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s5_2_1_013_0",
      "ko": "검증",
      "tr": "Validation",
@@ -9128,46 +8387,27 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_2_1_019_0",
-     "ko": "조건부",
-     "tr": "Conditional",
-     "box_px_orig": [
-      899,
-      81,
-      27,
-      9
-     ],
-     "font_px": 17.0,
-     "scale": 0.842,
-     "weight": 700,
-     "stroke_ratio": 3.42,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s5_2_1_004_0",
      "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및",
-     "tr": "Record the adverse reaction's onset, main symptoms,",
+     "tr": "Record the adverse reaction's onset, main",
      "box_px_orig": [
       72,
       176,
       223,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.712,
+     "font_px": 21.2,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 4.08,
      "paragraph_lines": 2,
@@ -9178,15 +8418,15 @@
     {
      "id": "s5_2_1_005_0",
      "ko": "조치 내용을 구체적으로 기록합니다.",
-     "tr": "duration and actions taken in detail.",
+     "tr": "symptoms, duration and actions taken in detail.",
      "box_px_orig": [
       71,
       192,
       177,
       11
      ],
-     "font_px": 18.4,
-     "scale": 0.712,
+     "font_px": 21.2,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 4.11,
      "paragraph_lines": 2,
@@ -9204,8 +8444,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -9225,11 +8465,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -9244,8 +8484,8 @@
       60,
       10
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -9263,11 +8503,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -9301,14 +8541,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_2_1_011_0",
@@ -9332,21 +8572,21 @@
     {
      "id": "s5_2_1_012_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       726,
       80,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_2_1_013_0",
@@ -9358,14 +8598,14 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s5_2_1_019_0",
@@ -9377,14 +8617,14 @@
       27,
       9
      ],
-     "font_px": 17.0,
-     "scale": 0.842,
+     "font_px": 17.3,
+     "scale": 0.856,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s5_2_1_003_0",
@@ -9453,8 +8693,8 @@
       251,
       10
      ],
-     "font_px": 21.0,
-     "scale": 0.935,
+     "font_px": 20.3,
+     "scale": 0.904,
      "weight": 500,
      "stroke_ratio": 3.28,
      "paragraph_lines": 1,
@@ -9465,15 +8705,15 @@
     {
      "id": "s5_2_1_004_0",
      "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및",
-     "tr": "Record the adverse reaction's onset, main symptoms,",
+     "tr": "Record the adverse reaction's onset, main",
      "box_px_orig": [
       72,
       176,
       223,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.712,
+     "font_px": 21.2,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 4.08,
      "paragraph_lines": 2,
@@ -9484,15 +8724,15 @@
     {
      "id": "s5_2_1_005_0",
      "ko": "조치 내용을 구체적으로 기록합니다.",
-     "tr": "duration and actions taken in detail.",
+     "tr": "symptoms, duration and actions taken in detail.",
      "box_px_orig": [
       71,
       192,
       177,
       11
      ],
-     "font_px": 18.4,
-     "scale": 0.712,
+     "font_px": 21.2,
+     "scale": 0.82,
      "weight": 500,
      "stroke_ratio": 4.11,
      "paragraph_lines": 2,
@@ -9548,8 +8788,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -9568,44 +8808,6 @@
    "replaced": 21,
    "flags": [
     {
-     "id": "s5_3_1_003_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      481,
-      32,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_3_1_008_1",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      720,
-      77,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s5_3_1_009_0",
      "ko": "검증",
      "tr": "Validation",
@@ -9615,13 +8817,32 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+    },
+    {
+     "id": "s5_3_1_010_0",
+     "ko": "조건부",
+     "tr": "Conditional",
+     "box_px_orig": [
+      893,
+      78,
+      27,
+      9
+     ],
+     "font_px": 14.5,
+     "scale": 0.715,
+     "weight": 700,
+     "stroke_ratio": 3.42,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -9634,51 +8855,13 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_3_1_021_0",
-     "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
-     "tr": "Shown as guidance below the field. Separate from the form builder note (description)",
-     "box_px_orig": [
-      651,
-      431,
-      264,
-      10
-     ],
-     "font_px": 13.6,
-     "scale": 0.638,
-     "weight": 500,
-     "stroke_ratio": 3.5,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_3_1_022_0",
-     "ko": "사용자 입력 시 보조.",
-     "tr": "assists user input.",
-     "box_px_orig": [
-      651,
-      444,
-      83,
-      9
-     ],
-     "font_px": 13.6,
-     "scale": 0.638,
-     "weight": 500,
-     "stroke_ratio": 3.32,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -9693,11 +8876,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -9712,8 +8895,8 @@
       64,
       15
      ],
-     "font_px": 20.7,
-     "scale": 0.921,
+     "font_px": 20.5,
+     "scale": 0.911,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -9731,11 +8914,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -9769,14 +8952,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_3_1_008_0",
@@ -9800,21 +8983,21 @@
     {
      "id": "s5_3_1_008_1",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       720,
       77,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_3_1_009_0",
@@ -9826,14 +9009,14 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s5_3_1_010_0",
@@ -9845,14 +9028,14 @@
       27,
       9
      ],
-     "font_px": 17.4,
-     "scale": 0.86,
+     "font_px": 14.5,
+     "scale": 0.715,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s5_3_1_011_0",
@@ -9902,8 +9085,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -9921,8 +9104,8 @@
       251,
       10
      ],
-     "font_px": 21.1,
-     "scale": 0.938,
+     "font_px": 20.4,
+     "scale": 0.907,
      "weight": 500,
      "stroke_ratio": 3.28,
      "paragraph_lines": 1,
@@ -10047,40 +9230,40 @@
     {
      "id": "s5_3_1_021_0",
      "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
-     "tr": "Shown as guidance below the field. Separate from the form builder note (description)",
+     "tr": "Shown as guidance below the field. Separate from the",
      "box_px_orig": [
       651,
       431,
       264,
       10
      ],
-     "font_px": 13.6,
-     "scale": 0.638,
+     "font_px": 21.3,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.5,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_3_1_022_0",
      "ko": "사용자 입력 시 보조.",
-     "tr": "assists user input.",
+     "tr": "form builder note (description) assists user input.",
      "box_px_orig": [
       651,
       444,
       83,
       9
      ],
-     "font_px": 13.6,
-     "scale": 0.638,
+     "font_px": 21.3,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.32,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     }
    ]
   },
@@ -10102,13 +9285,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 19.4,
+     "scale": 0.784,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -10131,6 +9314,44 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s5_4_1_004_0",
+     "ko": "변경됨",
+     "tr": "Modified",
+     "box_px_orig": [
+      301,
+      38,
+      27,
+      10
+     ],
+     "font_px": 17.4,
+     "scale": 0.774,
+     "weight": 700,
+     "stroke_ratio": 4.95,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s5_4_1_011_1",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1070,
+      71,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.15,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s5_4_1_012_1",
      "ko": "발행",
      "tr": "Publish",
@@ -10140,33 +9361,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s5_4_1_006_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      82,
-      100,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s5_4_1_006_1",
@@ -10178,8 +9380,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -10197,48 +9399,10 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_4_1_025_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      730,
-      193,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_4_1_033_0",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      969,
-      238,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -10254,52 +9418,14 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_4_1_036_0",
-     "ko": "조건부",
-     "tr": "Conditional",
-     "box_px_orig": [
-      1142,
-      239,
-      27,
-      9
-     ],
-     "font_px": 16.3,
-     "scale": 0.806,
-     "weight": 700,
-     "stroke_ratio": 3.42,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_4_1_026_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      315,
-      334,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s5_4_1_028_1",
@@ -10311,51 +9437,13 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_4_1_047_0",
-     "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
-     "tr": "Shown as guidance below the field. Separate from the form builder note (description)",
-     "box_px_orig": [
-      900,
-      592,
-      264,
-      10
-     ],
-     "font_px": 13.6,
-     "scale": 0.638,
-     "weight": 500,
-     "stroke_ratio": 3.5,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s5_4_1_048_0",
-     "ko": "사용자 입력 시 보조.",
-     "tr": "assists user input.",
-     "box_px_orig": [
-      900,
-      605,
-      83,
-      9
-     ],
-     "font_px": 13.6,
-     "scale": 0.638,
-     "weight": 500,
-     "stroke_ratio": 3.32,
-     "paragraph_lines": 2,
-     "lines_in_segment": 1,
-     "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -10370,13 +9458,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 19.4,
+     "scale": 0.784,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -10427,14 +9515,14 @@
       27,
       10
      ],
-     "font_px": 22.5,
-     "scale": 1.0,
+     "font_px": 17.4,
+     "scale": 0.774,
      "weight": 700,
      "stroke_ratio": 4.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": ""
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s5_4_1_005_1",
@@ -10446,8 +9534,8 @@
       273,
       20
      ],
-     "font_px": 33.1,
-     "scale": 0.921,
+     "font_px": 32.4,
+     "scale": 0.901,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -10484,8 +9572,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -10503,8 +9591,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -10522,14 +9610,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.15,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s5_4_1_012_1",
@@ -10541,8 +9629,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -10560,14 +9648,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_4_1_006_1",
@@ -10579,8 +9667,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -10636,8 +9724,8 @@
       71,
       12
      ],
-     "font_px": 18.4,
-     "scale": 0.684,
+     "font_px": 17.4,
+     "scale": 0.644,
      "weight": 700,
      "stroke_ratio": 5.2,
      "paragraph_lines": 1,
@@ -10655,11 +9743,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -10674,8 +9762,8 @@
       60,
       10
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -10693,11 +9781,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -10731,14 +9819,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_4_1_015_1",
@@ -10800,21 +9888,21 @@
     {
      "id": "s5_4_1_033_0",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       969,
       238,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_4_1_034_0",
@@ -10826,14 +9914,14 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 12.5,
+     "scale": 0.555,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s5_4_1_036_0",
@@ -10845,14 +9933,14 @@
       27,
       9
      ],
-     "font_px": 16.3,
-     "scale": 0.806,
+     "font_px": 17.4,
+     "scale": 0.86,
      "weight": 700,
      "stroke_ratio": 3.42,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s5_4_1_023_0",
@@ -10978,8 +10066,8 @@
       251,
       10
      ],
-     "font_px": 20.9,
-     "scale": 0.929,
+     "font_px": 19.5,
+     "scale": 0.868,
      "weight": 500,
      "stroke_ratio": 3.28,
      "paragraph_lines": 1,
@@ -10997,14 +10085,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s5_4_1_027_1",
@@ -11073,8 +10161,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -11092,8 +10180,8 @@
       231,
       13
      ],
-     "font_px": 27.1,
-     "scale": 0.926,
+     "font_px": 26.5,
+     "scale": 0.906,
      "weight": 500,
      "stroke_ratio": 4.63,
      "paragraph_lines": 1,
@@ -11149,8 +10237,8 @@
       260,
       13
      ],
-     "font_px": 27.1,
-     "scale": 0.926,
+     "font_px": 26.5,
+     "scale": 0.906,
      "weight": 400,
      "stroke_ratio": 4.78,
      "paragraph_lines": 1,
@@ -11161,40 +10249,40 @@
     {
      "id": "s5_4_1_047_0",
      "ko": "필드 하단에 안내 문구로 노존. 폼 빌더 메모(description) 와 별개",
-     "tr": "Shown as guidance below the field. Separate from the form builder note (description)",
+     "tr": "Shown as guidance below the field. Separate from the",
      "box_px_orig": [
       900,
       592,
       264,
       10
      ],
-     "font_px": 13.6,
-     "scale": 0.638,
+     "font_px": 21.3,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.5,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s5_4_1_048_0",
      "ko": "사용자 입력 시 보조.",
-     "tr": "assists user input.",
+     "tr": "form builder note (description) assists user input.",
      "box_px_orig": [
       900,
       605,
       83,
       9
      ],
-     "font_px": 13.6,
-     "scale": 0.638,
+     "font_px": 21.3,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 3.32,
      "paragraph_lines": 2,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     }
    ]
   },
@@ -11216,13 +10304,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -11245,6 +10333,44 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s6_1_1_002_0",
+     "ko": "변경됨",
+     "tr": "Modified",
+     "box_px_orig": [
+      299,
+      40,
+      27,
+      10
+     ],
+     "font_px": 17.4,
+     "scale": 0.774,
+     "weight": 700,
+     "stroke_ratio": 4.95,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_1_1_008_1",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1068,
+      73,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.15,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s6_1_1_009_1",
      "ko": "발행",
      "tr": "Publish",
@@ -11254,33 +10380,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s6_1_1_004_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      80,
-      102,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s6_1_1_004_1",
@@ -11292,8 +10399,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -11311,86 +10418,10 @@
       73,
       12
      ],
-     "font_px": 17.6,
-     "scale": 0.651,
+     "font_px": 16.5,
+     "scale": 0.611,
      "weight": 700,
      "stroke_ratio": 5.12,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_1_1_020_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      728,
-      195,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_1_1_026_1",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      967,
-      240,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_1_1_027_0",
-     "ko": "검증",
-     "tr": "Validation",
-     "box_px_orig": [
-      1033,
-      240,
-      17,
-      10
-     ],
-     "font_px": 16.0,
-     "scale": 0.712,
-     "weight": 700,
-     "stroke_ratio": 4.56,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_1_1_028_0",
-     "ko": "조건부",
-     "tr": "Conditional",
-     "box_px_orig": [
-      1139,
-      240,
-      28,
-      10
-     ],
-     "font_px": 18.5,
-     "scale": 0.823,
-     "weight": 500,
-     "stroke_ratio": 3.22,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -11406,8 +10437,8 @@
       12,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.656,
+     "font_px": 17.4,
+     "scale": 0.596,
      "weight": 500,
      "stroke_ratio": 6.07,
      "paragraph_lines": 1,
@@ -11425,29 +10456,10 @@
       261,
       10
      ],
-     "font_px": 15.5,
-     "scale": 0.688,
+     "font_px": 13.3,
+     "scale": 0.592,
      "weight": 700,
      "stroke_ratio": 3.68,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_1_1_037_0",
-     "ko": "예",
-     "tr": "Ex",
-     "box_px_orig": [
-      911,
-      392,
-      10,
-      11
-     ],
-     "font_px": 18.3,
-     "scale": 0.741,
-     "weight": 500,
-     "stroke_ratio": 5.68,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -11463,32 +10475,13 @@
       250,
       9
      ],
-     "font_px": 14.7,
-     "scale": 0.725,
+     "font_px": 13.3,
+     "scale": 0.66,
      "weight": 700,
      "stroke_ratio": 3.71,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_1_1_031_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      313,
-      445,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -11501,8 +10494,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -11513,17 +10506,17 @@
     {
      "id": "s6_1_1_043_0",
      "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
-     "tr": "Precise per-operator value branching (number widget) is a follow-up",
+     "tr": "Precise per-operator value branching (number widget) is a follow-up RF.",
      "box_px_orig": [
       898,
       571,
-      215,
+      232,
       10
      ],
-     "font_px": 13.6,
-     "scale": 0.606,
+     "font_px": 15.3,
+     "scale": 0.682,
      "weight": 700,
-     "stroke_ratio": 3.55,
+     "stroke_ratio": 3.51,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -11541,13 +10534,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -11598,14 +10591,14 @@
       27,
       10
      ],
-     "font_px": 22.5,
-     "scale": 1.0,
+     "font_px": 17.4,
+     "scale": 0.774,
      "weight": 700,
      "stroke_ratio": 4.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": ""
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s6_1_1_003_0",
@@ -11617,8 +10610,8 @@
       270,
       16
      ],
-     "font_px": 33.6,
-     "scale": 0.934,
+     "font_px": 33.3,
+     "scale": 0.925,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -11655,8 +10648,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -11674,8 +10667,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -11693,14 +10686,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.15,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s6_1_1_009_1",
@@ -11712,8 +10705,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -11731,14 +10724,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s6_1_1_004_1",
@@ -11750,8 +10743,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -11807,8 +10800,8 @@
       73,
       12
      ],
-     "font_px": 17.6,
-     "scale": 0.651,
+     "font_px": 16.5,
+     "scale": 0.611,
      "weight": 700,
      "stroke_ratio": 5.12,
      "paragraph_lines": 1,
@@ -11826,11 +10819,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -11845,8 +10838,8 @@
       60,
       10
      ],
-     "font_px": 19.4,
-     "scale": 0.863,
+     "font_px": 18.3,
+     "scale": 0.813,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -11864,11 +10857,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -11902,14 +10895,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s6_1_1_012_1",
@@ -11971,21 +10964,21 @@
     {
      "id": "s6_1_1_026_1",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       967,
       240,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s6_1_1_027_0",
@@ -11997,14 +10990,14 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s6_1_1_028_0",
@@ -12016,14 +11009,14 @@
       28,
       10
      ],
-     "font_px": 18.5,
-     "scale": 0.823,
+     "font_px": 19.4,
+     "scale": 0.863,
      "weight": 500,
      "stroke_ratio": 3.22,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "flag": ""
     },
     {
      "id": "s6_1_1_024_0",
@@ -12054,8 +11047,8 @@
       12,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.656,
+     "font_px": 17.4,
+     "scale": 0.596,
      "weight": 500,
      "stroke_ratio": 6.07,
      "paragraph_lines": 1,
@@ -12111,8 +11104,8 @@
       168,
       16
      ],
-     "font_px": 27.9,
-     "scale": 0.885,
+     "font_px": 27.2,
+     "scale": 0.865,
      "weight": 500,
      "stroke_ratio": 4.84,
      "paragraph_lines": 1,
@@ -12149,8 +11142,8 @@
       261,
       10
      ],
-     "font_px": 15.5,
-     "scale": 0.688,
+     "font_px": 13.3,
+     "scale": 0.592,
      "weight": 700,
      "stroke_ratio": 3.68,
      "paragraph_lines": 1,
@@ -12237,21 +11230,21 @@
     {
      "id": "s6_1_1_037_0",
      "ko": "예",
-     "tr": "Ex",
+     "tr": "e.g. gender",
      "box_px_orig": [
       911,
       392,
-      10,
+      68,
       11
      ],
-     "font_px": 18.3,
-     "scale": 0.741,
-     "weight": 500,
-     "stroke_ratio": 5.68,
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 700,
+     "stroke_ratio": 4.03,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s6_1_1_038_0",
@@ -12263,8 +11256,8 @@
       250,
       9
      ],
-     "font_px": 14.7,
-     "scale": 0.725,
+     "font_px": 13.3,
+     "scale": 0.66,
      "weight": 700,
      "stroke_ratio": 3.71,
      "paragraph_lines": 1,
@@ -12282,14 +11275,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s6_1_1_040_0",
@@ -12320,8 +11313,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -12351,17 +11344,17 @@
     {
      "id": "s6_1_1_043_0",
      "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
-     "tr": "Precise per-operator value branching (number widget) is a follow-up",
+     "tr": "Precise per-operator value branching (number widget) is a follow-up RF.",
      "box_px_orig": [
       898,
       571,
-      215,
+      232,
       10
      ],
-     "font_px": 13.6,
-     "scale": 0.606,
+     "font_px": 15.3,
+     "scale": 0.682,
      "weight": 700,
-     "stroke_ratio": 3.55,
+     "stroke_ratio": 3.51,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -12370,15 +11363,15 @@
     {
      "id": "s6_1_1_044_0",
      "ko": "예시: fieldKey-\"gender\"-operator=\"eq\" - value=\"M\" - 성별",
-     "tr": "Example: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\"",
+     "tr": "Example: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\" →",
      "box_px_orig": [
       907,
       605,
       262,
       11
      ],
-     "font_px": 21.7,
-     "scale": 0.964,
+     "font_px": 20.3,
+     "scale": 0.903,
      "weight": 500,
      "stroke_ratio": 3.1,
      "paragraph_lines": 2,
@@ -12389,15 +11382,15 @@
     {
      "id": "s6_1_1_045_0",
      "ko": "이 M 일 때만 본 필드 노존.",
-     "tr": "→ show this field only when gender is M.",
+     "tr": "show this field only when gender is M.",
      "box_px_orig": [
       907,
       622,
       108,
       9
      ],
-     "font_px": 21.7,
-     "scale": 0.964,
+     "font_px": 19.4,
+     "scale": 0.863,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 2,
@@ -12425,13 +11418,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -12454,6 +11447,44 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s6_2_1_004_0",
+     "ko": "변경됨",
+     "tr": "Modified",
+     "box_px_orig": [
+      298,
+      37,
+      27,
+      10
+     ],
+     "font_px": 17.4,
+     "scale": 0.774,
+     "weight": 700,
+     "stroke_ratio": 4.95,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s6_2_1_019_1",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      1067,
+      70,
+      22,
+      11
+     ],
+     "font_px": 19.3,
+     "scale": 0.78,
+     "weight": 500,
+     "stroke_ratio": 4.15,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s6_2_1_020_1",
      "ko": "발행",
      "tr": "Publish",
@@ -12463,33 +11494,14 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
-    },
-    {
-     "id": "s6_2_1_006_0",
-     "ko": "반복 입력 양식",
-     "tr": "Repeating form",
-     "box_px_orig": [
-      79,
-      99,
-      70,
-      14
-     ],
-     "font_px": 19.2,
-     "scale": 0.778,
-     "weight": 500,
-     "stroke_ratio": 4.45,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s6_2_1_006_1",
@@ -12501,8 +11513,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -12520,70 +11532,13 @@
       73,
       12
      ],
-     "font_px": 17.6,
-     "scale": 0.651,
+     "font_px": 16.5,
+     "scale": 0.611,
      "weight": 700,
      "stroke_ratio": 5.12,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_2_1_028_0",
-     "ko": "필드",
-     "tr": "field",
-     "box_px_orig": [
-      727,
-      192,
-      20,
-      11
-     ],
-     "font_px": 19.8,
-     "scale": 0.8,
-     "weight": 500,
-     "stroke_ratio": 4.19,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_2_1_038_1",
-     "ko": "타입 설정",
-     "tr": "Type settings",
-     "box_px_orig": [
-      966,
-      237,
-      37,
-      10
-     ],
-     "font_px": 18.7,
-     "scale": 0.832,
-     "weight": 500,
-     "stroke_ratio": 4.44,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_2_1_039_0",
-     "ko": "검증",
-     "tr": "Validation",
-     "box_px_orig": [
-      1032,
-      237,
-      17,
-      10
-     ],
-     "font_px": 16.0,
-     "scale": 0.712,
-     "weight": 700,
-     "stroke_ratio": 4.56,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -12596,8 +11551,8 @@
       12,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.656,
+     "font_px": 17.4,
+     "scale": 0.596,
      "weight": 500,
      "stroke_ratio": 6.07,
      "paragraph_lines": 1,
@@ -12615,8 +11570,8 @@
       261,
       10
      ],
-     "font_px": 15.8,
-     "scale": 0.701,
+     "font_px": 13.4,
+     "scale": 0.594,
      "weight": 700,
      "stroke_ratio": 3.68,
      "paragraph_lines": 1,
@@ -12653,32 +11608,13 @@
       250,
       9
      ],
-     "font_px": 14.9,
-     "scale": 0.737,
+     "font_px": 13.4,
+     "scale": 0.663,
      "weight": 700,
      "stroke_ratio": 3.71,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s6_2_1_033_0",
-     "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
-     "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
-     "box_px_orig": [
-      312,
-      442,
-      403,
-      12
-     ],
-     "font_px": 21.2,
-     "scale": 0.785,
-     "weight": 500,
-     "stroke_ratio": 3.95,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "right",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -12691,8 +11627,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -12703,17 +11639,17 @@
     {
      "id": "s6_2_1_051_0",
      "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
-     "tr": "Precise per-operator value branching (number widget) is a follow-up",
+     "tr": "Precise per-operator value branching (number widget) is a follow-up RF.",
      "box_px_orig": [
       897,
       568,
-      215,
+      232,
       10
      ],
-     "font_px": 13.6,
-     "scale": 0.606,
+     "font_px": 16.3,
+     "scale": 0.726,
      "weight": 700,
-     "stroke_ratio": 3.55,
+     "stroke_ratio": 3.51,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -12731,13 +11667,13 @@
       42,
       11
      ],
-     "font_px": 16.2,
-     "scale": 0.656,
+     "font_px": 18.6,
+     "scale": 0.754,
      "weight": 500,
      "stroke_ratio": 3.76,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -12788,14 +11724,14 @@
       27,
       10
      ],
-     "font_px": 22.5,
-     "scale": 1.0,
+     "font_px": 17.4,
+     "scale": 0.774,
      "weight": 700,
      "stroke_ratio": 4.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "flag": ""
+     "align": "center",
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s6_2_1_005_0",
@@ -12807,8 +11743,8 @@
       268,
       16
      ],
-     "font_px": 33.4,
-     "scale": 0.929,
+     "font_px": 33.5,
+     "scale": 0.931,
      "weight": 700,
      "stroke_ratio": 6.83,
      "paragraph_lines": 1,
@@ -12845,8 +11781,8 @@
       20,
       12
      ],
-     "font_px": 22.0,
-     "scale": 0.889,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 5.27,
      "paragraph_lines": 1,
@@ -12864,8 +11800,8 @@
       42,
       11
      ],
-     "font_px": 21.9,
-     "scale": 0.884,
+     "font_px": 22.3,
+     "scale": 0.903,
      "weight": 700,
      "stroke_ratio": 4.91,
      "paragraph_lines": 1,
@@ -12883,14 +11819,14 @@
       22,
       11
      ],
-     "font_px": 22.3,
-     "scale": 0.903,
+     "font_px": 19.3,
+     "scale": 0.78,
      "weight": 500,
      "stroke_ratio": 4.15,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s6_2_1_020_1",
@@ -12902,8 +11838,8 @@
       22,
       11
      ],
-     "font_px": 15.4,
-     "scale": 0.624,
+     "font_px": 12.5,
+     "scale": 0.505,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
@@ -12921,14 +11857,14 @@
       70,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.778,
+     "font_px": 21.8,
+     "scale": 0.883,
      "weight": 500,
      "stroke_ratio": 4.45,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s6_2_1_006_1",
@@ -12940,8 +11876,8 @@
       57,
       11
      ],
-     "font_px": 18.5,
-     "scale": 0.75,
+     "font_px": 19.2,
+     "scale": 0.775,
      "weight": 500,
      "stroke_ratio": 3.86,
      "paragraph_lines": 1,
@@ -12997,8 +11933,8 @@
       73,
       12
      ],
-     "font_px": 17.6,
-     "scale": 0.651,
+     "font_px": 16.5,
+     "scale": 0.611,
      "weight": 700,
      "stroke_ratio": 5.12,
      "paragraph_lines": 1,
@@ -13016,11 +11952,11 @@
       39,
       10
      ],
-     "font_px": 25.8,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.52,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -13035,8 +11971,8 @@
       62,
       10
      ],
-     "font_px": 20.0,
-     "scale": 0.892,
+     "font_px": 19.4,
+     "scale": 0.862,
      "weight": 500,
      "stroke_ratio": 3.66,
      "paragraph_lines": 1,
@@ -13054,11 +11990,11 @@
       108,
       13
      ],
-     "font_px": 25.8,
+     "font_px": 29.2,
      "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 6.45,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "flag": ""
@@ -13092,14 +12028,14 @@
       20,
       11
      ],
-     "font_px": 19.8,
-     "scale": 0.8,
+     "font_px": 24.7,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.19,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s6_2_1_011_1",
@@ -13161,21 +12097,21 @@
     {
      "id": "s6_2_1_038_1",
      "ko": "타입 설정",
-     "tr": "Type settings",
+     "tr": "Type",
      "box_px_orig": [
       966,
       237,
       37,
       10
      ],
-     "font_px": 18.7,
-     "scale": 0.832,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 500,
      "stroke_ratio": 4.44,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s6_2_1_039_0",
@@ -13187,14 +12123,14 @@
       17,
       10
      ],
-     "font_px": 16.0,
-     "scale": 0.712,
+     "font_px": 22.5,
+     "scale": 1.0,
      "weight": 700,
      "stroke_ratio": 4.56,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s6_2_1_040_0",
@@ -13206,13 +12142,13 @@
       28,
       10
      ],
-     "font_px": 20.5,
-     "scale": 0.912,
+     "font_px": 19.4,
+     "scale": 0.863,
      "weight": 500,
      "stroke_ratio": 3.22,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "flag": ""
     },
     {
@@ -13244,8 +12180,8 @@
       12,
       14
      ],
-     "font_px": 19.2,
-     "scale": 0.656,
+     "font_px": 17.4,
+     "scale": 0.596,
      "weight": 500,
      "stroke_ratio": 6.07,
      "paragraph_lines": 1,
@@ -13301,8 +12237,8 @@
       168,
       16
      ],
-     "font_px": 27.9,
-     "scale": 0.885,
+     "font_px": 27.2,
+     "scale": 0.865,
      "weight": 500,
      "stroke_ratio": 4.84,
      "paragraph_lines": 1,
@@ -13339,8 +12275,8 @@
       261,
       10
      ],
-     "font_px": 15.8,
-     "scale": 0.701,
+     "font_px": 13.4,
+     "scale": 0.594,
      "weight": 700,
      "stroke_ratio": 3.68,
      "paragraph_lines": 1,
@@ -13453,8 +12389,8 @@
       250,
       9
      ],
-     "font_px": 14.9,
-     "scale": 0.737,
+     "font_px": 13.4,
+     "scale": 0.663,
      "weight": 700,
      "stroke_ratio": 3.71,
      "paragraph_lines": 1,
@@ -13472,14 +12408,14 @@
       403,
       12
      ],
-     "font_px": 21.2,
-     "scale": 0.785,
+     "font_px": 25.4,
+     "scale": 0.941,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "right",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "left",
+     "flag": ""
     },
     {
      "id": "s6_2_1_048_0",
@@ -13510,8 +12446,8 @@
       47,
       11
      ],
-     "font_px": 17.1,
-     "scale": 0.693,
+     "font_px": 15.4,
+     "scale": 0.622,
      "weight": 700,
      "stroke_ratio": 4.17,
      "paragraph_lines": 1,
@@ -13522,17 +12458,17 @@
     {
      "id": "s6_2_1_051_0",
      "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
-     "tr": "Precise per-operator value branching (number widget) is a follow-up",
+     "tr": "Precise per-operator value branching (number widget) is a follow-up RF.",
      "box_px_orig": [
       897,
       568,
-      215,
+      232,
       10
      ],
-     "font_px": 13.6,
-     "scale": 0.606,
+     "font_px": 16.3,
+     "scale": 0.726,
      "weight": 700,
-     "stroke_ratio": 3.55,
+     "stroke_ratio": 3.51,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
@@ -13541,15 +12477,15 @@
     {
      "id": "s6_2_1_052_0",
      "ko": "예시: fieldKey-\"gender\"-operator=\"eq\" - value=\"M\" - 성별",
-     "tr": "Example: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\"",
+     "tr": "Example: fieldKey=\"gender\" · operator=\"eq\" · value=\"M\" →",
      "box_px_orig": [
       906,
       602,
       262,
       11
      ],
-     "font_px": 21.7,
-     "scale": 0.964,
+     "font_px": 20.3,
+     "scale": 0.903,
      "weight": 500,
      "stroke_ratio": 3.1,
      "paragraph_lines": 2,
@@ -13560,15 +12496,15 @@
     {
      "id": "s6_2_1_053_0",
      "ko": "이 M 일 때만 본 필드 노존.",
-     "tr": "→ show this field only when gender is M.",
+     "tr": "show this field only when gender is M.",
      "box_px_orig": [
       906,
       619,
       108,
       9
      ],
-     "font_px": 21.7,
-     "scale": 0.964,
+     "font_px": 19.4,
+     "scale": 0.863,
      "weight": 500,
      "stroke_ratio": 3.95,
      "paragraph_lines": 2,

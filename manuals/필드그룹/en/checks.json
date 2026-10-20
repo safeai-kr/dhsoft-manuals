@@ -1,7 +1,7 @@
 {
  "manual": "필드그룹",
  "lang": "en",
- "pages": 49,
+ "pages": 48,
  "checks": {
   "hangul_zero": {
    "pass": true,
@@ -9,15 +9,11 @@
    "bookmarks": [],
    "metadata": [],
    "image_ocr_unchanged_korean": {},
-   "image_ocr_review_changed": {
-    "s4_2_1.png": [
-     "Value range얧"
-    ]
-   }
+   "image_ocr_review_changed": {}
   },
   "header_position": {
    "pass": true,
-   "pages": 39,
+   "pages": 38,
    "bad_top": [],
    "bad_gap": [],
    "header_heights": [
@@ -42,8 +38,8 @@
    "pass": true,
    "fonts": {
     "Pretendard-ExtraBold": 34,
-    "Pretendard-Regular": 19479,
-    "Pretendard-Bold": 11862,
+    "Pretendard-Regular": 19471,
+    "Pretendard-Bold": 11786,
     "Pretendard-Medium": 13175,
     "Unnamed-T3": 52
    },
@@ -54,6 +50,10 @@
    "ko": 87,
    "lang": 87,
    "diff": []
+  },
+  "image_right_edge": {
+   "pass": true,
+   "cut": []
   },
   "tagged_bookmarks": {
    "pass": true,

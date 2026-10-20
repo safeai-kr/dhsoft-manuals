@@ -109,7 +109,8 @@
   "where": [
    "body",
    "image"
-  ]
+  ],
+  "short": "Type"
  },
  {
   "ko": "검증",
@@ -1395,6 +1396,2812 @@
   "status": "unconfirmed",
   "where": [
    "body"
+  ]
+ },
+ {
+  "ko": "검사 패널",
+  "tr": "Test panel",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "검사 항목",
+  "tr": "Test item",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "검사 항목 (N) (중첩 탭)",
+  "tr": "Test items (N)",
+  "type": "tab",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "입력 컬럼 (N) (중첩 탭)",
+  "tr": "Input columns (N)",
+  "type": "tab",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "검사 항목 추가",
+  "tr": "Add test item",
+  "type": "button",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "컬럼 추가",
+  "tr": "Add column",
+  "type": "button",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "검사값 (열 이름)",
+  "tr": "Result",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "판정 (열 이름)",
+  "tr": "Flag",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "임상적 의의 (열 이름)",
+  "tr": "Clinical significance",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "자동 판정",
+  "tr": "auto-flagging / auto-flag",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "재판정",
+  "tr": "re-flagging (re-flag)",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "판정 토큰",
+  "tr": "flag token",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "정상범위",
+  "tr": "normal range",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "「LAB 정상범위」 (좌측 메뉴 화면)",
+  "tr": "“LAB normal ranges”",
+  "type": "menu",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "기관 (정상범위 단위)",
+  "tr": "site",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "표준 패널 불러오기",
+  "tr": "Load standard panel",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "정상범위 자동 판정 지정",
+  "tr": "Normal range auto-flag setup",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "지정 저장",
+  "tr": "Save setup",
+  "type": "button",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "측정값 열 (NUMBER · 1개)",
+  "tr": "Measurement column (NUMBER · 1)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "판정 출력 열",
+  "tr": "Flag output column",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "검사일 필드 (연령 산출 기준일 · 기관별 범위에 필수)",
+  "tr": "Test date field (age reference date · required for site ranges)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "(미지정)",
+  "tr": "(Unset)",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "판정값 매핑 (선택 · 빈칸이면 토큰 그대로)",
+  "tr": "Flag value mapping (optional · blank keeps the token)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "정상 (NORMAL) · 낮음 (LOW) · 높음 (HIGH)",
+  "tr": "Normal (NORMAL) · Low (LOW) · High (HIGH)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "정상 · 비정상",
+  "tr": "Normal · Abnormal",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "표시전용 (입력받지 않음)",
+  "tr": "Display only (no input)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "required (필수 입력)",
+  "tr": "required (Required)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "unit (선택)",
+  "tr": "unit (optional)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "(이름 없음)",
+  "tr": "(Unnamed)",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "혈액검사 결과",
+  "tr": "Blood test results",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "혈당 · 백혈구",
+  "tr": "Glucose · WBC",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "나트륨 · 칼륨 · 염소 · 혈중요소질소 · 크레아티닌 · 칼슘",
+  "tr": "Sodium · Potassium · Chloride · Blood urea nitrogen · Creatinine · Calcium",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 검사 유무",
+  "tr": "Prior test done",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 검사 결과가 있어야 입력 가능합니다.",
+  "tr": "Input is allowed only with a prior test result.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "검사값은 필수 항목입니다.",
+  "tr": "Result is required.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "기록자",
+  "tr": "recorder",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "저작 / 저작자",
+  "tr": "authoring / author",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "날짜",
+  "tr": "Date",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "날짜시간",
+  "tr": "Date-time",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "동의일 이전 입력 금지",
+  "tr": "No entry before consent date",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "피험자 ICF 동의일보다 이른 날짜를 거부합니다. 병력·과거 약물·생년월일처럼 동의 전 기록이 정상인 항목에는 켜지 마세요 — 저장이 막힙니다.",
+  "tr": "Rejects dates earlier than the subject's ICF consent date. Do not enable it for items whose pre-consent records are normal, such as medical history·prior medication·date of birth — saving is blocked.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "동의일",
+  "tr": "consent date",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "동의일 게이트",
+  "tr": "consent date gate",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "ICF 동의일",
+  "tr": "ICF consent date",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "피험자",
+  "tr": "subject",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "표기 형식",
+  "tr": "display format",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "입력 가능 범위",
+  "tr": "allowed input range",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "달력 입력기",
+  "tr": "date picker",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "방문 창(window)",
+  "tr": "visit window",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "노출 기간",
+  "tr": "exposure period",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "연도-월-일 (브라우저 날짜 입력 안내)",
+  "tr": "yyyy-mm-dd",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "최초 진단일",
+  "tr": "First diagnosis date",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ],
+  "short": "First Dx date"
+ },
+ {
+  "ko": "임상 대상자의 최초 진단일을 등록합니다.",
+  "tr": "Enter the subject's first diagnosis date.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "진단일 미상",
+  "tr": "Diagnosis date unknown",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "과거 진단이력 여부",
+  "tr": "Prior diagnosis history",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "예 (선택지)",
+  "tr": "Yes",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "아니오 (선택지)",
+  "tr": "No",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "2026년 10월의 날짜만 선택 가능합니다.",
+  "tr": "Only dates in October 2026 can be selected.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "2026년 10월의 날짜만 입력가능합니다",
+  "tr": "Only dates in October 2026 can be entered",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "같은 폼 내 1개 형제 필드 자동완성 (목록 외 직접 입력도 가능).",
+  "tr": "Autocompletes 1 sibling field in same form (or type one not listed).",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "날짜+시간",
+  "tr": "Date-time",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "일시",
+  "tr": "date-time",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "시각",
+  "tr": "time",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "날짜 칸",
+  "tr": "date box",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "시간 칸",
+  "tr": "time box",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "시간 입력기",
+  "tr": "time picker",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "시간대(timezone)",
+  "tr": "time zone (timezone)",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "투여 시각",
+  "tr": "dosing time",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "검체 채취 일시",
+  "tr": "Collection date-time",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "대상자의 검체 채취 일시를 기록합니다.",
+  "tr": "Enter the subject's collection date-time.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "채취 일시 미상",
+  "tr": "Collection time unknown",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "검체 여부",
+  "tr": "Specimen taken",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "연도-월-일 -- --:-- (브라우저 일시 입력 안내)",
+  "tr": "yyyy-mm-dd -- --:--",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "오전 / 오후",
+  "tr": "AM / PM",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "2026년 10월의 날짜-시간만 선택 가능합니다.",
+  "tr": "Only date-times in October 2026 can be selected.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "2026년 10월의 날짜만 입력 가능합니다.",
+  "tr": "Only dates in October 2026 can be entered.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "다중 선택",
+  "tr": "Multiple choice",
+  "type": "field type",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "단일 선택",
+  "tr": "Single choice",
+  "type": "field type",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "옵션",
+  "tr": "Option",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "옵션 추가",
+  "tr": "Add option",
+  "type": "button",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "옵션 출력 방향 (한 줄당 개수)",
+  "tr": "Option direction (items per row)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "옵션 출력 방향",
+  "tr": "Option direction",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "미지정 = 가로 채움",
+  "tr": "Unset = fill horizontally",
+  "type": "placeholder",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "미지정=가로 채움 · 1=세로(한 줄에 하나) · N=한 줄에 N개.",
+  "tr": "Unset=fill horizontally · 1=vertical (one per row) · N=N per row.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "동반 질환",
+  "tr": "Comorbidities",
+  "type": "example value (label)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "대상자가 현재 진단받았거나 치료 중인 질환을 모두 선택합니다.",
+  "tr": "Select all conditions currently diagnosed or being treated.",
+  "type": "example value (description)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "고혈압",
+  "tr": "High BP",
+  "type": "example value (option label)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "당뇨병",
+  "tr": "Diabetes",
+  "type": "example value (option label)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "천식",
+  "tr": "Asthma",
+  "type": "example value (option label)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "동반 질환 없음",
+  "tr": "No comorbidities",
+  "type": "example value (display label)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "확인 불가",
+  "tr": "Cannot be confirmed",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "없음 (선택지)",
+  "tr": "None",
+  "type": "example value (option label)",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "해당 없음",
+  "tr": "Not applicable",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "통증 여부",
+  "tr": "Pain present",
+  "type": "example value (field label)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "아니오",
+  "tr": "No",
+  "type": "option",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "2 필드 (개수 배지)",
+  "tr": "fields",
+  "type": "badge",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "다른 필드와 비교",
+  "tr": "Compare with another field",
+  "type": "option (ruleType)",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "비교할 항목",
+  "tr": "Field to compare",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "비교 대상",
+  "tr": "Compare against",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "필드 (비교 대상 선택지)",
+  "tr": "Field",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "직접 입력",
+  "tr": "Direct input",
+  "type": "option",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "폼에 있는 2개 항목에서만 고를 수 있습니다. 비교 대상은 값을 직접 넣을 수도 있습니다(숫자 · \"문자열\" · true/false).",
+  "tr": "You can only choose from the 2 items in the form. For the comparison target, you can also enter a value directly (number · \"string\" · true/false).",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "다른 필드와 비교는 서버가 강제하므로 항상 저장을 차단합니다.",
+  "tr": "Compare with another field is server-enforced, so it always blocks saving.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "통증 여부 체크시 실문하는 항목입니다.",
+  "tr": "Item asked when Pain present is checked.",
+  "type": "example value (message)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "동반 질환은 복수 선택 가능합니다.",
+  "tr": "Multiple selections allowed for comorbidities.",
+  "type": "example value (helpText)",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "여기 규칙은 저장하기 전에 검사합니다. 다른 폼의 값을 참조하는 검증은 프로젝트 검증 규칙에서 등록하세요.",
+  "tr": "Rules here are checked before saving. Validations that reference other forms belong in Project validation rules.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "operator 별 value 정밀 분기 (number 위젯) 는 후속",
+  "tr": "Precise per-operator value branching (number widget) is a follow-up",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "분석 담당자",
+  "tr": "data analyst",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "다중 행 텍스트",
+  "tr": "Multi-line text",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "텍스트 ([필드 추가] 분류)",
+  "tr": "Text",
+  "type": "menu",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "정규식",
+  "tr": "regex",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "pattern (정규식)",
+  "tr": "pattern (regex)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "형식 (정규식)",
+  "tr": "Format (regex)",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "최소 · 최대 길이",
+  "tr": "Minimum · maximum length",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "서술형 항목",
+  "tr": "narrative item",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "이상반응",
+  "tr": "adverse reaction",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이상반응 상세 설명",
+  "tr": "Adverse reaction details",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이상반응 유무",
+  "tr": "Any adverse reaction",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "특이사항 없음",
+  "tr": "No remarks",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "상세 정보 확인 불가",
+  "tr": "Cannot confirm details",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "한글만 입력 가능합니다",
+  "tr": "Only Korean allowed",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "가-힣 (정규식 범위)",
+  "tr": "\\uAC00-\\uD7A3",
+  "type": "code",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "육하원칙",
+  "tr": "5W1H",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이상반응에 대한 세부사항을 기록합니다.",
+  "tr": "Record the details of the adverse reaction.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이상반응에 대한 상세 설명을 육하원칙에 맞게 서술해주세요",
+  "tr": "Describe the adverse reaction in detail using 5W1H",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이상반응의 발생 경위, 주요 증상, 지속 기간 및 조치 내용을 구체적으로 기록합니다.",
+  "tr": "Record the adverse reaction's onset, main symptoms, duration and actions taken in detail.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "1 필드 (섹션 머리 개수)",
+  "tr": "1 field",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "개 (규칙 수 배지, 0개/1개)",
+  "tr": "items / item",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "prefix/postfix 는 입력 칸 좌우 고정 텍스트 — UI placeholder 와 별개.",
+  "tr": "prefix/postfix: fixed text left/right of input — separate from UI placeholder.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "정규식 pattern (flags 미지원 — 후속 RF). BE 검증 시 case-sensitive 기본.",
+  "tr": "Regex pattern (flags not supported — follow-up RF). BE validation is case-sensitive by default.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "검증 필수 (미검증 시 품질 (잘린 첫 줄)",
+  "tr": "Verification required (if unverified, quality",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "척도",
+  "tr": "Scale",
+  "type": "type",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "cover",
+   "toc"
+  ]
+ },
+ {
+  "ko": "— 선택 — (드롭다운 미선택 문구)",
+  "tr": "— Select —",
+  "type": "placeholder",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "options (선택지 목록)",
+  "tr": "options",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "선택지",
+  "tr": "option",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "저장값",
+  "tr": "stored value",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "표시 문구",
+  "tr": "display text",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "표시 방식 (displayStyle)",
+  "tr": "Display style (displayStyle)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "드롭다운",
+  "tr": "Dropdown",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "라디오",
+  "tr": "Radio",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "미설정",
+  "tr": "Unset",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "같지 않음 (!=)",
+  "tr": "not equal",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "흡연 여부",
+  "tr": "Smoking status",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "흡연 정도",
+  "tr": "Smoking level",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "현재 흡연",
+  "tr": "Current smoker",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "과거 흡연",
+  "tr": "Former smoker",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "비흡연",
+  "tr": "Non-smoker",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "남성",
+  "tr": "Male",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "흡연 여부 미상",
+  "tr": "Smoking status unknown",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "대상자의 현재 흡연 상태를 비흡연, 과거 흡연, 현재 흡연 중 하나로 선택합니다.",
+  "tr": "Select the subject's current smoking status: Non-smoker, Former smoker or Current smoker.",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "현재 흡연일 경우 흡연 정도를 선택해 주세요",
+  "tr": "If current smoker, please select the smoking level",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "현재 흡연일 경우만 체크하셔야 합니다.",
+  "tr": "Check only if current smoker.",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "흡연여부를 선택하는 설문입니다.",
+  "tr": "Question for selecting smoking status.",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "최근 한달 이내 흡연 했을시시 현재 흡연으로 체크합니다.",
+  "tr": "If smoked within the last month, check Current smoker.",
+  "type": "example",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "공통 코드(CodeGroup)",
+  "tr": "Common code (CodeGroup)",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "사용자 성명",
+  "tr": "User name",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "연구에 등록된 대상자의 성명을 입력합니다.",
+  "tr": "Enter the name of the subject enrolled in the study.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "성명 미확인",
+  "tr": "Name unknown",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "^[가-힣]+$",
+  "tr": "^[\\uAC00-\\uD7A3]+$",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "한글만 입력 가능합니다.",
+  "tr": "Only Hangul can be entered.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "한글만 입력이 가능합니다.",
+  "tr": "Only Hangul can be entered.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "홍길동",
+  "tr": "Hong Gildong",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "대상자:",
+  "tr": "Subject:",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "님",
+  "tr": "Mr./Ms.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "앓고있는 지병",
+  "tr": "Underlying condition",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "익명 여부",
+  "tr": "Anonymous",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "텍스트 (필드 추가 분류)",
+  "tr": "Text",
+  "type": "menu",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "접두사 · 접미사",
+  "tr": "Prefix · postfix",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "이메일",
+  "tr": "Email",
+  "type": "type",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "전화번호",
+  "tr": "Phone",
+  "type": "field_type",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "cover",
+   "image"
+  ]
+ },
+ {
+  "ko": "참/거짓",
+  "tr": "True/False",
+  "type": "type",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "형식 검사",
+  "tr": "format check",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "소수 자릿수 (ruleType)",
+  "tr": "Decimal places",
+  "type": "option",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "이메일 미상 (표기 라벨 예시)",
+  "tr": "Email unknown",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "임상 대상자 이메일",
+  "tr": "Subject email",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "임상 대상자의 이메일을 입력합니다.",
+  "tr": "Enter the subject's email.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이메일 수신 여부",
+  "tr": "Email opt-in status",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "수신 동의",
+  "tr": "opt-in consent",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "이메일 수신 동의시에만 입력 가능합니다.",
+  "tr": "Entry allowed only with email opt-in.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이메일 형식이 아닐경우 저장되지 않습니다.",
+  "tr": "Not saved if not in email format.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이메일 형식(예: name@example.com)이 저장 시 자동으로 검증됩니다. 추가 설정은 없습니다.",
+  "tr": "Email format (e.g. name@example.com) is validated automatically on save. No additional settings.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "타입 고유 설정",
+  "tr": "Type-specific settings",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "저작자",
+  "tr": "author",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "개인정보",
+  "tr": "personal data",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "감사 추적",
+  "tr": "audit trail",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "보호자 연락처",
+  "tr": "Guardian contact",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "부모, 지인 등 보호자의 연락처를 입력합니다.",
+  "tr": "Enter the contact of a guardian, such as a parent or acquaintance.",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "보호자 여부",
+  "tr": "Has guardian",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "보호자 미상",
+  "tr": "Guardian unknown",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "전화번호는 -를 포함하여 입력합니다.",
+  "tr": "Enter phone numbers including -.",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "이 필드 타입은 추가 설정이 없습니다.",
+  "tr": "This field type has no additional settings.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "연락처",
+  "tr": "Contact",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "마스킹 ON",
+  "tr": "Masking ON",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "보호자",
+  "tr": "guardian",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "자동 하이픈",
+  "tr": "automatic hyphens",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "국가 코드 선택",
+  "tr": "Country code selection",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "주소",
+  "tr": "Address",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ],
+  "short": "Addr."
+ },
+ {
+  "ko": "우편번호",
+  "tr": "Postal code",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "기본 주소",
+  "tr": "Main address",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "상세 주소",
+  "tr": "Detailed address",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "주소 미상",
+  "tr": "Address unknown",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "대상자 거주지 주소",
+  "tr": "Subject's home address",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "대상자의 현재 거주지 주소를 입력합니다.",
+  "tr": "Enter the subject's current home address.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "주소 수집 동의",
+  "tr": "Address collection consent",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ],
+  "short": "field_35nj(Address coll. consent) (badge only)"
+ },
+ {
+  "ko": "주소 수집 동의시에만 주소 입력이 가능합니다.",
+  "tr": "Address entry allowed only with address collection consent.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "도로명 주소로 기입합니다.",
+  "tr": "Enter a road-name address.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "우편번 (잘린 안내 문구)",
+  "tr": "Postal c",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "소수 자릿수",
+  "tr": "Decimal places",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "필드 (개수 표시, 2개)",
+  "tr": "fields",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "예",
+  "tr": "Yes",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "라디오 (2옵션)",
+  "tr": "Radio (2 options)",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "— 선택 —",
+  "tr": "— Select —",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "참 (true)",
+  "tr": "True (true)",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "거짓 (false)",
+  "tr": "False (false)",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "예 (입력 예시 접두어, '예: gender')",
+  "tr": "Ex",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "BMI 기준 초과 여부",
+  "tr": "BMI above threshold",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "BMI ≥ 25 여부 판단",
+  "tr": "Check if BMI ≥ 25",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "신체기록 사전 측정 유무",
+  "tr": "Prior body data available",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 측정된 신체기록이 존재해야 합니다.",
+  "tr": "Prior body data must exist.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "bmi 미상",
+  "tr": "bmi unknown",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "BMI를 모른다면 선택하지 않고 넘겨주세요.",
+  "tr": "If BMI is unknown, skip without selecting.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "활성화 조건 (activeParams)",
+  "tr": "Activation condition (activeParams)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "척도 (Likert 1~N)",
+  "tr": "Scale (Likert 1~N)",
+  "type": "badge",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "통증 정도",
+  "tr": "Pain level",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "통증 유무",
+  "tr": "Any pain",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "통증의 정도를 1 ~ 5 사이로 표시합니다.",
+  "tr": "Rate the pain level from 1 ~ 5.",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "image"
+  ]
+ },
+ {
+  "ko": "통증이 심할수록 높은 숫자로 표시합니다.",
+  "tr": "Mark a higher number for more severe pain.",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "전혀 그렇지 않다",
+  "tr": "Strongly disagree",
+  "type": "placeholder",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "매우 그렇다",
+  "tr": "Strongly agree",
+  "type": "placeholder",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "거의 아프지 않다",
+  "tr": "Barely painful",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "매우 아프다",
+  "tr": "Very painful",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "통증 없음",
+  "tr": "No pain",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "평가 불가",
+  "tr": "Not assessable",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "Likert 스케일 (min ~ max · step 간격). min/max 라벨은 양 끝 표시용",
+  "tr": "Likert scale (min ~ max · step interval). min/max labels are for display at both ends",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "minLabel · maxLabel (양 끝 라벨)",
+  "tr": "end labels",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "테이블형",
+  "tr": "Table",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "표 / 컬럼 / 행",
+  "tr": "table / column / row",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "행 추가",
+  "tr": "Add row",
+  "type": "button",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "필수 (컬럼 체크박스)",
+  "tr": "Required",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ],
+  "short": "Req."
+ },
+ {
+  "ko": "GRID — 하위 필드를 추가하세요 (우측 확장 탭)",
+  "tr": "GRID — Add sub-fields (right expansion tab)",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "컬럼이 없습니다. 하단 버튼으로 추가하세요.",
+  "tr": "No columns. Add with the button below.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "병용약물 투여 내역",
+  "tr": "Con-med dosing history",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "투여 내역",
+  "tr": "Dosing history",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "병용 약물명, 투여 목적과 용량을 기입합니다.",
+  "tr": "Enter con-med name, purpose and dose.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "약물명",
+  "tr": "Drug",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "투여 목적",
+  "tr": "Used for",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "1회 투여량",
+  "tr": "Single dose",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "1회 투여량(mg)",
+  "tr": "Single dose(mg)",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "사전 투약 기록 여부",
+  "tr": "Prior meds on file",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 투약 기록이 있다고 체크했을 경우에만 입력할 수 있습니다.",
+  "tr": "Can be entered only if prior meds on file was checked.",
+  "type": "message",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "약물명은 영문으로 기입합니다.",
+  "tr": "Enter drug names in English.",
+  "type": "value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "표 전체 필수 / 컬럼 필수",
+  "tr": "whole-table Required / column Required",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "기록자 / 저작자",
+  "tr": "recorder / author",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "감사 추적 / 추출",
+  "tr": "audit trail / exports",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "파일 업로드",
+  "tr": "File upload",
+  "type": "field_type",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "파일 선택 (최대 10MB, pdf, png, jpg)",
+  "tr": "Choose file (max 10MB, pdf, png, jpg)",
+  "type": "screen_text",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "파일 선택 (최대 30MB, pdf)",
+  "tr": "Choose file (max 30MB, pdf)",
+  "type": "screen_text",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "파일 추가 (최대 30MB, pdf)",
+  "tr": "Add file (max 30MB, pdf)",
+  "type": "screen_text",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "allowedTypes (콤마 구분)",
+  "tr": "allowedTypes (comma-separated)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "maxSizeMB (1~50 정수 MB · 미입력=상한 없음)",
+  "tr": "maxSizeMB (integer 1~50 MB · blank = no limit)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "다중 업로드 (multiple)",
+  "tr": "Multiple upload (multiple)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "검사 결과지 첨부",
+  "tr": "Attach test report",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "검사 결과지는 pdf, png, jpg 형식만 업로드 가능합니다.",
+  "tr": "Test reports can only be uploaded as pdf, png or jpg.",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 검사 여부",
+  "tr": "Prior test done",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 검사가 있었을 경우만 첨부 가능합니다.",
+  "tr": "Attachment is allowed only if a prior test was done.",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "pdf파일만 첨부가능하며, 1개만 첨부가능합니다.",
+  "tr": "Only pdf files can be attached, and only 1 file.",
+  "type": "example_value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "첨부 영역",
+  "tr": "attachment area",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "보관소",
+  "tr": "storage",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "필드 그룹",
+  "tr": "Field group",
+  "type": "type/badge",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "멤버",
+  "tr": "member",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "멤버 피커",
+  "tr": "member picker",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "최상위 필드",
+  "tr": "top-level field",
+  "type": "term",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "그룹에 필드 추가",
+  "tr": "Add field to group",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "그룹에 포함된 필드",
+  "tr": "Fields in group",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "추가 (멤버 추가 버튼)",
+  "tr": "Add",
+  "type": "button",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "필드 선택...",
+  "tr": "Select field...",
+  "type": "placeholder",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "행당 항목 수 (itemsPerRow)",
+  "tr": "Items per row (itemsPerRow)",
+  "type": "label",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "스칼라 자식을 한 행에 N개씩 배치 (1~4). 컨테이너 자식은 항상 단독 행.",
+  "tr": "N scalar children per row (1~4). Containers always get own row.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "아직 포함된 필드가 없습니다. 아래에서 폼의 필드를 골라 그룹에 추가하세요.",
+  "tr": "No fields included yet. Pick form fields below and add them to the group.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "GROUP — 하위 필드를 추가하세요 (우측 확장 탭)",
+  "tr": "GROUP — Add sub-fields (right expand tab)",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "— 중첩 깊이 한도 초과",
+  "tr": "— Nesting depth limit exceeded",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "추가할 수 있는 필드가 없습니다. 먼저 폼에 필드를 추가하세요.",
+  "tr": "No fields can be added. Add fields to the form first.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "그룹에서 빼기",
+  "tr": "Remove from group",
+  "type": "action",
+  "status": "unconfirmed",
+  "where": [
+   "body"
+  ]
+ },
+ {
+  "ko": "활력징후 측정 정보",
+  "tr": "Vital sign measurements",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "활력 징후 측정 정보를 입력합니다.",
+  "tr": "Enter vital sign measurements.",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 활력징후 측정 정보 유무",
+  "tr": "Prior vital signs available",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "사전 활력징후 측정 정보가 있어야 입력이 가능합니다",
+  "tr": "Entry requires prior vital sign measurements",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "평균 동맥압 (MAP)",
+  "tr": "Mean arterial pressure (MAP)",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "맥압",
+  "tr": "Pulse pressure",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "단위는 소숫점 둘째자리까지 작성합니다.",
+  "tr": "Enter values to two decimal places.",
+  "type": "example value",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "같은 폼 내 3개 형제 필드 자동완성 (목록 외 직접 입력도 가능).",
+  "tr": "Autocompletes 3 sibling fields in the same form (unlisted values can also be typed).",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "폼에 있는 4개 항목에서만 고를 수 있습니다.",
+  "tr": "You can only choose from the 4 items in the form.",
+  "type": "notice",
+  "status": "unconfirmed",
+  "where": [
+   "body",
+   "image"
+  ]
+ },
+ {
+  "ko": "N 필드 (개수 배지, 2 이상)",
+  "tr": "N fields",
+  "type": "badge",
+  "status": "unconfirmed",
+  "where": [
+   "image"
   ]
  }
 ]
