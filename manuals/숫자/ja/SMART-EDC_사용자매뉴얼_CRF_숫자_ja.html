@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>SMART-EDC ユーザーマニュアル — CRF Form · 数値</title>
+<meta name="author" content="hy0909">
+<style>@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-400.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-500.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-700.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-800.ttf) format("truetype");font-weight:800}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Medium.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Bold.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-ExtraBold.ttf) format("truetype");font-weight:800}
+@page{size:210mm 297mm;margin:0}
+/* 언어별: 자간(2절: 한국어 10pt 초과 -3%, 영어 -1%; 독일어는 영어와 같게, 일본어 0 [확인 필요]) · 글꼴 · 줄바꿈 */
+:root{--ls:-0.03em}
+body.lang-en,body.lang-de{--ls:-0.01em}
+body.lang-ja{--ls:0em}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
+body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
+body.lang-ja{font-family:"PretendardJPM",sans-serif;word-break:normal;line-break:strict}
+b{font-weight:700;color:#111B2B}
+ul{list-style:none}
+p,li,figcaption,td,th,h4{white-space:pre-wrap}
+/* 코드 칩: 배경은 위아래로만 넓힌다. 좌우로 넓히면 앞뒤 괄호·글자를 덮는다. 좌우 padding/margin은 복사 공백이 생길 수 있어 쓰지 않는다. */
+code{font-family:inherit;color:#202F86;background:#F1F3FE;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+a{color:inherit;text-decoration:none}
+
+.page{width:794px;height:1123px;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.page:last-child{break-after:auto;page-break-after:auto}
+
+/* ---------- 표지 ---------- */
+.page.cover{background:#071426;color:#fff}
+.cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
+.cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
+.cv-brand{font-size:28.5px;font-weight:800;line-height:34px;letter-spacing:-0.01em}
+.cv-brand .sm{color:#65E5D1}
+.cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-main{position:absolute;left:56px;top:322px}
+.cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
+.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls)}
+.cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
+.cv-kind{font-size:15px;color:#F1F5FC;letter-spacing:var(--ls)}
+.cv-logo{width:138px;height:auto}
+
+/* ---------- 목차 ---------- */
+.toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
+.toc-h h1{font-size:33.5px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
+.toc-h .brand{font-size:12.5px;font-weight:700;color:#94A3B8;line-height:15px}
+.page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
+.tch{margin-bottom:37.33px}
+.tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
+.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3349CA;flex:none}
+.tct{margin-left:5.33px;font-size:16px;font-weight:700;color:#111B2B;letter-spacing:var(--ls);line-height:24px}
+.tch ul{margin-top:6px}
+.tch li a{display:flex;align-items:flex-start;padding:3.33px 0;font-size:15.5px;line-height:24px}
+.tch li:first-child a{padding-top:5.33px}
+.tn{width:26px;margin-left:27.33px;font-weight:700;color:#94A3B8;flex:none;letter-spacing:-0.01em}
+.tt{margin-left:5.33px;flex:1;color:#263341;letter-spacing:var(--ls)}
+.tp{width:24px;text-align:center;font-size:13.5px;color:#8C96A8;flex:none}
+
+/* ---------- 간지 ---------- */
+.page.divider{background:#EFF1FA}
+.dlabel{position:absolute;left:56px;top:43px;font-size:14.5px;color:#405169;line-height:20px;letter-spacing:var(--ls)}
+.dhead{position:absolute;left:52px;top:140px;right:56px}
+.dnum{font-size:99.6px;font-weight:800;color:#45517E;line-height:1.2;letter-spacing:var(--ls)}
+.dtitle{font-size:52px;font-weight:700;color:#15233A;line-height:1.25;margin-top:4px;letter-spacing:var(--ls)}
+.dbar{position:absolute;right:0;width:19px;background:#45517E}
+.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #C8D0DD;padding-top:22px}
+.dlist li{display:flex;align-items:baseline;margin-bottom:20px}
+.dn{width:34px;padding-left:4px;flex:none;font-size:16.5px;font-weight:700;color:#94A3B8}
+.dt{font-size:18.5px;color:#26374B;line-height:1.3;letter-spacing:var(--ls)}
+.pno{position:absolute;right:56px;top:1063px;font-size:13.5px;color:#8590AE;line-height:20px}
+
+/* ---------- 본문 ---------- */
+.hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
+/* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
+.hx{min-width:0}
+.ht{display:flex;align-items:baseline;padding-top:38px;font-size:31.5px;line-height:44px;font-weight:700;color:#fff;letter-spacing:var(--ls)}
+.hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
+.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
+.ftr .chn{flex:1}
+.ftr .brand{font-weight:700;margin-right:20px}
+
+.blk{display:block}
+.path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
+.path .lbl{font-weight:700;color:#6B7689;margin-right:5px;white-space:pre}
+.path .chev{margin:0 2px;flex:none}
+.tab{margin-top:40px}
+.area>.blk:first-child{margin-top:0!important}
+.path+.tab{margin-top:38px}
+.tab h3{display:flex;align-items:flex-end;font-weight:700}
+.tab h3 span{background:#191F29;color:#fff;font-size:17px;line-height:23px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
+.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #191F29}
+.tab+.blk{margin-top:12px}
+.ov p{font-size:14.5px;line-height:1.5;color:#202630;letter-spacing:var(--ls)}
+.ov+.ov{margin-top:6px}
+
+.legend{border:1px solid #E2E8F0;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;font-size:13px;line-height:18px;color:#111B2B}
+.lg{display:flex;align-items:center}
+.lg b{margin:0 2.5px 0 5px;white-space:pre}
+.lg.note b{margin-right:0}
+.lg.note b{color:#475569}
+.lcir{width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;line-height:1;color:#fff;flex:none}
+.lcir.l-set{background:#3C55EB}
+.lcir.l-res{background:#fff;border:1.2px solid #3C55EB;color:#3C55EB}
+.lcir.l-ref{background:#64748B}
+.legend+.fig{margin-top:8px!important}
+
+.fig{background:#F6F7F9;border-radius:8px;padding:14px 16px 16px;display:flex;justify-content:center;gap:16px}
+.shot{flex:none}
+.imgbox{display:grid;width:100%;border-radius:8px;background:#fff}
+.imgbox>*{grid-area:1/1}
+.imgbox img{display:block;width:100%;height:auto;border-radius:8px}
+.mk{align-self:start;justify-self:start;margin-right:-22px;margin-bottom:-22px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1;color:#fff;border:2px solid #fff}
+.mk-set{background:#3C55EB}
+.mk-ref{background:#64748B}
+.mk-res{background:#fff;color:#3C55EB;box-shadow:inset 0 0 0 1.5px #3C55EB}
+figcaption{margin-top:10px;font-size:12px;line-height:1.45;color:#475364;letter-spacing:0}
+figcaption code{color:#475364;background:#E9ECF3}
+.fig+.item{margin-top:8px}
+
+.item{display:flex;align-items:flex-start;padding:10px 0}
+.item+.item{background:linear-gradient(#F1F5F9,#F1F5F9) no-repeat 33px 0/calc(100% - 33px) 1px}
+.cir{width:23px;height:23px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1;color:#fff;margin-top:-0.25px}
+.cir.c-set{background:#3C55EB}
+.cir.c-ref{background:#64748B}
+.cir.c-res{background:#fff;border:1px solid #3C55EB;color:#3C55EB;width:22px;height:22px}
+.item .body{margin-left:10px;flex:1;min-width:0}
+.item .t{font-size:14.5px;line-height:1.55;color:#111B2B;letter-spacing:var(--ls)}
+.item.k-ref .t,.item.k-ref .t b{color:#475569}
+.ress{margin-top:12px;margin-left:0}
+.res{display:flex;align-items:flex-start}
+.res+.res{margin-top:8px}
+.res .t{margin-left:10px;flex:1;color:#263341}
+.res .t b{color:#111B2B}
+.res .cir{margin-top:0}
+.conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+
+.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:2px;line-height:0;letter-spacing:0}
+
+.card{border-radius:8px;padding:14px 14.7px 15px}
+.card+.card{margin-top:7.33px}
+.tab+.card{margin-top:12px}
+.card h4{display:flex;align-items:baseline;font-size:14.5px;font-weight:700;line-height:20px;white-space:normal}
+.card .ttl{white-space:pre}
+.card .sub{font-size:12px;font-weight:400;margin-left:4.5px}
+.card ul{margin-top:6px}
+.card li{font-size:13.5px;font-weight:500;line-height:1.52;color:#475569;padding-left:14px;text-indent:-14px}
+.card li+li{margin-top:4px}
+.card li b{color:inherit}
+.card .bul{display:inline-block;width:14px;text-indent:0}
+.card.must{background:#FDF2F3}.card.must h4{color:#B91C1C}.card.must .ref{color:#A15E61}.card.must code{background:#F6DCDE;color:inherit}
+.card.misc{background:#FEF9F0}.card.misc h4{color:#885910}.card.misc .ref{color:#927341}.card.misc code{background:#FCE8BF;color:inherit}
+.card.note{background:#F1F5F9}.card.note h4{color:#475569}.card.note .ref{color:#64748B}.card.note code{background:#E2E8F0;color:inherit}
+.card.note li b{color:#334155;font-weight:700}
+
+.plain ul li{font-size:14.5px;line-height:1.55;color:#202630;padding-left:14px;text-indent:-14px;letter-spacing:var(--ls)}
+.plain ul li+li{margin-top:6px}
+.plain .bul{display:inline-block;width:14px;text-indent:0}
+.box{border:1px solid #E2E8F0;border-radius:8px;padding:14px 16px}
+.box+.box{margin-top:8px}
+.box p{font-size:13.5px;line-height:1.52;color:#202630}
+
+.tblwrap table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:left;padding:11px 10.7px;vertical-align:top}
+td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
+td b{color:#111B2B}
+td.c0,td.c0 b{color:#475569}
+td .ref{vertical-align:2px}
+table.wide td{padding:8px 10.7px}
+table.wide th{padding:9px 10.7px}
+table.wide{table-layout:fixed}
+table.wide th:nth-child(1){width:61px}table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
+
+/* 원형 안 숫자: 가운데 정렬 후 paginate.js가 실제 글자 잉크 범위를 재서 원의 정중앙으로 보정한다 */
+.cir,.lcir,.mk{text-align:center}
+.cir .n,.lcir .n,.mk .n{display:block;line-height:1}
+</style></head>
+<body class="lang-ja">
+<div id="src" hidden>
+<section class="cover">
+  <div class="cv-wave"></div><div class="cv-grad"></div>
+  <div class="cv-top"><span class="cv-brand"><span class="sm">SMART</span> EDC</span><span class="cv-sys">臨床試験電子データ収集システム</span></div>
+  <div class="cv-main"><div class="cv-class">CRF フィールドタイプ</div><h1 class="cv-title">数値</h1><p class="cv-sub">NUMBER · 数値入力欄 (範囲 · 小数桁数 · 単位 · 自動計算)</p></div>
+  <div class="cv-bottom"><span class="cv-kind">ユーザーマニュアル · フォームタイプ別分冊</span><img class="cv-logo" src="img/logo.png" alt="DH Digital Healthcare Software"></div>
+</section>
+<section class="toc" data-title="目次"><div class="flow"><div class="tch blk"><div class="tchh"><span class="tcn">1</span><span class="tct">数値フィールドとは</span></div><ul><li><a href="#s1-1"><span class="tn">1.1</span><span class="tt">フィールドの追加と属性パネルの構成</span><span class="tp" data-for="s1-1"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">2</span><span class="tct">基本タブ — 名前 · 必須 · 検証対象 · 未測定</span></div><ul><li><a href="#s2-1"><span class="tn">2.1</span><span class="tt">fieldKey · 表示名 · ヘルプ</span><span class="tp" data-for="s2-1"></span></a></li><li><a href="#s2-2"><span class="tn">2.2</span><span class="tt">必須入力</span><span class="tp" data-for="s2-2"></span></a></li><li><a href="#s2-3"><span class="tn">2.3</span><span class="tt">SDV検証対象 (CRA原資料照合)</span><span class="tp" data-for="s2-3"></span></a></li><li><a href="#s2-4"><span class="tn">2.4</span><span class="tt">未測定宣言を許可</span><span class="tp" data-for="s2-4"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">3</span><span class="tct">タイプ設定タブ — 数値入力規則</span></div><ul><li><a href="#s3-1"><span class="tn">3.1</span><span class="tt">タイプ設定タブの全体構成</span><span class="tp" data-for="s3-1"></span></a></li><li><a href="#s3-2"><span class="tn">3.2</span><span class="tt">入力範囲 (min · max · 境界を含む)</span><span class="tp" data-for="s3-2"></span></a></li><li><a href="#s3-3"><span class="tn">3.3</span><span class="tt">小数桁数 · 単位 (decimalPlaces · unit)</span><span class="tp" data-for="s3-3"></span></a></li><li><a href="#s3-4"><span class="tn">3.4</span><span class="tt">自動計算 ① — 計算式の指定</span><span class="tp" data-for="s3-4"></span></a></li><li><a href="#s3-5"><span class="tn">3.5</span><span class="tt">自動計算 ② — 計算タイミング · 小数桁数</span><span class="tp" data-for="s3-5"></span></a></li><li><a href="#s3-6"><span class="tn">3.6</span><span class="tt">デフォルト値 (defaultValue)</span><span class="tp" data-for="s3-6"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">4</span><span class="tct">検証タブ — 保存前の値チェック</span></div><ul><li><a href="#s4-1"><span class="tn">4.1</span><span class="tt">検証規則がない状態</span><span class="tp" data-for="s4-1"></span></a></li><li><a href="#s4-2"><span class="tn">4.2</span><span class="tt">規則の追加</span><span class="tp" data-for="s4-2"></span></a></li><li><a href="#s4-3"><span class="tn">4.3</span><span class="tt">規則作成完了</span><span class="tp" data-for="s4-3"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">5</span><span class="tct">UIタブ — 画面配置と案内文</span></div><ul><li><a href="#s5-1"><span class="tn">5.1</span><span class="tt">UIタブの全体構成</span><span class="tp" data-for="s5-1"></span></a></li><li><a href="#s5-2"><span class="tn">5.2</span><span class="tt">レイアウト幅</span><span class="tp" data-for="s5-2"></span></a></li><li><a href="#s5-3"><span class="tn">5.3</span><span class="tt">読み取り専用 · 非表示</span><span class="tp" data-for="s5-3"></span></a></li><li><a href="#s5-4"><span class="tn">5.4</span><span class="tt">placeholder · helpText</span><span class="tp" data-for="s5-4"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">6</span><span class="tct">条件付きタブ — 他の値に応じて表示する</span></div><ul><li><a href="#s6-1"><span class="tn">6.1</span><span class="tt">条件付き表示の有効化</span><span class="tp" data-for="s6-1"></span></a></li><li><a href="#s6-2"><span class="tn">6.2</span><span class="tt">条件の設定</span><span class="tp" data-for="s6-2"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">7</span><span class="tct">付録</span></div><ul><li><a href="#s7-1"><span class="tn">7.1</span><span class="tt">設定項目一覧</span><span class="tp" data-for="s7-1"></span></a></li></ul></div></div></section>
+<section class="divider" data-ch="1" data-chtitle="1. 数値フィールドとは">
+<div class="dlabel">CRF フィールドタイプ — 数値</div>
+<div class="dhead"><div class="dnum">1</div><h1 class="dtitle" id="ch1">数値フィールドとは</h1></div>
+<ul class="dlist"><li><span class="dn">1.1</span><span class="dt">フィールドの追加と属性パネルの構成</span></li></ul></section><section class="sec" id="s1-1" data-num="1.1" data-chtitle="1. 数値フィールドとは">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.1</span><span class="hx">フィールドの追加と属性パネルの構成</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p><b>数値(NUMBER)</b> は数値を入力する欄です。身長 · 体重 · 検査値のように<b>大小を比較したり計算に使ったりする値</b>に使用します。テキストタイプと異なり<b>入力可能な範囲 · 小数桁数 · 単位</b>を指定でき、<b>他のフィールドの値から自動計算</b>することもできます。数字のように見えても計算しない値(検体番号 · 電話番号など)は<b>単一行テキスト</b>の方が適しています — 先頭の 0 が消えるためです。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:510.2px"><div class="imgbox" style="aspect-ratio:1.27557"><img src="img/s1_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(19.498% - 11px);margin-top:calc(17.159% - 11px)"><span class="n">1</span></span><span class="mk mk-ref" style="margin-left:calc(93.996% - 11px);margin-top:calc(15.744% - 11px)"><span class="n">1</span></span><span class="mk mk-ref" style="margin-left:calc(75.312% - 11px);margin-top:calc(20.529% - 11px)"><span class="n">2</span></span><span class="mk mk-res" style="margin-left:calc(69.455% - 11px);margin-top:calc(24.064% - 11px)"><span class="n">1</span></span><span class="mk mk-res" style="margin-left:calc(18.435% - 11px);margin-top:calc(26.351% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(26.186% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(34.317% - 11px)"><span class="n">3</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(43.674% - 11px)"><span class="n">4</span></span></div><figcaption>[フィールド追加] &gt; 数値 — 選択直後の画面</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>[+ フィールド追加]</b> — ここでタイプを指定するとフィールドが作成されます。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t"><b>構造ツリー</b>に新しいフィールドが追加されます。(数値を表す <code>#</code> アイコンで表示されます)</p></div><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t"><b>WYSIWYG キャンバス</b>に入力欄が表示されます。キャンバスは入力画面のプレビューなので、設定を変更するとすぐに反映されます。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>fieldKey</b> — 値が保存される実際のキーです。<b>自動計算でこのフィールドを参照するときに使う名前</b>でもあります。<span class="ref">2.1 · 3.4</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>label (表示名)</b> · <b>description (ヘルプ)</b> — 画面に表示される名前と補足説明です。<span class="ref">2.1</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">4</span></span><div class="body"><p class="t"><b>必須入力</b> · <b>SDV検証対象</b> · <b>AE意味ロール</b> · <b>未測定宣言を許可</b> — 2章で一つずつ説明します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t"><b>タイプバッジ</b> — 選択したフィールドのタイプです。<b>追加した後は変更できません。</b></p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">2</span></span><div class="body"><p class="t"><b>属性タブ 5種</b> — 基本 · タイプ設定 · 検証 · UI · 条件付き。このマニュアルの2~6章が各タブに対応します。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>タイプは追加した後に変更できません。誤って選択した場合は、フィールドを削除して再度追加してください。(テーブル型 · フィールドグループの下位項目のみ例外としてタイプを変更できます。)</li><li><span class="bul">• </span>先頭に 0 が必要な値には数値タイプを使用しないでください。<code>007</code> は <code>7</code> として保存されます。検体番号 · 被験者番号のように桁数が意味を持つ値は、単一行テキストに正規表現を設定する方が安全です。</li><li><span class="bul">• </span>発行(PUBLISH)後は構造を変更できません。運用中に修正が必要な場合は、新しいバージョンを発行してください。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>設定を変更すると、上部に「変更を検出 — 自動保存待ち」が表示されます。しばらくすると自動保存されます。[保存] を選択してすぐに保存することもできます。元に戻す操作は <code>Ctrl+Z</code> です。</li></ul></div></div></section><section class="divider" data-ch="2" data-chtitle="2. 基本タブ — 名前 · 必須 · 検証対象 · 未測定">
+<div class="dlabel">CRF フィールドタイプ — 数値</div>
+<div class="dhead"><div class="dnum">2</div><h1 class="dtitle" id="ch2">基本タブ — 名前 · 必須 · 検証対象 · 未測定</h1></div>
+<ul class="dlist"><li><span class="dn">2.1</span><span class="dt">fieldKey · 表示名 · ヘルプ</span></li><li><span class="dn">2.2</span><span class="dt">必須入力</span></li><li><span class="dn">2.3</span><span class="dt">SDV検証対象 (CRA原資料照合)</span></li><li><span class="dn">2.4</span><span class="dt">未測定宣言を許可</span></li></ul></section><section class="sec" id="s2-1" data-num="2.1" data-chtitle="2. 基本タブ — 名前 · 必須 · 検証対象 · 未測定">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.1</span><span class="hx">fieldKey · 表示名 · ヘルプ</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">基本タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>フィールドの<b>名前</b>を決める領域です。保存キー(<code>fieldKey</code>)と画面に表示される名前(<code>label</code>)は<b>別々の値</b>であり、変更してよいタイミングが異なります。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:2.81627"><img src="img/s2_1_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(17.937% - 11px);margin-top:calc(9.746% - 11px)"><span class="n">1</span></span><span class="mk mk-res" style="margin-left:calc(33.870% - 11px);margin-top:calc(16.477% - 11px)"><span class="n">2</span></span><span class="mk mk-ref" style="margin-left:calc(96.942% - 11px);margin-top:calc(15.656% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(96.942% - 11px);margin-top:calc(26.123% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(96.942% - 11px);margin-top:calc(33.031% - 11px)"><span class="n">2</span></span></div><figcaption>表示名 · ヘルプを入力すると、キャンバスにすぐに反映される</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>label (表示名)</b> — 入力画面に表示する項目名を入力します。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">キャンバスの<b>フィールドタイトル</b>として表示されます。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>description (ヘルプ)</b> — 表示名の下に表示する補足説明を入力します。空欄にすると表示されません。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">2</span></span><p class="t">入力欄の<b>下にグレーの文字</b>で表示されます。</p></div></div></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t"><b>fieldKey</b> — 値が保存される実際のキーです。フィールドを追加すると <code>field_cyg2</code> のように自動で付与され、英字 · 数字 · アンダースコアで変更できます。<b>画面には表示されません</b> — 下記の注意事項を必ず確認してください。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ 保存した後は fieldKey を変更しないでください。画面の案内のとおり「保存後の変更で既存データの紐付けが切れる」 — すでに入力された値が新しいキーと結び付かず、事実上失われます。</li><li><span class="bul">• </span>⛔ 自動計算で参照中のフィールドの fieldKey を変更すると、計算式が壊れます。計算式は <code>{fieldKey}</code> で結び付いているため、名前を変えると参照が切れて結果が空になります。<span class="ref">3.4</span></li><li><span class="bul">• </span>フォームが ACTIVE 以降 PUBLISHED 状態になると、fieldKey 入力欄は自動で読み取り専用になります。システムが変更を防ぐのはそれ以降なので、それまではユーザー自身が注意する必要があります。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>計算に使うフィールドは、fieldKey を読みやすく付けておいてください。<code>height</code> · <code>weight</code> のように意味が分かると、計算式を読んで確認しやすくなります。ただし、保存前に決める必要があります。</li></ul></div></div></section><section class="sec" id="s2-2" data-num="2.2" data-chtitle="2. 基本タブ — 名前 · 必須 · 検証対象 · 未測定">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.2</span><span class="hx">必須入力</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">基本タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>この項目を<b>必ず入力する必要があるか</b>を決めます。選択すると、入力画面で値が空のときに保存がブロックされます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:2.49866"><img src="img/s2_2_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(14.462% - 11px);margin-top:calc(9.303% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(96.942% - 11px);margin-top:calc(37.807% - 11px)"><span class="n">1</span></span></div><figcaption>[必須入力] 選択 → キャンバスの表示名の横に赤いアスタリスク</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>必須入力</b> — 選択すると、このフィールドが必須になります。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">キャンバスの表示名の右に<b>赤いアスタリスク(*)</b>が表示され、ユーザーに必須であることを知らせます。</p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><code>0</code> は空の値ではありません。0 を入力すると値があるものとして処理され、必須条件を満たします。「測定したが 0」と「測定していない」を区別する必要がある場合は、「未測定宣言を許可」を使用してください。<span class="ref">2.4</span></li><li><span class="bul">• </span>条件付き表示で非表示になったフィールドは、必須検証が免除されます。<span class="ref">6章</span> 一方、UIタブの非表示は除外されないため、混同しないでください。<span class="ref">5.3</span></li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>自動計算フィールドは、必須に指定しても必須集計から自動で除外されます — ユーザーが入力できない欄だからです。あえて選択する必要はありません。<span class="ref">3.4</span></li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>必須かどうかは<b>フォーム完了判定</b>に使用されます。必須項目が空の場合、そのフォームは完了として集計されません。</li></ul></div></div></section><section class="sec" id="s2-3" data-num="2.3" data-chtitle="2. 基本タブ — 名前 · 必須 · 検証対象 · 未測定">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.3</span><span class="hx">SDV検証対象 (CRA原資料照合)</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">基本タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p><b>SDV(Source Data Verification)</b> は、臨床開発モニター(CRA)が入力値を<b>医療機関の原資料と照合</b>する手順です。このフィールドをその対象に指定するかどうかを、ここで決めます。<b>この設定はすべてのフィールドタイプで共通</b>なので、画面もタイプに関係なく同じです。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn two"><div class="shot" style="width:293.0px"><div class="imgbox" style="aspect-ratio:2.41667"><img src="img/s2_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(90.662% - 11px);margin-top:calc(10.979% - 11px)"><span class="n">1</span></span><span class="mk mk-ref" style="margin-left:calc(90.662% - 11px);margin-top:calc(21.738% - 11px)"><span class="n">1</span></span></div><figcaption>選択前 — 下位項目は無効</figcaption></div><div class="shot" style="width:294.0px"><div class="imgbox" style="aspect-ratio:3.22000"><img src="img/s2_3_2.png" alt=""><span class="mk mk-res" style="margin-left:calc(90.694% - 11px);margin-top:calc(10.273% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(90.694% - 11px);margin-top:calc(19.327% - 11px)"><span class="n">2</span></span></div><figcaption>選択後 — 下位項目が有効</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>SDV検証対象 (CRA原資料照合)</b> — 選択すると、このフィールドが CRA の照合リストに含まれます。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">選択状態に変わると、<b>下位項目が有効になります</b>。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>検証必須 (未検証時は品質 PENDING)</b> — ①を選択した後でなければ指定できません。選択すると、CRA が照合を終えるまで、そのデータの品質ステータスが <b>PENDING</b> のままになります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">①を選択する前は、②が<b>薄く表示されて無効</b>です。画面の案内のとおり「検証対象に指定した場合のみ必須かどうかを設定できます。」</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>値が変更されると検証が解除されます。すでに VERIFIED のフィールドの値を修正すると、品質ステータスが PENDING に戻り、CRA が再度照合する必要があります。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>SDV は入力した本人が実施することはできません。システムがクロス検証(Cross-User SoD)を強制するため、入力者と検証者は必ず別の人である必要があります。</li><li><span class="bul">• </span>自動計算フィールドは SDV 対象に指定する必要はありません。値が原資料ではなく他のフィールドから算出されるためです — 照合すべきなのは参照先のフィールド(例: 身長 · 体重)です。<span class="ref">3.4</span></li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>品質ステータスは <b>PENDING → VERIFIED → CLEAN</b> の順に進みます。検証必須に指定したフィールドが一つでも未検証であれば、そのデータは CLEAN になりません。</li><li><span class="bul">• </span>すべてのフィールドを SDV 対象に指定すると、モニタリングの負担が急激に増加します。<b>主要評価項目 · 安全性項目</b>を中心に指定してください。</li></ul></div></div></section><section class="sec" id="s2-4" data-num="2.4" data-chtitle="2. 基本タブ — 名前 · 必須 · 検証対象 · 未測定">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.4</span><span class="hx">未測定宣言を許可</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">基本タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>検査を<b>実施できなかった場合</b>を値として区別して記録する機能です。<b>数値項目では特に重要です</b> — 空欄のままにすると「まだ入力していない」と「測定していない」を区別できず、0 を代わりに入れると<b>測定値 0 と混ざって統計が歪みます。</b></p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn two"><div class="shot" style="width:232.5px"><div class="imgbox" style="aspect-ratio:1.07422"><img src="img/s2_4_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(91.673% - 11px);margin-top:calc(5.618% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(91.673% - 11px);margin-top:calc(37.436% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(91.673% - 11px);margin-top:calc(69.253% - 11px)"><span class="n">3</span></span></div><figcaption>許可を選択した直後 — 初期状態 (タイプ共通)</figcaption></div><div class="shot" style="width:232.5px"><div class="imgbox" style="aspect-ratio:1.09524"><img src="img/s2_4_2.png" alt=""><span class="mk mk-res" style="margin-left:calc(92.098% - 11px);margin-top:calc(37.409% - 11px)"><span class="n">2</span></span><span class="mk mk-res" style="margin-left:calc(92.098% - 11px);margin-top:calc(69.661% - 11px)"><span class="n">3</span></span></div><figcaption>表示ラベル · 表示灯を変更した状態</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>未測定宣言を許可</b> — 選択すると、入力画面に「未測定」チェックボックスが作成され、下の二つの項目が表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>表示ラベル</b> — 空欄にすると、デフォルト値<b>「未測定」</b>が適用されます。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">2</span></span><p class="t"><code>不明</code> に変更すると、この文言が入力画面のチェックボックスとロック案内の両方に適用されます。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>表示灯</b> — デフォルト値は<b>なし</b>です。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">3</span></span><p class="t"><b>注意(amber)</b> に変更すると、宣言された値の横にその色の表示が現れます。</p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ 未測定を 0 で代用して記録しないでください。0 は有効な測定値なので、平均 · 最小値の計算にそのまま含まれます。この宣言こそ、その混同を防ぐための機能です。</li><li><span class="bul">• </span>宣言すると値が削除されます。画面の案内のとおり — 「宣言時に値が削除され、必須項目の集計から除外されます。」 入力済みの内容がある場合は削除されるため、ユーザーに事前に案内してください。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>宣言されたフィールドは必須集計から除外されます。そのため、必須項目であってもフォームを完了できます。</li><li><span class="bul">• </span>未測定として宣言されたフィールドを参照する自動計算は、結果が空になります。参照値がない場合、計算結果は空の値のまま残ります — 保存が失敗することはありません。<span class="ref">3.4</span></li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>表示灯を指定しないと、色の表示は<b>適用されません</b>。強調が必要な場合は、注意(amber) などを選択してください。</li></ul></div></div></section><section class="divider" data-ch="3" data-chtitle="3. タイプ設定タブ — 数値入力規則">
+<div class="dlabel">CRF フィールドタイプ — 数値</div>
+<div class="dhead"><div class="dnum">3</div><h1 class="dtitle" id="ch3">タイプ設定タブ — 数値入力規則</h1></div>
+<ul class="dlist"><li><span class="dn">3.1</span><span class="dt">タイプ設定タブの全体構成</span></li><li><span class="dn">3.2</span><span class="dt">入力範囲 (min · max · 境界を含む)</span></li><li><span class="dn">3.3</span><span class="dt">小数桁数 · 単位 (decimalPlaces · unit)</span></li><li><span class="dn">3.4</span><span class="dt">自動計算 ① — 計算式の指定</span></li><li><span class="dn">3.5</span><span class="dt">自動計算 ② — 計算タイミング · 小数桁数</span></li><li><span class="dn">3.6</span><span class="dt">デフォルト値 (defaultValue)</span></li></ul></section><section class="sec" id="s3-1" data-num="3.1" data-chtitle="3. タイプ設定タブ — 数値入力規則">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.1</span><span class="hx">全体構成</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">タイプ設定タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>数値フィールドの<b>入力規則</b>を決めるタブです。テキストタイプの長さ · 正規表現の代わりに、<b>値の範囲 · 小数桁数 · 単位</b>を扱います。ここで指定した値は<b>保存時にシステムが再度チェック</b>するため、画面上で案内するだけの文言ではなく、実際のブロック条件です。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:1.57275"><img src="img/s3_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(25.658% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(30.799% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(73.978% - 11px);margin-top:calc(34.147% - 11px)"><span class="n">3</span></span><span class="mk mk-ref" style="margin-left:calc(97.007% - 11px);margin-top:calc(36.623% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(41.929% - 11px)"><span class="n">4</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(47.236% - 11px)"><span class="n">5</span></span></div><figcaption>タイプ設定タブ — 初めて開いた状態</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>min · max</b> — 入力可能な最小値と最大値です。<span class="ref">3.2</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>decimalPlaces</b> · <b>unit</b> — 許可する小数桁数と表示する単位です。<span class="ref">3.3</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>min inclusive · max inclusive</b> — 境界値そのものを許可するかどうかを決めます。デフォルト値は<b>両方とも選択</b>(以上 · 以下)です。<span class="ref">3.2</span></p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">画面の案内 — この画面で提供される項目は<b>四つ(min · max · decimalPlaces · unit)と境界トグル二つ</b>です。整数のみ · 測定誤差 · <b>正常範囲</b>のような項目は、この画面では設定しません。(下記の注意事項参照)</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">4</span></span><div class="body"><p class="t"><b>自動計算 (calculation)</b> — 他のフィールドの値でこの欄を自動的に埋めます。<span class="ref">3.4</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">5</span></span><div class="body"><p class="t"><b>デフォルト値 (defaultValue)</b> — 新規入力時にあらかじめ入力しておく値です。<span class="ref">3.6</span></p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>min · max は「ブロック」の軸です。範囲外の値は保存されません。一方、正常範囲を外れたときに警告だけを表示する機能(正常値の強調)は、この画面にはありません — 検査値の正常範囲の強調が必要な場合は、数値タイプではなく検査パネル系のフィールドで設計してください。</li><li><span class="bul">• </span>decimalPlaces の初期表示値 <code>0</code> は「小数点なしで整数のみ」を意味します。小数が必要な項目であれば、必ず桁数を指定してください。<span class="ref">3.3</span></li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>入力欄に薄く表示される <code>mg/dL</code> は入力例(placeholder)であり、設定された値ではありません。空欄の場合、単位は表示されません。</li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span><b>min が max より大きい場合、保存は拒否されます。</b>両方の値を合わせて確認してください。</li><li><span class="bul">• </span>すべての項目は<b>任意</b>です。何も設定しないと、範囲 · 桁数の制限がない自由な数値入力欄になります。</li></ul></div></div></section><section class="sec" id="s3-2" data-num="3.2" data-chtitle="3. タイプ設定タブ — 数値入力規則">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.2</span><span class="hx">入力範囲 (min · max · 境界を含む)</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">タイプ設定タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>入力できる<b>値の範囲</b>を決めます。範囲外の値は保存段階でブロックされます。二つの項目は互いに独立しているため、<b>片方だけ入力しても機能</b>します。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:2.13199"><img src="img/s3_2_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(31.691% - 11px);margin-top:calc(26.369% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(81.355% - 11px);margin-top:calc(28.612% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(96.281% - 11px);margin-top:calc(28.612% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(67.679% - 11px);margin-top:calc(39.219% - 11px)"><span class="n">3</span></span></div><figcaption>min 2 · max 10 · 境界を含む — キャンバスの入力欄の左右に範囲が表示される</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>min</b> — 入力可能な最小値です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>max</b> — 入力可能な最大値です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>min inclusive · max inclusive</b> — 境界値そのものを許可するかどうかを決めます。選択すると<b>以上 · 以下</b>(<code>≥</code> <code>≤</code>)、解除すると<b>超 · 未満</b>(<code>&gt;</code> <code>&lt;</code>)になります。デフォルト値は選択です。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">①~③の結果 — キャンバスの入力欄の<b>左右に範囲が一緒に表示</b>されます。キャプチャは <code>2.00 ≤ □ ≤ 10.00</code> なので、2 と 10 を含みます。ユーザーは入力前に許容範囲をすぐに確認できます。</p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>境界値を含めるかどうかは、臨床的に決める必要があります。例えば「収縮期血圧 90 以上」と「90 超」では、90 の被験者を含むかどうかが分かれます。プロトコルの文言をそのまま反映してください。</li><li><span class="bul">• </span>範囲制限は入力そのものを防ぐ条件です。正常値を外れていても記録は残すべき値(異常値)まで防がないよう、生理的に不可能な範囲を基準に余裕を持って設定する方が安全です。</li><li><span class="bul">• </span>すでに運用中のフォームで範囲を狭めると、既存データが新しい制限に違反した状態で残ることがあります。その値は再度保存するときにブロックされるため、発行後の縮小は慎重に判断してください。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>片方だけ設定しても構いません — 上限だけを適用する場合は、max だけを入力してください。</li><li><span class="bul">• </span>検証タブの「値の範囲」規則<span class="ref">4.2</span>も同じチェックを行います。違いは、違反時に表示する文言を直接指定できる点です。</li></ul></div>
+<div class="blk tab kwn"><h3><span>境界を含むかどうか</span></h3></div>
+<div class="blk tblwrap"><table class=""><thead><tr><th>設定</th><th>表示</th><th>意味</th><th>2 を入力すると</th></tr></thead><tbody><tr><td class="c0"><b>min inclusive 選択</b></td><td class="c1"><code>2 ≤</code></td><td class="c2">2 以上</td><td class="c3">通過</td></tr><tr><td class="c0"><b>min inclusive 解除</b></td><td class="c1"><code>2 &lt;</code></td><td class="c2">2 超</td><td class="c3">ブロック</td></tr><tr><td class="c0"><b>max inclusive 選択</b></td><td class="c1"><code>≤ 10</code></td><td class="c2">10 以下</td><td class="c3">(10 入力時) 通過</td></tr><tr><td class="c0"><b>max inclusive 解除</b></td><td class="c1"><code>&lt; 10</code></td><td class="c2">10 未満</td><td class="c3">(10 入力時) ブロック</td></tr></tbody></table></div></div></section><section class="sec" id="s3-3" data-num="3.3" data-chtitle="3. タイプ設定タブ — 数値入力規則">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.3</span><span class="hx">小数桁数 · 単位 (decimalPlaces · unit)</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">タイプ設定タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>値を<b>どの桁まで受け付けるか</b>と<b>どの単位か</b>を決めます。どちらの項目も、入力画面の表示と保存規則に直接影響します。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:2.13199"><img src="img/s3_3_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(31.691% - 11px);margin-top:calc(26.369% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(81.355% - 11px);margin-top:calc(35.065% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(96.281% - 11px);margin-top:calc(35.065% - 11px)"><span class="n">2</span></span></div><figcaption>decimalPlaces 2 · unit cm — 範囲表示が小数点以下二桁にそろい、単位が付く</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>decimalPlaces</b> — 許可する小数桁数です。キャプチャの <code>2</code> は、小数点以下二桁まで受け付けるという意味です。<code>0</code> の場合は整数のみ許可します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>unit</b> — 入力欄の右に表示する単位です。キャプチャは <code>cm</code> です。<b>単位は表示用であり、値には保存されません</b> — データには数値だけが入ります。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">①②の結果 — キャンバスの範囲表示が <code>2.00</code> · <code>10.00</code> のように<b>指定した桁数にそろえられ</b>、入力欄の右端に<b>単位 <code>cm</code> が固定</b>で表示されます。</p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ 単位を変更するときは、すでに保存された値を必ず確認してください。単位は表示上の文言にすぎないため、<code>kg</code> を <code>g</code> に変えても既存データは換算されません。同じ欄に単位の異なる値が混ざると、元に戻せません。</li><li><span class="bul">• </span>単位は必ず指定してください。指定しないと、ユーザーが cm と m、kg と g を混在させて入力することになります。プロトコルで定めた単位一つに固定するのが原則です。</li><li><span class="bul">• </span>小数桁数を減らすと精度が失われます。体温のように小数一桁が臨床的に意味を持つ項目で <code>0</code> にすると、36.8 を記録できません。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>自動計算結果の小数桁数は、この値ではなく計算式の precision で別途決めます。<span class="ref">3.5</span></li></ul></div></div></section><section class="sec" id="s3-4" data-num="3.4" data-chtitle="3. タイプ設定タブ — 数値入力規則">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.4</span><span class="hx">自動計算 ① — 計算式の指定</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">タイプ設定タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>他のフィールドの値でこの欄を<b>自動的に埋める</b>機能です。体重と身長から BMI を求めるような派生値に使用します。値は<b>保存する時点でシステムが算出</b>し、ユーザーはこの欄に直接入力できません。計算タイミング · 小数桁数と作成規則は 3.5 に続きます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:518.2px"><div class="imgbox" style="aspect-ratio:1.29548"><img src="img/s3_4_1.png" alt=""><span class="mk mk-ref" style="margin-left:calc(15.955% - 11px);margin-top:calc(28.483% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(42.276% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(91.964% - 11px);margin-top:calc(46.355% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(50.953% - 11px)"><span class="n">3</span></span><span class="mk mk-res" style="margin-left:calc(90.004% - 11px);margin-top:calc(68.991% - 11px)"><span class="n">2</span></span></div><figcaption>自動計算をオンにして計算式を入力した状態 — 身長 · 体重を参照する BMI フィールド</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>自動計算 (calculation)</b> — 選択すると、下の設定が表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>計算式 (expression)</b> — 参照するフィールドを <code>{fieldKey}</code> 形式で入力します。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">2</span></span><p class="t"><b>参照フィールド</b>の一覧が計算式から<b>自動で抽出</b>されます(<code>weight</code> · <code>height</code>) — 意図したフィールドがすべて表示されているか確認してください。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>参照フィールドを挿入</b> — 同じフォームのフィールドを一覧から選んで計算式に入れます。直接入力しても構いません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">参照先の<b>身長 · 体重フィールドが同じフォーム内</b>にある必要があります。他のフォームの値は参照できません。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ 計算式は単位を認識しません。身長を <code>cm</code> で受け付ける場合は、BMI を求めるときに m に換算する必要があります(<code>{height} / 100</code>)。換算の向きが間違っていてもシステムはブロックせず、誤った値を黙って保存するため、発行前に実際の値を入れて結果を必ず確認してください。</li><li><span class="bul">• </span>⛔ 計算に失敗しても保存は成功します。参照フィールドが空である、0 で割るなど計算できない状況では、その欄だけが空の値のまま残り、フォームはそのまま保存されます。結果が空でもエラーメッセージは表示されないため、空の計算結果を定期的に点検してください。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>互いを参照する計算式(循環参照)は、発行段階でブロックされます。参照したフィールドを削除したり fieldKey を変更したりしても、計算式が壊れます。<span class="ref">2.1</span></li><li><span class="bul">• </span>未測定として宣言されたフィールドを参照すると、結果は空の値になります。参照値がなくなるためです。<span class="ref">2.4</span></li></ul></div></div></section><section class="sec" id="s3-5" data-num="3.5" data-chtitle="3. タイプ設定タブ — 数値入力規則">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.5</span><span class="hx">自動計算 ② — 計算タイミング · 小数桁数 · 制約</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">タイプ設定タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>3.4 で入力した計算式を<b>いつ計算するか</b>と<b>結果を何桁で保存するか</b>を決める領域です。この下の案内文は、計算フィールドが通常のフィールドとどう異なるかを説明しています。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:358.0px"><div class="imgbox" style="aspect-ratio:1.03448"><img src="img/s3_5_1.png" alt=""><span class="mk mk-ref" style="margin-left:calc(60.790% - 11px);margin-top:calc(11.878% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(31.441% - 11px);margin-top:calc(19.121% - 11px)"><span class="n">1</span></span><span class="mk mk-ref" style="margin-left:calc(87.866% - 11px);margin-top:calc(53.923% - 11px)"><span class="n">2</span></span><span class="mk mk-ref" style="margin-left:calc(87.866% - 11px);margin-top:calc(74.537% - 11px)"><span class="n">3</span></span></div><figcaption>計算式の下の領域 — 計算タイミング · 小数桁数と画面の案内 (属性パネルを拡大)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>trigger</b> · <b>precision (小数桁数)</b> — <b>AUTO (保存時に自動)</b> は保存するたびに再計算するという意味で、precision を空にすると<b>算出された値がそのまま</b>保存されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">計算式に使える<b>演算子と関数の一覧</b>が案内されています。(下記「計算式に使えるもの」参照)</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">2</span></span><div class="body"><p class="t">⚠ 画面の警告 — <b>precision を空にすると、割り切れない値が非常に長い小数で保存されます。</b>入力画面では短く表示されても<b>保存された値はそのまま</b>なので、意図した桁数がある場合は必ず指定してください。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">3</span></span><div class="body"><p class="t">画面の案内 — <b>計算フィールドは入力画面で読み取り専用</b>であり、同じ理由で<b>デフォルト値を持つことができません。</b><span class="ref">3.6</span></p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>precision は表示規則ではなく保存規則です。空にしておくと、入力画面では短く表示されても、保存された値には長い小数がそのまま残ります。抽出 · 統計で値が異なって見える原因になるため、臨床的に意味のある桁数を指定してください。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>計算フィールドは入力画面で読み取り専用で、値は保存時に算出されます。ユーザーが入力できない欄なので、必須に指定しても必須集計から自動で除外されます。<span class="ref">2.2</span></li><li><span class="bul">• </span>タイプ設定の decimalPlaces<span class="ref">3.3</span>とは別の項目です。decimalPlaces はユーザーが直接入力するときの許容桁数で、precision は計算結果を保存する桁数です。</li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>計算式が長くなると確認が難しくなります。中間値を別の計算フィールドに分けておくと、どこで間違えたかを見つけやすくなります。</li></ul></div>
+<div class="blk tab kwn"><h3><span>計算式に使えるもの</span></h3></div>
+<div class="blk plain"><ul><li><span class="bul">• </span>参照 <code>{fieldKey}</code> (同じフォームの他のフィールド) · 演算子 <code>+</code> <code>-</code> <code>*</code> <code>/</code> <code>%</code> <code>^</code>(べき乗) · 括弧</li><li><span class="bul">• </span>関数 — <code>sqrt</code> <code>abs</code> <code>round(x[,n])</code> <code>floor</code> <code>ceil</code> <code>min</code> <code>max</code> <code>trunc</code> <code>sign</code> <code>pow</code> <code>ln</code> <code>log10</code> <code>exp</code></li><li><span class="bul">• </span>作成例 — 体表面積(BSA · Mosteller): <code>sqrt(({height} * {weight}) / 3600)</code> · 体格指数(BMI · 身長を cm で受け付ける場合): <code>{weight} / ({height} / 100)^2</code></li></ul></div></div></section><section class="sec" id="s3-6" data-num="3.6" data-chtitle="3. タイプ設定タブ — 数値入力規則">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.6</span><span class="hx">デフォルト値 (defaultValue)</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">タイプ設定タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>新しい入力を開始するときに<b>あらかじめ入力しておく値</b>です。ほとんどの被験者が同じ値を入力する項目で、入力の負担を減らします。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:2.10444"><img src="img/s3_6_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(54.928% - 11px);margin-top:calc(13.120% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(42.497% - 11px)"><span class="n">1</span></span></div><figcaption>デフォルト値 <code>160</code> — キャンバスの入力欄にあらかじめ入力された状態で表示される</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>デフォルト値 (defaultValue)</b> — 新規入力時にあらかじめ入る初期値を入力します。(任意)</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">キャンバスの入力欄に、デフォルト値が入力された状態で表示されます。単位(<code>cm</code>)は右側にそのまま維持されます。</p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ 測定値の項目にはデフォルト値を指定しないでください。数値欄にあらかじめ値が入っていると、実際に測定したか確認されていない数値がそのまま保存されます。身長 · 体重 · 検査値のように被験者ごとに異なるべき値では特に危険です。</li><li><span class="bul">• </span>自動計算と併用できません。計算フィールドの値は保存時にシステムが算出するためです。<span class="ref">3.4</span></li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>デフォルト値は、新しく作成する入力にのみ適用されます。すでに保存されたデータは変更されません。</li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>デフォルト値も範囲 · 小数桁数の制限<span class="ref">3.2 · 3.3</span>を満たす必要があります。制限に合わないデフォルト値は、保存段階でブロックされます。</li><li><span class="bul">• </span>デフォルト値が有用なのは、<b>プロトコルで固定された数値</b>(例: 投与量 · 標準回次)程度です。</li></ul></div></div></section><section class="divider" data-ch="4" data-chtitle="4. 検証タブ — 保存前の値チェック">
+<div class="dlabel">CRF フィールドタイプ — 数値</div>
+<div class="dhead"><div class="dnum">4</div><h1 class="dtitle" id="ch4">検証タブ — 保存前の値チェック</h1></div>
+<ul class="dlist"><li><span class="dn">4.1</span><span class="dt">検証規則がない状態</span></li><li><span class="dn">4.2</span><span class="dt">規則の追加</span></li><li><span class="dn">4.3</span><span class="dt">規則作成完了</span></li></ul></section><section class="sec" id="s4-1" data-num="4.1" data-chtitle="4. 検証タブ — 保存前の値チェック">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">4.1</span><span class="hx">検証規則がない状態</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">検証タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p><b>保存する前に</b>値が条件に合っているかをチェックする規則をまとめておくタブです。タイプ設定<span class="ref">3章</span>の範囲制限より<b>細かい条件</b>を設定したい場合や、<b>違反時に表示する文言を直接決めたい場合</b>に使用します。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:1.79848"><img src="img/s4_1_1.png" alt=""><span class="mk mk-ref" style="margin-left:calc(91.964% - 11px);margin-top:calc(23.525% - 11px)"><span class="n">1</span></span><span class="mk mk-ref" style="margin-left:calc(97.279% - 11px);margin-top:calc(28.310% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(32.907% - 11px)"><span class="n">1</span></span><span class="mk mk-ref" style="margin-left:calc(97.279% - 11px);margin-top:calc(37.315% - 11px)"><span class="n">3</span></span></div><figcaption>検証タブ — 規則が一つもない初期状態</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>[+ 規則追加]</b> — 最初の規則を作成します。選択した後の画面は 4.2 で説明します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t"><b>検証規則</b>領域と、登録された<b>規則数</b>です。最初は <code>0 件</code> です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">2</span></span><div class="body"><p class="t">規則がない場合は、「登録された検証規則はありません。下のボタンから最初の規則を追加してください。」という案内が表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">3</span></span><div class="body"><p class="t">下部の案内 — 「ここの規則は<b>保存前</b>にチェックします。他のフォームの値を参照する検証はプロジェクト検証規則で登録してください。」</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>他のフォームの値を参照する検証は、ここでは作成できません。そのような規則は「プロジェクト検証規則」画面で登録してください。このタブは、同じフォーム内で完結するチェックのみを扱います。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>タイプ設定の min · max だけで十分な場合が多くあります。同じ範囲チェックを二か所に重複して設定する必要はありません。<span class="ref">3.2</span></li><li><span class="bul">• </span>規則は複数作成でき、有効な規則をすべて満たした場合に保存されます。</li></ul></div></div></section><section class="sec" id="s4-2" data-num="4.2" data-chtitle="4. 検証タブ — 保存前の値チェック">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">4.2</span><span class="hx">規則の追加</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">検証タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>4.1 の<b>[+ 規則追加]</b>を選択すると、<b>規則 1</b> ブロックが作成されます。数値フィールドで最もよく使う種類は<b>値の範囲</b>で、タイプ設定の min · max と同じチェックを行いますが、<b>違反時の文言と処理方法</b>を直接指定できます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:1.64951"><img src="img/s4_2_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(34.379% - 11px);margin-top:calc(20.638% - 11px)"><span class="n">1</span></span><span class="mk mk-res" style="margin-left:calc(95.507% - 11px);margin-top:calc(23.388% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(88.067% - 11px);margin-top:calc(27.801% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(32.403% - 11px)"><span class="n">3</span></span><span class="mk mk-set" style="margin-left:calc(84.524% - 11px);margin-top:calc(38.610% - 11px)"><span class="n">4</span></span><span class="mk mk-ref" style="margin-left:calc(91.964% - 11px);margin-top:calc(40.899% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(38.610% - 11px)"><span class="n">5</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(44.887% - 11px)"><span class="n">6</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(49.584% - 11px)"><span class="n">7</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(54.540% - 11px)"><span class="n">1</span></span></div><figcaption>[+ 規則追加] 直後 — 「規則 1」ブロックが作成された状態</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>[+ 規則追加]</b> — 規則をもう一つ作成します。(4.1 で選択したのと同じボタンです。)</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">「規則 1」ブロックが作成され、キャンバスの表示名の横に<b>「規則 1」バッジ</b>が表示されます。</p></div><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">規則数が <code>1 件</code> に変わります。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>有効</b>チェックボックスと<b>削除</b>アイコン — チェックを外すと、規則を削除せずに<b>一時的に停止</b>できます。削除アイコンは、規則を完全に削除します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>ruleType</b> — 規則の種類です。キャプチャは<b>値の範囲</b>を選択した状態です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">4</span></span><div class="body"><p class="t"><b>min</b> — 範囲の下限です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">5</span></span><div class="body"><p class="t"><b>max</b> — 範囲の上限です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">薄い文字の <code>0</code> · <code>100</code> と「例: 値は0~100の間である必要があります。」は<b>入力例</b>であり、設定された値ではありません。画面の案内のとおり「片方だけ定義しても有効です。」</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">6</span></span><div class="body"><p class="t"><b>message (違反時表示)</b> — 規則に違反したときに、ユーザーに表示する文言です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">7</span></span><div class="body"><p class="t"><b>違反時</b> — <b>保存ブロック</b>または<b>警告</b>から選択します。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>message を空欄にすると、ユーザーはブロックされた理由が分かりません。<code>身長は0~200cmの間である必要があります</code> のように、許容範囲をそのまま書いてください。</li><li><span class="bul">• </span>タイプ設定の範囲制限<span class="ref">3.2</span>とこの規則は、一緒に適用されます。両方を満たした場合にのみ保存されます — 互いに食い違う範囲を指定すると、どの値も保存できなくなるため、片方だけを使用する方が安全です。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>「保存ブロック」は値を修正するまで保存をブロックし、「警告」は知らせますが保存は許可します。生理的に不可能な値は「保存ブロック」、まれだが起こり得る値は「警告」に分けるのが実務上の基準です。</li><li><span class="bul">• </span>[+ 規則追加] を再度選択すると、規則 2、3 … を追加できます。有効な規則をすべて満たした場合に保存されます。</li></ul></div></div></section><section class="sec" id="s4-3" data-num="4.3" data-chtitle="4. 検証タブ — 保存前の値チェック">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">4.3</span><span class="hx">規則作成完了</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">検証タブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>4.2 の空の項目を入力した状態です。この設定では、200 を超える値を入力したときに保存がブロックされ、指定した文言が表示されます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:1.64227"><img src="img/s4_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(32.546% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(84.524% - 11px);margin-top:calc(38.720% - 11px)"><span class="n">2</span></span><span class="mk mk-ref" style="margin-left:calc(91.964% - 11px);margin-top:calc(41.030% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(38.720% - 11px)"><span class="n">3</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(44.918% - 11px)"><span class="n">4</span></span><span class="mk mk-set" style="margin-left:calc(97.279% - 11px);margin-top:calc(49.678% - 11px)"><span class="n">5</span></span></div><figcaption>値の範囲規則 — 上限 200 のみを指定し、メッセージまで入力した状態</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>ruleType = 値の範囲</b> — 数値の大きさをチェックする規則です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>min</b> — キャプチャでは<b>空欄のままの状態</b>です。薄い <code>0</code> は入力例にすぎず、設定された値ではありません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>max = 200</b> — 上限のみを指定しました。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">画面の案内 — 「片方だけ定義しても有効です。」 キャプチャのように上限だけを指定しても、規則は正常に機能します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">4</span></span><div class="body"><p class="t"><b>message = </b><code>身長は</code><b><code>0~200cm</code></b><code>の間である必要があります</code><b><code>。</code></b> — 違反時にユーザーに表示する文言です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">5</span></span><div class="body"><p class="t"><b>違反時 = 保存ブロック</b> — 条件を満たすまで保存されません。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ メッセージと実際の条件が食い違っています。キャプチャの文言は「0~200cm の間」と知らせていますが、min を空欄にしているため、負の値も通過します。下限もブロックするには、min に 0 を入力する必要があります。メッセージは実際の設定と必ず一致させてください — 食い違うと、ユーザーは規則を信頼しなくなります。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>片方だけを指定するのは正常な動作です。ただし、「上限だけを設定するつもりだったのか、下限を入れ忘れたのか」はメッセージを見ると分かります。保存前に二つの欄を合わせて確認してください。</li><li><span class="bul">• </span>規則を保存した後でも、有効のチェックを外すとすぐに適用が停止されます — 規則を削除せずに一時停止するときに使用します。<span class="ref">4.2 ②</span></li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>タイプ設定<span class="ref">3章</span>と検証規則<span class="ref">4章</span>は<b>一緒に適用</b>されます。範囲制限と検証規則の両方を満たした場合にのみ保存されます。</li></ul></div></div></section><section class="divider" data-ch="5" data-chtitle="5. UIタブ — 画面配置と案内文">
+<div class="dlabel">CRF フィールドタイプ — 数値</div>
+<div class="dhead"><div class="dnum">5</div><h1 class="dtitle" id="ch5">UIタブ — 画面配置と案内文</h1></div>
+<ul class="dlist"><li><span class="dn">5.1</span><span class="dt">UIタブの全体構成</span></li><li><span class="dn">5.2</span><span class="dt">レイアウト幅</span></li><li><span class="dn">5.3</span><span class="dt">読み取り専用 · 非表示</span></li><li><span class="dn">5.4</span><span class="dt">placeholder · helpText</span></li></ul></section><section class="sec" id="s5-1" data-num="5.1" data-chtitle="5. UIタブ — 画面配置と案内文">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">5.1</span><span class="hx">全体構成</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">UIタブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>値そのものではなく、<b>画面にどう配置し、どう案内するか</b>を決めるタブです。このタブの設定は、保存されるデータそのものを変更しません。ただし、<b>非表示</b>は画面上で隠すだけで<b>必須集計からは除外されないため</b>、使用する前に 5.3 を確認してください。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:1.77545"><img src="img/s5_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(26.007% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(31.312% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(35.202% - 11px)"><span class="n">3</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(40.696% - 11px)"><span class="n">4</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(47.581% - 11px)"><span class="n">5</span></span></div><figcaption>UIタブ — 初めて開いた状態</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>レイアウト幅</b> — 一行の中でこのフィールドが占める幅です。選択肢の意味は、すぐ下の案内「12-col grid 基準 — full (12) · half (6) · third (4) · quarter (3)」に記載されています。<span class="ref">5.2</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>読み取り専用 (入力ブロック)</b> — 表示はしますが、修正できないようにします。<span class="ref">5.3</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>非表示 (UI 非レンダリング · データ保持)</b> — 画面から隠します。<span class="ref">5.3</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">4</span></span><div class="body"><p class="t"><b>placeholder</b> — 値がないときに入力欄の中に表示されるグレーの案内です。<span class="ref">5.4</span></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">5</span></span><div class="body"><p class="t"><b>helpText (ヘルプ)</b> — フィールドの下に表示される案内文です。<span class="ref">5.4</span></p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>入力欄に薄く表示される <code>入力ガイド (例: YYYY-MM-DD)</code> · <code>入力補助説明 (任意)</code> は入力例であり、設定された値ではありません。</li><li><span class="bul">• </span>数値項目は幅を狭めても不便になりません。値が短く、狭い欄でも全体が見えるため、身長 · 体重のように対になる項目を半分の幅で並べて配置すると、フォームが短くなります。<span class="ref">5.2</span></li><li><span class="bul">• </span>自動計算フィールドは、設定に関係なく入力画面ですでに読み取り専用です。別途指定する必要はありません。<span class="ref">3.4</span></li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>デフォルト値は<b>レイアウト幅 = 全体</b>、読み取り専用 · 非表示は<b>解除</b>状態です。</li></ul></div></div></section><section class="sec" id="s5-2" data-num="5.2" data-chtitle="5. UIタブ — 画面配置と案内文">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">5.2</span><span class="hx">レイアウト幅</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">UIタブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>一行を12列に分けた<b>12-column grid</b>上で、このフィールドが占める幅を選択します。<b>数値項目は値が短く、狭めても読みにくくならないため</b>、関連する数値を並べて配置してフォームを短くするときに特に効果的です。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:3.12583"><img src="img/s5_2_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(34.457% - 11px);margin-top:calc(13.228% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(91.962% - 11px);margin-top:calc(15.799% - 11px)"><span class="n">1</span></span></div><figcaption>半分 (1/2) を選択 — キャンバスの入力欄が半分の幅に縮小される</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>レイアウト幅</b> — 選択リストから幅を指定します。例は<b>半分 (1/2)</b>です。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">キャンバスの入力欄が<b>半分の幅</b>に縮小されます。単位(<code>cm</code>)は、狭くなった入力欄の右側にそのまま付いています。</p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>範囲表示があるフィールドは、幅を狭めすぎないでください。入力欄の左右に <code>2.00 ≤ … ≤ 10.00 cm</code> が一緒に表示されるため<span class="ref">3.2 · 3.3</span>、欄が狭いと肝心の入力スペースがほとんど残りません。</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>幅を狭めると、次のフィールドが同じ行に配置されます。一行の合計が12を超えると、次の行に移ります。</li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>画面幅が狭い端末では、設定に関係なく一行に一つずつ縦に配置されることがあります。</li></ul></div>
+<div class="blk tab kwn"><h3><span>幅の選択肢</span></h3></div>
+<div class="blk tblwrap"><table class=""><thead><tr><th>選択</th><th>占める列数</th><th>一行に配置される数</th><th>適した例</th></tr></thead><tbody><tr><td class="c0"><b>全体</b></td><td class="c1">12</td><td class="c2">1つ</td><td class="c3">単独の数値</td></tr><tr><td class="c0"><b>半分 (1/2)</b></td><td class="c1">6</td><td class="c2">2つ</td><td class="c3">身長 · 体重</td></tr><tr><td class="c0"><b>三分の一 (1/3)</b></td><td class="c1">4</td><td class="c2">3つ</td><td class="c3">収縮期 · 拡張期 · 脈拍</td></tr><tr><td class="c0"><b>四分の一 (1/4)</b></td><td class="c1">3</td><td class="c2">4つ</td><td class="c3">検査値のまとまり</td></tr></tbody></table></div></div></section><section class="sec" id="s5-3" data-num="5.3" data-chtitle="5. UIタブ — 画面配置と案内文">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">5.3</span><span class="hx">読み取り専用 · 非表示</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">UIタブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>フィールドを<b>修正できないように</b>したり、<b>表示されないように</b>したりします。どちらも、保存されたデータはそのまま保持されます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:3.36525"><img src="img/s5_3_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(57.952% - 11px);margin-top:calc(10.063% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(22.243% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(27.181% - 11px)"><span class="n">2</span></span></div><figcaption>[非表示] を選択 — キャンバスからフィールドが消え、空のセクションだけが残る</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>読み取り専用 (入力ブロック)</b> — 値は表示されますが、ユーザーは修正できません。(このキャプチャでは解除状態)</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>非表示 (UI 非レンダリング · データ保持)</b> — 入力画面に表示しません。すでに保存された値は削除されません。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">2</span></span><p class="t">キャンバスからフィールドが消え、<b>セクションが空</b>に見えます。</p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ 必須項目を非表示にしないでください。UIタブの非表示は画面上で隠すだけで、必須集計からは除外されません — ユーザーが入力できない項目が分母に残り、フォームを完了できなくなります。</li><li><span class="bul">• </span>⛔ 自動計算の参照フィールドを非表示にしないでください。ユーザーが値を入力できなくなり、計算結果がいつまでも空のままになります。<span class="ref">3.4</span></li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>条件付きタブの非表示とは異なります。条件が合わずに非表示になったフィールドは、必須集計から除外されます<span class="ref">6章</span>。同じ「非表示」という表現を使いますが、検証での扱いが正反対なので、区別してください。</li><li><span class="bul">• </span>読み取り専用と非表示は異なります。読み取り専用は「表示するが修正不可」、非表示は「表示しない」です。計算結果のように値を見せる必要がある項目には、読み取り専用を使用してください。</li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>非表示にしても<b>構造パネルにはそのまま残っています</b> — 再度選択して設定を元に戻せます。</li></ul></div></div></section><section class="sec" id="s5-4" data-num="5.4" data-chtitle="5. UIタブ — 画面配置と案内文">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">5.4</span><span class="hx">placeholder · helpText</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">UIタブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>ユーザーに<b>何をどのように入力すべきか</b>を知らせる二つの文言です。表示される位置と消えるタイミングが異なります。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:2.02564"><img src="img/s5_4_1.png" alt=""><span class="mk mk-res" style="margin-left:calc(49.968% - 11px);margin-top:calc(13.094% - 11px)"><span class="n">1</span></span><span class="mk mk-res" style="margin-left:calc(39.965% - 11px);margin-top:calc(18.746% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(33.937% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(42.768% - 11px)"><span class="n">2</span></span></div><figcaption>placeholder · helpText を入力した状態 — キャンバスでそれぞれ異なる位置に表示される</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>placeholder</b> — 入力欄の中に表示する案内文を入力します。キャプチャは <code>ex) 160</code> で、<b>期待する桁数と形式を例として</b>示しています。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">入力欄の<b>中</b>にグレーで表示されます。ユーザーが入力を始めると<b>消えます。</b></p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>helpText (ヘルプ)</b> — フィールドの下に表示する案内文を入力します。キャプチャは <code>数字のみ入力できます(単位は cm 固定)</code> です。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">2</span></span><p class="t">フィールドの<b>下</b>に電球アイコン(💡)と一緒に表示されます。入力しても<b>消えません。</b></p></div></div></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>単位と小数桁数は helpText で知らせてください。キャプチャの「単位は cm 固定」のように書いておくと、ユーザーが m で入力したり、単位も一緒に入力したりするミスを減らせます。placeholder は入力を始めると消えるため、入力中にも見る必要がある案内には適していません。</li><li><span class="bul">• </span>範囲制限<span class="ref">3.2</span>を設定した場合は、その範囲も案内してください。入力欄の左右に範囲は表示されますが、なぜその範囲なのかは helpText でしか伝えられません。</li><li><span class="bul">• </span>description と helpText は別々の項目です。画面の案内のとおり — helpText は「フォームビルダーメモ(description)とは別 — ユーザー入力時の補助」です。両方を入力すると、二行が一緒に表示されます。</li></ul></div>
+<div class="blk tab kwn"><h3><span>三つの文言の違い</span></h3></div>
+<div class="blk tblwrap"><table class=""><thead><tr><th>項目</th><th>表示位置</th><th>入力を始めると</th><th>設定場所</th></tr></thead><tbody><tr><td class="c0"><b>placeholder</b></td><td class="c1">入力欄の<b>中</b> (グレー)</td><td class="c2">消える</td><td class="c3">UIタブ</td></tr><tr><td class="c0"><b>helpText</b></td><td class="c1">フィールドの<b>下</b> (💡)</td><td class="c2">そのまま維持</td><td class="c3">UIタブ</td></tr><tr><td class="c0"><b>description</b></td><td class="c1">表示名の<b>下</b></td><td class="c2">そのまま維持</td><td class="c3">基本タブ <span class="ref">2.1</span></td></tr></tbody></table></div></div></section><section class="divider" data-ch="6" data-chtitle="6. 条件付きタブ — 他の値に応じて表示する">
+<div class="dlabel">CRF フィールドタイプ — 数値</div>
+<div class="dhead"><div class="dnum">6</div><h1 class="dtitle" id="ch6">条件付きタブ — 他の値に応じて表示する</h1></div>
+<ul class="dlist"><li><span class="dn">6.1</span><span class="dt">条件付き表示の有効化</span></li><li><span class="dn">6.2</span><span class="dt">条件の設定</span></li></ul></section><section class="sec" id="s6-1" data-num="6.1" data-chtitle="6. 条件付きタブ — 他の値に応じて表示する">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">6.1</span><span class="hx">条件付き表示の有効化</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">条件付きタブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p><b>他のフィールドの値に応じて</b>、このフィールドを表示したり隠したりする機能です。「事前調査情報の有無 = O」のときだけ数値を入力させるような分岐に使用します。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:1.72006"><img src="img/s6_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(24.092% - 11px)"><span class="n">1</span></span><span class="mk mk-res" style="margin-left:calc(31.899% - 11px);margin-top:calc(27.797% - 11px)"><span class="n">1</span></span><span class="mk mk-ref" style="margin-left:calc(97.007% - 11px);margin-top:calc(27.986% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(32.752% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(39.666% - 11px)"><span class="n">3</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(45.329% - 11px)"><span class="n">4</span></span><span class="mk mk-ref" style="margin-left:calc(97.007% - 11px);margin-top:calc(51.866% - 11px)"><span class="n">2</span></span></div><figcaption>条件付き表示を有効にした直後 — 参照フィールド · 演算子 · 値が空になっている</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>条件付き表示 (condition) 有効</b> — 選択すると、下の条件設定が表示されます。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">キャンバスのフィールドの上に 🔗<b> eq</b> バッジが表示され、条件が適用されたことを知らせます。</p></div></div></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">⚠ 画面の案内 — 「非表示フィールドは required 検証が免除されます (データ整合性に影響)。」 条件の判定は<b>システムが実行</b>します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>参照フィールド fieldKey</b> — 条件の基準となる、<b>同じフォーム内</b>の他のフィールドです。同じフォームの兄弟フィールドが自動補完され、一覧にない値を直接入力することもできます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>operator</b> — 比較方法です。デフォルト値は<b>eq (等しい)</b>です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">4</span></span><div class="body"><p class="t"><b>value</b> — 比較する値です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">2</span></span><div class="body"><p class="t">下部の例 — fieldKey=&quot;gender&quot; · operator=&quot;eq&quot; · value=&quot;M&quot; → 性別が M のときだけ本フィールドを表示。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>条件を設定すると、必須検証が免除されることがあります。条件が合わずに非表示になっている間は、そのフィールドが必須でも、空のままフォームが完了します。これは不具合ではなく意図された動作です — 表示されない項目を必須として求めると、フォームを完了できないためです。</li><li><span class="bul">• </span>⛔ 自動計算の参照フィールドに条件付き表示を設定するときは、注意してください。条件が偽の場合、参照値が空になり、計算結果も空になります。計算フィールドと参照フィールドには同じ条件を設定し、一緒に表示され、一緒に消えるようにしてください。<span class="ref">3.4</span></li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>キャプチャ上部の「自動保存失敗 — 手動保存を推奨」は、自動保存が一時的に失敗したときに表示される案内です。この場合は [保存] を押して、直接保存してください。</li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>条件を有効にして参照フィールドを空欄にすると、条件は成立しません。必ず②~④をすべて入力してください。<span class="ref">6.2</span></li></ul></div></div></section><section class="sec" id="s6-2" data-num="6.2" data-chtitle="6. 条件付きタブ — 他の値に応じて表示する">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">6.2</span><span class="hx">条件の設定</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF管理</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">DataForm設計</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フォーム編集</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">フィールド属性</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">条件付きタブ</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>6.1 で有効にした条件を最後まで入力した状態です。この設定では、<b>「事前調査情報の有無」フィールドの値が O のときだけ</b>、この数値フィールドが入力画面に表示されます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><span class="n">1</span></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><span class="n">1</span></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><span class="n">1</span></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560px"><div class="imgbox" style="aspect-ratio:1.77477"><img src="img/s6_2_1.png" alt=""><span class="mk mk-ref" style="margin-left:calc(16.499% - 11px);margin-top:calc(25.852% - 11px)"><span class="n">1</span></span><span class="mk mk-res" style="margin-left:calc(45.905% - 11px);margin-top:calc(28.140% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(33.093% - 11px)"><span class="n">1</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(40.004% - 11px)"><span class="n">2</span></span><span class="mk mk-set" style="margin-left:calc(97.007% - 11px);margin-top:calc(45.571% - 11px)"><span class="n">3</span></span><span class="mk mk-ref" style="margin-left:calc(97.007% - 11px);margin-top:calc(52.387% - 11px)"><span class="n">2</span></span></div><figcaption><code>事前調査情報の有無</code> が <code>O</code> のときだけ表示されるように設定した状態</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">1</span></span><div class="body"><p class="t"><b>参照フィールド fieldKey = <code>field_w4tf</code></b> — 同じフォームの「事前調査情報の有無」フィールドを指します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">2</span></span><div class="body"><p class="t"><b>operator = eq (等しい)</b></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><span class="n">3</span></span><div class="body"><p class="t"><b>value = O</b> — 画面に表示される文言ではなく、その選択肢に<b>保存される値</b>を入力します。</p><div class="ress"><div class="res"><span class="cir c-res"><span class="n">1</span></span><p class="t">①~③をすべて入力した結果 — キャンバスのバッジが 🔗<b> field_w4tf(事前調査情報の有無) eq O</b> に具体化されます。どのような条件かをすぐに確認できます。</p></div></div></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">1</span></span><div class="body"><p class="t">参照先の「事前調査情報の有無」フィールドが<b>同じフォーム内</b>にある必要があり、構造ツリーで確認できます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><span class="n">2</span></span><div class="body"><p class="t">下部の例 — fieldKey=&quot;gender&quot; · operator=&quot;eq&quot; · value=&quot;M&quot; → 性別が M のときだけ本フィールドを表示。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>⛔ value には、画面の文言ではなく保存値を入力します。選択フィールドを参照するときは、その選択肢の保存値を先に確認してください。誤って入力すると条件が永遠に成立せず、このフィールドが最後まで表示されません。</li><li><span class="bul">• </span>参照フィールドの fieldKey を変更または削除すると、条件が壊れます。条件は表示名ではなく fieldKey で結び付いています。(2.1 の fieldKey の注意事項と同じ理由です。)</li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span>数値フィールドを参照するときは、値を数値のまま入力します。<code>1</code> のように書き、範囲比較(大きい · 小さい)が必要な場合は operator を確認してください — eq は完全に等しいときだけ成立します。</li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>条件を使用するとフォームが短くなり、不要な入力が減ります。ただし、<b>条件が互いに衝突すると最後まで表示されないフィールド</b>が生じるため、設定後にプレビューで必ず確認してください。</li></ul></div></div></section><section class="divider" data-ch="7" data-chtitle="7. 付録">
+<div class="dlabel">CRF フィールドタイプ — 数値</div>
+<div class="dhead"><div class="dnum">7</div><h1 class="dtitle" id="ch7">付録</h1></div>
+<ul class="dlist"><li><span class="dn">7.1</span><span class="dt">設定項目一覧</span></li></ul></section><section class="sec" id="s7-1" data-num="7.1" data-chtitle="7. 付録">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">7.1</span><span class="hx">数値フィールドの設定項目一覧</span></h2></template>
+<div class="flow"><div class="blk tab kwn"><h3><span>タブ別の設定項目</span></h3></div>
+<div class="blk tblwrap"><table class="wide"><thead><tr><th>タブ</th><th>項目</th><th>何を決めるか</th><th>本文</th></tr></thead><tbody><tr><td class="c0"><b>基本</b></td><td class="c1">fieldKey</td><td class="c2">値が保存される実際のキー · <b>計算式が参照する名前</b> (保存後の変更禁止)</td><td class="c3">2.1</td></tr><tr><td class="c0"></td><td class="c1"><b>label (表示名)</b></td><td class="c2">画面に表示される項目名</td><td class="c3">2.1</td></tr><tr><td class="c0"></td><td class="c1"><b>description (ヘルプ)</b></td><td class="c2">表示名の下の補足説明</td><td class="c3">2.1</td></tr><tr><td class="c0"></td><td class="c1"><b>必須入力</b></td><td class="c2">必ず入力する必要があるか (<b>0 は空の値ではない</b>)</td><td class="c3">2.2</td></tr><tr><td class="c0"></td><td class="c1"><b>SDV検証対象</b></td><td class="c2">CRA原資料照合の対象か · 検証必須かどうか</td><td class="c3">2.3</td></tr><tr><td class="c0"></td><td class="c1"><b>AE意味ロール</b></td><td class="c2">有害事象フォームでこのフィールドが意味するもの</td><td class="c3">※</td></tr><tr><td class="c0"></td><td class="c1"><b>未測定宣言を許可</b></td><td class="c2">「測定できなかった」を値として残せるか · 表示ラベル · 表示灯</td><td class="c3">2.4</td></tr><tr><td class="c0"><b>タイプ設定</b></td><td class="c1">min · max</td><td class="c2">入力可能な範囲 (外れると保存ブロック)</td><td class="c3">3.2</td></tr><tr><td class="c0"></td><td class="c1"><b>min inclusive · max inclusive</b></td><td class="c2">境界値を含むかどうか (選択=以上·以下 / 解除=超·未満)</td><td class="c3">3.2</td></tr><tr><td class="c0"></td><td class="c1"><b>decimalPlaces</b></td><td class="c2">許容する小数桁数 (0 = 整数のみ)</td><td class="c3">3.3</td></tr><tr><td class="c0"></td><td class="c1"><b>unit</b></td><td class="c2">入力欄の右の単位表示 (<b>値には保存されない</b>)</td><td class="c3">3.3</td></tr><tr><td class="c0"></td><td class="c1"><b>自動計算</b></td><td class="c2">計算式 · 参照フィールド · trigger · precision (<b>読み取り専用 · デフォルト値不可</b>)</td><td class="c3">3.4 · 3.5</td></tr><tr><td class="c0"></td><td class="c1"><b>デフォルト値 (defaultValue)</b></td><td class="c2">新規入力時にあらかじめ入力しておく値 (測定値には非推奨)</td><td class="c3">3.6</td></tr><tr><td class="c0"><b>検証</b></td><td class="c1">ruleType</td><td class="c2">規則の種類 — 数値では<b>値の範囲</b>を主に使用</td><td class="c3">4.2</td></tr><tr><td class="c0"></td><td class="c1"><b>expression (min · max)</b></td><td class="c2">規則の条件 (片方だけ指定可能)</td><td class="c3">4.3</td></tr><tr><td class="c0"></td><td class="c1"><b>message</b></td><td class="c2">違反時にユーザーに表示する文言 (<b>実際の条件と一致させること</b>)</td><td class="c3">4.3</td></tr><tr><td class="c0"></td><td class="c1"><b>違反時 · 有効</b></td><td class="c2">保存ブロック / 警告 · 規則の有効 · 無効</td><td class="c3">4.2</td></tr><tr><td class="c0"><b>UI</b></td><td class="c1">レイアウト幅</td><td class="c2">12-col grid 上の幅 (数値は半分 · 三分の一が有用)</td><td class="c3">5.2</td></tr><tr><td class="c0"></td><td class="c1"><b>読み取り専用</b></td><td class="c2">表示するが修正できないように</td><td class="c3">5.3</td></tr><tr><td class="c0"></td><td class="c1"><b>非表示</b></td><td class="c2">画面に表示しない (保存値は保持 · <b>必須集計には残る</b>)</td><td class="c3">5.3</td></tr><tr><td class="c0"></td><td class="c1"><b>placeholder · helpText</b></td><td class="c2">入力案内の文言 — <b>単位 · 小数桁数は helpText で</b></td><td class="c3">5.4</td></tr><tr><td class="c0"><b>条件付き</b></td><td class="c1">条件の有効化</td><td class="c2">条件付き表示を使用するかどうか (<b>必須検証の免除</b>)</td><td class="c3">6.1</td></tr><tr><td class="c0"></td><td class="c1"><b>参照フィールド fieldKey</b></td><td class="c2">条件の基準となる、同じフォームのフィールド</td><td class="c3">6.2</td></tr><tr><td class="c0"></td><td class="c1"><b>operator · value</b></td><td class="c2">比較方法と比較する値 (<b>保存値</b>を入力)</td><td class="c3">6.2</td></tr></tbody></table></div>
+<div class="blk tab kwn"><h3><span>必ず覚えておくこと</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span>計算式は単位を認識しません。換算が間違っていてもブロックせず、誤った値をそのまま保存するため、発行前に実際の値で結果を確認してください。<span class="ref">3.4</span></li><li><span class="bul">• </span>計算に失敗しても保存は成功します。参照値の欠損 · 0 による除算の場合は、その欄だけが空になり、エラーは表示されません — 空の結果を定期的に点検してください。<span class="ref">3.4</span></li><li><span class="bul">• </span>単位を変更しても、既存の値は換算されません。同じ欄に単位の異なる値が混ざると、元に戻せません。<span class="ref">3.3</span></li><li><span class="bul">• </span>先頭に 0 が必要な値には数値タイプを使用しないでください。<code>007</code> は <code>7</code> になります。<span class="ref">1.1</span></li><li><span class="bul">• </span>検証メッセージは実際の設定と一致させてください。片方だけを指定しておきながら両側の範囲を案内すると、ユーザーが誤解します。<span class="ref">4.3</span></li></ul></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><code>0</code> は空の値ではありません。未測定と区別するには、「未測定宣言を許可」を使用してください。<span class="ref">2.2 · 2.4</span></li><li><span class="bul">• </span>min · max はブロックの軸です。正常範囲を外れた値に警告だけを出す機能は、この画面にはありません。<span class="ref">3.1</span></li></ul></div>
+<div class="blk card note"><h4><span class="ttl">参考</span></h4><ul><li><span class="bul">• </span>保存した後に<b>fieldKey を変更すると</b>、既存データとの結び付きが切れ、計算式も壊れます。<span class="ref">2.1</span></li></ul></div>
+<div class="blk tab kwn"><h3><span>この文書で扱っていないもの</span></h3></div>
+<div class="blk box"><p>※ <b>AE意味ロール</b> — 基本タブにありますが、<b>設定手順のキャプチャがないため</b>、別の節を設けていません。有害事象(AE)フォームを使用するプロジェクトでのみ指定します。詳しい使い方は、AE 関連の文書を参照してください。</p></div>
+<div class="blk box"><p><b>整数のみ · 測定誤差 · 正常範囲</b> — 数値タイプの内部定義にはありますが、<b>現在この画面では設定しません。</b>正常範囲を外れた値を強調する必要がある検査項目は、<b>検査パネル系のフィールド</b>で設計してください。<span class="ref">3.1</span></p></div></div></section>
+</div>
+<div id="book"></div>
+<script>(async function () {
+  // 원본 블록은 hidden 상태라 글꼴 요청이 늦게 시작된다. 측정 전에 쓰는 굵기를 모두 먼저 불러온다.
+  const FAM = document.body.classList.contains('lang-ja') ? 'PretendardJPM' : 'PretendardM';
+  const SAMPLE = FAM === 'PretendardJPM' ? 'あ漢1A' : '가1A';
+  await Promise.all([400, 500, 700, 800].map(w => document.fonts.load(`${w} 16px ${FAM}`, SAMPLE)));
+  await document.fonts.ready;
+  if (![400, 500, 700, 800].every(w => document.fonts.check(`${w} 16px ${FAM}`, SAMPLE))) throw new Error('Pretendard 로드 실패');
+  await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  const src = document.getElementById('src');
+  const book = document.getElementById('book');
+  let pno = 0;
+  const pageMap = {};
+
+  function newPage(cls) {
+    const p = document.createElement('div');
+    p.className = 'page ' + (cls || '');
+    book.appendChild(p);
+    pno += 1;
+    p.dataset.pno = pno;
+    return p;
+  }
+  const overflow = a => a.scrollHeight > a.clientHeight + 0.5;
+
+  // 블록을 area에 차례로 넣고 넘치면 새 쪽을 만든다. kwn(다음 블록과 붙임)은 함께 넘긴다.
+  function flow(blocks, makePage) {
+    let area = makePage(true);
+    for (const b of blocks) {
+      area.appendChild(b);
+      if (!overflow(area)) continue;
+      if (b.classList.contains('tblwrap')) {
+        // 표는 행 단위로 나누고 다음 쪽에 머리행을 다시 붙인다
+        let cur = b;
+        while (overflow(area)) {
+          const body = cur.querySelector('tbody');
+          const rest = [];
+          while (overflow(area) && body.rows.length > 2) rest.unshift(body.removeChild(body.lastElementChild));
+          if (overflow(area)) { // 두 행도 안 들어가면 표 전체를 다음 쪽으로
+            area.removeChild(cur);
+            area = makePage(false); area.appendChild(cur);
+            rest.forEach(r => body.appendChild(r));
+            continue;
+          }
+          if (!rest.length) break;
+          const nxt = cur.cloneNode(true);
+          const nb = nxt.querySelector('tbody'); nb.innerHTML = '';
+          rest.forEach(r => nb.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); cur = nxt;
+        }
+        continue;
+      }
+      const moving = [b];
+      let prev = b.previousElementSibling;
+      while (prev && prev.classList.contains('kwn')) { moving.unshift(prev); prev = prev.previousElementSibling; }
+      // 이미지 묶음이 남은 공간에 조금 모자라면 캡처를 최대 85%까지 줄여 이 쪽에 둔다(빈 쪽 방지, 고정프롬프트 11절).
+      // 표시 크기만 줄어 유효 dpi는 올라간다.
+      const fig = moving.find(m => m.classList.contains('fig'));
+      if (fig && moving.length < area.children.length) {
+        const shots = [...fig.querySelectorAll('.shot')];
+        const base = shots.map(s => parseFloat(s.style.width));
+        let fitted = false;
+        for (const k of [0.95, 0.9, 0.85]) {
+          shots.forEach((s, i) => { s.style.width = (base[i] * k) + 'px'; });
+          if (!overflow(area)) { fitted = true; fig.dataset.scale = k; break; }
+        }
+        if (fitted) continue;
+        shots.forEach((s, i) => { s.style.width = base[i] + 'px'; });
+      }
+      if (moving.length === area.children.length) {
+        if (moving.length === 1) continue; // 한 쪽보다 큰 블록: 그대로 둔다
+        moving.splice(0, moving.length - 1); // 쪽 전체가 묶음이면 마지막 블록만 넘긴다
+      }
+      area = makePage(false);
+      moving.forEach(m => area.appendChild(m));
+    }
+  }
+
+  // 표지
+  const cover = newPage('cover');
+  cover.append(...src.querySelector('section.cover').children);
+  pageMap.cover = 1;
+
+  // 목차
+  const tocBlocks = [...src.querySelectorAll('section.toc .tch')];
+  let firstToc = true;
+  flow(tocBlocks, () => {
+    const p = newPage('toc');
+    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><span class="brand">SMART EDC</span></div><div class="area"></div>`;
+    if (firstToc) { p.id = 'toc'; pageMap.toc = +p.dataset.pno; firstToc = false; }
+    return p.querySelector('.area');
+  });
+
+  // 간지 + 절
+  for (const sec of src.querySelectorAll('section.divider, section.sec')) {
+    if (sec.classList.contains('divider')) {
+      const p = newPage('divider');
+      p.append(...sec.children);
+      const bar = document.createElement('div'); bar.className = 'dbar'; p.appendChild(bar);
+      const pn = document.createElement('div'); pn.className = 'pno'; pn.textContent = p.dataset.pno; p.appendChild(pn);
+      pageMap['ch' + sec.dataset.ch] = +p.dataset.pno;
+      continue;
+    }
+    const hdr = sec.querySelector('template.hdr-tpl').innerHTML;
+    const blocks = [...sec.querySelector('.flow').children];
+    let first = true;
+    flow(blocks, () => {
+      const p = newPage('body');
+      if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      first = false;
+      // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
+      const area = p.querySelector('.area');
+      area.style.top = (p.querySelector('.hdr').getBoundingClientRect().height + 22) + 'px';
+      return area;
+    });
+  }
+  src.remove();
+
+  // 간지 장식 막대: 큰 번호 글자 윗선 ~ 제목 아랫선
+  for (const p of document.querySelectorAll('.page.divider')) {
+    const n = p.querySelector('.dnum'), t = p.querySelector('.dtitle'), bar = p.querySelector('.dbar');
+    const pr = p.getBoundingClientRect(), nr = n.getBoundingClientRect(), tr = t.getBoundingClientRect();
+    const fs = parseFloat(getComputedStyle(n).fontSize);
+    const top = nr.top - pr.top + (nr.height - fs * 0.72) / 2;   // 숫자 대략 cap-height 위치
+    bar.style.top = top + 'px';
+    bar.style.height = (tr.bottom - pr.top - top) + 'px';
+  }
+
+  // 목차 쪽번호
+  for (const tp of document.querySelectorAll('.tp')) {
+    const id = tp.dataset.for;
+    const pg = document.getElementById(id);
+    tp.textContent = pg ? pg.dataset.pno : '?';
+  }
+
+  // 설정 → 결과 점선 연결: 설정 원 아래 중앙 → 결과 원 왼쪽 중앙
+  const NS = 'http://www.w3.org/2000/svg';
+  for (const item of document.querySelectorAll('.item')) {
+    const ress = item.querySelectorAll('.res > .cir');
+    if (!ress.length) continue;
+    const page = item.closest('.page');
+    const ir = page.getBoundingClientRect();
+    const pc = item.querySelector(':scope > .cir').getBoundingClientRect();
+    const x0 = pc.left + pc.width / 2 - ir.left, y0 = pc.bottom - ir.top;
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('class', 'conn'); svg.setAttribute('width', ir.width); svg.setAttribute('height', ir.height);
+    svg.setAttribute('aria-hidden', 'true');
+    let d = '';
+    ress.forEach(rc => {
+      const r = rc.getBoundingClientRect();
+      const y = r.top + r.height / 2 - ir.top, x1 = r.left - ir.left;
+      d += `M${x0} ${y0}V${y}H${x1}`;
+    });
+    const path = document.createElementNS(NS, 'path');
+    path.setAttribute('d', d); path.setAttribute('fill', 'none'); path.setAttribute('stroke', '#94A3B8');
+    path.setAttribute('stroke-width', '1'); path.setAttribute('stroke-dasharray', '2 2');
+    svg.appendChild(path);
+    page.appendChild(svg);
+  }
+  // 원형 안 숫자: 실제 글자 잉크 범위를 재서 원의 정중앙에 맞춘다.
+  // - position/transform을 쓰면 PDF 텍스트 순서가 바뀌므로 margin으로만 옮긴다.
+  // - Chrome 인쇄는 원(배경) 위치와 글자 기준선을 정수 px로 반올림하므로, 반올림된 값 기준으로 맞춘다.
+  const ctx = document.createElement('canvas').getContext('2d');
+  for (const n of document.querySelectorAll('.cir .n, .lcir .n, .mk .n')) {
+    const cs = getComputedStyle(n);
+    ctx.font = `${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+    const m = ctx.measureText(n.textContent);
+    const pageTop = n.closest('.page').getBoundingClientRect().top;
+    const box = n.getBoundingClientRect(), cir = n.parentElement.getBoundingClientRect();
+    const mark = document.createElement('span');          // 폭·높이 0 표식으로 기준선 위치를 직접 잰다
+    mark.style.cssText = 'display:inline-block;width:0;height:0;vertical-align:baseline';
+    n.appendChild(mark);
+    const base = mark.getBoundingClientRect().top - pageTop;
+    mark.remove();
+    // 세로: 반올림된 원 중심에 잉크 중심이 오도록 기준선을 정수 위치로 옮긴다
+    const ccy = Math.round(cir.top - pageTop) + Math.round(cir.height) / 2;
+    const inkHalf = (m.actualBoundingBoxAscent - m.actualBoundingBoxDescent) / 2;
+    const dy = Math.round(ccy + inkHalf) - base;
+    // 가로: 글자 진행폭 가운데가 아니라 잉크 가운데를 원 중심에 맞춘다
+    const pageLeft = n.closest('.page').getBoundingClientRect().left;
+    const startX = box.left + box.width / 2 - m.width / 2 - pageLeft;
+    const inkOff = (m.actualBoundingBoxRight - m.actualBoundingBoxLeft) / 2;
+    // 범례·본문 원은 가로도 정수 px로 반올림되고, 이미지 위 숫자(그리드 안)는 반올림되지 않는다(PDF 실측)
+    const snapX = !n.parentElement.classList.contains('mk');
+    const ccx = snapX ? Math.round(cir.left - pageLeft) + Math.round(cir.width) / 2 : cir.left - pageLeft + cir.width / 2;
+    const dx = (snapX ? Math.round(ccx - inkOff) : ccx - inkOff) - startX;
+    n.style.marginLeft = dx + 'px'; n.style.marginRight = -dx + 'px';
+    n.style.marginTop = dy + 'px'; n.style.marginBottom = -dy + 'px';
+  }
+  window.__pageMap = pageMap;
+  window.__pageCount = pno;
+  window.__done = true;
+})();
+</script>
+</body></html>

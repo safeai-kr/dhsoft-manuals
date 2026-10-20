@@ -1,0 +1,40 @@
+{
+ "manual": "숫자",
+ "lang": "ko",
+ "pages": 52,
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 42,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "header_top_pixel": {
+   "pass": true,
+   "white_pages": []
+  },
+  "fonts": {
+   "pass": true,
+   "fonts": {
+    "Pretendard-ExtraBold": 25,
+    "Pretendard-Regular": 10514,
+    "Pretendard-Bold": 5592,
+    "Pretendard-Medium": 7609,
+    "Unnamed-T3": 16
+   },
+   "non_pretendard_chars": "⛔💡🔗"
+  },
+  "tagged_bookmarks": {
+   "pass": true,
+   "bookmarks": 30
+  }
+ },
+ "pass": true
+}
