@@ -18,7 +18,7 @@ body.lang-ja{--ls:0em}
 html,body{background:#fff}
 body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
 body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
-body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto}
+body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal}
 body.lang-en td:first-child,body.lang-en th:first-child,body.lang-de td:first-child,body.lang-de th:first-child,body.lang-en table.wide th:nth-child(1),body.lang-de table.wide th:nth-child(1){width:96px}   /* 첫 열이 음절 단위로 쪼개질 만큼 좁아지지 않게 */   /* 좁은 표 열: 낱말을 하이픈 없이 끊지 않고 사전식 하이픈으로 나눈다 */
 body.lang-ja{font-family:"PretendardJPM",sans-serif;word-break:normal;line-break:strict}
 b{font-weight:700;color:#111B2B}
@@ -39,9 +39,9 @@ a{color:inherit;text-decoration:none}
 .cv-brand{font-size:28.5px;font-weight:800;line-height:34px;letter-spacing:-0.01em}
 .cv-brand .sm{color:#65E5D1}
 .cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
-.cv-main{position:absolute;left:56px;top:322px}
+.cv-main{position:absolute;left:56px;right:56px;top:322px}
 .cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
-.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls)}
+.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
 .cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
 .cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
 .cv-kind{font-size:15px;color:#F1F5FC;letter-spacing:var(--ls)}
@@ -177,7 +177,7 @@ td .ref{vertical-align:2px}
 table.wide td{padding:8px 10.7px}
 table.wide th{padding:9px 10.7px}
 table.wide{table-layout:fixed}
-table.wide th:nth-child(1){width:61px}table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
+table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),body.lang-de table.wide th:nth-child(4),body.lang-ja table.wide th:nth-child(4){width:auto;min-width:82px}/* 번역본: 4열이 내용 열인 비교표가 82px에 갇히지 않게 */table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
 
 /* 원형 안 숫자: 가운데 정렬 후 paginate.js가 실제 글자 잉크 범위를 재서 원의 정중앙으로 보정한다 */
 /* 원형 숫자는 SVG(.cn): 좌표는 build.py가 글리프 잉크 경계로 계산. 원과 같은 크기, 테두리가 있으면 음수 margin으로 테두리까지 덮어 원 중심과 SVG 중심을 일치 */
@@ -698,6 +698,11 @@ table.wide th:nth-child(1){width:61px}table.wide th:nth-child(2){width:164px}tab
     svg.appendChild(path);
     page.appendChild(svg);
   }
+  // 표지 제목: 한 낱말(예: DE „Untersuchungspanel“)이 폭을 넘으면 넘지 않을 때까지 글자 크기를 줄인다(가변 높이 법칙과 같은 취지)
+  document.querySelectorAll('.cv-title').forEach(t => {
+    let fs = parseFloat(getComputedStyle(t).fontSize);
+    while (t.scrollWidth > t.clientWidth + 1 && fs > 48) { fs -= 1.5; t.style.fontSize = fs + 'px'; t.style.lineHeight = (fs * 1.21) + 'px'; }
+  });
   window.__pageMap = pageMap;
   window.__pageCount = pno;
   window.__done = true;
