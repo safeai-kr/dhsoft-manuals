@@ -44,7 +44,7 @@ a{color:inherit;text-decoration:none}
 .cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
 .cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
 .cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
-.cv-kind{font-size:15px;color:#F1F5FC;letter-spacing:var(--ls)}
+.cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
 .cv-logo{width:138px;height:auto}
 
 /* ---------- 목차 ---------- */
@@ -564,6 +564,65 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
   }
   const overflow = a => a.scrollHeight > a.clientHeight + 0.5;
 
+  // [제목 끝 줄 1~3글자 보정, 고정프롬프트 2절] 여러 줄 제목의 마지막 줄에 1~3글자만 남으면
+  // 줄 길이를 고르게 나눠(text-wrap:balance) 단어·구절 단위로 다시 줄을 바꾼다. 일본어는 문절 단위(auto-phrase), 한국어는 어절 단위(keep-all).
+  const LANG = document.documentElement.lang;
+  function lastLineChars(el) {
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const chars = [];
+    const r = document.createRange();
+    while (tw.nextNode()) {
+      const n = tw.currentNode;
+      for (let i = 0; i < n.length; i++) {
+        if (/\s/.test(n.data[i])) continue;
+        r.setStart(n, i); r.setEnd(n, i + 1);
+        const b = r.getBoundingClientRect();
+        if (b.width || b.height) chars.push(Math.round(b.top + b.height / 2));
+      }
+    }
+    if (!chars.length) return { lines: 0, last: 0 };
+    const lh = parseFloat(getComputedStyle(el).lineHeight) || 20;
+    const tops = []; for (const t of chars) if (!tops.some(x => Math.abs(x - t) < lh / 2)) tops.push(t);
+    const lastTop = Math.max(...tops);
+    return { lines: tops.length, last: chars.filter(t => Math.abs(t - lastTop) < lh / 2).length };
+  }
+  function fixShortLastLine(el) {
+    if (!el) return;
+    const s0 = lastLineChars(el);
+    if (s0.lines < 2 || s0.last > 3) return;
+    el.style.textWrap = 'balance';
+    if (LANG === 'ja') el.style.wordBreak = 'auto-phrase';
+    else if (LANG === 'ko') el.style.wordBreak = 'keep-all';
+    let s1 = lastLineChars(el);
+    // balance로 안 풀리면(가타카나 합성어처럼 문절이 긴 경우) 낱말 경계(Intl.Segmenter)에만 줄바꿈 지점(<wbr>)을 넣고 다시 고르게 나눈다
+    if ((s1.lines > s0.lines || s1.last <= 3) && (LANG === 'ja' || LANG === 'ko') && window.Intl && Intl.Segmenter) {
+      const seg = new Intl.Segmenter(LANG, { granularity: 'word' });
+      const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const nodes = []; while (tw.nextNode()) nodes.push(tw.currentNode);
+      for (const n of nodes) {
+        const f = document.createDocumentFragment();
+        [...seg.segment(n.data)].forEach((p, i) => { if (i) f.appendChild(document.createElement('wbr')); f.appendChild(document.createTextNode(p.segment)); });
+        n.replaceWith(f);
+      }
+      el.style.wordBreak = 'keep-all';
+      s1 = lastLineChars(el);
+    }
+    // 그래도 안 되면 폭을 조금씩 좁혀 앞줄 끝 낱말을 다음 줄로 넘긴다
+    if (s1.lines > s0.lines || s1.last <= 3) {
+      el.style.textWrap = '';
+      const w0 = el.getBoundingClientRect().width;
+      for (let k = 0.98; k >= 0.6; k -= 0.02) {
+        el.style.maxWidth = (w0 * k) + 'px';
+        s1 = lastLineChars(el);
+        if (s1.lines > s0.lines) break;
+        if (s1.last > 3) break;
+      }
+    }
+    // 줄 수가 늘었거나 그래도 짧으면 되돌린다(글자를 줄이거나 자르지 않는다)
+    if (s1.lines > s0.lines || s1.last <= 3) { el.style.textWrap = el.style.wordBreak = el.style.maxWidth = ''; }
+    else el.dataset.balanced = s0.last + '→' + s1.last;
+  }
+
   // 블록을 area에 차례로 넣고 넘치면 새 쪽을 만든다. kwn(다음 블록과 붙임)은 함께 넘긴다.
   function flow(blocks, makePage) {
     let area = makePage(true);
@@ -638,6 +697,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
   // 표지
   const cover = newPage('cover');
   cover.append(...src.querySelector('section.cover').children);
+  cover.querySelectorAll('.cv-title, .cv-sub').forEach(fixShortLastLine);
   pageMap.cover = 1;
 
   // 목차
@@ -655,6 +715,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
     if (sec.classList.contains('divider')) {
       const p = newPage('divider');
       p.append(...sec.children);
+      p.querySelectorAll('.dtitle, .dlist .dt').forEach(fixShortLastLine);
       const bar = document.createElement('div'); bar.className = 'dbar'; p.appendChild(bar);
       const pn = document.createElement('div'); pn.className = 'pno'; pn.textContent = p.dataset.pno; p.appendChild(pn);
       pageMap['ch' + sec.dataset.ch] = +p.dataset.pno;
@@ -669,12 +730,14 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
       p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
       first = false;
       // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
+      fixShortLastLine(p.querySelector('.hdr .hx'));
       const area = p.querySelector('.area');
       area.style.top = (p.querySelector('.hdr').getBoundingClientRect().height + 22) + 'px';
       return area;
     });
   }
   src.remove();
+  document.querySelectorAll('.page.toc .tct, .page.toc .tt').forEach(fixShortLastLine);
 
   // 간지 장식 막대: 큰 번호 글자 윗선 ~ 제목 아랫선
   for (const p of document.querySelectorAll('.page.divider')) {

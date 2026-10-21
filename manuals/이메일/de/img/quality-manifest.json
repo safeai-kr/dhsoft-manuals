@@ -4,7 +4,7 @@
  "files": {
   "s1_1_1.png": {
    "output_px": [
-    2366,
+    2433,
     2160
    ],
    "scale_from_orig": 2.0,
@@ -66,25 +66,6 @@
      "lines_in_segment": 1,
      "align": "left",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_009_1",
-     "ko": "발행",
-     "tr": "Veröff.",
-     "box_px_orig": [
-      1145,
-      69,
-      22,
-      11
-     ],
-     "font_px": 11.3,
-     "scale": 0.455,
-     "weight": 700,
-     "stroke_ratio": 6.64,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
     },
     {
      "id": "s1_1_1_004_1",
@@ -480,14 +461,15 @@
       22,
       11
      ],
-     "font_px": 11.3,
-     "scale": 0.455,
+     "font_px": 22.4,
+     "scale": 0.9,
      "weight": 700,
      "stroke_ratio": 6.64,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
-     "flag": "[확인 필요] 축소 한계(65%) 미만 — 재캡처 또는 약어 필요"
+     "flag": "",
+     "button_completed": true
     },
     {
      "id": "s1_1_1_004_1",
@@ -1287,7 +1269,8 @@
      "align": "left",
      "flag": ""
     }
-   ]
+   ],
+   "right_margin_added_px": 67
   },
   "s2_1_1.png": {
    "output_px": [

@@ -24,6 +24,7 @@ manuals/
 glossary/                   언어별 화면 표기 용어집 (전 분권 공통, 현재 전부 미확정)
 tools/
   widen_buttons.py          번역 캡처의 좁은 버튼·칩 글자 키우기 (고정프롬프트 11절)
+  extend_cut_buttons.py     이미지 끝에서 잘린 버튼에 흰 여백을 붙여 마무리 (widen_buttons 다음)
 ```
 
 영어·독일어·일본어판의 화면 캡처는 한국어 캡처의 글자 영역만 번역어로 바꾼 것입니다(현지화 UI 재캡처 아님). 좁은 칸은 글자가 많이 축소돼 있으며 `img/quality-manifest.json`과 작업 기록에 정리돼 있습니다.
