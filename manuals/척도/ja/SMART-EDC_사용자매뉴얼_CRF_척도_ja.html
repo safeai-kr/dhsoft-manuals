@@ -143,7 +143,7 @@ figcaption code{color:#475364;background:#E9ECF3}
 .res .cir{margin-top:0}
 .conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
 
-.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:2px;line-height:0;letter-spacing:0}
+.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
 
 .card{border-radius:8px;padding:14px 14.7px 15px}
 .card+.card{margin-top:7.33px}
@@ -173,7 +173,7 @@ th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:le
 td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
 td b{color:#111B2B}
 td.c0,td.c0 b{color:#475569}
-td .ref{vertical-align:2px}
+td .ref{vertical-align:3px}
 table.wide td{padding:8px 10.7px}
 table.wide th{padding:9px 10.7px}
 table.wide{table-layout:fixed}
@@ -440,6 +440,70 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
   const book = document.getElementById('book');
   let pno = 0;
   const pageMap = {};
+
+  // [표 제목 열 너비, 고정프롬프트 표 절] 첫 열 글이 단어 중간에서 잘리거나 3줄 이상이면 첫 열을 4px씩 넓혀 본다.
+  // 표 전체 높이가 가장 낮아지는 너비를 고르되, 오른쪽 칸이 빽빽해져 높이가 늘면 넓히지 않는다. 최대 표 너비의 30%.
+  {
+    const probe = document.createElement('div');
+    probe.className = 'page body';
+    probe.style.cssText = 'position:absolute;left:-10000px;top:0';
+    const pa = document.createElement('div'); pa.className = 'area'; pa.style.top = '0'; probe.appendChild(pa);
+    document.body.appendChild(probe);
+    const firstCells = t => [...t.rows].map(r => r.cells[0]).filter(Boolean);
+    const lineCount = c => {
+      const r = document.createRange(); r.selectNodeContents(c);
+      const tops = new Set([...r.getClientRects()].filter(x => x.width > 0).map(x => Math.round(x.bottom)));
+      return tops.size;
+    };
+    // 단어(공백으로 나눈 덩어리)가 칸 안쪽 너비보다 길면 잘린 것으로 본다
+    const broken = c => {
+      const cs = getComputedStyle(c);
+      const inner = c.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const tw = document.createTreeWalker(c, NodeFilter.SHOW_TEXT);
+      const texts = []; while (tw.nextNode()) texts.push(tw.currentNode);
+      let n = 0;
+      for (const node of texts) {
+        for (const w of node.textContent.split(/\s+/)) {
+          if (!w) continue;
+          const sp = document.createElement('span'); sp.style.whiteSpace = 'nowrap'; sp.textContent = w;
+          node.parentElement.appendChild(sp);
+          if (sp.getBoundingClientRect().width > inner + 0.5) n++;
+          sp.remove();
+        }
+      }
+      return n;
+    };
+    // 너비를 정하고, 모든 단어가 들어가면 자동 하이픈을 끈다(들어가는 단어를 억지로 쪼개지 않게)
+    const setW = (cells, w) => {
+      cells.forEach(c => { c.style.width = w === null ? '' : w + 'px'; c.style.hyphens = c.style.webkitHyphens = ''; });
+      if (w === null) return 0;
+      const b = cells.reduce((s, c) => s + broken(c), 0);
+      if (!b) cells.forEach(c => { c.style.hyphens = c.style.webkitHyphens = 'manual'; });
+      return b;
+    };
+    for (const wrap of src.querySelectorAll('.tblwrap')) {
+      const t = wrap.querySelector('table');
+      if (!t || !t.rows.length || t.rows[0].cells.length < 2) continue;
+      const mark = document.createComment(''); wrap.replaceWith(mark); pa.appendChild(wrap);
+      const cells = firstCells(t);
+      const base = Math.round(cells[0].getBoundingClientRect().width);
+      const cap = Math.round(t.getBoundingClientRect().width * 0.3);
+      const state = b => ({ h: t.getBoundingClientRect().height, b, l: Math.max(...cells.map(lineCount)) });
+      const s0 = state(cells.reduce((s, c) => s + broken(c), 0));
+      if (base < cap && (s0.b > 0 || s0.l > 2)) {
+        let best = { w: base, ...s0 };
+        for (let w = base + 4; w <= cap; w += 4) {
+          const s = state(setW(cells, w));
+          // 표 높이가 처음보다 늘면 제외. 잘린 단어가 줄면 우선, 같으면 표 높이가 낮은 쪽, 같으면 좁은 쪽
+          if (s.h > s0.h + 0.5) continue;
+          if (s.b < best.b || (s.b === best.b && s.h < best.h - 0.5)) best = { w, ...s };
+        }
+        if (best.w !== base) { setW(cells, best.w); t.dataset.c0w = best.w; } else setW(cells, null);
+      }
+      mark.replaceWith(wrap);
+    }
+    probe.remove();
+  }
 
   function newPage(cls) {
     const p = document.createElement('div');
