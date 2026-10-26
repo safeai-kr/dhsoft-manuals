@@ -2,126 +2,86 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>SMART EDC 사용자 매뉴얼</title>
 <style>
-body{font-family:-apple-system,"Pretendard",sans-serif;margin:0;padding:32px 16px;background:#F6F7F9;color:#202630}
-main{max-width:640px;margin:0 auto}
-h1{font-size:22px;margin:0 0 6px}p{color:#64748B;margin:0 0 20px;font-size:14px}
-h2{font-size:16px;margin:24px 0 10px}
-.row{display:flex;flex-wrap:wrap;gap:8px}
-a{flex:1 1 130px;background:#fff;border:1px solid #E2E8F0;border-radius:8px;padding:14px 16px;text-decoration:none;color:#111B2B;font-weight:600}
-a span{display:block;color:#64748B;font-weight:400;font-size:13px;margin-top:2px}
-</style></head><body><main>
-<h1>SMART EDC · CRF 필드 타입별 사용자 매뉴얼</h1>
+@font-face{font-family:Pretendard;font-weight:400;src:url(manuals/숫자/ko/fonts/Pretendard-400.ttf)}
+@font-face{font-family:Pretendard;font-weight:500;src:url(manuals/숫자/ko/fonts/Pretendard-500.ttf)}
+@font-face{font-family:Pretendard;font-weight:700;src:url(manuals/숫자/ko/fonts/Pretendard-700.ttf)}
+@font-face{font-family:Pretendard;font-weight:800;src:url(manuals/숫자/ko/fonts/Pretendard-800.ttf)}
+:root{
+  --ink:#15233A;      /* 매뉴얼 간지 제목색 */
+  --navy:#071426;     /* 표지 바탕 */
+  --muted:#4A5872;    /* 남색을 섞은 회색 */
+  --line:#DCE1EC;
+  --paper:#F5F6FB;    /* 간지 바탕 #EFF1FA를 한 단계 밝게 */
+  --row:#FFFFFF;
+  --accent:#3C55EB;   /* 매뉴얼 설정 번호색 */
+  --accent-soft:#E9EDFD;
+}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0;font-family:Pretendard,sans-serif;color:var(--ink);font-feature-settings:"tnum";-webkit-font-smoothing:antialiased}
+::selection{background:var(--accent);color:#fff}
+header{background:var(--navy);color:#fff}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+header .wrap{padding-top:56px;padding-bottom:44px}
+h1 b{color:#65E5D1;font-weight:800}
+h1{word-break:keep-all;font-size:34px;line-height:1.25;font-weight:800;letter-spacing:-0.025em;margin:0 0 12px;text-wrap:balance}
+header p{margin:0;font-size:15px;line-height:1.6;color:#C3CDE0}
+main .wrap{padding-top:40px;padding-bottom:72px}
+table{width:100%;border-collapse:collapse;background:var(--row);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+thead th{font-size:13px;font-weight:700;color:var(--muted);text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);background:#FAFBFE}
+thead th:not(:first-child){text-align:center}
+tbody th{font-size:16px;font-weight:700;text-align:left;padding:0 16px;white-space:nowrap}
+tbody tr+tr th,tbody tr+tr td{border-top:1px solid #EEF1F6}
+tbody tr:hover{background:#FAFBFF}
+td{padding:6px;text-align:center}
+td a{display:flex;align-items:baseline;justify-content:center;gap:6px;padding:10px 8px;border-radius:8px;text-decoration:none;color:var(--ink);font-size:15px;font-weight:500;transition:background-color .18s cubic-bezier(.16,1,.3,1),color .18s cubic-bezier(.16,1,.3,1)}
+td a em{display:none;font-style:normal}
+td a span{font-size:15px;color:var(--accent);font-weight:500;text-decoration:underline;text-decoration-color:#C5CEF8;text-underline-offset:4px}
+td a:hover{background:var(--accent-soft);color:var(--accent)}
+td a:hover span{color:var(--accent)}
+
+td a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:640px){
+  h1{font-size:26px}
+  table,thead,tbody,tr,th,td{display:block}
+  thead{display:none}
+  table{border:0;background:none}
+  tbody tr{background:var(--row);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;padding:12px}
+  tbody tr+tr th,tbody tr+tr td{border-top:0}
+  tbody th{padding:2px 4px 8px}
+  tbody tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;width:100%}
+  tbody th{grid-column:1/-1}
+  td{padding:0}
+  td a{justify-content:space-between;background:#F7F8FC}
+  td a em{display:inline}
+  td a span{font-size:13px;font-weight:500;text-decoration:none}
+}
+</style></head><body>
+<header><div class="wrap">
+<h1><b>SMART</b> EDC · CRF 필드 타입별 사용자 매뉴얼</h1>
 <p>DH Soft · A4 쪽 형태 HTML (PDF와 같은 화면)</p>
-<h2>숫자</h2>
-<div class="row">
-<a href="manuals/숫자/ko/SMART-EDC_사용자매뉴얼_CRF_숫자_ko.html">한국어<span>52쪽</span></a>
-<a href="manuals/숫자/en/SMART-EDC_사용자매뉴얼_CRF_숫자_en.html">English<span>53쪽</span></a>
-<a href="manuals/숫자/de/SMART-EDC_사용자매뉴얼_CRF_숫자_de.html">Deutsch<span>57쪽</span></a>
-<a href="manuals/숫자/ja/SMART-EDC_사용자매뉴얼_CRF_숫자_ja.html">日本語<span>53쪽</span></a>
-</div>
-<h2>척도</h2>
-<div class="row">
-<a href="manuals/척도/ko/SMART-EDC_사용자매뉴얼_CRF_척도_ko.html">한국어<span>38쪽</span></a>
-<a href="manuals/척도/en/SMART-EDC_사용자매뉴얼_CRF_척도_en.html">English<span>40쪽</span></a>
-<a href="manuals/척도/de/SMART-EDC_사용자매뉴얼_CRF_척도_de.html">Deutsch<span>41쪽</span></a>
-<a href="manuals/척도/ja/SMART-EDC_사용자매뉴얼_CRF_척도_ja.html">日本語<span>39쪽</span></a>
-</div>
-<h2>다중 행 텍스트</h2>
-<div class="row">
-<a href="manuals/다중행텍스트/ko/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_ko.html">한국어<span>48쪽</span></a>
-<a href="manuals/다중행텍스트/en/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_en.html">English<span>50쪽</span></a>
-<a href="manuals/다중행텍스트/de/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_de.html">Deutsch<span>50쪽</span></a>
-<a href="manuals/다중행텍스트/ja/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_ja.html">日本語<span>49쪽</span></a>
-</div>
-<h2>날짜</h2>
-<div class="row">
-<a href="manuals/날짜/ko/SMART-EDC_사용자매뉴얼_CRF_날짜_ko.html">한국어<span>48쪽</span></a>
-<a href="manuals/날짜/en/SMART-EDC_사용자매뉴얼_CRF_날짜_en.html">English<span>49쪽</span></a>
-<a href="manuals/날짜/de/SMART-EDC_사용자매뉴얼_CRF_날짜_de.html">Deutsch<span>50쪽</span></a>
-<a href="manuals/날짜/ja/SMART-EDC_사용자매뉴얼_CRF_날짜_ja.html">日本語<span>49쪽</span></a>
-</div>
-<h2>단일 행 텍스트</h2>
-<div class="row">
-<a href="manuals/단일행텍스트/ko/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_ko.html">한국어<span>50쪽</span></a>
-<a href="manuals/단일행텍스트/en/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_en.html">English<span>51쪽</span></a>
-<a href="manuals/단일행텍스트/de/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_de.html">Deutsch<span>52쪽</span></a>
-<a href="manuals/단일행텍스트/ja/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_ja.html">日本語<span>51쪽</span></a>
-</div>
-<h2>다중 선택</h2>
-<div class="row">
-<a href="manuals/다중선택/ko/SMART-EDC_사용자매뉴얼_CRF_다중선택_ko.html">한국어<span>46쪽</span></a>
-<a href="manuals/다중선택/en/SMART-EDC_사용자매뉴얼_CRF_다중선택_en.html">English<span>47쪽</span></a>
-<a href="manuals/다중선택/de/SMART-EDC_사용자매뉴얼_CRF_다중선택_de.html">Deutsch<span>50쪽</span></a>
-<a href="manuals/다중선택/ja/SMART-EDC_사용자매뉴얼_CRF_다중선택_ja.html">日本語<span>47쪽</span></a>
-</div>
-<h2>단일 선택</h2>
-<div class="row">
-<a href="manuals/단일선택/ko/SMART-EDC_사용자매뉴얼_CRF_단일선택_ko.html">한국어<span>51쪽</span></a>
-<a href="manuals/단일선택/en/SMART-EDC_사용자매뉴얼_CRF_단일선택_en.html">English<span>52쪽</span></a>
-<a href="manuals/단일선택/de/SMART-EDC_사용자매뉴얼_CRF_단일선택_de.html">Deutsch<span>53쪽</span></a>
-<a href="manuals/단일선택/ja/SMART-EDC_사용자매뉴얼_CRF_단일선택_ja.html">日本語<span>51쪽</span></a>
-</div>
-<h2>이메일</h2>
-<div class="row">
-<a href="manuals/이메일/ko/SMART-EDC_사용자매뉴얼_CRF_이메일_ko.html">한국어<span>46쪽</span></a>
-<a href="manuals/이메일/en/SMART-EDC_사용자매뉴얼_CRF_이메일_en.html">English<span>47쪽</span></a>
-<a href="manuals/이메일/de/SMART-EDC_사용자매뉴얼_CRF_이메일_de.html">Deutsch<span>48쪽</span></a>
-<a href="manuals/이메일/ja/SMART-EDC_사용자매뉴얼_CRF_이메일_ja.html">日本語<span>46쪽</span></a>
-</div>
-<h2>전화번호</h2>
-<div class="row">
-<a href="manuals/전화번호/ko/SMART-EDC_사용자매뉴얼_CRF_전화번호_ko.html">한국어<span>46쪽</span></a>
-<a href="manuals/전화번호/en/SMART-EDC_사용자매뉴얼_CRF_전화번호_en.html">English<span>47쪽</span></a>
-<a href="manuals/전화번호/de/SMART-EDC_사용자매뉴얼_CRF_전화번호_de.html">Deutsch<span>48쪽</span></a>
-<a href="manuals/전화번호/ja/SMART-EDC_사용자매뉴얼_CRF_전화번호_ja.html">日本語<span>46쪽</span></a>
-</div>
-<h2>날짜+시간</h2>
-<div class="row">
-<a href="manuals/날짜시간/ko/SMART-EDC_사용자매뉴얼_CRF_날짜시간_ko.html">한국어<span>46쪽</span></a>
-<a href="manuals/날짜시간/en/SMART-EDC_사용자매뉴얼_CRF_날짜시간_en.html">English<span>47쪽</span></a>
-<a href="manuals/날짜시간/de/SMART-EDC_사용자매뉴얼_CRF_날짜시간_de.html">Deutsch<span>47쪽</span></a>
-<a href="manuals/날짜시간/ja/SMART-EDC_사용자매뉴얼_CRF_날짜시간_ja.html">日本語<span>47쪽</span></a>
-</div>
-<h2>파일 업로드</h2>
-<div class="row">
-<a href="manuals/파일업로드/ko/SMART-EDC_사용자매뉴얼_CRF_파일업로드_ko.html">한국어<span>46쪽</span></a>
-<a href="manuals/파일업로드/en/SMART-EDC_사용자매뉴얼_CRF_파일업로드_en.html">English<span>47쪽</span></a>
-<a href="manuals/파일업로드/de/SMART-EDC_사용자매뉴얼_CRF_파일업로드_de.html">Deutsch<span>48쪽</span></a>
-<a href="manuals/파일업로드/ja/SMART-EDC_사용자매뉴얼_CRF_파일업로드_ja.html">日本語<span>46쪽</span></a>
-</div>
-<h2>참/거짓</h2>
-<div class="row">
-<a href="manuals/참거짓/ko/SMART-EDC_사용자매뉴얼_CRF_참거짓_ko.html">한국어<span>50쪽</span></a>
-<a href="manuals/참거짓/en/SMART-EDC_사용자매뉴얼_CRF_참거짓_en.html">English<span>50쪽</span></a>
-<a href="manuals/참거짓/de/SMART-EDC_사용자매뉴얼_CRF_참거짓_de.html">Deutsch<span>52쪽</span></a>
-<a href="manuals/참거짓/ja/SMART-EDC_사용자매뉴얼_CRF_참거짓_ja.html">日本語<span>50쪽</span></a>
-</div>
-<h2>주소</h2>
-<div class="row">
-<a href="manuals/주소/ko/SMART-EDC_사용자매뉴얼_CRF_주소_ko.html">한국어<span>40쪽</span></a>
-<a href="manuals/주소/en/SMART-EDC_사용자매뉴얼_CRF_주소_en.html">English<span>41쪽</span></a>
-<a href="manuals/주소/de/SMART-EDC_사용자매뉴얼_CRF_주소_de.html">Deutsch<span>42쪽</span></a>
-<a href="manuals/주소/ja/SMART-EDC_사용자매뉴얼_CRF_주소_ja.html">日本語<span>40쪽</span></a>
-</div>
-<h2>테이블형</h2>
-<div class="row">
-<a href="manuals/테이블형/ko/SMART-EDC_사용자매뉴얼_CRF_테이블형_ko.html">한국어<span>46쪽</span></a>
-<a href="manuals/테이블형/en/SMART-EDC_사용자매뉴얼_CRF_테이블형_en.html">English<span>47쪽</span></a>
-<a href="manuals/테이블형/de/SMART-EDC_사용자매뉴얼_CRF_테이블형_de.html">Deutsch<span>49쪽</span></a>
-<a href="manuals/테이블형/ja/SMART-EDC_사용자매뉴얼_CRF_테이블형_ja.html">日本語<span>46쪽</span></a>
-</div>
-<h2>필드 그룹</h2>
-<div class="row">
-<a href="manuals/필드그룹/ko/SMART-EDC_사용자매뉴얼_CRF_필드그룹_ko.html">한국어<span>48쪽</span></a>
-<a href="manuals/필드그룹/en/SMART-EDC_사용자매뉴얼_CRF_필드그룹_en.html">English<span>49쪽</span></a>
-<a href="manuals/필드그룹/de/SMART-EDC_사용자매뉴얼_CRF_필드그룹_de.html">Deutsch<span>49쪽</span></a>
-<a href="manuals/필드그룹/ja/SMART-EDC_사용자매뉴얼_CRF_필드그룹_ja.html">日本語<span>49쪽</span></a>
-</div>
-<h2>검사 패널</h2>
-<div class="row">
-<a href="manuals/검사패널/ko/SMART-EDC_사용자매뉴얼_CRF_검사패널_ko.html">한국어<span>56쪽</span></a>
-<a href="manuals/검사패널/en/SMART-EDC_사용자매뉴얼_CRF_검사패널_en.html">English<span>57쪽</span></a>
-<a href="manuals/검사패널/de/SMART-EDC_사용자매뉴얼_CRF_검사패널_de.html">Deutsch<span>59쪽</span></a>
-<a href="manuals/검사패널/ja/SMART-EDC_사용자매뉴얼_CRF_검사패널_ja.html">日本語<span>57쪽</span></a>
-</div>
-</main></body></html>
+</div></header>
+<main><div class="wrap">
+<table>
+<thead><tr><th>분권</th><th>한국어</th><th>English</th><th>Deutsch</th><th>日本語</th></tr></thead>
+<tbody>
+<tr><th>숫자</th><td><a href="manuals/숫자/ko/SMART-EDC_사용자매뉴얼_CRF_숫자_ko.html"><em>한국어</em><span>52쪽</span></a></td><td><a href="manuals/숫자/en/SMART-EDC_사용자매뉴얼_CRF_숫자_en.html"><em>English</em><span>53쪽</span></a></td><td><a href="manuals/숫자/de/SMART-EDC_사용자매뉴얼_CRF_숫자_de.html"><em>Deutsch</em><span>57쪽</span></a></td><td><a href="manuals/숫자/ja/SMART-EDC_사용자매뉴얼_CRF_숫자_ja.html"><em>日本語</em><span>53쪽</span></a></td></tr>
+<tr><th>척도</th><td><a href="manuals/척도/ko/SMART-EDC_사용자매뉴얼_CRF_척도_ko.html"><em>한국어</em><span>38쪽</span></a></td><td><a href="manuals/척도/en/SMART-EDC_사용자매뉴얼_CRF_척도_en.html"><em>English</em><span>40쪽</span></a></td><td><a href="manuals/척도/de/SMART-EDC_사용자매뉴얼_CRF_척도_de.html"><em>Deutsch</em><span>41쪽</span></a></td><td><a href="manuals/척도/ja/SMART-EDC_사용자매뉴얼_CRF_척도_ja.html"><em>日本語</em><span>39쪽</span></a></td></tr>
+<tr><th>다중 행 텍스트</th><td><a href="manuals/다중행텍스트/ko/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_ko.html"><em>한국어</em><span>48쪽</span></a></td><td><a href="manuals/다중행텍스트/en/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_en.html"><em>English</em><span>49쪽</span></a></td><td><a href="manuals/다중행텍스트/de/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_de.html"><em>Deutsch</em><span>50쪽</span></a></td><td><a href="manuals/다중행텍스트/ja/SMART-EDC_사용자매뉴얼_CRF_다중행텍스트_ja.html"><em>日本語</em><span>49쪽</span></a></td></tr>
+<tr><th>날짜</th><td><a href="manuals/날짜/ko/SMART-EDC_사용자매뉴얼_CRF_날짜_ko.html"><em>한국어</em><span>48쪽</span></a></td><td><a href="manuals/날짜/en/SMART-EDC_사용자매뉴얼_CRF_날짜_en.html"><em>English</em><span>49쪽</span></a></td><td><a href="manuals/날짜/de/SMART-EDC_사용자매뉴얼_CRF_날짜_de.html"><em>Deutsch</em><span>50쪽</span></a></td><td><a href="manuals/날짜/ja/SMART-EDC_사용자매뉴얼_CRF_날짜_ja.html"><em>日本語</em><span>49쪽</span></a></td></tr>
+<tr><th>단일 행 텍스트</th><td><a href="manuals/단일행텍스트/ko/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_ko.html"><em>한국어</em><span>50쪽</span></a></td><td><a href="manuals/단일행텍스트/en/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_en.html"><em>English</em><span>51쪽</span></a></td><td><a href="manuals/단일행텍스트/de/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_de.html"><em>Deutsch</em><span>51쪽</span></a></td><td><a href="manuals/단일행텍스트/ja/SMART-EDC_사용자매뉴얼_CRF_단일행텍스트_ja.html"><em>日本語</em><span>51쪽</span></a></td></tr>
+<tr><th>다중 선택</th><td><a href="manuals/다중선택/ko/SMART-EDC_사용자매뉴얼_CRF_다중선택_ko.html"><em>한국어</em><span>46쪽</span></a></td><td><a href="manuals/다중선택/en/SMART-EDC_사용자매뉴얼_CRF_다중선택_en.html"><em>English</em><span>47쪽</span></a></td><td><a href="manuals/다중선택/de/SMART-EDC_사용자매뉴얼_CRF_다중선택_de.html"><em>Deutsch</em><span>49쪽</span></a></td><td><a href="manuals/다중선택/ja/SMART-EDC_사용자매뉴얼_CRF_다중선택_ja.html"><em>日本語</em><span>47쪽</span></a></td></tr>
+<tr><th>단일 선택</th><td><a href="manuals/단일선택/ko/SMART-EDC_사용자매뉴얼_CRF_단일선택_ko.html"><em>한국어</em><span>51쪽</span></a></td><td><a href="manuals/단일선택/en/SMART-EDC_사용자매뉴얼_CRF_단일선택_en.html"><em>English</em><span>52쪽</span></a></td><td><a href="manuals/단일선택/de/SMART-EDC_사용자매뉴얼_CRF_단일선택_de.html"><em>Deutsch</em><span>53쪽</span></a></td><td><a href="manuals/단일선택/ja/SMART-EDC_사용자매뉴얼_CRF_단일선택_ja.html"><em>日本語</em><span>51쪽</span></a></td></tr>
+<tr><th>이메일</th><td><a href="manuals/이메일/ko/SMART-EDC_사용자매뉴얼_CRF_이메일_ko.html"><em>한국어</em><span>46쪽</span></a></td><td><a href="manuals/이메일/en/SMART-EDC_사용자매뉴얼_CRF_이메일_en.html"><em>English</em><span>47쪽</span></a></td><td><a href="manuals/이메일/de/SMART-EDC_사용자매뉴얼_CRF_이메일_de.html"><em>Deutsch</em><span>48쪽</span></a></td><td><a href="manuals/이메일/ja/SMART-EDC_사용자매뉴얼_CRF_이메일_ja.html"><em>日本語</em><span>46쪽</span></a></td></tr>
+<tr><th>전화번호</th><td><a href="manuals/전화번호/ko/SMART-EDC_사용자매뉴얼_CRF_전화번호_ko.html"><em>한국어</em><span>46쪽</span></a></td><td><a href="manuals/전화번호/en/SMART-EDC_사용자매뉴얼_CRF_전화번호_en.html"><em>English</em><span>46쪽</span></a></td><td><a href="manuals/전화번호/de/SMART-EDC_사용자매뉴얼_CRF_전화번호_de.html"><em>Deutsch</em><span>48쪽</span></a></td><td><a href="manuals/전화번호/ja/SMART-EDC_사용자매뉴얼_CRF_전화번호_ja.html"><em>日本語</em><span>46쪽</span></a></td></tr>
+<tr><th>날짜+시간</th><td><a href="manuals/날짜시간/ko/SMART-EDC_사용자매뉴얼_CRF_날짜시간_ko.html"><em>한국어</em><span>46쪽</span></a></td><td><a href="manuals/날짜시간/en/SMART-EDC_사용자매뉴얼_CRF_날짜시간_en.html"><em>English</em><span>47쪽</span></a></td><td><a href="manuals/날짜시간/de/SMART-EDC_사용자매뉴얼_CRF_날짜시간_de.html"><em>Deutsch</em><span>47쪽</span></a></td><td><a href="manuals/날짜시간/ja/SMART-EDC_사용자매뉴얼_CRF_날짜시간_ja.html"><em>日本語</em><span>47쪽</span></a></td></tr>
+<tr><th>파일 업로드</th><td><a href="manuals/파일업로드/ko/SMART-EDC_사용자매뉴얼_CRF_파일업로드_ko.html"><em>한국어</em><span>46쪽</span></a></td><td><a href="manuals/파일업로드/en/SMART-EDC_사용자매뉴얼_CRF_파일업로드_en.html"><em>English</em><span>46쪽</span></a></td><td><a href="manuals/파일업로드/de/SMART-EDC_사용자매뉴얼_CRF_파일업로드_de.html"><em>Deutsch</em><span>48쪽</span></a></td><td><a href="manuals/파일업로드/ja/SMART-EDC_사용자매뉴얼_CRF_파일업로드_ja.html"><em>日本語</em><span>46쪽</span></a></td></tr>
+<tr><th>참/거짓</th><td><a href="manuals/참거짓/ko/SMART-EDC_사용자매뉴얼_CRF_참거짓_ko.html"><em>한국어</em><span>50쪽</span></a></td><td><a href="manuals/참거짓/en/SMART-EDC_사용자매뉴얼_CRF_참거짓_en.html"><em>English</em><span>50쪽</span></a></td><td><a href="manuals/참거짓/de/SMART-EDC_사용자매뉴얼_CRF_참거짓_de.html"><em>Deutsch</em><span>52쪽</span></a></td><td><a href="manuals/참거짓/ja/SMART-EDC_사용자매뉴얼_CRF_참거짓_ja.html"><em>日本語</em><span>50쪽</span></a></td></tr>
+<tr><th>주소</th><td><a href="manuals/주소/ko/SMART-EDC_사용자매뉴얼_CRF_주소_ko.html"><em>한국어</em><span>40쪽</span></a></td><td><a href="manuals/주소/en/SMART-EDC_사용자매뉴얼_CRF_주소_en.html"><em>English</em><span>40쪽</span></a></td><td><a href="manuals/주소/de/SMART-EDC_사용자매뉴얼_CRF_주소_de.html"><em>Deutsch</em><span>42쪽</span></a></td><td><a href="manuals/주소/ja/SMART-EDC_사용자매뉴얼_CRF_주소_ja.html"><em>日本語</em><span>40쪽</span></a></td></tr>
+<tr><th>테이블형</th><td><a href="manuals/테이블형/ko/SMART-EDC_사용자매뉴얼_CRF_테이블형_ko.html"><em>한국어</em><span>46쪽</span></a></td><td><a href="manuals/테이블형/en/SMART-EDC_사용자매뉴얼_CRF_테이블형_en.html"><em>English</em><span>47쪽</span></a></td><td><a href="manuals/테이블형/de/SMART-EDC_사용자매뉴얼_CRF_테이블형_de.html"><em>Deutsch</em><span>49쪽</span></a></td><td><a href="manuals/테이블형/ja/SMART-EDC_사용자매뉴얼_CRF_테이블형_ja.html"><em>日本語</em><span>46쪽</span></a></td></tr>
+<tr><th>필드 그룹</th><td><a href="manuals/필드그룹/ko/SMART-EDC_사용자매뉴얼_CRF_필드그룹_ko.html"><em>한국어</em><span>48쪽</span></a></td><td><a href="manuals/필드그룹/en/SMART-EDC_사용자매뉴얼_CRF_필드그룹_en.html"><em>English</em><span>49쪽</span></a></td><td><a href="manuals/필드그룹/de/SMART-EDC_사용자매뉴얼_CRF_필드그룹_de.html"><em>Deutsch</em><span>49쪽</span></a></td><td><a href="manuals/필드그룹/ja/SMART-EDC_사용자매뉴얼_CRF_필드그룹_ja.html"><em>日本語</em><span>48쪽</span></a></td></tr>
+<tr><th>검사 패널</th><td><a href="manuals/검사패널/ko/SMART-EDC_사용자매뉴얼_CRF_검사패널_ko.html"><em>한국어</em><span>56쪽</span></a></td><td><a href="manuals/검사패널/en/SMART-EDC_사용자매뉴얼_CRF_검사패널_en.html"><em>English</em><span>57쪽</span></a></td><td><a href="manuals/검사패널/de/SMART-EDC_사용자매뉴얼_CRF_검사패널_de.html"><em>Deutsch</em><span>59쪽</span></a></td><td><a href="manuals/검사패널/ja/SMART-EDC_사용자매뉴얼_CRF_검사패널_ja.html"><em>日本語</em><span>57쪽</span></a></td></tr>
+</tbody>
+</table>
+</div></main>
+</body></html>
