@@ -245,7 +245,9 @@ for pg in m['pages']:
             if cur: body += cur['html'].format(ress=f'<div class="ress">{"".join(cur["res"])}</div>' if cur['res'] else '') + '\n'
             continue
         # 유의사항 · 그 밖의 글머리 목록: 색이 있는 항목은 카드로, 검은 점만 있는 목록은 일반 목록으로
-        label = FX('유의사항') if s['name'] == '유의사항' else U(f'{kp}.name', 'h3', esc(s['name']))
+        if s['name'] == '이 화면으로 가는 다른 길': label = FX('접근 경로')   # 원본 목록 제목을 고정 표기로 바꾼다 (hy0909 결정, 2026-10-30)
+        elif s['name'] == '유의사항': label = FX('유의사항')
+        else: label = U(f'{kp}.name', 'h3', esc(s['name']))
         colored = s['name'] == '유의사항' or any(it.get('color') in ('#b91c1c', '#1d4ed8') for it in s['items'])
         body += tab(label) + '\n' + (cards(s['items'], kp) if colored else plain_list(s['items'], kp)) + '\n'
     hdr = f'<template class="hdr-tpl"><h2 class="ht"><span class="hn">{no}</span><span class="hx">{sec_title}</span></h2></template>'
@@ -277,6 +279,6 @@ html_doc = ('<!doctype html>\n'
 open(f'{OUT}/SMART-EDC_사용자매뉴얼_{vol}_{lang}.html', 'w').write(html_doc)
 fonts = f'{HERE}/assets/fonts_ja' if lang == 'ja' else f'{HERE}/assets/fonts'
 for fn in os.listdir(fonts): shutil.copy(f'{fonts}/{fn}', f'{OUT}/fonts/{fn}')
-for fn in ('wave.jpg', 'logo.png', 'smart-edc-logo.png', 'smart-edc-logo-gray.png'): shutil.copy(f'{HERE}/assets/img/{fn}', f'{OUT}/img/{fn}')
+for fn in ('wave.jpg', 'logo.png', 'smart-edc-logo.png', 'smart-edc-logo-gray.png', 'smart-edc-logo-footer.png'): shutil.copy(f'{HERE}/assets/img/{fn}', f'{OUT}/img/{fn}')
 json.dump(manifest, open(f'{OUT}/img/quality-manifest.json', 'w'), ensure_ascii=False, indent=1)
 print('html', f'{OUT}/SMART-EDC_사용자매뉴얼_{vol}_{lang}.html', 'images', len(manifest['files']), 'units', len({u['key'] for u in units}))

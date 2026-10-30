@@ -35,17 +35,17 @@ a{color:inherit;text-decoration:none}
 .page.cover{background:#071426;color:#fff}
 .cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
 .cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
-.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:24px}
 .cv-brand{height:34px;width:auto;display:block}
-.cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-sys{font-size:16px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
 .cv-main{position:absolute;left:56px;right:56px;top:322px}
 .cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
 .cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
 .cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
 .cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
-.cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1021px;height:71px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:0}
 .cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
-.cv-logo{width:138px;height:auto}
+.cv-logo{width:110px;height:auto}
 
 /* ---------- 목차 ---------- */
 .toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
@@ -85,7 +85,7 @@ a{color:inherit;text-decoration:none}
 .area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
 .ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
 .ftr .chn{flex:1}
-.ftr .brand{font-weight:700;margin-right:20px}
+.ftr .brand{height:14px;width:auto;align-self:center;margin-right:20px;position:relative;top:-1px}
 
 .blk{display:block}
 .path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
@@ -305,7 +305,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>해제</b> — 워크스페이스에서 할당을 거둡니다.</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">머리의 이동 경로에서 상위 화면으로 돌아갈 수 있습니다.</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>역할</b> 열은 워크스페이스 안에서의 지위(멤버 또는 관리자)입니다. 프로젝트 안에서의 역할(연구자·모니터요원 등)과는 별개입니다.</p></div></div>
-<div class="blk tab kwn"><h3><span>이 화면으로 가는 다른 길</span></h3></div>
+<div class="blk tab kwn"><h3><span>접근 경로</span></h3></div>
 <div class="blk plain"><ul><li><span class="bul">• </span>워크스페이스 관리 목록 → 행 오른쪽 끝의 ⋯ → <b>사용자 할당</b> (시스템 관리자만)</li><li><span class="bul">• </span>워크스페이스 상세 → <b>사용자 할당 관리</b> 버튼</li><li><span class="bul">• </span>워크스페이스 상세 → 구성 현황의 <b>2. 사용자 할당</b> 단계 카드</li><li><span class="bul">• </span>워크스페이스 상세 → 할당 사용자 요약의 <b>전체 보기</b></li><li><span class="bul">• </span>워크스페이스 대시보드 → 위 세 자리와 같은 위치 <span class="ref">3.2</span></li><li><span class="bul">• </span>프로젝트의 연구자 배정 화면 → 멤버가 부족할 때 안내되는 링크</li></ul></div>
 <div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
 <div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>워크스페이스에서 해제하면 그 사용자의 프로젝트 역할도 함께 끊깁니다. 진행 중인 업무가 있는지 확인한 뒤 해제하십시오.</b></li></ul></div>
@@ -325,7 +325,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">이동 경로가 <b>워크스페이스 ›</b> 로 시작합니다 — 관리 경로의 <b>워크스페이스 관리 /</b> 와 다릅니다. 지금 어느 쪽에 있는지 여기에서 구분 하십시오.</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>구성 현황</b> 은 접힌 상태로 표시되고, 선택하면 네 단계가 펼쳐집니다.</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">소속 프로젝트에 <b>검색</b> 이 있고 참여 기관 수 열이 함께 표시됩니다.</p></div></div>
-<div class="blk tab kwn"><h3><span>이 화면으로 가는 다른 길</span></h3></div>
+<div class="blk tab kwn"><h3><span>접근 경로</span></h3></div>
 <div class="blk plain"><ul><li><span class="bul">• </span>워크스페이스 목록에서 워크스페이스를 선택</li><li><span class="bul">• </span>플랫폼 홈의 <b>이어서</b>(최근 진입) 또는 내 프로젝트</li><li><span class="bul">• </span>화면 위쪽의 컨텍스트 전환에서 워크스페이스를 선택</li><li><span class="bul">• </span>왼쪽 메뉴의 <b>워크스페이스 대시보드</b></li><li><span class="bul">• </span>워크스페이스를 전환할 때 거치는 안내 화면</li><li><span class="bul">• </span>워크스페이스 상세 → 구성 현황의 <b>4. 운영</b> 단계 또는 <b>바로가기</b></li></ul></div>
 <div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
 <div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>권한에 따라 보이는 것이 다릅니다. 일반 멤버에게는 멤버 목록·구성 현황·최근 활동이 표시되지 않으므로, 화면이 다르게 보인다고 오류로 판단하지 마십시오.</b></li></ul></div>
@@ -346,7 +346,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">머리에 대상 워크스페이스와 <b>초기 상태</b> 가 안내됩니다.</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">코드 입력란 아래에 사용할 수 있는 문자와 길이 제한이 안내됩니다.</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>초기 역할</b> 은 선택하지 않습니다 — 프로젝트를 만들면 표준 역할이 시스템에서 자동으로 생성됩니다.</p></div></div>
-<div class="blk tab kwn"><h3><span>이 화면으로 가는 다른 길</span></h3></div>
+<div class="blk tab kwn"><h3><span>접근 경로</span></h3></div>
 <div class="blk plain"><ul><li><span class="bul">• </span>워크스페이스 상세 또는 대시보드 → <b>프로젝트 생성</b> 버튼</li><li><span class="bul">• </span>워크스페이스 상세 또는 대시보드 → 구성 현황의 <b>3. 프로젝트 생성</b> 단계 카드</li><li><span class="bul">• </span>소속 프로젝트가 하나도 없을 때 목록 자리에 표시되는 안내 버튼</li></ul></div>
 <div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
 <div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>비활성 워크스페이스에서는 프로젝트를 만들 수 없습니다. 구성 현황의 해당 단계와 버튼이 모두 잠깁니다.</b></li></ul></div>
@@ -616,7 +616,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
     flow(blocks, () => {
       const p = newPage('body');
       if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
-      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><img class="brand" src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pg">${p.dataset.pno}</span></footer>`;
       first = false;
       // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
       fixShortLastLine(p.querySelector('.hdr .hx'));

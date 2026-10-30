@@ -35,17 +35,17 @@ a{color:inherit;text-decoration:none}
 .page.cover{background:#071426;color:#fff}
 .cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
 .cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
-.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:24px}
 .cv-brand{height:34px;width:auto;display:block}
-.cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-sys{font-size:16px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
 .cv-main{position:absolute;left:56px;right:56px;top:322px}
 .cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
 .cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
 .cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
 .cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
-.cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1021px;height:71px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:0}
 .cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
-.cv-logo{width:138px;height:auto}
+.cv-logo{width:110px;height:auto}
 
 /* ---------- 목차 ---------- */
 .toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
@@ -85,7 +85,7 @@ a{color:inherit;text-decoration:none}
 .area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
 .ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
 .ftr .chn{flex:1}
-.ftr .brand{font-weight:700;margin-right:20px}
+.ftr .brand{height:14px;width:auto;align-self:center;margin-right:20px;position:relative;top:-1px}
 
 .blk{display:block}
 .path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
@@ -216,7 +216,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>피험자 목록</b> — 피험자별 잠금 상태와 액션 <span class="ref">1.3</span>.</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>하단 안내</b> — 지금 제공되는 기능 범위를 적어 둔 줄입니다 (아래 유의사항).</p></div></div>
 <div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t">왼쪽 메뉴의 <b>「품질·규제 &gt; Lock」</b> 이 이 화면의 자리입니다.</p></div></div>
-<div class="blk tab kwn"><h3><span>이 화면으로 가는 다른 길</span></h3></div>
+<div class="blk tab kwn"><h3><span>접근 경로</span></h3></div>
 <div class="blk plain"><ul><li><span class="bul">• </span>왼쪽 메뉴 <b>「품질·규제 &gt; Lock」</b> — 프로젝트에 들어온 뒤에만 나타납니다.</li><li><span class="bul">• </span><b>프로젝트 대시보드 &gt; 「Lock 현황」 위젯</b> 의 <b>「Lock 관리 →」</b></li><li><span class="bul">• </span><b>프로젝트 대시보드 &gt; 「데이터 품질」 위젯</b> 의 <b>「피험자 품질·Lock 목록」</b> — 품질을 보다가 잠금으로 넘어오는 길입니다.</li></ul></div>
 <div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
 <div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>하단 안내 줄의 마지막 문장은 현재 화면과 맞지 않습니다. “Project HARD_LOCK·Project Lock 해제는 다음 단계에서 제공됩니다” 라고 적혀 있지만, 프로젝트 잠금 해제는 이미 제공됩니다 — 프로젝트가 잠긴 상태에서 같은 자리에 「Project Lock 해제」 버튼이 나타납니다. 안내문만 예전 그대로 남은 것이며, 프로젝트 전체를 HARD_LOCK 으로 잠그는 것이 아직 제공되지 않는다는 부분은 맞습니다.</b></li></ul></div>
@@ -638,7 +638,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
     flow(blocks, () => {
       const p = newPage('body');
       if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
-      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><img class="brand" src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pg">${p.dataset.pno}</span></footer>`;
       first = false;
       // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
       fixShortLastLine(p.querySelector('.hdr .hx'));

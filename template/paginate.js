@@ -248,7 +248,7 @@
     flow(blocks, () => {
       const p = newPage('body');
       if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
-      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><img class="brand" src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pg">${p.dataset.pno}</span></footer>`;
       first = false;
       // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
       fixShortLastLine(p.querySelector('.hdr .hx'));
