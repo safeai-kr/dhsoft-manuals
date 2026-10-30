@@ -1,0 +1,3087 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — AE 지정 · LAB 정상범위",
+ "src": "SMART-EDC_사용자매뉴얼_AE지정.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "AE 지정",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "AE 지정 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "AE 지정 > SAE 여부 지정"
+    },
+    {
+     "no": "1.3",
+     "title": "AE 지정 > 지정 결과와 행 액션"
+    },
+    {
+     "no": "1.4",
+     "title": "AE 지정 > 지정 변경"
+    },
+    {
+     "no": "1.5",
+     "title": "AE 지정 > 지정 해제"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "SAE 보고 서식 슬롯",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "SAE 보고 서식 슬롯 > 슬롯 지정 구성"
+    },
+    {
+     "no": "2.2",
+     "title": "SAE 보고 서식 슬롯 > 중대성과 중증도"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "LAB 정상범위",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "LAB 정상범위 > 화면 구성"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "AE 지정 · LAB 정상범위",
+    "SAE 여부 지정 · 보고 서식 슬롯 · SCR-CRF-015 정상범위",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-28"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 AE 지정 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2544,
+       "ih": 646,
+       "w": 531.75,
+       "h": 121.5,
+       "ix": -12.905500705218618,
+       "iy": -14.506172839506174,
+       "iwp": 161.6361071932299,
+       "ihp": 179.62962962962962,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 18.5571667842031,
+         "y": 70.7224151234568
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 56.497928420310295,
+         "y": 79.6730324074074
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 10.517674541607898,
+         "y": 17.018711419753085
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 37.88015691114246,
+         "y": 23.191550925925927
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 43.52190585331453,
+         "y": 33.68537808641975
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 89.50215973201693,
+         "y": 49.73476080246913
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 41.829381170662906,
+         "y": 92.94463734567901
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 97.54165197461214,
+         "y": 33.68537808641975
+        }
+       ],
+       "cap": [
+        {
+         "t": "AE 지정 — 아직 지정이 없는 상태 (좌측 메뉴 제외 · 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 242.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "이상사례(AE) 양식에서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어느 필드가 「중대성 여부」인지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 프로젝트 단위로 정해 두는 화면입니다. 여기에서 지정한 필드의 값이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "아니⁣오 → 예로 바뀌는 순간 중대이상사례(SAE) 통보가 나갑니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 지정은 양식 바깥에 있으므로, 양식을 열지 않고도 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 프로젝트에서 어⁣느 양식이 이상사례 양식인지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 한눈에 확인할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 코드 · 이름 · 도메인으로 양식을 찾습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "양식 칩 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아직 지정하지 않은 양식입니다. 선택하면 지정 창이 열립니다 (1.2 참조). 지정을 마친 양식은 이 목록에서 빠지고⁣위 표로 올라갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "왼쪽 메뉴 연구 관리 > AE 지정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. CRF 관리 바로 아래에 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "제목 아래 안내가 이 화면의 전부를 요약합니다 — “이상사례 양식에서 「SAE 여부」 로 쓸 필드를 지정합니다. 그 값이 아니오 → 예⁣로 바뀌는 순간 SAE 통보가 나갑니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "양식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "SAE 여부",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 지정한 양식과 그 양식에서 고른 필드입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "지정이 없으면 “지정된 양식이 없습니다. 아래에서 이상사례 양식을 골라 지정하십시오.” 로 비어 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "화면 하단 경고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “SAE 여부는 BOOLEAN·SELECT·RADIO 타입 필드에만 지정할 수 있습니다. 지정한 필드가 양식 개정으로 사라지면⁣그 버전의 발행이 막힙니다.” 이 분권에서 가장 중요한 한 줄입니다 (아래 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "인지일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 규제 보고 기한의 기산점입니다. 선택 항목이라 비워 둘 수 있습니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "지정한 필드를 양식에서 지우면 그 버전을 발행할 수 없게 됩니다. 지정은 이 화면에 있고 필드는 CRF 관리의 양식 편집에 있어, 원인⁣과 증상이 서로 다른 화면에서 일어납니다. 양식에서 필드를 지우기 전에 여기에 그 필드가 지정되어 있는지 먼저 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 연구 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "AE 지정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 AE 지정 > SAE 여부 지정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2087,
+       "ih": 791,
+       "w": 268.5,
+       "h": 232.5,
+       "ix": -186.1731843575419,
+       "iy": -81.45161290322581,
+       "iwp": 477.6536312849162,
+       "ihp": 209.03224493867606,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 78.37159567039106,
+         "y": 34.37752016129032
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 78.37159567039106,
+         "y": 59.861391129032256
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 94.85204259776536,
+         "y": 86.95816532258065
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 54.62857891061452,
+         "y": 10.82913306451613
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 91.77941689944134,
+         "y": 42.76461693548387
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 91.77941689944134,
+         "y": 68.73235887096774
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 82.28221019553072,
+         "y": 75.99042338709677
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 56.8632157821229,
+         "y": 86.95816532258065
+        }
+       ],
+       "cap": [
+        {
+         "t": "AE 지정 창 — 양식 칩을 선택하면 열립니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 353.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "목록에서 양식을 선택하면 열리는 창입니다. 정할 것은 두 가지뿐입니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중대성 여부로 쓸 필드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(필수)와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "인지일로 쓸 필드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(선택)입⁣니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "후보 목록에는 쓸 수 있는 타입의 필드만 나타납니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 쓸 수 없는 것을 고르고 나서 막히는 대신 애초에 고를 수 없게 해 둔 것⁣입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "SAE 여부 (필수)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 중대성 여부로 쓸 필드를 고릅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "예/아니오 또는 단일 선택 타입",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "만 후보에 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "인지일 (선택)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 규제 보고 기한의 기산점으로 쓸 날짜 필드를 고릅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "날짜 또는 날짜+시간 타입",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "만 후보에 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정을 적용합니다. 저장하면 창이 닫히고 위 표에 행이 생깁니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 제목에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대상 양식 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 함께 표시됩니다 — 다른 양식을 열지 않았는지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "후보 제한 안내 — “예/아니오 또는 단일 선택만 지정할 수 있습니다. 복수 선택은 조건부 표시 판정이 화면과 서버에서 갈려 제외됩⁣니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "인지일 안내 — “규제 보고 기한의 기산점이고 SAE 추출의 기간 기준입니다. 지금은 선택이지만 기한 시계·추출이 열리면 필수가 됩⁣니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "빨간 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “이 양식에 DATE·DATETIME 타입 필드가 없습니다 — 먼저 저작해 주십시오.” ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "오류가 아니라 고지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 인지일로 쓸⁣날짜 필드를 양식에 먼저 만들어야 고를 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정하지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "인지일은 지금은 선택이지만 비워 두지 마십시오. 규제 보고 기한을 세는 시계가 그 날짜에서 시작하고, 중대이상사례 추출의 기간 기⁣준도 같은 값입니다. 화면 안내가 기한 시계와 추출이 열리면 필수가 된다고 미리 알리고 있으므로, 날짜 필드가 없다면 양식에 먼저⁣만들어 두는 편이 낫습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : AE 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "양식 지정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "1.3 AE 지정 > 지정 결과와 행 액션",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2310,
+       "ih": 472,
+       "w": 531.375,
+       "h": 36.0,
+       "ix": 0.0,
+       "iy": -92.70833333333334,
+       "iwp": 154.2695836273818,
+       "ihp": 466.6666666666667,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 14.547679957657023,
+         "y": 63.688151041666664
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 87.65988884968243,
+         "y": 63.688151041666664
+        }
+       ],
+       "cap": [
+        {
+         "t": "지정 직후 — 표에 행이 생깁니다 (왼쪽 · 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 157.125
+      },
+      {
+       "img": "p05_2.png",
+       "iw": 2310,
+       "ih": 472,
+       "w": 282.75,
+       "h": 47.25,
+       "ix": -233.81962864721487,
+       "iy": -80.15873015873017,
+       "iwp": 334.2175066312997,
+       "ihp": 407.9365079365079,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 79.19636936339522,
+         "y": 56.46081349206349
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 88.08231100795756,
+         "y": 81.85763888888889
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 96.9682526525199,
+         "y": 81.85763888888889
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 24.9523375331565,
+         "y": 56.46081349206349
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 행의 오른쪽 — 인지일과 행 액션 3종 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 181.125,
+       "fy1": 228.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "저장하면 창이 닫히고 표에 행이 생깁니다. 아래 칩 목록에서는 그 양식이 빠지므로, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표에 있으면 지정된 것이고 아래에 있으면 지정되⁣지 않은 것",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 행 오른쪽 끝에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "변경 · 서식 슬롯 · 해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 세 가지 액션이 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정한 필드를 바꿉니다 (1.4 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "서식 슬롯",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 중대이상사례 보고서 서식의 어느 칸을 이 양식의 어느 필드가 채울지 정합니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "휴지통",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정을 해제합니다 (1.5 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "양식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 양식 코드와 이름입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "SAE 여부",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 고른 필드의 키가 표시됩니다. 표시명이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필드 키",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "인지일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 지정하지 않으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "–",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 남습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "한 양식에는 지정이 하나뿐입니다. 같은 양식을 다시 지정할 수는 없고, 필드를 바꾸려면 변경을 사용합니다. 아래 칩 목록에서 그 양⁣식이 사라진 것이 이미 지정되었다는 표시입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : AE 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "지정 결과",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "1.4 AE 지정 > 지정 변경",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2255,
+       "ih": 883,
+       "w": 254.25,
+       "h": 219.0,
+       "ix": -185.69321533923303,
+       "iy": -88.86986301369863,
+       "iwp": 501.7699115044247,
+       "ihp": 228.08219178082192,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 79.81425147492625,
+         "y": 34.44177636272831
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 96.3334255162242,
+         "y": 85.29794074628995
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 52.38062315634219,
+         "y": 34.44177636272831
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 32.32162610619469,
+         "y": 59.09931060930366
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 82.32162610619469,
+         "y": 74.33903663670091
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 54.88799778761062,
+         "y": 10.98287225313927
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 58.87029867256637,
+         "y": 85.29794074628995
+        }
+       ],
+       "cap": [
+        {
+         "t": "변경 — 지정할 때와 같은 창이 현재 값을 채운 채 열립니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 340.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "행의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 선택하면 지정할 때와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "같은 창",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 열립니다. 다른 점은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지금 지정된 값이 미리 채워져 있다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 것뿐입니다. 필드를 바꾸고⁣저장하면 그 시점부터 새 필드가 중대성 여부로 동작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "SAE 여부",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 다른 필드로 바꿉니다. 후보 제한은 지정할 때와 같습니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 적용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "현재 지정된 필드가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표시명 (필드 키)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 형태로 채워져 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "인지일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 도 현재 값이 채워진 채 열립니다 — 지금은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지정 안 함",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "빨간 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 그대로 남아 있습니다 — 이 양식에는 아직 날짜 필드가 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "창 제목의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "양식 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 어느 행을 고치는지 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 바꾸지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "인지일 칸을 건드리지 않아도 창에 보이는 값 그대로 저장됩니다. 이 창은 두 칸을 항상 함께 저장하므로, 현재 값이 채워진 채 열리는⁣것이 그 때문입니다. 인지일을 지우려면 지정 안 함으로 바꿔 저장하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : AE 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "지정 변경",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "1.5 AE 지정 > 지정 해제",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2233,
+       "ih": 972,
+       "w": 310.5,
+       "h": 123.0,
+       "ix": -157.1256038647343,
+       "iy": -220.42682926829266,
+       "iwp": 436.47342995169083,
+       "ihp": 479.8780487804878,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 93.37447161835749,
+         "y": 65.59145547510163
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 43.49524456521739,
+         "y": 24.43291888973577
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 96.99766002415458,
+         "y": 41.810967670223576
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 62.21505132850241,
+         "y": 65.59145547510163
+        }
+       ],
+       "cap": [
+        {
+         "t": "해제 확인 — 함께 사라지는 것을 미리 알려 줍니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 244.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "행의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "휴지통",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 선택하면 확인 창이 열립니다. 해제하면 그 양식은 더 이상 이상사례 양식으로 다루어지지 않습니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중대이상사례⁣통보와 추출 필터가 함께 멈추고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 그 양식에 지정해 둔 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "보고 서식 슬롯도 함께 해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정을 거둡니다. 그 양식은 아래 칩 목록으로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 제목 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "AE 지정을 해제합니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ".",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "본문이 영향 범위를 미리 알려 줍니다 — “해제하면 이 양식은 더 이상 AE 양식으로 취급되지 않습니다 — SAE 통보와 추출 필터가⁣함께 멈춥니다. 지정된 서식 슬롯 N건도 함께 해제됩니다.” ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "건수가 숫자로 표시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되므로 잃는 것이 얼마나 되는지 확인하고 결정하십시⁣오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 해제하지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "해제하면 보고 서식 슬롯이 함께 사라집니다. 서식 슬롯은 AE 지정에 딸린 설정이라 지정이 없어지면 함께 지워지며, 되돌리려면 처음⁣부터 다시 지정해야 합니다. 필드만 바꾸려는 것이라면 해제가 아니라 변경을 사용하십시오 (1.4 참조).",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : AE 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "지정 해제",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "2.1 SAE 보고 서식 슬롯 > 슬롯 지정 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 839,
+       "ih": 1098,
+       "w": 282.75,
+       "h": 210.0,
+       "ix": -12.3342175066313,
+       "iy": -4.464285714285714,
+       "iwp": 135.54376657824935,
+       "ihp": 238.57142857142856,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 90.33695291777188,
+         "y": 91.98928106398809
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 47.100878647214856,
+         "y": 8.77499534970238
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 14.872761936339524,
+         "y": 22.167852492559522
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 41.79583885941645,
+         "y": 35.91785249255952
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 12.883372015915121,
+         "y": 63.77499534970238
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 41.79583885941645,
+         "y": 70.56070963541666
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 41.79583885941645,
+         "y": 78.77499534970238
+        }
+       ],
+       "cap": [
+        {
+         "t": "서식 슬롯 지정 — 보고서 칸마다 채울 CRF 필드를 고릅니다 (위쪽 · 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 331.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "중대이상사례가 발생하면 규제 기관에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "정해진 서식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 보고해야 합니다. 이 창은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 서식의 각 칸을 이 양식의 어느 필드가 채울지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를⁣미리 짝지어 두는 곳입니다. 짝지어 두면 보고서가 자동으로 채워지고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지정하지 않은 칸은 공란으로 출력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다. 칸은 성격에 따라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고⁣칠 수 없는 칸",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고르는 칸",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 나뉩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "고르는 칸",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 양식의 필드 중에서 고릅니다. 칸마다 쓸 수 있는 타입이 정해져 있어 후보가 걸러집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 머리의 안내 — “중대이상사례 보고서 (예시 서식) 의 칸을 이 양식의 필드로 채웁니다. 지정하지 않은 칸은 공란으로 출력되고, 지⁣정하지 않은 CRF 값은 부록에 실립니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "피험자 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 섹션 — 서식의 묶음 그대로 나뉘어 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "자물쇠",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 붙은 칸은 고를 수 없습니다 — “시스템이 채웁니다 (피험자·과제·기관 정보)”. 피험자 식별번호 · 이니셜 · 성별 · 출생연도가⁣여기에 해당합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "이상사례",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 섹션 — 사건 자체를 기술하는 칸들입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "중대성 여부",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 자물쇠 + “AE 지정에서 관리합니다” 입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "1장에서 지정한 그 필드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 여기에 자동으로 들어옵니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "인지일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 도 같습니다 — AE 지정에서 고른 값이 그대로 쓰입니다. 두 칸이 1장과 2장을 잇는 고리입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "건드리지 않은 칸도 저장할 때 그대로 유지됩니다. 이 창은 모든 칸을 현재 값으로 채워 열고 저장 시 통째로 다시 싣기 때문입니다. 다⁣만 그 구조 탓에 창을 열어 둔 사이 다른 사람이 바꾼 내용은 덮어씁니다 — 여러 사람이 같은 양식을 만지는 중이라면 저장 전에 한⁣번 더 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : AE 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "서식 슬롯 지정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "2.2 SAE 보고 서식 슬롯 > 중대성과 중증도",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 839,
+       "ih": 1098,
+       "w": 197.25,
+       "h": 202.5,
+       "ix": -12.357414448669202,
+       "iy": -72.77777777777777,
+       "iwp": 136.1216730038023,
+       "ihp": 173.33333333333334,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 90.33091730038024,
+         "y": 42.80369888117284
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 90.33091730038024,
+         "y": 52.24814332561728
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 91.85182984790875,
+         "y": 96.50740258487654
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 62.194035171102655,
+         "y": 11.692587770061728
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 90.33091730038024,
+         "y": 32.803698881172835
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 90.33091730038024,
+         "y": 62.0629581404321
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 17.707343155893536,
+         "y": 69.09999517746913
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 90.33091730038024,
+         "y": 77.0629581404321
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 74.3613355513308,
+         "y": 96.50740258487654
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 창의 아래쪽 — 중대성 기준과 중증도가 나란히 있습니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 323.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "창을 내리면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중대성 기준",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중증도",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 칸이 나란히 나옵니다. 이름이 비슷해 한 덩어리로 읽히기 쉽지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "규제 보고 대상을 가르는 축이 서⁣로 다릅니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중대성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 사망 · 입원 · 생명 위협 같은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "결과",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 묻고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중증도",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 경증 · 중등증 · 중증 같은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "강도",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 묻습니다. 보고 의무를 정⁣하는 것은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중대성 쪽",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "중대성 기준",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떤 이유로 중대한가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 담는 칸입니다. 사망 · 입원 · 생명 위협 등의 코드가 들어가며, 중대성 여부와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "반드시 함께",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣두어야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "중증도",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "증상이 얼마나 강한가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 담는 칸입니다. 경증 · 중등증 · 중증(또는 CTCAE 등급)이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "보고 의무와는 무관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정을 적용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "빨간 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “이 칸에 지정 가능한 필드 형식이 이 양식에 없습니다 (DATETIME·DATE 필요)”. 발현일 · 종료일처럼 날짜가 필요한 칸⁣에서 나타나며, 양식에 그 타입의 필드를 먼저 만들어야 고를 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "지속 여부",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 사건이 아직 진행 중인지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "결과",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 회복 · 후유증 · 사망 등 사건의 귀결입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "인과관계 평가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 섹션 — 시험약과의 관련성을 다룹니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "의심 시험약·기기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 어떤 제품이 의심되는지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정하지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "두 축을 가르는 기준",
+     "head": [
+      "",
+      "중대성 (seriousness)",
+      "중증도 (severity)"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "묻는 것",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "결과가 얼마나 심각한가",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "증상이 얼마나 강한가",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "값의 예",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "사망 · 입원 · 생명 위협 · 장애",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "경증 · 중등증 · 중증 (CTCAE 등급)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "보고 의무",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "이 축이 SAE 보고 여부를 정한다",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "무관",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "서식 칸",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "중대성 여부 · 중대성 기준",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "중증도",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "헷갈리는 예",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "Mild 한 입원 → ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중대사례다",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "Severe 한 두통 → 중대사례가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "아니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      16.6,
+      39.2,
+      44.2
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "icon": "⛔"
+        },
+        {
+         "t": " 두 칸을 바꿔 지정해도 시스템은 막지 않습니다. 저장도 되고 양식 발행도 통과합니다 — 이 자리를 검사하는 서버 규칙이 없습니⁣다. 바꿔 지정하면 보고해야 할 사례가 보고되지 않거나 보고하지 않아도 될 사례가 보고됩니다. 저장하기 전에 중대성 기준 칸에 결과⁣코드가, 중증도 칸에 강도 등급이 들어갔는지 사람이 직접 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 서식 슬롯 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "중대성 · 중증도",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.1 LAB 정상범위 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2548,
+       "ih": 637,
+       "w": 531.75,
+       "h": 117.75,
+       "ix": -14.880112834978842,
+       "iy": -18.789808917197455,
+       "iwp": 185.61354019746122,
+       "ihp": 209.55414012738856,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 15.736292313117067,
+         "y": 72.33757132430998
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 32.37945169252468,
+         "y": 72.33757132430998
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 40.41894393511989,
+         "y": 63.101902534501065
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 54.52331629055007,
+         "y": 72.33757132430998
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 14.748986248236953,
+         "y": 17.56050126061571
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 45.35547425952045,
+         "y": 25.840756037685775
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 72.15378173483779,
+         "y": 36.03183884023354
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 95.84912729196051,
+         "y": 51.31846304405521
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 98.10582686882934,
+         "y": 91.76432291666666
+        }
+       ],
+       "cap": [
+        {
+         "t": "LAB 정상범위 (SCR-CRF-015) — 기관과 양식을 고르기 전 상태 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 238.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "검사 항목의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "정상범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 저작하는 화면입니다. 범위는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 × 성별 × 연령",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 단위로 나누어 적으며, 저장한 뒤 입력되는 검사값은 이 범⁣위와 비교해 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "정상 · 낮음 · 높음이 자동으로 판정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다. 같은 검사라도 기관마다 기준이 다른 것이 정상이므로 기관을 먼저 고르고 시⁣작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 범위를 적을 참여 기관을 고릅니다. 담당 기관이 정해진 역할에게는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "자기 기관만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "양식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 검사 항목이 들어 있는 CRF 를 고릅니다. 기관과 양식을 모두 골라야 아래에 표가 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "+ 행 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 범위를 한 줄씩 직접 적습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "⬆",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 일괄 등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 여러 줄을 한 번에 올립니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기존 행을 지우지 않고 덮어쓰거나 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다 (아래 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / DataForm 설계 / LAB 정상범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 왼쪽 메뉴에서는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구 관리 > LAB 정상범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "제목 아래 안내 — “검사 항목별 정상범위를 기관 × 성별 × 연령 단위로 저작합니다. 저장 이후 입력되는 검사값은 이 범위로 자동⁣판정됩니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "노란 배너",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “저장해도 이미 입력된 값의 판정은 바뀌지 않습니다 — 재판정은 별 동작입니다.” 이 화면에서 가장 중요한 한 줄입니⁣다 (아래 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "정상범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "바인딩 개관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭 — 뒤쪽 탭은 이 프로젝트에서 어느 검사 항목이 판정 대상으로 지정되어 있는지를 모아 봅니다. 괄호 안⁣이 그 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "기관과 양식을 고르기 전에는 “기관과 양식을 고르면 저작된 정상범위가 표시됩니다.” 로 비어 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면에서 반드시 기억할 세 가지",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "저장해도 기존 판정은 바뀌지 않습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이미 입력된 값을 다시 판정하려면 별도의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "재판정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 실행해야 합니다. 규제 자료가 사용자⁣모르게 대량으로 바뀌지 않도록 한 결정입니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "연령 구간을 다 채우지 않아도 됩니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 성인 범위만 먼저 적는 부분 저작이 정상 운영입니다. 비어 있는 나이대는 오류가 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그⁣구간은 판정을 건너뛴다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 뜻입니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "일괄 등록은 덮어쓰기이지 교체가 아닙니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 올린 파일에 없는 행은 지워지지 않고 그대로 남습니다. 전부 새로 만들려면 기존 행을⁣먼저 지우십시오",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "범위를 고쳐도 이미 판정된 값은 그대로입니다. 저장 직후 화면의 기존 데이터를 보고 “반영되지 않았다” 고 판단하기 쉬우나 정상 동⁣작입니다. 과거 값까지 다시 판정하려면 정상범위 재판정을 따로 실행하십시오 — 그때 무엇이 바뀌는지 확인하고 실행하는 것이 안전⁣합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 연구 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "LAB 정상범위",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

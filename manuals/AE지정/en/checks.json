@@ -1,0 +1,40 @@
+{
+ "manual": "AE지정",
+ "lang": "en",
+ "pages": 22,
+ "js_errors": [],
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 17,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.79
+  },
+  "short_last_line": {
+   "pass": true,
+   "balanced": []
+  },
+  "refs": {
+   "pass": true,
+   "unresolved": []
+  },
+  "no_hangul": {
+   "pass": true,
+   "count": 0,
+   "applies": true
+  }
+ },
+ "pass": true
+}

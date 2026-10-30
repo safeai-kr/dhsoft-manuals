@@ -1,0 +1,3843 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 피험자",
+ "src": "SMART-EDC_사용자매뉴얼_피험자.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "피험자 목록",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "피험자 목록 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "피험자 목록 > 검색 · 정렬 · 필터"
+    },
+    {
+     "no": "1.3",
+     "title": "피험자 목록 > 표의 열 구성과 행 액션"
+    },
+    {
+     "no": "1.4",
+     "title": "피험자 목록 > 신규 피험자 등록"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "피험자 상세",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "피험자 상세 > 화면 구성"
+    },
+    {
+     "no": "2.2",
+     "title": "피험자 상세 > 기본 정보 · 등록 정보 편집"
+    },
+    {
+     "no": "2.3",
+     "title": "피험자 상세 > 방문 타임라인"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "상태 변경",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "상태 변경 > 전이 대상 선택"
+    },
+    {
+     "no": "3.2",
+     "title": "상태 변경 > 연구 종료"
+    },
+    {
+     "no": "3.3",
+     "title": "상태 변경 > 상태 변경 이력"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "피험자",
+    "SCR-SUBJ-001·002·003·004·009·017 · 목록 · 등록 · 상세 · 상태 변경",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-27"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 피험자 목록 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2528,
+       "ih": 1202,
+       "w": 531.375,
+       "h": 140.625,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 180.26664496527778,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 93.44676252646437,
+         "y": 16.037499999999998
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 40.09461009174312,
+         "y": 33.637499999999996
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 37.97746118560339,
+         "y": 42.170833333333334
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 4.738223359209598,
+         "y": 28.30416666666667
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 12.571674311926607,
+         "y": 18.704166666666666
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 21.74598623853211,
+         "y": 25.637500000000003
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 15.394539520112914,
+         "y": 50.170833333333334
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 19.487694071983064,
+         "y": 4.570833333333333
+        }
+       ],
+       "cap": [
+        {
+         "t": "피험자 목록 (SCR-SUBJ-001) — 프로젝트에 등록된 피험자 전체",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 262.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트에 등록된 피험자를 모아 보는 화면입니다. 피험자 업무의 시작점이며, 등록·상태 변경·방문·데이터 입력으로 가는 길이 모두⁣이 목록에서 갈라집니다. 자기 참여 기관만 담당하는 역할에게는 그 기관의 피험자만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "신규 피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자를 새로 등록합니다 (1.4 참조). 등록 권한이 없거나 프로젝트가 종료·보관 상태이면 이 버튼이 표시되지 않습⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "검색 · 정렬 · 참여기관 · 종결 상태 전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록을 좁히는 네 가지 수단입니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상태 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 10가지 상태를 선택해 걸러냅니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구 운영 > 피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 언제든 이 목록에 돌아올 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "총 N명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필터를 적용한 뒤의 전체 인원입니다. 현재 쪽에 보이는 행 수와는 다를 수 있습니다 (한 쪽에 20명).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "집계 배지 3종 — 스크리닝 · 등록/배정 · Terminal 입니다. 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "표 — 피험자 한 명이 한 행입니다. 행을 선택하면 그 피험자의 화면으로 이동합니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "화면 위쪽에서 워크스페이스와 프로젝트를 전환할 수 있습니다. 프로젝트가 바뀌면 목록도 함께 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "집계 배지 3종의 합은 총원과 다릅니다. 등록 과 투약 중 상태가 세 배지 어디에도 집계되지 않기 때문입니다. 캡처가 그 예로, 6명 중⁣5명이 투약 중인데 「등록/배정 0」 으로 표시됩니다. 인원은 총 N명 과 상태 필터로 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "피험자 목록",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 피험자 목록 > 검색 · 정렬 · 필터",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2300,
+       "ih": 840,
+       "w": 423.375,
+       "h": 141.0,
+       "ix": 0.0,
+       "iy": -2.925531914893617,
+       "iwp": 295.3055513267641,
+       "ihp": 323.936170212766,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 30.836193534100975,
+         "y": 59.87782579787234
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 49.34815101860053,
+         "y": 59.87782579787234
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 74.94602524357839,
+         "y": 59.87782579787234
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 97.88668069087689,
+         "y": 59.87782579787234
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 94.0780004428698,
+         "y": 80.88846409574468
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 10.818478742249779,
+         "y": 21.048038563829788
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 39.69358945969885,
+         "y": 38.601230053191486
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 20.561614260407442,
+         "y": 9.87782579787234
+        }
+       ],
+       "cap": [
+        {
+         "t": "목록 위쪽의 검색·필터 영역 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 262.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "목록을 좁히는 수단은 다섯 가지이며 서로 겹쳐 적용됩니다. 조건을 바꾸면 쪽 번호가 1쪽으로 돌아가고 총 인원도 다시 계산됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — Screening No · 이름 · 고유번호 세 가지로 찾습니다. 입력을 멈추면 잠시 뒤 자동으로 검색됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "정렬",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 최신순 · Screening No · 등록일 · 상태순 중에서 선택합니다. 기본값은 최신순입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "참여기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 특정 기관의 피험자만 표시합니다. 접근 가능한 기관이 두 곳 이상일 때만 표시되며, 자기 기관만 담당하는 역할에게는⁣대신 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "내 참여기관 고정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "종결 상태 전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — Terminal 5종(스크리닝 실패 · 치료 종료 · 추적 불가 · 사망 · 연구 종료)을 한 번에 선택하거나 해제합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "상태 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 10가지 상태를 개별로 선택합니다. 여러 개를 함께 선택하면 그중 하나라도 해당하는 피험자가 표시됩니다. 선택된 칩⁣은 색이 채워집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "총 N명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 지금 적용된 조건의 전체 인원입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "집계 배지 3종은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 쪽에 불러온 행만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 세며, 등록·투약 중 상태는 어느 배지에도 포함되지 않습니다 (1.1 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "제목 아래 영역 전체가 필터 영역입니다. 조건을 지우려면 선택된 칩을 다시 선택하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "검색은 이름 으로도 됩니다. 다만 표에는 이름 대신 이니셜 이 표시됩니다 — 이름은 개인식별정보라 전 역할이 보는 목록에 두지 않⁣기 때문입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 피험자 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "검색 · 정렬 · 필터",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "1.3 피험자 목록 > 표의 열 구성과 행 액션",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2300,
+       "ih": 840,
+       "w": 480.375,
+       "h": 84.0,
+       "ix": 0.0,
+       "iy": -100.44642857142858,
+       "iwp": 161.74862117405021,
+       "ihp": 337.5,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 83.07108704137393,
+         "y": 8.991350446428571
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 11.252195550351288,
+         "y": 23.723493303571427
+        }
+       ],
+       "cap": [
+        {
+         "t": "표 왼쪽 절반 — 식별·소속·상태 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 205.125
+      },
+      {
+       "img": "p05_2.png",
+       "iw": 2300,
+       "ih": 840,
+       "w": 480.75,
+       "h": 138.75,
+       "ix": -163.57254290171608,
+       "iy": -99.72972972972973,
+       "iwp": 263.80655226209046,
+       "ihp": 334.05405405405406,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 84.17633580343214,
+         "y": 24.09206081081081
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 88.07649180967239,
+         "y": 54.90287162162162
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 52.50706903276131,
+         "y": 8.956925675675675
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 74.97196762870514,
+         "y": 8.956925675675675
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 28.32610179407176,
+         "y": 8.956925675675675
+        }
+       ],
+       "cap": [
+        {
+         "t": "표 오른쪽 절반 — 품질·액션과 ⋯ 메뉴 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 229.125,
+       "fy1": 367.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "표는 11개 열로 이루어집니다. 왼쪽 절반이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "누구인가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(식별·소속·상태), 오른쪽 절반이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떤 상태인가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(방문·Query·품질)이며, 맨 오른쪽",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣액션",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열에서 그 피험자의 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⋯ — 행 액션 메뉴를 펼칩니다. 자기 자리에서 메뉴가 열리므로 행이 이동하지는 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "메뉴 항목은 네 가지입니다 — 아래 목록을 참조하십시오. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 Terminal 상태의 피험자나 권한이 없는 경우 선택할 수 없습⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "열 순서 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Screening No · 이니셜 · 고유번호 · 참여기관 · 상태 · 시험군 · 등록일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 이름 대신 이니셜이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Screening No",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 시스템이 자동 채번한 식별번호이고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고유번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 연구 코드 체계에 따라 사람이 입력하는 다른 축입니다. 값이 없⁣으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Query",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 미해결 Query 건수입니다. 1건 이상이면 붉게 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "품질",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 검증 대기 · SDV 완료 · 쿼리 열림 · 쿼리 답변 · 완결(CLEAN) 5종 중 하나입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "최근 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열은 현재 모든 행에서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 표시됩니다. 방문 수행일은 방문 타임라인에서 확인하십시오 (2.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "⋯ 액션 메뉴의 네 가지",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "기본 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자 상세 화면 (2.1 참조)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "방문 타임라인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계획·수행 방문 전체 (2.3 참조)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "상태 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 상태가 바뀐 기록 (3.3 참조)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "상태 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전이 대상 선택 창 (3.1 참조)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "행을 직접 선택하는 것과 메뉴의 「기본 정보」는 도착하는 화면이 다릅니다. 행을 선택하면 여러 영역을 한 화면에 모은 Patient⁣Profile 로, 메뉴의 기본 정보 는 인적 사항·등록 정보 중심의 상세 화면(2.1)으로 이동합니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 피험자 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "표 · 행 액션",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "1.4 피험자 목록 > 신규 피험자 등록",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 670,
+       "ih": 895,
+       "w": 256.5,
+       "h": 174.75,
+       "ix": -2.1929824561403506,
+       "iy": -1.9313304721030045,
+       "iwp": 104.97076023391814,
+       "ihp": 205.57939914163092,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 95.78079312865498,
+         "y": 51.31759097818311
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 95.78079312865498,
+         "y": 73.63518754470672
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 95.78079312865498,
+         "y": 91.6609386176681
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 39.64044225146199,
+         "y": 18.91415750178827
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 75.02055921052632,
+         "y": 30.502140334406295
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 56.307108918128655,
+         "y": 58.18454376788269
+        }
+       ],
+       "cap": [
+        {
+         "t": "신규 피험자 등록 (SCR-SUBJ-002) — 위쪽",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 295.875
+      },
+      {
+       "img": "p06_2.png",
+       "iw": 670,
+       "ih": 895,
+       "w": 257.25,
+       "h": 182.25,
+       "ix": -2.186588921282799,
+       "iy": -96.09053497942386,
+       "iwp": 104.66472303206997,
+       "ihp": 196.70783567494,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 95.50154883381924,
+         "y": 11.345673653978052
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 39.52487244897959,
+         "y": 26.572011102537722
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 95.50154883381924,
+         "y": 41.79834855109739
+        },
+        {
+         "kind": "set",
+         "n": 7,
+         "x": 95.50154883381924,
+         "y": 59.08229916838135
+        },
+        {
+         "kind": "set",
+         "n": 8,
+         "x": 7.600674198250728,
+         "y": 80.27571480624142
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 21.15752551020408,
+         "y": 80.27571480624142
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 70.13711734693877,
+         "y": 65.66666130829904
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 88.79600947521867,
+         "y": 74.30863661694102
+        }
+       ],
+       "cap": [
+        {
+         "t": "아래쪽 — 생년월일부터 저장까지",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 301.125,
+       "fy0": 121.125,
+       "fy1": 303.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자를 새로 등록합니다. 별표가 붙은 항목은 모두 입력해야 저장할 수 있습니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "ICF 동의일을 입력했는지에 따라 생성되는 상태가⁣달라지므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 동의서를 이미 받았다면 여기에서 함께 입력하는 편이 상태 전이를 한 번 줄입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "귀속 Site *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자가 속할 참여 기관입니다. 접근 권한이 두 곳 이상에 걸쳐 있을 때만 표시되며, 한 곳뿐이면 시스템이 자동으로⁣배정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이름 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 개인식별정보입니다. 목록에는 표시되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "이니셜 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록에 표시되는 약칭입니다. 이름에서 자동으로 만들어지지 않으므로 직접 입력합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "생년월일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 항목입니다. 오늘 이후 날짜는 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "성별 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 남성 · 여성 · 기타 · 미상 중에서 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "ICF 동의일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 항목이지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "생성 상태를 가릅니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입력하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "스크리닝",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 비워 두면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태로 생성됩니다. 오늘 이후 날짜는 입⁣력할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 7,
+       "runs": [
+        {
+         "t": "고유번호 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 연구 코드 체계에 따른 식별번호입니다. 최대 50자이며 프로젝트 안에서 중복될 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 8,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수 항목이 모두 채워질 때까지 흐리게 표시됩니다. ICF 동의일을 입력했으면 저장 후 그 피험자의 상세 화면으로, 비워 두⁣었으면 목록으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "머리 안내 — 귀속 기관은 접근 권한에 따라 시스템이 배정하며, 여러 기관에 걸쳐 있을 때만 직접 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "배너가 생성될 상태를 미리 알려 줍니다. ICF 동의일을 입력하면 배너 문구가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "스크리닝",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "선택 칸 아래에 왜 기관을 지정해야 하는지 안내됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력한 내용이 있으면 폐기 여부를 먼저 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "고유번호 칸 아래에 중복 불가 안내가 표시됩니다. 중복 여부는 저장할 때 시스템이 판정하므로, 입력 중에는 알려 주지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "Screening No",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 입력 항목이 아닙니다 — 저장할 때 시스템이 자동으로 채번합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "고유번호가 다른 참여 기관에서 이미 쓰이고 있어도 입력 중에는 알 수 없습니다. 자기 기관만 담당하는 역할은 다른 기관의 피험자가⁣목록에 보이지 않기 때문입니다. 저장할 때 중복으로 거절되면 연구 코드 체계를 확인한 뒤 다른 값을 입력하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 피험자 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 피험자 등록",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.1 피험자 상세 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2297,
+       "ih": 1060,
+       "w": 531.375,
+       "h": 222.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 110.62394603709949,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 95.42276817219478,
+         "y": 21.271496451658233
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 95.42276817219478,
+         "y": 40.833047885047776
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 3.397362385321101,
+         "y": 90.7487308530073
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 7.631660197600565,
+         "y": 90.7487308530073
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 12.14824453069866,
+         "y": 90.7487308530073
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 15.394539520112914,
+         "y": 3.0590192463506534
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 84.27245059985886,
+         "y": 10.478916350477796
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 93.94076393789696,
+         "y": 5.757162556211354
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 9.748809103740296,
+         "y": 79.95615075182687
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 5.514511291460833,
+         "y": 63.76728060005621
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 4.385365208186309,
+         "y": 51.62562798622822
+        }
+       ],
+       "cap": [
+        {
+         "t": "피험자 기본 정보 (SCR-SUBJ-003) — 인적 사항부터 상태 액션까지",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 343.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "한 피험자의 인적 사항·등록 정보·배정·상태를 위에서 아래로 쌓아 보여 주는 화면입니다. 상태를 바꾸는 세 가지 액션도 이 화면 아래⁣쪽에 모여 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "기본 정보 (개인식별정보) > 편집",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이름·생년월일·성별을 수정합니다 (2.2 참조). 권한이 없으면 이 링크가 표시되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "등록 정보 > 편집",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 고유번호를 수정합니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상태 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전이 대상 선택 창을 엽니다 (3.1 참조). 갈 수 있는 상태가 없거나 완전 잠금 상태이면 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "연구 종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 연구 종료(EOS) 전용 화면으로 이동합니다 (3.2 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "투약 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "치료 종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태이고 권한이 있을 때만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "상태 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 상태가 바뀐 기록을 조회합니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로로 목록에 돌아갈 수 있습니다. 화면 맨 아래의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "← 목록으로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 도 같은 자리로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "머리의 상태 배지는 아래 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 카드의 배지와 같은 값입니다. 잠금이 걸려 있으면 자물쇠 배지가 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "CRF 매트릭스",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Casebook",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 피험자의 CRF 입력 현황과 자료 출력으로 이어지는 다른 화면입니다. 본 분권에서는 다루지 않습니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "다음 가능 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 시스템이 계산한 전이 가능 상태입니다. 여기에 없는 상태로는 바꿀 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "배정 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 무작위배정 전에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 배정되면 시험군과 배정번호가 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "고유번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 인 것은 필수 입력으로 바뀌기 전에 등록된 피험자이기 때문입니다. 편집에서 값을 채울 수 있습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "머리의 참여 기관 이 공란으로 표시될 수 있습니다. 상세 화면이 기관 코드를 받지 못해 생기는 현상이며 피험자의 소속이 없다는 뜻⁣이 아닙니다 — 소속 기관은 목록의 참여기관 열 에서 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 피험자 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "기본 정보",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "2.2 피험자 상세 > 기본 정보 · 등록 정보 편집",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2271,
+       "ih": 1125,
+       "w": 531.375,
+       "h": 192.0,
+       "ix": 0.0,
+       "iy": -0.9765625,
+       "iwp": 100.21171489061398,
+       "ihp": 137.5,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 94.99933839096684,
+         "y": 31.08202616373698
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 94.99933839096684,
+         "y": 39.675776163736984
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 12.712817572335922,
+         "y": 47.097651163736984
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 2.409359562455893,
+         "y": 58.81640116373698
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 47.43405963302752,
+         "y": 77.95702616373697
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 2.409359562455893,
+         "y": 93.58202616373697
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 5.373368031051518,
+         "y": 58.81640116373698
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 5.373368031051518,
+         "y": 93.58202616373697
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 11.936529640084686,
+         "y": 70.53515116373697
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 16.382542342978123,
+         "y": 81.47265116373697
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 83.99016407904023,
+         "y": 11.16015116373698
+        }
+       ],
+       "cap": [
+        {
+         "t": "두 카드가 각각 따로 편집됩니다 (다른 피험자 캡처 · 화면 구성 동일)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 313.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "기본 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "등록 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 서로 다른 카드이고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "저장도 따로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 합니다. 한쪽을 편집하는 동안 다른 쪽은 그대로 조회 상태로 남습니다. 두⁣카드를 다 고쳤다면 저장을 두 번 눌러야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비워 둘 수 없습니다. 공란이면 저장이 흐리게 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "생년월일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 날짜를 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "성별",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 남성 · 여성 · 기타 · 미상 중에서 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(기본 정보) — 인적 사항 세 항목만 반영합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "고유번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 연구 코드 체계에 따른 식별번호입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "값을 비울 수 없습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비운 채로 저장하면 거절됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(등록 정보) — 고유번호만 반영합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 버리고 그 카드만 조회 상태로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "등록 정보에도 같은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "생성일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "ICF 동의일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 읽기 전용입니다 — 편집 상태에서도 입력란으로 바뀌지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "고유번호 칸 아래에 중복 불가와 공란 불가가 함께 안내됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "머리 카드는 편집 중에도 바뀌지 않습니다 — 상태 배지와 이동 버튼이 그대로 유지됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "이름·생년월일·성별 편집은 개인식별정보 열람 권한과 수정 권한을 모두 가진 역할만 할 수 있습니다. 연구책임자(PI)는 값을 볼 수는⁣있지만 수정할 수 없어 편집 링크가 표시되지 않습니다. 고유번호 편집은 수정 권한만으로 가능합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 기본 정보 > ",
+     "cur": false
+    },
+    {
+     "t": "편집",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "2.3 피험자 상세 > 방문 타임라인",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2301,
+       "ih": 1045,
+       "w": 531.375,
+       "h": 221.62501525878906,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 109.30625993456398,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 96.41077099505999,
+         "y": 11.02199833563027
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 90.62389731827805,
+         "y": 11.02199833563027
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 54.91465243472125,
+         "y": 17.620982652866548
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 9.889952364149613,
+         "y": 2.3925590266376955
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 35.43688249823571,
+         "y": 12.20643141821114
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 6.784800635144672,
+         "y": 22.697124435355995
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 34.731166196189136,
+         "y": 29.465313478675252
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 95.42276817219478,
+         "y": 57.891707460616146
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 30.49686838390967,
+         "y": 84.62605418172723
+        }
+       ],
+       "cap": [
+        {
+         "t": "방문 타임라인 (SCR-VISIT-003) — 피험자 한 명의 계획·수행 방문 전체",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 343.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "한 피험자의 방문을 단계별로 묶어 보여 주는 화면입니다. 계획일과 실제 수행일, 허용 오차, 수행 여부, 결합된 CRF 의 입력 상태를 한⁣줄에서 확인할 수 있습니다. 방문 관리 전반은 방문 분권에서 다루며, 여기에서는 피험자에서 들어왔을 때 보이는 것만 설명합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "방문 수동 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계획에 없던 방문을 추가합니다. Terminal 상태의 피험자에게는 표시되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Cycle 수동 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 주기 방문 그룹의 다음 주기를 한꺼번에 전개합니다. 주기 그룹이 있는 프로젝트에서만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "방문 그룹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " / ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Gantt 타임라인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 보기 방식을 전환합니다. 기본은 단계별로 접고 펼치는 방문 그룹입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로 또는 왼쪽 위 화살표로 들어온 자리로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "요약 줄 — Screening No · 고유번호 · 이름 · 상태 · 참여 기관과 함께 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "총 N건 · 방문 수행 · 방문 진행 · 방문 예정 · 미방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 집계가 표⁣시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "단계 머리줄",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선별 단계 · 치료 단계처럼 방문을 묶는 단위입니다. 괄호 안이 그 단계의 방문 수이고, 시험군이 있으면 함께 표시됩⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "방문 한 줄 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기준(어느 날짜로부터 세는가) · 계획일 · 실제일 · 허용 오차 · 수행 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순으로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "방문에 CRF 가 결합되어 있으면 그 이름과 입력 상태가 아래에 이어집니다. 결합된 CRF 가 없으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "결합된 CRF 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 표시됩니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "계획일이 지났는데 수행되지 않은 방문은 ✗",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 미방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 붉게 표시되고 계획일에 밑줄이 붙습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "이 화면은 방문 영역의 화면이며 피험자 목록과 데이터 입력 양쪽에서 들어옵니다. 들어온 경로에 따라 왼쪽 위 화살표가 돌아가는 자⁣리가 달라집니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 피험자 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "방문 타임라인",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.1 상태 변경 > 전이 대상 선택",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 618,
+       "ih": 568,
+       "w": 268.5,
+       "h": 218.25,
+       "ix": -6.843575418994413,
+       "iy": -11.512027491408935,
+       "iwp": 113.96648044692736,
+       "ihp": 128.8659793814433,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 92.89673533519553,
+         "y": 38.16838040521191
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 92.89673533519553,
+         "y": 50.367693119988544
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 92.89673533519553,
+         "y": 62.39518452892325
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 92.89673533519553,
+         "y": 74.76631854954181
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 93.45539455307262,
+         "y": 90.57387868699885
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 36.75148393854749,
+         "y": 16.003431951603666
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 76.41628840782123,
+         "y": 38.16838040521191
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 54.907908519553075,
+         "y": 90.57387868699885
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 93.45539455307262,
+         "y": 12.567005834765176
+        }
+       ],
+       "cap": [
+        {
+         "t": "피험자 상태 변경 (SCR-SUBJ-004) — 투약 중에서 갈 수 있는 네 가지 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 339.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "지금 상태에서 갈 수 있는 상태만 골라 보여 줍니다. 선택지는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 상태와 내 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 두 축으로 걸러지므로 사람마다 다르게 보일 수 있⁣습니다. 선택지가 비어 있다면 전이할 곳이 없거나 권한이 없는 것입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "투약 중 → 치료 종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택하면 치료 종료 사유 5종이 이어서 표시됩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "정상 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 만 이 창에서 바로 처리되고, 나머지 사유는⁣방문 일정 정리가 뒤따르는 조기 종료 전용 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "투약 중 → 사망",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 사망 처리 전용 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "투약 중 → 추적 불가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 추적 불가 처리 전용 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "투약 중 → 동의 철회",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 동의 철회 전용 화면으로 이동합니다. 철회는 전자서명이 필요합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "상태 변경 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전이 대상을 고르기 전에는 흐리게 표시됩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전용 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 붙은 전이를 고르면 버튼 이름이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전용 화면으로⁣이동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 머리에 대상 피험자와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 표시됩니다. 다른 피험자가 아닌지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "선택지 오른쪽의 배지 2종 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Terminal",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 되돌릴 수 없는 전이라는 뜻이고(선택하면 창 안에 경고가 함께 표시됩니다), ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전용 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은⁣이 창에서 끝나지 않고 별도 화면에서 처리한다는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아무 것도 바꾸지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "창 밖을 선택하거나 닫기를 선택해도 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "연구 종료(EOS)는 이 창에 없습니다. 전용 화면에서만 수행하며, 상세 화면의 연구 종료 버튼이 유일한 입구입니다 (3.2 참조). 또한 잠⁣금이 걸린 피험자는 Terminal 선택지가 전부 흐리게 표시되므로 잠금을 먼저 해제해야 합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 기본 정보 > ",
+     "cur": false
+    },
+    {
+     "t": "피험자 상태 변경",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "3.2 상태 변경 > 연구 종료",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 2250,
+       "ih": 913,
+       "w": 353.25,
+       "h": 252.0,
+       "ix": -89.49044585987261,
+       "iy": -16.220238095238095,
+       "iwp": 271.12526539278133,
+       "ihp": 154.46428571428572,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 52.138070594479835,
+         "y": 33.80059136284722
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 83.77289012738854,
+         "y": 50.169638981894835
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 95.02554405520169,
+         "y": 94.81249612475199
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 64.87692409766454,
+         "y": 8.502972315228174
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 94.49475849256899,
+         "y": 67.72916279141864
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 94.49475849256899,
+         "y": 81.71725802951389
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 62.966096072186836,
+         "y": 94.81249612475199
+        }
+       ],
+       "cap": [
+        {
+         "t": "연구 종료 (SCR-SUBJ-017) — 피험자 lifecycle 의 최종 상태 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 373.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자의 연구 참여를 최종적으로 끝내는 화면입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "투약 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "치료 종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태에서만 수행할 수 있으며, 프로젝트의 서명 정책에⁣따라 전자서명이 요구됩니다. 되돌릴 수 없는 전이이므로 날짜와 사유를 확인한 뒤 실행하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "연구 종료일 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수 입력입니다. 오늘 이후 날짜는 선택할 수 없고, ICF 동의일보다 앞선 날짜를 넣으면 확인을 요구하는 문구가⁣표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "종료 사유 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수 입력입니다. 상태 변경 이력에 그대로 남으므로 “예: 추적관찰 종료” 와 같이 사실을 적으십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "연구 종료 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 두 필수 항목이 채워질 때까지 흐리게 표시됩니다. 전자서명이 필요한 설정이면 선택 즉시 전자서명 창이 표시되⁣고, 서명을 마쳐야 종료가 수행됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "대상 피험자 요약 — Screening No · 현재 상태 · 참여 기관 · ICF 동의일이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "파란 안내 — 서명 정책이 켜져 있으면 실행 시 전자서명 창이 표시된다는 예고입니다. 서명 정책이 없는 프로젝트에서는 이 안내가⁣표시되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "회색 안내 — 연구 종료는 되돌릴 수 없고 상태 변경 이력에 영구 기록되며, 이후 데이터 입력이 차단된다는 설명입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아무 것도 수행하지 않고 들어온 자리로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "연구 종료는 되돌릴 수 없고 이후 데이터 입력이 차단됩니다. 미해결 Query 나 입력하지 않은 CRF 가 남아 있지 않은지 먼저 확인하⁣십시오. 잠금이 걸린 피험자는 종료가 거절되므로 잠금을 먼저 해제해야 합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 기본 정보 > ",
+     "cur": false
+    },
+    {
+     "t": "연구 종료",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 12,
+   "title": "3.3 상태 변경 > 상태 변경 이력",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p12_1.png",
+       "iw": 2299,
+       "ih": 642,
+       "w": 531.375,
+       "h": 88.5,
+       "ix": 0.0,
+       "iy": -2.9661016949152543,
+       "iwp": 100.21171489061398,
+       "ihp": 168.64406779661016,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 5.4439396612561755,
+         "y": 89.46609066031074
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 9.184236062103036,
+         "y": 89.46609066031074
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 3.679648906139732,
+         "y": 46.24575167725989
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 55.76151199717714,
+         "y": 65.7372771009887
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 93.729049047283,
+         "y": 25.483039812853107
+        }
+       ],
+       "cap": [
+        {
+         "t": "상태 변경 이력 (SCR-SUBJ-009) — 기록이 없는 경우",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 209.625
+      },
+      {
+       "img": "p12_2.png",
+       "iw": 2287,
+       "ih": 166,
+       "w": 480.375,
+       "h": 139.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 401.24902419984386,
+       "ihp": 100.80862533692722,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 40.76039227166277,
+         "y": 28.07007384321653
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 39.97975214676035,
+         "y": 43.16441346585804
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 44.74165690866511,
+         "y": 55.56333529874213
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 40.29200819672131,
+         "y": 67.96225713162623
+        }
+       ],
+       "cap": [
+        {
+         "t": "기록이 있는 경우 — 한 건이 한 장의 카드 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 233.625,
+       "fy1": 373.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "그 피험자의 상태가 언제 · 누가 · 왜 바뀌었는지를 시간 순으로 보여 주는 화면입니다. 감사 추적 자료이므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기록을 수정하거나 삭제⁣할 수 없고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 조회만 가능합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "← 기본 정보로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 피험자의 상세 화면으로 돌아갑니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "← 목록으로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자 목록으로 돌아갑니다 (1.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "총 N건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기록된 상태 변경 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기록이 없으면 “초기 등록 이외 이력이 없습니다.” 가 표시됩니다 — 등록 이후 상태가 한 번도 바뀌지 않았다는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "머리의 배지는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태입니다. 아래 기록의 마지막 상태와 같아야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "카드 머리 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "바뀌기 전 상태 → 바뀐 뒤 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 잠금을 넘어 수행된 전이에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Lock Override",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 함께 붙습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "일시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전이가 수행된 시각입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "수행자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이름과 역할이 함께 기록됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전이할 때 입력한 사유입니다. 시스템이 자동으로 수행한 전이에는 그 경로를 나타내는 코드가 기록되기도 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "현재 상태가 투약 중 인데 총 0건 으로 표시될 수 있습니다. 화면의 오류가 아니라 그 피험자의 상태 변경이 기록으로 남지 않은 경우⁣이므로, 전이 경위를 확인해야 한다면 Audit Trail 을 함께 조회하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 기본 정보 > ",
+     "cur": false
+    },
+    {
+     "t": "상태 변경 이력",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

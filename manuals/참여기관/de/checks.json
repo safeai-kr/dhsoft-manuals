@@ -1,0 +1,40 @@
+{
+ "manual": "참여기관",
+ "lang": "de",
+ "pages": 21,
+ "js_errors": [],
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 16,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.908
+  },
+  "short_last_line": {
+   "pass": true,
+   "balanced": []
+  },
+  "refs": {
+   "pass": true,
+   "unresolved": []
+  },
+  "no_hangul": {
+   "pass": true,
+   "count": 0,
+   "applies": true
+  }
+ },
+ "pass": true
+}

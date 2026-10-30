@@ -1,0 +1,40 @@
+{
+ "manual": "데이터내보내기",
+ "lang": "ko",
+ "pages": 24,
+ "js_errors": [],
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 18,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.845
+  },
+  "short_last_line": {
+   "pass": true,
+   "balanced": []
+  },
+  "refs": {
+   "pass": true,
+   "unresolved": []
+  },
+  "no_hangul": {
+   "pass": true,
+   "count": 5815,
+   "applies": false
+  }
+ },
+ "pass": true
+}

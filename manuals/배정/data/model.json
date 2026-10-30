@@ -1,0 +1,2917 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 배정",
+ "src": "SMART-EDC_사용자매뉴얼_배정.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "배정 관리 개요",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "배정 관리 개요 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "배정 관리 개요 > 준비를 마친 뒤"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "사전 준비",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "사전 준비 > 배정 설정"
+    },
+    {
+     "no": "2.2",
+     "title": "사전 준비 > 시험군"
+    },
+    {
+     "no": "2.3",
+     "title": "사전 준비 > 번호 풀"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "배정 운영",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "배정 운영 > 배정 수행 (준비가 덜 된 경우)"
+    },
+    {
+     "no": "3.2",
+     "title": "배정 운영 > 대상 선택과 배정 확정"
+    },
+    {
+     "no": "3.3",
+     "title": "배정 운영 > 배정 해제"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "배정",
+    "SCR-RAND-007 · 배정 설정 · 시험군 · 번호 풀 · 배정 수행 · 해제",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-27"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 배정 관리 개요 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2339,
+       "ih": 1189,
+       "w": 531.375,
+       "h": 199.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21170340434604,
+       "ihp": 135.969868173258,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 35.93088390966832,
+         "y": 21.872057438794727
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 58.72552046577276,
+         "y": 48.42572975517891
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 38.400890966831334,
+         "y": 76.4859934086629
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 58.72552046577276,
+         "y": 58.0302495291902
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 4.949938249823571,
+         "y": 52.38053201506592
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 16.100255822159493,
+         "y": 8.877707156308851
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 38.54203422724065,
+         "y": 16.97563559322034
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 88.22446189131969,
+         "y": 29.40501412429379
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 53.926649611856035,
+         "y": 51.627236346516
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 38.683177487649964,
+         "y": 85.90218926553672
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 26.68600035285815,
+         "y": 15.092396421845574
+        }
+       ],
+       "cap": [
+        {
+         "t": "배정 관리 (SCR-RAND-007) — 아무 준비도 되지 않은 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 320.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "무작위배정을 준비하고 수행하는 화면입니다. 위쪽 가로 탭이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "개요 · 배정 설정 · 시험군 · 번호 풀 · 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 다섯 가지이고, 탭을 고르면⁣화면 이동 없이 그 자리에서 내용이 바뀝니다. 앞의 세 가지가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사전 준비",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 마지막이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 운영",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "가로 탭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 다섯 가지를 오갑니다. 담당 권한이 없는 탭에는 자물쇠가 표시되어 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "설정하기 >",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정 설정 탭으로 바로 넘어갑니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "시험군 정의 >",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 시험군 탭으로 넘어갑니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "준비 현황",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "의 각 행도 선택하면 해당 탭으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구 관리 > 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 상시 입구입니다. 역할별 대시보드의 배정 위젯에서도 들어올 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "탭 위의 작은 글씨가 묶음을 알려 줍니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "홈",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사전 준비",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(순서 무관 · 완료 체크) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 운영",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(통합 작업).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "지표 4종 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "풀 번호 · 배정됨 · 가용 · 시험군",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 준비 전에는 모두 0입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "준비 현황",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 세 가지 준비의 완료 여부입니다. 빈 동그라미는 미완료, 초록 체크는 완료입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "순서는 무관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하므로 편한 것부터 하면⁣됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "최근 활동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정·해제·업로드 기록이 최근 5건 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "부제의 “내 권한에 해당하는 배정 준비·운영” — 보이는 탭과 버튼이 사람마다 다르다는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "현재 배정 화면은 시스템 관리자만 볼 수 있습니다. 테스트가 끝나지 않아 임시로 닫아 둔 것이며, 배정 권한이 있는 데이터 관리자·연⁣구책임자에게도 왼쪽 메뉴에 배정 항목이 나타나지 않고 주소로 들어가도 차단됩니다. 권한 설정 문제가 아니므로 권한 관리에서 찾지⁣마시고 시스템 담당자에게 공개 일정을 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "배정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 배정 관리 개요 > 준비를 마친 뒤",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2294,
+       "ih": 1117,
+       "w": 480.375,
+       "h": 205.12501525878906,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.23419203747072,
+       "ihp": 114.442412088367,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 20.77600507416081,
+         "y": 13.188420534501299
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 78.93369437939111,
+         "y": 22.69481836481882
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 48.72292154566745,
+         "y": 39.87946059654664
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 78.93369437939111,
+         "y": 39.148199224983756
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 78.93369437939111,
+         "y": 58.16099488561879
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 78.93369437939111,
+         "y": 74.98000643156516
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 10.93993950039032,
+         "y": 4.4132840757466685
+        }
+       ],
+       "cap": [
+        {
+         "t": "준비 3종을 마치고 배정이 진행된 상태 (배정이 진행된 다른 프로젝트)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 326.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "준비 세 가지를 마치면 같은 개요 화면이 이렇게 바뀝니다. 지표에 실제 수치가 차고, 설정 요약과 시험군별 분포·최근 활동이 채워집⁣니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "운영 중에는 이 화면만 봐도 배정이 어디까지 진행됐는지 알 수 있습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "탭의 동그라미가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초록 체크",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 바뀝니다 — 준비가 끝났다는 표시입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "지표 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "풀 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(업로드한 번호 수) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(이미 쓴 수) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(남은 수) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시험군",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 수입니다. 가용이 줄어들면 번호를 더 올려야 합니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "준비 현황",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 아래 작은 글씨가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 완료 · 2개 정의 · 8개 등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 처럼 실제 값으로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "배정 설정 요약",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정 방식·맹검과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 표시됩니다. 캡처의 “피험자 배정됨 · 방식·맹검 잠금” 은 이미 배정이 시작되어 설정을⁣바꿀 수 없다는 뜻입니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "시험군별 배정 분포",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 수 / 풀 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "목표 비율",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 막대는 풀 대비 소진율이며 목표 비율과는 다른 축입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "최근 활동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 → 시험군 (배정번호)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 형식으로, 오른쪽 배지가 배정·수동 지정·해제·업로드를 색으로 구분합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "제목과 이동 경로는 준비 전과 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "가용 번호가 0이 되면 배정을 더 할 수 없습니다. 배정 수행 화면에서 “배정 가능 번호가 없습니다” 로 막히므로, 이 지표를 주기적으⁣로 확인하고 미리 번호 풀을 추가로 업로드하십시오 (2.3 참조).",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "개요",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "2.1 사전 준비 > 배정 설정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2295,
+       "ih": 1136,
+       "w": 396.0,
+       "h": 249.75,
+       "ix": -37.97348484848485,
+       "iy": -24.174174174174173,
+       "iwp": 172.72727272727272,
+       "ihp": 135.43544765468593,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 50.86558948863637,
+         "y": 25.84694069069069
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 95.56255918560606,
+         "y": 25.84694069069069
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 19.804983428030305,
+         "y": 59.48057432432432
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 19.804983428030305,
+         "y": 68.33943318318319
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 89.501953125,
+         "y": 84.5556493993994
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 83.44134706439394,
+         "y": 93.5646584084084
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 25.486801609848484,
+         "y": 5.57667042042042
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 37.79740767045455,
+         "y": 32.60369744744745
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 37.79740767045455,
+         "y": 43.41450825825826
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 95.56255918560606,
+         "y": 45.81691066066066
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 11.18755918560606,
+         "y": 55.126219969969966
+        }
+       ],
+       "cap": [
+        {
+         "t": "배정 설정 — 아직 설정이 없어 기본값이 채워진 상태 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 370.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "배정의 규칙을 정하는 화면입니다. 네 가지 블록으로 이루어지며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 번 저장하고 나면 단계별로 잠깁니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 번호 풀을 올리면 맹검⁣이, 피험자가 배정되면 방식까지 잠깁니다. 그래서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "맨 처음에 제대로 정해야 하는 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "① Source(배정 방식)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "외부 업로드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 선택되어 있습니다. IVRS/IWRS 등 외부 시스템에서 만든 배정 결과를 파일로 올리는 방식⁣입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "② Blind Type(맹검)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 공개 · 단일 맹검 · 이중 맹검 · 삼중 맹검 중에서 선택합니다. 각 항목 아래에 누가 배정 결과를 알 수 있는지⁣가 적혀 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "수동 지정 허용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기본은 꺼짐입니다. 켜면 배정 수행에서 번호를 직접 지정할 수 있게 되며 사유가 필수입니다. 꺼져 있으면 시도⁣자체가 거부됩니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "자동 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기본은 꺼짐입니다. 켜면 피험자가 배정 가능 상태가 되는 순간 시스템이 배정을 수행합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "④ 설명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 외부 배정 시스템 이름이나 배정 방법을 적어 둡니다. 선택 항목이지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "잠긴 뒤에도 편집할 수 있는 유일한 항목",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 설정을 만듭니다. 첫 저장으로 배정 설정이 생성됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "“배정 설정이 아직 없습니다 — 기본값으로 초기화” — 값을 확인하고 저장하면 그때 설정이 만들어집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "내부 알고리즘 (Internal)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "향후 확장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 선택할 수 없습니다. 현재는 외부 업로드만 지원하므로 번호 풀 업로드가 반드시 필요합⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "배정 시작 Subject 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "ENROLLED(등록 완료) 고정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 바꿀 수 없으며, 등록 완료 상태의 피험자만 배정 대상이 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "맹검을 올릴수록 배정 결과를 볼 수 있는 사람이 줄어듭니다. 이중 맹검부터는 시험군 코드가 가려지고 데이터 관리자만 조회할 수⁣있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "③ 배정 정책",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 두 가지는 모두 기본이 꺼짐입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "배정 방식과 맹검은 나중에 바꿀 수 없습니다. 번호 풀을 올리는 순간 맹검이, 첫 피험자가 배정되는 순간 방식까지 잠기며 그때부터는⁣설명만 고칠 수 있습니다. 각 단계에서 화면 위에 잠금 안내가 표시되므로, 프로토콜의 배정 계획을 확정한 뒤 저장하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "배정 설정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.2 사전 준비 > 시험군",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2303,
+       "ih": 782,
+       "w": 531.375,
+       "h": 99.0,
+       "ix": 0.0,
+       "iy": -17.803030303030305,
+       "iwp": 100.21171489061398,
+       "ihp": 182.57575757575756,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 91.8941866619619,
+         "y": 25.81059619633838
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 26.262570571630206,
+         "y": 13.310596196338384
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 59.43123676781934,
+         "y": 56.49241437815656
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 42.49404551870148,
+         "y": 78.84089922664141
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 87.23645906845448,
+         "y": 25.4318083175505
+        }
+       ],
+       "cap": [
+        {
+         "t": "시험군 관리 — 아직 등록된 시험군이 없는 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 220.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자를 나눌 집단을 정의합니다. 시험군·대조군·위약군 세 가지 유형이 있고, 번호 풀 파일의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "armCode 열이 여기에서 정의한 코드와⁣일치해야",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 업로드가 성립합니다. 그래서 번호 풀보다 먼저 만들어 두는 편이 안전합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "+ 신규 시험군",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 시험군을 추가하는 창을 엽니다. 입력 항목은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "코드(armCode) · 이름 · 유형 · 목표 비율",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "탭에서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시험군",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 선택된 상태입니다. 다른 준비로 바로 넘어갈 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "등록 전에는 빈 상태 안내가 표시됩니다. 등록하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "코드 · 이름 · 유형 · 목표 비율 · 배정 수 · 액션",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열로 이루어진 표로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "아래 안내 — “armCode는 생성 후 변경 불가 (Immutable). 배정 이력이 있는 Arm은 삭제할 수 없습니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "오른쪽 위 배지는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 내 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 시험군 편집에는 배정 설정 권한이 필요합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "시험군 코드는 생성 후 끝까지 변경할 수 없습니다. 번호 풀 파일과 외부 배정 시스템이 같은 코드를 써야 하므로, 프로토콜에 적힌 표⁣기를 그대로 입력하십시오. 배정 이력이 생긴 뒤에는 삭제도 막히고 이름·설명·목표 비율만 고칠 수 있습니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "시험군",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.3 사전 준비 > 번호 풀",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2304,
+       "ih": 1119,
+       "w": 423.75,
+       "h": 185.25,
+       "ix": -33.36283185840708,
+       "iy": -33.40080971659919,
+       "iwp": 167.0796460176991,
+       "ihp": 185.82994304044368,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 90.0124446902655,
+         "y": 43.95546031545209
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 90.0124446902655,
+         "y": 59.34007570006747
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 80.45492256637168,
+         "y": 88.69230242071525
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 89.1274889380531,
+         "y": 9.137646550269904
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 65.05669247787611,
+         "y": 71.48582468792173
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 57.97704646017699,
+         "y": 17.23481254217274
+        }
+       ],
+       "cap": [
+        {
+         "t": "배정 번호 풀 업로드 — 아직 올린 배치가 없는 상태 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 306.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "외부 배정 시스템이 만든 배정 번호 목록을 CSV 파일로 올립니다. 배정 방식이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "외부 업로드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 하나뿐이므로 이 단계를 건너뛰면 배정을⁣수행할 수 없습니다. 한 번에 다 올릴 필요는 없고, 번호가 모자라면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배치를 추가로 올려 이어 붙입니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "배치 설명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이번에 올리는 묶음을 구분할 이름입니다. “예: Q3 신규 pool 업로드 (+30건)” 처럼 무엇을 올렸는지 알 수 있게 적으십⁣시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "CSV 파일을 선택 또는 드래그",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 파일을 고르면 내용을 미리 검사해 문제가 있는 행을 알려 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "업로드 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 파일을 고르기 전에는 흐리게 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "최근 배치",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금까지 올린 묶음의 목록입니다. 오른쪽 숫자가 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "파일 형식 안내 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필수 컬럼",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "randomNo",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(또는 assignmentNo)와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "armCode",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "stratum",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 선택입니다. armCode 는 시험군에⁣서 정의한 코드와 같아야 합니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "올린 배치가 없으면 빈 상태 안내가 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "같은 배정 번호를 두 번 올릴 수 없습니다. 파일 안에서 중복되거나 이미 올린 번호와 겹치면 그 행이 걸러집니다. 추가 업로드를 할 때⁣는 외부 배정 시스템에서 새로 발행한 구간만 내려받아 올리십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "번호 풀",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 배정 운영 > 배정 수행 (준비가 덜 된 경우)",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2302,
+       "ih": 1086,
+       "w": 423.375,
+       "h": 129.75,
+       "ix": 0.0,
+       "iy": -15.317907314998797,
+       "iwp": 100.26572187776794,
+       "ihp": 154.91328303754216,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 2.6696744906997343,
+         "y": 9.578030095624097
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 7.275520372010629,
+         "y": 9.578030095624097
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 56.52264171833481,
+         "y": 78.94218900529864
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 44.4765832595217,
+         "y": 89.05779594171483
+        }
+       ],
+       "cap": [
+        {
+         "t": "배정 설정 전 — 다음에 할 일을 지목합니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 250.875
+      },
+      {
+       "img": "p08_2.png",
+       "iw": 2291,
+       "ih": 1073,
+       "w": 396.0,
+       "h": 86.25,
+       "ix": -33.428030303030305,
+       "iy": -172.6086956521739,
+       "iwp": 167.0454699583728,
+       "ihp": 359.1304347826087,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 30.78983191287879,
+         "y": 40.49564085144928
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 90.63831676136364,
+         "y": 86.14781476449276
+        }
+       ],
+       "cap": [
+        {
+         "t": "설정은 끝났지만 번호 풀이 비었을 때 (확대 · 다른 프로젝트)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 274.875,
+       "fy1": 361.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "배정 수행 화면은 준비가 어디까지 됐는지에 따라 다르게 보입니다. 막혀 있을 때 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "무엇이 모자란지 화면이 직접 알려 주므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 안내를⁣읽고 해당 준비 단계로 돌아가면 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "배정 수행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자에게 배정 번호를 부여합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "배정 해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이미 부여한 번호를 거둡니다 (3.3 참조). 두 가지는 같은 탭 안의 전환 단추입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "배정 설정이 없으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 설정이 필요합니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 막힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "배정 설정으로 이동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 자리에서 설정 탭으로 넘어갑니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "설정은 끝났지만 번호 풀이 비어 있으면 자동 제안 자리에 “배정 가능 번호가 없습니다. DM에게 풀 업로드 요청.” 이 표시됩니다 (2.3⁣참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "그 상태에서는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 확정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 흐리게 표시되어 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "배정이 막혔을 때 확인할 순서는 개요의 준비 현황 → 비어 있는 항목 → 그 탭 입니다. 세 가지 준비는 순서가 정해져 있지 않지만, 번⁣호 풀은 시험군보다 먼저 올릴 수 없습니다 — 파일의 시험군 코드를 검사하기 때문입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "배정 수행",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.2 배정 운영 > 대상 선택과 배정 확정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2301,
+       "ih": 1083,
+       "w": 367.5,
+       "h": 149.25,
+       "ix": -33.36734693877551,
+       "iy": -46.482412060301506,
+       "iwp": 167.14285714285714,
+       "ihp": 193.96984924623115,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 87.46332908163265,
+         "y": 19.13064672319933
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 90.72863520408163,
+         "y": 64.6080336578727
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 90.72863520408163,
+         "y": 78.1758728538526
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 84.81026785714286,
+         "y": 92.74873717546063
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 14.198022959183673,
+         "y": 7.321604052979742
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 44.198022959183675,
+         "y": 25.412053758375208
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 18.2796556122449,
+         "y": 37.974867828726964
+        }
+       ],
+       "cap": [
+        {
+         "t": "준비가 모두 끝난 상태 — 번호가 제안됩니다 (확대 · 다른 프로젝트)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 270.375
+      },
+      {
+       "img": "p09_2.png",
+       "iw": 1314,
+       "ih": 577,
+       "w": 282.75,
+       "h": 61.5,
+       "ix": -150.26525198938992,
+       "iy": -393.2926829268293,
+       "iwp": 250.6631299734748,
+       "ihp": 506.0975609756097,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 90.86745689655173,
+         "y": 47.036569486788615
+        }
+       ],
+       "cap": [
+        {
+         "t": "배정 확정 직후 — 결과가 그 자리에 표시됩니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 294.375,
+       "fy1": 355.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "준비가 모두 끝나면 배정 대상 피험자가 표로 나오고, 한 명을 고르면 시스템이 번호를 제안합니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "확정하기 전까지는 아무것도 기록⁣되지 않으므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 제안된 번호와 시험군을 확인한 뒤 진행하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "대상 Subject",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정할 수 있는 피험자 목록입니다. 행을 선택하면 아래가 그 피험자로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "자동 제안 승인 (기본)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 시스템이 고른 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정번호 → 시험군",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 표시됩니다. 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "D-0007 → ARM_A",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "수동 Override (DM 전용)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 번호를 직접 지정합니다. 배정 오류를 바로잡는 예외 조치이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사유가 필수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 아래 유의사항을 확⁣인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "배정 확정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택한 방식으로 배정을 기록합니다. 피험자 상태가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "등록 완료 → 배정 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "괄호 안 숫자가 배정 가능한 피험자 수입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "등록 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태의 피험자만 나옵니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "“찾는 피험자가 없습니까? 이미 배정된 피험자는 이 목록에 나오지 않습니다 — 배정 해제 후 재배정하십시오.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "선택한 피험자의 코드와 현재 상태가 다시 한 번 표시됩니다. 다른 사람이 아닌지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "확정하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 완료 — 배정번호 · 시험군 · 등록 완료 → 배정 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 초록으로 표시됩니다. 별도 확인 창은 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "수동 지정은 권한과 설정이 모두 갖추어져야 선택할 수 있습니다. 데이터 관리자 권한이 있어도 배정 설정에서 수동 지정 허용 이 꺼⁣져 있으면 비활성이며, 화면이 두 사유를 구분해 알려 줍니다. 무작위성을 해치는 조치이므로 배정 오류 정정 등 예외적인 경우에만 사⁣용하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "배정 수행",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.3 배정 운영 > 배정 해제",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2246,
+       "ih": 1152,
+       "w": 396.0,
+       "h": 250.5,
+       "ix": -33.428030303030305,
+       "iy": -32.48502994011976,
+       "iwp": 167.04545454545453,
+       "ihp": 135.62873033230414,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 87.41861979166666,
+         "y": 8.254487119510978
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 53.23301373106061,
+         "y": 65.73951705963074
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 89.88074100378788,
+         "y": 77.11676256861277
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 84.57771070075758,
+         "y": 95.97903801771457
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 68.19513494318183,
+         "y": 21.128738616516966
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 87.41861979166666,
+         "y": 16.9371218500499
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 85.71407433712122,
+         "y": 44.78143322729541
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 64.88074100378788,
+         "y": 86.39819969436128
+        }
+       ],
+       "cap": [
+        {
+         "t": "배정 해제 — 사유 구분과 상세 메모가 모두 필수입니다 (확대 · 다른 프로젝트)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 371.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "이미 부여한 배정 번호를 거둡니다. 배정 오류를 바로잡거나 피험자가 부적격으로 판정된 경우에 사용하며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해제한 번호는 다시 쓸 수⁣있는 상태로 돌아갑니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 감사 추적 대상이라 사유 기록이 까다롭고, 프로젝트 설정에 따라 전자서명이 요구됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "대상 피험자 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정된 피험자가 모두 나옵니다. 행을 선택하면 아래가 그 피험자로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "사유 구분 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 오류 · 환자 부적격 판정 · Protocol Amendment · 기타",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 네 가지 중에서 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상세 메모 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "5자 이상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입력해야 합니다. 감사 추적에 그대로 남습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "해제 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수 항목이 모두 채워져야 선택할 수 있습니다. 투약 중 피험자는 채울 항목이 더 늘어납니다 (아래 유의사항). 서명이⁣필요한 설정이면 선택 즉시 전자서명 창이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 배정 완료뿐 아니라 투약 중 · 치료 종료 · 추적 불가 · 사망 · 연구 종료인 피험자도 목록에 표시됩니다. 다만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종결 상태 피⁣험자는 선택해도 해제할 수 없습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기존 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정번호 · 시험군",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 해제 대상을 확인할 때 쓰십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "선택한 피험자의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(번호 · 시험군 · 배정 일시)이 오른쪽에 다시 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "“전자서명 필요 (21 CFR Part 11)” — 활성 서명 정책이 있는 프로젝트에서만 표시됩니다. 없는 프로젝트에서는 서명 없이 바로 처리⁣됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "종결 상태 피험자는 배정을 해제할 수 없습니다. 치료 종료 · 추적 불가 · 사망 · 연구 종료 피험자를 선택하면 “Terminal 상태 피험자⁣는 배정 해제 불가” 경고가 표시되고 해제 실행이 활성화되지 않습니다. 목록에 표시되는 것과 해제할 수 있는 것은 다릅니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "투약 중 피험자를 해제하려면 다른 책임 연구자(PI)의 승인이 필요합니다. 사유 구분과 상세 메모 외에 PI 승인자 식별자와 해제 뒤 피⁣험자를 어떤 상태로 둘지를 화면에서 함께 지정해야 하며, 조기 종료로 처리하는 경우에는 치료 종료 사유까지 선택합니다. 승인자는⁣미리 정해 두고 시작하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "프로젝트 상태에 따라 해제 자체가 차단됩니다. 종료·보관 단계에서는 사유를 입력해도 해제 실행이 활성화되지 않습니다. 해제 기록⁣은 수정·삭제할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "배정 해제",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

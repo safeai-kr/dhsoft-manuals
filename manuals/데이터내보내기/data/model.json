@@ -1,0 +1,4004 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 데이터 내보내기",
+ "src": "SMART-EDC_사용자매뉴얼_데이터내보내기.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "데이터 내보내기",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "데이터 내보내기 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "데이터 내보내기 > 범위 고르기"
+    },
+    {
+     "no": "1.3",
+     "title": "데이터 내보내기 > 필터와 예상 규모"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "유형별 범위 지정",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "유형별 범위 지정 > Query 이력 · 피험자"
+    },
+    {
+     "no": "2.2",
+     "title": "유형별 범위 지정 > 방문 이벤트 · Lock · 서명"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "옵션과 실행",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "옵션과 실행 > 추출 옵션 설정"
+    },
+    {
+     "no": "3.2",
+     "title": "옵션과 실행 > 추출 진행 중"
+    },
+    {
+     "no": "3.3",
+     "title": "옵션과 실행 > 추출 완료와 내려받기"
+    }
+   ]
+  },
+  {
+   "ch": "4",
+   "title": "결과물",
+   "items": [
+    {
+     "no": "4.1",
+     "title": "결과물 > 내려받은 파일"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "데이터 내보내기",
+    "SCR-EXP-001·002·003·006 · 허브 · 범위 지정 · 추출 옵션 · 다운로드",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-28"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 데이터 내보내기 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2544,
+       "ih": 1043,
+       "w": 531.75,
+       "h": 201.0,
+       "ix": -7.5458392101551475,
+       "iy": -6.902985074626866,
+       "iwp": 107.75740479548661,
+       "ihp": 116.7910447761194,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 9.671412200282086,
+         "y": 46.85459421641791
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 92.95773095909732,
+         "y": 88.4590718283582
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 12.351242947813821,
+         "y": 5.250116604477612
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 18.2750793370945,
+         "y": 17.376982276119403
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 14.043767630465446,
+         "y": 24.839668843283583
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 25.32726551480959,
+         "y": 36.40683302238806
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 14.043767630465446,
+         "y": 56.556086753731336
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 12.351242947813821,
+         "y": 86.40683302238806
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 56.9210595909732,
+         "y": 94.24265391791045
+        }
+       ],
+       "cap": [
+        {
+         "t": "데이터 내보내기 허브 (SCR-EXP-001) — 유형 카드 6장과 최근 이력 (좌측 메뉴 제외)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 322.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "연구 자료를 파일로 받아 가는 화면입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "무엇을 받을지 유형을 먼저 고르고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 그 뒤에 범위와 옵션을 정하는 순서입니다. 유형은 규⁣제 제출에 바로 쓰는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "1순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 4종과 감사 대비 보조 자료인 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "2순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 2종으로 나뉩니다. 추출은 시간이 걸리는 작업이라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "요청해 두고 완료⁣알림을 받는 방식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 동작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "추출 시작 →",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 유형의 범위 지정 화면으로 이동합니다 (1.2 참조). 카드마다 하나씩 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이력 전체 보기 →",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지난 추출 작업을 모두 모아 보는 화면으로 이동합니다. 내려받지 못한 파일을 다시 찾을 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 데이터 내보내기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "프로젝트 상태 배너",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금은 “테스트 데이터 Export … 출력물을 외부 제출용으로 사용하지 마세요.” 입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "운영이 끝난 프로젝트⁣에서는 초록색 「확정 데이터 Export」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "1순위 추출",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “핵심 임상 데이터 — 규제 제출·원자료 대조(SDV)·통계 분석 1차 자료” 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "카드 구성 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "유형 이름 · 담기는 내용 · 추출 시작",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 어떤 자료가 들어가는지 설명을 먼저 읽고 고르십시오 (아래 표 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "2순위 추출",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “보조·규제 데이터 — 규제 대응·감사 대비 보조 자료” 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "최근 추출 이력 (최대 5건)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 최신 작업부터 표시되며, 만료 여부가 행의 다운로드 버튼에 반영됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "아직 추출한 적이 없으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "최근 추출 이력 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 비어 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "추출 유형 6종",
+     "head": [
+      "순위",
+      "유형",
+      "담기는 내용"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "1순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "CRF 데이터",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "입력된 CRF 데이터와 필드 값 · 양식 버전 정보",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "1순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "Query 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "쿼리의 열림 → 답변 → 종료 처리 이력",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "1순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "피험자 기본 정보와 상태 변경 이력",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "1순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "방문 이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "방문 실시 · 결측 · 재방문 추적 데이터",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "2순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "Lock 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "잠금 · 해제 이력 (피험자 · 프로젝트 2단계)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "2순위",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "서명 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전자서명 기록 · 21 CFR Part 11 (수정 · 삭제 불가)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      11.7,
+      19.6,
+      68.7
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "이 화면은 데이터 관리자와 감사자만 들어올 수 있습니다. 연구책임자 · 연구간호사 · 모니터요원 · 워크스페이스 관리자에게는 왼쪽⁣메뉴에 나타나지 않습니다. 다만 프로젝트가 종료된 뒤에도 추출은 가능합니다 — 제출·보관 자료를 만들어야 하기 때문입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "데이터 내보내기",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 데이터 내보내기 > 범위 고르기",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2331,
+       "ih": 1080,
+       "w": 531.375,
+       "h": 285.0,
+       "ix": 0.0,
+       "iy": -1.710526315789474,
+       "iwp": 222.86520818630908,
+       "ihp": 192.3684210526316,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 27.744574805928018,
+         "y": 28.834292763157894
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 32.19058750882146,
+         "y": 56.20271381578947
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 28.803149258997884,
+         "y": 86.9921875
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 23.29856210303458,
+         "y": 5.939555921052632
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 43.19976182074806,
+         "y": 33.8342927631579
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 22.169416019760057,
+         "y": 51.202713815789465
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 12.14824453069866,
+         "y": 62.38692434210527
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 33.249161961891325,
+         "y": 74.88692434210526
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 36.63660021171489,
+         "y": 79.36060855263159
+        }
+       ],
+       "cap": [
+        {
+         "t": "범위 지정 (SCR-EXP-002) 왼쪽 — Site 범위 · 프리셋 · 범위 계층 트리 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 406.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "유형을 고르면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "무엇을 담을지 범위를 정하는 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 열립니다. 범위는 세 가지 방법으로 좁힙니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 기관을 지정하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프⁣리셋",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 자주 쓰는 조합을 한 번에 적용하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "범위 계층 트리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에서 프로젝트 · 기관 · 피험자를 직접 체크합니다. 화면 오른쪽에는 기간⁣과 양식으로 거르는 필터가 이어집니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Site 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 대상 기관을 고릅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 선택만으로는 아래 트리가 좁혀지지 않습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프리셋의 대상 기관을 정하는 용도입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "범위 프리셋",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 자주 쓰는 범위를 한 번에 적용합니다. 유형마다 구성이 다릅니다 (2.1 · 2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "범위 계층 트리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트 · 기관 · 피험자를 직접 체크합니다. 상위를 체크하면 하위가 함께 선택됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "범위 지정 — 유형명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 과 그 유형에 담기는 내용이 제목에 표시됩니다. 엉뚱한 유형에 들어오지 않았는지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Site 범위 안내 — “이 선택은 아래 범위 트리를 좁히지 않습니다 — 프리셋(자기 Site) 대상 기관 지정 전용입니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "프리셋 안내 — “자주 사용하는 범위를 빠르게 적용합니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "자기 Site",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 흐리게 표시되어 있습니다 — 위 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체 Site",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 라 대상 기관이 정해지지 않았기 때문입니다. 기관을 하나 고르⁣면 활성화됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "트리 안내 — “프로젝트 > 기관 > 피험자 단위로 선택”. 유형에 따라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 단위까지만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 고르는 경우도 있습니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "항목 옆 괄호 안 숫자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 아래에 딸린 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "Site 범위를 고르는 것만으로는 범위가 좁혀지지 않습니다. 그 값은 「자기 Site」 프리셋이 가리킬 기관을 정할 뿐이며, 실제로 추출될⁣대상은 아래 트리에서 체크한 것입니다. 기관만 고르고 트리를 비워 두면 아무것도 추출되지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 데이터 내보내기 > ",
+     "cur": false
+    },
+    {
+     "t": "범위 지정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "1.3 데이터 내보내기 > 필터와 예상 규모",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2331,
+       "ih": 1080,
+       "w": 310.5,
+       "h": 197.25,
+       "ix": -186.59420289855072,
+       "iy": -69.01140684410646,
+       "iwp": 286.9565020820753,
+       "ihp": 209.1254907566936,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 88.54355374396135,
+         "y": 24.551449619771862
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 88.54355374396135,
+         "y": 35.57806558935361
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 37.09427838164252,
+         "y": 59.91266634980988
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 37.09427838164252,
+         "y": 89.57046102661596
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 45.669157608695656,
+         "y": 14.665518060836503
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 31.297176932367147,
+         "y": 55.73015684410646
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 68.49524456521739,
+         "y": 85.38795152091255
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 화면의 오른쪽 — 기간 · 양식 · 방문 필터 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 318.375
+      },
+      {
+       "img": "p05_2.png",
+       "iw": 2331,
+       "ih": 1080,
+       "w": 531.375,
+       "h": 51.0,
+       "ix": 0.0,
+       "iy": -381.61764705882354,
+       "iwp": 100.21171489061398,
+       "ihp": 483.8235294117647,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 95.98734121383204,
+         "y": 64.07398897058823
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 54.91465243472125,
+         "y": 46.426930147058826
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 88.78903493295695,
+         "y": 64.07398897058823
+        }
+       ],
+       "cap": [
+        {
+         "t": "화면 아래 — 예상 레코드 수와 하단 버튼 (가로 전폭)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 342.375,
+       "fy1": 393.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "트리로 고른 범위를 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "더 좁히는 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 오른쪽에 있습니다. 필터 구성은 유형마다 다릅니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기간 필터는 모든 유형에 공통",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이고,",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣DataForm 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Visit 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 해당 자료가 있는 유형에만 나타납니다. 화면 아래의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "예상 레코드 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 추출하기 전에 규모를 미리 계⁣산해 보여 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "기간 필터 — 시작",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 비워 두면 처음부터입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기간 필터 — 종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 비워 두면 끝까지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "DataForm 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 특정 CRF 만 추출합니다. 체크하지 않으면 전부 포함됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "Visit 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 특정 방문만 추출합니다. 여러 개를 고르면 그중 하나라도 해당하는 자료가 포함됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "옵션 설정으로 이동 →",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 추출 옵션 창을 엽니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "데이터 존재 구간",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 함께 표시됩니다 — 그 바깥 날짜를 넣으면 결과가 비게 되므로 이 구간을 보고 정하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "DataForm 필터 안내 — “특정 CRF 만 추출합니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Visit 필터의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "붉은 경고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “방문에 결속되지 않은 데이터(방문 무관 폼 등)는 방문을 선택하면 함께 제외됩니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "예상 레코드 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Subject · 레코드 · CRF 인스턴스",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 세 숫자로 추출 전 규모를 알려 줍니다. 범위를 고르지 않으면 계산되지 않습니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 범위 지정을 버리고 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "방문 필터를 걸면 방문과 무관한 자료가 함께 빠집니다. 화면이 붉은 글씨로 직접 경고하는 내용입니다 — 특정 방문만 받으려다 방문⁣에 묶이지 않은 CRF 까지 빠질 수 있으므로, 제출용 추출에서는 방문 필터를 비워 두는 편이 안전합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 범위 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "필터 · 예상 레코드 수",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.1 유형별 범위 지정 > Query 이력 · 피험자",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2323,
+       "ih": 911,
+       "w": 253.875,
+       "h": 63.0,
+       "ix": 0.0,
+       "iy": -187.5,
+       "iwp": 456.7208271787297,
+       "ihp": 722.6190960596477,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 65.60422821270309,
+         "y": 68.53569878472221
+        }
+       ],
+       "cap": [
+        {
+         "t": "Query 이력 — OPEN + ANSWERED · CLOSED 만 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 184.125
+      },
+      {
+       "img": "p06_2.png",
+       "iw": 2324,
+       "ih": 869,
+       "w": 253.875,
+       "h": 63.75,
+       "ix": 0.0,
+       "iy": -190.0,
+       "iwp": 456.7208271787297,
+       "ihp": 680.0000478707108,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 63.53628138847858,
+         "y": 64.19998468137254
+        }
+       ],
+       "cap": [
+        {
+         "t": "피험자 — Terminal 피험자 전체 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 298.125,
+       "fy0": 121.125,
+       "fy1": 184.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "범위 지정 화면의 생김새는 유형이 바뀌어도 같습니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "달라지는 것은 범위 프리셋 3종과 오른쪽 필터 구성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "뿐입니다. 그런데 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태를⁣기준으로 거르는 프리셋은 현재 눌리지 않습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 서버 쪽 범위 계약에 그 조건이 아직 없어서 눌러도 전체와 같은 결과가 되기 때⁣문에, 잘못된 안심을 막으려고 비활성으로 두었습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Query 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 의 프리셋 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "OPEN + ANSWERED",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CLOSED 만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 뒤의 두 가지는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태 기준이라 현재 비활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 미처리⁣Query 만 받으려면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "트리에서 대상을 직접 고르십시오.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 의 프리셋 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "자기 Site",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Terminal 피험자 전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 마지막은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사용할 수 있습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 종료 상태로 굳은 피험자(선별 실패 ·⁣조기 종료 · 추적 소실 · 사망 · 연구 종료) 5종을 한 번에 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "유형별 프리셋과 사용 가능 여부",
+     "head": [
+      "유형",
+      "프리셋 3종",
+      "사용 가능 여부"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "CRF 데이터",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 · 자기 Site · HARD_LOCK 피험자 전체",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전부 사용 가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "Query 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 · OPEN + ANSWERED · CLOSED 만",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "뒤 2종 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 · 자기 Site · Terminal 피험자 전체",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전부 사용 가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "방문 이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 · 자기 Site · 예정 방문만",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "마지막 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "Lock 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 · Subject Lock · Project Lock",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "뒤 2종 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "서명 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 · DataInstance 서명 · DataLock 서명",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전부 사용 가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      19.2,
+      57.9,
+      23.0
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "흐리게 표시된 프리셋은 고장이 아닙니다. 눌렀을 때 전체와 같은 결과가 나오면 필터가 걸린 것으로 오인하게 되므로 일부러 막아 둔⁣것입니다. 버튼 위에 마우스를 올리면 사유가 표시되며, 그 조건으로 좁히려면 범위 계층 트리에서 직접 선택하는 것이 지금의 방법입⁣니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 데이터 내보내기 > ",
+     "cur": false
+    },
+    {
+     "t": "유형별 프리셋",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.2 유형별 범위 지정 > 방문 이벤트 · Lock · 서명",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2323,
+       "ih": 957,
+       "w": 163.125,
+       "h": 45.75,
+       "ix": 0.0,
+       "iy": -168.0327868852459,
+       "iwp": 457.93103448275866,
+       "ihp": 673.7704918032787,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 56.58405172413793,
+         "y": 63.2294868510929
+        }
+       ],
+       "cap": [
+        {
+         "t": "방문 이벤트 — 예정 방문만 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 166.875
+      },
+      {
+       "img": "p07_2.png",
+       "iw": 2326,
+       "ih": 768,
+       "w": 163.125,
+       "h": 41.25,
+       "ix": 0.0,
+       "iy": -184.54545454545453,
+       "iwp": 457.93103448275866,
+       "ihp": 598.1818181818181,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 54.28520114942529,
+         "y": 64.67270359848484
+        }
+       ],
+       "cap": [
+        {
+         "t": "Lock 이력 — Subject · Project Lock (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 207.375,
+       "fy0": 121.125,
+       "fy1": 162.375
+      },
+      {
+       "img": "p07_3.png",
+       "iw": 2316,
+       "ih": 837,
+       "w": 163.125,
+       "h": 42.0,
+       "ix": 0.0,
+       "iy": -184.82142857142858,
+       "iwp": 457.93103448275866,
+       "ihp": 642.8571428571429,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 65.7794540229885,
+         "y": 62.624976748511905
+        }
+       ],
+       "cap": [
+        {
+         "t": "서명 이력 — DataInstance · DataLock 서명 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 382.875,
+       "fy0": 121.125,
+       "fy1": 163.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "2순위 유형과 방문 이벤트의 프리셋입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "서명 이력만 세 가지가 모두 살아 있고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 방문 이벤트와 Lock 이력은 상태 기준 프리셋이 비⁣활성입니다. 유형이 달라도 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site 범위 · 범위 계층 트리 · 기간 필터 · 예상 레코드 수의 자리와 쓰는 법은 같습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (1.2 · 1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "방문 이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "예정 방문만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 비활성입니다. 예정 방문만 받으려면 오른쪽 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Visit 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에서 방문을 직접 고르십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Lock 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Subject Lock",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Project Lock",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 둘 다 비활성입니다. 두 단계를 가려 받을 수 없으므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체로 받은 뒤 파일에서 구분",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하십⁣시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "서명 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "DataInstance 서명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(자료 서명)과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "DataLock 서명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(잠금 서명) 모두 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사용할 수 있습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 서명 종류를 나눠 받을 때 사용⁣합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유형에 따라 달라지는 것 · 같은 것",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "달라지는 것",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 범위 프리셋 3종 · 오른쪽 필터 구성 · 트리에서 고를 수 있는 단위",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "DataForm 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CRF 데이터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 에만 있습니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "Visit 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CRF 데이터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 에만 있습니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 트리를 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 단위까지만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 고릅니다 (피험자 정보 자체가 추출 대상)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "같은 것",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — Site 범위 · 범위 계층 트리 · 기간 필터 · 예상 레코드 수 · 하단 버튼",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "Lock 이력은 단계를 가려 받을 수 없습니다. 피험자 잠금과 프로젝트 잠금을 나눠 달라는 요청은 현재 프리셋으로 처리되지 않으므로,⁣전체로 추출한 뒤 결과 파일에서 구분하십시오. 추출 자체는 정상으로 수행됩니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 데이터 내보내기 > ",
+     "cur": false
+    },
+    {
+     "t": "유형별 프리셋",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 옵션과 실행 > 추출 옵션 설정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2333,
+       "ih": 1154,
+       "w": 197.25,
+       "h": 244.5,
+       "ix": -116.53992395437263,
+       "iy": -24.079754601226995,
+       "iwp": 359.3155893536122,
+       "ihp": 143.25153374233128,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 39.380346958174904,
+         "y": 23.48772606722904
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 30.2548716730038,
+         "y": 45.726989870910025
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 39.380346958174904,
+         "y": 59.99079355189162
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 32.15601235741445,
+         "y": 69.96011870526586
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 39.380346958174904,
+         "y": 81.46318618992842
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 83.10658269961976,
+         "y": 95.57361563778119
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 44.70354087452472,
+         "y": 13.67177514698364
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 80.44498574144487,
+         "y": 3.855825786941622
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 96.41456749049429,
+         "y": 34.53067085250511
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 96.41456749049429,
+         "y": 50.02146839851738
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 53.44878802281369,
+         "y": 71.9539837359407
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 58.771981939163496,
+         "y": 95.57361563778119
+        }
+       ],
+       "cap": [
+        {
+         "t": "추출 옵션 설정 (SCR-EXP-003) — 번호 순서대로 정합니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 365.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "범위를 정한 뒤 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떻게 내보낼지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 정하는 창입니다. 항목에 번호가 붙어 있어 위에서 아래로 확인하면 됩니다. 기본값만으로도 추출⁣할 수 있으며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "규제 제출용이라면 ③ 마스킹과 ⑤ 아카이브 포함을 반드시 확인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "② 파일 포맷",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CSV",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(쉼표 구분 텍스트) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Excel",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(시트 분할 가능) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "ZIP",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(결과를 압축) 3종입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "③ PII 마스킹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자를 식별할 수 있는 값을 가립니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "권한이 없으면 켜진 채로 고정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "④ 미확정 데이터 워닝",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아직 입력이 끝나지 않은 자료가 섞였을 때 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "경고 표시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "할지 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "경고 생략",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "할지 고릅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어느 쪽이든 행은 항⁣상 포함",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되며 달라지는 것은 경고를 남기느냐뿐입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "⑤ 아카이브된 데이터 포함",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 양식이 크게 개정되면서 보관 처리된 과거 입력까지 담습니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "규제 제출용으로 최신본만 받으려면 해⁣제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "⑥ 버전 처리 정책",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 양식 버전이 섞였을 때 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "COLUMN_UNION",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(모든 버전의 컬럼을 합쳐 한 표로)과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "PER_VERSION",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(버전별 별도 파⁣일·시트) 중에서 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "추출 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 추출을 요청하고 진행 화면으로 넘어갑니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "① 내보내기 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 앞 화면에서 정한 범위가 요약되어 표시됩니다. 여기에서 고칠 수는 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 옵션 창만 닫습니다. 범위 지정 화면은 그대로 남습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "포맷 안내 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표가 2개 이상이면 CSV 라도 자동으로 ZIP 으로 묶여",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배달됩니다. 요청 기록에는 CSV 로 남고 실제 배달 포맷은 완료⁣화면에서 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "마스킹 안내 — 권한이 없으면 “마스킹이 강제됩니다 (변경 불가)”, 있으면 “해제 가능” 으로 표시됩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해제 사유는 기록되지 않습⁣니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "아카이브 안내 — “규제 제출용으로 최신분만 받으려면 해제하십시오”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "← 뒤로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 범위 지정 화면으로 돌아갑니다. 정한 옵션은 유지됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "압축(ZIP)에 CRF 첨부 파일의 실체는 담기지 않습니다. 표에는 첨부의 식별자만 실리므로, 규제 제출에 첨부 원본이 필요하면 별도 절⁣차로 수집하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "마스킹 해제는 역할이 아니라 권한으로 정해집니다. 피험자 식별정보 조회 권한을 가진 사용자만 끌 수 있으며, 감사자에게는 그 권한⁣이 없습니다. 또한 해제 사유가 기록되지 않으므로, 식별정보가 담긴 파일을 만들 때는 누가 왜 받았는지 연구팀 내부 절차로 따로 남⁣기십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 범위 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "추출 옵션 설정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.2 옵션과 실행 > 추출 진행 중",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2335,
+       "ih": 1142,
+       "w": 353.25,
+       "h": 121.5,
+       "ix": -100.31847133757962,
+       "iy": -33.641975308641975,
+       "iwp": 294.90445859872614,
+       "ihp": 419.75308641975306,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 29.420448513800423,
+         "y": 69.17900430812757
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 89.61153131634819,
+         "y": 76.58641171553498
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 45.55632961783439,
+         "y": 82.75925122170781
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 32.392847664543524,
+         "y": 18.870362332818928
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 89.61153131634819,
+         "y": 16.401226530349795
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 20.503251061571127,
+         "y": 26.277769740226336
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 76.34189225053079,
+         "y": 46.64814011059671
+        }
+       ],
+       "cap": [
+        {
+         "t": "추출 파일 다운로드 (SCR-EXP-006) — 실행 직후에는 진행률만 표시됩니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 242.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "추출을 실행하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "작업 화면으로 자동 이동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다. 추출은 서버에서 처리되므로 즉시 끝나지 않으며, 이 화면이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "5초마다 스스로 갱신",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하⁣며 진행률을 보여 줍니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "화면을 닫아도 작업은 계속됩니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 완료되면 알림이 오고, 나중에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "추출 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에서 다시 찾을 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "추출 진행 중 — N%",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 진행 막대입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "막대는 서버가 보고한 진행률을 그대로 보여 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "안내문 — “완료 시 알림 발송 + 이 페이지가 자동 업데이트됩니다 (5초 주기).” 자동 갱신이 끊기면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중단된 상태라고 문구가 바뀝니⁣다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "작업 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "ext_",
+         "b": false,
+         "code": true,
+         "tone": null
+        },
+        {
+         "t": " 로 시작합니다. 문의할 때 이 번호를 알려 주십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "실행 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 완료되면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "추출 유형과 범위 요약입니다 — “Site 1개(020A) · CSV”.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "수행자 · 실행 시각 · 레코드 수 · 포맷",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 레코드 수는 끝나기 전까지 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "화면을 닫아도 추출은 취소되지 않습니다. 기다리지 않고 다른 일을 해도 되며, 완료되면 알림이 옵니다. 알림을 놓쳤다면 데이터 내보⁣내기 화면의 최근 추출 이력 또는 이력 전체 보기에서 같은 작업 번호를 찾아 내려받으십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 추출 옵션 설정 > ",
+     "cur": false
+    },
+    {
+     "t": "추출 파일 다운로드",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.3 옵션과 실행 > 추출 완료와 내려받기",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2333,
+       "ih": 973,
+       "w": 353.25,
+       "h": 268.5,
+       "ix": -100.31847133757962,
+       "iy": -12.988826815642456,
+       "iwp": 294.90445859872614,
+       "ihp": 162.01117318435755,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 67.53085191082803,
+         "y": 39.82401870926443
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 66.15080944798302,
+         "y": 59.93575055283985
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 89.61153131634819,
+         "y": 8.259772899208565
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 55.85356953290871,
+         "y": 41.360331558426445
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 19.017051486199577,
+         "y": 49.0418958042365
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 80.80049097664543,
+         "y": 49.0418958042365
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 24.961849787685775,
+         "y": 67.89664440758845
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 30.906648089171973,
+         "y": 93.45530362546555
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 76.34189225053079,
+         "y": 15.382677927141527
+        }
+       ],
+       "cap": [
+        {
+         "t": "추출 완료 — 다운로드 · 유효 기한 · 추출 경고 · 무결성 검증",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 389.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "추출이 끝나면 같은 화면이 완료 상태로 바뀝니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "파일은 서버에 영구 보관되지 않고 유효 기한이 있습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기한이 지나면 다시 추⁣출해야 합니다. 완료 화면에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "추출 과정에서 생긴 경고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 파일이 손상되지 않았는지 확인할 수 있는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "무결성 검증값",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 함께 표시됩니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "다운로드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 파일을 내려받습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "동일 옵션으로 재실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 범위·옵션으로 다시 추출합니다. 유효 기한이 지났을 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 진행 중에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실행 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이었습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "파일명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 작업 번호가 들어가 있어 이력과 대조할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "크기 · 레코드 수 · 포맷",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 포맷이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CSV → ZIP",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 인 것은 표가 2개 이상이라 자동으로 묶였기 때문입니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "유효 기한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 시각이 지나면 다운로드 링크가 만료됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "추출 경고 N건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 추출은 성공했지만 알아 둘 점이 있다는 뜻입니다. 마스킹 대상이 없었다 · 입력이 끝나지 않은 자료가 포함됐다 ·⁣표가 여러 개라 압축했다 같은 내용이며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "서버가 보낸 문장을 그대로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 보여 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "무결성 검증 (SHA-256)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 펼치면 파일 지문값이 나옵니다. 내려받은 파일이 전송 중 손상되지 않았는지 대조할 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "추출 유형과 범위 요약 — 진행 중 화면과 같은 자리입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "추출 경고를 읽지 않고 제출하지 마십시오. 경고는 실패가 아니지만 입력이 끝나지 않은 자료가 섞였다거나 마스킹이 실제로는 적용되⁣지 않았다는 사실을 알리는 경우가 있습니다. 규제 제출용 추출이라면 경고를 모두 확인하고, 필요하면 원인을 고친 뒤 다시 추출하십⁣시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 추출 파일 다운로드 > ",
+     "cur": false
+    },
+    {
+     "t": "완료",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "4.1 결과물 > 내려받은 파일",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 1847,
+       "ih": 554,
+       "w": 531.375,
+       "h": 158.625,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21170340434604,
+       "ihp": 100.70921985815602,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 28.37971947776994,
+         "y": 4.761225562850916
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 15.959112561750178,
+         "y": 28.401885096532702
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 69.94640966831334,
+         "y": 25.092192425137906
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 59.9958098094566,
+         "y": 42.11346902088258
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 79.89700952717008,
+         "y": 46.36878816981876
+        }
+       ],
+       "cap": [
+        {
+         "t": "내려받은 ZIP 과 그 안의 CSV 를 연 모습 (SMART-EDC 화면이 아닙니다)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 280.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "내려받은 파일을 연 모습입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 쪽은 시스템 화면이 아니라 내려받은 뒤의 결과물",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 보여 줍니다. 표가 여러 개면 ZIP 하나에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표마⁣다 CSV 한 개",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 담기며, 파일명에 작업 번호가 들어 있어 어느 추출에서 나온 것인지 확인할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "ZIP 파일명에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "작업 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 들어 있습니다 — 완료 화면의 번호와 같습니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "압축 안에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표마다 CSV 한 개",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 들어 있습니다. 주 표 외에 하위 표가 따로 나뉩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "들어 있는 것은 표뿐",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며 CRF 에 첨부된 파일 자⁣체는 포함되지 않습니다 (3.1 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "엑셀로 열면 “데이터가 손실될 수 있음” 안내가 표시됩니다 — CSV 의 특성이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "원본 파일은 그대로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 편집해 저장할 때만 주의⁣하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "첫 행이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "열 이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 인스턴스 · 피험자 · 양식 코드 · 양식 버전 · 회차 순으로 시작해 그 뒤에 입력값 열이 이어집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "둘째 행부터가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실제 데이터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 한 행이 기록 하나입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "CSV 를 엑셀에서 그대로 저장하지 마십시오. 엑셀이 긴 숫자를 지수로 바꾸거나 앞자리 0 을 지우는 등 값을 바꿔 저장할 수 있습니⁣다. 내용을 확인만 하고 닫거나, 가공이 필요하면 원본을 따로 보관한 뒤 사본으로 작업하십시오. 규제 제출에는 내려받은 원본을 사용⁣합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 추출 파일 다운로드 > ",
+     "cur": false
+    },
+    {
+     "t": "내려받은 파일",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>SMART-EDC 사용자 매뉴얼 — 플랫폼 관리</title>
+<meta name="author" content="hy0909">
+<style>@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-400.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-500.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-700.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-800.ttf) format("truetype");font-weight:800}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Medium.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Bold.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-ExtraBold.ttf) format("truetype");font-weight:800}
+@page{size:210mm 297mm;margin:0}
+/* 언어별: 자간(2절: 한국어 10pt 초과 -3%, 영어 -1%; 독일어는 영어와 같게, 일본어 0 [확인 필요]) · 글꼴 · 줄바꿈 */
+:root{--ls:-0.03em}
+body.lang-en,body.lang-de{--ls:-0.01em}
+body.lang-ja{--ls:0em}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
+body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
+body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal}
+body.lang-en td:first-child,body.lang-en th:first-child,body.lang-de td:first-child,body.lang-de th:first-child,body.lang-en table.wide th:nth-child(1),body.lang-de table.wide th:nth-child(1){width:96px}   /* 첫 열이 음절 단위로 쪼개질 만큼 좁아지지 않게 */   /* 좁은 표 열: 낱말을 하이픈 없이 끊지 않고 사전식 하이픈으로 나눈다 */
+body.lang-ja{font-family:"PretendardJPM",sans-serif;word-break:normal;line-break:strict}
+b{font-weight:700;color:#111B2B}
+ul{list-style:none}
+p,li,figcaption,td,th,h4{white-space:pre-wrap}
+/* 코드 칩: 배경은 위아래로만 넓힌다. 좌우로 넓히면 앞뒤 괄호·글자를 덮는다. 좌우 padding/margin은 복사 공백이 생길 수 있어 쓰지 않는다. */
+code{font-family:inherit;color:#202F86;background:#F1F3FE;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+a{color:inherit;text-decoration:none}
+
+.page{width:794px;height:1123px;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.page:last-child{break-after:auto;page-break-after:auto}
+
+/* ---------- 표지 ---------- */
+.page.cover{background:#071426;color:#fff}
+.cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
+.cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
+.cv-brand{font-size:28.5px;font-weight:800;line-height:34px;letter-spacing:-0.01em}
+.cv-brand .sm{color:#65E5D1}
+.cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-main{position:absolute;left:56px;right:56px;top:322px}
+.cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
+.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
+.cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
+.cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
+.cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
+.cv-logo{width:138px;height:auto}
+
+/* ---------- 목차 ---------- */
+.toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
+.toc-h h1{font-size:33.5px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
+.toc-h .brand{font-size:12.5px;font-weight:700;color:#94A3B8;line-height:15px}
+.page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
+.tch{margin-bottom:37.33px}
+.tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
+.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3349CA;flex:none}
+.tct{margin-left:5.33px;font-size:16px;font-weight:700;color:#111B2B;letter-spacing:var(--ls);line-height:24px}
+.tch ul{margin-top:6px}
+.tch li a{display:flex;align-items:flex-start;padding:3.33px 0;font-size:15.5px;line-height:24px}
+.tch li:first-child a{padding-top:5.33px}
+.tn{width:26px;margin-left:27.33px;font-weight:700;color:#94A3B8;flex:none;letter-spacing:-0.01em}
+.tt{margin-left:5.33px;flex:1;color:#263341;letter-spacing:var(--ls)}
+.tp{width:24px;text-align:center;font-size:13.5px;color:#8C96A8;flex:none}
+
+/* ---------- 간지 ---------- */
+.page.divider{background:#EFF1FA}
+.dlabel{position:absolute;left:56px;top:43px;font-size:14.5px;color:#405169;line-height:20px;letter-spacing:var(--ls)}
+.dhead{position:absolute;left:52px;top:140px;right:56px}
+.dnum{font-size:99.6px;font-weight:800;color:#45517E;line-height:1.2;letter-spacing:var(--ls)}
+.dtitle{font-size:52px;font-weight:700;color:#15233A;line-height:1.25;margin-top:4px;letter-spacing:var(--ls)}
+.dbar{position:absolute;right:0;width:19px;background:#45517E}
+.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #C8D0DD;padding-top:22px}
+.dlist li{display:flex;align-items:baseline;margin-bottom:20px}
+.dn{width:34px;padding-left:4px;flex:none;font-size:16.5px;font-weight:700;color:#94A3B8}
+.dt{font-size:18.5px;color:#26374B;line-height:1.3;letter-spacing:var(--ls)}
+.pno{position:absolute;right:56px;top:1063px;font-size:13.5px;color:#8590AE;line-height:20px}
+
+/* ---------- 본문 ---------- */
+.hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
+/* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
+.hx{min-width:0}
+.ht{display:flex;align-items:baseline;padding-top:38px;font-size:31.5px;line-height:44px;font-weight:700;color:#fff;letter-spacing:var(--ls)}
+.hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
+.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
+.ftr .chn{flex:1}
+.ftr .brand{font-weight:700;margin-right:20px}
+
+.blk{display:block}
+.path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
+.path .lbl{font-weight:700;color:#6B7689;margin-right:5px;white-space:pre}
+.path .chev{margin:0 2px;flex:none}
+.tab{margin-top:40px}
+.area>.blk:first-child{margin-top:0!important}
+.path+.tab{margin-top:38px}
+.tab h3{display:flex;align-items:flex-end;font-weight:700}
+.tab h3 span{background:#191F29;color:#fff;font-size:17px;line-height:23px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
+.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #191F29}
+.tab+.blk{margin-top:12px}
+.ov p{font-size:14.5px;line-height:1.5;color:#202630;letter-spacing:var(--ls)}
+.ov+.ov{margin-top:6px}
+
+.legend{border:1px solid #E2E8F0;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:flex-start;font-size:13px;line-height:18px;color:#111B2B}
+/* 범례 항목: 위 정렬. 원 중심 = 첫 줄 글자 높이 중심(기준선 − 0.358em, 13px 기준 1.35px 내림), 제목(b)과 설명(span)은 같은 글자 크기·줄 높이라 첫 줄 기준선이 같다 */
+.lg{display:flex;align-items:flex-start}
+.lg>.lcir{margin-top:1.35px}
+.lg>b,.lg>span{line-height:18px}
+.lg>span{min-width:0}
+.lg b{margin:0 2.5px 0 5px;white-space:pre}
+.lg.note b{margin-right:0}
+.lg.note b{color:#475569}
+.lcir{width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;line-height:1;color:#fff;flex:none}
+/* 범례 원은 SVG(.cn)가 그린다 */
+.legend+.fig{margin-top:8px!important}
+
+.fig{background:#F6F7F9;border-radius:8px;padding:14px 16px 16px;display:flex;justify-content:center;gap:16px}
+.shot{flex:none}
+.imgbox{display:grid;width:100%;border-radius:8px;background:#fff}
+.imgbox>*{grid-area:1/1}
+.imgbox img{display:block;width:100%;height:auto;border-radius:8px}
+.mk{align-self:start;justify-self:start;margin-right:-22px;margin-bottom:-22px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11.4px;font-weight:700;line-height:1;color:#fff;box-shadow:0 0 0 0.5px rgba(100,116,139,.25),0 1px 3px rgba(100,116,139,.35)}
+/* 화면 위 번호: 흰 테두리 바깥에만 연한 회색 그림자(원 모양 그대로, 잘리지 않게 작게) */
+.mk-set,.mk-ref{}
+
+figcaption{margin-top:10px;font-size:12px;line-height:1.45;color:#475364;letter-spacing:0}
+figcaption code{color:#475364;background:#E9ECF3}
+.fig+.item{margin-top:8px}
+
+.item{display:flex;align-items:flex-start;padding:10px 0}
+.item+.item{background:linear-gradient(#F1F5F9,#F1F5F9) no-repeat 33px 0/calc(100% - 33px) 1px}
+.cir{width:23px;height:23px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1;color:#fff}
+/* 번호 설명 원은 SVG(.cn)가 그린다 */
+.cir.c-res{width:22px;height:22px}
+.item .body{margin-left:10px;flex:1;min-width:0}
+.item .t{font-size:14.5px;line-height:1.55;color:#111B2B;letter-spacing:var(--ls)}
+.item.k-ref .t,.item.k-ref .t b{color:#475569}
+.ress{margin-top:12px;margin-left:0}
+.res{display:flex;align-items:flex-start}
+.res+.res{margin-top:8px}
+.res .t{margin-left:10px;flex:1;color:#263341}
+.res .t b{color:#111B2B}
+.res .cir{margin-top:0}
+.conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+
+.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
+
+.card{border-radius:8px;padding:14px 14.7px 15px}
+.card+.card{margin-top:7.33px}
+.tab+.card{margin-top:12px}
+.card h4{display:flex;align-items:baseline;font-size:14.5px;font-weight:700;line-height:20px;white-space:normal}
+.card .ttl{white-space:pre}
+.card .sub{font-size:12px;font-weight:400;margin-left:4.5px}
+.card ul{margin-top:6px}
+.card li{font-size:13.5px;font-weight:500;line-height:1.52;color:#475569;padding-left:14px;text-indent:-14px}
+.card li+li{margin-top:4px}
+.card li b{color:inherit}
+.card .bul{display:inline-block;width:14px;text-indent:0}
+.card.must{background:#FDF2F3}.card.must h4{color:#B91C1C}.card.must .ref{color:#A15E61}.card.must code{background:#F6DCDE;color:inherit}
+.card.misc{background:#FEF9F0}.card.misc h4{color:#885910}.card.misc .ref{color:#927341}.card.misc code{background:#FCE8BF;color:inherit}
+.card.note{background:#F1F5F9}.card.note h4{color:#475569}.card.note .ref{color:#64748B}.card.note code{background:#E2E8F0;color:inherit}
+.card.note li b{color:#334155;font-weight:700}
+
+.plain ul li{font-size:14.5px;line-height:1.55;color:#202630;padding-left:14px;text-indent:-14px;letter-spacing:var(--ls)}
+.plain ul li+li{margin-top:6px}
+.plain .bul{display:inline-block;width:14px;text-indent:0}
+.box{border:1px solid #E2E8F0;border-radius:8px;padding:14px 16px}
+.box+.box{margin-top:8px}
+.box p{font-size:13.5px;line-height:1.52;color:#202630}
+
+.tblwrap table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:left;padding:11px 10.7px;vertical-align:top}
+td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
+td b{color:#111B2B}
+td.c0,td.c0 b{color:#475569}
+td .ref{vertical-align:3px}
+table.wide td{padding:8px 10.7px}
+table.wide th{padding:9px 10.7px}
+table.wide{table-layout:fixed}
+table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),body.lang-de table.wide th:nth-child(4),body.lang-ja table.wide th:nth-child(4){width:auto;min-width:82px}/* 번역본: 4열이 내용 열인 비교표가 82px에 갇히지 않게 */table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
+
+/* 원형 안 숫자: 가운데 정렬 후 paginate.js가 실제 글자 잉크 범위를 재서 원의 정중앙으로 보정한다 */
+/* 원형 숫자는 SVG(.cn): 좌표는 build.py가 글리프 잉크 경계로 계산. 원과 같은 크기, 테두리가 있으면 음수 margin으로 테두리까지 덮어 원 중심과 SVG 중심을 일치 */
+.cn{display:block;flex:none;overflow:visible}
+.cir,.lcir,.mk{background:none!important;border:none!important}
+.cn text{font-weight:700;letter-spacing:0}
+
+</style></head>
+<body class="lang-ko">
+<div id="src" hidden>
+<section class="cover">
+  <div class="cv-wave"></div><div class="cv-grad"></div>
+  <div class="cv-top"><span class="cv-brand"><span class="sm">SMART</span> EDC</span><span class="cv-sys">임상시험 전자자료수집 시스템</span></div>
+  <div class="cv-main noclass"><h1 class="cv-title">플랫폼 관리</h1><p class="cv-sub">SCR-PLT-004·005·006·007 · 시스템 설정 · 코드 관리 · 접속 로그 · 운영 이력</p></div>
+  <div class="cv-bottom"><span class="cv-kind">사용자 매뉴얼 · 화면별 분권</span><img class="cv-logo" src="img/logo.png" alt="DH Digital Healthcare Software"></div>
+</section>
+<section class="toc" data-title="목차"><div class="flow"><div class="tch blk"><div class="tchh"><span class="tcn">1</span><span class="tct">시스템 설정</span></div><ul><li><a href="#s1-1"><span class="tn">1.1</span><span class="tt">화면 구성</span><span class="tp" data-for="s1-1"></span></a></li><li><a href="#s1-2"><span class="tn">1.2</span><span class="tt">설정값 편집</span><span class="tp" data-for="s1-2"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">2</span><span class="tct">코드 관리</span></div><ul><li><a href="#s2-1"><span class="tn">2.1</span><span class="tt">화면 구성</span><span class="tp" data-for="s2-1"></span></a></li><li><a href="#s2-2"><span class="tn">2.2</span><span class="tt">코드 값 추가</span><span class="tp" data-for="s2-2"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">3</span><span class="tct">접속 로그</span></div><ul><li><a href="#s3-1"><span class="tn">3.1</span><span class="tt">화면 구성</span><span class="tp" data-for="s3-1"></span></a></li><li><a href="#s3-2"><span class="tn">3.2</span><span class="tt">검색 · 필터와 집계</span><span class="tp" data-for="s3-2"></span></a></li><li><a href="#s3-3"><span class="tn">3.3</span><span class="tt">CSV 내보내기</span><span class="tp" data-for="s3-3"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">4</span><span class="tct">운영 이력</span></div><ul><li><a href="#s4-1"><span class="tn">4.1</span><span class="tt">화면 구성</span><span class="tp" data-for="s4-1"></span></a></li><li><a href="#s4-2"><span class="tn">4.2</span><span class="tt">상세 보기</span><span class="tp" data-for="s4-2"></span></a></li></ul></div></div></section>
+<section class="divider" data-ch="1" data-chtitle="1. 시스템 설정">
+<div class="dlabel">화면별 분권 — 플랫폼 관리</div>
+<div class="dhead"><div class="dnum">1</div><h1 class="dtitle" id="ch1">시스템 설정</h1></div>
+<ul class="dlist"><li><span class="dn">1.1</span><span class="dt">화면 구성</span></li><li><span class="dn">1.2</span><span class="dt">설정값 편집</span></li></ul></section><section class="sec" id="s1-1" data-num="1.1" data-chtitle="1. 시스템 설정">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.1</span><span class="hx">화면 구성</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">플랫폼 메뉴</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">시스템 설정</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>플랫폼 전역에 적용되는 운영 정책을 한 표로 모아 보여 주는 화면입니다. 값을 직접 바꾸는 곳이 아니라 <b>어떤 정책이 어떤 값으로 설정되어 있는지 확인하는 곳</b>이며, 바꿀 수 있는 항목만 편집 창이 열립니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.08715"><img src="img/s1_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(25.980% - 11px);margin-top:calc(7.208% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(29.932% - 11px);margin-top:calc(10.737% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(72.981% - 11px);margin-top:calc(10.737% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(93.447% - 11px);margin-top:calc(10.878% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(20.617% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(5.938% - 11px);margin-top:calc(11.301% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(21.464% - 11px);margin-top:calc(5.444% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(61.548% - 11px);margin-top:calc(13.207% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(70.723% - 11px);margin-top:calc(13.207% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(79.191% - 11px);margin-top:calc(13.207% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(18.782% - 11px);margin-top:calc(15.112% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>시스템 설정 (SCR-PLT-004) — 보안·세션·알림·파일·일반 운영 정책</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>카테고리 탭</b> — 전체 · 보안 · 세션 · 알림 · 파일 · 일반입니다. 워크스페이스 관리자에게는 <b>세션 · 알림</b> 두 가지만 표시됩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>편집 가능 여부</b> — 잠긴 항목을 걸러내고 바꿀 수 있는 항목만 볼 때 사용합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>검색</b> — 설정 키 또는 설명의 일부로 찾습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>초기화</b> — 걸어 둔 조건을 모두 지웁니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>편집</b> — 그 항목의 값을 바꾸는 창을 엽니다 <span class="ref">1.2</span>. <b>잠김</b> 항목은 버튼이 흐리게 표시되어 선택할 수 없습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">왼쪽 메뉴의 <b>플랫폼 메뉴 &gt; 시스템 설정</b> 이 이 화면의 유일한 입구입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">머리의 “※ 변경 이력은 운영 이력에 기록됩니다.” — 누가 언제 무엇을 바꾸었는지는 운영 이력에서 확인합니다 <span class="ref">4.1</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>타입</b> — 정수 · 참/거짓 · JSON 등 값의 형식입니다. 편집 창의 입력 방식이 이 타입에 따라 달라집니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>상태</b> — <b>편집 가능</b> 과 🔒<b>잠김</b> 두 가지입니다. 잠김은 시스템이 고정한 항목이라 관리자도 바꿀 수 없습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>최종 수정 (KST)</b> — 한 번도 바꾸지 않았으면 <b>-</b> 입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">항목 이름 아래의 영문 글자가 <b>설정 키</b> 입니다. 검색과 운영 이력 조회에 이 키를 사용합니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>여기에서 바꾼 값은 현재 시스템 동작에 반영되지 않습니다. 값과 변경 이력은 저장되지만 실제 판정(로그인 잠금 임계·세션 만료 등)은 별도 설정으로 이루어집니다. 편집 창의 영향 범위 안내가 항목마다 그 사실을 알려 주므로 반드시 확인하십시오 <span class="ref">1.2</span>.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s1-2" data-num="1.2" data-chtitle="1. 시스템 설정">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.2</span><span class="hx">설정값 편집</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">시스템 설정</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">설정값 편집</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>표의 <b>편집</b> 을 선택하면 열리는 창입니다. 값 하나만 바꾸는 단순한 창이지만, 맨 위의 <b>영향 범위</b> 안내가 그 값이 실제로 쓰이는지를 알려 주므로 바꾸기 전에 먼저 읽어야 합니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:448.6px"><div class="imgbox" style="aspect-ratio:1.39205"><img src="img/s1_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(94.606% - 11px);margin-top:calc(30.320% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.606% - 11px);margin-top:calc(39.708% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(68.688% - 11px);margin-top:calc(47.565% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(88.178% - 11px);margin-top:calc(58.892% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(52.055% - 11px);margin-top:calc(11.545% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(84.300% - 11px);margin-top:calc(21.341% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(30.116% - 11px);margin-top:calc(55.014% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(80.729% - 11px);margin-top:calc(58.892% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(95.627% - 11px);margin-top:calc(6.749% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>편집 창 — 머리에 설정 키·카테고리·타입이 함께 표시됩니다 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>값</b> — 타입에 맞는 형식으로 입력합니다. 정수 항목은 권장 범위를 벗어나면 저장 전에 안내가 표시됩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>변경 사유</b> — 선택 항목입니다. 입력하면 운영 이력에 함께 기록되므로, 왜 바꾸었는지 남겨 두는 편이 좋습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>기본값으로 복원</b> — 기본값을 입력란에 채워 넣기만 합니다. <b>이 선택만으로는 저장되지 않으므로</b> 이어서 저장을 선택해야 합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>저장</b> — 값을 반영합니다. 옆의 <b>취소</b> 를 선택하면 변경을 버리고 창을 닫습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">창 머리에 <b>설정 키 · 카테고리 · 타입</b> 이 함께 표시됩니다. 다른 항목을 열지 않았는지 여기에서 확인하십시오.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">노란 <b>영향 범위</b> 안내 — 그 값이 실제 동작에 반영되는지를 알려 줍니다. 아래 유의사항을 확인하십시오.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>변경 이력</b> — 이 항목만의 변경 기록입니다. 건수가 0이면 한 번도 바꾸지 않은 것입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>취소</b> — 변경을 버립니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">창 밖을 선택하거나 닫기를 선택해도 같습니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>현재 모든 항목이 「적용되지 않습니다」로 안내됩니다. 값과 변경 이력은 저장되지만 로그인 잠금·세션 만료 등 실제 판정은 별도 설정에서 이루어지기 때문입니다. 정책을 실제로 바꾸어야 한다면 이 화면만으로는 충분하지 않으므로 시스템 담당자에게 요청하십시오.</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="2" data-chtitle="2. 코드 관리">
+<div class="dlabel">화면별 분권 — 플랫폼 관리</div>
+<div class="dhead"><div class="dnum">2</div><h1 class="dtitle" id="ch2">코드 관리</h1></div>
+<ul class="dlist"><li><span class="dn">2.1</span><span class="dt">화면 구성</span></li><li><span class="dn">2.2</span><span class="dt">코드 값 추가</span></li></ul></section><section class="sec" id="s2-1" data-num="2.1" data-chtitle="2. 코드 관리">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.1</span><span class="hx">화면 구성</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">플랫폼 메뉴</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">코드 관리</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>화면 곳곳의 드롭다운·배지에 쓰이는 <b>표준 코드</b>를 관리하는 화면입니다. 왼쪽에서 코드 그룹을 고르면 오른쪽에 그 그룹의 값 목록이 표시되는 2단 구성입니다. 피험자 상태·기관 유형· 방문 미방문 사유 등이 모두 여기에서 나옵니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:4.90311"><img src="img/s2_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(16.100% - 11px);margin-top:calc(7.208% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(93.235% - 11px);margin-top:calc(11.301% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(93.941% - 11px);margin-top:calc(14.548% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(21.181% - 11px);margin-top:calc(12.289% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(5.938% - 11px);margin-top:calc(12.572% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(23.934% - 11px);margin-top:calc(5.373% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(32.473% - 11px);margin-top:calc(11.795% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(71.287% - 11px);margin-top:calc(12.995% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(62.748% - 11px);margin-top:calc(14.548% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(24.428% - 11px);margin-top:calc(9.325% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>코드 관리 (SCR-PLT-005) — 왼쪽이 코드 그룹, 오른쪽이 그 그룹의 값</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>플랫폼 / 프로젝트</b> 탭 — 플랫폼은 전 프로젝트 공통 코드, 프로젝트는 그 프로젝트만의 코드입니다. <b>프로젝트 탭은 프로젝트에 들어가 있어야</b> 열립니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>+ 값 추가</b> — 선택한 그룹에 코드 값을 추가합니다 <span class="ref">2.2</span>.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">행 액션 — 왼쪽 연필은 <b>수정</b>(라벨·정렬 순서), 오른쪽은 <b>활성/비활성 전환</b>입니다. 활성에서 비활성으로 바꿀 때는 확인 창을 한 번 더 거칩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">코드 그룹을 선택하면 오른쪽 값 목록이 그 그룹으로 바뀝니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">왼쪽 메뉴의 <b>플랫폼 메뉴 &gt; 코드 관리</b> 가 이 화면의 유일한 입구입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">“※ 변경은 운영 이력에 기록됩니다.” — 코드 변경도 운영 이력에 남습니다 <span class="ref">4.1</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">그룹 머리에 <b>그룹 코드 · 범위 · 값 개수 · 유형</b> 이 표시됩니다. 유형이 <b>SYSTEM</b> 인 그룹은 시스템이 시드한 표준 코드입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">열 구성 — <b>CODE · LABEL · SORTORDER · 상태 · 최종 수정 (KST) · 액션</b> 입니다. 화면에 보이는 글자는 CODE 가 아니라 LABEL 입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>상태</b> — 비활성으로 바꾼 값은 새로 선택할 수 없게 되지만, 이미 그 값으로 저장된 자료는 그대로 남습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">검색은 왼쪽(그룹)과 오른쪽(값)에 각각 있습니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>플랫폼 범위 코드는 시스템 관리자만 편집할 수 있습니다. 워크스페이스 관리자와 데이터 관리자는 프로젝트 탭의 코드만 편집할 수 있으며, 그 탭은 프로젝트에 들어간 상태라야 열립니다.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s2-2" data-num="2.2" data-chtitle="2. 코드 관리">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.2</span><span class="hx">코드 값 추가</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">코드 관리</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">신규 코드 값</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>선택한 그룹에 코드 값을 하나 추가합니다. <b>코드</b> 는 시스템이 저장하는 값이고 <b>라벨</b> 은 화면에 표시되는 글자입니다. 둘을 혼동하면 화면에는 멀쩡해 보여도 저장값이 달라지므로 주의하십시오.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:361.6px"><div class="imgbox" style="aspect-ratio:1.42599"><img src="img/s2_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(90.398% - 11px);margin-top:calc(22.423% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(90.398% - 11px);margin-top:calc(35.334% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(7.739% - 11px);margin-top:calc(45.461% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(90.398% - 11px);margin-top:calc(45.461% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(90.398% - 11px);margin-top:calc(57.359% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(33.815% - 11px);margin-top:calc(13.056% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(54.575% - 11px);margin-top:calc(26.980% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(41.410% - 11px);margin-top:calc(49.891% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(76.853% - 11px);margin-top:calc(49.891% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(64.575% - 11px);margin-top:calc(57.359% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>신규 코드 값 — 코드와 라벨만 필수입니다 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>코드 *</b> — 시스템에 저장되는 값입니다. 영문·숫자·언더스코어 1~50자이며 <b>생성 후에는 변경할 수 없습니다.</b></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>라벨 *</b> — 화면에 표시되는 글자입니다. 이쪽은 나중에 수정할 수 있습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>값 타입</b> — 문자열이 기본이며 대부분 그대로 두면 됩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>정렬 순서</b> — 목록에서의 순서입니다. 비워 두면 자동으로 매겨집니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>추가</b> — 값을 만듭니다. 옆의 <b>취소</b> 를 선택하면 입력이 버려집니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">창 머리에 <b>대상 그룹</b> 이 표시됩니다. 다른 그룹에 값을 넣고 있지 않은지 여기에서 확인하십시오.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">코드 칸 아래에 사용 가능한 문자와 길이, 그리고 변경 불가가 함께 안내됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">값 타입 안내 — 문자열 사용을 권장합니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">정렬 순서 안내 — 비워 두면 마지막 값 + 1 이 자동으로 부여됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>취소</b> — 창을 닫고 아무 것도 만들지 않습니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>코드는 생성 후 끝까지 변경할 수 없습니다. 이미 그 코드로 저장된 자료가 생기면 값을 되돌릴 방법이 없으므로, 연구 표준이나 보고 양식에서 쓰는 코드 체계를 먼저 확인한 뒤 입력하십시오. 잘못 만든 값은 삭제가 아니라 비활성 으로 처리합니다.</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="3" data-chtitle="3. 접속 로그">
+<div class="dlabel">화면별 분권 — 플랫폼 관리</div>
+<div class="dhead"><div class="dnum">3</div><h1 class="dtitle" id="ch3">접속 로그</h1></div>
+<ul class="dlist"><li><span class="dn">3.1</span><span class="dt">화면 구성</span></li><li><span class="dn">3.2</span><span class="dt">검색 · 필터와 집계</span></li><li><span class="dn">3.3</span><span class="dt">CSV 내보내기</span></li></ul></section><section class="sec" id="s3-1" data-num="3.1" data-chtitle="3. 접속 로그">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.1</span><span class="hx">화면 구성</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">플랫폼 메뉴</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">접속 로그</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>누가 언제 어디에서 접속했는지를 기록한 화면입니다. 기록은 <b>추가만 되고 수정·삭제가 불가능</b>하므로, 계정 도용이나 비정상 접속을 확인하는 1차 자료가 됩니다. 시스템 관리자는 전체를, 워크스페이스 관리자는 자기 워크스페이스 범위를 봅니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.02132"><img src="img/s3_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(83.426% - 11px);margin-top:calc(4.385% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(37.977% - 11px);margin-top:calc(7.632% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(48.704% - 11px);margin-top:calc(12.148% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(63.948% - 11px);margin-top:calc(10.313% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(5.938% - 11px);margin-top:calc(13.983% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(94.999% - 11px);margin-top:calc(5.656% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(76.439% - 11px);margin-top:calc(14.689% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(48.987% - 11px);margin-top:calc(19.770% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(44.188% - 11px);margin-top:calc(21.323% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(21.887% - 11px);margin-top:calc(4.668% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>접속 로그 (SCR-PLT-006) — 로그인·로그아웃·세션 이벤트</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>CSV 내보내기</b> — 지금 보고 있는 결과를 파일로 저장합니다 <span class="ref">3.3</span>.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>사용자 · IP 주소 · 시작일 · 종료일</b> — 조회 범위를 좁힙니다 <span class="ref">3.2</span>.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>이벤트</b> — 로그인 성공·실패, 로그아웃, 전자서명 실패 등 9가지 중 하나를 선택합니다 <span class="ref">3.2</span>.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>초기화</b> — 걸어 둔 조건을 모두 지웁니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">왼쪽 메뉴의 <b>플랫폼 메뉴 &gt; 접속 로그</b> 가 상시 입구입니다. 사용자 관리의 사용자 상세에서도 그 사용자로 걸러진 상태로 들어올 수 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">버튼 옆에 <b>현재 결과 N건 / 전체 N건</b> 이 표시됩니다. 아래 유의사항을 확인하십시오.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">집계 카드 3장 — 실패 상위 IP · 계정 잠금 · 최근 24h 로그인입니다 <span class="ref">3.2</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">열 구성 — <b>시각 (KST) · 사용자 · 이벤트 · IP / UA · 사유</b> 입니다. IP 아래 작은 글씨가 접속에 사용된 프로그램(UA)입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>이벤트</b> 배지 — 실패 계열은 붉게 표시되어 한눈에 구분됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">부제의 “(수정·삭제 불가)” — 기록을 지우거나 고칠 수 없다는 뜻입니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>쪽 번호가 아니라 이전 / 다음 으로만 넘어갑니다. 기록이 계속 쌓이는 자료라 쪽 경계가 밀리면 조회 중인 행이 중복되거나 빠질 수 있어, 시스템이 번호 이동을 제공하지 않습니다.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-2" data-num="3.2" data-chtitle="3. 접속 로그">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.2</span><span class="hx">검색 · 필터와 집계</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">접속 로그</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">검색 · 필터</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>조회 조건은 다섯 가지이며 서로 겹쳐 적용됩니다. 그 아래 집계 카드 3장은 조회 결과를 요약해 주지만 <b>현재 쪽에 불러온 20건만</b> 센다는 점을 반드시 염두에 두어야 합니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:11.70000"><img src="img/s3_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(32.133% - 11px);margin-top:calc(2.360% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(64.326% - 11px);margin-top:calc(2.360% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.660% - 11px);margin-top:calc(2.360% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(32.133% - 11px);margin-top:calc(5.209% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(61.050% - 11px);margin-top:calc(5.352% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-set" style="margin-left:calc(44.098% - 11px);margin-top:calc(7.346% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(22.161% - 11px);margin-top:calc(2.360% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(43.813% - 11px);margin-top:calc(2.360% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span></div><figcaption>조회 조건 — 네 칸과 이벤트 한 가지 (확대)</figcaption></div></div>
+<div class="blk fig"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:15.26087"><img src="img/s3_2_2.png" alt=""><span class="mk mk-ref" style="margin-left:calc(9.768% - 11px);margin-top:calc(1.791% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(39.754% - 11px);margin-top:calc(1.791% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(74.583% - 11px);margin-top:calc(1.791% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(85.694% - 11px);margin-top:calc(5.067% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>집계 카드 3장 — 모두 현재 쪽 기준입니다 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>사용자</b> — 계정으로 좁힙니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>IP 주소</b> — 전체가 일치해야 합니다. 일부만 입력하면 걸러지지 않습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>시작일</b> — 조회 시작 날짜입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>종료일</b> — 조회 종료 날짜입니다. 시작일과 함께 기간을 지정합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>초기화</b> — 다섯 조건을 모두 지웁니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>이벤트</b> — <b>한 번에 하나만</b> 선택됩니다. 선택된 칩을 다시 선택하면 해제됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">사용자 칸의 안내 — 사용자 관리의 사용자 상세에서 들어오면 그 계정이 자동으로 입력됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">IP 칸의 안내 — 예시 형식이 표시됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>실패 상위 IP (top 5)</b> — 로그인 실패가 몰린 IP 입니다. 같은 IP 에서 실패가 반복되면 계정 도용 시도를 의심할 수 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>계정 잠금</b> — 잠금 이벤트 건수입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>최근 24h 로그인</b> — 성공과 실패 건수입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">세 카드 모두 밑에 <b>현재 페이지 기준</b> 이 적혀 있습니다. 아래 유의사항을 확인하십시오.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>집계 카드 3장은 전체가 아니라 현재 쪽 20건만 셉니다. 「실패 상위 IP 없음」 이나 「계정 잠금 0」 은 이 쪽에 없다는 뜻이지 전체 기간에 없다는 뜻이 아닙니다. 전체를 보려면 이벤트 필터를 로그인 실패 또는 계정 잠금 으로 걸고 다시 조회하십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-3" data-num="3.3" data-chtitle="3. 접속 로그">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.3</span><span class="hx">CSV 내보내기</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">접속 로그</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">CSV 내보내기</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>조회 결과를 쉼표로 구분된 파일(CSV)로 내려받습니다. 별도의 요청·대기 없이 화면에서 바로 만들어지며, 파일명에 내려받은 시각이 들어갑니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:448.6px"><div class="imgbox" style="aspect-ratio:4.18803"><img src="img/s3_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(56.545% - 11px);margin-top:calc(18.076% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(86.647% - 11px);margin-top:calc(21.851% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(88.076% - 11px);margin-top:calc(3.994% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span></div><figcaption>버튼을 선택하면 곧바로 파일이 내려받아집니다 (확대)</figcaption></div></div>
+<div class="blk fig"><div class="shot" style="width:516.8px"><div class="imgbox" style="aspect-ratio:3.17135"><img src="img/s3_3_2.png" alt=""><span class="mk mk-ref" style="margin-left:calc(85.043% - 11px);margin-top:calc(5.770% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(91.952% - 11px);margin-top:calc(22.422% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>내려받은 파일 — 열 7종 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>CSV 내보내기</b> — 선택하면 확인 창 없이 바로 파일이 내려받아집니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">버튼 옆의 <b>현재 결과 N건 / 전체 N건 (전수 export 미지원)</b> — 아래 유의사항을 확인하십시오.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">내려받기 알림에 파일명과 크기가 표시됩니다. 파일명은 <b>login-history_연월일T시분.csv</b> 형식입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">열 7종 — <b>시각(KST) · 이름 · 이메일 · 이벤트 · IP 주소 · 접속 프로그램(UA) · 실패 사유</b> 입니다. 내부 식별 코드는 포함되지 않습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">한 행이 접속 이벤트 한 건입니다. 화면의 표와 같은 순서로 담깁니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>내려받는 것은 현재 쪽 결과뿐입니다. 버튼 옆 안내의 「전수 export 미지원」 이 그 뜻으로, 전체 기간을 받으려면 기간·이벤트 조건을 좁혀 여러 번 나누어 내려받아야 합니다. 파일에는 계정 이메일과 접속 IP 가 그대로 담기므로 개인정보가 포함된 파일로 취급해 보관· 공유하십시오.</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="4" data-chtitle="4. 운영 이력">
+<div class="dlabel">화면별 분권 — 플랫폼 관리</div>
+<div class="dhead"><div class="dnum">4</div><h1 class="dtitle" id="ch4">운영 이력</h1></div>
+<ul class="dlist"><li><span class="dn">4.1</span><span class="dt">화면 구성</span></li><li><span class="dn">4.2</span><span class="dt">상세 보기</span></li></ul></section><section class="sec" id="s4-1" data-num="4.1" data-chtitle="4. 운영 이력">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">4.1</span><span class="hx">화면 구성</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">플랫폼 메뉴</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">운영 이력</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>계정·프로젝트·참여 기관·워크스페이스·시스템 설정에 대해 <b>누가 무엇을 바꾸었는지</b>를 기록한 화면입니다. 접속 로그가 「드나든 기록」이라면 이쪽은 「바꾼 기록」입니다. 역시 추가만 되고 수정·삭제가 불가능합니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.12804"><img src="img/s4_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(42.494% - 11px);margin-top:calc(7.067% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(22.946% - 11px);margin-top:calc(10.454% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(37.977% - 11px);margin-top:calc(10.454% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(52.939% - 11px);margin-top:calc(10.454% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(91.753% - 11px);margin-top:calc(5.162% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.987% - 11px);margin-top:calc(14.618% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(5.938% - 11px);margin-top:calc(15.394% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(25.980% - 11px);margin-top:calc(5.514% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(50.963% - 11px);margin-top:calc(14.618% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(86.742% - 11px);margin-top:calc(14.618% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(85.966% - 11px);margin-top:calc(10.454% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>운영 이력 (SCR-PLT-007) — 계정·프로젝트·조직·시스템 운영 행위 기록</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>카테고리 탭</b> — 계정 관리 · 프로젝트 상태 전이 · 테스트 데이터 삭제 · Site 관리 · 인력 관리 · 워크스페이스 멤버 · 시스템 설정 변경 · EXPORT 로 묶어 봅니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>이벤트</b> — 생성 · 수정 · 삭제 등 행위 종류로 좁힙니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>대상 종류</b> — 계정 · 프로젝트 · 기관 등 무엇을 바꾸었는지로 좁힙니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>수행자 ID</b> — 특정 사용자의 행위만 봅니다. 식별자 전체가 일치해야 합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>CSV/Excel 내보내기</b> — 조회 결과를 파일로 요청합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>보기</b> — 그 행의 상세 창을 엽니다 <span class="ref">4.2</span>. 무엇이 어떻게 바뀌었는지는 이 창에서만 확인할 수 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">왼쪽 메뉴의 <b>플랫폼 메뉴 &gt; 운영 이력</b> 이 상시 입구입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">“※ 임상 데이터 변경 이력(Audit Trail) 은 별도 화면에서 제공됩니다.” — 피험자 데이터를 고친 기록은 여기가 아니라 Audit Trail 에 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>대상</b> 열 — 지금은 앞부분이 <b>undefined</b> 로 표시됩니다. 아래 유의사항을 확인하십시오.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>상세</b> 열 — 바뀐 항목 이름이 요약으로 표시됩니다. 값까지 보려면 <b>보기</b> 를 선택합니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>시작일 · 종료일</b> — 기간을 지정합니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>「대상」 열 앞부분의 undefined 는 표시 결함입니다. 시스템이 아직 이름을 모르는 종류의 대상이라 그렇게 표시되는 것이며, 기록 자체가 잘못된 것은 아닙니다. 무엇을 바꾼 기록인지는 카테고리 열과 뒤에 붙은 식별자, 그리고 보기 의 변경 내역으로 판단하십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s4-2" data-num="4.2" data-chtitle="4. 운영 이력">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">4.2</span><span class="hx">상세 보기</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">운영 이력</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">운영 이력 상세</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>목록의 <b>보기</b> 로 여는 창입니다. 목록이 <b>언제 · 누가 · 무엇을</b> 까지 보여 준다면, 이 창은 거기에 <b>어떻게 바뀌었는지</b>를 더합니다. 조회 전용이며 여기에서 고칠 수 있는 것은 없습니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:517.3px"><div class="imgbox" style="aspect-ratio:1.96181"><img src="img/s4_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(91.428% - 11px);margin-top:calc(7.712% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(55.145% - 11px);margin-top:calc(13.375% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(79.304% - 11px);margin-top:calc(18.331% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(39.747% - 11px);margin-top:calc(21.340% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(37.977% - 11px);margin-top:calc(27.004% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(50.012% - 11px);margin-top:calc(34.083% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>운영 이력 상세 — 바뀐 값이 항목별로 나열됩니다 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>닫기</b> — 창을 닫고 목록으로 돌아갑니다. 창 밖을 선택해도 같습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">창 머리에 <b>시각 · 카테고리 · 이벤트</b> 가 한 줄로 표시됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>대상</b> — 목록의 대상 열과 같은 값입니다. 앞부분의 <b>undefined</b> 는 표시 결함이므로 뒤의 식별자를 사용하십시오 (4.1 유의사항 참조).</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>수행자</b> — 행위를 수행한 사용자입니다. 이메일이 함께 기록된 경우 아래에 덧붙습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>변경 내역 (DETAILS)</b> — 이 창의 핵심입니다. 바뀐 항목이 이름과 값의 쌍으로 나열됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">항목 이름이 영문인 것은 시스템 내부 이름을 그대로 보여 주기 때문입니다. 캡처는 CRF 폼 수정 기록이라 버전·폼 코드·편집 범위·프로젝트 상태가 함께 남았습니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>운영 이력은 운영·관리 행위만 담습니다. 피험자 데이터를 고친 기록은 별도의 Audit Trail 화면에 있으므로, 규제 대응 자료를 준비할 때는 두 화면을 함께 확인해야 합니다.</b></li></ul></div>
+</div></section>
+</div>
+<div id="book"></div>
+<script>(async function () {
+  // 원본 블록은 hidden 상태라 글꼴 요청이 늦게 시작된다. 측정 전에 쓰는 굵기를 모두 먼저 불러온다.
+  const FAM = document.body.classList.contains('lang-ja') ? 'PretendardJPM' : 'PretendardM';
+  const SAMPLE = FAM === 'PretendardJPM' ? 'あ漢1A' : '가1A';
+  await Promise.all([400, 500, 700, 800].map(w => document.fonts.load(`${w} 16px ${FAM}`, SAMPLE)));
+  await document.fonts.ready;
+  if (![400, 500, 700, 800].every(w => document.fonts.check(`${w} 16px ${FAM}`, SAMPLE))) throw new Error('Pretendard 로드 실패');
+  await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  const src = document.getElementById('src');
+  const book = document.getElementById('book');
+  let pno = 0;
+  const pageMap = {};
+
+  // [표 제목 열 너비, 고정프롬프트 표 절] 첫 열 글이 단어 중간에서 잘리거나 3줄 이상이면 첫 열을 4px씩 넓혀 본다.
+  // 표 전체 높이가 가장 낮아지는 너비를 고르되, 오른쪽 칸이 빽빽해져 높이가 늘면 넓히지 않는다. 최대 표 너비의 30%.
+  {
+    const probe = document.createElement('div');
+    probe.className = 'page body';
+    probe.style.cssText = 'position:absolute;left:-10000px;top:0';
+    const pa = document.createElement('div'); pa.className = 'area'; pa.style.top = '0'; probe.appendChild(pa);
+    document.body.appendChild(probe);
+    const firstCells = t => [...t.rows].map(r => r.cells[0]).filter(Boolean);
+    const lineCount = c => {
+      const r = document.createRange(); r.selectNodeContents(c);
+      const tops = new Set([...r.getClientRects()].filter(x => x.width > 0).map(x => Math.round(x.bottom)));
+      return tops.size;
+    };
+    // 단어(공백으로 나눈 덩어리)가 칸 안쪽 너비보다 길면 잘린 것으로 본다
+    const broken = c => {
+      const cs = getComputedStyle(c);
+      const inner = c.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const tw = document.createTreeWalker(c, NodeFilter.SHOW_TEXT);
+      const texts = []; while (tw.nextNode()) texts.push(tw.currentNode);
+      let n = 0;
+      for (const node of texts) {
+        for (const w of node.textContent.split(/\s+/)) {
+          if (!w) continue;
+          const sp = document.createElement('span'); sp.style.whiteSpace = 'nowrap'; sp.textContent = w;
+          node.parentElement.appendChild(sp);
+          if (sp.getBoundingClientRect().width > inner + 0.5) n++;
+          sp.remove();
+        }
+      }
+      return n;
+    };
+    // 너비를 정하고, 모든 단어가 들어가면 자동 하이픈을 끈다(들어가는 단어를 억지로 쪼개지 않게)
+    const setW = (cells, w) => {
+      cells.forEach(c => { c.style.width = w === null ? '' : w + 'px'; c.style.hyphens = c.style.webkitHyphens = ''; });
+      if (w === null) return 0;
+      const b = cells.reduce((s, c) => s + broken(c), 0);
+      if (!b) cells.forEach(c => { c.style.hyphens = c.style.webkitHyphens = 'manual'; });
+      return b;
+    };
+    for (const wrap of src.querySelectorAll('.tblwrap')) {
+      const t = wrap.querySelector('table');
+      if (!t || !t.rows.length || t.rows[0].cells.length < 2) continue;
+      const mark = document.createComment(''); wrap.replaceWith(mark); pa.appendChild(wrap);
+      const cells = firstCells(t);
+      const base = Math.round(cells[0].getBoundingClientRect().width);
+      const cap = Math.round(t.getBoundingClientRect().width * 0.3);
+      const state = b => ({ h: t.getBoundingClientRect().height, b, l: Math.max(...cells.map(lineCount)) });
+      const s0 = state(cells.reduce((s, c) => s + broken(c), 0));
+      if (base < cap && (s0.b > 0 || s0.l > 2)) {
+        let best = { w: base, ...s0 };
+        for (let w = base + 4; w <= cap; w += 4) {
+          const s = state(setW(cells, w));
+          // 표 높이가 처음보다 늘면 제외. 잘린 단어가 줄면 우선, 같으면 표 높이가 낮은 쪽, 같으면 좁은 쪽
+          if (s.h > s0.h + 0.5) continue;
+          if (s.b < best.b || (s.b === best.b && s.h < best.h - 0.5)) best = { w, ...s };
+        }
+        if (best.w !== base) { setW(cells, best.w); t.dataset.c0w = best.w; } else setW(cells, null);
+      }
+      mark.replaceWith(wrap);
+    }
+    probe.remove();
+  }
+
+  function newPage(cls) {
+    const p = document.createElement('div');
+    p.className = 'page ' + (cls || '');
+    book.appendChild(p);
+    pno += 1;
+    p.dataset.pno = pno;
+    return p;
+  }
+  const overflow = a => a.scrollHeight > a.clientHeight + 0.5;
+
+  // [제목 끝 줄 1~3글자 보정, 고정프롬프트 2절] 여러 줄 제목의 마지막 줄에 1~3글자만 남으면
+  // 줄 길이를 고르게 나눠(text-wrap:balance) 단어·구절 단위로 다시 줄을 바꾼다. 일본어는 문절 단위(auto-phrase), 한국어는 어절 단위(keep-all).
+  const LANG = document.documentElement.lang;
+  function lastLineChars(el) {
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const chars = [];
+    const r = document.createRange();
+    while (tw.nextNode()) {
+      const n = tw.currentNode;
+      for (let i = 0; i < n.length; i++) {
+        if (/\s/.test(n.data[i])) continue;
+        r.setStart(n, i); r.setEnd(n, i + 1);
+        const b = r.getBoundingClientRect();
+        if (b.width || b.height) chars.push(Math.round(b.top + b.height / 2));
+      }
+    }
+    if (!chars.length) return { lines: 0, last: 0 };
+    const lh = parseFloat(getComputedStyle(el).lineHeight) || 20;
+    const tops = []; for (const t of chars) if (!tops.some(x => Math.abs(x - t) < lh / 2)) tops.push(t);
+    const lastTop = Math.max(...tops);
+    return { lines: tops.length, last: chars.filter(t => Math.abs(t - lastTop) < lh / 2).length };
+  }
+  function fixShortLastLine(el) {
+    if (!el) return;
+    const s0 = lastLineChars(el);
+    if (s0.lines < 2 || s0.last > 3) return;
+    el.style.textWrap = 'balance';
+    if (LANG === 'ja') el.style.wordBreak = 'auto-phrase';
+    else if (LANG === 'ko') el.style.wordBreak = 'keep-all';
+    let s1 = lastLineChars(el);
+    // balance로 안 풀리면(가타카나 합성어처럼 문절이 긴 경우) 낱말 경계(Intl.Segmenter)에만 줄바꿈 지점(<wbr>)을 넣고 다시 고르게 나눈다
+    if ((s1.lines > s0.lines || s1.last <= 3) && (LANG === 'ja' || LANG === 'ko') && window.Intl && Intl.Segmenter) {
+      const seg = new Intl.Segmenter(LANG, { granularity: 'word' });
+      const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const nodes = []; while (tw.nextNode()) nodes.push(tw.currentNode);
+      for (const n of nodes) {
+        const f = document.createDocumentFragment();
+        [...seg.segment(n.data)].forEach((p, i) => { if (i) f.appendChild(document.createElement('wbr')); f.appendChild(document.createTextNode(p.segment)); });
+        n.replaceWith(f);
+      }
+      el.style.wordBreak = 'keep-all';
+      s1 = lastLineChars(el);
+    }
+    // 그래도 안 되면 폭을 조금씩 좁혀 앞줄 끝 낱말을 다음 줄로 넘긴다
+    if (s1.lines > s0.lines || s1.last <= 3) {
+      el.style.textWrap = '';
+      const w0 = el.getBoundingClientRect().width;
+      for (let k = 0.98; k >= 0.6; k -= 0.02) {
+        el.style.maxWidth = (w0 * k) + 'px';
+        s1 = lastLineChars(el);
+        if (s1.lines > s0.lines) break;
+        if (s1.last > 3) break;
+      }
+    }
+    // 줄 수가 늘었거나 그래도 짧으면 되돌린다(글자를 줄이거나 자르지 않는다)
+    if (s1.lines > s0.lines || s1.last <= 3) { el.style.textWrap = el.style.wordBreak = el.style.maxWidth = ''; }
+    else el.dataset.balanced = s0.last + '→' + s1.last;
+  }
+
+  // 블록을 area에 차례로 넣고 넘치면 새 쪽을 만든다. kwn(다음 블록과 붙임)은 함께 넘긴다.
+  function flow(blocks, makePage) {
+    let area = makePage(true);
+    for (const b of blocks) {
+      area.appendChild(b);
+      if (!overflow(area)) continue;
+      if (b.classList.contains('tblwrap')) {
+        // 표는 행 단위로 나누고 다음 쪽에 머리행을 다시 붙인다
+        let cur = b;
+        while (overflow(area)) {
+          const body = cur.querySelector('tbody');
+          const rest = [];
+          while (overflow(area) && body.rows.length > 2) rest.unshift(body.removeChild(body.lastElementChild));
+          if (overflow(area)) { // 두 행도 안 들어가면 표 전체를 다음 쪽으로
+            area.removeChild(cur);
+            area = makePage(false); area.appendChild(cur);
+            rest.forEach(r => body.appendChild(r));
+            continue;
+          }
+          if (!rest.length) break;
+          const nxt = cur.cloneNode(true);
+          const nb = nxt.querySelector('tbody'); nb.innerHTML = '';
+          rest.forEach(r => nb.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); cur = nxt;
+        }
+        continue;
+      }
+      const moving = [b];
+      let prev = b.previousElementSibling;
+      while (prev && prev.classList.contains('kwn')) { moving.unshift(prev); prev = prev.previousElementSibling; }
+      // [빈 공간 채우기 규칙, 고정프롬프트 11절]
+      // 1) 묶음 전체(탭·안내·이미지·첫 설명)가 조금 모자라면 캡처를 최대 85%까지 줄여 이 쪽에 둔다.
+      const fig = moving.find(m => m.classList.contains('fig'));
+      const shots = fig ? [...fig.querySelectorAll('.shot')] : [];
+      const base = shots.map(s => parseFloat(s.style.width));
+      const scaleFig = k => shots.forEach((s, i) => { s.style.width = (base[i] * k) + 'px'; });
+      if (fig && moving.length < area.children.length) {
+        let fitted = false;
+        for (const k of [0.95, 0.9, 0.85]) { scaleFig(k); if (!overflow(area)) { fitted = true; fig.dataset.scale = k; break; } }
+        if (fitted) continue;
+        scaleFig(1);
+        // 2) 그래도 안 되면 이미지 뒤 설명은 다음 쪽으로 넘기고, 탭·안내·이미지는 이 쪽에 둔다(캡처 최대 75%).
+        //    설명이 다음 쪽으로 넘어가도 이 쪽을 비워 두지 않는다.
+        const tail = moving.slice(moving.indexOf(fig) + 1);
+        if (tail.length) {
+          tail.forEach(t => area.removeChild(t));
+          for (const k of [1, 0.95, 0.9, 0.85, 0.8, 0.75]) { scaleFig(k); if (!overflow(area)) { fitted = true; if (k < 1) fig.dataset.scale = k; break; } }
+          if (fitted) { area = makePage(false); tail.forEach(t => area.appendChild(t)); continue; }
+          scaleFig(1); tail.forEach(t => area.appendChild(t));
+        }
+      }
+      // 3) 유의사항 카드는 통째로 넘기지 않고 항목 단위로 나눠 이어 쓴다(같은 카드 제목을 다음 쪽 카드에 다시 붙임).
+      if (b.classList.contains('card')) {
+        const ul = b.querySelector('ul'); const rest = [];
+        while (overflow(area) && ul.children.length > 1) rest.unshift(ul.removeChild(ul.lastElementChild));
+        if (!overflow(area) && rest.length) {
+          const nxt = b.cloneNode(true); const nu = nxt.querySelector('ul'); nu.innerHTML = '';
+          rest.forEach(r => nu.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); continue;
+        }
+        rest.forEach(r => ul.appendChild(r));
+      }
+      if (moving.length === area.children.length) {
+        if (moving.length === 1) continue; // 한 쪽보다 큰 블록: 그대로 둔다
+        moving.splice(0, moving.length - 1); // 쪽 전체가 묶음이면 마지막 블록만 넘긴다
+      }
+      area = makePage(false);
+      moving.forEach(m => area.appendChild(m));
+    }
+  }
+
+  // 표지
+  const cover = newPage('cover');
+  cover.append(...src.querySelector('section.cover').children);
+  cover.querySelectorAll('.cv-title, .cv-sub').forEach(fixShortLastLine);
+  pageMap.cover = 1;
+
+  // 목차
+  const tocBlocks = [...src.querySelectorAll('section.toc .tch')];
+  let firstToc = true;
+  flow(tocBlocks, () => {
+    const p = newPage('toc');
+    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><span class="brand">SMART EDC</span></div><div class="area"></div>`;
+    if (firstToc) { p.id = 'toc'; pageMap.toc = +p.dataset.pno; firstToc = false; }
+    return p.querySelector('.area');
+  });
+
+  // 간지 + 절
+  for (const sec of src.querySelectorAll('section.divider, section.sec')) {
+    if (sec.classList.contains('divider')) {
+      const p = newPage('divider');
+      p.append(...sec.children);
+      p.querySelectorAll('.dtitle, .dlist .dt').forEach(fixShortLastLine);
+      const bar = document.createElement('div'); bar.className = 'dbar'; p.appendChild(bar);
+      const pn = document.createElement('div'); pn.className = 'pno'; pn.textContent = p.dataset.pno; p.appendChild(pn);
+      pageMap['ch' + sec.dataset.ch] = +p.dataset.pno;
+      continue;
+    }
+    const hdr = sec.querySelector('template.hdr-tpl').innerHTML;
+    const blocks = [...sec.querySelector('.flow').children];
+    let first = true;
+    flow(blocks, () => {
+      const p = newPage('body');
+      if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      first = false;
+      // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
+      fixShortLastLine(p.querySelector('.hdr .hx'));
+      const area = p.querySelector('.area');
+      area.style.top = (p.querySelector('.hdr').getBoundingClientRect().height + 22) + 'px';
+      return area;
+    });
+  }
+  src.remove();
+  document.querySelectorAll('.page.toc .tct, .page.toc .tt').forEach(fixShortLastLine);
+
+  // 간지 장식 막대: 큰 번호 글자 윗선 ~ 제목 아랫선
+  for (const p of document.querySelectorAll('.page.divider')) {
+    const n = p.querySelector('.dnum'), t = p.querySelector('.dtitle'), bar = p.querySelector('.dbar');
+    const pr = p.getBoundingClientRect(), nr = n.getBoundingClientRect(), tr = t.getBoundingClientRect();
+    const fs = parseFloat(getComputedStyle(n).fontSize);
+    const top = nr.top - pr.top + (nr.height - fs * 0.72) / 2;   // 숫자 대략 cap-height 위치
+    bar.style.top = top + 'px';
+    bar.style.height = (tr.bottom - pr.top - top) + 'px';
+  }
+
+  // 목차 쪽번호
+  for (const tp of document.querySelectorAll('.tp')) {
+    const id = tp.dataset.for;
+    const pg = document.getElementById(id);
+    tp.textContent = pg ? pg.dataset.pno : '?';
+  }
+
+  // 설정 → 결과 점선 연결: 설정 원 아래 중앙 → 결과 원 왼쪽 중앙
+  const NS = 'http://www.w3.org/2000/svg';
+  for (const item of document.querySelectorAll('.item')) {
+    const ress = item.querySelectorAll('.res > .cir');
+    if (!ress.length) continue;
+    const page = item.closest('.page');
+    const ir = page.getBoundingClientRect();
+    const pc = item.querySelector(':scope > .cir').getBoundingClientRect();
+    const x0 = pc.left + pc.width / 2 - ir.left, y0 = pc.bottom - ir.top;
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('class', 'conn'); svg.setAttribute('width', ir.width); svg.setAttribute('height', ir.height);
+    svg.setAttribute('aria-hidden', 'true');
+    let d = '';
+    ress.forEach(rc => {
+      const r = rc.getBoundingClientRect();
+      const y = r.top + r.height / 2 - ir.top, x1 = r.left - ir.left;
+      d += `M${x0} ${y0}V${y}H${x1}`;
+    });
+    const path = document.createElementNS(NS, 'path');
+    path.setAttribute('d', d); path.setAttribute('fill', 'none'); path.setAttribute('stroke', '#94A3B8');
+    path.setAttribute('stroke-width', '1'); path.setAttribute('stroke-dasharray', '2 2');
+    svg.appendChild(path);
+    page.appendChild(svg);
+  }
+  // 표지 제목: 한 낱말(예: DE „Untersuchungspanel“)이 폭을 넘으면 넘지 않을 때까지 글자 크기를 줄인다(가변 높이 법칙과 같은 취지)
+  document.querySelectorAll('.cv-title').forEach(t => {
+    let fs = parseFloat(getComputedStyle(t).fontSize);
+    while (t.scrollWidth > t.clientWidth + 1 && fs > 48) { fs -= 1.5; t.style.fontSize = fs + 'px'; t.style.lineHeight = (fs * 1.21) + 'px'; }
+  });
+  window.__pageMap = pageMap;
+  window.__pageCount = pno;
+  window.__done = true;
+})();
+</script>
+</body></html>

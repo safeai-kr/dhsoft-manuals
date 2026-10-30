@@ -1,0 +1,434 @@
+[
+ {
+  "ko": "데이터 내보내기",
+  "tr": "Data export",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "추출",
+  "tr": "export",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "추출 시작",
+  "tr": "Start export",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "이력 전체 보기",
+  "tr": "View all history",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "내보내기 허브",
+  "tr": "Export hub",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "최근 추출 이력",
+  "tr": "Recent export history",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "추출 이력",
+  "tr": "Export history",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "프로젝트 상태 배너",
+  "tr": "Project status banner",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "1순위",
+  "tr": "Priority 1",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "2순위",
+  "tr": "Priority 2",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "순위",
+  "tr": "Priority",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "추출 유형",
+  "tr": "Export type",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "Query 이력",
+  "tr": "Query history",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "Lock 이력",
+  "tr": "Lock history",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "서명 이력",
+  "tr": "Signature history",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "방문 이벤트",
+  "tr": "Visit event",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "범위 지정",
+  "tr": "Scope selection",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "범위 프리셋",
+  "tr": "Scope presets",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "범위 계층 트리",
+  "tr": "Scope hierarchy tree",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "Site 범위",
+  "tr": "Site scope",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "자기 Site",
+  "tr": "Own Site",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "전체 Site",
+  "tr": "All Sites",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "기간 필터",
+  "tr": "Period filter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "DataForm 필터",
+  "tr": "DataForm filter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "Visit 필터",
+  "tr": "Visit filter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "필터 · 예상 레코드 수",
+  "tr": "Filters · estimated record count",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "예상 레코드 수",
+  "tr": "Estimated record count",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "데이터 존재 구간",
+  "tr": "Data-existence range",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "취소",
+  "tr": "Cancel",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "유형별 프리셋",
+  "tr": "Presets by type",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "전체 Terminal 피험자",
+  "tr": "All Terminal subjects",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "Terminal 피험자 전체",
+  "tr": "All Terminal subjects",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "예정 방문만",
+  "tr": "Scheduled visits only",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "피험자 잠금",
+  "tr": "Subject Lock",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "프로젝트 잠금",
+  "tr": "Project Lock",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "자료 서명",
+  "tr": "data signature",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "잠금 서명",
+  "tr": "lock signature",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "추출 옵션 설정",
+  "tr": "Export option settings",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "파일 포맷",
+  "tr": "File format",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "PII 마스킹",
+  "tr": "PII masking",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "미확정 데이터 워닝",
+  "tr": "Unconfirmed data warning",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "아카이브된 데이터 포함",
+  "tr": "Include archived data",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "버전 처리 정책",
+  "tr": "Version handling policy",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "추출 실행",
+  "tr": "Run export",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "내보내기 범위",
+  "tr": "Export scope",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "뒤로",
+  "tr": "Back",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "추출 진행 중",
+  "tr": "Export in progress",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "실행 중",
+  "tr": "Running",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "추출 경고",
+  "tr": "Export warnings",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "작업 번호",
+  "tr": "Job number",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "파일명",
+  "tr": "File name",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "크기",
+  "tr": "Size",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "유효 기한",
+  "tr": "Expiration",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "동일 옵션으로 재실행",
+  "tr": "Re-run with same options",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "추출 화면 보기",
+  "tr": "View export screen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "추출 완료와 내려받기",
+  "tr": "Export complete and download",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "내려받은 파일",
+  "tr": "The downloaded file",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "추출 파일 다운로드",
+  "tr": "Downloading the export file",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "수행자",
+  "tr": "Performer",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "레코드 수",
+  "tr": "Record count",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "다운로드",
+  "tr": "Download",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "열 이름",
+  "tr": "column names",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "실제 데이터",
+  "tr": "actual data",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "인스턴스",
+  "tr": "instance",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "양식 코드",
+  "tr": "form code",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "양식 버전",
+  "tr": "form version",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "회차",
+  "tr": "occurrence number",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "입력값",
+  "tr": "entered value",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "무결성 검증 (SHA-256)",
+  "tr": "Integrity check (SHA-256)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "모니터요원",
+  "tr": "monitoring staff",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구책임자",
+  "tr": "principal investigator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구간호사",
+  "tr": "research nurse",
+  "type": "term",
+  "note": ""
+ }
+]

@@ -1,0 +1,2691 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 워크스페이스",
+ "src": "SMART-EDC_사용자매뉴얼_워크스페이스.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "워크스페이스 관리",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "워크스페이스 관리 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "워크스페이스 관리 > 신규 워크스페이스 생성"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "워크스페이스 상세",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "워크스페이스 상세 > 화면 구성"
+    },
+    {
+     "no": "2.2",
+     "title": "워크스페이스 상세 > 메타 편집"
+    },
+    {
+     "no": "2.3",
+     "title": "워크스페이스 상세 > 사용자 · 활동 · 삭제"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "이어지는 화면",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "이어지는 화면 > 사용자 할당 관리"
+    },
+    {
+     "no": "3.2",
+     "title": "이어지는 화면 > 워크스페이스 대시보드"
+    },
+    {
+     "no": "3.3",
+     "title": "이어지는 화면 > 신규 프로젝트 생성"
+    },
+    {
+     "no": "3.4",
+     "title": "이어지는 화면 > 비활성 워크스페이스 접근"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "워크스페이스",
+    "SCR-WS-002 · 관리 목록 · 생성 · 상세 · 사용자 할당 · 대시보드",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-26"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 워크스페이스 관리 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2540,
+       "ih": 1194,
+       "w": 531.375,
+       "h": 219.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 114.18803418803418,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 8.478519760056457,
+         "y": 27.716346153846157
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 85.40159668313339,
+         "y": 10.62232905982906
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 18.64083450952717,
+         "y": 17.118055555555557
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 48.28091919548342,
+         "y": 63.95566239316239
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 21.887129498941427,
+         "y": 10.964209401709402
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 18.499691249117856,
+         "y": 24.639423076923077
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 49.9746383203952,
+         "y": 69.93856837606837
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 98.3867766407904,
+         "y": 73.52831196581197
+        }
+       ],
+       "cap": [
+        {
+         "t": "워크스페이스 관리 (SCR-WS-002)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 340.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "시스템 전역의 워크스페이스를 관리하는 화면입니다. 워크스페이스는 프로젝트를 담는 그릇이고 사용자 할당의 단위이므로, 연구를⁣시작하려면 먼저 여기에서 워크스페이스를 만들어야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "워크스페이스 관리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 진입합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "신규 워크스페이스 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스를 새로 만듭니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "집계 — 전체·활성·비활성 워크스페이스 수와 총 프로젝트 수, 총 멤버 배정 수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "검색과 필터 — 이름이나 코드로 찾고, 상태와 주관 기관으로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "부제에 이 화면이 다루는 범위가 안내됩니다 — 시스템 전역 조회·생성·비활성화입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "현황 카드 — 기관별 분포, 멤버가 배정되지 않은 활성 워크스페이스, 프로젝트가 없는 활성 워크스페이스 등 손봐야 할 곳을 먼저 보⁣여줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "표에는 이름·코드·주관 기관·프로젝트 수·사용자 수·상태·최근 진입이 표시됩니다. 이름을 선택하면 상세로 이동합니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "행 오른쪽 끝의 ⋯ 에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상세 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사용자 할당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(비활성 워크스페이스는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ")가 있습니다. 이 메뉴는 시스템 관리자에⁣게만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "워크스페이스 생성·비활성화는 시스템 관리자만 할 수 있습니다. 워크스페이스 관리자는 본인에게 할당된 워크스페이스를 조회만 할⁣수 있습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "워크스페이스 관리자에게는 행 오른쪽 끝의 ",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        },
+        {
+         "t": "⋯",
+         "b": false,
+         "code": false,
+         "tone": "warn"
+        },
+        {
+         "t": " 메뉴 자체가 표시되지 않습니다. 항목만 비활성으로 남는 것이 아니라 열이 비어 있으⁣므로, 상세와 사용자 할당으로는 이름을 직접 선택해 들어갑니다 (2.1 · 3.1 참조).",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 플랫폼 홈 > ",
+     "cur": false
+    },
+    {
+     "t": "워크스페이스 관리",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 워크스페이스 관리 > 신규 워크스페이스 생성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2298,
+       "ih": 1141,
+       "w": 339.0,
+       "h": 294.75,
+       "ix": -137.94247787610618,
+       "iy": -66.79389312977099,
+       "iwp": 418.141592920354,
+       "ihp": 238.93127700249153,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 48.798741703539825,
+         "y": 25.590410305343514
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 48.798741703539825,
+         "y": 40.60313295165394
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 48.798741703539825,
+         "y": 55.615855597964384
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 81.09962665929203,
+         "y": 96.32832379134861
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 48.798741703539825,
+         "y": 73.045881043257
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 74.90493639380531,
+         "y": 8.287611323155216
+        }
+       ],
+       "cap": [
+        {
+         "t": "목록 위에 열리는 생성 창",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 415.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스를 새로 만듭니다. 별표가 붙은 세 항목은 반드시 입력해야 하며, 생성하면 바로 상세 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "워크스페이스 이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 사용자에게 표시되는 이름입니다. 나중에 바꿀 수 있습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스를 구분하는 고유 코드입니다. 라벨에 적힌 대로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "생성 후에는 변경할 수 없으므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 신중하게 정하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "주관 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 워크스페이스를 주관하는 기관을 선택합니다. 목록에 없으면 기관 관리에서 먼저 등록해야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스를 만듭니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "설명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 항목입니다. 어떤 연구를 담는 워크스페이스인지 적어 두면 목록에서 구분하기 쉽습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "창 밖을 선택하거나 닫기를 선택하면 입력이 버려집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "코드는 생성 후 변경할 수 없습니다. 조직의 코드 규칙을 먼저 확인한 뒤 입력하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 워크스페이스 생성",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "2.1 워크스페이스 상세 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2277,
+       "ih": 1139,
+       "w": 531.375,
+       "h": 145.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 183.4625322997416,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 91.47075688073394,
+         "y": 13.98982558139535
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 91.8941866619619,
+         "y": 36.21204780361757
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 3.679648906139732,
+         "y": 92.54279715762273
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 10.736811926605505,
+         "y": 92.54279715762273
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 19.06426429075512,
+         "y": 92.54279715762273
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 10.948526817219479,
+         "y": 12.956233850129198
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 29.932295342272408,
+         "y": 45.51437338501292
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 12.642245942131265,
+         "y": 72.12936046511628
+        }
+       ],
+       "cap": [
+        {
+         "t": "워크스페이스 상세 (SCR-WS-004) — 아래에 소속 프로젝트 목록이 이어집니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 266.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "단일 워크스페이스의 전체 정보와 할 일을 모아 보여줍니다. 구축이 어디까지 진행되었는지, 다음에 무엇을 해야 하는지가 한눈에 드⁣러납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "메타 편집",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이름과 설명을 수정합니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "바로가기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "다음 할 일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 제시된 단계의 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "프로젝트 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 워크스페이스에 프로젝트를 만듭니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "사용자 할당 관리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스 멤버를 관리합니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "워크스페이스 비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 상태를 비활성으로 바꿉니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "머리에 이름·활성 상태·코드·주관 기관·생성 일시와 설명이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "구성 현황",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스 생성 → 사용자 할당 → 프로젝트 생성 → 운영의 네 단계입니다. 각 단계 카드를 선택해도 해당 화면으로⁣이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "집계 — 전체·활성 프로젝트 수, 총 피험자 수, 할당 사용자 수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "활성 프로젝트 가 0 이어도 전체 프로젝트는 있을 수 있습니다. 구축 단계(설정 중)의 프로젝트는 활성으로 집계되지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "워크스페이스 상세",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.2 워크스페이스 상세 > 메타 편집",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2274,
+       "ih": 403,
+       "w": 531.375,
+       "h": 82.5,
+       "ix": 0.0,
+       "iy": -11.363636363636363,
+       "iwp": 100.21171489061398,
+       "ihp": 114.54545454545455,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 49.9746383203952,
+         "y": 40.5181699810606
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 49.9746383203952,
+         "y": 63.245442708333336
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 97.11648729710657,
+         "y": 30.518169981060606
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 92.45875970359916,
+         "y": 30.518169981060606
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 49.9746383203952,
+         "y": 86.88180634469697
+        }
+       ],
+       "cap": [
+        {
+         "t": "메타 편집 — 머리 카드가 입력 상태로 바뀝니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 203.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "이름과 설명을 수정합니다. 별도 화면으로 이동하지 않고 상세 화면의 머리 카드가 그 자리에서 입력 상태로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 표시되는 이름을 고칩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "설명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스에 대한 설명을 고칩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경한 내용을 반영합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 버리고 조회 상태로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 라벨에 “(변경 불가)” 가 붙고 바탕이 회색이며 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "이름을 바꾸면 이 워크스페이스를 사용하는 모든 사용자의 화면에 즉시 반영됩니다. 운영 중이라면 변경 사실을 멤버에게 알리십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 상세 > ",
+     "cur": false
+    },
+    {
+     "t": "메타 편집",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.3 워크스페이스 상세 > 사용자 · 활동 · 삭제",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2311,
+       "ih": 1133,
+       "w": 531.375,
+       "h": 259.875,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 100.43290043290042,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 91.47075688073394,
+         "y": 3.4834031934862018
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 9.466522582921666,
+         "y": 95.25829350048099
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 29.932295342272408,
+         "y": 3.4834031934862018
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 19.91112385321101,
+         "y": 31.47762971981722
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 49.9746383203952,
+         "y": 91.79509003727753
+        }
+       ],
+       "cap": [
+        {
+         "t": "상세 화면 하단 — 할당 사용자 요약 · 최근 활동 · 삭제 영역",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 381.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "상세 화면의 아래쪽에는 멤버 요약과 활동 기록, 그리고 삭제 영역이 있습니다. 삭제는 조건이 까다로우므로 보통은 비활성화를 사용⁣합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "전체 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 할당 사용자 전원을 관리하는 화면으로 이동합니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "워크스페이스 삭제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 조건을 충족하지 못하면 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "할당 사용자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 요약이라 최대 5명만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "최근 활동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 워크스페이스에서 일어난 변경이 최근순으로 표시됩니다. 누가 언제 무엇을 바꾸었는지 확인할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "삭제가 막혀 있으면 그 이유가 안내됩니다. 캡처는 비활성화가 선행되지 않은 경우입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "삭제는 비활성 상태이고 소속 프로젝트가 전부 구축 단계이거나 없을 때만 가능하며, 워크스페이스와 하위 구성이 물리 삭제되어 되돌⁣릴 수 없습니다. 운영했던 워크스페이스는 삭제하지 말고 비활성화하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "워크스페이스 상세",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 이어지는 화면 > 사용자 할당 관리",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2296,
+       "ih": 1126,
+       "w": 531.375,
+       "h": 124.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 210.27190332326282,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 91.47075688073394,
+         "y": 30.85799817472306
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 12.43053105151729,
+         "y": 30.85799817472306
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 92.24704481298518,
+         "y": 47.17219757049345
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 99.2336362032463,
+         "y": 47.17219757049345
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 14.97110973888497,
+         "y": 2.4592097072082706
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 40.44746824276641,
+         "y": 39.921442283484396
+        }
+       ],
+       "cap": [
+        {
+         "t": "사용자 할당 관리 (SCR-WS-003) — 워크스페이스 멤버 목록",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 245.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스에 사용자를 할당하고 해제하는 화면입니다. 여기에 할당된 사용자만 이 워크스페이스의 프로젝트에 참여할 수 있으므⁣로, 프로젝트 역할 배정보다 먼저 수행합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "사용자 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스에 사용자를 할당합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "변경 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 할당과 해제의 기록을 조회합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "관리자 지정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 해당 사용자를 워크스페이스 관리자로 올립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 워크스페이스에서 할당을 거둡니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "머리의 이동 경로에서 상위 화면으로 돌아갈 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열은 워크스페이스 안에서의 지위(멤버 또는 관리자)입니다. 프로젝트 안에서의 역할(연구자·모니터요원 등)과는 별개입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 관리 목록 → 행 오른쪽 끝의 ⋯ → ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사용자 할당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (시스템 관리자만)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 상세 → ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사용자 할당 관리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 버튼",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 상세 → 구성 현황의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "2. 사용자 할당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 단계 카드",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 상세 → 할당 사용자 요약의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 대시보드 → 위 세 자리와 같은 위치 (3.2 참조)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트의 연구자 배정 화면 → 멤버가 부족할 때 안내되는 링크",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "워크스페이스에서 해제하면 그 사용자의 프로젝트 역할도 함께 끊깁니다. 진행 중인 업무가 있는지 확인한 뒤 해제하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 상세 > ",
+     "cur": false
+    },
+    {
+     "t": "사용자 할당 관리",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.2 이어지는 화면 > 워크스페이스 대시보드",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2266,
+       "ih": 1132,
+       "w": 531.375,
+       "h": 132.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 201.1331444759207,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 92.45875970359916,
+         "y": 37.99999262275732
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 3.397362385321101,
+         "y": 79.35976599386213
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 10.454525405786875,
+         "y": 79.35976599386213
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 26.827143613267467,
+         "y": 79.35976599386213
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 12.995104093154552,
+         "y": 3.439088988912004
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 10.948526817219479,
+         "y": 47.6317206680831
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 47.99863267466479,
+         "y": 83.89234389754485
+        }
+       ],
+       "cap": [
+        {
+         "t": "워크스페이스 대시보드 (SCR-WS-004) — 구성 현황이 접힌 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 253.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "구성 현황의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "운영",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 단계에서 이동하는 화면이며, 동시에 모든 역할이 워크스페이스에 들어올 때 착지하는 화면입니다. 관리자 경로의⁣상세 화면과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "거의 같은 구성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이지만, 보는 사람의 권한에 따라 표시되는 범위가 달라집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "바로가기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · 메타 편집 · 집계는 상세 화면과 같습니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "프로젝트 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 상세 화면의 같은 버튼입니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "사용자 할당 관리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 상세 화면의 같은 버튼입니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "변경 이력 조회",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 권한이 없으면 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "워크스페이스 ›",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 시작합니다 — 관리 경로의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "워크스페이스 관리 /",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 다릅니다. 지금 어느 쪽에 있는지 여기에서 구분⁣하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "구성 현황",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 접힌 상태로 표시되고, 선택하면 네 단계가 펼쳐집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "소속 프로젝트에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 있고 참여 기관 수 열이 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 목록에서 워크스페이스를 선택",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "플랫폼 홈의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이어서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(최근 진입) 또는 내 프로젝트",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "화면 위쪽의 컨텍스트 전환에서 워크스페이스를 선택",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "워크스페이스 대시보드",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스를 전환할 때 거치는 안내 화면",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 상세 → 구성 현황의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "4. 운영",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 단계 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "바로가기",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "권한에 따라 보이는 것이 다릅니다. 일반 멤버에게는 멤버 목록·구성 현황·최근 활동이 표시되지 않으므로, 화면이 다르게 보인다고 오⁣류로 판단하지 마십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 > ",
+     "cur": false
+    },
+    {
+     "t": "워크스페이스 대시보드",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.3 이어지는 화면 > 신규 프로젝트 생성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2304,
+       "ih": 963,
+       "w": 531.375,
+       "h": 212.625,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 104.76190476190477,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 25.556854269583628,
+         "y": 25.06877847589653
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 74.11013585038815,
+         "y": 25.06877847589653
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 25.556854269583628,
+         "y": 46.232799639917694
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 10.454525405786875,
+         "y": 74.45149452527924
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 97.53991707833451,
+         "y": 98.08465149176955
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 29.932295342272408,
+         "y": 9.724863131981188
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 39.953466831333806,
+         "y": 28.243381650499703
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 59.9958098094566,
+         "y": 86.79717353762493
+        }
+       ],
+       "cap": [
+        {
+         "t": "신규 프로젝트 생성 — 필수 항목을 채우기 전에는 생성 버튼이 비활성입니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 334.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 안에 프로젝트를 만듭니다. 프로젝트는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태로 생성되며, 구축을 마친 뒤 운영 상태로 올립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "프로젝트 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트를 구분하는 고유 코드입니다. 라벨에 적힌 대로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "생성 후에는 변경할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "프로젝트명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 사용자에게 표시되는 이름입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "연구 유형",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 연구자 주도 등에서 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "보관 정책",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 자료를 얼마나 보관할지 정합니다. 기본값은 표준입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "프로젝트 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수 항목이 모두 채워질 때까지 비활성 상태로 유지됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "머리에 대상 워크스페이스와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초기 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 안내됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "코드 입력란 아래에 사용할 수 있는 문자와 길이 제한이 안내됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "초기 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 선택하지 않습니다 — 프로젝트를 만들면 표준 역할이 시스템에서 자동으로 생성됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 상세 또는 대시보드 → ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 버튼",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "워크스페이스 상세 또는 대시보드 → 구성 현황의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "3. 프로젝트 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 단계 카드",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "소속 프로젝트가 하나도 없을 때 목록 자리에 표시되는 안내 버튼",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "비활성 워크스페이스에서는 프로젝트를 만들 수 없습니다. 구성 현황의 해당 단계와 버튼이 모두 잠깁니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 프로젝트 생성",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "3.4 이어지는 화면 > 비활성 워크스페이스 접근",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 624,
+       "ih": 368,
+       "w": 282.75,
+       "h": 102.0,
+       "ix": -33.28912466843501,
+       "iy": -7.720588235294118,
+       "iwp": 167.10875331564986,
+       "ihp": 273.5294117647059,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 59.83297413793104,
+         "y": 78.3602845435049
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 82.37939323607428,
+         "y": 50.419108072916664
+        }
+       ],
+       "cap": [
+        {
+         "t": "비활성 워크스페이스에 들어가려 한 경우",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 223.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "비활성 상태의 워크스페이스에 들어가려 하면 내용이 표시되지 않고 안내만 남습니다. 잘못된 접근이 아니라 그 워크스페이스가 비활⁣성이라는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "재시도",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 다시 불러옵니다. 워크스페이스가 다시 활성화된 뒤에 사용하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "안내 문구 “비활성 상태의 워크스페이스입니다.” 가 표시됩니다. 화면 전체가 이 안내로 대체되므로 목록이나 집계는 보이지 않습니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "비활성화는 되돌릴 수 있습니다. 시스템 관리자가 워크스페이스 관리 목록의 행 ",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        },
+        {
+         "t": "⋯",
+         "b": false,
+         "code": false,
+         "tone": "warn"
+        },
+        {
+         "t": " 메뉴에서 활성화하면 즉시 복구됩니다 (1.1 참조).",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 워크스페이스 > ",
+     "cur": false
+    },
+    {
+     "t": "워크스페이스 대시보드",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "manual": "사용자관리",
+ "lang": "ja",
+ "pages": 18,
+ "js_errors": [],
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 13,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.934
+  },
+  "short_last_line": {
+   "pass": true,
+   "balanced": []
+  },
+  "refs": {
+   "pass": true,
+   "unresolved": []
+  },
+  "no_hangul": {
+   "pass": true,
+   "count": 0,
+   "applies": true
+  }
+ },
+ "pass": true
+}

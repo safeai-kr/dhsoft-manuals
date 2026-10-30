@@ -1,0 +1,512 @@
+[
+ {
+  "ko": "Lock 상태 조회",
+  "tr": "Lock status view",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "Lock 적용",
+  "tr": "Apply Lock",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "Lock 해제",
+  "tr": "Release Lock",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "Lock 이력",
+  "tr": "Lock history",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "이력 조회",
+  "tr": "History lookup",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "프로젝트 잠금 · 집계",
+  "tr": "Project lock · summary counts",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "Lock 현황",
+  "tr": "Lock status",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "Lock 관리 →",
+  "tr": "Manage Lock →",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "Project Lock 적용",
+  "tr": "Apply Project Lock",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "Project Lock 해제",
+  "tr": "Release Project Lock",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "잠금 유형",
+  "tr": "Lock type",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "잠금 기준일",
+  "tr": "Lock cut-off date",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "잠금 기준시점",
+  "tr": "Lock cut-off time",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "집계",
+  "tr": "summary counts",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "프로젝트 잠금 상태",
+  "tr": "Project lock status",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "활성 Subject Lock 건수",
+  "tr": "Active Subject Lock count",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "HARD_LOCK 가능 (CLEAN)",
+  "tr": "HARD_LOCK available (CLEAN)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "HARD 가능",
+  "tr": "HARD available",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "전체 Subject",
+  "tr": "All Subjects",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "부분",
+  "tr": "Partial",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "미적용",
+  "tr": "Not applied",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "품질",
+  "tr": "Quality",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "원자료 대조",
+  "tr": "source data check",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "전자서명",
+  "tr": "electronic signature",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "전자서명으로 진행",
+  "tr": "Proceed to electronic signature",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "서명 실행",
+  "tr": "Sign",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "서명 의미와 책임을 이해했습니다",
+  "tr": "I understand the meaning and responsibility of this signature",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "전자서명 비밀번호",
+  "tr": "Electronic signature password",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "서명 목적",
+  "tr": "Signature purpose",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "서명 대상",
+  "tr": "Signature target",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "서명 의미",
+  "tr": "Signature meaning",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "사용자 ID",
+  "tr": "User ID",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "승인자 확인",
+  "tr": "approver confirmation",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "상세 메모",
+  "tr": "Detailed memo",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "사유 구분",
+  "tr": "Reason category",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "해제 사유",
+  "tr": "Release reason",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "적용자 · 사유 · 범위",
+  "tr": "Applied by · reason · scope",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "영향 안내",
+  "tr": "Impact notice",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "대상 지정",
+  "tr": "Select targets",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "행 선택",
+  "tr": "Row selection",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "선택 해제",
+  "tr": "Clear selection",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "선택 N명 일괄 잠금 (FREEZE/SOFT_LOCK)",
+  "tr": "Batch lock N selected subjects (FREEZE/SOFT_LOCK)",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "일괄 잠금",
+  "tr": "batch lock",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "Patient Profile",
+  "tr": "Patient Profile",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "피험자 목록",
+  "tr": "Subject list",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "적용 → 해제 → 재적용",
+  "tr": "apply → release → re-apply",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "테이블",
+  "tr": "Table",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "체인 뷰",
+  "tr": "Chain view",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "기간 시작",
+  "tr": "Period start",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "기간 종료",
+  "tr": "Period end",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "표시 건수 / 전체 건수",
+  "tr": "Shown count / Total count",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "검색",
+  "tr": "Search",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "대상",
+  "tr": "Target",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "작업 종류",
+  "tr": "Action type",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "수행자",
+  "tr": "Performed by",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "적용일",
+  "tr": "applied date",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "범위",
+  "tr": "Scope",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "일시 (KST)",
+  "tr": "Date & time (KST)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "협정세계시",
+  "tr": "Coordinated Universal Time",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "한국 시간",
+  "tr": "Korean time",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "접속 정보",
+  "tr": "connection information",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "참여 기관",
+  "tr": "Participating site",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "스크리닝번호",
+  "tr": "screening number",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "고유번호",
+  "tr": "unique ID",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "기관코드",
+  "tr": "site code",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "품질·규제 > Lock",
+  "tr": "Quality · Regulatory > Lock",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "프로젝트 대시보드",
+  "tr": "Project dashboard",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "데이터 품질",
+  "tr": "Data quality",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "피험자 품질·Lock 목록",
+  "tr": "Subject quality · Lock list",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "데이터 관리자",
+  "tr": "data manager",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구책임자",
+  "tr": "principal investigator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "Query 답변",
+  "tr": "Query response",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "Query 화면",
+  "tr": "Query screen",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "재질의",
+  "tr": "Reopen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "감사 대응",
+  "tr": "audit response",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "모니터링 검토",
+  "tr": "monitoring review",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "모니터링 종료",
+  "tr": "end of monitoring",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "규제 대응",
+  "tr": "regulatory response",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "연구 종결",
+  "tr": "Study closeout",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "데이터 정리 단계",
+  "tr": "data cleaning stage",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "프로토콜 변경",
+  "tr": "protocol change",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "추가 수정 필요",
+  "tr": "additional correction needed",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "Lock 적용 오류 정정",
+  "tr": "correction of Lock application error",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "기타",
+  "tr": "Other",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "Audit Trail",
+  "tr": "Audit Trail",
+  "type": "menu",
+  "note": ""
+ }
+]

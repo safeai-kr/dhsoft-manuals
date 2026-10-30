@@ -1,0 +1,2409 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 사용자 관리",
+ "src": "SMART-EDC_사용자매뉴얼_사용자관리.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "사용자 목록",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "사용자 목록 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "사용자 목록 > 표의 열 구성과 상태"
+    },
+    {
+     "no": "1.3",
+     "title": "사용자 목록 > 행 액션 메뉴"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "사용자 등록",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "사용자 등록 > 신규 사용자 등록"
+    },
+    {
+     "no": "2.2",
+     "title": "사용자 등록 > 초대 대기와 초대 메일 재발송"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "상태 관리",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "상태 관리 > 사용자 비활성화"
+    },
+    {
+     "no": "3.2",
+     "title": "상태 관리 > 비활성화 결과"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "사용자 관리",
+    "SCR-ACC-007 · 목록 · 신규 등록 · 초대 · 상태 관리",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-27"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 사용자 목록 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2542,
+       "ih": 677,
+       "w": 531.375,
+       "h": 89.62498474121094,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 158.1590057175565,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 91.8941866619619,
+         "y": 23.90819834232914
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 69.94640966831334,
+         "y": 38.55255229998725
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 88.43617678193367,
+         "y": 38.55255229998725
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 95.42276817219478,
+         "y": 38.55255229998725
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 95.98734121383204,
+         "y": 63.23874897146806
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 5.93794107268878,
+         "y": 56.962597275328875
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 19.134835920959777,
+         "y": 25.163428681556976
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 81.73187191249119,
+         "y": 53.6153163707213
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 58.44323394495413,
+         "y": 63.23874897146806
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 16.100255822159493,
+         "y": 63.23874897146806
+        }
+       ],
+       "cap": [
+        {
+         "t": "사용자 관리 (SCR-ACC-007) — 상태 「활성」·기관 「연세대학교」로 걸러진 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 211.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "플랫폼에 등록된 사용자를 조회하고 상태를 관리하는 화면입니다. 계정을 만드는 곳이자 잠금·비활성화를 푸는 곳이며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시스템 관리자⁣만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 들어올 수 있습니다. 프로젝트 안에서의 역할 배정은 여기가 아니라 각 프로젝트의 권한 관리에서 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "+ 신규 사용자 등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계정을 만들고 초대 메일을 보냅니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이메일·이름·기관으로 찾습니다. 입력을 멈추면 잠시 뒤 자동으로 조회됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상태 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전체 · 활성 · 비활성 · 잠금 · 초대 대기 5가지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "기관 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 소속 기관으로 좁힙니다. 활성 기관만 목록에 나옵니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "⋯ — 그 사용자에 대한 액션 메뉴를 펼칩니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "플랫폼 메뉴 > 사용자 관리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 상시 입구입니다. 역할별 대시보드의 거버넌스 위젯에서도 들어올 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "부제 “플랫폼 사용자 조회·상태 관리·초대” 가 이 화면이 다루는 범위입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "열 구성 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이메일 · 이름 · 소속 기관 · 상태 · 최근 로그인 · 생성일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 초대 대기 · 활성 · 비활성 · 잠금 네 가지입니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 링크입니다 — 선택하면 그 사용자의 상세 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "이 화면은 시스템 관리자 전용입니다. 워크스페이스 관리자에게는 왼쪽 메뉴에 항목이 보이지 않으며, 주소로 직접 들어가도 권한 부⁣족 안내가 표시됩니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 플랫폼 메뉴 > ",
+     "cur": false
+    },
+    {
+     "t": "사용자 관리",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 사용자 목록 > 표의 열 구성과 상태",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2542,
+       "ih": 677,
+       "w": 531.75,
+       "h": 55.5,
+       "ix": -9.94358251057828,
+       "iy": -77.7027027027027,
+       "iwp": 110.15514809590974,
+       "ihp": 281.0810535877675,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 95.5670398448519,
+         "y": 35.23015202702703
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 4.452794428772919,
+         "y": 18.338260135135133
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 28.782836741889984,
+         "y": 18.338260135135133
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 39.78424717912553,
+         "y": 18.338260135135133
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 54.100185119887165,
+         "y": 18.338260135135133
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 61.43445874471086,
+         "y": 18.338260135135133
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 79.7701428067701,
+         "y": 18.338260135135133
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 54.17070698166432,
+         "y": 56.17609797297297
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 7.908365655853314,
+         "y": 35.23015202702703
+        }
+       ],
+       "cap": [
+        {
+         "t": "목록 표 — 열 여섯 개와 행 액션 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 176.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "한 행이 사용자 한 명입니다. 여섯 개 열 가운데 업무상 가장 자주 보는 것은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이며, 그 값에 따라 행 액션 메뉴에서 할 수 있는 일⁣이 달라집니다 (1.3 참조). 캡처는 상태 필터가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 걸린 화면입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⋯ — 행 액션 메뉴입니다. 열려 있는 메뉴는 그 행에만 적용됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 로그인 계정입니다. 선택하면 상세 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 등록할 때 입력한 이름입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "소속 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기관 관리에 등록된 기관 중에서 지정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 네 가지입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(초대만 보낸 상태) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(정상) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(사용 중지) · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "잠금",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(로그인 실패 누적). 전자서명만 잠긴 계⁣정은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "서명 잠금",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 하나 더 붙습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "최근 로그인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 한 번도 로그인하지 않았으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "-",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 초대 대기 사용자가 여기에 해당합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "생성일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계정을 만든 날입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 캡처는 상태 필터가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 걸려 있어 이 배지만 보입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지의 실제 모습은 2.2 와 3.2 에서 확인하십⁣시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 셀은 링크입니다 — 선택하면 그 사용자의 상세 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "잠금 과 비활성 은 다릅니다. 잠금은 로그인 실패가 쌓여 시스템이 자동으로 건 것이라 잠금 해제 로 바로 풀리고, 비활성은 관리자가⁣의도적으로 중지한 것이라 활성화 를 해야 돌아옵니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 사용자 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "목록 표",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "1.3 사용자 목록 > 행 액션 메뉴",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2276,
+       "ih": 258,
+       "w": 526.125,
+       "h": 58.875,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21382751247327,
+       "ihp": 101.91082802547771,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 96.37495545260157,
+         "y": 45.94944267515923
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 67.43696543121882,
+         "y": 25.567277070063692
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 67.43696543121882,
+         "y": 66.33160828025477
+        }
+       ],
+       "cap": [
+        {
+         "t": "활성 사용자의 ⋯ 메뉴 — 세 항목",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 180.375
+      },
+      {
+       "img": "p05_2.png",
+       "iw": 2276,
+       "ih": 258,
+       "w": 423.75,
+       "h": 105.75,
+       "ix": -257.9646017699115,
+       "iy": -62.056737588652474,
+       "iwp": 358.4071084531711,
+       "ihp": 163.1205673758865,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 91.07439159292035,
+         "y": 38.70234929078014
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 91.07439159292035,
+         "y": 55.01440602836879
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 91.07439159292035,
+         "y": 78.41866134751773
+        }
+       ],
+       "cap": [
+        {
+         "t": "메뉴 확대 — 항목은 그 행의 상태에 따라 달라집니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 205.875,
+       "fy1": 311.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "⋯ 를 선택하면 그 사용자에게 할 수 있는 일만 골라 보여 줍니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "항목 수가 행마다 다른 것은 정상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 잠기지 않은 계정에 「잠⁣금 해제」가 없고, 이미 활성인 계정에 「활성화」가 없는 식입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⋯ — 메뉴를 펼칩니다. 다시 선택하거나 바깥을 선택하면 닫힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "상세 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 사용자의 상세 화면으로 이동합니다. 목록의 이메일을 선택해도 같은 곳으로 갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계정을 중지합니다 (3.1 참조). 자기 자신에게는 흐리게 표시되고 “(자기 자신 불가)” 가 함께 붙습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "비밀번호 초기화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 임시 비밀번호를 메일로 보냅니다. 활성 계정에만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "맨 윗행은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 사용자입니다 — 그 행의 메뉴에는 항목이 하나 더 있습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "메뉴를 연 행을 포함해 나머지는 모두 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이라 메뉴 구성이 같습니다 — 그래서 「초대 메일 재발송」 이 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "행 상태에 따라 더해지는 항목",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "초대 메일 재발송",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 초대 대기 사용자에게만 (2.2 참조)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비활성 사용자에게만 (비활성화 자리에 바뀌어 표시)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "잠금 해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 로그인 실패로 잠긴 계정에만 · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "확인 창 없이 즉시 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "전자서명 잠금 해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전자서명 비밀번호가 잠긴 계정에만 · 즉시 실행",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "잠금 해제와 초대 메일 재발송은 확인 창 없이 바로 실행됩니다. 선택하는 즉시 처리되므로 행을 잘못 고르지 않았는지 먼저 확인하십⁣시오. 되돌리는 별도 기능은 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 사용자 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "행 액션 메뉴",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.1 사용자 등록 > 신규 사용자 등록",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2299,
+       "ih": 1107,
+       "w": 248.25,
+       "h": 226.5,
+       "ix": -111.32930513595166,
+       "iy": -47.18543046357616,
+       "iwp": 358.9123867069486,
+       "ihp": 189.40397350993376,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 92.0152001510574,
+         "y": 29.658936085816777
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 92.0152001510574,
+         "y": 41.91059171495585
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 92.0152001510574,
+         "y": 54.16224734409493
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 92.0152001510574,
+         "y": 66.413902973234
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 92.0152001510574,
+         "y": 78.66555860237307
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 92.0152001510574,
+         "y": 86.94370429773731
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 46.39586480362537,
+         "y": 18.069532112306845
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 55.4593089123867,
+         "y": 86.94370429773731
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 94.43211858006042,
+         "y": 8.632446019591612
+        }
+       ],
+       "cap": [
+        {
+         "t": "신규 사용자 등록 — 비밀번호는 입력하지 않습니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 347.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "계정을 만들고 그 자리에서 초대 메일을 보냅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "관리자가 비밀번호를 정하지 않습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 메일로 간 초대 링크에서 사용자가 직접⁣설정하며, 그 전까지 계정은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태로 남습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이메일 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 로그인 계정이자 초대 메일을 받을 주소입니다. 이미 등록된 주소이면 “이미 등록된 이메일입니다” 가 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이름 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 100자 이내입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "소속 기관 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기관 관리에 등록된 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 기관 중에서 선택합니다. 찾는 기관이 없으면 기관 관리에서 먼저 등록해야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "휴대전화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 항목입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "직책 / 부서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 항목입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "등록 + 초대 발송",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계정 생성과 메일 발송이 한 번에 이루어집니다. 별표가 붙은 세 항목이 채워져야 선택할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "“등록 후 입력한 이메일로 초대 링크가 발송됩니다. 사용자는 비밀번호 설정 후 로그인할 수 있습니다.” — 이 화면에 비밀번호 칸이⁣없는 이유입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 버리고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "창 밖을 선택하거나 닫기를 선택해도 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "이메일은 로그인 계정이라 등록 후 바꾸기 번거롭습니다. 오탈자가 있으면 초대 메일이 엉뚱한 곳으로 가고 그 계정은 끝까지 초대 대⁣기로 남습니다. 발송 전에 주소를 한 번 더 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 사용자 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 사용자 등록",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.2 사용자 등록 > 초대 대기와 초대 메일 재발송",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2271,
+       "ih": 365,
+       "w": 526.125,
+       "h": 83.62499237060547,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21382751247327,
+       "ihp": 101.34529160255619,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 96.37495545260157,
+         "y": 56.565006780924364
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 67.43696543121882,
+         "y": 56.565006780924364
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 87.39419992872416,
+         "y": 26.968591524688453
+        }
+       ],
+       "cap": [
+        {
+         "t": "등록 직후 — 맨 위에 초대 대기 행이 생깁니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 205.125
+      },
+      {
+       "img": "p07_2.png",
+       "iw": 2271,
+       "ih": 365,
+       "w": 423.75,
+       "h": 121.5,
+       "ix": -257.9646017699115,
+       "iy": -100.30864197530865,
+       "iwp": 358.4070796460177,
+       "ihp": 201.23456790123458,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 91.07439159292035,
+         "y": 35.84567097479424
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 91.07439159292035,
+         "y": 50.9691277649177
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 91.07439159292035,
+         "y": 71.95678208590535
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 91.07439159292035,
+         "y": 86.77159690072016
+        }
+       ],
+       "cap": [
+        {
+         "t": "초대 대기 행의 ⋯ 메뉴 — 재발송 항목이 하나 더 있습니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 229.125,
+       "fy1": 350.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "등록을 마치면 목록 맨 위에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 행이 생깁니다. 사용자가 초대 링크에서 비밀번호를 설정하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 바뀌며, 그때까지는 로⁣그인할 수 없습니다. 메일을 받지 못했다는 연락이 오면 이 행의 메뉴에서 다시 보냅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⋯ — 초대 대기 행의 액션 메뉴입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "상세 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 사용자의 상세 화면으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "초대 메일 재발송",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 초대 링크를 다시 보냅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "확인 창 없이 즉시 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되며 처리 중에는 “재발송 중…” 으로 바뀝니다. 활성 사용자⁣에게는 이 항목이 표시되지 않습니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 초대 대기 상태에서도 중지할 수 있습니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "비밀번호 초기화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 활성 계정용입니다. 초대 대기 사용자에게는 초대 메일 재발송을 사용하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "최근 로그인 -",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 짝을 이룹니다 — 한 번도 로그인한 적이 없다는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "상태 필터를 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 두면 아직 들어오지 않은 사용자만 모아 볼 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "초대 링크에는 유효 기간 이 있습니다. 사용자가 기간을 넘겨 접속하면 링크가 만료되므로, 그때는 다시 등록하지 말고 초대 메일 재발⁣송 을 사용하십시오 — 같은 주소로 계정을 다시 만들면 중복 오류가 납니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 사용자 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "초대 대기",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 상태 관리 > 사용자 비활성화",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2288,
+       "ih": 876,
+       "w": 296.25,
+       "h": 142.5,
+       "ix": -115.31645569620252,
+       "iy": -139.21052631578948,
+       "iwp": 372.1518987341772,
+       "ihp": 296.3158108895285,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 94.32159810126582,
+         "y": 50.03683525219298
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 94.32159810126582,
+         "y": 73.98420367324562
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 66.72666139240506,
+         "y": 28.72104577850877
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 63.688686708860764,
+         "y": 60.563151041666664
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 65.96716772151898,
+         "y": 73.98420367324562
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 95.58742088607595,
+         "y": 16.615782620614038
+        }
+       ],
+       "cap": [
+        {
+         "t": "사용자 비활성화 — 네 가지 액션 중 유일하게 사유가 필수입니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 263.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "퇴사·전보 등으로 더 이상 쓰지 않는 계정을 중지합니다. 계정을 지우는 것이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로그인만 막는",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 것이며, 그 사용자가 남긴 데이터⁣와 기록은 그대로 보존됩니다. 되돌리려면 같은 메뉴에서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "사유 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수 입력입니다. 감사 추적에 남는 기록이므로 “퇴사” 처럼 사실을 적으십시오. 비워 두면 실행을 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비활성화를 수행합니다. 되돌릴 수 있는 작업이지만 즉시 로그인이 차단되므로 대상을 확인한 뒤 선택하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 머리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대상 사용자의 이름과 이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 표시됩니다. 다른 사람이 아닌지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "“종속 ProjectRole 이 자동 해제됩니다 (Audit Trail 기록).” — 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아무 것도 바꾸지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "창 밖을 선택하거나 닫기를 선택해도 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "비활성화하면 그 사용자의 프로젝트 역할이 모두 자동으로 해제됩니다. 나중에 활성화해도 역할은 함께 돌아오지 않으므로 각 프로젝⁣트의 권한 관리에서 다시 배정해야 합니다. 진행 중인 업무가 있는지 먼저 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 사용자 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "사용자 비활성화",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.2 상태 관리 > 비활성화 결과",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2290,
+       "ih": 251,
+       "w": 531.375,
+       "h": 57.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 101.96078431372548,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 95.98734121383204,
+         "y": 85.0588065087146
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 66.91182956951306,
+         "y": 85.0588065087146
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 87.44817395906846,
+         "y": 43.22874114923747
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 94.99933839096684,
+         "y": 43.22874114923747
+        }
+       ],
+       "cap": [
+        {
+         "t": "비활성화 직후 — 배지가 「초대 대기」 그대로입니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 178.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "실행을 마치면 창이 닫히고 목록이 다시 조회됩니다. 처리 자체는 끝났지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "목록의 상태 배지만으로는 비활성 여부를 알 수 없는 경우⁣가 있으므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 결과는 상태 필터로 확인하는 것이 확실합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⋯ — 비활성화한 사용자의 메뉴를 다시 열면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 자리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 표시됩니다. 되돌릴 때는 그 항목을 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 비활성화했는데도 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초대 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 그대로입니다. 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "상태 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 바꾸면 중지된 사용자만 모아 볼 수 있습니다. 비활성화 결과는 이 방법으로 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "기관 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 함께 걸어 두면 특정 기관의 중지 계정만 추려집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "초대 대기 사용자를 비활성화하면 배지가 바뀌지 않습니다. 화면이 초대 대기를 먼저 표시하기 때문이며 처리가 실패한 것이 아닙니⁣다. 비활성 여부는 상태 필터를 「비활성」 으로 바꾸어 확인하십시오 — 중지된 계정이면 그 목록에 나타납니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 사용자 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "비활성화 결과",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

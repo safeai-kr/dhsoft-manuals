@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>SMART-EDC ユーザーマニュアル — 被験者</title>
+<meta name="author" content="hy0909">
+<style>@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-400.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-500.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-700.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-800.ttf) format("truetype");font-weight:800}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Medium.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Bold.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-ExtraBold.ttf) format("truetype");font-weight:800}
+@page{size:210mm 297mm;margin:0}
+/* 언어별: 자간(2절: 한국어 10pt 초과 -3%, 영어 -1%; 독일어는 영어와 같게, 일본어 0 [확인 필요]) · 글꼴 · 줄바꿈 */
+:root{--ls:-0.03em}
+body.lang-en,body.lang-de{--ls:-0.01em}
+body.lang-ja{--ls:0em}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
+body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
+body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal}
+body.lang-en td:first-child,body.lang-en th:first-child,body.lang-de td:first-child,body.lang-de th:first-child,body.lang-en table.wide th:nth-child(1),body.lang-de table.wide th:nth-child(1){width:96px}   /* 첫 열이 음절 단위로 쪼개질 만큼 좁아지지 않게 */   /* 좁은 표 열: 낱말을 하이픈 없이 끊지 않고 사전식 하이픈으로 나눈다 */
+body.lang-ja{font-family:"PretendardJPM",sans-serif;word-break:normal;line-break:strict}
+b{font-weight:700;color:#111B2B}
+ul{list-style:none}
+p,li,figcaption,td,th,h4{white-space:pre-wrap}
+/* 코드 칩: 배경은 위아래로만 넓힌다. 좌우로 넓히면 앞뒤 괄호·글자를 덮는다. 좌우 padding/margin은 복사 공백이 생길 수 있어 쓰지 않는다. */
+code{font-family:inherit;color:#202F86;background:#F1F3FE;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+a{color:inherit;text-decoration:none}
+
+.page{width:794px;height:1123px;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.page:last-child{break-after:auto;page-break-after:auto}
+
+/* ---------- 표지 ---------- */
+.page.cover{background:#071426;color:#fff}
+.cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
+.cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
+.cv-brand{font-size:28.5px;font-weight:800;line-height:34px;letter-spacing:-0.01em}
+.cv-brand .sm{color:#65E5D1}
+.cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-main{position:absolute;left:56px;right:56px;top:322px}
+.cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
+.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
+.cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
+.cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
+.cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
+.cv-logo{width:138px;height:auto}
+
+/* ---------- 목차 ---------- */
+.toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
+.toc-h h1{font-size:33.5px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
+.toc-h .brand{font-size:12.5px;font-weight:700;color:#94A3B8;line-height:15px}
+.page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
+.tch{margin-bottom:37.33px}
+.tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
+.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3349CA;flex:none}
+.tct{margin-left:5.33px;font-size:16px;font-weight:700;color:#111B2B;letter-spacing:var(--ls);line-height:24px}
+.tch ul{margin-top:6px}
+.tch li a{display:flex;align-items:flex-start;padding:3.33px 0;font-size:15.5px;line-height:24px}
+.tch li:first-child a{padding-top:5.33px}
+.tn{width:26px;margin-left:27.33px;font-weight:700;color:#94A3B8;flex:none;letter-spacing:-0.01em}
+.tt{margin-left:5.33px;flex:1;color:#263341;letter-spacing:var(--ls)}
+.tp{width:24px;text-align:center;font-size:13.5px;color:#8C96A8;flex:none}
+
+/* ---------- 간지 ---------- */
+.page.divider{background:#EFF1FA}
+.dlabel{position:absolute;left:56px;top:43px;font-size:14.5px;color:#405169;line-height:20px;letter-spacing:var(--ls)}
+.dhead{position:absolute;left:52px;top:140px;right:56px}
+.dnum{font-size:99.6px;font-weight:800;color:#45517E;line-height:1.2;letter-spacing:var(--ls)}
+.dtitle{font-size:52px;font-weight:700;color:#15233A;line-height:1.25;margin-top:4px;letter-spacing:var(--ls)}
+.dbar{position:absolute;right:0;width:19px;background:#45517E}
+.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #C8D0DD;padding-top:22px}
+.dlist li{display:flex;align-items:baseline;margin-bottom:20px}
+.dn{width:34px;padding-left:4px;flex:none;font-size:16.5px;font-weight:700;color:#94A3B8}
+.dt{font-size:18.5px;color:#26374B;line-height:1.3;letter-spacing:var(--ls)}
+.pno{position:absolute;right:56px;top:1063px;font-size:13.5px;color:#8590AE;line-height:20px}
+
+/* ---------- 본문 ---------- */
+.hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
+/* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
+.hx{min-width:0}
+.ht{display:flex;align-items:baseline;padding-top:38px;font-size:31.5px;line-height:44px;font-weight:700;color:#fff;letter-spacing:var(--ls)}
+.hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
+.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
+.ftr .chn{flex:1}
+.ftr .brand{font-weight:700;margin-right:20px}
+
+.blk{display:block}
+.path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
+.path .lbl{font-weight:700;color:#6B7689;margin-right:5px;white-space:pre}
+.path .chev{margin:0 2px;flex:none}
+.tab{margin-top:40px}
+.area>.blk:first-child{margin-top:0!important}
+.path+.tab{margin-top:38px}
+.tab h3{display:flex;align-items:flex-end;font-weight:700}
+.tab h3 span{background:#191F29;color:#fff;font-size:17px;line-height:23px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
+.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #191F29}
+.tab+.blk{margin-top:12px}
+.ov p{font-size:14.5px;line-height:1.5;color:#202630;letter-spacing:var(--ls)}
+.ov+.ov{margin-top:6px}
+
+.legend{border:1px solid #E2E8F0;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:flex-start;font-size:13px;line-height:18px;color:#111B2B}
+/* 범례 항목: 위 정렬. 원 중심 = 첫 줄 글자 높이 중심(기준선 − 0.358em, 13px 기준 1.35px 내림), 제목(b)과 설명(span)은 같은 글자 크기·줄 높이라 첫 줄 기준선이 같다 */
+.lg{display:flex;align-items:flex-start}
+.lg>.lcir{margin-top:1.35px}
+.lg>b,.lg>span{line-height:18px}
+.lg>span{min-width:0}
+.lg b{margin:0 2.5px 0 5px;white-space:pre}
+.lg.note b{margin-right:0}
+.lg.note b{color:#475569}
+.lcir{width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;line-height:1;color:#fff;flex:none}
+/* 범례 원은 SVG(.cn)가 그린다 */
+.legend+.fig{margin-top:8px!important}
+
+.fig{background:#F6F7F9;border-radius:8px;padding:14px 16px 16px;display:flex;justify-content:center;gap:16px}
+.shot{flex:none}
+.imgbox{display:grid;width:100%;border-radius:8px;background:#fff}
+.imgbox>*{grid-area:1/1}
+.imgbox img{display:block;width:100%;height:auto;border-radius:8px}
+.mk{align-self:start;justify-self:start;margin-right:-22px;margin-bottom:-22px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11.4px;font-weight:700;line-height:1;color:#fff;box-shadow:0 0 0 0.5px rgba(100,116,139,.25),0 1px 3px rgba(100,116,139,.35)}
+/* 화면 위 번호: 흰 테두리 바깥에만 연한 회색 그림자(원 모양 그대로, 잘리지 않게 작게) */
+.mk-set,.mk-ref{}
+
+figcaption{margin-top:10px;font-size:12px;line-height:1.45;color:#475364;letter-spacing:0}
+figcaption code{color:#475364;background:#E9ECF3}
+.fig+.item{margin-top:8px}
+
+.item{display:flex;align-items:flex-start;padding:10px 0}
+.item+.item{background:linear-gradient(#F1F5F9,#F1F5F9) no-repeat 33px 0/calc(100% - 33px) 1px}
+.cir{width:23px;height:23px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1;color:#fff}
+/* 번호 설명 원은 SVG(.cn)가 그린다 */
+.cir.c-res{width:22px;height:22px}
+.item .body{margin-left:10px;flex:1;min-width:0}
+.item .t{font-size:14.5px;line-height:1.55;color:#111B2B;letter-spacing:var(--ls)}
+.item.k-ref .t,.item.k-ref .t b{color:#475569}
+.ress{margin-top:12px;margin-left:0}
+.res{display:flex;align-items:flex-start}
+.res+.res{margin-top:8px}
+.res .t{margin-left:10px;flex:1;color:#263341}
+.res .t b{color:#111B2B}
+.res .cir{margin-top:0}
+.conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+
+.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
+
+.card{border-radius:8px;padding:14px 14.7px 15px}
+.card+.card{margin-top:7.33px}
+.tab+.card{margin-top:12px}
+.card h4{display:flex;align-items:baseline;font-size:14.5px;font-weight:700;line-height:20px;white-space:normal}
+.card .ttl{white-space:pre}
+.card .sub{font-size:12px;font-weight:400;margin-left:4.5px}
+.card ul{margin-top:6px}
+.card li{font-size:13.5px;font-weight:500;line-height:1.52;color:#475569;padding-left:14px;text-indent:-14px}
+.card li+li{margin-top:4px}
+.card li b{color:inherit}
+.card .bul{display:inline-block;width:14px;text-indent:0}
+.card.must{background:#FDF2F3}.card.must h4{color:#B91C1C}.card.must .ref{color:#A15E61}.card.must code{background:#F6DCDE;color:inherit}
+.card.misc{background:#FEF9F0}.card.misc h4{color:#885910}.card.misc .ref{color:#927341}.card.misc code{background:#FCE8BF;color:inherit}
+.card.note{background:#F1F5F9}.card.note h4{color:#475569}.card.note .ref{color:#64748B}.card.note code{background:#E2E8F0;color:inherit}
+.card.note li b{color:#334155;font-weight:700}
+
+.plain ul li{font-size:14.5px;line-height:1.55;color:#202630;padding-left:14px;text-indent:-14px;letter-spacing:var(--ls)}
+.plain ul li+li{margin-top:6px}
+.plain .bul{display:inline-block;width:14px;text-indent:0}
+.box{border:1px solid #E2E8F0;border-radius:8px;padding:14px 16px}
+.box+.box{margin-top:8px}
+.box p{font-size:13.5px;line-height:1.52;color:#202630}
+
+.tblwrap table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:left;padding:11px 10.7px;vertical-align:top}
+td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
+td b{color:#111B2B}
+td.c0,td.c0 b{color:#475569}
+td .ref{vertical-align:3px}
+table.wide td{padding:8px 10.7px}
+table.wide th{padding:9px 10.7px}
+table.wide{table-layout:fixed}
+table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),body.lang-de table.wide th:nth-child(4),body.lang-ja table.wide th:nth-child(4){width:auto;min-width:82px}/* 번역본: 4열이 내용 열인 비교표가 82px에 갇히지 않게 */table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
+
+/* 원형 안 숫자: 가운데 정렬 후 paginate.js가 실제 글자 잉크 범위를 재서 원의 정중앙으로 보정한다 */
+/* 원형 숫자는 SVG(.cn): 좌표는 build.py가 글리프 잉크 경계로 계산. 원과 같은 크기, 테두리가 있으면 음수 margin으로 테두리까지 덮어 원 중심과 SVG 중심을 일치 */
+.cn{display:block;flex:none;overflow:visible}
+.cir,.lcir,.mk{background:none!important;border:none!important}
+.cn text{font-weight:700;letter-spacing:0}
+
+</style></head>
+<body class="lang-ja">
+<div id="src" hidden>
+<section class="cover">
+  <div class="cv-wave"></div><div class="cv-grad"></div>
+  <div class="cv-top"><span class="cv-brand"><span class="sm">SMART</span> EDC</span><span class="cv-sys">臨床試験電子データ収集システム</span></div>
+  <div class="cv-main noclass"><h1 class="cv-title">被験者</h1><p class="cv-sub">SCR-SUBJ-001·002·003·004·009·017 · 一覧 · 登録 · 詳細 · ステータス変更</p></div>
+  <div class="cv-bottom"><span class="cv-kind">ユーザーマニュアル · 画面別分冊</span><img class="cv-logo" src="img/logo.png" alt="DH Digital Healthcare Software"></div>
+</section>
+<section class="toc" data-title="目次"><div class="flow"><div class="tch blk"><div class="tchh"><span class="tcn">1</span><span class="tct">被験者一覧</span></div><ul><li><a href="#s1-1"><span class="tn">1.1</span><span class="tt">画面構成</span><span class="tp" data-for="s1-1"></span></a></li><li><a href="#s1-2"><span class="tn">1.2</span><span class="tt">検索 · 並べ替え · フィルター</span><span class="tp" data-for="s1-2"></span></a></li><li><a href="#s1-3"><span class="tn">1.3</span><span class="tt">表の列構成と行アクション</span><span class="tp" data-for="s1-3"></span></a></li><li><a href="#s1-4"><span class="tn">1.4</span><span class="tt">新規被験者登録</span><span class="tp" data-for="s1-4"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">2</span><span class="tct">被験者詳細</span></div><ul><li><a href="#s2-1"><span class="tn">2.1</span><span class="tt">画面構成</span><span class="tp" data-for="s2-1"></span></a></li><li><a href="#s2-2"><span class="tn">2.2</span><span class="tt">基本情報 · 登録情報の編集</span><span class="tp" data-for="s2-2"></span></a></li><li><a href="#s2-3"><span class="tn">2.3</span><span class="tt">来院タイムライン</span><span class="tp" data-for="s2-3"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">3</span><span class="tct">ステータス変更</span></div><ul><li><a href="#s3-1"><span class="tn">3.1</span><span class="tt">遷移先の選択</span><span class="tp" data-for="s3-1"></span></a></li><li><a href="#s3-2"><span class="tn">3.2</span><span class="tt">研究終了</span><span class="tp" data-for="s3-2"></span></a></li><li><a href="#s3-3"><span class="tn">3.3</span><span class="tt">ステータス変更履歴</span><span class="tp" data-for="s3-3"></span></a></li></ul></div></div></section>
+<section class="divider" data-ch="1" data-chtitle="1. 被験者一覧">
+<div class="dlabel">画面別分冊 — 被験者</div>
+<div class="dhead"><div class="dnum">1</div><h1 class="dtitle" id="ch1">被験者一覧</h1></div>
+<ul class="dlist"><li><span class="dn">1.1</span><span class="dt">画面構成</span></li><li><span class="dn">1.2</span><span class="dt">検索 · 並べ替え · フィルター</span></li><li><span class="dn">1.3</span><span class="dt">表の列構成と行アクション</span></li><li><span class="dn">1.4</span><span class="dt">新規被験者登録</span></li></ul></section><section class="sec" id="s1-1" data-num="1.1" data-chtitle="1. 被験者一覧">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.1</span><span class="hx">画面構成</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">プロジェクトダッシュボード</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">被験者一覧</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>プロジェクトに登録された被験者をまとめて確認する画面です。被験者業務の出発点で、登録・ステータス変更・来院・データ入力へ進む経路はすべてこの一覧から分かれます。参加施設のみを担当するロールには、その施設の被験者だけが表示されます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.77867"><img src="img/s1_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(93.447% - 11px);margin-top:calc(4.244% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(40.095% - 11px);margin-top:calc(8.902% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(37.977% - 11px);margin-top:calc(11.160% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(4.738% - 11px);margin-top:calc(7.491% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(12.572% - 11px);margin-top:calc(4.950% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(21.746% - 11px);margin-top:calc(6.785% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(15.395% - 11px);margin-top:calc(13.277% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(19.488% - 11px);margin-top:calc(1.210% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>被験者一覧 (SCR-SUBJ-001) — プロジェクトに登録された被験者全体</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>新規被験者</b> — 被験者を新たに登録します <span class="ref">1.4</span>。登録権限がないか、プロジェクトが終了・保管状態の場合、このボタンは表示されません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>検索 · 並べ替え · 参加施設 · 終了ステータス全体</b> — 一覧を絞り込む4つの手段です <span class="ref">1.2</span>。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>ステータスフィルター</b> — 10種類のステータスから選んで絞り込みます <span class="ref">1.2</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">左のメニューの<b>研究運営 &gt; 被験者</b> から、いつでもこの一覧に戻れます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>全N名</b> — フィルターを適用した後の総人数です。現在のページに表示されている行数とは異なる場合があります（1ページに20名）。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">集計バッジ3種 — スクリーニング · 登録/割付 · Terminal です。下の注意事項を確認してください。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">表 — 被験者1名が1行です。行を選択すると、その被験者の画面に移動します <span class="ref">1.3</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">画面上部で、ワークスペースとプロジェクトを切り替えられます。プロジェクトを変えると、一覧の内容も変わります。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>集計バッジ3種の合計は総数と一致しません。登録と投与中のステータスは、この3つのバッジのどれにも集計されないためです。例えばキャプチャは、6名のうち5名が投与中ですが「登録/割付 0」と表示されます。人数は「全N名」とステータスフィルターで確認してください。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s1-2" data-num="1.2" data-chtitle="1. 被験者一覧">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.2</span><span class="hx">検索 · 並べ替え · フィルター</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">被験者一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">検索 · 並べ替え · フィルター</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>一覧を絞り込む手段は5つあり、互いに重ねて適用されます。条件を変えると、ページ番号は1ページ目に戻り、総人数も計算し直されます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:516.8px"><div class="imgbox" style="aspect-ratio:3.00266"><img src="img/s1_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(30.836% - 11px);margin-top:calc(19.942% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(49.348% - 11px);margin-top:calc(19.942% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(74.946% - 11px);margin-top:calc(19.942% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.887% - 11px);margin-top:calc(19.942% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.078% - 11px);margin-top:calc(26.939% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(10.818% - 11px);margin-top:calc(7.010% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(39.694% - 11px);margin-top:calc(12.856% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(20.562% - 11px);margin-top:calc(3.290% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span></div><figcaption>一覧上部の検索・フィルター領域（拡大）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>検索</b> — Screening No · 氏名 · 固有番号の3つで探せます。入力を止めると、しばらくして自動で検索されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>並べ替え</b> — 最新順 · Screening No · 登録日 · ステータス順から選択します。初期値は最新順です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>参加施設</b> — 特定の施設の被験者だけを表示します。アクセスできる施設が2か所以上ある場合にのみ表示されます。自施設のみを担当するロールには、代わりに<b>自施設固定</b>バッジが表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>終了ステータス全体</b> — Terminal 5種（スクリーニング失敗 · 治療終了 · 追跡不能 · 死亡 · 研究終了）を一度に選択、または解除します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>ステータスフィルター</b> — 10種類のステータスを1つずつ選択します。複数を一緒に選ぶと、そのいずれかに該当する被験者が表示されます。選択されたチップは色が塗られます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>全N名</b> は、現在適用されている条件に合う総人数です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">集計バッジ3種は<b>現在のページに読み込まれた行だけ</b>を数え、登録・投与中のステータスはどのバッジにも含まれません（1.1 注意事項参照）。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">タイトルの下の領域全体がフィルター領域です。条件を解除するには、選択されたチップをもう一度選択してください。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>検索は氏名でもできます。ただし表には、氏名の代わりにイニシャルが表示されます。氏名は個人識別情報のため、全ロールが閲覧する一覧には置いていないからです。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s1-3" data-num="1.3" data-chtitle="1. 被験者一覧">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.3</span><span class="hx">表の列構成と行アクション</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">被験者一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">表 · 行アクション</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>表は11の列で構成されます。左半分は<b>誰か</b>（識別・所属・ステータス）、右半分は<b>どの状態か</b>（来院・Query・品質）を示します。右端の<b>アクション</b>列から、その被験者の画面に移動します。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:5.71875"><img src="img/s1_3_1.png" alt=""><span class="mk mk-ref" style="margin-left:calc(83.071% - 11px);margin-top:calc(1.572% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(11.252% - 11px);margin-top:calc(4.148% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span></div><figcaption>表の左半分 — 識別・所属・ステータス（拡大）</figcaption></div></div>
+<div class="blk fig"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.46486"><img src="img/s1_3_2.png" alt=""><span class="mk mk-set" style="margin-left:calc(84.176% - 11px);margin-top:calc(6.953% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(88.076% - 11px);margin-top:calc(15.846% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(52.507% - 11px);margin-top:calc(2.585% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(74.972% - 11px);margin-top:calc(2.585% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(28.326% - 11px);margin-top:calc(2.585% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>表の右半分 — 品質・アクションと ⋯ メニュー（拡大）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">⋯ — 行アクションメニューを開きます。その場でメニューが開くため、行は移動しません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">メニュー項目は4つです。下の一覧を参照してください。<b>ステータス変更</b> は、Terminal ステータスの被験者、または権限がない場合は選択できません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">列の順番 — <b>Screening No · イニシャル · 固有番号 · 参加施設 · ステータス · 試験群 · 登録日</b> です。氏名の代わりにイニシャルが表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>Screening No</b> はシステムが自動で採番する識別番号です。<b>固有番号</b> は研究のコード体系に従って人が入力する、別の軸の番号です。値がない場合は<b>—</b>と表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>Query</b> — 未解決のQuery件数です。1件以上あると赤く表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>品質</b> — 検証待ち · SDV完了 · クエリ発行中 · クエリ回答済み · 完了(CLEAN) の5種のいずれかです。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>最近の来院</b> 列は、現在すべての行で<b>—</b>と表示されます。来院の実施日は来院タイムラインで確認してください <span class="ref">2.3</span>。</p></div></div>
+<div class="blk tab kwn"><h3><span>⋯ アクションメニューの4つ</span></h3></div>
+<div class="blk plain"><ul><li><span class="bul">• </span><b>基本情報</b> — 被験者の詳細画面 <span class="ref">2.1</span></li><li><span class="bul">• </span><b>来院タイムライン</b> — 予定・実施済みの来院すべて <span class="ref">2.3</span></li><li><span class="bul">• </span><b>ステータス履歴</b> — ステータスが変わった記録 <span class="ref">3.3</span></li><li><span class="bul">• </span><b>ステータス変更</b> — 遷移先を選ぶウィンドウ <span class="ref">3.1</span></li></ul></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>行を直接選択した場合と、メニューの「基本情報」では、到着する画面が異なります。行を選択すると複数の領域を1画面にまとめた Patient Profile に移動し、メニューの基本情報は、人的事項・登録情報を中心とした詳細画面 <span class="ref">2.1</span> に移動します。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s1-4" data-num="1.4" data-chtitle="1. 被験者一覧">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.4</span><span class="hx">新規被験者登録</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">被験者一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">新規被験者登録</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>被験者を新たに登録します。* の付いた項目はすべて入力しないと保存できません。<b>ICF同意日を入力したかどうかで作成されるステータスが変わるため、同意書をすでに受け取っている場合は、ここで一緒に入力するとステータス遷移を1回減らせます。</b></p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn two"><div class="shot" style="width:313.1px"><div class="imgbox" style="aspect-ratio:1.46781"><img src="img/s1_4_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(95.781% - 11px);margin-top:calc(34.962% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.781% - 11px);margin-top:calc(50.167% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.781% - 11px);margin-top:calc(62.447% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(39.640% - 11px);margin-top:calc(12.886% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(75.021% - 11px);margin-top:calc(20.781% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(56.307% - 11px);margin-top:calc(39.640% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span></div><figcaption>新規被験者登録 (SCR-SUBJ-002) — 上部</figcaption></div><div class="shot" style="width:314.0px"><div class="imgbox" style="aspect-ratio:1.41152"><img src="img/s1_4_2.png" alt=""><span class="mk mk-set" style="margin-left:calc(95.502% - 11px);margin-top:calc(8.038% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(39.525% - 11px);margin-top:calc(18.825% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.502% - 11px);margin-top:calc(29.612% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.502% - 11px);margin-top:calc(41.857% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.045" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">7</text></svg></span><span class="mk mk-set" style="margin-left:calc(7.601% - 11px);margin-top:calc(56.872% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.006" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">8</text></svg></span><span class="mk mk-ref" style="margin-left:calc(21.158% - 11px);margin-top:calc(56.872% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(70.137% - 11px);margin-top:calc(46.522% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(88.796% - 11px);margin-top:calc(52.644% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>下部 — 生年月日から保存まで</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>帰属 Site *</b> — 被験者が所属する参加施設です。アクセス権限が2か所以上にまたがる場合にのみ表示されます。1か所だけの場合は、システムが自動で割り当てます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>氏名 *</b> — 個人識別情報です。一覧には表示されません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>イニシャル *</b> — 一覧に表示される略称です。氏名から自動では作られないため、直接入力します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>生年月日</b> — 任意項目です。今日より後の日付は選択できません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>性別 *</b> — 男性 · 女性 · その他 · 不明の中から選択します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>ICF同意日</b> — 任意項目ですが、<b>作成されるステータスを決めます。</b>入力すると<b>スクリーニング</b>、空欄にすると<b>登録</b>ステータスで作成されます。今日より後の日付は入力できません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t"><b>固有番号 *</b> — 研究のコード体系に従った識別番号です。最大50文字で、プロジェクト内で重複させることはできません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.506" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">8</text></svg></span><div class="body"><p class="t"><b>保存</b> — 必須項目がすべて入力されるまで薄く表示されます。ICF同意日を入力した場合は、保存後にその被験者の詳細画面へ、空欄の場合は一覧へ移動します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">ヘッダーの案内 — 帰属施設はアクセス権限に応じてシステムが割り当てます。複数の施設にまたがる場合にのみ、直接選択します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">バナーで、作成されるステータスを事前にお知らせします。ICF同意日を入力すると、バナーの文言が<b>スクリーニング</b>に変わります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">選択欄の下に、なぜ施設を指定する必要があるかが案内されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>キャンセル</b> — 入力内容がある場合は、破棄するかどうかを先に確認します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">固有番号欄の下に、重複不可の案内が表示されます。重複かどうかは保存時にシステムが判定するため、入力中は知らされません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>Screening No</b> は入力項目ではありません。保存時にシステムが自動で採番します。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>固有番号が他の参加施設ですでに使われていても、入力中は分かりません。自施設のみを担当するロールには、他の施設の被験者が一覧に表示されないためです。保存時に重複として拒否された場合は、研究のコード体系を確認したうえで別の値を入力してください。</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="2" data-chtitle="2. 被験者詳細">
+<div class="dlabel">画面別分冊 — 被験者</div>
+<div class="dhead"><div class="dnum">2</div><h1 class="dtitle" id="ch2">被験者詳細</h1></div>
+<ul class="dlist"><li><span class="dn">2.1</span><span class="dt">画面構成</span></li><li><span class="dn">2.2</span><span class="dt">基本情報 · 登録情報の編集</span></li><li><span class="dn">2.3</span><span class="dt">来院タイムライン</span></li></ul></section><section class="sec" id="s2-1" data-num="2.1" data-chtitle="2. 被験者詳細">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.1</span><span class="hx">画面構成</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">被験者一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">基本情報</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>一人の被験者の人的事項・登録情報・割付・ステータスを、上から下へ積み上げて表示する画面です。ステータスを変える3つのアクションも、この画面の下部にまとめられています。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.38954"><img src="img/s2_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(95.423% - 11px);margin-top:calc(8.902% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.423% - 11px);margin-top:calc(17.088% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(3.397% - 11px);margin-top:calc(37.977% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(7.632% - 11px);margin-top:calc(37.977% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(12.148% - 11px);margin-top:calc(37.977% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(15.395% - 11px);margin-top:calc(1.280% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(84.272% - 11px);margin-top:calc(4.385% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(93.941% - 11px);margin-top:calc(2.409% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(9.749% - 11px);margin-top:calc(33.461% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(5.515% - 11px);margin-top:calc(26.686% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(4.385% - 11px);margin-top:calc(21.605% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>被験者の基本情報 (SCR-SUBJ-003) — 人的事項からステータスアクションまで</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>基本情報（個人識別情報） &gt; 編集</b> — 氏名・生年月日・性別を修正します <span class="ref">2.2</span>。権限がない場合、このリンクは表示されません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>登録情報 &gt; 編集</b> — 固有番号を修正します <span class="ref">2.2</span>。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>ステータス変更</b> — 遷移先を選ぶウィンドウを開きます <span class="ref">3.1</span>。遷移できるステータスがない場合、または完全ロックの状態では選択できません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>研究終了</b> — 研究終了（EOS）専用の画面に移動します <span class="ref">3.2</span>。<b>投与中</b>または<b>治療終了</b>のステータスで、権限がある場合にのみ表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>ステータス履歴</b> — ステータスが変わった記録を照会します <span class="ref">3.3</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">移動経路から一覧に戻れます。画面の一番下の<b>← 一覧へ</b>も同じ場所に移動します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">ヘッダーのステータスバッジは、下の<b>ステータス</b>カードのバッジと同じ値です。ロックがかかっている場合は、ロックのバッジも一緒に表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>CRFマトリクス</b> · <b>Casebook</b> — その被験者のCRF入力状況と、データ出力につながる別の画面です。本分冊では扱いません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>次に可能なステータス</b> — システムが計算した遷移可能なステータスです。ここにないステータスには変更できません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>割付情報</b> — 無作為割付の前は<b>未割付</b>です。割り付けられると、試験群と割付番号が表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>固有番号</b>が<b>—</b>なのは、必須入力に変わる前に登録された被験者だからです。編集で値を入力できます <span class="ref">2.2</span>。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>ヘッダーの参加施設 が空欄で表示されることがあります。詳細画面が施設コードを受け取れなかったために起きる現象で、被験者に所属がないという意味ではありません。所属施設は一覧の参加施設 列で確認してください。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s2-2" data-num="2.2" data-chtitle="2. 被験者詳細">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.2</span><span class="hx">基本情報 · 登録情報の編集</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">基本情報</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">編集</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p><b>基本情報</b> と <b>登録情報</b> は別々のカードで、<b>保存も別々</b>に行います。一方を編集している間、もう一方は閲覧状態のまま残ります。両方のカードを修正した場合は、保存を2回押す必要があります。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.76758"><img src="img/s2_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(11.231% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(14.336% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(12.713% - 11px);margin-top:calc(17.018% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(2.409% - 11px);margin-top:calc(21.252% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(47.434% - 11px);margin-top:calc(28.168% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-set" style="margin-left:calc(2.409% - 11px);margin-top:calc(33.814% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(5.373% - 11px);margin-top:calc(21.252% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(5.373% - 11px);margin-top:calc(33.814% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(11.937% - 11px);margin-top:calc(25.486% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(16.383% - 11px);margin-top:calc(29.438% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(83.990% - 11px);margin-top:calc(4.032% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>2つのカードはそれぞれ別々に編集されます（別の被験者のキャプチャ · 画面構成は同じ）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>氏名</b> — 空欄にはできません。空欄の場合、保存ボタンが薄く表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>生年月日</b> — 日付を選択します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>性別</b> — 男性 · 女性 · その他 · 不明の中から選択します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>保存</b>（基本情報） — 人的事項の3項目のみ反映します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>固有番号</b> — 研究のコード体系に従った識別番号です。<b>値を空にすることはできません。</b>空欄のまま保存すると拒否されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>保存</b>（登録情報） — 固有番号のみ反映します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>キャンセル</b> — 変更を破棄し、そのカードだけ閲覧状態に戻します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">登録情報にも同じ<b>キャンセル</b>があります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>作成日</b>と<b>ICF同意日</b>は読み取り専用です。編集状態でも入力欄には変わりません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">固有番号欄の下に、重複不可と空欄不可が併せて案内されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">ヘッダーのカードは編集中も変わりません。ステータスバッジと移動ボタンはそのまま残ります。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>氏名・生年月日・性別の編集は、個人識別情報の閲覧権限と修正権限の両方を持つロールだけが行えます。研究責任者（PI）は値を見ることはできますが修正はできないため、編集リンクは表示されません。固有番号の編集は、修正権限だけで可能です。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s2-3" data-num="2.3" data-chtitle="2. 被験者詳細">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.3</span><span class="hx">来院タイムライン</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">被験者一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">来院タイムライン</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>一人の被験者の来院を段階ごとにまとめて表示する画面です。計画日・実施日・許容誤差・実施の有無、紐づけられたCRFの入力状態を1行で確認できます。来院管理全般は来院分冊で扱い、ここでは被験者から入ったときに見える内容だけを説明します。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.39763"><img src="img/s2_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(96.411% - 11px);margin-top:calc(4.597% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(90.624% - 11px);margin-top:calc(4.597% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(54.915% - 11px);margin-top:calc(7.349% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(9.890% - 11px);margin-top:calc(0.998% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(35.437% - 11px);margin-top:calc(5.091% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(6.785% - 11px);margin-top:calc(9.466% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(34.731% - 11px);margin-top:calc(12.289% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(95.423% - 11px);margin-top:calc(24.145% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(30.497% - 11px);margin-top:calc(35.296% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>来院タイムライン (SCR-VISIT-003) — 被験者1名の予定・実施来院すべて</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>来院手動追加</b> — 計画になかった来院を追加します。Terminal ステータスの被験者には表示されません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>Cycle 手動追加</b> — 周期来院グループの次の周期を一度に展開します。周期グループがあるプロジェクトでのみ表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>来院グループ</b> / <b>Gantt タイムライン</b> — 表示方法を切り替えます。初期表示は、段階ごとに折りたたみ・展開できる来院グループです。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">移動経路または左上の矢印で、入ってきた場所に戻れます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">要約行 — Screening No · 固有番号 · 氏名 · ステータス · 参加施設とともに、<b>全N件 · 来院実施 · 来院進行中 · 来院予定 · 未来院</b> の集計が表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>段階の見出し行</b> — 選別段階・治療段階のように来院をまとめる単位です。（ ）内はその段階の来院数で、試験群があれば併せて表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">来院1行 — <b>基準（どの日付から数えるか） · 計画日 · 実施日 · 許容誤差 · 実施状態</b> の順で表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">来院にCRFが紐づいている場合、その名前と入力状態が下に続きます。紐づくCRFがない場合は<b>紐づくCRFなし</b>と表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">計画日を過ぎても実施されていない来院は、✗<b> 未来院</b>として赤く表示され、計画日に下線が付きます。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>この画面は来院領域の画面で、被験者一覧とデータ入力の両方から入ります。入ってきた経路によって、左上の矢印が戻る場所が変わります。</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="3" data-chtitle="3. ステータス変更">
+<div class="dlabel">画面別分冊 — 被験者</div>
+<div class="dhead"><div class="dnum">3</div><h1 class="dtitle" id="ch3">ステータス変更</h1></div>
+<ul class="dlist"><li><span class="dn">3.1</span><span class="dt">遷移先の選択</span></li><li><span class="dn">3.2</span><span class="dt">研究終了</span></li><li><span class="dn">3.3</span><span class="dt">ステータス変更履歴</span></li></ul></section><section class="sec" id="s3-1" data-num="3.1" data-chtitle="3. ステータス変更">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.1</span><span class="hx">遷移先の選択</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">基本情報</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">被験者ステータス変更</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>今のステータスから遷移できるステータスだけを選んで表示します。選択肢は<b>現在のステータスと自分のロール</b>の2軸で絞り込まれるため、人によって表示が異なる場合があります。選択肢が空の場合は、遷移先がないか、権限がないということです。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:327.7px"><div class="imgbox" style="aspect-ratio:1.23024"><img src="img/s3_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(92.897% - 11px);margin-top:calc(31.025% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(92.897% - 11px);margin-top:calc(40.941% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(92.897% - 11px);margin-top:calc(50.718% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(92.897% - 11px);margin-top:calc(60.774% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(93.455% - 11px);margin-top:calc(73.623% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(36.751% - 11px);margin-top:calc(13.008% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(76.416% - 11px);margin-top:calc(31.025% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(54.908% - 11px);margin-top:calc(73.623% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(93.455% - 11px);margin-top:calc(10.215% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>被験者ステータス変更 (SCR-SUBJ-004) — 投与中から遷移できる4つ（拡大）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>投与中 → 治療終了</b> — 選択すると、治療終了の理由5種が続けて表示されます。<b>正常完了</b>だけはこのウィンドウで直接処理され、それ以外の理由は、来院予定の整理が後に続く早期終了専用の画面に移動します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>投与中 → 死亡</b> — 死亡処理専用の画面に移動します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>投与中 → 追跡不能</b> — 追跡不能処理専用の画面に移動します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>投与中 → 同意撤回</b> — 同意撤回専用の画面に移動します。撤回には電子署名が必要です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>ステータス変更の実行</b> — 遷移先を選ぶまでは薄く表示されます。<b>専用画面</b>バッジが付いた遷移を選ぶと、ボタン名が<b>専用画面へ移動</b>に変わります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">ウィンドウの上部に、対象の被験者と<b>現在のステータス</b>が表示されます。別の被験者でないか、ここで確認してください。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">選択肢の右側にあるバッジ2種 — <b>Terminal</b> は元に戻せない遷移であることを示し（選択するとウィンドウ内に警告も表示されます）、<b>専用画面</b>は、このウィンドウでは完結せず別の画面で処理することを示します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>キャンセル</b> — 何も変更せずにウィンドウを閉じます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">ウィンドウの外をクリックした場合や、閉じるを選択した場合も同じです。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>研究終了（EOS）はこのウィンドウにはありません。専用画面でのみ行い、被験者の詳細画面にある研究終了ボタンが唯一の入口です <span class="ref">3.2</span>。また、ロックがかかった被験者はTerminalの選択肢がすべて薄く表示されるため、先にロックを解除する必要があります。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-2" data-num="3.2" data-chtitle="3. ステータス変更">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.2</span><span class="hx">研究終了</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">基本情報</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">研究終了</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>被験者の研究参加を最終的に終える画面です。<b>投与中</b>または<b>治療終了</b>のステータスでのみ実行でき、プロジェクトの署名ポリシーに応じて電子署名が求められます。元に戻せない遷移のため、日付と理由を確認してから実行してください。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:431.2px"><div class="imgbox" style="aspect-ratio:1.40179"><img src="img/s3_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(52.138% - 11px);margin-top:calc(24.113% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(83.773% - 11px);margin-top:calc(35.790% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.026% - 11px);margin-top:calc(67.637% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(64.877% - 11px);margin-top:calc(6.066% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(94.495% - 11px);margin-top:calc(48.316% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(94.495% - 11px);margin-top:calc(58.295% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(62.966% - 11px);margin-top:calc(67.637% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>研究終了 (SCR-SUBJ-017) — 被験者ライフサイクルの最終ステータス（拡大）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>研究終了日 *</b> — 必須入力です。今日より後の日付は選択できず、ICF同意日より前の日付を入れると、確認を求める文言が表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>終了理由 *</b> — 必須入力です。ステータス変更履歴にそのまま残るため、「例: 追跡観察終了」のように事実を書いてください。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>研究終了を実行</b> — 必須の2項目が入力されるまで薄く表示されます。電子署名が必要な設定の場合は、選択した直後に電子署名のウィンドウが表示され、署名を完了して初めて終了が実行されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">対象被験者の要約 — Screening No · 現在のステータス · 参加施設 · ICF同意日が表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">青い案内 — 署名ポリシーが有効な場合、実行時に電子署名のウィンドウが表示されることの予告です。署名ポリシーがないプロジェクトでは、この案内は表示されません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">グレーの案内 — 研究終了は元に戻せず、ステータス変更履歴に永久に記録され、以後のデータ入力がブロックされるという説明です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>キャンセル</b> — 何も実行せず、入ってきた場所に戻ります。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>研究終了は元に戻せず、以後のデータ入力はブロックされます。未解決のQueryや未入力のCRFが残っていないか、先に確認してください。ロックがかかった被験者は終了が拒否されるため、先にロックを解除する必要があります。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-3" data-num="3.3" data-chtitle="3. ステータス変更">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.3</span><span class="hx">ステータス変更履歴</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">基本情報</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ステータス変更履歴</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>その被験者のステータスが、いつ · 誰が · なぜ変わったかを時系列で表示する画面です。監査証跡のデータのため、<b>記録を修正または削除することはできず</b>、照会のみ可能です。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:6.00424"><img src="img/s3_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(5.444% - 11px);margin-top:calc(14.900% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(9.184% - 11px);margin-top:calc(14.900% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(3.680% - 11px);margin-top:calc(7.702% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(55.762% - 11px);margin-top:calc(10.948% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(93.729% - 11px);margin-top:calc(4.244% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span></div><figcaption>ステータス変更履歴 (SCR-SUBJ-009) — 記録がない場合</figcaption></div></div>
+<div class="blk fig"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.45283"><img src="img/s3_3_2.png" alt=""><span class="mk mk-ref" style="margin-left:calc(40.760% - 11px);margin-top:calc(8.130% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(39.980% - 11px);margin-top:calc(12.501% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(44.742% - 11px);margin-top:calc(16.092% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(40.292% - 11px);margin-top:calc(19.683% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.045" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">7</text></svg></span></div><figcaption>記録がある場合 — 1件が1枚のカード（拡大）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>← 基本情報へ</b> — その被験者の詳細画面に戻ります <span class="ref">2.1</span>。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>← 一覧へ</b> — 被験者一覧に戻ります <span class="ref">1.1</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>全N件</b> — 記録されたステータス変更の件数です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">記録がない場合は「初期登録以外の履歴はありません。」と表示されます。登録後、ステータスが一度も変わっていないという意味です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">ヘッダーのバッジは<b>現在の</b>ステータスです。下の記録の最後のステータスと同じである必要があります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">カードの見出し — <b>変更前のステータス → 変更後のステータス</b> です。ロックを越えて実行された遷移には、<b>Lock Override</b>バッジが併せて付きます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>日時</b> — 遷移が実行された時刻です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>実行者</b> — 氏名とロールが併せて記録されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t"><b>理由</b> — 遷移時に入力した理由です。システムが自動で実行した遷移には、その経路を示すコードが記録される場合もあります。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>現在のステータスが投与中なのに、全0件と表示される場合があります。画面の不具合ではなく、その被験者のステータス変更が記録として残っていない場合です。遷移の経緯を確認する必要がある場合は、Audit Trail も併せて照会してください。</b></li></ul></div>
+</div></section>
+</div>
+<div id="book"></div>
+<script>(async function () {
+  // 원본 블록은 hidden 상태라 글꼴 요청이 늦게 시작된다. 측정 전에 쓰는 굵기를 모두 먼저 불러온다.
+  const FAM = document.body.classList.contains('lang-ja') ? 'PretendardJPM' : 'PretendardM';
+  const SAMPLE = FAM === 'PretendardJPM' ? 'あ漢1A' : '가1A';
+  await Promise.all([400, 500, 700, 800].map(w => document.fonts.load(`${w} 16px ${FAM}`, SAMPLE)));
+  await document.fonts.ready;
+  if (![400, 500, 700, 800].every(w => document.fonts.check(`${w} 16px ${FAM}`, SAMPLE))) throw new Error('Pretendard 로드 실패');
+  await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  const src = document.getElementById('src');
+  const book = document.getElementById('book');
+  let pno = 0;
+  const pageMap = {};
+
+  // [표 제목 열 너비, 고정프롬프트 표 절] 첫 열 글이 단어 중간에서 잘리거나 3줄 이상이면 첫 열을 4px씩 넓혀 본다.
+  // 표 전체 높이가 가장 낮아지는 너비를 고르되, 오른쪽 칸이 빽빽해져 높이가 늘면 넓히지 않는다. 최대 표 너비의 30%.
+  {
+    const probe = document.createElement('div');
+    probe.className = 'page body';
+    probe.style.cssText = 'position:absolute;left:-10000px;top:0';
+    const pa = document.createElement('div'); pa.className = 'area'; pa.style.top = '0'; probe.appendChild(pa);
+    document.body.appendChild(probe);
+    const firstCells = t => [...t.rows].map(r => r.cells[0]).filter(Boolean);
+    const lineCount = c => {
+      const r = document.createRange(); r.selectNodeContents(c);
+      const tops = new Set([...r.getClientRects()].filter(x => x.width > 0).map(x => Math.round(x.bottom)));
+      return tops.size;
+    };
+    // 단어(공백으로 나눈 덩어리)가 칸 안쪽 너비보다 길면 잘린 것으로 본다
+    const broken = c => {
+      const cs = getComputedStyle(c);
+      const inner = c.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const tw = document.createTreeWalker(c, NodeFilter.SHOW_TEXT);
+      const texts = []; while (tw.nextNode()) texts.push(tw.currentNode);
+      let n = 0;
+      for (const node of texts) {
+        for (const w of node.textContent.split(/\s+/)) {
+          if (!w) continue;
+          const sp = document.createElement('span'); sp.style.whiteSpace = 'nowrap'; sp.textContent = w;
+          node.parentElement.appendChild(sp);
+          if (sp.getBoundingClientRect().width > inner + 0.5) n++;
+          sp.remove();
+        }
+      }
+      return n;
+    };
+    // 너비를 정하고, 모든 단어가 들어가면 자동 하이픈을 끈다(들어가는 단어를 억지로 쪼개지 않게)
+    const setW = (cells, w) => {
+      cells.forEach(c => { c.style.width = w === null ? '' : w + 'px'; c.style.hyphens = c.style.webkitHyphens = ''; });
+      if (w === null) return 0;
+      const b = cells.reduce((s, c) => s + broken(c), 0);
+      if (!b) cells.forEach(c => { c.style.hyphens = c.style.webkitHyphens = 'manual'; });
+      return b;
+    };
+    for (const wrap of src.querySelectorAll('.tblwrap')) {
+      const t = wrap.querySelector('table');
+      if (!t || !t.rows.length || t.rows[0].cells.length < 2) continue;
+      const mark = document.createComment(''); wrap.replaceWith(mark); pa.appendChild(wrap);
+      const cells = firstCells(t);
+      const base = Math.round(cells[0].getBoundingClientRect().width);
+      const cap = Math.round(t.getBoundingClientRect().width * 0.3);
+      const state = b => ({ h: t.getBoundingClientRect().height, b, l: Math.max(...cells.map(lineCount)) });
+      const s0 = state(cells.reduce((s, c) => s + broken(c), 0));
+      if (base < cap && (s0.b > 0 || s0.l > 2)) {
+        let best = { w: base, ...s0 };
+        for (let w = base + 4; w <= cap; w += 4) {
+          const s = state(setW(cells, w));
+          // 표 높이가 처음보다 늘면 제외. 잘린 단어가 줄면 우선, 같으면 표 높이가 낮은 쪽, 같으면 좁은 쪽
+          if (s.h > s0.h + 0.5) continue;
+          if (s.b < best.b || (s.b === best.b && s.h < best.h - 0.5)) best = { w, ...s };
+        }
+        if (best.w !== base) { setW(cells, best.w); t.dataset.c0w = best.w; } else setW(cells, null);
+      }
+      mark.replaceWith(wrap);
+    }
+    probe.remove();
+  }
+
+  function newPage(cls) {
+    const p = document.createElement('div');
+    p.className = 'page ' + (cls || '');
+    book.appendChild(p);
+    pno += 1;
+    p.dataset.pno = pno;
+    return p;
+  }
+  const overflow = a => a.scrollHeight > a.clientHeight + 0.5;
+
+  // [제목 끝 줄 1~3글자 보정, 고정프롬프트 2절] 여러 줄 제목의 마지막 줄에 1~3글자만 남으면
+  // 줄 길이를 고르게 나눠(text-wrap:balance) 단어·구절 단위로 다시 줄을 바꾼다. 일본어는 문절 단위(auto-phrase), 한국어는 어절 단위(keep-all).
+  const LANG = document.documentElement.lang;
+  function lastLineChars(el) {
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const chars = [];
+    const r = document.createRange();
+    while (tw.nextNode()) {
+      const n = tw.currentNode;
+      for (let i = 0; i < n.length; i++) {
+        if (/\s/.test(n.data[i])) continue;
+        r.setStart(n, i); r.setEnd(n, i + 1);
+        const b = r.getBoundingClientRect();
+        if (b.width || b.height) chars.push(Math.round(b.top + b.height / 2));
+      }
+    }
+    if (!chars.length) return { lines: 0, last: 0 };
+    const lh = parseFloat(getComputedStyle(el).lineHeight) || 20;
+    const tops = []; for (const t of chars) if (!tops.some(x => Math.abs(x - t) < lh / 2)) tops.push(t);
+    const lastTop = Math.max(...tops);
+    return { lines: tops.length, last: chars.filter(t => Math.abs(t - lastTop) < lh / 2).length };
+  }
+  function fixShortLastLine(el) {
+    if (!el) return;
+    const s0 = lastLineChars(el);
+    if (s0.lines < 2 || s0.last > 3) return;
+    el.style.textWrap = 'balance';
+    if (LANG === 'ja') el.style.wordBreak = 'auto-phrase';
+    else if (LANG === 'ko') el.style.wordBreak = 'keep-all';
+    let s1 = lastLineChars(el);
+    // balance로 안 풀리면(가타카나 합성어처럼 문절이 긴 경우) 낱말 경계(Intl.Segmenter)에만 줄바꿈 지점(<wbr>)을 넣고 다시 고르게 나눈다
+    if ((s1.lines > s0.lines || s1.last <= 3) && (LANG === 'ja' || LANG === 'ko') && window.Intl && Intl.Segmenter) {
+      const seg = new Intl.Segmenter(LANG, { granularity: 'word' });
+      const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const nodes = []; while (tw.nextNode()) nodes.push(tw.currentNode);
+      for (const n of nodes) {
+        const f = document.createDocumentFragment();
+        [...seg.segment(n.data)].forEach((p, i) => { if (i) f.appendChild(document.createElement('wbr')); f.appendChild(document.createTextNode(p.segment)); });
+        n.replaceWith(f);
+      }
+      el.style.wordBreak = 'keep-all';
+      s1 = lastLineChars(el);
+    }
+    // 그래도 안 되면 폭을 조금씩 좁혀 앞줄 끝 낱말을 다음 줄로 넘긴다
+    if (s1.lines > s0.lines || s1.last <= 3) {
+      el.style.textWrap = '';
+      const w0 = el.getBoundingClientRect().width;
+      for (let k = 0.98; k >= 0.6; k -= 0.02) {
+        el.style.maxWidth = (w0 * k) + 'px';
+        s1 = lastLineChars(el);
+        if (s1.lines > s0.lines) break;
+        if (s1.last > 3) break;
+      }
+    }
+    // 줄 수가 늘었거나 그래도 짧으면 되돌린다(글자를 줄이거나 자르지 않는다)
+    if (s1.lines > s0.lines || s1.last <= 3) { el.style.textWrap = el.style.wordBreak = el.style.maxWidth = ''; }
+    else el.dataset.balanced = s0.last + '→' + s1.last;
+  }
+
+  // 블록을 area에 차례로 넣고 넘치면 새 쪽을 만든다. kwn(다음 블록과 붙임)은 함께 넘긴다.
+  function flow(blocks, makePage) {
+    let area = makePage(true);
+    for (const b of blocks) {
+      area.appendChild(b);
+      if (!overflow(area)) continue;
+      if (b.classList.contains('tblwrap')) {
+        // 표는 행 단위로 나누고 다음 쪽에 머리행을 다시 붙인다
+        let cur = b;
+        while (overflow(area)) {
+          const body = cur.querySelector('tbody');
+          const rest = [];
+          while (overflow(area) && body.rows.length > 2) rest.unshift(body.removeChild(body.lastElementChild));
+          if (overflow(area)) { // 두 행도 안 들어가면 표 전체를 다음 쪽으로
+            area.removeChild(cur);
+            area = makePage(false); area.appendChild(cur);
+            rest.forEach(r => body.appendChild(r));
+            continue;
+          }
+          if (!rest.length) break;
+          const nxt = cur.cloneNode(true);
+          const nb = nxt.querySelector('tbody'); nb.innerHTML = '';
+          rest.forEach(r => nb.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); cur = nxt;
+        }
+        continue;
+      }
+      const moving = [b];
+      let prev = b.previousElementSibling;
+      while (prev && prev.classList.contains('kwn')) { moving.unshift(prev); prev = prev.previousElementSibling; }
+      // [빈 공간 채우기 규칙, 고정프롬프트 11절]
+      // 1) 묶음 전체(탭·안내·이미지·첫 설명)가 조금 모자라면 캡처를 최대 85%까지 줄여 이 쪽에 둔다.
+      const fig = moving.find(m => m.classList.contains('fig'));
+      const shots = fig ? [...fig.querySelectorAll('.shot')] : [];
+      const base = shots.map(s => parseFloat(s.style.width));
+      const scaleFig = k => shots.forEach((s, i) => { s.style.width = (base[i] * k) + 'px'; });
+      if (fig && moving.length < area.children.length) {
+        let fitted = false;
+        for (const k of [0.95, 0.9, 0.85]) { scaleFig(k); if (!overflow(area)) { fitted = true; fig.dataset.scale = k; break; } }
+        if (fitted) continue;
+        scaleFig(1);
+        // 2) 그래도 안 되면 이미지 뒤 설명은 다음 쪽으로 넘기고, 탭·안내·이미지는 이 쪽에 둔다(캡처 최대 75%).
+        //    설명이 다음 쪽으로 넘어가도 이 쪽을 비워 두지 않는다.
+        const tail = moving.slice(moving.indexOf(fig) + 1);
+        if (tail.length) {
+          tail.forEach(t => area.removeChild(t));
+          for (const k of [1, 0.95, 0.9, 0.85, 0.8, 0.75]) { scaleFig(k); if (!overflow(area)) { fitted = true; if (k < 1) fig.dataset.scale = k; break; } }
+          if (fitted) { area = makePage(false); tail.forEach(t => area.appendChild(t)); continue; }
+          scaleFig(1); tail.forEach(t => area.appendChild(t));
+        }
+      }
+      // 3) 유의사항 카드는 통째로 넘기지 않고 항목 단위로 나눠 이어 쓴다(같은 카드 제목을 다음 쪽 카드에 다시 붙임).
+      if (b.classList.contains('card')) {
+        const ul = b.querySelector('ul'); const rest = [];
+        while (overflow(area) && ul.children.length > 1) rest.unshift(ul.removeChild(ul.lastElementChild));
+        if (!overflow(area) && rest.length) {
+          const nxt = b.cloneNode(true); const nu = nxt.querySelector('ul'); nu.innerHTML = '';
+          rest.forEach(r => nu.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); continue;
+        }
+        rest.forEach(r => ul.appendChild(r));
+      }
+      if (moving.length === area.children.length) {
+        if (moving.length === 1) continue; // 한 쪽보다 큰 블록: 그대로 둔다
+        moving.splice(0, moving.length - 1); // 쪽 전체가 묶음이면 마지막 블록만 넘긴다
+      }
+      area = makePage(false);
+      moving.forEach(m => area.appendChild(m));
+    }
+  }
+
+  // 표지
+  const cover = newPage('cover');
+  cover.append(...src.querySelector('section.cover').children);
+  cover.querySelectorAll('.cv-title, .cv-sub').forEach(fixShortLastLine);
+  pageMap.cover = 1;
+
+  // 목차
+  const tocBlocks = [...src.querySelectorAll('section.toc .tch')];
+  let firstToc = true;
+  flow(tocBlocks, () => {
+    const p = newPage('toc');
+    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><span class="brand">SMART EDC</span></div><div class="area"></div>`;
+    if (firstToc) { p.id = 'toc'; pageMap.toc = +p.dataset.pno; firstToc = false; }
+    return p.querySelector('.area');
+  });
+
+  // 간지 + 절
+  for (const sec of src.querySelectorAll('section.divider, section.sec')) {
+    if (sec.classList.contains('divider')) {
+      const p = newPage('divider');
+      p.append(...sec.children);
+      p.querySelectorAll('.dtitle, .dlist .dt').forEach(fixShortLastLine);
+      const bar = document.createElement('div'); bar.className = 'dbar'; p.appendChild(bar);
+      const pn = document.createElement('div'); pn.className = 'pno'; pn.textContent = p.dataset.pno; p.appendChild(pn);
+      pageMap['ch' + sec.dataset.ch] = +p.dataset.pno;
+      continue;
+    }
+    const hdr = sec.querySelector('template.hdr-tpl').innerHTML;
+    const blocks = [...sec.querySelector('.flow').children];
+    let first = true;
+    flow(blocks, () => {
+      const p = newPage('body');
+      if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      first = false;
+      // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
+      fixShortLastLine(p.querySelector('.hdr .hx'));
+      const area = p.querySelector('.area');
+      area.style.top = (p.querySelector('.hdr').getBoundingClientRect().height + 22) + 'px';
+      return area;
+    });
+  }
+  src.remove();
+  document.querySelectorAll('.page.toc .tct, .page.toc .tt').forEach(fixShortLastLine);
+
+  // 간지 장식 막대: 큰 번호 글자 윗선 ~ 제목 아랫선
+  for (const p of document.querySelectorAll('.page.divider')) {
+    const n = p.querySelector('.dnum'), t = p.querySelector('.dtitle'), bar = p.querySelector('.dbar');
+    const pr = p.getBoundingClientRect(), nr = n.getBoundingClientRect(), tr = t.getBoundingClientRect();
+    const fs = parseFloat(getComputedStyle(n).fontSize);
+    const top = nr.top - pr.top + (nr.height - fs * 0.72) / 2;   // 숫자 대략 cap-height 위치
+    bar.style.top = top + 'px';
+    bar.style.height = (tr.bottom - pr.top - top) + 'px';
+  }
+
+  // 목차 쪽번호
+  for (const tp of document.querySelectorAll('.tp')) {
+    const id = tp.dataset.for;
+    const pg = document.getElementById(id);
+    tp.textContent = pg ? pg.dataset.pno : '?';
+  }
+
+  // 설정 → 결과 점선 연결: 설정 원 아래 중앙 → 결과 원 왼쪽 중앙
+  const NS = 'http://www.w3.org/2000/svg';
+  for (const item of document.querySelectorAll('.item')) {
+    const ress = item.querySelectorAll('.res > .cir');
+    if (!ress.length) continue;
+    const page = item.closest('.page');
+    const ir = page.getBoundingClientRect();
+    const pc = item.querySelector(':scope > .cir').getBoundingClientRect();
+    const x0 = pc.left + pc.width / 2 - ir.left, y0 = pc.bottom - ir.top;
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('class', 'conn'); svg.setAttribute('width', ir.width); svg.setAttribute('height', ir.height);
+    svg.setAttribute('aria-hidden', 'true');
+    let d = '';
+    ress.forEach(rc => {
+      const r = rc.getBoundingClientRect();
+      const y = r.top + r.height / 2 - ir.top, x1 = r.left - ir.left;
+      d += `M${x0} ${y0}V${y}H${x1}`;
+    });
+    const path = document.createElementNS(NS, 'path');
+    path.setAttribute('d', d); path.setAttribute('fill', 'none'); path.setAttribute('stroke', '#94A3B8');
+    path.setAttribute('stroke-width', '1'); path.setAttribute('stroke-dasharray', '2 2');
+    svg.appendChild(path);
+    page.appendChild(svg);
+  }
+  // 표지 제목: 한 낱말(예: DE „Untersuchungspanel“)이 폭을 넘으면 넘지 않을 때까지 글자 크기를 줄인다(가변 높이 법칙과 같은 취지)
+  document.querySelectorAll('.cv-title').forEach(t => {
+    let fs = parseFloat(getComputedStyle(t).fontSize);
+    while (t.scrollWidth > t.clientWidth + 1 && fs > 48) { fs -= 1.5; t.style.fontSize = fs + 'px'; t.style.lineHeight = (fs * 1.21) + 'px'; }
+  });
+  window.__pageMap = pageMap;
+  window.__pageCount = pno;
+  window.__done = true;
+})();
+</script>
+</body></html>

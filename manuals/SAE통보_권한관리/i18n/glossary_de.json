@@ -1,0 +1,710 @@
+[
+ {
+  "ko": "SAE 통보",
+  "tr": "SAE-Benachrichtigung",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "SAE 통보 메일 발송",
+  "tr": "SAE-Benachrichtigung per E-Mail senden",
+  "type": "label",
+  "note": "체크 박스 라벨. 화면 실제 문구는 확인 필요"
+ },
+ {
+  "ko": "미완결만 보기",
+  "tr": "Nur offene anzeigen",
+  "type": "label",
+  "note": "체크 박스 라벨"
+ },
+ {
+  "ko": "수신자",
+  "tr": "Empfänger",
+  "type": "term",
+  "note": "받을 사람과 같은 말로 씀"
+ },
+ {
+  "ko": "수신자 추가",
+  "tr": "+ Empfänger hinzufügen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "수신자 (N명)",
+  "tr": "Empfänger (N)",
+  "type": "label",
+  "note": "카드 제목"
+ },
+ {
+  "ko": "표시 이름",
+  "tr": "Anzeigename",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "삭제(휴지통)",
+  "tr": "Löschen (Papierkorb)",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "발송 이력",
+  "tr": "Versandverlauf",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "발송",
+  "tr": "Versand",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "발송된 통보가 없습니다.",
+  "tr": "Keine Benachrichtigung versendet.",
+  "type": "message",
+  "note": "빈 목록 문구"
+ },
+ {
+  "ko": "통보",
+  "tr": "Benachrichtigung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "중대성 전이",
+  "tr": "Wechsel der Schwere",
+  "type": "term",
+  "note": "아니오→예 전환"
+ },
+ {
+  "ko": "내용 변경",
+  "tr": "Inhaltsänderung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "발화 사유",
+  "tr": "Auslöser",
+  "type": "label",
+  "note": "발송을 일으킨 조건"
+ },
+ {
+  "ko": "초회 보고",
+  "tr": "Erstmeldung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "후속 보고",
+  "tr": "Folgemeldung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "전원 발송",
+  "tr": "Alle versendet",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "일부 실패",
+  "tr": "Teilweise fehlgeschlagen",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "전원 실패",
+  "tr": "Alle fehlgeschlagen",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "수신자 없음",
+  "tr": "Kein Empfänger",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "수신/성공/실패",
+  "tr": "Empfänger/Erfolg/Fehler",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "SAE 보고서",
+  "tr": "SAE-Bericht",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "중대한 이상사례(SAE)",
+  "tr": "schwerwiegendes unerwünschtes Ereignis (SAE)",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "AE 지정",
+  "tr": "AE-Festlegung",
+  "type": "path",
+  "note": "화면 이름. 다른 권에서 쓰는 독일어 화면명 확인 필요"
+ },
+ {
+  "ko": "인지일",
+  "tr": "Kenntnisdatum",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "식별자",
+  "tr": "Kennung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "재발송",
+  "tr": "erneuter Versand",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "재시도",
+  "tr": "Wiederholungsversuch",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "미완결 건",
+  "tr": "offene Fälle",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "프로젝트 설정",
+  "tr": "Projekteinstellungen",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "화면 구성",
+  "tr": "Bildschirmaufbau",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "역할",
+  "tr": "Rolle",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "역할 목록",
+  "tr": "Rollenliste",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "기본 역할",
+  "tr": "Standardrolle",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "커스텀 역할",
+  "tr": "benutzerdefinierte Rolle",
+  "type": "term",
+  "note": "유형 값은 「커스텀」→ Benutzerdefiniert"
+ },
+ {
+  "ko": "커스텀",
+  "tr": "Benutzerdefiniert",
+  "type": "value",
+  "note": "유형 값"
+ },
+ {
+  "ko": "신규 커스텀 역할",
+  "tr": "Neue benutzerdefinierte Rolle",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "전체 권한 편집",
+  "tr": "Alle Berechtigungen bearbeiten",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "전체 권한 보기",
+  "tr": "Alle Berechtigungen anzeigen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "기본 역할 참조",
+  "tr": "Standardrollen-Referenz",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "세트 내보내기",
+  "tr": "Rollensatz exportieren",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "가져오기",
+  "tr": "Importieren",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "배정하기",
+  "tr": "Zuweisen",
+  "type": "button",
+  "note": "역할 목록 행 버튼"
+ },
+ {
+  "ko": "배정 현황",
+  "tr": "Zuweisungsübersicht",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "비활성화",
+  "tr": "Deaktivieren",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "권한 편집",
+  "tr": "Berechtigungen bearbeiten",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "이력",
+  "tr": "Historie",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "신규 배정",
+  "tr": "+ Neue Zuweisung",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "배정",
+  "tr": "Zuweisung",
+  "type": "term",
+  "note": "사람에게 역할을 붙이는 행위"
+ },
+ {
+  "ko": "배정 목록",
+  "tr": "Zuweisungsliste",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "신규 역할 배정",
+  "tr": "Neue Rollenzuweisung",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "역할 배정",
+  "tr": "Rollenzuweisung",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "배정 이력",
+  "tr": "Zuweisungshistorie",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "역할 변경 이력",
+  "tr": "Änderungshistorie der Rollen",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "역할 정의 변경 이력",
+  "tr": "Änderungshistorie der Rollendefinition",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "권한 매트릭스",
+  "tr": "Berechtigungsmatrix",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "역할-권한 매트릭스",
+  "tr": "Rollen-Berechtigungsmatrix",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "역할 템플릿",
+  "tr": "Rollenvorlage",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "기본 역할 템플릿",
+  "tr": "Vorlage der Standardrollen",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "역할 세트 가져오기",
+  "tr": "Rollensatz importieren",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "역할 세트",
+  "tr": "Rollensatz",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "행 액션",
+  "tr": "Zeilenaktion",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 멤버",
+  "tr": "Workspace-Mitglied",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 관리자",
+  "tr": "Workspace-Administrator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 멤버 관리",
+  "tr": "Verwaltung der Workspace-Mitglieder",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "Site 제한",
+  "tr": "Site-Beschränkung",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "전체 접근",
+  "tr": "Vollzugriff",
+  "type": "value",
+  "note": "프로젝트 전체 접근"
+ },
+ {
+  "ko": "비활성 포함",
+  "tr": "Inaktive einblenden",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "유효 기간",
+  "tr": "Gültigkeitszeitraum",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "시작일",
+  "tr": "Startdatum",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "종료일",
+  "tr": "Enddatum",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "무기한",
+  "tr": "unbefristet",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "사유",
+  "tr": "Begründung",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "담당 기관",
+  "tr": "zuständige Einrichtung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구자",
+  "tr": "Prüfer",
+  "type": "term",
+  "note": "Investigator"
+ },
+ {
+  "ko": "연구책임자",
+  "tr": "Hauptprüfer",
+  "type": "term",
+  "note": "PI 코드는 그대로 둠"
+ },
+ {
+  "ko": "데이터 관리자",
+  "tr": "Datenmanager",
+  "type": "term",
+  "note": "DM 코드는 그대로 둠"
+ },
+ {
+  "ko": "감사자",
+  "tr": "Auditor",
+  "type": "term",
+  "note": "AUDITOR 코드와 맞춤"
+ },
+ {
+  "ko": "예약",
+  "tr": "Vorbehalten",
+  "type": "label",
+  "note": "화면 실제 독일어 문구 확인 필요"
+ },
+ {
+  "ko": "플랫폼 등급 권한",
+  "tr": "Berechtigung auf Plattformebene",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "시스템 관리자 전용",
+  "tr": "nur für Systemadministratoren",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "자물쇠",
+  "tr": "Schloss",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "변경 취소",
+  "tr": "Änderungen verwerfen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "저장 (N)",
+  "tr": "Speichern (N)",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "건너뛰기",
+  "tr": "Überspringen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "덮어쓰기",
+  "tr": "Überschreiben",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "적용",
+  "tr": "Anwenden",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "JSON 파일 선택",
+  "tr": "JSON-Datei auswählen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "빈 권한 셋으로 생성",
+  "tr": "Mit leerem Berechtigungssatz anlegen",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "기존 역할 복제",
+  "tr": "Bestehende Rolle kopieren",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "생성 방식",
+  "tr": "Erstellungsart",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "생성",
+  "tr": "Anlegen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "CSV 내보내기",
+  "tr": "CSV exportieren",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "기간 (from)",
+  "tr": "Zeitraum (von)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "기간 (to)",
+  "tr": "Zeitraum (bis)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "변경 유형",
+  "tr": "Änderungsart",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "대상 사용자",
+  "tr": "betroffene Person",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "테이블",
+  "tr": "Tabelle",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "사용자별 타임라인",
+  "tr": "Zeitleiste nach Benutzer",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "표시 N / 전체 N",
+  "tr": "Angezeigt N / gesamt N",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "역할 필터",
+  "tr": "Rollenfilter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "Site 필터",
+  "tr": "Site-Filter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "읽기 전용 배지",
+  "tr": "Schreibgeschützt",
+  "type": "label",
+  "note": "배지. 기존 「읽기 전용」 용어와 맞춤"
+ },
+ {
+  "ko": "규제 근거",
+  "tr": "regulatorische Grundlage",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "주요 책임",
+  "tr": "Hauptaufgaben",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "도메인 그룹",
+  "tr": "Bereichsgruppe",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "사용자 (워크스페이스 멤버)",
+  "tr": "Benutzer (Workspace-Mitglied)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "휴지통",
+  "tr": "Papierkorb",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "임상 상세",
+  "tr": "klinische Details",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "사건명",
+  "tr": "Ereignisbezeichnung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "경과 서술",
+  "tr": "Verlaufsbeschreibung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "중증도",
+  "tr": "Schweregrad",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "인과관계",
+  "tr": "Kausalität",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "처리가 끝난 시각",
+  "tr": "Zeitpunkt des Abschlusses",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "화면 부제",
+  "tr": "Untertitel",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "입력 규칙",
+  "tr": "Eingaberegel",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "Audit Trail 기록",
+  "tr": "Audit-Trail-Eintrag",
+  "type": "term",
+  "note": ""
+ }
+]

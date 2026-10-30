@@ -1,0 +1,4121 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — Lock",
+ "src": "SMART-EDC_사용자매뉴얼_Lock.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "Lock 상태 조회",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "Lock 상태 조회 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "Lock 상태 조회 > Lock 상태 한눈에 보기"
+    },
+    {
+     "no": "1.3",
+     "title": "Lock 상태 조회 > 피험자 목록과 행 액션"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "Lock 적용",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "Lock 적용 > 대상 지정"
+    },
+    {
+     "no": "2.2",
+     "title": "Lock 적용 > Lock 적용 창"
+    },
+    {
+     "no": "2.3",
+     "title": "Lock 적용 > 전자서명"
+    },
+    {
+     "no": "2.4",
+     "title": "Lock 적용 > Project 전체 잠금"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "Lock 해제",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "Lock 해제 > 해제 창"
+    }
+   ]
+  },
+  {
+   "ch": "4",
+   "title": "Lock 이력",
+   "items": [
+    {
+     "no": "4.1",
+     "title": "Lock 이력 > 이력 조회"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "Lock",
+    "SCR-LOCK-001·002·003·004 · 상태 조회 · 적용 · 전자서명 · 해제 · 이력",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-29"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 Lock 상태 조회 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2534,
+       "ih": 907,
+       "w": 531.375,
+       "h": 117.75,
+       "ix": 0.0,
+       "iy": -9.235681748440818,
+       "iwp": 100.21171489061398,
+       "ihp": 161.78345244907777,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 92.95276111503176,
+         "y": 6.732683121019107
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 98.3867766407904,
+         "y": 14.375995222929935
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 93.94076393789696,
+         "y": 24.567078025477706
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 23.9337067748765,
+         "y": 14.375995222929935
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 14.97110973888497,
+         "y": 26.47790605095541
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 19.91112385321101,
+         "y": 45.58618630573248
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 15.959112561750178,
+         "y": 56.41421178343949
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 36.98945836273818,
+         "y": 72.33777866242038
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 58.93723535638673,
+         "y": 88.8982882165605
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 4.949938249823571,
+         "y": 92.08300159235668
+        }
+       ],
+       "cap": [
+        {
+         "t": "Lock 상태 조회 (SCR-LOCK-001) — 왼쪽 메뉴를 포함한 전체 화면",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 238.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "입력이 끝난 자료를 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "더 바뀌지 않게 잠그고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 무엇이 잠겼는지 한눈에 보는 화면입니다. 잠금은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 단위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트 전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 두 층으로⁣걸 수 있고, 적용·해제 모두 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사유를 남기고 전자서명으로 확정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다. 화면은 위에서부터 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트 잠금 → 집계 → 필터 → 피험자 목⁣록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순서입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「CSV」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 보고 있는 피험자 Lock 목록을 파일로 내려받습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「이력」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠금·해제 기록을 모아 보는 화면으로 이동합니다 (4.1 참조). 그 화면으로 가는 길은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 버튼뿐",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「Project Lock 적용」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트 전체를 한 번에 잠급니다 (2.4 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 관리자에게만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "화면 부제가 이 화면의 역할을 밝힙니다 — “피험자·Project 단위 Lock 상태 개요. HARD_LOCK 가능 피험자 식별·관리 진입점.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Project Lock 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트 전체 잠금 여부와 활성 피험자 잠금 건수 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "집계 4종",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠금 현황을 숫자로 요약합니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "필터 4종",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 참여 기관 · Lock 상태 · 품질 · 검색. 검색은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "스크리닝번호 · 고유번호 · 기관코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 찾습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "피험자 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자별 잠금 상태와 액션 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "하단 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 제공되는 기능 범위를 적어 둔 줄입니다 (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「품질·규제 > Lock」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 이 화면의 자리입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "왼쪽 메뉴 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「품질·규제 > Lock」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트에 들어온 뒤에만 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 > 「Lock 현황」 위젯",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「Lock 관리 →」",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 > 「데이터 품질」 위젯",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「피험자 품질·Lock 목록」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 품질을 보다가 잠금으로 넘어오는 길입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "하단 안내 줄의 마지막 문장은 현재 화면과 맞지 않습니다. “Project HARD_LOCK·Project Lock 해제는 다음 단계에서 제공됩니다” 라⁣고 적혀 있지만, 프로젝트 잠금 해제는 이미 제공됩니다 — 프로젝트가 잠긴 상태에서 같은 자리에 「Project Lock 해제」 버튼이 나타⁣납니다. 안내문만 예전 그대로 남은 것이며, 프로젝트 전체를 HARD_LOCK 으로 잠그는 것이 아직 제공되지 않는다는 부분은 맞습니⁣다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "Lock 상태 조회",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 Lock 상태 조회 > Lock 상태 한눈에 보기",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2321,
+       "ih": 957,
+       "w": 531.375,
+       "h": 113.25,
+       "ix": 0.0,
+       "iy": -40.728476821192054,
+       "iwp": 200.56457304163726,
+       "ihp": 388.0794701986755,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 11.936529640084686,
+         "y": 20.576365894039736
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 15.959112561750178,
+         "y": 30.84126655629139
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 35.93088390966832,
+         "y": 61.304842715231786
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 83.99016407904023,
+         "y": 61.304842715231786
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 79.89700952717008,
+         "y": 87.79490894039735
+        }
+       ],
+       "cap": [
+        {
+         "t": "화면 위쪽 왼쪽 절반 — 프로젝트 잠금 카드 · 집계 2종 · 안내 배너 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 234.375
+      },
+      {
+       "img": "p04_2.png",
+       "iw": 2321,
+       "ih": 957,
+       "w": 531.75,
+       "h": 83.25,
+       "ix": -100.21156558533147,
+       "iy": -54.5045045045045,
+       "iwp": 200.42313117066294,
+       "ihp": 527.927927927928,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 80.89849259520452,
+         "y": 17.63091216216216
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 33.930932651622,
+         "y": 83.84712837837837
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 84.00145451339915,
+         "y": 83.84712837837837
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 띠의 오른쪽 절반 — 「Project Lock 적용」과 집계 2종 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 258.375,
+       "fy1": 341.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "목록을 하나씩 세기 전에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지금 이 프로젝트가 어디까지 잠겼는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 보여 주는 영역입니다. 맨 위 카드가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트 전체 잠금",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 그 아래⁣네 칸이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 단위 집계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 집계는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필터와 무관하게 전체 피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 기준으로 셉니다 — 필터를 걸어도 이 숫자는 바뀌지 않습니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「Project Lock 적용」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트 전체를 잠급니다 (2.4 참조). 이미 잠겨 있으면 같은 자리가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「Project Lock 해제」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "프로젝트 잠금 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「미적용」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 잠겨 있으면 그 자리에 잠금 유형 배지와 적용일이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "활성 Subject Lock 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 잠겨 있는 피험자 수입니다. 프로젝트가 잠긴 경우에는 “Project Lock 적용 중 — 하위 Subject Lock⁣단독 해제 차단” 이 함께 표시됩니다 (1.3 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "HARD_LOCK 가능 (CLEAN)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "품질이 CLEAN 이면서 아직 잠기지 않은",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 피험자 수입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "VERIFIED 는 여기에 들어가지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "SOFT_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 데이터 정리 단계로 잠긴 피험자 수.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "안내 배너",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “HARD_LOCK 가능 피험자 4명 — 품질 CLEAN + Open Query 0건 조건 충족. HARD_LOCK 은 각 Subject 단건 적용(전⁣제조건 검증) · 일괄은 FREEZE·SOFT_LOCK 만 지원.” ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가능한 피험자가 한 명도 없으면 이 배너가 나타나지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "HARD_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 완전히 잠긴 피험자 수.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "전체 Subject",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트의 전체 피험자 수. 앞 세 숫자의 합과 같지 않습니다 — 잠기지 않았고 품질도 CLEAN 이 아닌 피험자는 어⁣디에도 세지 않기 때문입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "잠금 유형 3종",
+     "head": [
+      "잠금 유형",
+      "무엇이 막히는가",
+      "쓰는 때"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "FREEZE",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "데이터 변경과 Query 답변을 차단. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "원자료 대조(SDV)는 허용",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "검토 중 임시로 묶어 둘 때",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "SOFT_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "Query 응답에 따른 수정만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 허용",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "데이터 정리 단계 · 완전 잠금 직전",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "HARD_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "완전 잠금. 피험자 단건으로만 적용되며 전제조건 검증을 통과해야 함",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "자료를 확정할 때",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      13.0,
+      57.3,
+      29.7
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "「HARD_LOCK 가능」은 품질이 CLEAN 인 피험자만 셉니다. 품질이 VERIFIED 인 피험자는 원자료 대조까지는 끝났어도 이 숫자에 들⁣어가지 않고, 목록의 Lock 열에도 「HARD 가능」 배지가 붙지 않습니다. 잠글 준비가 된 것처럼 보이는데 숫자가 0 이면 품질 열을 먼⁣저 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Lock 상태 조회 > ",
+     "cur": false
+    },
+    {
+     "t": "프로젝트 잠금 · 집계",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "1.3 Lock 상태 조회 > 피험자 목록과 행 액션",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2321,
+       "ih": 957,
+       "w": 531.75,
+       "h": 143.25,
+       "ix": -56.346967559943586,
+       "iy": -107.59162303664922,
+       "iwp": 156.5585216671074,
+       "ihp": 239.79057591623038,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 94.43869005641749,
+         "y": 18.09964005235602
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 21.942216149506347,
+         "y": 7.104875654450262
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 17.992991889985895,
+         "y": 18.09964005235602
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 42.18199047954866,
+         "y": 30.141524869109947
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 54.664360014104375,
+         "y": 55.79597513089005
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 73.35265338504936,
+         "y": 18.09964005235602
+        }
+       ],
+       "cap": [
+        {
+         "t": "피험자 목록의 오른쪽 — 품질 · Lock · 잠금 기준일 · Open Query (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 264.375
+      },
+      {
+       "img": "p05_2.png",
+       "iw": 2321,
+       "ih": 957,
+       "w": 197.25,
+       "h": 81.75,
+       "ix": -813.8783269961976,
+       "iy": -572.0183486238532,
+       "iwp": 914.4486692015208,
+       "ihp": 909.1743119266056,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 68.08757129277566,
+         "y": 32.174598623853214
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 68.08757129277566,
+         "y": 56.486525229357795
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 77.21304657794677,
+         "y": 79.42230504587155
+        }
+       ],
+       "cap": [
+        {
+         "t": "행 오른쪽 ⋯ 를 누르면 열리는 메뉴 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 288.375,
+       "fy1": 370.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자 한 명이 한 행입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "잠글 수 있는 상태인지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "품질",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Lock",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Open Query",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 세 열을 함께 봐야 알 수 있습니다 — 품질이 CLEAN⁣이고 열려 있는 Query 가 없어야 완전 잠금이 가능합니다. 실제 조작은 행 오른쪽 ⋯ 메뉴에서 시작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⋯ — 그 피험자에 대한 액션 메뉴를 엽니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「Lock 적용」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠금 창을 엽니다 (2.2 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이미 HARD_LOCK 인 행에서는 비활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 완전히 잠근 뒤에는 다른 잠금을 덧씌⁣울 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「Lock 해제」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 해제 창을 엽니다 (3.1 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "잠겨 있지 않은 행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이거나 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트 전체가 잠긴 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "면 비활성입니다 (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "「Patient Profile」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 피험자의 통합 화면으로 이동합니다. 잠그기 전에 내용을 확인할 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "표는 8열",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 선택 · 피험자 · Subject 상태 · 품질 · Lock · 잠금 기준일 · Open Query · 액션. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "맨 앞 선택 열은 데이터 관리자에게⁣만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시됩니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "품질",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — CLEAN · VERIFIED · PENDING · QUERY_ANSWERED · QUERY_OPEN 중 하나. 캡처의 첫 행은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "QUERY_OPEN",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이라 잠글 수 없⁣습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Lock",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠겨 있으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "유형 배지와 적용일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 잠글 수 있으면 초록 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「HARD 가능」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 둘 다 아니면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「—」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "잠금 기준일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「전체」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 전체 데이터를 잠근 것이고, 날짜와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「부분」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 보이면 그 날짜까지만 잠근 것입니다 (2.2 참조). 잠기⁣지 않은 행은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「—」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "Open Query",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 열려 있는 질의 건수입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "0 이 아니면 완전 잠금을 할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "프로젝트 전체가 잠겨 있으면 피험자 한 명만 따로 풀 수 없습니다. 그때는 행 메뉴의 「Lock 해제」 가 눌리지 않고 “Project Lock 해제⁣먼저” 안내가 붙습니다. 해제 창까지 열리더라도 “상위 Project Lock이 적용 중입니다. Project Lock 해제를 먼저 수행해야 Subject⁣Lock을 해제할 수 있습니다.” 로 막힙니다 — 프로젝트 잠금을 먼저 풀고 다시 시도하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Lock 상태 조회 > ",
+     "cur": false
+    },
+    {
+     "t": "피험자 목록",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.1 Lock 적용 > 대상 지정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2318,
+       "ih": 658,
+       "w": 531.375,
+       "h": 87.0,
+       "ix": 0.0,
+       "iy": -184.05172413793102,
+       "iwp": 200.56457304163726,
+       "ihp": 347.41375802577227,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 2.5505028228652082,
+         "y": 77.21550601652298
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 36.98945836273818,
+         "y": 24.629299119971265
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 2.5505028228652082,
+         "y": 53.07757498204023
+        }
+       ],
+       "cap": [
+        {
+         "t": "행을 선택하면 목록 위에 파란 띠가 나타납니다 (왼쪽 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 208.125
+      },
+      {
+       "img": "p06_2.png",
+       "iw": 2318,
+       "ih": 658,
+       "w": 531.75,
+       "h": 78.75,
+       "ix": -163.54019746121298,
+       "iy": -267.1428571428571,
+       "iwp": 263.75174009020924,
+       "ihp": 505.71428571428567,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 58.61358427362482,
+         "y": 35.780939980158735
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 85.41189174894217,
+         "y": 19.590463789682538
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 띠의 오른쪽 — 선택 해제와 일괄 잠금 버튼 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 232.125,
+       "fy1": 310.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "여러 피험자를 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 번에",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 잠글 때 쓰는 흐름입니다. 행 왼쪽 네모를 체크하면 목록 위에 파란 띠가 나타나고, 거기에서 바로 일괄 잠금을⁣시작합니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 명만 잠글 때는 체크하지 말고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 그 행의 ⋯",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " > 「Lock 적용」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 쓰십시오 (1.3 참조) — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "완전 잠금(HARD_LOCK)은 그 길⁣로만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 갈 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "행 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠글 피험자를 체크합니다. 체크한 수만큼 위 띠의 숫자가 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「선택 해제」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 체크를 모두 지웁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「선택 N명 일괄 잠금 (FREEZE/SOFT_LOCK)」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠금 창을 엽니다 (2.2 참조). 버튼 이름이 알려 주듯 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "일괄로는 두 유형만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 고를 수 있⁣습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "띠의 문구가 그 제약을 다시 밝힙니다 — “1명 선택됨 — 일괄 FREEZE·SOFT_LOCK 적용 가능 (HARD_LOCK 은 단건)”.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "머리글의 네모는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지금 걸린 필터에 걸린 행 전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 한 번에 체크합니다. 필터를 걸어 좁힌 뒤 여기를 누르는 것이 안전합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "선택 열과 일괄 잠금은 데이터 관리자에게만 보입니다. 연구책임자 화면에는 체크 열 자체가 없어 이 흐름을 시작할 수 없습니다 —⁣한 명씩 ",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        },
+        {
+         "t": "⋯",
+         "b": false,
+         "code": false,
+         "tone": "warn"
+        },
+        {
+         "t": " > 「Lock 적용」 으로 잠가야 합니다. 보이지 않는다고 고장이 아니라 권한에 따른 정상 동작입니다. 같은 이유로 「Project⁣Lock 적용」도 데이터 관리자 전용입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Lock 상태 조회 > ",
+     "cur": false
+    },
+    {
+     "t": "대상 지정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.2 Lock 적용 > Lock 적용 창",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2327,
+       "ih": 1195,
+       "w": 240.0,
+       "h": 264.0,
+       "ix": -114.53125,
+       "iy": -31.676136363636363,
+       "iwp": 358.4375,
+       "ihp": 167.32954545454547,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 76.74072265625,
+         "y": 36.525564482717805
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 35.64697265625,
+         "y": 46.75283720999053
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 80.17822265625,
+         "y": 56.411928119081445
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 46.42822265625,
+         "y": 66.2130644827178
+        },
+        {
+         "kind": "res",
+         "n": 4,
+         "x": 64.24072265625,
+         "y": 72.60510993726325
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 80.17822265625,
+         "y": 95.9005644827178
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 46.42822265625,
+         "y": 16.78124630089962
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 71.27197265625,
+         "y": 80.98579175544508
+        }
+       ],
+       "cap": [
+        {
+         "t": "Lock 적용 (SCR-LOCK-002) — 일괄 잠금으로 연 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 385.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "어떤 잠금을",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "왜",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어디까지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 거는지를 정하는 창입니다. 네 가지를 채우면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전자서명 단계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 넘어가고, 서명을 마쳐야 잠금이 확정됩니⁣다 (2.3 참조). 창 맨 위 부제가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이번에 잠글 대상이 몇 건인지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 알려 주므로, 엉뚱한 범위를 잠그지 않도록 먼저 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "① Lock 유형",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "SOFT_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 고른 상태입니다. 선택한 칸에 색이 들어옵니다. 일괄 잠금에서는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "FREEZE · SOFT_LOCK 두⁣가지만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "② 사유 구분",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "반드시 골라야 합니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 목록은 위에서 고른 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Lock 유형에 따라 달라집니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (아래 표 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상세 메모",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 적용 배경을 적습니다. 라벨은 「선택」이지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실제로는 입력해야 진행됩니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "특정 기준일까지의 데이터만 잠금",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 체크하지 않으면 전체 데이터를 잠급니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 4,
+       "runs": [
+        {
+         "t": "체크하면 날짜 입력란이 나타납니다. ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "기준일 당일에 만들어진 데이터까지 포함",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "해 잠깁니다 — 화면 문구의 “당일 포함” 이 그⁣뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "「전자서명으로 진행」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 서명 단계로 넘어갑니다 (2.3 참조). 아직 잠긴 것이 아닙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 캡처는 “선택 1명 일괄” 이고 창 제목 아래에 “다수 피험자 · 대상 1건” 이 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "전자서명 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “다음 단계에서 전자서명 비밀번호 입력 후 Lock 이 확정됩니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "Lock 유형별 사유 구분",
+     "head": [
+      "Lock 유형",
+      "고를 수 있는 사유 구분"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "FREEZE",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "모니터링 검토 · Interim Lock · 규제 대응 · 기타",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "SOFT_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "데이터 정리 단계 · Interim Lock · 규제 대응 · 기타",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "HARD_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "연구 종결 · Interim Lock · 규제 대응 · 기타",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      23.4,
+      76.6
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "「상세 메모」는 라벨이 「선택」이지만 비우면 진행할 수 없습니다. 3자 이상을 입력해야 「전자서명으로 진행」 이 활성화됩니다. 사유⁣구분까지 골랐는데 버튼이 흐린 채라면 메모 칸을 먼저 확인하십시오. (해제 창은 같은 칸이 처음부터 필수 · 5자 이상으로 표시됩니다⁣— 3.1 참조.) 또한 완전 잠금(HARD_LOCK)을 고르면 기준일 지정이 꺼집니다 — 완전 잠금은 언제나 전체 잠금입니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 대상 지정 > ",
+     "cur": false
+    },
+    {
+     "t": "Lock 적용",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "2.3 Lock 적용 > 전자서명",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 671,
+       "ih": 774,
+       "w": 296.25,
+       "h": 361.5,
+       "ix": -19.62025316455696,
+       "iy": -13.174265416990838,
+       "iwp": 139.74683544303795,
+       "ihp": 131.95019902694932,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 75.0810917721519,
+         "y": 63.60373173841632
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 47.99248417721519,
+         "y": 74.59958236082296
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 83.1823575949367,
+         "y": 95.34647032762794
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 63.94185126582278,
+         "y": 9.039416385719226
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 56.85324367088608,
+         "y": 24.59958236082296
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 50.01780063291139,
+         "y": 39.537341696922546
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 56.85324367088608,
+         "y": 51.67427115750346
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 61.15704113924051,
+         "y": 67.54564045210927
+        }
+       ],
+       "cap": [
+        {
+         "t": "전자서명 수행 — 잠금·해제 공통 2단계 중 마지막 단계",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 482.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "잠금을 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "확정하는 마지막 단계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 전자서명은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "법적 효력이 있는 기록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이라 누가·무엇에·어떤 의미로 서명했는지가 함께 남고, 한 번⁣남으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지워지지 않습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 그래서 서명 전에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "서명 대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 내가 의도한 그 범위인지 반드시 확인해야 합니다. 이 창은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해제할 때도 똑⁣같이",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 나타납니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "전자서명 비밀번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로그인 비밀번호와 다른",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 서명 전용 비밀번호입니다. 오른쪽 눈 모양을 누르면 입력한 값을 확인할 수 있습니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「서명 의미와 책임을 이해했습니다」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 체크해야 서명을 실행할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「서명 실행」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 서명이 기록되고 잠금이 확정됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "서명 목적",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 무엇에 서명하는지가 제목 아래에 표시됩니다. 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 잠금 적용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "서명 대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “선택 1명 일괄 / SOFT_LOCK 일괄 적용” 처럼 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "범위와 유형",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 다시 한 번 표시됩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "여기가 마지막 확인 지점",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "사용자 ID",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 로그인한 계정입니다. 다른 사람 대신 서명할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "서명 의미",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "승인자 확인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 고정되어 있으며 사용자가 바꾸지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "안내 — “전자서명 비밀번호는 로그인 비밀번호와 다릅니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "서명은 되돌릴 수 없고 기록이 남습니다. 체크 옆 설명이 그 점을 밝힙니다 — “본 서명은 법적 효력을 가지며, 21 CFR Part 11⁣§11.10(e)에 따라 IP·UA·서명 의미와 함께 append-only로 기록됩니다.” 즉 접속 정보까지 함께 보존되며 그 기록은 지우거나 고칠 수⁣없습니다. 잘못 잠갔다면 되돌리는 방법은 해제를 다시 서명해서 수행하는 것뿐이고, 그 해제 역시 이력에 남습니다 (3.1 · 4.1 참조).",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Lock 적용 > ",
+     "cur": false
+    },
+    {
+     "t": "전자서명 수행",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "2.4 Lock 적용 > Project 전체 잠금",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2287,
+       "ih": 1146,
+       "w": 310.5,
+       "h": 323.25,
+       "ix": -114.85507246376811,
+       "iy": -32.59860788863109,
+       "iwp": 358.69565217391306,
+       "ihp": 172.62182862649846,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 32.02181461352657,
+         "y": 49.784219716744005
+        },
+        {
+         "kind": "res",
+         "n": 1,
+         "x": 80.33099335748793,
+         "y": 95.95591345224285
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 26.70780495169082,
+         "y": 6.976795122776489
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 46.39379528985507,
+         "y": 16.953593266627998
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 57.142587560386474,
+         "y": 37.371226677300854
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 71.39379528985508,
+         "y": 59.993036422080436
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 44.58220108695652,
+         "y": 70.54988096964424
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 64.26819142512076,
+         "y": 80.6426883942382
+        }
+       ],
+       "cap": [
+        {
+         "t": "Project Lock 적용 — 사유 구분을 고르기 전이라 진행 버튼이 흐린 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 444.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 한 번에 잠그는 창입니다. 입력 항목은 피험자 잠금과 같지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "영향 범위가 다릅니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하위 피험자 전원",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 함께 잠기⁣고, 그 뒤에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 한 명만 따로 풀 수 없습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (1.3 유의사항 참조). 캡처는 아직 아무것도 고르지 않은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "처음 열린 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "② 사유 구분",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 처음에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「— 선택 —」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 반드시 골라야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 1,
+       "runs": [
+        {
+         "t": "고르기 전에는 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "「전자서명으로 진행」이 흐린 채",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "로 눌리지 않습니다 — 캡처가 그 상태입니다. ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "상세 메모",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "까지 채워야 활성화됩니⁣다 (2.2 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 제목 아래에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대상 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 표시됩니다 — 캡처는 “Project 전체 · 대상 7건”.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “Project 전체 (하위 Subject 7명 포함)”. 이 줄의 숫자가 실제로 잠길 피험자 수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Lock 유형이 두 가지뿐",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "FREEZE · SOFT_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 프로젝트 전체를 완전 잠금(HARD_LOCK)으로 거는 기능은 아직 제공되지⁣않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "상세 메모",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 안내 문구가 무엇을 적어야 하는지 알려 줍니다 (“Lock 적용 배경·검토 맥락”).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "기준일 지정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 프로젝트 잠금에서도 쓸 수 있습니다 — 체크하지 않으면 전체 데이터를 잠급니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "전자서명 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 다음 단계는 피험자 잠금과 같습니다 (2.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "프로젝트 전체를 잠그면 피험자 단위 해제가 막힙니다. 잠근 뒤에는 목록의 행 메뉴에서 「Lock 해제」가 전부 비활성되고, 한 명을 풀⁣려면 프로젝트 잠금을 먼저 해제해야 합니다. 일부 피험자만 정리가 끝난 단계라면 프로젝트 전체가 아니라 일괄 잠금(2.1) 으로 그 피⁣험자들만 거는 편이 나중에 되돌리기 쉽습니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Lock 상태 조회 > ",
+     "cur": false
+    },
+    {
+     "t": "Project Lock 적용",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.1 Lock 해제 > 해제 창",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2212,
+       "ih": 1087,
+       "w": 268.5,
+       "h": 307.5,
+       "ix": -142.0391061452514,
+       "iy": -43.048780487804876,
+       "iwp": 417.877094972067,
+       "ihp": 179.51219512195124,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 66.63975209497207,
+         "y": 51.35853340955284
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 72.78500349162012,
+         "y": 63.309752921747965
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 86.47215432960894,
+         "y": 93.30975292174797
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 70.55036662011173,
+         "y": 16.48048462906504
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 60.21517108938548,
+         "y": 24.52926511686992
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 76.97494762569832,
+         "y": 38.065850482723576
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 70.55036662011173,
+         "y": 77.4560943851626
+        }
+       ],
+       "cap": [
+        {
+         "t": "Lock 해제 (SCR-LOCK-003) — 완전 잠금(HARD_LOCK)을 푸는 경우",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 428.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "잠금을 푸는 창입니다. 위쪽에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지금 걸려 있는 잠금의 내역",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 먼저 표시되고, 그 아래에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "왜 푸는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 적습니다. 적용과 마찬가지로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전⁣자서명을 마쳐야",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 해제가 확정됩니다 (2.3 참조). 해제 사유 목록은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "적용 사유와 다른 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며 프로젝트 설정의 코드 관리에서 관리됩⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "해제 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 반드시 골라야 합니다. 모니터링 종료 · 추가 수정 필요 · Lock 적용 오류 정정 · 프로토콜 변경 · 감사 대응 · 기타 등이⁣제공됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "상세 메모",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필수이며 5자 이상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 라벨에 그렇게 적혀 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「전자서명으로 진행」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 서명 단계로 넘어갑니다 (2.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "현재 잠금 유형과 적용일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 줄 맨 왼쪽의 붉은 배지가 지금 걸린 잠금 유형이고(캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "HARD_LOCK",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "), 그 오른쪽이 적용 시각입니⁣다. 이 시각은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한국 시간이 아니라 협정세계시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다(끝의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Z",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 그 표시) — 한국 시간으로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "9시간을 더해",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 읽으십시오 (4.1 유의사항⁣참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "적용자 · 사유 · 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 누가 왜 잠갔는지와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체 잠금인지 부분 잠금인지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 표시됩니다. 캡처는 “범위: 전체 잠금” 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "영향 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 완전 잠금을 풀 때만 나타나는 빨간 상자입니다. 해제 후 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 편집이 다시 가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해지고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "편집하면 원자료 대조와 전자⁣서명을 다시 받아야",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 하며, 질의를 되살리려면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 화면에서 재질의",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 해야 한다고 알려 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "전자서명 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “다음 단계에서 전자서명 비밀번호 입력 후 해제가 확정됩니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "완전 잠금을 푸는 것은 확정한 자료를 다시 여는 일입니다. 화면의 빨간 안내가 그 대가를 그대로 적어 둡니다 — 잠긴 동안의 상태가⁣풀리면서 원자료 대조(SDV)와 전자서명을 다시 받아야 하고, 그 사이의 모든 변경이 이력에 남습니다. 해제가 꼭 필요한지, 해제 대신⁣질의(Query)로 처리할 수 없는지를 먼저 검토하고, 풀어야 한다면 상세 메모에 후속 조치 계획까지 적어 두십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Lock 상태 조회 > ",
+     "cur": false
+    },
+    {
+     "t": "Lock 해제",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "4.1 Lock 이력 > 이력 조회",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 2332,
+       "ih": 449,
+       "w": 531.375,
+       "h": 84.37501525878906,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 182.21593770215833,
+       "ihp": 221.33331139082188,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 72.698703246295,
+         "y": 82.72888043820883
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 20.899126676076218,
+         "y": 31.173334206211262
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 54.491222653493296,
+         "y": 50.72888622524482
+        }
+       ],
+       "cap": [
+        {
+         "t": "Lock 이력 (SCR-LOCK-004) 위쪽 왼쪽 — 제목 · 필터 3종 · 검색 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 205.875
+      },
+      {
+       "img": "p11_2.png",
+       "iw": 2332,
+       "ih": 449,
+       "w": 531.75,
+       "h": 92.625,
+       "ix": -100.21156558533147,
+       "iy": 0.0,
+       "iwp": 200.42313117066294,
+       "ihp": 221.0526315789474,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 89.50215973201693,
+         "y": 13.821851804993251
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 82.59101727785614,
+         "y": 82.64776273616734
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 띠의 오른쪽 — CSV · 기간 필터 · 보기 전환 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 230.625,
+       "fy1": 323.625
+      },
+      {
+       "img": "p11_3.png",
+       "iw": 2332,
+       "ih": 449,
+       "w": 531.375,
+       "h": 68.25,
+       "ix": 0.0,
+       "iy": -125.82417582417582,
+       "iwp": 182.21593770215833,
+       "ihp": 273.6263736263736,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 54.491222653493296,
+         "y": 20.406579097985347
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 34.448879675370506,
+         "y": 81.94504063644689
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 15.394539520112914,
+         "y": 41.285699977106226
+        }
+       ],
+       "cap": [
+        {
+         "t": "목록 왼쪽 — 적용·해제가 한 행씩 쌓입니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 348.375,
+       "fy1": 416.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "잠금과 해제가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "언제 · 누구에 의해 · 왜",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 일어났는지를 모아 보는 화면입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "덧붙이기만 가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해서 한 번 쌓인 줄은 고치거나 지울 수⁣없고, 바로잡을 일이 있으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "새 줄이 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다. 그래서 이 화면에는 편집 기능이 없습니다. 들어오는 길은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Lock 상태 조회 화면의⁣「이력」 버튼",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 하나뿐입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「CSV」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 조건에 맞는 이력을 파일로 내려받습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 대상과 사유 문구로 찾습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「테이블」 / 「체인 뷰」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 표로 볼지, 대상별로 묶어 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "적용 → 해제 → 재적용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순서를 이어 볼지 고릅니다. 캡처는 테이블입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "부제가 이 화면의 성격을 밝힙니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "덧붙이기 전용 · 조회 전용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ".",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "필터 6종",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 대상 · 잠금 유형 · 작업 종류(적용/해제) · 수행자 · 기간 시작 · 기간 종료. 그 아래 줄에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표시 건수 / 전체 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 함께 표⁣시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "표는 8열",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 시각 · 대상 · 작업 · 잠금 유형 · 잠금 기준시점 · 수행자 · 사유 · 서명. 맨 끝 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "서명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열이 그 작업에 쓰인 전자서명 기⁣록과 이어집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "하단 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “Lock 변경 내역은 향후 Audit Trail 화면에서도 통합 조회할 수 있도록 준비 중입니다.” 라고 적혀 있으나, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Audit Trail⁣화면의 「Lock」 카테고리에서 이미 함께 조회됩니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 안내문만 예전 그대로 남은 것입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "시각",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "2026-07-30 06:00",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다 (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "이 화면의 시각은 한국 시간이 아닙니다 — 협정세계시 그대로입니다. 캡처의 06:00 은 한국 시간으로 같은 날 15:00 이며, 해제 창의⁣「적용일」(3.1)도 같은 방식입니다. 반면 Audit Trail 화면은 「일시 (KST)」 로, 프로젝트 대시보드의 Lock 위젯도 한국 시간으로 변환해⁣보여 주므로 같은 사건이 화면마다 9시간 달라 보입니다. 감사 대응 자료에 시각을 인용할 때는 어느 화면에서 읽은 값인지를 함께 밝⁣히고, 한국 시간이 필요하면 9시간을 더해 적으십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Lock 상태 조회 > ",
+     "cur": false
+    },
+    {
+     "t": "Lock 이력",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

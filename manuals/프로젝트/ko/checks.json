@@ -1,0 +1,40 @@
+{
+ "manual": "프로젝트",
+ "lang": "ko",
+ "pages": 27,
+ "js_errors": [],
+ "checks": {
+  "header_position": {
+   "pass": true,
+   "pages": 22,
+   "bad_top": [],
+   "bad_gap": [],
+   "header_heights": [
+    98
+   ]
+  },
+  "no_overflow": {
+   "pass": true,
+   "pages": []
+  },
+  "no_large_blank": {
+   "pass": true,
+   "sparse": [],
+   "min_fill_mid_pages": 0.82
+  },
+  "short_last_line": {
+   "pass": true,
+   "balanced": []
+  },
+  "refs": {
+   "pass": true,
+   "unresolved": []
+  },
+  "no_hangul": {
+   "pass": true,
+   "count": 6513,
+   "applies": false
+  }
+ },
+ "pass": true
+}

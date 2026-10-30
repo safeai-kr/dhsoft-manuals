@@ -1,0 +1,356 @@
+[
+ {
+  "ko": "AE 지정",
+  "tr": "AE assignment",
+  "type": "path",
+  "note": "Menu item and first breadcrumb."
+ },
+ {
+  "ko": "SAE 여부 지정",
+  "tr": "SAE flag assignment",
+  "type": "path",
+  "note": "Also used as the section heading."
+ },
+ {
+  "ko": "양식 지정",
+  "tr": "Form assignment",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "지정 결과",
+  "tr": "Assignment result",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "지정 변경",
+  "tr": "Changing an assignment",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "지정 해제",
+  "tr": "Removing an assignment",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "서식 슬롯 지정",
+  "tr": "Form slot assignment",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "중대성 · 중증도",
+  "tr": "Seriousness · severity",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "LAB 정상범위",
+  "tr": "LAB normal ranges",
+  "type": "menu",
+  "note": "Menu item and screen name."
+ },
+ {
+  "ko": "연구 관리",
+  "tr": "Study management",
+  "type": "menu",
+  "note": "Left menu group."
+ },
+ {
+  "ko": "SAE 여부",
+  "tr": "SAE flag",
+  "type": "field",
+  "note": "Field that marks SAE. Kept as a field label, not a yes/no question."
+ },
+ {
+  "ko": "중대성 여부",
+  "tr": "seriousness flag",
+  "type": "field",
+  "note": "Used as the name of the report form box. Source uses both 'SAE 여부' and '중대성 여부' for the same field."
+ },
+ {
+  "ko": "인지일",
+  "tr": "Awareness date",
+  "type": "field",
+  "note": "Judgement call. Real UI wording unknown."
+ },
+ {
+  "ko": "중대성 기준",
+  "tr": "Seriousness criteria",
+  "type": "field",
+  "note": "Report form box."
+ },
+ {
+  "ko": "중증도",
+  "tr": "Severity",
+  "type": "field",
+  "note": "Report form box. Not the seriousness flag."
+ },
+ {
+  "ko": "지속 여부",
+  "tr": "Ongoing",
+  "type": "field",
+  "note": "Report form box."
+ },
+ {
+  "ko": "결과",
+  "tr": "Outcome",
+  "type": "field",
+  "note": "Report form box, as in 'outcome of the event'. Not the fixed block label 'Result'."
+ },
+ {
+  "ko": "인과관계 평가",
+  "tr": "Causality assessment",
+  "type": "label",
+  "note": "Report form section."
+ },
+ {
+  "ko": "의심 시험약·기기",
+  "tr": "Suspect investigational product and device",
+  "type": "label",
+  "note": "Report form box."
+ },
+ {
+  "ko": "피험자 정보",
+  "tr": "Subject information",
+  "type": "label",
+  "note": "Report form section."
+ },
+ {
+  "ko": "이상사례",
+  "tr": "Adverse event",
+  "type": "label",
+  "note": "Report form section."
+ },
+ {
+  "ko": "서식 슬롯",
+  "tr": "Form slot",
+  "type": "button",
+  "note": "Row action."
+ },
+ {
+  "ko": "휴지통",
+  "tr": "Trash can",
+  "type": "button",
+  "note": "Icon row action. Removes the assignment."
+ },
+ {
+  "ko": "변경",
+  "tr": "Change",
+  "type": "button",
+  "note": "Row action."
+ },
+ {
+  "ko": "해제",
+  "tr": "Remove",
+  "type": "button",
+  "note": "Button in the removal window."
+ },
+ {
+  "ko": "지정 안 함",
+  "tr": "Not set",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "+ 행 추가",
+  "tr": "+ Add row",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "일괄 등록",
+  "tr": "Bulk upload",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "바인딩 개관",
+  "tr": "Binding overview",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "정상 · 낮음 · 높음",
+  "tr": "Normal · Low · High",
+  "type": "value",
+  "note": "Judgment values."
+ },
+ {
+  "ko": "기관 × 성별 × 연령",
+  "tr": "site × sex × age",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연령 구간",
+  "tr": "age band",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "중대이상사례",
+  "tr": "serious adverse event (SAE)",
+  "type": "term",
+  "note": "Used in full on first mention, then as SAE."
+ },
+ {
+  "ko": "중대이상사례 통보",
+  "tr": "SAE notification",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "보고 서식",
+  "tr": "report form",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "규제 보고 기한",
+  "tr": "regulatory reporting deadline",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "기한 시계",
+  "tr": "deadline timer",
+  "type": "term",
+  "note": "Judgement call for the term."
+ },
+ {
+  "ko": "추출",
+  "tr": "extraction",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "추출 필터",
+  "tr": "extraction filter",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "이상사례 양식",
+  "tr": "AE form",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "시험약",
+  "tr": "investigational product",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "발현일",
+  "tr": "onset date",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "종료일",
+  "tr": "end date",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "사망",
+  "tr": "death",
+  "type": "value",
+  "note": "Report form value."
+ },
+ {
+  "ko": "입원",
+  "tr": "hospitalization",
+  "type": "value",
+  "note": "Report form value."
+ },
+ {
+  "ko": "생명 위협",
+  "tr": "life-threatening",
+  "type": "value",
+  "note": "Report form value."
+ },
+ {
+  "ko": "장애",
+  "tr": "disability",
+  "type": "value",
+  "note": "Report form value."
+ },
+ {
+  "ko": "회복",
+  "tr": "recovered",
+  "type": "value",
+  "note": "Report form value."
+ },
+ {
+  "ko": "후유증",
+  "tr": "sequelae",
+  "type": "value",
+  "note": "Report form value."
+ },
+ {
+  "ko": "경증 · 중등증 · 중증",
+  "tr": "Mild · moderate · severe",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "자물쇠",
+  "tr": "lock",
+  "type": "label",
+  "note": "Icon on a box the system fills."
+ },
+ {
+  "ko": "피험자 식별번호",
+  "tr": "subject ID",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "이니셜",
+  "tr": "initials",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "출생연도",
+  "tr": "birth year",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "시스템이 채웁니다 (피험자·과제·기관 정보)",
+  "tr": "Filled in by the system (subject, study and site information)",
+  "type": "message",
+  "note": "Study used for 과제."
+ },
+ {
+  "ko": "노란 배너",
+  "tr": "Yellow banner",
+  "type": "label",
+  "note": "Banner shown on the LAB normal ranges screen."
+ },
+ {
+  "ko": "빨간 안내",
+  "tr": "Red notice",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "정상범위 재판정",
+  "tr": "normal range re-flagging",
+  "type": "term",
+  "note": "Re-flagging of past values against normal ranges."
+ },
+ {
+  "ko": "판정",
+  "tr": "flag",
+  "type": "term",
+  "note": "Glossary already has auto-flagging / re-flagging. Body uses 'flagged' for the result."
+ }
+]

@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>SMART-EDC 사용자 매뉴얼 — 프로젝트</title>
+<meta name="author" content="hy0909">
+<style>@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-400.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-500.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-700.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-800.ttf) format("truetype");font-weight:800}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Medium.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Bold.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-ExtraBold.ttf) format("truetype");font-weight:800}
+@page{size:210mm 297mm;margin:0}
+/* 언어별: 자간(2절: 한국어 10pt 초과 -3%, 영어 -1%; 독일어는 영어와 같게, 일본어 0 [확인 필요]) · 글꼴 · 줄바꿈 */
+:root{--ls:-0.03em}
+body.lang-en,body.lang-de{--ls:-0.01em}
+body.lang-ja{--ls:0em}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
+body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
+body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal}
+body.lang-en td:first-child,body.lang-en th:first-child,body.lang-de td:first-child,body.lang-de th:first-child,body.lang-en table.wide th:nth-child(1),body.lang-de table.wide th:nth-child(1){width:96px}   /* 첫 열이 음절 단위로 쪼개질 만큼 좁아지지 않게 */   /* 좁은 표 열: 낱말을 하이픈 없이 끊지 않고 사전식 하이픈으로 나눈다 */
+body.lang-ja{font-family:"PretendardJPM",sans-serif;word-break:normal;line-break:strict}
+b{font-weight:700;color:#111B2B}
+ul{list-style:none}
+p,li,figcaption,td,th,h4{white-space:pre-wrap}
+/* 코드 칩: 배경은 위아래로만 넓힌다. 좌우로 넓히면 앞뒤 괄호·글자를 덮는다. 좌우 padding/margin은 복사 공백이 생길 수 있어 쓰지 않는다. */
+code{font-family:inherit;color:#202F86;background:#F1F3FE;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+a{color:inherit;text-decoration:none}
+
+.page{width:794px;height:1123px;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.page:last-child{break-after:auto;page-break-after:auto}
+
+/* ---------- 표지 ---------- */
+.page.cover{background:#071426;color:#fff}
+.cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
+.cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
+.cv-brand{font-size:28.5px;font-weight:800;line-height:34px;letter-spacing:-0.01em}
+.cv-brand .sm{color:#65E5D1}
+.cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-main{position:absolute;left:56px;right:56px;top:322px}
+.cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
+.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
+.cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
+.cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
+.cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
+.cv-logo{width:138px;height:auto}
+
+/* ---------- 목차 ---------- */
+.toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
+.toc-h h1{font-size:33.5px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
+.toc-h .brand{font-size:12.5px;font-weight:700;color:#94A3B8;line-height:15px}
+.page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
+.tch{margin-bottom:37.33px}
+.tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
+.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3349CA;flex:none}
+.tct{margin-left:5.33px;font-size:16px;font-weight:700;color:#111B2B;letter-spacing:var(--ls);line-height:24px}
+.tch ul{margin-top:6px}
+.tch li a{display:flex;align-items:flex-start;padding:3.33px 0;font-size:15.5px;line-height:24px}
+.tch li:first-child a{padding-top:5.33px}
+.tn{width:26px;margin-left:27.33px;font-weight:700;color:#94A3B8;flex:none;letter-spacing:-0.01em}
+.tt{margin-left:5.33px;flex:1;color:#263341;letter-spacing:var(--ls)}
+.tp{width:24px;text-align:center;font-size:13.5px;color:#8C96A8;flex:none}
+
+/* ---------- 간지 ---------- */
+.page.divider{background:#EFF1FA}
+.dlabel{position:absolute;left:56px;top:43px;font-size:14.5px;color:#405169;line-height:20px;letter-spacing:var(--ls)}
+.dhead{position:absolute;left:52px;top:140px;right:56px}
+.dnum{font-size:99.6px;font-weight:800;color:#45517E;line-height:1.2;letter-spacing:var(--ls)}
+.dtitle{font-size:52px;font-weight:700;color:#15233A;line-height:1.25;margin-top:4px;letter-spacing:var(--ls)}
+.dbar{position:absolute;right:0;width:19px;background:#45517E}
+.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #C8D0DD;padding-top:22px}
+.dlist li{display:flex;align-items:baseline;margin-bottom:20px}
+.dn{width:34px;padding-left:4px;flex:none;font-size:16.5px;font-weight:700;color:#94A3B8}
+.dt{font-size:18.5px;color:#26374B;line-height:1.3;letter-spacing:var(--ls)}
+.pno{position:absolute;right:56px;top:1063px;font-size:13.5px;color:#8590AE;line-height:20px}
+
+/* ---------- 본문 ---------- */
+.hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
+/* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
+.hx{min-width:0}
+.ht{display:flex;align-items:baseline;padding-top:38px;font-size:31.5px;line-height:44px;font-weight:700;color:#fff;letter-spacing:var(--ls)}
+.hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
+.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
+.ftr .chn{flex:1}
+.ftr .brand{font-weight:700;margin-right:20px}
+
+.blk{display:block}
+.path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
+.path .lbl{font-weight:700;color:#6B7689;margin-right:5px;white-space:pre}
+.path .chev{margin:0 2px;flex:none}
+.tab{margin-top:40px}
+.area>.blk:first-child{margin-top:0!important}
+.path+.tab{margin-top:38px}
+.tab h3{display:flex;align-items:flex-end;font-weight:700}
+.tab h3 span{background:#191F29;color:#fff;font-size:17px;line-height:23px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
+.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #191F29}
+.tab+.blk{margin-top:12px}
+.ov p{font-size:14.5px;line-height:1.5;color:#202630;letter-spacing:var(--ls)}
+.ov+.ov{margin-top:6px}
+
+.legend{border:1px solid #E2E8F0;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:flex-start;font-size:13px;line-height:18px;color:#111B2B}
+/* 범례 항목: 위 정렬. 원 중심 = 첫 줄 글자 높이 중심(기준선 − 0.358em, 13px 기준 1.35px 내림), 제목(b)과 설명(span)은 같은 글자 크기·줄 높이라 첫 줄 기준선이 같다 */
+.lg{display:flex;align-items:flex-start}
+.lg>.lcir{margin-top:1.35px}
+.lg>b,.lg>span{line-height:18px}
+.lg>span{min-width:0}
+.lg b{margin:0 2.5px 0 5px;white-space:pre}
+.lg.note b{margin-right:0}
+.lg.note b{color:#475569}
+.lcir{width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;line-height:1;color:#fff;flex:none}
+/* 범례 원은 SVG(.cn)가 그린다 */
+.legend+.fig{margin-top:8px!important}
+
+.fig{background:#F6F7F9;border-radius:8px;padding:14px 16px 16px;display:flex;justify-content:center;gap:16px}
+.shot{flex:none}
+.imgbox{display:grid;width:100%;border-radius:8px;background:#fff}
+.imgbox>*{grid-area:1/1}
+.imgbox img{display:block;width:100%;height:auto;border-radius:8px}
+.mk{align-self:start;justify-self:start;margin-right:-22px;margin-bottom:-22px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11.4px;font-weight:700;line-height:1;color:#fff;box-shadow:0 0 0 0.5px rgba(100,116,139,.25),0 1px 3px rgba(100,116,139,.35)}
+/* 화면 위 번호: 흰 테두리 바깥에만 연한 회색 그림자(원 모양 그대로, 잘리지 않게 작게) */
+.mk-set,.mk-ref{}
+
+figcaption{margin-top:10px;font-size:12px;line-height:1.45;color:#475364;letter-spacing:0}
+figcaption code{color:#475364;background:#E9ECF3}
+.fig+.item{margin-top:8px}
+
+.item{display:flex;align-items:flex-start;padding:10px 0}
+.item+.item{background:linear-gradient(#F1F5F9,#F1F5F9) no-repeat 33px 0/calc(100% - 33px) 1px}
+.cir{width:23px;height:23px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1;color:#fff}
+/* 번호 설명 원은 SVG(.cn)가 그린다 */
+.cir.c-res{width:22px;height:22px}
+.item .body{margin-left:10px;flex:1;min-width:0}
+.item .t{font-size:14.5px;line-height:1.55;color:#111B2B;letter-spacing:var(--ls)}
+.item.k-ref .t,.item.k-ref .t b{color:#475569}
+.ress{margin-top:12px;margin-left:0}
+.res{display:flex;align-items:flex-start}
+.res+.res{margin-top:8px}
+.res .t{margin-left:10px;flex:1;color:#263341}
+.res .t b{color:#111B2B}
+.res .cir{margin-top:0}
+.conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+
+.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
+
+.card{border-radius:8px;padding:14px 14.7px 15px}
+.card+.card{margin-top:7.33px}
+.tab+.card{margin-top:12px}
+.card h4{display:flex;align-items:baseline;font-size:14.5px;font-weight:700;line-height:20px;white-space:normal}
+.card .ttl{white-space:pre}
+.card .sub{font-size:12px;font-weight:400;margin-left:4.5px}
+.card ul{margin-top:6px}
+.card li{font-size:13.5px;font-weight:500;line-height:1.52;color:#475569;padding-left:14px;text-indent:-14px}
+.card li+li{margin-top:4px}
+.card li b{color:inherit}
+.card .bul{display:inline-block;width:14px;text-indent:0}
+.card.must{background:#FDF2F3}.card.must h4{color:#B91C1C}.card.must .ref{color:#A15E61}.card.must code{background:#F6DCDE;color:inherit}
+.card.misc{background:#FEF9F0}.card.misc h4{color:#885910}.card.misc .ref{color:#927341}.card.misc code{background:#FCE8BF;color:inherit}
+.card.note{background:#F1F5F9}.card.note h4{color:#475569}.card.note .ref{color:#64748B}.card.note code{background:#E2E8F0;color:inherit}
+.card.note li b{color:#334155;font-weight:700}
+
+.plain ul li{font-size:14.5px;line-height:1.55;color:#202630;padding-left:14px;text-indent:-14px;letter-spacing:var(--ls)}
+.plain ul li+li{margin-top:6px}
+.plain .bul{display:inline-block;width:14px;text-indent:0}
+.box{border:1px solid #E2E8F0;border-radius:8px;padding:14px 16px}
+.box+.box{margin-top:8px}
+.box p{font-size:13.5px;line-height:1.52;color:#202630}
+
+.tblwrap table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:left;padding:11px 10.7px;vertical-align:top}
+td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
+td b{color:#111B2B}
+td.c0,td.c0 b{color:#475569}
+td .ref{vertical-align:3px}
+table.wide td{padding:8px 10.7px}
+table.wide th{padding:9px 10.7px}
+table.wide{table-layout:fixed}
+table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),body.lang-de table.wide th:nth-child(4),body.lang-ja table.wide th:nth-child(4){width:auto;min-width:82px}/* 번역본: 4열이 내용 열인 비교표가 82px에 갇히지 않게 */table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
+
+/* 원형 안 숫자: 가운데 정렬 후 paginate.js가 실제 글자 잉크 범위를 재서 원의 정중앙으로 보정한다 */
+/* 원형 숫자는 SVG(.cn): 좌표는 build.py가 글리프 잉크 경계로 계산. 원과 같은 크기, 테두리가 있으면 음수 margin으로 테두리까지 덮어 원 중심과 SVG 중심을 일치 */
+.cn{display:block;flex:none;overflow:visible}
+.cir,.lcir,.mk{background:none!important;border:none!important}
+.cn text{font-weight:700;letter-spacing:0}
+
+</style></head>
+<body class="lang-ko">
+<div id="src" hidden>
+<section class="cover">
+  <div class="cv-wave"></div><div class="cv-grad"></div>
+  <div class="cv-top"><span class="cv-brand"><span class="sm">SMART</span> EDC</span><span class="cv-sys">임상시험 전자자료수집 시스템</span></div>
+  <div class="cv-main noclass"><h1 class="cv-title">프로젝트</h1><p class="cv-sub">SCR-PRJ-002·003·004 · 생성 · 설정 · 상태 변경</p></div>
+  <div class="cv-bottom"><span class="cv-kind">사용자 매뉴얼 · 화면별 분권</span><img class="cv-logo" src="img/logo.png" alt="DH Digital Healthcare Software"></div>
+</section>
+<section class="toc" data-title="목차"><div class="flow"><div class="tch blk"><div class="tchh"><span class="tcn">1</span><span class="tct">프로젝트 생성</span></div><ul><li><a href="#s1-1"><span class="tn">1.1</span><span class="tt">기본 정보</span><span class="tp" data-for="s1-1"></span></a></li><li><a href="#s1-2"><span class="tn">1.2</span><span class="tt">보관 정책 · 초기 역할 · 생성</span><span class="tp" data-for="s1-2"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">2</span><span class="tct">프로젝트 설정</span></div><ul><li><a href="#s2-1"><span class="tn">2.1</span><span class="tt">화면 구성</span><span class="tp" data-for="s2-1"></span></a></li><li><a href="#s2-2"><span class="tn">2.2</span><span class="tt">메타 편집</span><span class="tp" data-for="s2-2"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">3</span><span class="tct">상태 변경</span></div><ul><li><a href="#s3-1"><span class="tn">3.1</span><span class="tt">화면 구성 (설정 중 → 테스트)</span><span class="tp" data-for="s3-1"></span></a></li><li><a href="#s3-2"><span class="tn">3.2</span><span class="tt">테스트 → 운영 중 전이 선택</span><span class="tp" data-for="s3-2"></span></a></li><li><a href="#s3-3"><span class="tn">3.3</span><span class="tt">테스트 데이터 삭제 확인</span><span class="tp" data-for="s3-3"></span></a></li><li><a href="#s3-4"><span class="tn">3.4</span><span class="tt">운영 전환 확인</span><span class="tp" data-for="s3-4"></span></a></li><li><a href="#s3-5"><span class="tn">3.5</span><span class="tt">운영 중 → 종료 전이 검증</span><span class="tp" data-for="s3-5"></span></a></li><li><a href="#s3-6"><span class="tn">3.6</span><span class="tt">종료 확인 · 데이터 편집 차단 동의</span><span class="tp" data-for="s3-6"></span></a></li><li><a href="#s3-7"><span class="tn">3.7</span><span class="tt">전자서명 수행</span><span class="tp" data-for="s3-7"></span></a></li></ul></div></div></section>
+<section class="divider" data-ch="1" data-chtitle="1. 프로젝트 생성">
+<div class="dlabel">화면별 분권 — 프로젝트</div>
+<div class="dhead"><div class="dnum">1</div><h1 class="dtitle" id="ch1">프로젝트 생성</h1></div>
+<ul class="dlist"><li><span class="dn">1.1</span><span class="dt">기본 정보</span></li><li><span class="dn">1.2</span><span class="dt">보관 정책 · 초기 역할 · 생성</span></li></ul></section><section class="sec" id="s1-1" data-num="1.1" data-chtitle="1. 프로젝트 생성">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.1</span><span class="hx">기본 정보</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">워크스페이스 대시보드</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">신규 프로젝트 생성</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>워크스페이스 안에 프로젝트를 새로 만드는 화면입니다. 프로젝트는 반드시 <b>설정 중</b> 상태로 생성되며, 구축을 마친 뒤 단계적으로 운영 상태까지 올립니다. 별표가 붙은 세 항목만 입력하면 생성할 수 있고, 나머지는 생성 후 설정 화면에서 보완할 수 있습니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:4.13120"><img src="img/s1_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(46.940% - 11px);margin-top:calc(9.608% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(9.608% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(14.407% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(29.932% - 11px);margin-top:calc(18.076% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(29.932% - 11px);margin-top:calc(21.393% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-set" style="margin-left:calc(74.957% - 11px);margin-top:calc(21.393% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(6.926% - 11px);margin-top:calc(0.716% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(12.995% - 11px);margin-top:calc(3.539% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(13.419% - 11px);margin-top:calc(10.949% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span></div><figcaption>신규 프로젝트 생성 (SCR-PRJ-002) — 기본 정보 카드</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>프로젝트 코드 * (생성 후 변경 불가)</b> — 프로젝트를 구분하는 고유 코드입니다. 라벨에 적힌 대로 생성 후에는 변경할 수 없습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>프로젝트명 *</b> — 화면과 목록에 표시되는 이름입니다. 같은 워크스페이스에 동일한 이름이 이미 있으면 확인 창이 표시되며, 확인하면 그대로 생성됩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>설명</b> — 연구 목적·대상·주요 가설을 입력합니다. 선택 항목입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>연구 유형 *</b> — 연구자 주도(IIT) · 의뢰자 주도(IND) · 기관 주도(SIT) · 기타 중에서 선택합니다. 기본값은 연구자 주도(IIT)입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>시작일 (예상)</b> — 연구 시작 예정일입니다. 선택 항목입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>종료일 (예상)</b> — 시작일보다 앞선 날짜를 입력하면 입력란 아래에 “종료일은 시작일 이후여야 합니다” 가 표시되고 생성이 차단됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>← 워크스페이스 대시보드</b> — 들어온 자리로 돌아갑니다. 입력한 내용이 있으면 폐기 여부를 먼저 확인합니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>초기 상태: SETUP</b> — 생성 결과가 설정 중 상태임을 미리 안내합니다. 상태를 선택하는 항목은 없습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">코드 입력란 아래에 “영문·숫자와 - _ 만 사용 (한글·공백 불가 · 최대 50자)” 가 안내됩니다. 한글이나 공백은 입력하는 즉시 제거되고 영문은 대문자로 바뀝니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>프로젝트 코드는 생성 후 끝까지 변경할 수 없습니다. 프로토콜 번호를 그대로 사용하는 것이 일반적이므로, 승인된 프로토콜 번호를 확인한 뒤 입력하십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s1-2" data-num="1.2" data-chtitle="1. 프로젝트 생성">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.2</span><span class="hx">보관 정책 · 초기 역할 · 생성</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">워크스페이스 대시보드</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">신규 프로젝트 생성</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>기본 정보 아래에 보관 정책과 초기 역할 안내가 이어집니다. 초기 역할은 선택 항목이 아니라 안내문이며, 표준 역할은 생성과 동시에 시스템이 자동으로 만들어 줍니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:5.57874"><img src="img/s1_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(5.585% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(88.930% - 11px);margin-top:calc(7.561% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.294% - 11px);margin-top:calc(11.866% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.681% - 11px);margin-top:calc(11.866% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(26.404% - 11px);margin-top:calc(10.666% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(4.950% - 11px);margin-top:calc(13.913% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span></div><figcaption>보관 정책 · 역할 템플릿 카드와 하단 액션 바</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>표준 (허가일 + 3년)</b> — 기본으로 선택되어 있는 보관 정책입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>기타 (종료일 + 3년)</b> — 연구 종료일을 기준으로 보관 기간을 계산합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>취소</b> — 생성을 중단합니다. 입력한 내용이 있으면 “변경사항 폐기” 확인 창이 먼저 표시됩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>프로젝트 생성</b> — 필수 항목(프로젝트 코드 · 프로젝트명 · 연구 유형)이 모두 채워질 때까지 비활성 상태로 유지됩니다. 생성이 끝나면 그 프로젝트의 설정 화면으로 바로 이동합니다 <span class="ref">2.1</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>초기 역할</b> 은 입력 항목이 아닙니다 — “프로젝트 생성 시 PI·CRC·CRA·DM·Auditor 표준 역할이 서버에서 자동 생성됩니다. 별도 선택은 필요하지 않습니다.” 로 안내됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">하단 액션 바는 화면을 내려도 아래에 고정되어 표시됩니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>여기에서 고른 보관 정책은 저장되지 않습니다. 현재 생성 요청에 보관 정책이 포함되지 않고 설정 화면에도 해당 항목이 없습니다. 보관 기한은 설정 화면의 보관 만료일 에 날짜로 직접 입력하십시오 <span class="ref">2.2</span>.</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="2" data-chtitle="2. 프로젝트 설정">
+<div class="dlabel">화면별 분권 — 프로젝트</div>
+<div class="dhead"><div class="dnum">2</div><h1 class="dtitle" id="ch2">프로젝트 설정</h1></div>
+<ul class="dlist"><li><span class="dn">2.1</span><span class="dt">화면 구성</span></li><li><span class="dn">2.2</span><span class="dt">메타 편집</span></li></ul></section><section class="sec" id="s2-1" data-num="2.1" data-chtitle="2. 프로젝트 설정">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.1</span><span class="hx">화면 구성</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">대시보드</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">프로젝트 설정</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>하나의 프로젝트에 대한 메타 정보·집계·상태·하위 화면 진입을 한 자리에 모은 화면입니다. 프로젝트를 만든 직후 착지하는 화면이며, 이후 운영 중에도 설정 성격의 작업은 모두 여기에서 시작합니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.39763"><img src="img/s2_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(92.953% - 11px);margin-top:calc(6.009% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(92.953% - 11px);margin-top:calc(27.674% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(15.959% - 11px);margin-top:calc(33.320% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(6.432% - 11px);margin-top:calc(30.356% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(16.947% - 11px);margin-top:calc(3.397% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(15.395% - 11px);margin-top:calc(9.961% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(97.399% - 11px);margin-top:calc(24.004% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(25.416% - 11px);margin-top:calc(29.721% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>프로젝트 설정 (SCR-PRJ-003) — 프로젝트 운영의 중심 화면</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>메타 편집</b> — 이름·설명·기간 등을 수정합니다 <span class="ref">2.2</span>. 편집 권한이 없으면 이 버튼이 표시되지 않고, 이동 경로 옆에 <b>읽기 전용</b> 배지가 표시됩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>상태 변경</b> — 상태 전이 화면으로 이동합니다 <span class="ref">3.1</span>.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>빠른 진입</b> — 참여 기관 관리 · 연구자 배정 · 권한 관리 · 변경 이력 · SAE 통보로 바로 이동합니다. 왼쪽 메뉴에도 같은 화면이 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">왼쪽 메뉴의 <b>설정 &gt; 프로젝트 설정</b> 으로 언제든 이 화면에 돌아올 수 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">이동 경로는 <b>대시보드 / 프로젝트 설정</b> 입니다. 참여 기관·서명 정책 등 하위 화면에서도 이 자리를 선택하면 이 화면으로 돌아옵니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>기본 정보</b> 는 조회 상태입니다. 프로토콜 번호·이름·설명·유형·단계·시작일·종료일·IRB 승인일·보관 만료일이 표시되며, 값이 없으면 <b>—</b> 입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">집계 — 참여 기관 · 피험자 · 활성 Query 수와 Lock 상태입니다. Lock 상태는 종료되면 <b>HARD</b>, 보관되면 <b>ARCHIVED</b> 로 바뀝니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>상태 워크플로</b> — 설정 중 → 테스트 → 운영 중 → 종료 → 보관의 다섯 단계 중 현재 상태가 파랗게 표시됩니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>종료·보관 상태에서는 편집 권한이 있어도 전체가 읽기 전용이 됩니다. 메타 편집 버튼 자체가 표시되지 않으므로, 버튼이 보이지 않는다고 권한 오류로 판단하지 마십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s2-2" data-num="2.2" data-chtitle="2. 프로젝트 설정">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.2</span><span class="hx">메타 편집</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">프로젝트 설정</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">메타 편집</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>별도 화면으로 이동하지 않고 설정 화면의 기본 정보 카드가 입력 상태로 바뀝니다. 운영 중인 프로젝트에서는 일부 항목이 잠기며, 잠긴 항목은 입력란 바탕이 회색이고 라벨에 그 사실이 표시됩니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.34988"><img src="img/s2_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(13.418% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(17.229% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(29.932% - 11px);margin-top:calc(21.040% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(29.932% - 11px);margin-top:calc(24.428% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(74.957% - 11px);margin-top:calc(24.428% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-set" style="margin-left:calc(29.932% - 11px);margin-top:calc(27.674% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-set" style="margin-left:calc(74.957% - 11px);margin-top:calc(27.674% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.045" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">7</text></svg></span><span class="mk mk-set" style="margin-left:calc(96.834% - 11px);margin-top:calc(1.351% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.006" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">8</text></svg></span><span class="mk mk-ref" style="margin-left:calc(15.959% - 11px);margin-top:calc(0.574% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(15.395% - 11px);margin-top:calc(10.172% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(46.940% - 11px);margin-top:calc(13.418% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(74.957% - 11px);margin-top:calc(21.040% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>메타 편집 — 기본 정보 카드가 그 자리에서 입력 상태로 바뀝니다</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>이름 *</b> — 표시되는 이름을 수정합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>설명</b> — 연구 개요를 수정합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>유형</b> — 연구 유형을 바꿉니다. 운영 중에도 변경할 수 있습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>시작일</b> — 실제 연구 시작일입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>종료일</b> — 실제 연구 종료일입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>IRB 승인일</b> — 심사위원회 승인일입니다. 생성 화면에는 없고 여기에서만 입력합니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t"><b>보관 만료일</b> — 자료 보관 기한입니다. 생성 화면의 보관 정책과 별개로 <b>여기에 날짜를 직접 입력해야</b> 기록됩니다 (1.2 유의사항 참조).</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.506" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">8</text></svg></span><div class="body"><p class="t"><b>저장</b> — 수정 내용을 반영합니다. 옆의 <b>취소</b> 를 선택하면 변경을 버리고 조회 상태로 돌아갑니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">이동 경로는 편집 중에도 그대로 유지됩니다 — 편집은 같은 화면 안에서 이루어집니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">운영 중 이후에는 프로토콜 번호를 변경할 수 없다는 안내가 카드 머리에 표시됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>프로토콜 번호 (잠금)</b> — 라벨에 “(잠금)” 이 붙고 바탕이 회색이며 수정할 수 없습니다. 설정 중·테스트 단계에서는 잠기지 않습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>단계 (현재 변경 불가)</b> — 선택할 수 없는 상태로 표시됩니다. 연구 단계는 현재 화면에서 설정할 수 없습니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>저장하는 사이에 다른 사용자가 같은 프로젝트를 수정했으면 저장이 거절되고 최신 내용으로 다시 불러옵니다. 이때 입력한 값은 유지되지 않으므로, 안내 문구를 확인한 뒤 처음부터 다시 수정하십시오.</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="3" data-chtitle="3. 상태 변경">
+<div class="dlabel">화면별 분권 — 프로젝트</div>
+<div class="dhead"><div class="dnum">3</div><h1 class="dtitle" id="ch3">상태 변경</h1></div>
+<ul class="dlist"><li><span class="dn">3.1</span><span class="dt">화면 구성 (설정 중 → 테스트)</span></li><li><span class="dn">3.2</span><span class="dt">테스트 → 운영 중 전이 선택</span></li><li><span class="dn">3.3</span><span class="dt">테스트 데이터 삭제 확인</span></li><li><span class="dn">3.4</span><span class="dt">운영 전환 확인</span></li><li><span class="dn">3.5</span><span class="dt">운영 중 → 종료 전이 검증</span></li><li><span class="dn">3.6</span><span class="dt">종료 확인 · 데이터 편집 차단 동의</span></li><li><span class="dn">3.7</span><span class="dt">전자서명 수행</span></li></ul></section><section class="sec" id="s3-1" data-num="3.1" data-chtitle="3. 상태 변경">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.1</span><span class="hx">화면 구성 (설정 중 → 테스트)</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">대시보드</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">프로젝트 설정</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">상태 변경</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>프로젝트의 상태를 다음 단계로 올리거나 되돌리는 화면입니다. 어떤 전이든 <b>현재 상태 확인 → 전이 대상 선택 → 사유 입력 → 실행</b>의 순서는 같고, 전이 종류에 따라 실행 뒤에 확인 창이 더 붙습니다. 설정 중에서 테스트로 올리는 것은 확인 창이 없는 유일한 전이입니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.77299"><img src="img/s3_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(8.479% - 11px);margin-top:calc(17.935% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.999% - 11px);margin-top:calc(28.944% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.258% - 11px);margin-top:calc(34.308% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(11.443% - 11px);margin-top:calc(0.716% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(16.947% - 11px);margin-top:calc(8.478% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(20.476% - 11px);margin-top:calc(12.007% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(14.407% - 11px);margin-top:calc(24.992% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>상태 변경 (SCR-PRJ-004) — 설정 중에서 테스트로 올리는 경우</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>전이 대상 선택</b> — 지금 상태에서 갈 수 있는 상태만 버튼으로 표시됩니다. 선택한 버튼은 검게 표시되고, 아래에 전이 검증 카드가 이어집니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>전이 사유 * (감사 추적용)</b> — 필수 입력입니다. 감사 추적에 남는 기록이므로 “예: CRF 설계 완료 및 내부 검증 통과” 와 같이 판단 근거를 적으십시오.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>실행</b> — 사유를 입력하기 전에는 흐리게 표시되고 선택할 수 없습니다. 설정 중 → 테스트는 확인 창 없이 바로 실행되며, 끝나면 프로젝트 설정 화면으로 돌아갑니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">이동 경로가 <b>대시보드 / 프로젝트 설정 / 상태 변경</b> 입니다. 이 화면은 왼쪽 메뉴에 없고 프로젝트 설정의 <b>상태 변경</b> 또는 역할별 대시보드에서만 들어옵니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>현재 상태</b> — 지금 상태와 마지막 변경 시각입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">다섯 단계 중 <b>(현재)</b> 가 파랗게, <b>(대상)</b> 이 초록으로 표시됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">전제 조건 자리에는 “전제 조건은 실행 시 서버가 검증합니다” 한 줄만 표시됩니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>전제 조건의 초록 체크는 “통과”를 뜻하지 않습니다. 조건을 미리 검사한 결과가 아니라 실행할 때 확인한다는 안내입니다. 예를 들어 CRF 폼이 한 건도 없으면 실행을 누른 뒤에야 거절됩니다 — 전이 전에 필요한 구성이 갖추어졌는지 각 화면에서 직접 확인하십시오.</b></li></ul></div><div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>상태 변경 권한은 메타 편집 권한과 다릅니다. 설정 화면에 상태 변경 버튼이 보여도 이 화면에서 차단될 수 있고, 반대로 버튼이 보이지 않아도 권한이 있을 수 있습니다. 차단되면 워크스페이스 관리자에게 문의하십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-2" data-num="3.2" data-chtitle="3. 상태 변경">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.2</span><span class="hx">테스트 → 운영 중 전이 선택</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">프로젝트 설정</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">상태 변경</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>테스트 상태에서는 설정 중으로 되돌리거나 운영 중으로 올릴 수 있습니다. <b>두 전이 모두 테스트 데이터를 물리 삭제</b>하므로, 선택하면 경고 배너가 함께 표시되고 실행 뒤에 확인 창이 이어집니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.60958"><img src="img/s3_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(4.033% - 11px);margin-top:calc(20.193% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(13.701% - 11px);margin-top:calc(17.935% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(87.942% - 11px);margin-top:calc(31.767% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.540% - 11px);margin-top:calc(33.320% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(16.947% - 11px);margin-top:calc(8.478% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(20.899% - 11px);margin-top:calc(12.007% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(14.407% - 11px);margin-top:calc(24.992% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(6.926% - 11px);margin-top:calc(27.109% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>테스트 상태에서는 되돌리기와 운영 전환 두 가지를 선택할 수 있습니다</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>테스트 → 설정 중</b> — 구축 단계로 되돌립니다. 붉게 표시되는 것은 데이터가 삭제되는 전이라는 뜻입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>테스트 → 운영 중</b> — 실제 운영을 시작합니다. 선택한 버튼은 검게 바뀝니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>전이 사유 *</b> — 필수 입력입니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>실행</b> — 사유를 입력하면 선택할 수 있게 됩니다. 선택하면 곧바로 전이되지 않고 <b>테스트 데이터 삭제 확인</b> 창이 먼저 표시됩니다 <span class="ref">3.3</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>현재 상태</b> 가 <b>테스트</b> 로 표시됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">대상으로 선택한 상태가 초록으로 표시되어 어디로 가는지 확인할 수 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">전제 조건은 여기에서도 “실행 시 서버가 검증합니다” 한 줄입니다 (3.1 유의사항 참조).</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>부작용</b> 배너 — “테스트 데이터가 물리 삭제될 수 있습니다” 가 표시됩니다. 임상적 이상반응이 아니라 <b>이 전이에 뒤따르는 영향</b>을 뜻하는 화면 문구입니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>테스트 → 설정 중 과 테스트 → 운영 중 은 둘 다 테스트 데이터를 전건 삭제합니다. 피험자·입력 데이터·방문·Query 가 모두 삭제되고 피험자 순번도 0으로 초기화됩니다. 테스트 결과를 남겨야 한다면 전이 전에 데이터 내보내기로 추출해 두십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-3" data-num="3.3" data-chtitle="3. 상태 변경">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.3</span><span class="hx">테스트 데이터 삭제 확인</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">상태 변경</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">테스트 데이터 삭제 확인</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>테스트 상태에서 실행을 선택하면 가장 먼저 열리는 창입니다. 되돌리기와 운영 전환 모두 이 창을 거치며, 여기에서 계속하면 테스트 데이터가 실제로 삭제됩니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:552.0px"><div class="imgbox" style="aspect-ratio:2.56596"><img src="img/s3_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(92.300% - 11px);margin-top:calc(30.443% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(54.987% - 11px);margin-top:calc(30.443% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(43.046% - 11px);margin-top:calc(8.055% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(80.028% - 11px);margin-top:calc(16.512% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(49.182% - 11px);margin-top:calc(21.653% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>실행을 선택하면 상태 변경 화면 위에 열리는 1차 확인 창 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>삭제하고 계속</b> — 삭제에 동의하고 다음 단계로 넘어갑니다. 되돌리기(테스트 → 설정 중)는 이 선택으로 전이가 실행되고, 운영 전환은 확인 창이 한 번 더 표시됩니다 <span class="ref">3.4</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>취소</b> — 창을 닫고 상태 변경 화면으로 돌아갑니다. 입력한 사유는 유지됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">창 제목이 <b>테스트 데이터 삭제 확인</b> 입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">“다음 데이터가 물리 삭제됩니다. 이 작업은 되돌릴 수 없습니다.” — 복구 경로가 없다는 뜻입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">“피험자 순번은 0으로 초기화됩니다.” — 전이 후 처음 등록하는 피험자가 다시 1번부터 시작합니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>삭제될 건수는 이 창에 표시되지 않습니다. 문구는 “다음 데이터가” 로 시작하지만 실제 목록이 이어지지 않습니다. 무엇이 얼마나 삭제되는지는 전이 전에 피험자 목록·Query 목록에서 직접 확인하십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-4" data-num="3.4" data-chtitle="3. 상태 변경">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.4</span><span class="hx">운영 전환 확인</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">상태 변경</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ACTIVE 전환 확인</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>운영 전환은 확인을 두 번 받습니다. 앞 창이 데이터 삭제에 대한 확인이라면 이 창은 <b>운영 시작 자체</b>에 대한 확인입니다. 여기에서 전환하면 되돌릴 수 없습니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:552.0px"><div class="imgbox" style="aspect-ratio:2.34630"><img src="img/s3_4_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(90.310% - 11px);margin-top:calc(35.584% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(53.080% - 11px);margin-top:calc(35.584% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(44.539% - 11px);margin-top:calc(7.226% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(88.486% - 11px);margin-top:calc(15.683% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(59.962% - 11px);margin-top:calc(23.643% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>삭제 확인에 이어 열리는 2차 확인 창 — 운영 전환 전용 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>ACTIVE로 전환</b> — 운영을 시작합니다. 이 선택과 동시에 테스트 데이터 삭제와 상태 전이가 함께 수행되고, 끝나면 프로젝트 설정 화면으로 돌아갑니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>취소</b> — 창을 닫습니다. 앞 창에서 동의했더라도 여기에서 취소하면 <b>아무것도 수행되지 않습니다.</b></p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">창 제목에 <b>(불가역)</b> 이 명시되어 있습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">“ACTIVE 전환 후 실제 운영이 시작됩니다. 이 전환은 되돌릴 수 없습니다.”</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">전환 후 달라지는 세 가지가 안내됩니다 — 모든 입력이 운영 데이터로 기록되고, CRF 구조는 새 버전 발행으로만 바꿀 수 있으며, 21 CFR Part 11 감사 추적이 적용됩니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>운영 중으로 올린 뒤에는 설정 중·테스트로 되돌릴 수 없습니다. CRF 구조를 바꾸려면 기존 폼을 수정하는 대신 새 버전을 발행해야 하므로, 전환 전에 폼 설계·방문 정의·참여 기관·권한 배정이 모두 끝났는지 확인하십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-5" data-num="3.5" data-chtitle="3. 상태 변경">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.5</span><span class="hx">운영 중 → 종료 전이 검증</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">프로젝트 설정</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">상태 변경</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>운영 중인 프로젝트를 종료합니다. 종료는 다른 전이와 달리 <b>전자서명</b>이 필요하며, 확인 창에서 동의한 뒤 전자서명까지 마쳐야 실제로 수행됩니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.58420"><img src="img/s3_5_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(7.895% - 11px);margin-top:calc(16.262% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.943% - 11px);margin-top:calc(30.743% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.437% - 11px);margin-top:calc(36.375% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(16.906% - 11px);margin-top:calc(6.930% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(19.963% - 11px);margin-top:calc(10.470% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(14.492% - 11px);margin-top:calc(23.422% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(19.963% - 11px);margin-top:calc(25.916% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>운영 중 → 종료 — 사유를 입력하기 전에는 실행이 흐립니다</figcaption></div></div>
+<div class="blk fig"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:9.27612"><img src="img/s3_5_2.png" alt=""><span class="mk mk-res" style="margin-left:calc(97.035% - 11px);margin-top:calc(8.941% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="8.25" fill="#fff" stroke="#3C55EB" stroke-width="1.5"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span></div><figcaption>사유를 입력한 뒤 — 실행 버튼이 붉게 활성화됩니다 (별도 프로젝트 캡처 · 화면 구성 동일)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>운영 중 → 종료</b> — 종료 전이를 선택합니다. 종료한 뒤에는 <b>종료 → 보관</b> 으로 이어가며, 시스템 관리자에게는 <b>프로젝트 재개</b> 가 추가로 제공됩니다 (아래 유의사항).</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>전이 사유 *</b> — 필수 입력입니다. 종료 사유는 감사 추적과 전자서명 기록에 함께 남습니다.</p><div class="ress"><div class="res"><span class="cir c-res"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="10.5" fill="#fff" stroke="#3C55EB" stroke-width="1"/><text x="11.000" y="15.301" font-size="12" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><p class="t">사유를 입력하면 <b>실행</b> 이 선택 가능 상태로 바뀝니다.</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>실행</b> — 선택하면 전이가 바로 수행되지 않고 <b>프로젝트 종료 확인</b> 창이 먼저 표시됩니다 <span class="ref">3.6</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>현재 상태</b> 가 <b>운영 중</b> 입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">대상 상태 <b>종료</b> 가 초록으로 표시됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">전제 조건은 여기에서도 한 줄 안내입니다 (3.1 유의사항 참조).</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">파란 배너 — “이 전이에는 전자서명(21 CFR Part 11)이 필요합니다. 실행 시 전자서명 모달이 표시됩니다.”</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">오해하기 쉬운 동작</span></h4><ul><li><span class="bul">• </span><b>종료에는 전자서명 비밀번호 가 필요합니다. 로그인 비밀번호와 다른 별도의 비밀번호이므로, 설정하지 않았다면 내 계정 화면에서 먼저 설정한 뒤 종료를 진행하십시오.</b></li><li><span class="bul">• </span><b>종료가 최종 상태는 아닙니다. 종료된 프로젝트의 상태 변경 화면에는 시스템 관리자에게만 프로젝트 재개(종료 → 운영 중) 영역이 표시됩니다. 재개에는 수행자와 다른 책임 연구자(PI)의 승인이 필요하며(본인 식별자는 사용할 수 없습니다) 재개 사유를 함께 입력합니다. 재개하면 종료 시 적용된 완전 잠금이 해제됩니다.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-6" data-num="3.6" data-chtitle="3. 상태 변경">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.6</span><span class="hx">종료 확인 · 데이터 편집 차단 동의</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">상태 변경</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">프로젝트 종료 확인</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>종료가 무엇을 바꾸는지 알리고 동의를 받는 창입니다. 종료하면 프로젝트 전체에 데이터 편집 차단이 걸리고 하위 참여 기관도 함께 종료되므로, 동의 체크 없이는 다음으로 넘어갈 수 없습니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:455.0px"><div class="imgbox" style="aspect-ratio:1.80727"><img src="img/s3_6_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(80.396% - 11px);margin-top:calc(37.539% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(92.066% - 11px);margin-top:calc(46.594% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(58.062% - 11px);margin-top:calc(7.962% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(90.054% - 11px);margin-top:calc(13.596% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(90.054% - 11px);margin-top:calc(23.455% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(57.258% - 11px);margin-top:calc(46.594% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span></div><figcaption>종료 확인 창 — 동의 체크를 하기 전에는 종료 실행을 선택할 수 없습니다 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>동의 체크</b> — “프로젝트 단위 HARD_LOCK 적용 및 데이터 편집 차단에 동의합니다.” 를 선택해야 합니다. 체크하기 전에는 종료 실행이 흐리게 표시됩니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>종료 실행</b> — 창을 닫고 전자서명 창으로 넘어갑니다. <b>이 선택만으로는 아직 종료되지 않습니다</b> <span class="ref">3.7</span>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">창 제목에 어떤 전이인지 함께 표시됩니다 — <b>프로젝트 종료 확인 (ACTIVE → CLOSED)</b>.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">노란 배너 — 종료하면 프로젝트 전체에 완전 잠금이 자동 적용되어 데이터 편집이 차단되고 읽기와 추출만 가능해지며, 하위 참여 기관도 모두 자동 종료됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">파란 배너 — 동의한 뒤 전자서명 창에서 전자서명 비밀번호로 서명해야 종료가 실행된다는 안내입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>취소</b> — 창을 닫습니다. 종료는 수행되지 않고 입력한 사유는 유지됩니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>종료하면 하위 참여 기관이 모두 함께 종료되고 데이터 편집이 차단됩니다. 미처리 Query 나 서명하지 않은 자료가 남아 있으면 종료가 거절될 수 있으므로, 전이 전에 Query 목록과 Lock 현황을 먼저 정리하십시오.</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-7" data-num="3.7" data-chtitle="3. 상태 변경">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.7</span><span class="hx">전자서명 수행</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">경로 </span><span class="pi">상태 변경</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">전자서명 수행</span></div>
+<div class="blk tab kwn"><h3><span>개요</span></h3></div>
+<div class="blk ov"><p>21 CFR Part 11 에 따른 전자서명을 수행합니다. 서명이 성공해야 종료가 실제로 실행되며, 서명 기록은 수정하거나 삭제할 수 없는 형태로 남습니다.</p></div>
+<div class="blk tab kwn"><h3><span>화면 설명</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>설정 </b><span>직접 조작하는 위치</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>결과 </b><span>바로 위 설정으로 바뀌는 위치</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>참고</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:303.0px"><div class="imgbox" style="aspect-ratio:0.95115"><img src="img/s3_7_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(94.130% - 11px);margin-top:calc(68.601% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(50.021% - 11px);margin-top:calc(80.988% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(94.130% - 11px);margin-top:calc(97.453% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(51.230% - 11px);margin-top:calc(10.142% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(24.190% - 11px);margin-top:calc(19.205% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(67.242% - 11px);margin-top:calc(42.921% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(67.242% - 11px);margin-top:calc(55.912% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(61.502% - 11px);margin-top:calc(73.888% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(51.834% - 11px);margin-top:calc(97.453% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>전자서명 수행 창 — 종료 흐름의 마지막 단계 (확대)</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>전자서명 비밀번호 *</b> — 로그인 비밀번호가 아닌 <b>서명 전용 비밀번호</b>를 입력합니다. 오른쪽 눈 모양을 선택하면 입력한 값을 확인할 수 있습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>서명 의미와 책임을 이해했습니다.</b> — 체크해야 서명을 실행할 수 있습니다.</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>서명 실행</b> — 비밀번호와 동의가 모두 갖추어져야 선택할 수 있습니다. 서명이 성공하면 종료가 수행되고 프로젝트 설정 화면으로 돌아갑니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>서명 목적</b> — 무엇에 서명하는지 표시됩니다. 종료 흐름에서는 프로젝트 종결입니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>서명 대상</b> — 프로젝트명·프로토콜 번호와 함께 <b>운영 중 → 종료</b> 전이가 명시됩니다. 다른 프로젝트가 아닌지 여기에서 확인하십시오.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>사용자 ID</b> — 지금 로그인한 계정이 표시되며 바꿀 수 없습니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>서명 의미</b> — 승인자 확인으로 고정됩니다. 프로젝트의 서명 정책이 하나만 허용하므로 “(정책 고정)” 으로 표시됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">입력란 아래에 “전자서명 비밀번호는 로그인 비밀번호와 다릅니다.” 가 안내됩니다.</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>취소</b> — 서명하지 않고 창을 닫습니다. 종료는 수행되지 않습니다.</p></div></div>
+<div class="blk tab kwn"><h3><span>유의사항</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">필수 확인 </span><span class="sub">데이터 손상 · 폼 완료 불가</span></h4><ul><li><span class="bul">• </span><b>전자서명 비밀번호를 5회 틀리면 서명이 잠깁니다. 잠기면 재입력으로 풀리지 않고 관리자의 해제가 필요하므로, 틀린 횟수 안내가 표시되면 더 시도하지 말고 비밀번호를 확인하십시오.</b></li></ul></div>
+</div></section>
+</div>
+<div id="book"></div>
+<script>(async function () {
+  // 원본 블록은 hidden 상태라 글꼴 요청이 늦게 시작된다. 측정 전에 쓰는 굵기를 모두 먼저 불러온다.
+  const FAM = document.body.classList.contains('lang-ja') ? 'PretendardJPM' : 'PretendardM';
+  const SAMPLE = FAM === 'PretendardJPM' ? 'あ漢1A' : '가1A';
+  await Promise.all([400, 500, 700, 800].map(w => document.fonts.load(`${w} 16px ${FAM}`, SAMPLE)));
+  await document.fonts.ready;
+  if (![400, 500, 700, 800].every(w => document.fonts.check(`${w} 16px ${FAM}`, SAMPLE))) throw new Error('Pretendard 로드 실패');
+  await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  const src = document.getElementById('src');
+  const book = document.getElementById('book');
+  let pno = 0;
+  const pageMap = {};
+
+  // [표 제목 열 너비, 고정프롬프트 표 절] 첫 열 글이 단어 중간에서 잘리거나 3줄 이상이면 첫 열을 4px씩 넓혀 본다.
+  // 표 전체 높이가 가장 낮아지는 너비를 고르되, 오른쪽 칸이 빽빽해져 높이가 늘면 넓히지 않는다. 최대 표 너비의 30%.
+  {
+    const probe = document.createElement('div');
+    probe.className = 'page body';
+    probe.style.cssText = 'position:absolute;left:-10000px;top:0';
+    const pa = document.createElement('div'); pa.className = 'area'; pa.style.top = '0'; probe.appendChild(pa);
+    document.body.appendChild(probe);
+    const firstCells = t => [...t.rows].map(r => r.cells[0]).filter(Boolean);
+    const lineCount = c => {
+      const r = document.createRange(); r.selectNodeContents(c);
+      const tops = new Set([...r.getClientRects()].filter(x => x.width > 0).map(x => Math.round(x.bottom)));
+      return tops.size;
+    };
+    // 단어(공백으로 나눈 덩어리)가 칸 안쪽 너비보다 길면 잘린 것으로 본다
+    const broken = c => {
+      const cs = getComputedStyle(c);
+      const inner = c.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const tw = document.createTreeWalker(c, NodeFilter.SHOW_TEXT);
+      const texts = []; while (tw.nextNode()) texts.push(tw.currentNode);
+      let n = 0;
+      for (const node of texts) {
+        for (const w of node.textContent.split(/\s+/)) {
+          if (!w) continue;
+          const sp = document.createElement('span'); sp.style.whiteSpace = 'nowrap'; sp.textContent = w;
+          node.parentElement.appendChild(sp);
+          if (sp.getBoundingClientRect().width > inner + 0.5) n++;
+          sp.remove();
+        }
+      }
+      return n;
+    };
+    // 너비를 정하고, 모든 단어가 들어가면 자동 하이픈을 끈다(들어가는 단어를 억지로 쪼개지 않게)
+    const setW = (cells, w) => {
+      cells.forEach(c => { c.style.width = w === null ? '' : w + 'px'; c.style.hyphens = c.style.webkitHyphens = ''; });
+      if (w === null) return 0;
+      const b = cells.reduce((s, c) => s + broken(c), 0);
+      if (!b) cells.forEach(c => { c.style.hyphens = c.style.webkitHyphens = 'manual'; });
+      return b;
+    };
+    for (const wrap of src.querySelectorAll('.tblwrap')) {
+      const t = wrap.querySelector('table');
+      if (!t || !t.rows.length || t.rows[0].cells.length < 2) continue;
+      const mark = document.createComment(''); wrap.replaceWith(mark); pa.appendChild(wrap);
+      const cells = firstCells(t);
+      const base = Math.round(cells[0].getBoundingClientRect().width);
+      const cap = Math.round(t.getBoundingClientRect().width * 0.3);
+      const state = b => ({ h: t.getBoundingClientRect().height, b, l: Math.max(...cells.map(lineCount)) });
+      const s0 = state(cells.reduce((s, c) => s + broken(c), 0));
+      if (base < cap && (s0.b > 0 || s0.l > 2)) {
+        let best = { w: base, ...s0 };
+        for (let w = base + 4; w <= cap; w += 4) {
+          const s = state(setW(cells, w));
+          // 표 높이가 처음보다 늘면 제외. 잘린 단어가 줄면 우선, 같으면 표 높이가 낮은 쪽, 같으면 좁은 쪽
+          if (s.h > s0.h + 0.5) continue;
+          if (s.b < best.b || (s.b === best.b && s.h < best.h - 0.5)) best = { w, ...s };
+        }
+        if (best.w !== base) { setW(cells, best.w); t.dataset.c0w = best.w; } else setW(cells, null);
+      }
+      mark.replaceWith(wrap);
+    }
+    probe.remove();
+  }
+
+  function newPage(cls) {
+    const p = document.createElement('div');
+    p.className = 'page ' + (cls || '');
+    book.appendChild(p);
+    pno += 1;
+    p.dataset.pno = pno;
+    return p;
+  }
+  const overflow = a => a.scrollHeight > a.clientHeight + 0.5;
+
+  // [제목 끝 줄 1~3글자 보정, 고정프롬프트 2절] 여러 줄 제목의 마지막 줄에 1~3글자만 남으면
+  // 줄 길이를 고르게 나눠(text-wrap:balance) 단어·구절 단위로 다시 줄을 바꾼다. 일본어는 문절 단위(auto-phrase), 한국어는 어절 단위(keep-all).
+  const LANG = document.documentElement.lang;
+  function lastLineChars(el) {
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const chars = [];
+    const r = document.createRange();
+    while (tw.nextNode()) {
+      const n = tw.currentNode;
+      for (let i = 0; i < n.length; i++) {
+        if (/\s/.test(n.data[i])) continue;
+        r.setStart(n, i); r.setEnd(n, i + 1);
+        const b = r.getBoundingClientRect();
+        if (b.width || b.height) chars.push(Math.round(b.top + b.height / 2));
+      }
+    }
+    if (!chars.length) return { lines: 0, last: 0 };
+    const lh = parseFloat(getComputedStyle(el).lineHeight) || 20;
+    const tops = []; for (const t of chars) if (!tops.some(x => Math.abs(x - t) < lh / 2)) tops.push(t);
+    const lastTop = Math.max(...tops);
+    return { lines: tops.length, last: chars.filter(t => Math.abs(t - lastTop) < lh / 2).length };
+  }
+  function fixShortLastLine(el) {
+    if (!el) return;
+    const s0 = lastLineChars(el);
+    if (s0.lines < 2 || s0.last > 3) return;
+    el.style.textWrap = 'balance';
+    if (LANG === 'ja') el.style.wordBreak = 'auto-phrase';
+    else if (LANG === 'ko') el.style.wordBreak = 'keep-all';
+    let s1 = lastLineChars(el);
+    // balance로 안 풀리면(가타카나 합성어처럼 문절이 긴 경우) 낱말 경계(Intl.Segmenter)에만 줄바꿈 지점(<wbr>)을 넣고 다시 고르게 나눈다
+    if ((s1.lines > s0.lines || s1.last <= 3) && (LANG === 'ja' || LANG === 'ko') && window.Intl && Intl.Segmenter) {
+      const seg = new Intl.Segmenter(LANG, { granularity: 'word' });
+      const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const nodes = []; while (tw.nextNode()) nodes.push(tw.currentNode);
+      for (const n of nodes) {
+        const f = document.createDocumentFragment();
+        [...seg.segment(n.data)].forEach((p, i) => { if (i) f.appendChild(document.createElement('wbr')); f.appendChild(document.createTextNode(p.segment)); });
+        n.replaceWith(f);
+      }
+      el.style.wordBreak = 'keep-all';
+      s1 = lastLineChars(el);
+    }
+    // 그래도 안 되면 폭을 조금씩 좁혀 앞줄 끝 낱말을 다음 줄로 넘긴다
+    if (s1.lines > s0.lines || s1.last <= 3) {
+      el.style.textWrap = '';
+      const w0 = el.getBoundingClientRect().width;
+      for (let k = 0.98; k >= 0.6; k -= 0.02) {
+        el.style.maxWidth = (w0 * k) + 'px';
+        s1 = lastLineChars(el);
+        if (s1.lines > s0.lines) break;
+        if (s1.last > 3) break;
+      }
+    }
+    // 줄 수가 늘었거나 그래도 짧으면 되돌린다(글자를 줄이거나 자르지 않는다)
+    if (s1.lines > s0.lines || s1.last <= 3) { el.style.textWrap = el.style.wordBreak = el.style.maxWidth = ''; }
+    else el.dataset.balanced = s0.last + '→' + s1.last;
+  }
+
+  // 블록을 area에 차례로 넣고 넘치면 새 쪽을 만든다. kwn(다음 블록과 붙임)은 함께 넘긴다.
+  function flow(blocks, makePage) {
+    let area = makePage(true);
+    for (const b of blocks) {
+      area.appendChild(b);
+      if (!overflow(area)) continue;
+      if (b.classList.contains('tblwrap')) {
+        // 표는 행 단위로 나누고 다음 쪽에 머리행을 다시 붙인다
+        let cur = b;
+        while (overflow(area)) {
+          const body = cur.querySelector('tbody');
+          const rest = [];
+          while (overflow(area) && body.rows.length > 2) rest.unshift(body.removeChild(body.lastElementChild));
+          if (overflow(area)) { // 두 행도 안 들어가면 표 전체를 다음 쪽으로
+            area.removeChild(cur);
+            area = makePage(false); area.appendChild(cur);
+            rest.forEach(r => body.appendChild(r));
+            continue;
+          }
+          if (!rest.length) break;
+          const nxt = cur.cloneNode(true);
+          const nb = nxt.querySelector('tbody'); nb.innerHTML = '';
+          rest.forEach(r => nb.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); cur = nxt;
+        }
+        continue;
+      }
+      const moving = [b];
+      let prev = b.previousElementSibling;
+      while (prev && prev.classList.contains('kwn')) { moving.unshift(prev); prev = prev.previousElementSibling; }
+      // [빈 공간 채우기 규칙, 고정프롬프트 11절]
+      // 1) 묶음 전체(탭·안내·이미지·첫 설명)가 조금 모자라면 캡처를 최대 85%까지 줄여 이 쪽에 둔다.
+      const fig = moving.find(m => m.classList.contains('fig'));
+      const shots = fig ? [...fig.querySelectorAll('.shot')] : [];
+      const base = shots.map(s => parseFloat(s.style.width));
+      const scaleFig = k => shots.forEach((s, i) => { s.style.width = (base[i] * k) + 'px'; });
+      if (fig && moving.length < area.children.length) {
+        let fitted = false;
+        for (const k of [0.95, 0.9, 0.85]) { scaleFig(k); if (!overflow(area)) { fitted = true; fig.dataset.scale = k; break; } }
+        if (fitted) continue;
+        scaleFig(1);
+        // 2) 그래도 안 되면 이미지 뒤 설명은 다음 쪽으로 넘기고, 탭·안내·이미지는 이 쪽에 둔다(캡처 최대 75%).
+        //    설명이 다음 쪽으로 넘어가도 이 쪽을 비워 두지 않는다.
+        const tail = moving.slice(moving.indexOf(fig) + 1);
+        if (tail.length) {
+          tail.forEach(t => area.removeChild(t));
+          for (const k of [1, 0.95, 0.9, 0.85, 0.8, 0.75]) { scaleFig(k); if (!overflow(area)) { fitted = true; if (k < 1) fig.dataset.scale = k; break; } }
+          if (fitted) { area = makePage(false); tail.forEach(t => area.appendChild(t)); continue; }
+          scaleFig(1); tail.forEach(t => area.appendChild(t));
+        }
+      }
+      // 3) 유의사항 카드는 통째로 넘기지 않고 항목 단위로 나눠 이어 쓴다(같은 카드 제목을 다음 쪽 카드에 다시 붙임).
+      if (b.classList.contains('card')) {
+        const ul = b.querySelector('ul'); const rest = [];
+        while (overflow(area) && ul.children.length > 1) rest.unshift(ul.removeChild(ul.lastElementChild));
+        if (!overflow(area) && rest.length) {
+          const nxt = b.cloneNode(true); const nu = nxt.querySelector('ul'); nu.innerHTML = '';
+          rest.forEach(r => nu.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); continue;
+        }
+        rest.forEach(r => ul.appendChild(r));
+      }
+      if (moving.length === area.children.length) {
+        if (moving.length === 1) continue; // 한 쪽보다 큰 블록: 그대로 둔다
+        moving.splice(0, moving.length - 1); // 쪽 전체가 묶음이면 마지막 블록만 넘긴다
+      }
+      area = makePage(false);
+      moving.forEach(m => area.appendChild(m));
+    }
+  }
+
+  // 표지
+  const cover = newPage('cover');
+  cover.append(...src.querySelector('section.cover').children);
+  cover.querySelectorAll('.cv-title, .cv-sub').forEach(fixShortLastLine);
+  pageMap.cover = 1;
+
+  // 목차
+  const tocBlocks = [...src.querySelectorAll('section.toc .tch')];
+  let firstToc = true;
+  flow(tocBlocks, () => {
+    const p = newPage('toc');
+    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><span class="brand">SMART EDC</span></div><div class="area"></div>`;
+    if (firstToc) { p.id = 'toc'; pageMap.toc = +p.dataset.pno; firstToc = false; }
+    return p.querySelector('.area');
+  });
+
+  // 간지 + 절
+  for (const sec of src.querySelectorAll('section.divider, section.sec')) {
+    if (sec.classList.contains('divider')) {
+      const p = newPage('divider');
+      p.append(...sec.children);
+      p.querySelectorAll('.dtitle, .dlist .dt').forEach(fixShortLastLine);
+      const bar = document.createElement('div'); bar.className = 'dbar'; p.appendChild(bar);
+      const pn = document.createElement('div'); pn.className = 'pno'; pn.textContent = p.dataset.pno; p.appendChild(pn);
+      pageMap['ch' + sec.dataset.ch] = +p.dataset.pno;
+      continue;
+    }
+    const hdr = sec.querySelector('template.hdr-tpl').innerHTML;
+    const blocks = [...sec.querySelector('.flow').children];
+    let first = true;
+    flow(blocks, () => {
+      const p = newPage('body');
+      if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      first = false;
+      // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
+      fixShortLastLine(p.querySelector('.hdr .hx'));
+      const area = p.querySelector('.area');
+      area.style.top = (p.querySelector('.hdr').getBoundingClientRect().height + 22) + 'px';
+      return area;
+    });
+  }
+  src.remove();
+  document.querySelectorAll('.page.toc .tct, .page.toc .tt').forEach(fixShortLastLine);
+
+  // 간지 장식 막대: 큰 번호 글자 윗선 ~ 제목 아랫선
+  for (const p of document.querySelectorAll('.page.divider')) {
+    const n = p.querySelector('.dnum'), t = p.querySelector('.dtitle'), bar = p.querySelector('.dbar');
+    const pr = p.getBoundingClientRect(), nr = n.getBoundingClientRect(), tr = t.getBoundingClientRect();
+    const fs = parseFloat(getComputedStyle(n).fontSize);
+    const top = nr.top - pr.top + (nr.height - fs * 0.72) / 2;   // 숫자 대략 cap-height 위치
+    bar.style.top = top + 'px';
+    bar.style.height = (tr.bottom - pr.top - top) + 'px';
+  }
+
+  // 목차 쪽번호
+  for (const tp of document.querySelectorAll('.tp')) {
+    const id = tp.dataset.for;
+    const pg = document.getElementById(id);
+    tp.textContent = pg ? pg.dataset.pno : '?';
+  }
+
+  // 설정 → 결과 점선 연결: 설정 원 아래 중앙 → 결과 원 왼쪽 중앙
+  const NS = 'http://www.w3.org/2000/svg';
+  for (const item of document.querySelectorAll('.item')) {
+    const ress = item.querySelectorAll('.res > .cir');
+    if (!ress.length) continue;
+    const page = item.closest('.page');
+    const ir = page.getBoundingClientRect();
+    const pc = item.querySelector(':scope > .cir').getBoundingClientRect();
+    const x0 = pc.left + pc.width / 2 - ir.left, y0 = pc.bottom - ir.top;
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('class', 'conn'); svg.setAttribute('width', ir.width); svg.setAttribute('height', ir.height);
+    svg.setAttribute('aria-hidden', 'true');
+    let d = '';
+    ress.forEach(rc => {
+      const r = rc.getBoundingClientRect();
+      const y = r.top + r.height / 2 - ir.top, x1 = r.left - ir.left;
+      d += `M${x0} ${y0}V${y}H${x1}`;
+    });
+    const path = document.createElementNS(NS, 'path');
+    path.setAttribute('d', d); path.setAttribute('fill', 'none'); path.setAttribute('stroke', '#94A3B8');
+    path.setAttribute('stroke-width', '1'); path.setAttribute('stroke-dasharray', '2 2');
+    svg.appendChild(path);
+    page.appendChild(svg);
+  }
+  // 표지 제목: 한 낱말(예: DE „Untersuchungspanel“)이 폭을 넘으면 넘지 않을 때까지 글자 크기를 줄인다(가변 높이 법칙과 같은 취지)
+  document.querySelectorAll('.cv-title').forEach(t => {
+    let fs = parseFloat(getComputedStyle(t).fontSize);
+    while (t.scrollWidth > t.clientWidth + 1 && fs > 48) { fs -= 1.5; t.style.fontSize = fs + 'px'; t.style.lineHeight = (fs * 1.21) + 'px'; }
+  });
+  window.__pageMap = pageMap;
+  window.__pageCount = pno;
+  window.__done = true;
+})();
+</script>
+</body></html>

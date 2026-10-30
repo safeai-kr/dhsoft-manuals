@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>SMART-EDC ユーザーマニュアル — データ入力</title>
+<meta name="author" content="hy0909">
+<style>@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-400.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-500.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-700.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-800.ttf) format("truetype");font-weight:800}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Medium.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Bold.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-ExtraBold.ttf) format("truetype");font-weight:800}
+@page{size:210mm 297mm;margin:0}
+/* 언어별: 자간(2절: 한국어 10pt 초과 -3%, 영어 -1%; 독일어는 영어와 같게, 일본어 0 [확인 필요]) · 글꼴 · 줄바꿈 */
+:root{--ls:-0.03em}
+body.lang-en,body.lang-de{--ls:-0.01em}
+body.lang-ja{--ls:0em}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
+body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
+body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal}
+body.lang-en td:first-child,body.lang-en th:first-child,body.lang-de td:first-child,body.lang-de th:first-child,body.lang-en table.wide th:nth-child(1),body.lang-de table.wide th:nth-child(1){width:96px}   /* 첫 열이 음절 단위로 쪼개질 만큼 좁아지지 않게 */   /* 좁은 표 열: 낱말을 하이픈 없이 끊지 않고 사전식 하이픈으로 나눈다 */
+body.lang-ja{font-family:"PretendardJPM",sans-serif;word-break:normal;line-break:strict}
+b{font-weight:700;color:#111B2B}
+ul{list-style:none}
+p,li,figcaption,td,th,h4{white-space:pre-wrap}
+/* 코드 칩: 배경은 위아래로만 넓힌다. 좌우로 넓히면 앞뒤 괄호·글자를 덮는다. 좌우 padding/margin은 복사 공백이 생길 수 있어 쓰지 않는다. */
+code{font-family:inherit;color:#202F86;background:#F1F3FE;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+a{color:inherit;text-decoration:none}
+
+.page{width:794px;height:1123px;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.page:last-child{break-after:auto;page-break-after:auto}
+
+/* ---------- 표지 ---------- */
+.page.cover{background:#071426;color:#fff}
+.cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
+.cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
+.cv-brand{font-size:28.5px;font-weight:800;line-height:34px;letter-spacing:-0.01em}
+.cv-brand .sm{color:#65E5D1}
+.cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-main{position:absolute;left:56px;right:56px;top:322px}
+.cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
+.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
+.cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
+.cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1005px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:16px}
+.cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
+.cv-logo{width:138px;height:auto}
+
+/* ---------- 목차 ---------- */
+.toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
+.toc-h h1{font-size:33.5px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
+.toc-h .brand{font-size:12.5px;font-weight:700;color:#94A3B8;line-height:15px}
+.page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
+.tch{margin-bottom:37.33px}
+.tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
+.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3349CA;flex:none}
+.tct{margin-left:5.33px;font-size:16px;font-weight:700;color:#111B2B;letter-spacing:var(--ls);line-height:24px}
+.tch ul{margin-top:6px}
+.tch li a{display:flex;align-items:flex-start;padding:3.33px 0;font-size:15.5px;line-height:24px}
+.tch li:first-child a{padding-top:5.33px}
+.tn{width:26px;margin-left:27.33px;font-weight:700;color:#94A3B8;flex:none;letter-spacing:-0.01em}
+.tt{margin-left:5.33px;flex:1;color:#263341;letter-spacing:var(--ls)}
+.tp{width:24px;text-align:center;font-size:13.5px;color:#8C96A8;flex:none}
+
+/* ---------- 간지 ---------- */
+.page.divider{background:#EFF1FA}
+.dlabel{position:absolute;left:56px;top:43px;font-size:14.5px;color:#405169;line-height:20px;letter-spacing:var(--ls)}
+.dhead{position:absolute;left:52px;top:140px;right:56px}
+.dnum{font-size:99.6px;font-weight:800;color:#45517E;line-height:1.2;letter-spacing:var(--ls)}
+.dtitle{font-size:52px;font-weight:700;color:#15233A;line-height:1.25;margin-top:4px;letter-spacing:var(--ls)}
+.dbar{position:absolute;right:0;width:19px;background:#45517E}
+.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #C8D0DD;padding-top:22px}
+.dlist li{display:flex;align-items:baseline;margin-bottom:20px}
+.dn{width:34px;padding-left:4px;flex:none;font-size:16.5px;font-weight:700;color:#94A3B8}
+.dt{font-size:18.5px;color:#26374B;line-height:1.3;letter-spacing:var(--ls)}
+.pno{position:absolute;right:56px;top:1063px;font-size:13.5px;color:#8590AE;line-height:20px}
+
+/* ---------- 본문 ---------- */
+.hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
+/* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
+.hx{min-width:0}
+.ht{display:flex;align-items:baseline;padding-top:38px;font-size:31.5px;line-height:44px;font-weight:700;color:#fff;letter-spacing:var(--ls)}
+.hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
+.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
+.ftr .chn{flex:1}
+.ftr .brand{font-weight:700;margin-right:20px}
+
+.blk{display:block}
+.path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
+.path .lbl{font-weight:700;color:#6B7689;margin-right:5px;white-space:pre}
+.path .chev{margin:0 2px;flex:none}
+.tab{margin-top:40px}
+.area>.blk:first-child{margin-top:0!important}
+.path+.tab{margin-top:38px}
+.tab h3{display:flex;align-items:flex-end;font-weight:700}
+.tab h3 span{background:#191F29;color:#fff;font-size:17px;line-height:23px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
+.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #191F29}
+.tab+.blk{margin-top:12px}
+.ov p{font-size:14.5px;line-height:1.5;color:#202630;letter-spacing:var(--ls)}
+.ov+.ov{margin-top:6px}
+
+.legend{border:1px solid #E2E8F0;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:flex-start;font-size:13px;line-height:18px;color:#111B2B}
+/* 범례 항목: 위 정렬. 원 중심 = 첫 줄 글자 높이 중심(기준선 − 0.358em, 13px 기준 1.35px 내림), 제목(b)과 설명(span)은 같은 글자 크기·줄 높이라 첫 줄 기준선이 같다 */
+.lg{display:flex;align-items:flex-start}
+.lg>.lcir{margin-top:1.35px}
+.lg>b,.lg>span{line-height:18px}
+.lg>span{min-width:0}
+.lg b{margin:0 2.5px 0 5px;white-space:pre}
+.lg.note b{margin-right:0}
+.lg.note b{color:#475569}
+.lcir{width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;line-height:1;color:#fff;flex:none}
+/* 범례 원은 SVG(.cn)가 그린다 */
+.legend+.fig{margin-top:8px!important}
+
+.fig{background:#F6F7F9;border-radius:8px;padding:14px 16px 16px;display:flex;justify-content:center;gap:16px}
+.shot{flex:none}
+.imgbox{display:grid;width:100%;border-radius:8px;background:#fff}
+.imgbox>*{grid-area:1/1}
+.imgbox img{display:block;width:100%;height:auto;border-radius:8px}
+.mk{align-self:start;justify-self:start;margin-right:-22px;margin-bottom:-22px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11.4px;font-weight:700;line-height:1;color:#fff;box-shadow:0 0 0 0.5px rgba(100,116,139,.25),0 1px 3px rgba(100,116,139,.35)}
+/* 화면 위 번호: 흰 테두리 바깥에만 연한 회색 그림자(원 모양 그대로, 잘리지 않게 작게) */
+.mk-set,.mk-ref{}
+
+figcaption{margin-top:10px;font-size:12px;line-height:1.45;color:#475364;letter-spacing:0}
+figcaption code{color:#475364;background:#E9ECF3}
+.fig+.item{margin-top:8px}
+
+.item{display:flex;align-items:flex-start;padding:10px 0}
+.item+.item{background:linear-gradient(#F1F5F9,#F1F5F9) no-repeat 33px 0/calc(100% - 33px) 1px}
+.cir{width:23px;height:23px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1;color:#fff}
+/* 번호 설명 원은 SVG(.cn)가 그린다 */
+.cir.c-res{width:22px;height:22px}
+.item .body{margin-left:10px;flex:1;min-width:0}
+.item .t{font-size:14.5px;line-height:1.55;color:#111B2B;letter-spacing:var(--ls)}
+.item.k-ref .t,.item.k-ref .t b{color:#475569}
+.ress{margin-top:12px;margin-left:0}
+.res{display:flex;align-items:flex-start}
+.res+.res{margin-top:8px}
+.res .t{margin-left:10px;flex:1;color:#263341}
+.res .t b{color:#111B2B}
+.res .cir{margin-top:0}
+.conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+
+.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
+
+.card{border-radius:8px;padding:14px 14.7px 15px}
+.card+.card{margin-top:7.33px}
+.tab+.card{margin-top:12px}
+.card h4{display:flex;align-items:baseline;font-size:14.5px;font-weight:700;line-height:20px;white-space:normal}
+.card .ttl{white-space:pre}
+.card .sub{font-size:12px;font-weight:400;margin-left:4.5px}
+.card ul{margin-top:6px}
+.card li{font-size:13.5px;font-weight:500;line-height:1.52;color:#475569;padding-left:14px;text-indent:-14px}
+.card li+li{margin-top:4px}
+.card li b{color:inherit}
+.card .bul{display:inline-block;width:14px;text-indent:0}
+.card.must{background:#FDF2F3}.card.must h4{color:#B91C1C}.card.must .ref{color:#A15E61}.card.must code{background:#F6DCDE;color:inherit}
+.card.misc{background:#FEF9F0}.card.misc h4{color:#885910}.card.misc .ref{color:#927341}.card.misc code{background:#FCE8BF;color:inherit}
+.card.note{background:#F1F5F9}.card.note h4{color:#475569}.card.note .ref{color:#64748B}.card.note code{background:#E2E8F0;color:inherit}
+.card.note li b{color:#334155;font-weight:700}
+
+.plain ul li{font-size:14.5px;line-height:1.55;color:#202630;padding-left:14px;text-indent:-14px;letter-spacing:var(--ls)}
+.plain ul li+li{margin-top:6px}
+.plain .bul{display:inline-block;width:14px;text-indent:0}
+.box{border:1px solid #E2E8F0;border-radius:8px;padding:14px 16px}
+.box+.box{margin-top:8px}
+.box p{font-size:13.5px;line-height:1.52;color:#202630}
+
+.tblwrap table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:left;padding:11px 10.7px;vertical-align:top}
+td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
+td b{color:#111B2B}
+td.c0,td.c0 b{color:#475569}
+td .ref{vertical-align:3px}
+table.wide td{padding:8px 10.7px}
+table.wide th{padding:9px 10.7px}
+table.wide{table-layout:fixed}
+table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),body.lang-de table.wide th:nth-child(4),body.lang-ja table.wide th:nth-child(4){width:auto;min-width:82px}/* 번역본: 4열이 내용 열인 비교표가 82px에 갇히지 않게 */table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
+
+/* 원형 안 숫자: 가운데 정렬 후 paginate.js가 실제 글자 잉크 범위를 재서 원의 정중앙으로 보정한다 */
+/* 원형 숫자는 SVG(.cn): 좌표는 build.py가 글리프 잉크 경계로 계산. 원과 같은 크기, 테두리가 있으면 음수 margin으로 테두리까지 덮어 원 중심과 SVG 중심을 일치 */
+.cn{display:block;flex:none;overflow:visible}
+.cir,.lcir,.mk{background:none!important;border:none!important}
+.cn text{font-weight:700;letter-spacing:0}
+
+</style></head>
+<body class="lang-ja">
+<div id="src" hidden>
+<section class="cover">
+  <div class="cv-wave"></div><div class="cv-grad"></div>
+  <div class="cv-top"><span class="cv-brand"><span class="sm">SMART</span> EDC</span><span class="cv-sys">臨床試験電子データ収集システム</span></div>
+  <div class="cv-main noclass"><h1 class="cv-title">データ入力</h1><p class="cv-sub">SCR-VISIT-010·003·007 · SCR-CRF-005 · ワークリスト · 来院タイムライン · CRF入力 · Query回答</p></div>
+  <div class="cv-bottom"><span class="cv-kind">ユーザーマニュアル · 画面別分冊</span><img class="cv-logo" src="img/logo.png" alt="DH Digital Healthcare Software"></div>
+</section>
+<section class="toc" data-title="目次"><div class="flow"><div class="tch blk"><div class="tchh"><span class="tcn">1</span><span class="tct">データ入力一覧</span></div><ul><li><a href="#s1-1"><span class="tn">1.1</span><span class="tt">画面構成</span><span class="tp" data-for="s1-1"></span></a></li><li><a href="#s1-2"><span class="tn">1.2</span><span class="tt">一覧の読み方</span><span class="tp" data-for="s1-2"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">2</span><span class="tct">来院タイムライン</span></div><ul><li><a href="#s2-1"><span class="tn">2.1</span><span class="tt">タイムラインの構成</span><span class="tp" data-for="s2-1"></span></a></li><li><a href="#s2-2"><span class="tn">2.2</span><span class="tt">来院行とCRF行</span><span class="tp" data-for="s2-2"></span></a></li><li><a href="#s2-3"><span class="tn">2.3</span><span class="tt">来院ステータス変更</span><span class="tp" data-for="s2-3"></span></a></li><li><a href="#s2-4"><span class="tn">2.4</span><span class="tt">スキップ結果</span><span class="tp" data-for="s2-4"></span></a></li></ul></div><div class="tch blk"><div class="tchh"><span class="tcn">3</span><span class="tct">CRFデータ入力</span></div><ul><li><a href="#s3-1"><span class="tn">3.1</span><span class="tt">入力画面</span><span class="tp" data-for="s3-1"></span></a></li><li><a href="#s3-2"><span class="tn">3.2</span><span class="tt">保存完了</span><span class="tp" data-for="s3-2"></span></a></li><li><a href="#s3-3"><span class="tn">3.3</span><span class="tt">Query回答</span><span class="tp" data-for="s3-3"></span></a></li></ul></div></div></section>
+<section class="divider" data-ch="1" data-chtitle="1. データ入力一覧">
+<div class="dlabel">画面別分冊 — データ入力</div>
+<div class="dhead"><div class="dnum">1</div><h1 class="dtitle" id="ch1">データ入力一覧</h1></div>
+<ul class="dlist"><li><span class="dn">1.1</span><span class="dt">画面構成</span></li><li><span class="dn">1.2</span><span class="dt">一覧の読み方</span></li></ul></section><section class="sec" id="s1-1" data-num="1.1" data-chtitle="1. データ入力一覧">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.1</span><span class="hx">画面構成</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">プロジェクトダッシュボード</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">データ入力</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>毎日データを入力する人が最初に開く画面です。担当の被験者ごとに<b>最後に実施した来院</b>と<b>次に予定されている来院</b>を1行にまとめ、今日何をすべきかを一目で分かるようにします。実際の入力はこの一覧からは行わず、<b>来院タイムライン</b>を経由して、その来院のCRFに入って行います。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.31158"><img src="img/s1_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(8.479% - 11px);margin-top:calc(13.066% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(29.438% - 11px);margin-top:calc(11.937% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(54.915% - 11px);margin-top:calc(11.937% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(89.777% - 11px);margin-top:calc(18.570% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(26.968% - 11px);margin-top:calc(4.385% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(41.788% - 11px);margin-top:calc(7.632% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(51.951% - 11px);margin-top:calc(15.536% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(62.960% - 11px);margin-top:calc(15.536% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(77.921% - 11px);margin-top:calc(15.536% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(79.897% - 11px);margin-top:calc(41.506% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>データ入力一覧 (SCR-VISIT-010) — 被験者ごとに最後の来院と次の来院を1行で表示します</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">左のメニュー <b>研究運営 &gt; データ入力</b> — この画面へいつでも入れる入口です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>検索</b> — Screening No または固有番号で行を絞り込みます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>ステータスフィルター</b> 5種 — <b>全体 · 進行中 · 全件完了 · 来院実績なし · Terminal</b> です。各分類の意味は 1.2 の表を参照してください。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>来院タイムライン ▶</b> — その被験者の来院すべてを開きます <span class="ref">2.1</span>。<b>行のどこを選んでも、同じ画面に移動します</b>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">移動経路は<b>ダッシュボード / 来院被験者一覧</b>です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">タイトルの下に、この一覧の内容と<b>全件数</b>が表示されます。担当Siteが決まっているロールには<b>自Site固定</b>バッジも表示され、この場合、一覧は自分のSiteの被験者だけに自動で絞り込まれます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>ステータス</b>列 — 被験者の現在のステータスと、未処理Queryの件数です <span class="ref">1.2</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>最後の来院</b>列 — 直前に実施が終わった来院と、<b>実際の来院日</b>です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>次の来院</b>列 — 最も近い未完了の予定来院と<b>予定日</b>です。2つの列の日付は<b>基準が異なります</b> <span class="ref">1.2</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>表示件数 · ページサイズ · ページ移動</b> — 一覧の下部にまとめて表示されます。</p></div></div>
+<div class="blk tab kwn"><h3><span>この画面へ行くほかの経路</span></h3></div>
+<div class="blk plain"><ul><li><span class="bul">• </span>左のメニュー <b>研究運営 &gt; データ入力</b></li><li><span class="bul">• </span>ダッシュボードの <b>本日の予定来院</b> ウィジェットの行</li><li><span class="bul">• </span>ダッシュボードの <b>本日の予定来院</b> ウィジェットの <b>来院ワークリスト →</b></li><li><span class="bul">• </span>ダッシュボードの <b>来院状況</b> ウィジェットの <b>タイムライン</b></li></ul></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>担当Siteが決まっているロール（研究責任者・研究看護師・臨床開発モニター）には、自分のSiteの被験者だけが表示されます。一覧に表示されるはずの被験者が見えない場合は、まずSiteの割り当てを確認してください。検索やフィルターでは、担当範囲外の被験者を呼び出すことはできません。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s1-2" data-num="1.2" data-chtitle="1. データ入力一覧">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">1.2</span><span class="hx">一覧の読み方</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">データ入力</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">一覧の読み方</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>1行が被験者1名です。中央の2つの欄がこの画面の要で、<b>左は既に終わった来院</b>、<b>右はこれから行う来院</b>です。2つの欄とアクション列はいずれも、その被験者の来院タイムラインにつながっており、来院の欄を選ぶと<b>その来院が選択された状態</b>で開きます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.40865"><img src="img/s1_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(65.525% - 11px);margin-top:calc(8.966% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(88.092% - 11px);margin-top:calc(8.966% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(88.092% - 11px);margin-top:calc(16.442% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(41.829% - 11px);margin-top:calc(7.133% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(46.202% - 11px);margin-top:calc(7.133% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(64.114% - 11px);margin-top:calc(23.635% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(87.528% - 11px);margin-top:calc(12.633% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(73.423% - 11px);margin-top:calc(23.635% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>一覧本文 — 2つの来院欄とバッジが、その被験者の現在位置を示します（拡大）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>最後の来院</b>欄 — 選択すると、その来院が選択された状態でタイムラインが開きます。来院名の横の日付は<b>実際の来院日</b>です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>次の来院</b>欄 — 選択すると、その来院が選択された状態でタイムラインが開きます。来院名の横の日付は<b>予定日</b>です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>来院タイムライン ▶</b> — 特定の来院を指定せず、その被験者の来院すべてを開きます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>ステータス</b> — 被験者の現在の進行状況です（「投与中」· 「治療終了」· 「登録完了」など）。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>Q N</b> — その被験者の<b>未処理Query件数</b>です。0件の場合は表示されません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>DONE</b> — 最後の来院欄にだけ付く、実施完了の表示です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>SCHEDULED</b> と <b>遅延</b> — 前者は予定の状態で、後者は許容期間（Window）を過ぎたことを示す警告です。期間に入ったばかりの来院には<b>間近</b>が表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>全件完了</b> — 実施実績があり、これ以上行う来院がない状態です。<b>予定来院なし</b>（オレンジ）と混同しないでください（下の表を参照）。</p></div></div>
+<div class="blk tab kwn"><h3><span>ステータスフィルター4種（全体を除く）</span></h3></div>
+<div class="blk tblwrap"><table><thead><tr><th style="width:15.6%">フィルター</th><th style="width:40.3%">その分類に入る行</th><th style="width:44.1%">すべきこと</th></tr></thead><tbody><tr><td class="c0"><b>進行中</b></td><td class="c1">次の来院が残っている被験者</td><td class="c2">予定日に合わせて来院と入力を実施</td></tr><tr><td class="c0"><b>全件完了</b></td><td class="c1">実施実績があり、次の来院がない被験者</td><td class="c2">なし — 正常終了の状態</td></tr><tr><td class="c0"><b>来院実績なし</b></td><td class="c1">実施実績も予定来院も<b>どちらもない</b>被験者</td><td class="c2"><b>対応が必要</b> — 来院が展開されていない原因を確認</td></tr><tr><td class="c0"><b>Terminal</b></td><td class="c1">終了状態で固定された被験者</td><td class="c2">なし — 照会のみ可能</td></tr></tbody></table></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>「全件完了」と「予定来院なし」は意味が反対です。前者はやるべきことがないという意味です。後者は、来院が1つも展開されておらず、原因を探す必要がある状態です。2つの文言は同じ欄に表示されるため、色（グレー · オレンジ）と文言を一緒に確認してください。</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="2" data-chtitle="2. 来院タイムライン">
+<div class="dlabel">画面別分冊 — データ入力</div>
+<div class="dhead"><div class="dnum">2</div><h1 class="dtitle" id="ch2">来院タイムライン</h1></div>
+<ul class="dlist"><li><span class="dn">2.1</span><span class="dt">タイムラインの構成</span></li><li><span class="dn">2.2</span><span class="dt">来院行とCRF行</span></li><li><span class="dn">2.3</span><span class="dt">来院ステータス変更</span></li><li><span class="dn">2.4</span><span class="dt">スキップ結果</span></li></ul></section><section class="sec" id="s2-1" data-num="2.1" data-chtitle="2. 来院タイムライン">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.1</span><span class="hx">タイムラインの構成</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">データ入力</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">来院タイムライン</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>一人の被験者の来院すべてを、研究スケジュールの順に表示する画面です。来院は<b>選別段階 · 治療段階</b>のような<b>グループ</b>にまとめられており、周期治療はその中で<b>Cycle</b>に分かれます。データ入力も来院ステータスの変更も、すべてこの画面から始まります。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.31850"><img src="img/s2_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(79.474% - 11px);margin-top:calc(4.315% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.987% - 11px);margin-top:calc(7.067% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(58.443% - 11px);margin-top:calc(12.572% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(31.485% - 11px);margin-top:calc(1.280% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(13.983% - 11px);margin-top:calc(10.737% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(60.419% - 11px);margin-top:calc(8.761% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(10.455% - 11px);margin-top:calc(16.100% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(93.447% - 11px);margin-top:calc(16.100% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(58.443% - 11px);margin-top:calc(20.829% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(29.932% - 11px);margin-top:calc(22.734% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.045" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">7</text></svg></span></div><figcaption>来院タイムライン (SCR-VISIT-003) 上部 — 要約行と来院グループ</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>Cycle 手動追加</b> — 定義された周期のほかに、Cycleをさらに追加します。直前のCycleが終了している場合にのみ選択できます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>来院手動追加</b> — 計画になかった来院（非計画・随時来院）を追加します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>Gantt タイムライン</b>タブ — 同じ内容を日程バーの形で表示します。初期表示は<b>来院グループ</b>タブです。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">移動経路は<b>ダッシュボード / 来院被験者一覧 / 被験者 · 来院タイムライン</b>です。被験者画面から入った場合は、経路が異なります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">被験者の識別行 — <b>Screening No · 被験者番号 · 被験者ステータス · Site</b> です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">来院の集計 — <b>総件数 · 来院実施 · 来院進行中 · 来院予定 · 未来院</b> です。未来院が残っている場合は、まずその来院を整理する必要があります <span class="ref">2.3</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>来院グループ</b> — 研究スケジュールの大きな区切りです。かっこ内の数字はそのグループの来院数で、タイトルを選ぶと折りたたみ・展開できます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">グループ右側の集計 — そのグループ内の、ステータス別の件数です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">来院行の構成 — <b>基準 · 計画日 · 実施日 · 許容期間 · ステータスバッジ</b> の順に表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t"><b>紐づくCRFなし</b> — その来院に紐づくCRFがないという意味です。入力するデータがない来院で、紐づけは来院定義のCRFマッピングで管理します。</p></div></div>
+<div class="blk tab kwn"><h3><span>この画面へ行くほかの経路</span></h3></div>
+<div class="blk plain"><ul><li><span class="bul">• </span>データ入力一覧 → 行の選択、または<b>来院タイムライン ▶</b> <span class="ref">1.2</span></li><li><span class="bul">• </span>データ入力一覧 → <b>最後の来院</b> · <b>次の来院</b>欄（その来院が選択された状態で開きます）</li><li><span class="bul">• </span>被験者一覧 → 行のアクションメニュー → <b>来院</b></li><li><span class="bul">• </span>ダッシュボードの <b>来院状況</b> ウィジェット → 被験者を選択</li></ul></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>来院集計の「未来院」は、そのままにしても消えません。予定日を過ぎた来院は、実施するか、スキップ・キャンセル・該当なしのいずれかで理由を添えて整理する必要があります <span class="ref">2.3</span>。整理されていない未来院は、その被験者のデータが完結していないものとして集計されます。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s2-2" data-num="2.2" data-chtitle="2. 来院タイムライン">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.2</span><span class="hx">来院行とCRF行</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">来院タイムライン</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">来院選択</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>来院行の左にある<b>展開マーク</b>を選択すると、その来院に紐づいたCRFが1行ずつ現れます。<b>CRF行を選択すると入力画面に移動</b>します <span class="ref">3.1</span>。来院行を選択すると、画面下部にその来院の詳細が開き、そこでステータス変更と履歴の確認を行います。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:4.07184"><img src="img/s2_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(15.959% - 11px);margin-top:calc(9.114% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(27.956% - 11px);margin-top:calc(11.160% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(1.280% - 11px);margin-top:calc(21.887% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(15.747% - 11px);margin-top:calc(21.887% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(13.983% - 11px);margin-top:calc(2.550% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(85.966% - 11px);margin-top:calc(2.550% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(18.923% - 11px);margin-top:calc(6.926% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(74.957% - 11px);margin-top:calc(9.114% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(84.978% - 11px);margin-top:calc(9.114% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(78.909% - 11px);margin-top:calc(11.160% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(20.476% - 11px);margin-top:calc(14.054% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.045" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">7</text></svg></span><span class="mk mk-ref" style="margin-left:calc(38.965% - 11px);margin-top:calc(17.159% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.006" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">8</text></svg></span></div><figcaption>治療段階 — 来院行を展開すると、その来院に紐づいたCRF行が表示されます</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>来院行</b> — 選択すると、下にその来院の詳細が開きます。左の展開マークで、紐づいたCRFの一覧を展開します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>CRF行</b> — 選択すると、そのCRFの入力画面に移動します <span class="ref">3.1</span>。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>ステータス変更</b> — 来院の実施有無を記録するか、スキップ・キャンセル・該当なしとして整理します <span class="ref">2.3</span>。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>履歴</b> — その来院で起きたステータス変更の記録を確認します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">グループのタイトルと来院数です — <b>治療段階 (Arm A)</b> のように、試験群も併せて表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">グループ右側の集計 — そのグループの、ステータス別の件数です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>Cycle</b> と、その中の来院の区分です。周期治療では、同じ来院がCycleごとに繰り返されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">来院単位の<b>必須入力集計</b> — その来院に紐づいたCRFの必須項目が、どれだけ埋まっているかです。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>CRFステータス</b> · <b>Queryステータス</b> 列の見出し — 下のCRF行のバッジが、この2つの軸を表します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">CRF行のバッジ — 左から<b>必須入力集計 · 入力ステータス · Query表示</b>です。<b>Q</b>が見える場合、そのCRFに処理すべきQueryがあります <span class="ref">3.3</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t">選択した来院の詳細ヘッダー — <b>来院名 · 来院種別 · 現在のステータス</b> です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.506" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">8</text></svg></span><div class="body"><p class="t">詳細の主な値 — <b>計画日 · 実施日 · 許容期間（Window） · Visit-Event ステータス · Cycle番号</b> です。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>来院行の集計と、CRF行の集計は範囲が異なります。来院行はその来院に紐づくCRF全体を合算した値で、CRF行はそのCRF1つの値です。来院が100%と表示されていても、紐づくCRFが1つだけであれば同じ数字になるため、どちらの数字を見ているかを確認して判断してください。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s2-3" data-num="2.3" data-chtitle="2. 来院タイムライン">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.3</span><span class="hx">来院ステータス変更</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">来院タイムライン</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">来院ステータス変更</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>予定日を過ぎても実施されていない来院を整理するウィンドウです。<b>現在のステータスで可能な操作だけが表示</b>されるため、キャプチャのように<b>未来院</b>のステータスでは、スキップ・キャンセル・該当なしの3つが表示されます。どれを選んでも<b>理由の入力は必須</b>で、記録は監査証跡に残ります。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:275.6px"><div class="imgbox" style="aspect-ratio:1.13158"><img src="img/s2_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(42.548% - 11px);margin-top:calc(27.764% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(76.768% - 11px);margin-top:calc(27.100% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(42.548% - 11px);margin-top:calc(40.223% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(84.243% - 11px);margin-top:calc(55.339% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(84.243% - 11px);margin-top:calc(66.967% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.033% - 11px);margin-top:calc(81.252% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(56.336% - 11px);margin-top:calc(11.485% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(83.246% - 11px);margin-top:calc(9.159% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(18.462% - 11px);margin-top:calc(20.123% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(17.465% - 11px);margin-top:calc(50.688% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(20.455% - 11px);margin-top:calc(61.983% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>来院ステータス変更 (SCR-VISIT-007) — 未来院の来院で選択できる操作3種（拡大）</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>スキップ (SKIP)</b> — 来院そのものを実施しなかったという記録です。<b>逸脱（Deviation）の対象</b>になります。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>キャンセル (CANCEL)</b> — <b>入力済みのCRFは削除されず</b>、完結性の集計からだけ除外されます。以後の入力は参照のみになります。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>該当なし (NA)</b> — この被験者には該当しない来院です。逸脱の対象ではありません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>理由</b> — 必須です。スキップは、プロジェクトに登録された<b>理由の一覧から選択</b>します。一覧を読み込めない場合は、直接入力欄に代わります。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>メモ</b> — 任意です。一覧の理由だけでは説明が足りない場合に追記します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t"><b>実行ボタン</b> — 選択した操作の名前が表示されます。<b>理由を選ぶまでは薄く表示され、選択できません。</b>横の<b>キャンセル</b>はウィンドウを閉じるだけです。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">対象の来院 — <b>来院種別 · 来院名 · 計画日 · 現在のステータス</b> です。ステータスバッジが「✕ 未来院」であることを確認してから進めてください。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>閉じる</b> — ウィンドウを閉じます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>操作の選択</b> — 選んだカードに色の枠が付きます。カードを変えると、<b>入力中の理由とメモは初期化されます。</b></p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">理由の横の<b>*</b>は必須項目の印です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t">メモの横の<b>(任意)</b>は、空欄のままで構わないという印です。</p></div></div>
+<div class="blk tab kwn"><h3><span>操作4種 — 状況に合ったものだけが表示されます</span></h3></div>
+<div class="blk tblwrap"><table><thead><tr><th style="width:22.1%">操作</th><th style="width:31.0%">表示される状況</th><th style="width:25.9%">逸脱の対象</th><th style="width:21.0%">元に戻す</th></tr></thead><tbody><tr><td class="c0"><b>来院実施の処理</b></td><td class="c1">来院が進行中のとき</td><td class="c2">実施日により判定</td><td class="c3">元に戻せない</td></tr><tr><td class="c0"><b>スキップ (SKIP)</b></td><td class="c1">未来院 · 実施記録なし</td><td class="c2"><b>対象</b></td><td class="c3">復元可能</td></tr><tr><td class="c0"><b>キャンセル (CANCEL)</b></td><td class="c1">未来院または進行中</td><td class="c2">対象外</td><td class="c3">復元可能</td></tr><tr><td class="c0"><b>該当なし (NA)</b></td><td class="c1">未来院 · 実施記録なし</td><td class="c2">対象外</td><td class="c3">復元可能</td></tr></tbody></table></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>周期（Cycle）の来院を「キャンセル」すると、次のCycleを追加できなくなります。終了として認められるのは実施・スキップ・該当なしであり、キャンセルは含まれないためです。誤って作成したCycleは、キャンセルではなく該当なしで整理してください。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s2-4" data-num="2.4" data-chtitle="2. 来院タイムライン">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">2.4</span><span class="hx">スキップ結果</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">来院タイムライン</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">スキップ処理の結果</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>スキップを実行すると、ウィンドウが閉じてタイムラインに戻ります。その来院行の<b>ステータスバッジが変わり、来院名に取り消し線</b>が付くため、一覧からすぐに区別できます。実施日は空欄のままで、入力した理由はその来院の<b>履歴</b>で確認できます <span class="ref">2.2</span>。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:516.8px"><div class="imgbox" style="aspect-ratio:6.60234"><img src="img/s2_4_1.png" alt=""><span class="mk mk-ref" style="margin-left:calc(27.470% - 11px);margin-top:calc(3.378% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(30.482% - 11px);margin-top:calc(7.807% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(76.540% - 11px);margin-top:calc(11.881% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(93.547% - 11px);margin-top:calc(11.881% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(38.985% - 11px);margin-top:calc(11.881% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span></div><figcaption>スキップを実行した後の来院行 — ステータスバッジが「⊘ スキップ済み」に変わります</figcaption></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">来院が属する<b>グループとCycle</b>です — スキップはその来院1つだけに適用され、同じグループの他の来院には影響しません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t">来院行 — 来院名に<b>取り消し線</b>が付きます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">行の中央の<b>実施日</b>は<b>—</b>のまま残ります。横の許容期間は計画値のまま維持されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">行の右端の ⊘<b> スキップ済み</b> — スキップ処理の結果表示です。元に戻すには、その来院を再度選択して<b>ステータス変更 &gt; 復元</b>を実行します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>紐づくCRFなし</b> — この来院に紐づくCRFがないという意味で、スキップとは無関係の別の表示です。</p></div></div>
+<div class="blk tab kwn"><h3><span>来院ステータスバッジ7種</span></h3></div>
+<div class="blk tblwrap"><table><thead><tr><th style="width:19.6%">バッジ</th><th style="width:54.2%">意味</th><th style="width:26.2%">入力可否</th></tr></thead><tbody><tr><td class="c0"><b>○ 来院予定</b></td><td class="c1">予定日がまだ残っている来院</td><td class="c2">可能</td></tr><tr><td class="c0"><b>◐ 来院進行中</b></td><td class="c1">実施が始まった来院</td><td class="c2">可能</td></tr><tr><td class="c0">✓<b> 来院実施</b></td><td class="c1">実施が終わった来院</td><td class="c2">可能</td></tr><tr><td class="c0">✕<b> 未来院</b></td><td class="c1">予定日を過ぎたが整理されていない来院</td><td class="c2">可能 — <b>整理が必要</b></td></tr><tr><td class="c0">⊘<b> スキップ済み</b></td><td class="c1">実施しないと記録された来院（逸脱の対象）</td><td class="c2">不可</td></tr><tr><td class="c0">⊗<b> キャンセル</b></td><td class="c1">キャンセルした来院 — 既存のCRFは維持</td><td class="c2">参照のみ</td></tr><tr><td class="c0"><b>– 該当なし</b></td><td class="c1">この被験者には該当しない来院</td><td class="c2">不可</td></tr></tbody></table></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>スキップは逸脱（Deviation）として集計されます。元に戻すことはできますが、処理と復元はどちらも履歴に残るため、理由を確認しないまま一時的に押してみるような使い方はしないでください。来院をまだ実施できるなら、ステータスは変えずにそのままにしてください。</b></li></ul></div>
+</div></section>
+<section class="divider" data-ch="3" data-chtitle="3. CRFデータ入力">
+<div class="dlabel">画面別分冊 — データ入力</div>
+<div class="dhead"><div class="dnum">3</div><h1 class="dtitle" id="ch3">CRFデータ入力</h1></div>
+<ul class="dlist"><li><span class="dn">3.1</span><span class="dt">入力画面</span></li><li><span class="dn">3.2</span><span class="dt">保存完了</span></li><li><span class="dn">3.3</span><span class="dt">Query回答</span></li></ul></section><section class="sec" id="s3-1" data-num="3.1" data-chtitle="3. CRFデータ入力">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.1</span><span class="hx">入力画面</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">来院タイムライン</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">CRF入力</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>実際のデータを入力する画面です。左は同じ被験者のCRFを行き来するナビゲーション領域で、右が入力領域です。初めて開いたときは、データがまだ作られていない状態で、<b>保存を実行した時点で初めて作成</b>されます。画面を開いたまま離れると、何も残りません。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.07375"><img src="img/s3_1_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(90.483% - 11px);margin-top:calc(19.276% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(90.483% - 11px);margin-top:calc(24.710% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(90.483% - 11px);margin-top:calc(29.932% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(90.906% - 11px);margin-top:calc(5.232% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.399% - 11px);margin-top:calc(5.232% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(32.473% - 11px);margin-top:calc(0.927% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(29.932% - 11px);margin-top:calc(3.538% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(21.887% - 11px);margin-top:calc(4.668% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(37.413% - 11px);margin-top:calc(6.502% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(7.914% - 11px);margin-top:calc(9.749% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(10.455% - 11px);margin-top:calc(21.181% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(39.953% - 11px);margin-top:calc(11.301% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.045" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">7</text></svg></span><span class="mk mk-ref" style="margin-left:calc(37.413% - 11px);margin-top:calc(13.560% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.006" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">8</text></svg></span><span class="mk mk-ref" style="margin-left:calc(19.205% - 11px);margin-top:calc(19.276% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.989" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">9</text></svg></span></div><figcaption>CRF入力画面 (SCR-CRF-005) — まだ一度も保存していない状態です</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>収縮期血圧</b> — 数値の入力欄です。両脇の値が許容範囲です。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>拡張期血圧</b> — 同じ方法で入力します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>来院日</b> — カレンダーアイコンで日付を選ぶか、直接入力します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>一時保存</b> — 入力中の内容を<b>一時的に保管</b>します。検証を経ず、監査記録も残らないため、<b>確定保存ではありません。</b></p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>保存</b> — 入力を確定します。このときデータが作成され、検証と監査記録が同時に行われます <span class="ref">3.2</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t">移動経路は<b>ダッシュボード / 来院被験者一覧 / 来院タイムライン / 被験者 · CRF名</b>です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>NOT_CREATED</b> — まだ一度も保存していないという表示です。保存すると<b>IN_PROGRESS</b>または<b>COMPLETED</b>に変わります <span class="ref">3.2</span>。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">CRFのコードと<b>回次番号</b>です。同じ来院で繰り返し収集するCRFは、回次が増えます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">被験者の識別行 — <b>Screening No · 被験者番号 · ステータス · Site · 性別 · 生年月日</b> です。<b>詳細</b>で被験者の情報を確認します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>CRFナビゲーション</b> — 同じ被験者の別の来院・CRFへすぐに移動します。折りたたみアイコンで領域を隠せます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">現在開いているCRFが強調表示されます。感嘆符の印が付いた項目は、処理すべきことが残っているCRFです。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t"><b>必須入力集計</b> — 「0/3 完了 · 0%」と未完了件数です。必須項目をすべて埋めるまでは、入力完了としては集計されません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.506" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">8</text></svg></span><div class="body"><p class="t"><b>未入力項目の一覧</b> — 選択すると、その入力欄に移動します。項目の多いフォームで、空いている欄を探すときに使います。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.488" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">9</text></svg></span><div class="body"><p class="t">入力欄の両脇にある<b>許容範囲</b>と単位です。範囲を外れた値は、保存時の検証で止められます。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card must"><h4><span class="ttl">必須確認 </span><span class="sub">データ破損 · フォーム完了不可</span></h4><ul><li><span class="bul">• </span><b>「一時保存」は確定保存ではありません。一時保存した内容は検証を経ず、監査記録も残らないため、そのまま画面を離れると、そのデータは正式なデータとして集計されません。入力が終わったら、必ず保存して確定してください。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-2" data-num="3.2" data-chtitle="3. CRFデータ入力">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.2</span><span class="hx">保存完了</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF入力</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">保存完了</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>保存を実行すると、データが作成され、画面のあちこちの表示も同時に変わります。必須項目をすべて埋めた状態で保存したため<b>入力ステータスは完了</b>になり、まだ検証を受けていないため<b>品質ステータスは検証待ち</b>です。データができると同時に、<b>変更履歴</b>と<b>削除</b>が現れます。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:3.30303"><img src="img/s3_2_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(97.399% - 11px);margin-top:calc(6.220% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(77.498% - 11px);margin-top:calc(5.938% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(84.978% - 11px);margin-top:calc(5.938% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-res" style="margin-left:calc(29.932% - 11px);margin-top:calc(3.680% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="8.25" fill="#fff" stroke="#3C55EB" stroke-width="1.5"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-res" style="margin-left:calc(60.984% - 11px);margin-top:calc(3.538% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="8.25" fill="#fff" stroke="#3C55EB" stroke-width="1.5"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(44.470% - 11px);margin-top:calc(11.301% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(54.915% - 11px);margin-top:calc(11.301% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(93.729% - 11px);margin-top:calc(14.548% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(29.932% - 11px);margin-top:calc(22.311% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(10.455% - 11px);margin-top:calc(21.040% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(32.473% - 11px);margin-top:calc(0.927% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span></div><figcaption>保存を確定した後 — ステータスと集計が同時に変わり、履歴・削除の機能が現れます</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>保存</b> — 入力を確定します。</p><div class="ress"><div class="res"><span class="cir c-res"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="10.5" fill="#fff" stroke="#3C55EB" stroke-width="1"/><text x="11.369" y="15.242" font-size="12" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><p class="t">ステータスが<b>COMPLETED</b>に変わり、<b>保存済み</b>が表示されます。必須項目が残っていた場合は<b>IN_PROGRESS</b>になります。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>変更履歴</b> — 誰が、いつ、どの値をどのように変えたかを確認します。保存したデータがある場合にのみ表示されます。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>削除</b> — 入力したデータを取り下げます。記録は残り、理由の入力が必要です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>必須入力集計</b>が「3/3 完了 · 100%」と「すべての必須入力が完了」に変わります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>品質</b>ステータス — <b>検証待ち</b>です。原資料照合（SDV）が終わると<b>SDV完了</b>に、処理すべきQueryまでなければ<b>CLEAN</b>になります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">項目ごとに付く2つのアイコン — 左は<b>その項目のQuery</b>、右は<b>その項目の変更履歴</b>です。データが作成された後に表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">保存された値が入力欄にそのまま表示されます。値を直して再度保存するときは、<b>変更理由</b>の入力が求められます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>CRFナビゲーション</b>で、現在のCRFが強調表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">移動経路は保存前と同じです — 保存しても画面は移動しません。</p></div></div>
+<div class="blk tab kwn"><h3><span>入力ステータスと品質ステータス — 別々の2つの軸</span></h3></div>
+<div class="blk tblwrap"><table><thead><tr><th style="width:16.3%">軸</th><th style="width:23.5%">表示</th><th style="width:60.1%">意味</th></tr></thead><tbody><tr><td class="c0"><b>入力ステータス</b></td><td class="c1"><b>NOT_CREATED</b></td><td class="c2">まだ一度も保存していない（データ未作成）</td></tr><tr><td class="c0"><b>入力ステータス</b></td><td class="c1"><b>IN_PROGRESS</b></td><td class="c2">保存したが必須項目が残っている</td></tr><tr><td class="c0"><b>入力ステータス</b></td><td class="c1"><b>COMPLETED</b></td><td class="c2">必須項目をすべて埋めて保存した</td></tr><tr><td class="c0"><b>品質ステータス</b></td><td class="c1"><b>検証待ち</b></td><td class="c2">原資料照合（SDV）が終わっていない</td></tr><tr><td class="c0"><b>品質ステータス</b></td><td class="c1"><b>SDV完了</b></td><td class="c2">SDVは終わったが、未完結またはQueryが残っている</td></tr><tr><td class="c0"><b>品質ステータス</b></td><td class="c1"><b>CLEAN</b></td><td class="c2">入力完了 + SDV全件 + 処理すべきQueryなし</td></tr></tbody></table></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>入力完了と品質の完結は別のものです。「3/3 完了 · 100%」は必須欄をすべて埋めたという意味にすぎず、その値が医療機関の原資料と一致しているかは、まだ確認されていません。データを最終確定するには、原資料照合（SDV）とQueryの処理がともに終わっている必要があります。</b></li></ul></div>
+</div></section>
+<section class="sec" id="s3-3" data-num="3.3" data-chtitle="3. CRFデータ入力">
+<template class="hdr-tpl"><h2 class="ht"><span class="hn">3.3</span><span class="hx">Query回答</span></h2></template>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">CRF入力</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">Query回答</span></div>
+<div class="blk tab kwn"><h3><span>概要</span></h3></div>
+<div class="blk ov"><p>入力した値に確認依頼（Query）がかかると、<b>その項目のすぐ下に回答カード</b>が開きます。値を直す作業と回答を書く作業を同じ場所で行い、<b>フォームの保存を1回押すだけで両方がまとめて処理</b>されます。回答だけを送るための別画面に移動する必要はありません。</p></div>
+<div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
+<div class="blk legend kwn"><div class="lg"><span class="lcir l-set"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#3C55EB"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>設定 </b><span>直接操作する位置</span></div><div class="lg"><span class="lcir l-res"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="6.4" fill="#fff" stroke="#3C55EB" stroke-width="1.2"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>結果 </b><span>すぐ上の設定で変わる位置</span></div><div class="lg note"><span class="lcir l-ref"><svg class="cn" width="14" height="14" viewBox="0 0 14 14" aria-hidden="false"><circle cx="7.0" cy="7.0" r="7.0" fill="#64748B"/><text x="7.277" y="10.182" font-size="9" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 7.0 7.0)">1</text></svg></span><b>参考</b></div></div>
+<div class="blk fig kwn"><div class="shot" style="width:560.0px"><div class="imgbox" style="aspect-ratio:2.62407"><img src="img/s3_3_1.png" alt=""><span class="mk mk-set" style="margin-left:calc(89.918% - 11px);margin-top:calc(15.747% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-res" style="margin-left:calc(19.911% - 11px);margin-top:calc(26.051% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="8.25" fill="#fff" stroke="#3C55EB" stroke-width="1.5"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-set" style="margin-left:calc(95.423% - 11px);margin-top:calc(29.932% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-set" style="margin-left:calc(19.488% - 11px);margin-top:calc(34.378% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-set" style="margin-left:calc(97.399% - 11px);margin-top:calc(4.385% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#3C55EB"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(30.497% - 11px);margin-top:calc(2.198% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.351" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><span class="mk mk-ref" style="margin-left:calc(61.972% - 11px);margin-top:calc(9.960% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.995" y="15.086" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">2</text></svg></span><span class="mk mk-ref" style="margin-left:calc(93.941% - 11px);margin-top:calc(13.066% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.000" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">3</text></svg></span><span class="mk mk-ref" style="margin-left:calc(37.413% - 11px);margin-top:calc(18.711% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.978" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">4</text></svg></span><span class="mk mk-ref" style="margin-left:calc(84.978% - 11px);margin-top:calc(18.711% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="10.922" y="14.974" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">5</text></svg></span><span class="mk mk-ref" style="margin-left:calc(39.953% - 11px);margin-top:calc(23.581% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.011" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">6</text></svg></span><span class="mk mk-ref" style="margin-left:calc(32.473% - 11px);margin-top:calc(27.745% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.045" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">7</text></svg></span><span class="mk mk-ref" style="margin-left:calc(42.917% - 11px);margin-top:calc(34.378% - 11px)"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="11.0" fill="#fff"/><circle cx="11.0" cy="11.0" r="9" fill="#64748B"/><text x="11.006" y="15.030" font-size="11.4" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">8</text></svg></span></div><figcaption>入力した値にQueryがかかった状態 — 該当項目のすぐ下に回答カードが表示されます</figcaption></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>値の修正</b> — 原資料を確認した結果、値が誤っていた場合は、この入力欄でそのまま直します。</p><div class="ress"><div class="res"><span class="cir c-res"><svg class="cn" width="22" height="22" viewBox="0 0 22 22" aria-hidden="false"><circle cx="11.0" cy="11.0" r="10.5" fill="#fff" stroke="#3C55EB" stroke-width="1"/><text x="11.369" y="15.242" font-size="12" text-anchor="middle" fill="#3C55EB" text-rendering="geometricPrecision" transform="rotate(0.2 11.0 11.0)">1</text></svg></span><p class="t"><b>解消方法</b>がその場で変わります — 値を直すと<b>値の訂正</b>、直さなければ<b>現状維持</b>になります。<b>自分で選ぶ項目ではなく、値を変えたかどうかで決まる判定結果</b>です。</p></div></div></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>回答コメント</b> — 必須で、<b>5文字以上</b>の入力が必要です。原資料を確認した結果と、修正の有無を記述します。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t"><b>このコメントを変更理由として併用</b> — 値を直した場合に別途求められる変更理由を、このコメントで代えます。同じ内容を2回入力する必要はありません。</p></div></div>
+<div class="blk item k-set"><span class="cir c-set"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#3C55EB"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t"><b>保存</b> — 値の修正と回答が<b>一緒に</b>処理されます。回答だけが保存され、値が残るということは起きません。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.869" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">1</text></svg></span><div class="body"><p class="t"><b>IN_PROGRESS</b> — 値を修正中のため、入力ステータスが進行中と表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.494" y="15.801" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">2</text></svg></span><div class="body"><p class="t"><b>Query未処理 N件</b> — このCRFで回答が必要な件数です。回答を終えたがまだクローズされていない件は、<b>クローズ待ち</b>として別に表示されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.500" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">3</text></svg></span><div class="body"><p class="t">項目の右側の<b>Queryアイコン</b>と件数です。選択すると、その項目のQueryを照会します。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.477" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">4</text></svg></span><div class="body"><p class="t">カードの見出し — <b>処理ステータス · 重要度 · 件名</b>です。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.418" y="15.684" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">5</text></svg></span><div class="body"><p class="t"><b>担当者</b>と<b>折りたたみ</b>です。項目の多いフォームでは、カードは折りたたまれた状態で始まります。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.512" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">6</text></svg></span><div class="body"><p class="t">問い合わせ本文 — 確認を依頼した内容です。回答の前に必ず読んでください。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.547" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">7</text></svg></span><div class="body"><p class="t"><b>(5文字以上)</b> — この条件を満たさないと、保存が拒否されます。</p></div></div>
+<div class="blk item k-ref"><span class="cir c-ref"><svg class="cn" width="23" height="23" viewBox="0 0 23 23" aria-hidden="false"><circle cx="11.5" cy="11.5" r="11.5" fill="#64748B"/><text x="11.506" y="15.742" font-size="12" text-anchor="middle" fill="#fff" text-rendering="geometricPrecision" transform="rotate(0.2 11.5 11.5)">8</text></svg></span><div class="body"><p class="t"><b>履歴・詳細を見る</b> — そのQueryの全体のやりとりと処理履歴を確認します。</p></div></div>
+<div class="blk tab kwn"><h3><span>注意事項</span></h3></div>
+<div class="blk card misc"><h4><span class="ttl">誤解しやすい動作</span></h4><ul><li><span class="bul">• </span><b>Queryは誰でも回答できるわけではありません。回答権限があるロールであり、かつその件の担当者または登録者である必要があります。カードは見えるのに入力できない場合は、自分が担当者ではない場合なので、Query一覧で担当者を確認して引き継いでください。</b></li></ul></div>
+</div></section>
+</div>
+<div id="book"></div>
+<script>(async function () {
+  // 원본 블록은 hidden 상태라 글꼴 요청이 늦게 시작된다. 측정 전에 쓰는 굵기를 모두 먼저 불러온다.
+  const FAM = document.body.classList.contains('lang-ja') ? 'PretendardJPM' : 'PretendardM';
+  const SAMPLE = FAM === 'PretendardJPM' ? 'あ漢1A' : '가1A';
+  await Promise.all([400, 500, 700, 800].map(w => document.fonts.load(`${w} 16px ${FAM}`, SAMPLE)));
+  await document.fonts.ready;
+  if (![400, 500, 700, 800].every(w => document.fonts.check(`${w} 16px ${FAM}`, SAMPLE))) throw new Error('Pretendard 로드 실패');
+  await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  const src = document.getElementById('src');
+  const book = document.getElementById('book');
+  let pno = 0;
+  const pageMap = {};
+
+  // [표 제목 열 너비, 고정프롬프트 표 절] 첫 열 글이 단어 중간에서 잘리거나 3줄 이상이면 첫 열을 4px씩 넓혀 본다.
+  // 표 전체 높이가 가장 낮아지는 너비를 고르되, 오른쪽 칸이 빽빽해져 높이가 늘면 넓히지 않는다. 최대 표 너비의 30%.
+  {
+    const probe = document.createElement('div');
+    probe.className = 'page body';
+    probe.style.cssText = 'position:absolute;left:-10000px;top:0';
+    const pa = document.createElement('div'); pa.className = 'area'; pa.style.top = '0'; probe.appendChild(pa);
+    document.body.appendChild(probe);
+    const firstCells = t => [...t.rows].map(r => r.cells[0]).filter(Boolean);
+    const lineCount = c => {
+      const r = document.createRange(); r.selectNodeContents(c);
+      const tops = new Set([...r.getClientRects()].filter(x => x.width > 0).map(x => Math.round(x.bottom)));
+      return tops.size;
+    };
+    // 단어(공백으로 나눈 덩어리)가 칸 안쪽 너비보다 길면 잘린 것으로 본다
+    const broken = c => {
+      const cs = getComputedStyle(c);
+      const inner = c.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const tw = document.createTreeWalker(c, NodeFilter.SHOW_TEXT);
+      const texts = []; while (tw.nextNode()) texts.push(tw.currentNode);
+      let n = 0;
+      for (const node of texts) {
+        for (const w of node.textContent.split(/\s+/)) {
+          if (!w) continue;
+          const sp = document.createElement('span'); sp.style.whiteSpace = 'nowrap'; sp.textContent = w;
+          node.parentElement.appendChild(sp);
+          if (sp.getBoundingClientRect().width > inner + 0.5) n++;
+          sp.remove();
+        }
+      }
+      return n;
+    };
+    // 너비를 정하고, 모든 단어가 들어가면 자동 하이픈을 끈다(들어가는 단어를 억지로 쪼개지 않게)
+    const setW = (cells, w) => {
+      cells.forEach(c => { c.style.width = w === null ? '' : w + 'px'; c.style.hyphens = c.style.webkitHyphens = ''; });
+      if (w === null) return 0;
+      const b = cells.reduce((s, c) => s + broken(c), 0);
+      if (!b) cells.forEach(c => { c.style.hyphens = c.style.webkitHyphens = 'manual'; });
+      return b;
+    };
+    for (const wrap of src.querySelectorAll('.tblwrap')) {
+      const t = wrap.querySelector('table');
+      if (!t || !t.rows.length || t.rows[0].cells.length < 2) continue;
+      const mark = document.createComment(''); wrap.replaceWith(mark); pa.appendChild(wrap);
+      const cells = firstCells(t);
+      const base = Math.round(cells[0].getBoundingClientRect().width);
+      const cap = Math.round(t.getBoundingClientRect().width * 0.3);
+      const state = b => ({ h: t.getBoundingClientRect().height, b, l: Math.max(...cells.map(lineCount)) });
+      const s0 = state(cells.reduce((s, c) => s + broken(c), 0));
+      if (base < cap && (s0.b > 0 || s0.l > 2)) {
+        let best = { w: base, ...s0 };
+        for (let w = base + 4; w <= cap; w += 4) {
+          const s = state(setW(cells, w));
+          // 표 높이가 처음보다 늘면 제외. 잘린 단어가 줄면 우선, 같으면 표 높이가 낮은 쪽, 같으면 좁은 쪽
+          if (s.h > s0.h + 0.5) continue;
+          if (s.b < best.b || (s.b === best.b && s.h < best.h - 0.5)) best = { w, ...s };
+        }
+        if (best.w !== base) { setW(cells, best.w); t.dataset.c0w = best.w; } else setW(cells, null);
+      }
+      mark.replaceWith(wrap);
+    }
+    probe.remove();
+  }
+
+  function newPage(cls) {
+    const p = document.createElement('div');
+    p.className = 'page ' + (cls || '');
+    book.appendChild(p);
+    pno += 1;
+    p.dataset.pno = pno;
+    return p;
+  }
+  const overflow = a => a.scrollHeight > a.clientHeight + 0.5;
+
+  // [제목 끝 줄 1~3글자 보정, 고정프롬프트 2절] 여러 줄 제목의 마지막 줄에 1~3글자만 남으면
+  // 줄 길이를 고르게 나눠(text-wrap:balance) 단어·구절 단위로 다시 줄을 바꾼다. 일본어는 문절 단위(auto-phrase), 한국어는 어절 단위(keep-all).
+  const LANG = document.documentElement.lang;
+  function lastLineChars(el) {
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const chars = [];
+    const r = document.createRange();
+    while (tw.nextNode()) {
+      const n = tw.currentNode;
+      for (let i = 0; i < n.length; i++) {
+        if (/\s/.test(n.data[i])) continue;
+        r.setStart(n, i); r.setEnd(n, i + 1);
+        const b = r.getBoundingClientRect();
+        if (b.width || b.height) chars.push(Math.round(b.top + b.height / 2));
+      }
+    }
+    if (!chars.length) return { lines: 0, last: 0 };
+    const lh = parseFloat(getComputedStyle(el).lineHeight) || 20;
+    const tops = []; for (const t of chars) if (!tops.some(x => Math.abs(x - t) < lh / 2)) tops.push(t);
+    const lastTop = Math.max(...tops);
+    return { lines: tops.length, last: chars.filter(t => Math.abs(t - lastTop) < lh / 2).length };
+  }
+  function fixShortLastLine(el) {
+    if (!el) return;
+    const s0 = lastLineChars(el);
+    if (s0.lines < 2 || s0.last > 3) return;
+    el.style.textWrap = 'balance';
+    if (LANG === 'ja') el.style.wordBreak = 'auto-phrase';
+    else if (LANG === 'ko') el.style.wordBreak = 'keep-all';
+    let s1 = lastLineChars(el);
+    // balance로 안 풀리면(가타카나 합성어처럼 문절이 긴 경우) 낱말 경계(Intl.Segmenter)에만 줄바꿈 지점(<wbr>)을 넣고 다시 고르게 나눈다
+    if ((s1.lines > s0.lines || s1.last <= 3) && (LANG === 'ja' || LANG === 'ko') && window.Intl && Intl.Segmenter) {
+      const seg = new Intl.Segmenter(LANG, { granularity: 'word' });
+      const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const nodes = []; while (tw.nextNode()) nodes.push(tw.currentNode);
+      for (const n of nodes) {
+        const f = document.createDocumentFragment();
+        [...seg.segment(n.data)].forEach((p, i) => { if (i) f.appendChild(document.createElement('wbr')); f.appendChild(document.createTextNode(p.segment)); });
+        n.replaceWith(f);
+      }
+      el.style.wordBreak = 'keep-all';
+      s1 = lastLineChars(el);
+    }
+    // 그래도 안 되면 폭을 조금씩 좁혀 앞줄 끝 낱말을 다음 줄로 넘긴다
+    if (s1.lines > s0.lines || s1.last <= 3) {
+      el.style.textWrap = '';
+      const w0 = el.getBoundingClientRect().width;
+      for (let k = 0.98; k >= 0.6; k -= 0.02) {
+        el.style.maxWidth = (w0 * k) + 'px';
+        s1 = lastLineChars(el);
+        if (s1.lines > s0.lines) break;
+        if (s1.last > 3) break;
+      }
+    }
+    // 줄 수가 늘었거나 그래도 짧으면 되돌린다(글자를 줄이거나 자르지 않는다)
+    if (s1.lines > s0.lines || s1.last <= 3) { el.style.textWrap = el.style.wordBreak = el.style.maxWidth = ''; }
+    else el.dataset.balanced = s0.last + '→' + s1.last;
+  }
+
+  // 블록을 area에 차례로 넣고 넘치면 새 쪽을 만든다. kwn(다음 블록과 붙임)은 함께 넘긴다.
+  function flow(blocks, makePage) {
+    let area = makePage(true);
+    for (const b of blocks) {
+      area.appendChild(b);
+      if (!overflow(area)) continue;
+      if (b.classList.contains('tblwrap')) {
+        // 표는 행 단위로 나누고 다음 쪽에 머리행을 다시 붙인다
+        let cur = b;
+        while (overflow(area)) {
+          const body = cur.querySelector('tbody');
+          const rest = [];
+          while (overflow(area) && body.rows.length > 2) rest.unshift(body.removeChild(body.lastElementChild));
+          if (overflow(area)) { // 두 행도 안 들어가면 표 전체를 다음 쪽으로
+            area.removeChild(cur);
+            area = makePage(false); area.appendChild(cur);
+            rest.forEach(r => body.appendChild(r));
+            continue;
+          }
+          if (!rest.length) break;
+          const nxt = cur.cloneNode(true);
+          const nb = nxt.querySelector('tbody'); nb.innerHTML = '';
+          rest.forEach(r => nb.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); cur = nxt;
+        }
+        continue;
+      }
+      const moving = [b];
+      let prev = b.previousElementSibling;
+      while (prev && prev.classList.contains('kwn')) { moving.unshift(prev); prev = prev.previousElementSibling; }
+      // [빈 공간 채우기 규칙, 고정프롬프트 11절]
+      // 1) 묶음 전체(탭·안내·이미지·첫 설명)가 조금 모자라면 캡처를 최대 85%까지 줄여 이 쪽에 둔다.
+      const fig = moving.find(m => m.classList.contains('fig'));
+      const shots = fig ? [...fig.querySelectorAll('.shot')] : [];
+      const base = shots.map(s => parseFloat(s.style.width));
+      const scaleFig = k => shots.forEach((s, i) => { s.style.width = (base[i] * k) + 'px'; });
+      if (fig && moving.length < area.children.length) {
+        let fitted = false;
+        for (const k of [0.95, 0.9, 0.85]) { scaleFig(k); if (!overflow(area)) { fitted = true; fig.dataset.scale = k; break; } }
+        if (fitted) continue;
+        scaleFig(1);
+        // 2) 그래도 안 되면 이미지 뒤 설명은 다음 쪽으로 넘기고, 탭·안내·이미지는 이 쪽에 둔다(캡처 최대 75%).
+        //    설명이 다음 쪽으로 넘어가도 이 쪽을 비워 두지 않는다.
+        const tail = moving.slice(moving.indexOf(fig) + 1);
+        if (tail.length) {
+          tail.forEach(t => area.removeChild(t));
+          for (const k of [1, 0.95, 0.9, 0.85, 0.8, 0.75]) { scaleFig(k); if (!overflow(area)) { fitted = true; if (k < 1) fig.dataset.scale = k; break; } }
+          if (fitted) { area = makePage(false); tail.forEach(t => area.appendChild(t)); continue; }
+          scaleFig(1); tail.forEach(t => area.appendChild(t));
+        }
+      }
+      // 3) 유의사항 카드는 통째로 넘기지 않고 항목 단위로 나눠 이어 쓴다(같은 카드 제목을 다음 쪽 카드에 다시 붙임).
+      if (b.classList.contains('card')) {
+        const ul = b.querySelector('ul'); const rest = [];
+        while (overflow(area) && ul.children.length > 1) rest.unshift(ul.removeChild(ul.lastElementChild));
+        if (!overflow(area) && rest.length) {
+          const nxt = b.cloneNode(true); const nu = nxt.querySelector('ul'); nu.innerHTML = '';
+          rest.forEach(r => nu.appendChild(r));
+          area = makePage(false); area.appendChild(nxt); continue;
+        }
+        rest.forEach(r => ul.appendChild(r));
+      }
+      if (moving.length === area.children.length) {
+        if (moving.length === 1) continue; // 한 쪽보다 큰 블록: 그대로 둔다
+        moving.splice(0, moving.length - 1); // 쪽 전체가 묶음이면 마지막 블록만 넘긴다
+      }
+      area = makePage(false);
+      moving.forEach(m => area.appendChild(m));
+    }
+  }
+
+  // 표지
+  const cover = newPage('cover');
+  cover.append(...src.querySelector('section.cover').children);
+  cover.querySelectorAll('.cv-title, .cv-sub').forEach(fixShortLastLine);
+  pageMap.cover = 1;
+
+  // 목차
+  const tocBlocks = [...src.querySelectorAll('section.toc .tch')];
+  let firstToc = true;
+  flow(tocBlocks, () => {
+    const p = newPage('toc');
+    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><span class="brand">SMART EDC</span></div><div class="area"></div>`;
+    if (firstToc) { p.id = 'toc'; pageMap.toc = +p.dataset.pno; firstToc = false; }
+    return p.querySelector('.area');
+  });
+
+  // 간지 + 절
+  for (const sec of src.querySelectorAll('section.divider, section.sec')) {
+    if (sec.classList.contains('divider')) {
+      const p = newPage('divider');
+      p.append(...sec.children);
+      p.querySelectorAll('.dtitle, .dlist .dt').forEach(fixShortLastLine);
+      const bar = document.createElement('div'); bar.className = 'dbar'; p.appendChild(bar);
+      const pn = document.createElement('div'); pn.className = 'pno'; pn.textContent = p.dataset.pno; p.appendChild(pn);
+      pageMap['ch' + sec.dataset.ch] = +p.dataset.pno;
+      continue;
+    }
+    const hdr = sec.querySelector('template.hdr-tpl').innerHTML;
+    const blocks = [...sec.querySelector('.flow').children];
+    let first = true;
+    flow(blocks, () => {
+      const p = newPage('body');
+      if (first) { p.id = sec.id; pageMap[sec.dataset.num] = +p.dataset.pno; }
+      p.innerHTML = `<header class="hdr">${hdr}</header><div class="area"></div><footer class="ftr"><span class="chn">${sec.dataset.chtitle}</span><span class="brand">SMART EDC</span><span class="pg">${p.dataset.pno}</span></footer>`;
+      first = false;
+      // 가변 높이 법칙: 본문 시작 = 실제 헤더 아래끝 + 22px (한 줄 헤더 98px → 120px)
+      fixShortLastLine(p.querySelector('.hdr .hx'));
+      const area = p.querySelector('.area');
+      area.style.top = (p.querySelector('.hdr').getBoundingClientRect().height + 22) + 'px';
+      return area;
+    });
+  }
+  src.remove();
+  document.querySelectorAll('.page.toc .tct, .page.toc .tt').forEach(fixShortLastLine);
+
+  // 간지 장식 막대: 큰 번호 글자 윗선 ~ 제목 아랫선
+  for (const p of document.querySelectorAll('.page.divider')) {
+    const n = p.querySelector('.dnum'), t = p.querySelector('.dtitle'), bar = p.querySelector('.dbar');
+    const pr = p.getBoundingClientRect(), nr = n.getBoundingClientRect(), tr = t.getBoundingClientRect();
+    const fs = parseFloat(getComputedStyle(n).fontSize);
+    const top = nr.top - pr.top + (nr.height - fs * 0.72) / 2;   // 숫자 대략 cap-height 위치
+    bar.style.top = top + 'px';
+    bar.style.height = (tr.bottom - pr.top - top) + 'px';
+  }
+
+  // 목차 쪽번호
+  for (const tp of document.querySelectorAll('.tp')) {
+    const id = tp.dataset.for;
+    const pg = document.getElementById(id);
+    tp.textContent = pg ? pg.dataset.pno : '?';
+  }
+
+  // 설정 → 결과 점선 연결: 설정 원 아래 중앙 → 결과 원 왼쪽 중앙
+  const NS = 'http://www.w3.org/2000/svg';
+  for (const item of document.querySelectorAll('.item')) {
+    const ress = item.querySelectorAll('.res > .cir');
+    if (!ress.length) continue;
+    const page = item.closest('.page');
+    const ir = page.getBoundingClientRect();
+    const pc = item.querySelector(':scope > .cir').getBoundingClientRect();
+    const x0 = pc.left + pc.width / 2 - ir.left, y0 = pc.bottom - ir.top;
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('class', 'conn'); svg.setAttribute('width', ir.width); svg.setAttribute('height', ir.height);
+    svg.setAttribute('aria-hidden', 'true');
+    let d = '';
+    ress.forEach(rc => {
+      const r = rc.getBoundingClientRect();
+      const y = r.top + r.height / 2 - ir.top, x1 = r.left - ir.left;
+      d += `M${x0} ${y0}V${y}H${x1}`;
+    });
+    const path = document.createElementNS(NS, 'path');
+    path.setAttribute('d', d); path.setAttribute('fill', 'none'); path.setAttribute('stroke', '#94A3B8');
+    path.setAttribute('stroke-width', '1'); path.setAttribute('stroke-dasharray', '2 2');
+    svg.appendChild(path);
+    page.appendChild(svg);
+  }
+  // 표지 제목: 한 낱말(예: DE „Untersuchungspanel“)이 폭을 넘으면 넘지 않을 때까지 글자 크기를 줄인다(가변 높이 법칙과 같은 취지)
+  document.querySelectorAll('.cv-title').forEach(t => {
+    let fs = parseFloat(getComputedStyle(t).fontSize);
+    while (t.scrollWidth > t.clientWidth + 1 && fs > 48) { fs -= 1.5; t.style.fontSize = fs + 'px'; t.style.lineHeight = (fs * 1.21) + 'px'; }
+  });
+  window.__pageMap = pageMap;
+  window.__pageCount = pno;
+  window.__done = true;
+})();
+</script>
+</body></html>

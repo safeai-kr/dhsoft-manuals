@@ -1,0 +1,3407 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 플랫폼 관리",
+ "src": "SMART-EDC_사용자매뉴얼_플랫폼관리.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "시스템 설정",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "시스템 설정 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "시스템 설정 > 설정값 편집"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "코드 관리",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "코드 관리 > 화면 구성"
+    },
+    {
+     "no": "2.2",
+     "title": "코드 관리 > 코드 값 추가"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "접속 로그",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "접속 로그 > 화면 구성"
+    },
+    {
+     "no": "3.2",
+     "title": "접속 로그 > 검색 · 필터와 집계"
+    },
+    {
+     "no": "3.3",
+     "title": "접속 로그 > CSV 내보내기"
+    }
+   ]
+  },
+  {
+   "ch": "4",
+   "title": "운영 이력",
+   "items": [
+    {
+     "no": "4.1",
+     "title": "운영 이력 > 화면 구성"
+    },
+    {
+     "no": "4.2",
+     "title": "운영 이력 > 상세 보기"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "플랫폼 관리",
+    "SCR-PLT-004·005·006·007 · 시스템 설정 · 코드 관리 · 접속 로그 · 운영 이력",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-27"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 시스템 설정 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2544,
+       "ih": 919,
+       "w": 531.375,
+       "h": 172.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 111.98257080610021,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 25.980284050811576,
+         "y": 22.252859477124183
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 29.932295342272408,
+         "y": 33.14610566448802
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 72.98098976711363,
+         "y": 33.14610566448802
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 93.44676252646437,
+         "y": 33.581835511982575
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 94.99933839096684,
+         "y": 63.64719498910676
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 5.93794107268878,
+         "y": 34.88902505446623
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 21.46369971771348,
+         "y": 16.806236383442265
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 61.548385673959075,
+         "y": 40.7713779956427
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 70.72269760056457,
+         "y": 40.7713779956427
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 79.1912932251235,
+         "y": 40.7713779956427
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 18.781977769936486,
+         "y": 46.65373093681917
+        }
+       ],
+       "cap": [
+        {
+         "t": "시스템 설정 (SCR-PLT-004) — 보안·세션·알림·파일·일반 운영 정책",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 293.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "플랫폼 전역에 적용되는 운영 정책을 한 표로 모아 보여 주는 화면입니다. 값을 직접 바꾸는 곳이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떤 정책이 어떤 값으로 설⁣정되어 있는지 확인하는 곳",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며, 바꿀 수 있는 항목만 편집 창이 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "카테고리 탭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전체 · 보안 · 세션 · 알림 · 파일 · 일반입니다. 워크스페이스 관리자에게는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "세션 · 알림",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 두 가지만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "편집 가능 여부",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠긴 항목을 걸러내고 바꿀 수 있는 항목만 볼 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 설정 키 또는 설명의 일부로 찾습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "초기화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 걸어 둔 조건을 모두 지웁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "편집",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 항목의 값을 바꾸는 창을 엽니다 (1.2 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "잠김",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 항목은 버튼이 흐리게 표시되어 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "플랫폼 메뉴 > 시스템 설정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 이 화면의 유일한 입구입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "머리의 “※ 변경 이력은 운영 이력에 기록됩니다.” — 누가 언제 무엇을 바꾸었는지는 운영 이력에서 확인합니다 (4.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "타입",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 정수 · 참/거짓 · JSON 등 값의 형식입니다. 편집 창의 입력 방식이 이 타입에 따라 달라집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "편집 가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 과 🔒",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "잠김",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 두 가지입니다. 잠김은 시스템이 고정한 항목이라 관리자도 바꿀 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "최종 수정 (KST)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 한 번도 바꾸지 않았으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "-",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "항목 이름 아래의 영문 글자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 키",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 검색과 운영 이력 조회에 이 키를 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "여기에서 바꾼 값은 현재 시스템 동작에 반영되지 않습니다. 값과 변경 이력은 저장되지만 실제 판정(로그인 잠금 임계·세션 만료 등)⁣은 별도 설정으로 이루어집니다. 편집 창의 영향 범위 안내가 항목마다 그 사실을 알려 주므로 반드시 확인하십시오 (1.2 참조).",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 플랫폼 메뉴 > ",
+     "cur": false
+    },
+    {
+     "t": "시스템 설정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 시스템 설정 > 설정값 편집",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 1569,
+       "ih": 902,
+       "w": 367.5,
+       "h": 264.0,
+       "ix": -56.42857142857143,
+       "iy": -36.78977272727273,
+       "iwp": 208.97957522852892,
+       "ihp": 167.32953389485675,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 94.60618622448979,
+         "y": 42.20747514204545
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 94.60618622448979,
+         "y": 55.27565696022727
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 68.68781887755102,
+         "y": 66.21315696022727
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 88.17761479591837,
+         "y": 81.98020241477273
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 52.05516581632653,
+         "y": 16.071111505681817
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 84.30006377551021,
+         "y": 29.707475142045453
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 30.116390306122447,
+         "y": 76.58247514204545
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 80.72863520408163,
+         "y": 81.98020241477273
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 95.6265943877551,
+         "y": 9.394975142045455
+        }
+       ],
+       "cap": [
+        {
+         "t": "편집 창 — 머리에 설정 키·카테고리·타입이 함께 표시됩니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 385.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "표의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "편집",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 선택하면 열리는 창입니다. 값 하나만 바꾸는 단순한 창이지만, 맨 위의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "영향 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 안내가 그 값이 실제로 쓰이는지를 알⁣려 주므로 바꾸기 전에 먼저 읽어야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "값",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 타입에 맞는 형식으로 입력합니다. 정수 항목은 권장 범위를 벗어나면 저장 전에 안내가 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "변경 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 항목입니다. 입력하면 운영 이력에 함께 기록되므로, 왜 바꾸었는지 남겨 두는 편이 좋습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "기본값으로 복원",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기본값을 입력란에 채워 넣기만 합니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 선택만으로는 저장되지 않으므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이어서 저장을 선택해야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 값을 반영합니다. 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 선택하면 변경을 버리고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 머리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 키 · 카테고리 · 타입",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 함께 표시됩니다. 다른 항목을 열지 않았는지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "노란 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "영향 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 안내 — 그 값이 실제 동작에 반영되는지를 알려 줍니다. 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "변경 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 항목만의 변경 기록입니다. 건수가 0이면 한 번도 바꾸지 않은 것입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 버립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "창 밖을 선택하거나 닫기를 선택해도 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "현재 모든 항목이 「적용되지 않습니다」로 안내됩니다. 값과 변경 이력은 저장되지만 로그인 잠금·세션 만료 등 실제 판정은 별도 설정⁣에서 이루어지기 때문입니다. 정책을 실제로 바꾸어야 한다면 이 화면만으로는 충분하지 않으므로 시스템 담당자에게 요청하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 시스템 설정 > ",
+     "cur": false
+    },
+    {
+     "t": "설정값 편집",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "2.1 코드 관리 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2540,
+       "ih": 872,
+       "w": 531.375,
+       "h": 108.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 168.85813148788927,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 16.100255822159493,
+         "y": 35.342776816608996
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 93.23504763585039,
+         "y": 55.41198096885813
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 93.94076393789696,
+         "y": 71.32893598615917
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 21.181413196894848,
+         "y": 60.256271626297575
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 5.93794107268878,
+         "y": 61.64035467128027
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 23.9337067748765,
+         "y": 26.346237024221452
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 32.47287402964009,
+         "y": 57.83412629757786
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 71.28727064220183,
+         "y": 63.71647923875432
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 62.74810338743825,
+         "y": 71.32893598615917
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 24.427708186309104,
+         "y": 45.72339965397924
+        }
+       ],
+       "cap": [
+        {
+         "t": "코드 관리 (SCR-PLT-005) — 왼쪽이 코드 그룹, 오른쪽이 그 그룹의 값",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 229.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "화면 곳곳의 드롭다운·배지에 쓰이는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표준 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 관리하는 화면입니다. 왼쪽에서 코드 그룹을 고르면 오른쪽에 그 그룹의 값 목록이⁣표시되는 2단 구성입니다. 피험자 상태·기관 유형· 방문 미방문 사유 등이 모두 여기에서 나옵니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "플랫폼 / 프로젝트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭 — 플랫폼은 전 프로젝트 공통 코드, 프로젝트는 그 프로젝트만의 코드입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트 탭은 프로젝트에 들어⁣가 있어야",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "+ 값 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택한 그룹에 코드 값을 추가합니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "행 액션 — 왼쪽 연필은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(라벨·정렬 순서), 오른쪽은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성/비활성 전환",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 활성에서 비활성으로 바꿀 때는 확인 창을 한 번 더⁣거칩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "코드 그룹을 선택하면 오른쪽 값 목록이 그 그룹으로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "플랫폼 메뉴 > 코드 관리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 이 화면의 유일한 입구입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "“※ 변경은 운영 이력에 기록됩니다.” — 코드 변경도 운영 이력에 남습니다 (4.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "그룹 머리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그룹 코드 · 범위 · 값 개수 · 유형",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 표시됩니다. 유형이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "SYSTEM",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 인 그룹은 시스템이 시드한 표준 코드입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "열 구성 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CODE · LABEL · SORTORDER · 상태 · 최종 수정 (KST) · 액션",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 화면에 보이는 글자는 CODE 가 아니라 LABEL 입⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비활성으로 바꾼 값은 새로 선택할 수 없게 되지만, 이미 그 값으로 저장된 자료는 그대로 남습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "검색은 왼쪽(그룹)과 오른쪽(값)에 각각 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "플랫폼 범위 코드는 시스템 관리자만 편집할 수 있습니다. 워크스페이스 관리자와 데이터 관리자는 프로젝트 탭의 코드만 편집할 수⁣있으며, 그 탭은 프로젝트에 들어간 상태라야 열립니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 플랫폼 메뉴 > ",
+     "cur": false
+    },
+    {
+     "t": "코드 관리",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.2 코드 관리 > 코드 값 추가",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2540,
+       "ih": 1216,
+       "w": 296.25,
+       "h": 207.75,
+       "ix": -142.9113924050633,
+       "iy": -86.82310469314079,
+       "iwp": 386.32911392405066,
+       "ihp": 263.53787675804756,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 90.39754746835443,
+         "y": 31.974724541215405
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 90.39754746835443,
+         "y": 50.3862768877858
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 7.7393196202531644,
+         "y": 64.8267101007822
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 90.39754746835443,
+         "y": 64.8267101007822
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 90.39754746835443,
+         "y": 81.79421912605295
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 33.815268987341774,
+         "y": 18.617323819193743
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 54.57476265822785,
+         "y": 38.47291948706378
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 41.41020569620253,
+         "y": 71.14439963146812
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 76.85324367088607,
+         "y": 71.14439963146812
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 64.57476265822784,
+         "y": 81.79421912605295
+        }
+       ],
+       "cap": [
+        {
+         "t": "신규 코드 값 — 코드와 라벨만 필수입니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 328.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "선택한 그룹에 코드 값을 하나 추가합니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 시스템이 저장하는 값이고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "라벨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 화면에 표시되는 글자입니다. 둘을 혼동하면 화⁣면에는 멀쩡해 보여도 저장값이 달라지므로 주의하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "코드 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 시스템에 저장되는 값입니다. 영문·숫자·언더스코어 1~50자이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "생성 후에는 변경할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "라벨 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 화면에 표시되는 글자입니다. 이쪽은 나중에 수정할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "값 타입",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 문자열이 기본이며 대부분 그대로 두면 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "정렬 순서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록에서의 순서입니다. 비워 두면 자동으로 매겨집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 값을 만듭니다. 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 선택하면 입력이 버려집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 머리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대상 그룹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 표시됩니다. 다른 그룹에 값을 넣고 있지 않은지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "코드 칸 아래에 사용 가능한 문자와 길이, 그리고 변경 불가가 함께 안내됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "값 타입 안내 — 문자열 사용을 권장합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "정렬 순서 안내 — 비워 두면 마지막 값 + 1 이 자동으로 부여됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 창을 닫고 아무 것도 만들지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "코드는 생성 후 끝까지 변경할 수 없습니다. 이미 그 코드로 저장된 자료가 생기면 값을 되돌릴 방법이 없으므로, 연구 표준이나 보고⁣양식에서 쓰는 코드 체계를 먼저 확인한 뒤 입력하십시오. 잘못 만든 값은 삭제가 아니라 비활성 으로 처리합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 코드 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 코드 값",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "3.1 접속 로그 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2541,
+       "ih": 1174,
+       "w": 531.375,
+       "h": 175.875,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 139.8720508784204,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 83.42559103740297,
+         "y": 13.249461398365318
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 37.97746118560339,
+         "y": 23.057563743781095
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 48.704348976711366,
+         "y": 36.70361918088131
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 63.94782110091744,
+         "y": 31.159909159559344
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 5.93794107268878,
+         "y": 42.24732920220327
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 94.99933839096684,
+         "y": 17.087414490049753
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 76.43899964714184,
+         "y": 44.37952536425018
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 48.986635497529996,
+         "y": 59.731337730987924
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 44.18776464361327,
+         "y": 64.42216928749112
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 21.887129498941427,
+         "y": 14.10233986318408
+        }
+       ],
+       "cap": [
+        {
+         "t": "접속 로그 (SCR-PLT-006) — 로그인·로그아웃·세션 이벤트",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 297.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "누가 언제 어디에서 접속했는지를 기록한 화면입니다. 기록은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "추가만 되고 수정·삭제가 불가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하므로, 계정 도용이나 비정상 접속을⁣확인하는 1차 자료가 됩니다. 시스템 관리자는 전체를, 워크스페이스 관리자는 자기 워크스페이스 범위를 봅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "CSV 내보내기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 보고 있는 결과를 파일로 저장합니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "사용자 · IP 주소 · 시작일 · 종료일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 조회 범위를 좁힙니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 로그인 성공·실패, 로그아웃, 전자서명 실패 등 9가지 중 하나를 선택합니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "초기화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 걸어 둔 조건을 모두 지웁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "플랫폼 메뉴 > 접속 로그",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 상시 입구입니다. 사용자 관리의 사용자 상세에서도 그 사용자로 걸러진 상태로 들어올 수⁣있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "버튼 옆에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 결과 N건 / 전체 N건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 표시됩니다. 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "집계 카드 3장 — 실패 상위 IP · 계정 잠금 · 최근 24h 로그인입니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "열 구성 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시각 (KST) · 사용자 · 이벤트 · IP / UA · 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. IP 아래 작은 글씨가 접속에 사용된 프로그램(UA)입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 실패 계열은 붉게 표시되어 한눈에 구분됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "부제의 “(수정·삭제 불가)” — 기록을 지우거나 고칠 수 없다는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "쪽 번호가 아니라 이전 / 다음 으로만 넘어갑니다. 기록이 계속 쌓이는 자료라 쪽 경계가 밀리면 조회 중인 행이 중복되거나 빠질 수⁣있어, 시스템이 번호 이동을 제공하지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 플랫폼 메뉴 > ",
+     "cur": false
+    },
+    {
+     "t": "접속 로그",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.2 접속 로그 > 검색 · 필터와 집계",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2541,
+       "ih": 1174,
+       "w": 526.5,
+       "h": 45.0,
+       "ix": -10.042735042735043,
+       "iy": -72.5,
+       "iwp": 111.25356125356124,
+       "ihp": 601.6666666666666,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 32.132523148148145,
+         "y": 27.61665344238281
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 64.32625534188034,
+         "y": 27.61665344238281
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 97.65958867521367,
+         "y": 27.61665344238281
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 32.132523148148145,
+         "y": 60.94997829861111
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 61.049902065527064,
+         "y": 62.61664496527778
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 44.09833511396011,
+         "y": 85.94997829861111
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 22.16101317663818,
+         "y": 27.61665344238281
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 43.81343482905983,
+         "y": 27.61665344238281
+        }
+       ],
+       "cap": [
+        {
+         "t": "조회 조건 — 네 칸과 이벤트 한 가지 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 166.125
+      },
+      {
+       "img": "p08_2.png",
+       "iw": 2541,
+       "ih": 1174,
+       "w": 526.5,
+       "h": 34.5,
+       "ix": -10.042735042735043,
+       "iy": -222.82608695652172,
+       "iwp": 111.25356125356124,
+       "ihp": 784.7826086956521,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 9.767850783475783,
+         "y": 27.326058650362317
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 39.753605769230774,
+         "y": 27.326058650362317
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 74.5826655982906,
+         "y": 27.326058650362317
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 85.69377670940172,
+         "y": 77.32605865036231
+        }
+       ],
+       "cap": [
+        {
+         "t": "집계 카드 3장 — 모두 현재 쪽 기준입니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 190.125,
+       "fy1": 224.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "조회 조건은 다섯 가지이며 서로 겹쳐 적용됩니다. 그 아래 집계 카드 3장은 조회 결과를 요약해 주지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 쪽에 불러온 20건만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 센⁣다는 점을 반드시 염두에 두어야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "사용자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계정으로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "IP 주소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 전체가 일치해야 합니다. 일부만 입력하면 걸러지지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "시작일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 조회 시작 날짜입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "종료일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 조회 종료 날짜입니다. 시작일과 함께 기간을 지정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "초기화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 다섯 조건을 모두 지웁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 번에 하나만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 선택됩니다. 선택된 칩을 다시 선택하면 해제됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "사용자 칸의 안내 — 사용자 관리의 사용자 상세에서 들어오면 그 계정이 자동으로 입력됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "IP 칸의 안내 — 예시 형식이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "실패 상위 IP (top 5)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 로그인 실패가 몰린 IP 입니다. 같은 IP 에서 실패가 반복되면 계정 도용 시도를 의심할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "계정 잠금",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 잠금 이벤트 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "최근 24h 로그인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 성공과 실패 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "세 카드 모두 밑에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 페이지 기준",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 적혀 있습니다. 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "집계 카드 3장은 전체가 아니라 현재 쪽 20건만 셉니다. 「실패 상위 IP 없음」 이나 「계정 잠금 0」 은 이 쪽에 없다는 뜻이지 전체 기간⁣에 없다는 뜻이 아닙니다. 전체를 보려면 이벤트 필터를 로그인 실패 또는 계정 잠금 으로 걸고 다시 조회하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 접속 로그 > ",
+     "cur": false
+    },
+    {
+     "t": "검색 · 필터",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.3 접속 로그 > CSV 내보내기",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2544,
+       "ih": 1292,
+       "w": 367.5,
+       "h": 87.75,
+       "ix": -163.57142857142856,
+       "iy": -8.11965811965812,
+       "iwp": 263.87753441220235,
+       "ihp": 561.5384615384615,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 56.54496173469388,
+         "y": 75.70084357193733
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 86.6470025510204,
+         "y": 91.51280938390313
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 88.07557397959184,
+         "y": 16.72648459757835
+        }
+       ],
+       "cap": [
+        {
+         "t": "버튼을 선택하면 곧바로 파일이 내려받아집니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 208.875
+      },
+      {
+       "img": "p09_2.png",
+       "iw": 1310,
+       "ih": 796,
+       "w": 423.375,
+       "h": 133.5,
+       "ix": 0.0,
+       "iy": -119.38202247191012,
+       "iwp": 200.70859167404782,
+       "ihp": 387.07865168539325,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 85.04345659875997,
+         "y": 18.297745493913858
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 91.95222542072631,
+         "y": 71.1067342579588
+        }
+       ],
+       "cap": [
+        {
+         "t": "내려받은 파일 — 열 7종 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 232.875,
+       "fy1": 366.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "조회 결과를 쉼표로 구분된 파일(CSV)로 내려받습니다. 별도의 요청·대기 없이 화면에서 바로 만들어지며, 파일명에 내려받은 시각이⁣들어갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "CSV 내보내기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택하면 확인 창 없이 바로 파일이 내려받아집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "버튼 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 결과 N건 / 전체 N건 (전수 export 미지원)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "내려받기 알림에 파일명과 크기가 표시됩니다. 파일명은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "login-history_연월일T시분.csv",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 형식입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "열 7종 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시각(KST) · 이름 · 이메일 · 이벤트 · IP 주소 · 접속 프로그램(UA) · 실패 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 내부 식별 코드는 포함되지 않습니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "한 행이 접속 이벤트 한 건입니다. 화면의 표와 같은 순서로 담깁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "내려받는 것은 현재 쪽 결과뿐입니다. 버튼 옆 안내의 「전수 export 미지원」 이 그 뜻으로, 전체 기간을 받으려면 기간·이벤트 조건을⁣좁혀 여러 번 나누어 내려받아야 합니다. 파일에는 계정 이메일과 접속 IP 가 그대로 담기므로 개인정보가 포함된 파일로 취급해 보관·⁣공유하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 접속 로그 > ",
+     "cur": false
+    },
+    {
+     "t": "CSV 내보내기",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "4.1 운영 이력 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2510,
+       "ih": 981,
+       "w": 531.375,
+       "h": 169.87498474121094,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 122.73730888561471,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 42.49404551870148,
+         "y": 22.105947519461864
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 22.945703952011293,
+         "y": 32.70197496130173
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 37.97746118560339,
+         "y": 32.70197496130173
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 52.93864678899083,
+         "y": 32.70197496130173
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 91.75304340155257,
+         "y": 16.145682083426937
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 95.98734121383204,
+         "y": 45.72625869189657
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 5.93794107268878,
+         "y": 48.15451498065154
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 25.980284050811576,
+         "y": 17.249434941951925
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 50.96264114326041,
+         "y": 45.72625869189657
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 86.74245765702187,
+         "y": 45.72625869189657
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 85.96616972477065,
+         "y": 32.70197496130173
+        }
+       ],
+       "cap": [
+        {
+         "t": "운영 이력 (SCR-PLT-007) — 계정·프로젝트·조직·시스템 운영 행위 기록",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 291.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "계정·프로젝트·참여 기관·워크스페이스·시스템 설정에 대해 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "누가 무엇을 바꾸었는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 기록한 화면입니다. 접속 로그가 「드나든 기록」⁣이라면 이쪽은 「바꾼 기록」입니다. 역시 추가만 되고 수정·삭제가 불가능합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "카테고리 탭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계정 관리 · 프로젝트 상태 전이 · 테스트 데이터 삭제 · Site 관리 · 인력 관리 · 워크스페이스 멤버 · 시스템 설정 변경⁣· EXPORT 로 묶어 봅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 생성 · 수정 · 삭제 등 행위 종류로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "대상 종류",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계정 · 프로젝트 · 기관 등 무엇을 바꾸었는지로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "수행자 ID",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 특정 사용자의 행위만 봅니다. 식별자 전체가 일치해야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "CSV/Excel 내보내기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 조회 결과를 파일로 요청합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 행의 상세 창을 엽니다 (4.2 참조). 무엇이 어떻게 바뀌었는지는 이 창에서만 확인할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "플랫폼 메뉴 > 운영 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 상시 입구입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "“※ 임상 데이터 변경 이력(Audit Trail) 은 별도 화면에서 제공됩니다.” — 피험자 데이터를 고친 기록은 여기가 아니라 Audit Trail 에⁣있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 지금은 앞부분이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "undefined",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 표시됩니다. 아래 유의사항을 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "상세",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 바뀐 항목 이름이 요약으로 표시됩니다. 값까지 보려면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "시작일 · 종료일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기간을 지정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "「대상」 열 앞부분의 undefined 는 표시 결함입니다. 시스템이 아직 이름을 모르는 종류의 대상이라 그렇게 표시되는 것이며, 기록 자⁣체가 잘못된 것은 아닙니다. 무엇을 바꾼 기록인지는 카테고리 열과 뒤에 붙은 식별자, 그리고 보기 의 변경 내역으로 판단하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 플랫폼 메뉴 > ",
+     "cur": false
+    },
+    {
+     "t": "운영 이력",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "4.2 운영 이력 > 상세 보기",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 2263,
+       "ih": 1078,
+       "w": 423.75,
+       "h": 216.0,
+       "ix": -107.16814159292036,
+       "iy": -116.14583333333333,
+       "iwp": 345.84070796460173,
+       "ihp": 323.26388888888886,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 91.42837389380531,
+         "y": 15.128467701099538
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 55.14518805309735,
+         "y": 26.239578812210645
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 79.30448008849558,
+         "y": 35.961801034432874
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 39.74695796460177,
+         "y": 41.864578812210645
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 37.977046460176986,
+         "y": 52.97568992332175
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 50.01244469026549,
+         "y": 66.86457881221065
+        }
+       ],
+       "cap": [
+        {
+         "t": "운영 이력 상세 — 바뀐 값이 항목별로 나열됩니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 337.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "목록의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 여는 창입니다. 목록이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "언제 · 누가 · 무엇을",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 까지 보여 준다면, 이 창은 거기에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떻게 바뀌었는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 더합니다. 조회 전⁣용이며 여기에서 고칠 수 있는 것은 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 창을 닫고 목록으로 돌아갑니다. 창 밖을 선택해도 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 머리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시각 · 카테고리 · 이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 한 줄로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록의 대상 열과 같은 값입니다. 앞부분의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "undefined",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 표시 결함이므로 뒤의 식별자를 사용하십시오 (4.1 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "수행자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 행위를 수행한 사용자입니다. 이메일이 함께 기록된 경우 아래에 덧붙습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "변경 내역 (DETAILS)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 창의 핵심입니다. 바뀐 항목이 이름과 값의 쌍으로 나열됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "항목 이름이 영문인 것은 시스템 내부 이름을 그대로 보여 주기 때문입니다. 캡처는 CRF 폼 수정 기록이라 버전·폼 코드·편집 범위·프⁣로젝트 상태가 함께 남았습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "운영 이력은 운영·관리 행위만 담습니다. 피험자 데이터를 고친 기록은 별도의 Audit Trail 화면에 있으므로, 규제 대응 자료를 준비할⁣때는 두 화면을 함께 확인해야 합니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 운영 이력 > ",
+     "cur": false
+    },
+    {
+     "t": "운영 이력 상세",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

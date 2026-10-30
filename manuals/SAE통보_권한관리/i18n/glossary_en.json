@@ -1,0 +1,680 @@
+[
+ {
+  "ko": "SAE 통보",
+  "tr": "SAE Notification",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "SAE 통보 메일 발송",
+  "tr": "Send SAE notification emails",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "미완결만 보기",
+  "tr": "Show incomplete only",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "발송 이력",
+  "tr": "Sending history",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "발송 이력 열 구성",
+  "tr": "Sending history columns",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "발송된 통보가 없습니다.",
+  "tr": "No notifications have been sent.",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "수신자",
+  "tr": "Recipients",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "수신자 추가와 저장",
+  "tr": "Adding recipients and saving",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "+ 수신자 추가",
+  "tr": "+ Add recipient",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "수신자 (N명)",
+  "tr": "Recipients (N)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "수신자 설정",
+  "tr": "Recipient settings",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "표시 이름",
+  "tr": "Display name",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "삭제(휴지통)",
+  "tr": "Delete (trash can)",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "화면 구성",
+  "tr": "Screen layout",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "역할 목록",
+  "tr": "Role list",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "행 액션",
+  "tr": "Row actions",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "행 액션 메뉴",
+  "tr": "Row action menu",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "신규 커스텀 역할",
+  "tr": "New custom role",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "역할 세트 가져오기",
+  "tr": "Import role set",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "역할 배정",
+  "tr": "Role assignments",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "배정 목록",
+  "tr": "Assignment list",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "배정하기",
+  "tr": "Assign",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "신규 역할 배정",
+  "tr": "New role assignment",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "+ 신규 배정",
+  "tr": "+ New assignment",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "배정 현황",
+  "tr": "Assignment status",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "비활성화",
+  "tr": "Deactivate",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "비활성 포함",
+  "tr": "Include inactive",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "권한 편집",
+  "tr": "Edit permissions",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "전체 권한 편집",
+  "tr": "Edit all permissions",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "전체 권한 보기",
+  "tr": "View all permissions",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "기본 역할 참조",
+  "tr": "Default role reference",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "이력",
+  "tr": "History",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "세트 내보내기",
+  "tr": "Export set",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "가져오기",
+  "tr": "Import",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "JSON 파일 선택",
+  "tr": "Choose JSON file",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "건너뛰기",
+  "tr": "Skip",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "덮어쓰기",
+  "tr": "Overwrite",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "역할 변경 이력",
+  "tr": "Role change history",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "역할 정의 변경 이력",
+  "tr": "Role definition change history",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "CSV 내보내기",
+  "tr": "CSV export",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "변경 이력",
+  "tr": "Change history",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "변경 취소",
+  "tr": "Cancel changes",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "저장 (N)",
+  "tr": "Save (N)",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "역할-권한 매트릭스",
+  "tr": "Role-permission matrix",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "권한 매트릭스",
+  "tr": "Permission matrix",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "기본 역할 템플릿",
+  "tr": "Default role templates",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "역할 템플릿",
+  "tr": "Role templates",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "테이블",
+  "tr": "Table",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "사용자별 타임라인",
+  "tr": "Timeline by user",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "예약",
+  "tr": "Reserved",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "예약 권한 변경 확인",
+  "tr": "Confirm reserved permission change",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "검색",
+  "tr": "Search",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "역할 필터",
+  "tr": "Role filter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "Site",
+  "tr": "Site",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "Site 제한",
+  "tr": "Site-restricted",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "전체 접근",
+  "tr": "Full access",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "SITE 제한",
+  "tr": "SITE restriction",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "커스텀",
+  "tr": "Custom",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "유형",
+  "tr": "Type",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "상태",
+  "tr": "Status",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "액션",
+  "tr": "Actions",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "유효 기간",
+  "tr": "Validity period",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "무기한",
+  "tr": "Indefinite",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "시작일",
+  "tr": "Start date",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "종료일",
+  "tr": "End date",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "사유",
+  "tr": "Reason",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "담당 기관",
+  "tr": "Site in charge",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "사용자 (워크스페이스 멤버)",
+  "tr": "User (workspace member)",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "사용자 선택",
+  "tr": "User selection",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "역할",
+  "tr": "Role",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "설명",
+  "tr": "Description",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "생성 방식",
+  "tr": "Creation method",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "빈 권한 셋으로 생성",
+  "tr": "Create with empty permission set",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "기존 역할 복제",
+  "tr": "Duplicate an existing role",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "생성",
+  "tr": "Create",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "Site 범위",
+  "tr": "Site scope",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "커스텀 역할",
+  "tr": "custom role",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "기본 역할",
+  "tr": "default role",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "권한",
+  "tr": "permission",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "권한 세트",
+  "tr": "permission set",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "역할 세트",
+  "tr": "role set",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 멤버",
+  "tr": "workspace member",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 멤버 관리",
+  "tr": "Workspace member management",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 관리자",
+  "tr": "workspace administrator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "감사자",
+  "tr": "auditor",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구책임자",
+  "tr": "principal investigator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "데이터 관리자",
+  "tr": "data manager",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구간호사",
+  "tr": "research nurse",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "모니터요원",
+  "tr": "monitor",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "종료·보관된 프로젝트",
+  "tr": "closed or archived project",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "중대성 전이",
+  "tr": "seriousness change",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "발화 사유",
+  "tr": "Trigger reason",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "초회 보고",
+  "tr": "Initial report",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "후속 보고",
+  "tr": "Follow-up report",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "전원 발송",
+  "tr": "All sent",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "일부 실패",
+  "tr": "Partially failed",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "전원 실패",
+  "tr": "All failed",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "수신자 없음",
+  "tr": "No recipients",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "발생 · 보고 구분",
+  "tr": "Occurred · Report type",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "첨부 · 완료",
+  "tr": "Attachment · Completed",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "SAE 보고서",
+  "tr": "SAE report",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "자동 재시도",
+  "tr": "automatic retry",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "재발송",
+  "tr": "resend",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "인지일",
+  "tr": "awareness date",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "식별자",
+  "tr": "identifier",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "SAE 여부",
+  "tr": "SAE status",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "AE 지정",
+  "tr": "AE Designation",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "관리자",
+  "tr": "Admin",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "CTM 읽기",
+  "tr": "CTM Read-only",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "중복",
+  "tr": "duplicate",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "기관",
+  "tr": "site",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구자",
+  "tr": "researcher",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "통보",
+  "tr": "notification",
+  "type": "term",
+  "note": ""
+ }
+]

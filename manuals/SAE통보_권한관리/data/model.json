@@ -1,0 +1,4899 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — SAE 통보 · 권한 관리",
+ "src": "SMART-EDC_사용자매뉴얼_SAE통보_권한관리.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "SAE 통보",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "SAE 통보 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "SAE 통보 > 수신자 추가와 저장"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "역할 목록·관리",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "역할 목록·관리 > 화면 구성"
+    },
+    {
+     "no": "2.2",
+     "title": "역할 목록·관리 > 행 액션 메뉴"
+    },
+    {
+     "no": "2.3",
+     "title": "역할 목록·관리 > 신규 커스텀 역할"
+    },
+    {
+     "no": "2.4",
+     "title": "역할 목록·관리 > 역할 세트 가져오기"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "역할 배정",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "역할 배정 > 배정 목록"
+    },
+    {
+     "no": "3.2",
+     "title": "역할 배정 > 신규 역할 배정"
+    }
+   ]
+  },
+  {
+   "ch": "4",
+   "title": "권한 확인과 이력",
+   "items": [
+    {
+     "no": "4.1",
+     "title": "권한 확인과 이력 > 역할-권한 매트릭스"
+    },
+    {
+     "no": "4.2",
+     "title": "권한 확인과 이력 > 기본 역할 템플릿"
+    },
+    {
+     "no": "4.3",
+     "title": "권한 확인과 이력 > 역할 변경 이력"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "SAE 통보 · 권한 관리",
+    "SCR-PRJ-011 · SCR-RBAC-001·002·003·004·006 · 통보 수신자 · 역할 · 권한 · 배정 · 이력",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-29"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 SAE 통보 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2312,
+       "ih": 774,
+       "w": 531.375,
+       "h": 118.5,
+       "ix": 0.0,
+       "iy": -2.2151898734177213,
+       "iwp": 167.1136203246295,
+       "ihp": 251.26582278481013,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 14.97110973888497,
+         "y": 51.62678006329114
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 55.76151199717714,
+         "y": 19.981210443037973
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 34.16659315455187,
+         "y": 57.32298259493671
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 29.085435779816514,
+         "y": 67.44956487341773
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 98.2456333803811,
+         "y": 90.86728639240506
+        }
+       ],
+       "cap": [
+        {
+         "t": "SAE 통보 (SCR-PRJ-011) 위쪽 — 수신자 카드 (왼쪽 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 239.625
+      },
+      {
+       "img": "p03_2.png",
+       "iw": 2312,
+       "ih": 774,
+       "w": 531.375,
+       "h": 33.0,
+       "ix": 0.0,
+       "iy": -226.13636363636363,
+       "iwp": 100.21171489061398,
+       "ihp": 540.9090909090909,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 93.44676252646437,
+         "y": 26.29616477272727
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 5.93794107268878,
+         "y": 26.29616477272727
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 38.400890966831334,
+         "y": 60.38707386363637
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 화면 아래 — 발송 이력 카드 (전폭)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 263.625,
+       "fy1": 296.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "중대한 이상사례(SAE)가 발생했을 때 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "누구에게 메일이 나갈지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 정하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "나간 결과를 확인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하는 화면입니다. 메일은 사람이 보내는 것⁣이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이상사례의 「SAE 여부」가 「아니오」에서 「예」로 바뀌는 순간 시스템이 자동으로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 보냅니다. 어느 필드가 그 「SAE 여부」인⁣지는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "AE 지정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 화면에서 정합니다 — 이 화면은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "받을 사람",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "만 맡습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「SAE 통보 메일 발송」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 통보 기능을 켜고 끕니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "수신자가 한 명도 없으면 켤 수 없습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「미완결만 보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 발송이 끝나지 않은 건만 추려 봅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "화면 부제가 발화 조건을 밝힙니다 — “이상사례의 「SAE 여부」가 아니오 → 예로 바뀌는 순간 지정 수신자에게 메일이 나갑니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "끈 상태의 뜻 — “끄면 중대성 전이가 일어나도 메일이 나가지 않습니다 (발송 이력도 남지 않습니다).” ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이력조차 남지 않는다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 점이⁣중요합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "노란 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금은 수신자가 없어서 켤 수 없다는 안내입니다. 수신자를 넣으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "같은 자리의 문구가 바뀝니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "메일에 무엇이 실리는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 밝힌 문단입니다 — 본문에는 식별자·보고 구분·인지일까지만 실리지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "첨부되는 SAE 보고서에는 임상 상⁣세가 그대로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 들어갑니다 (1.2 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "발송 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 자동 발송된 결과가 한 건씩 쌓입니다. 캡처는 아직 발송이 없어 “발송된 통보가 없습니다.” 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "회색 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “실패한 통보를 화면에서 다시 보낼 수는 없습니다 — 재발송 경로가 아직 없습니다. 수신자 1명당 최대 3회 자동 재시⁣도한 결과가 아래 상태입니다. 미완결 건은 시스템 담당자에게 전달해 주십시오.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "발송 이력 열 구성",
+     "head": [
+      "열",
+      "담기는 내용"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "발생 · 보고 구분",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "통보가 나간 시각 · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초회 보고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "후속 보고",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "발화 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "중대성 전이",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(아니오→예) 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "내용 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "수신/성공/실패",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "보낸 사람 수와 성공·실패 건수",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전원 발송 · 일부 실패 · 전원 실패 · 수신자 없음",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "첨부 · 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "SAE 보고서 파일 · 처리가 끝난 시각",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      27.9,
+      72.1
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "수신자를 먼저 넣어야 통보를 켤 수 있습니다. 수신자가 0명인 상태로 「SAE 통보 메일 발송」만 체크해서 저장하면 거부됩니다 — 받⁣을 곳이 없는 통보는 켜 둔 의미가 없기 때문입니다. 순서는 수신자 추가 → 저장 → 체크 → 저장 이 아니라, 수신자를 넣고 체크한 뒤⁣한 번에 저장하면 됩니다 (1.2 참조). 또한 끈 동안에는 이력도 남지 않으므로, 운영 시작 전에 켜 두는 것이 안전합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 설정 > ",
+     "cur": false
+    },
+    {
+     "t": "SAE 통보",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 SAE 통보 > 수신자 추가와 저장",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2318,
+       "ih": 763,
+       "w": 531.375,
+       "h": 101.25,
+       "ix": 0.0,
+       "iy": -44.074074074074076,
+       "iwp": 182.21593770215833,
+       "ihp": 314.81481481481484,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 81.73187191249119,
+         "y": 64.1261574074074
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 13.559677134791814,
+         "y": 80.4224537037037
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 14.406536697247708,
+         "y": 9.681712962962962
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 49.9746383203952,
+         "y": 46.348379629629626
+        }
+       ],
+       "cap": [
+        {
+         "t": "수신자를 한 명 넣은 상태 — 왼쪽 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 222.375
+      },
+      {
+       "img": "p04_2.png",
+       "iw": 2318,
+       "ih": 763,
+       "w": 339.0,
+       "h": 97.5,
+       "ix": -526.8805309734513,
+       "iy": -215.0,
+       "iwp": 627.2123893805309,
+       "ihp": 717.6922450921475,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 65.61290099557522,
+         "y": 31.97716346153846
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 93.71024612831859,
+         "y": 31.97716346153846
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 71.80759126106194,
+         "y": 70.43870192307692
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 행의 오른쪽 — 표시 이름 · 삭제 · 저장 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 246.375,
+       "fy1": 343.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "받을 사람을 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 줄에 한 명씩",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 넣습니다. 한 줄은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표시 이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 두 칸으로 되어 있고, 다 넣은 뒤 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「저장」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 눌러야 반영됩니다. 수⁣신자가 한 명이라도 들어오면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "카드 제목이 「수신자 (N명)」으로 바뀌고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 위의 노란 안내도 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "다른 문구로 교체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 받을 주소입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대문자·소문자만 다른 주소는 같은 주소로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 취급되어 중복으로 걸립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「+ 수신자 추가」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 빈 줄을 하나 더 만듭니다. 여러 명을 넣을 때 반복합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "표시 이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 주소가 누구인지 알아보기 위한 이름표입니다 (캡처는 “관리자”).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "삭제(휴지통)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 줄을 지웁니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "마지막 한 명을 지우려 하면 확인을 한 번 더",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 받습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "「저장」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 통보 켜기·끄기와 수신자 목록을 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "함께",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 저장합니다. 누르지 않으면 아무것도 반영되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "카드 제목이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「수신자 (1명)」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 바뀌었습니다 — 몇 명이 등록되어 있는지 여기에서 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "노란 안내가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "다른 문구로 교체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되었습니다 — “이 목록은 자동으로 갱신되지 않습니다 — 담당자가 바뀌거나 퇴사해도 그대로 남습니⁣다. 역할이 바뀌면 직접 정리해 주십시오.” (아래 유의사항)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "이 목록은 시스템이 관리해 주지 않습니다 — 직접 정리해야 합니다. 담당자가 바뀌거나 퇴사해도 주소는 그대로 남아 통보가 계속 갑⁣니다. 그런데 통보에 첨부되는 SAE 보고서에는 사건명·경과 서술·중증도·인과관계 같은 임상 상세가 그대로 들어갑니다 — 즉 이 목록⁣이 곧 열람 범위입니다. 화면 아래 문단이 그 점을 밝히고 있으니, 과제가 열람을 승인한 범위로만 유지하고 인수인계 때마다 함께 점⁣검하십시오. 외부 주소나 공용 메일함은 특히 주의가 필요합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : SAE 통보 > ",
+     "cur": false
+    },
+    {
+     "t": "수신자 설정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "2.1 역할 목록·관리 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 1080,
+       "ih": 458,
+       "w": 531.75,
+       "h": 38.25,
+       "ix": -2.0451339915373765,
+       "iy": -120.58823529411764,
+       "iwp": 102.25669957686883,
+       "ihp": 603.9215686274509,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 40.983118829337094,
+         "y": 73.66727941176471
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 52.54870416078985,
+         "y": 73.66727941176471
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 61.29341502115656,
+         "y": 73.66727941176471
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 70.32021332863188,
+         "y": 73.66727941176471
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 79.9111865303244,
+         "y": 73.66727941176471
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 89.85476904090268,
+         "y": 73.66727941176471
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 28.57127115655853,
+         "y": 45.2359068627451
+        }
+       ],
+       "cap": [
+        {
+         "t": "화면 위쪽 도구 모음 — 버튼 6종 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 159.375
+      },
+      {
+       "img": "p05_2.png",
+       "iw": 1080,
+       "ih": 458,
+       "w": 531.75,
+       "h": 129.0,
+       "ix": -2.0451339915373765,
+       "iy": -64.24418604651163,
+       "iwp": 102.25669957686883,
+       "ihp": 179.06976744186048,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 7,
+         "x": 80.193273977433,
+         "y": 21.843204941860463
+        },
+        {
+         "kind": "set",
+         "n": 8,
+         "x": 91.19468441466854,
+         "y": 21.843204941860463
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 33.6488452045134,
+         "y": 6.726925872093023
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 45.35547425952045,
+         "y": 38.70367005813954
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 63.76168018335684,
+         "y": 55.5641351744186
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 87.10441643159379,
+         "y": 73.00599563953489
+        }
+       ],
+       "cap": [
+        {
+         "t": "역할 목록 — 기본 5종이 먼저 놓입니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 183.375,
+       "fy1": 312.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "이 프로젝트에서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떤 역할이 쓰이는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "각 역할이 몇 명에게 배정되었는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 한 화면에서 봅니다. 역할은 두 갈래입니다 — 시스템⁣이 미리 정해 둔 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기본 5종",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 프로젝트에서 직접 만든 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "커스텀 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 기본 역할은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지우거나 비활성화할 수 없고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 권한만 조정할 수 있습⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「전체 권한 편집」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 역할 5종 × 권한 전체를 한 표에서 봅니다 (4.1 참조). 편집 권한이 없으면 라벨이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「전체 권한 보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「기본 역할 참조」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기본 5종이 원래 어떤 역할인지 설명하는 읽기 전용 화면입니다 (4.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「이력」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 역할·배정이 언제 어떻게 바뀌었는지 봅니다 (4.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "「세트 내보내기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 현재 역할·권한 구성을 파일로 받습니다. 감사 대응용 스냅샷으로 쓰입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "「가져오기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 내보낸 파일을 다른 프로젝트에 적용합니다 (2.4 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "「+ 신규 커스텀 역할」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 프로젝트만의 역할을 만듭니다 (2.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 7,
+       "runs": [
+        {
+         "t": "「배정하기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 역할을 사람에게 배정합니다. 누르면 배정 화면으로 이동하면서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 창이 자동으로 열리고 역할이 미리 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니⁣다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 8,
+       "runs": [
+        {
+         "t": "⋯ — 그 역할에 대한 액션 메뉴를 엽니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "요약",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기본 몇 종 · 커스텀 몇 종 · 총 배정 몇 명.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "표는 7열",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — ROLECODE · ROLENAME · 유형 · SITE 제한 · 배정 · 상태 · 액션.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "유형",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기본",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(시스템 제공) 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "커스텀",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(직접 만든 것).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "SITE 제한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site 제한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 자기 참여 기관의 자료만, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체 접근",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 프로젝트 전체를 봅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비활성화한 역할은 여기가 바뀌고 새 배정에 쓸 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "역할을 바꾸는 일은 워크스페이스 관리자만 할 수 있습니다. 연구책임자·데이터 관리자에게도 이 화면은 열리지만 「가져오기」와 「+⁣신규 커스텀 역할」은 아예 보이지 않고, 「전체 권한 편집」도 「전체 권한 보기」 로 바뀝니다 — 보이지 않는 것은 고장이 아니라 권한⁣에 따른 정상 동작입니다. 또한 종료·보관된 프로젝트에서는 버튼이 보이되 흐리게 비활성됩니다 — 이쪽은 상태가 바뀌면 다시 쓸 수⁣있다는 뜻으로 둘을 구분해 표시합니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 설정 > ",
+     "cur": false
+    },
+    {
+     "t": "역할 목록",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.2 역할 목록·관리 > 행 액션 메뉴",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 1106,
+       "ih": 507,
+       "w": 531.375,
+       "h": 121.5,
+       "ix": 0.0,
+       "iy": -60.18518518518518,
+       "iwp": 100.21171489061398,
+       "ihp": 201.23456790123458,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 85.96616972477065,
+         "y": 24.117275913065843
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 29.932295342272408,
+         "y": 24.117275913065843
+        }
+       ],
+       "cap": [
+        {
+         "t": "첫 행의 ⋯ 를 누른 상태 — 메뉴는 그 행에만 적용됩니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 242.625
+      },
+      {
+       "img": "p06_2.png",
+       "iw": 1106,
+       "ih": 507,
+       "w": 268.5,
+       "h": 110.25,
+       "ix": -361.0335195530726,
+       "iy": -245.91836734693877,
+       "iwp": 501.39664804469277,
+       "ihp": 559.8639455782313,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 57.421875,
+         "y": 29.639446924603174
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 57.421875,
+         "y": 54.80951495181405
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 62.44980796089386,
+         "y": 81.34012719671202
+        }
+       ],
+       "cap": [
+        {
+         "t": "메뉴 3종 (확대) — 세 번째 「비활성화」는 흐린 상태입니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 268.125,
+       "fy1": 378.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "역할 한 줄에 대해 할 수 있는 일이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "세 가지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 앞의 둘은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이고 마지막 하나만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실제로 바꾸는 조작",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 메뉴는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "누른 그 행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에⁣만 적용되므로, 어느 역할의 ⋯ 를 눌렀는지 먼저 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⋯ — 그 행의 메뉴를 엽니다. 다시 누르거나 바깥을 누르면 닫힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「권한 편집」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 역할 하나만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "의 권한을 편집하는 화면으로 갑니다. 여러 역할을 한꺼번에 보려면 위쪽 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「전체 권한 편집」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 쓰십시⁣오 (4.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「배정 현황」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 역할이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "누구에게 배정되어 있는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 보는 화면으로 갑니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "「비활성화」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 역할을 더 이상 쓰지 않도록 내립니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "캡처에서는 흐립니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "메뉴를 연 행이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어느 역할인지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 왼쪽에서 확인합니다 — 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Auditor",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 행입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "기본 역할은 비활성화할 수 없습니다. 캡처의 「비활성화」가 흐린 것은 고장이 아니라 Auditor 가 기본 5종 중 하나이기 때문이며, 버⁣튼 위에 마우스를 올리면 “기본 역할은 비활성화할 수 없습니다” 가 표시됩니다. 비활성화는 직접 만든 커스텀 역할이면서 아직 활성⁣인 경우에만 켜집니다 — 종료·보관된 프로젝트에서도 꺼집니다. 기본 역할을 쓰지 않으려면 비활성화가 아니라 그 역할에 사람을 배⁣정하지 않는 것으로 처리합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "행 액션",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.3 역할 목록·관리 > 신규 커스텀 역할",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 1225,
+       "ih": 956,
+       "w": 259.5,
+       "h": 279.75,
+       "ix": -57.36994219653179,
+       "iy": -55.36193029490617,
+       "iwp": 239.01736456075383,
+       "ihp": 173.19033761659406,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 73.86425216763006,
+         "y": 22.13672573168007
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 73.86425216763006,
+         "y": 33.932972380473636
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 73.86425216763006,
+         "y": 45.729219029267206
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 54.78910765895954,
+         "y": 60.34047908288651
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 45.25153540462428,
+         "y": 76.29222171023235
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 83.25731575144508,
+         "y": 93.98659168342269
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 96.40760476878613,
+         "y": 11.278816884495086
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 44.095466040462426,
+         "y": 17.176940208891867
+        }
+       ],
+       "cap": [
+        {
+         "t": "신규 커스텀 역할 — 처음 열린 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 400.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "기본 5종으로 모자랄 때 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 프로젝트에서만 쓰는 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 만듭니다. 예를 들어 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "읽기만 가능한 참관자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "처럼 기본 역할에 없는 조합이 필⁣요할 때 사용합니다. 여기에서는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "역할의 껍데기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "만 만들고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떤 권한을 줄지는 만든 뒤에",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 권한 편집 화면에서 정합니다 (4.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "roleCode",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 역할을 식별하는 코드입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "영문 대문자·숫자·밑줄(_)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 만 쓸 수 있고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "50자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "까지입니다 (예: READONLY_CTM).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "roleName",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 화면에 보일 이름입니다 (예: CTM 읽기).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "설명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 역할을 왜 만들었는지 적어 둡니다. 나중에 보는 사람을 위한 칸입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "Site 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site 제한 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 소속 기관의 자료만 보고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트 전체 접근 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 모든 기관을 봅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "만든 뒤에는 이 축이 그 역⁣할의 성격을 결정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하므로 신중히 고르십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "생성 방식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "빈 권한 셋으로 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하면 권한이 하나도 없는 상태로 시작하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기존 역할 복제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 고르면 고른 역할의 권한을 그대로⁣가져와 시작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "「생성」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 역할을 만듭니다. 목록에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "유형이 「커스텀」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 인 줄로 추가됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 설명이 제약을 밝힙니다 — “프로젝트 단위 커스텀 역할을 생성합니다. 시스템 역할명은 사용할 수 없습니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "입력 규칙이 라벨 옆에 적혀 있습니다 — “(영문 대문자·숫자·_ · 50자)”.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "기본 역할과 같은 이름은 쓸 수 없습니다. PI · CRC · CRA · DM · AUDITOR 처럼 시스템이 쓰는 이름을 roleCode 에 넣으면 거부되고,⁣이미 있는 코드를 넣어도 거부됩니다 — 두 경우 모두 roleCode 칸에 사유가 붙습니다. 또한 「빈 권한 셋으로 생성」 을 고르면 만든⁣직후에는 아무것도 할 수 없는 역할이 됩니다. 만들어 두고 권한을 주지 않은 채 사람을 배정하면 그 사람은 아무 화면도 열 수 없으니,⁣생성 → 권한 편집 → 배정 순서를 지키십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 커스텀 역할",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "2.4 역할 목록·관리 > 역할 세트 가져오기",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 1177,
+       "ih": 757,
+       "w": 282.75,
+       "h": 177.75,
+       "ix": -48.93899204244032,
+       "iy": -118.35443037974684,
+       "iwp": 222.81167108753314,
+       "ihp": 227.8481012658228,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 75.48284151193634,
+         "y": 39.902948092475384
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 46.57037466843501,
+         "y": 56.35864429500703
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 85.03191312997347,
+         "y": 87.16033205872012
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 95.37674071618038,
+         "y": 24.291133746483826
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 94.05048076923077,
+         "y": 66.48522657348805
+        }
+       ],
+       "cap": [
+        {
+         "t": "역할 세트 가져오기 — 파일을 고르기 전이라 「미리보기」가 흐린 상태",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 298.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "다른 프로젝트에서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「세트 내보내기」로 받아 둔 파일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 이 프로젝트에 적용합니다. 같은 구성을 여러 과제에 반복해 쓸 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣적용하면 권한이 즉시 바뀌므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 곧바로 적용하지 않고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미리보기 단계를 한 번 거칩니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 무엇이 바뀌는지 확인한 뒤에 적용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「JSON 파일 선택」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 내보내기로 만든 파일을 고릅니다. 고르기 전에는 다음 단계로 갈 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "같은 코드의 커스텀 역할이 이미 있을 때",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "건너뛰기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 기존 역할을 그대로 두고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "덮어쓰기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "는 권한 세트를 파일의 것으로 바꿉니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「미리보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 무엇이 바뀌는지 먼저 확인합니다. 파일을 고르기 전에는 흐린 채로 눌리지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 설명이 절차를 밝힙니다 — “적용하면 인가가 즉시 바뀌므로 미리보기 단계를 거칩니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기본 역할은 예외",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "라는 안내입니다 — “기본 역할은 권한 세트만 적용되고 이름·설명·Site 제한은 유지됩니다. 신규 생성도 하지 않습⁣니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "미리보기를 본 뒤에는 바로 적용하십시오. 미리보기와 적용 사이에 다른 사람이 역할을 바꾸면 적용이 전건 거부되고 “미리보기 이후⁣대상 역할이 변경됐습니다. 아무것도 적용되지 않았습니다 — 미리보기를 다시 실행해 주세요.” 가 표시됩니다. 일부만 적용되는 일은⁣없으므로 중간 상태를 걱정할 필요는 없고, 미리보기부터 다시 하면 됩니다. 또한 「덮어쓰기」는 되돌리기 어렵습니다 — 적용 전에⁣「세트 내보내기」로 현재 구성을 먼저 받아 두는 편이 안전합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "역할 세트 가져오기",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.1 역할 배정 > 배정 목록",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 1212,
+       "ih": 515,
+       "w": 531.75,
+       "h": 152.25,
+       "ix": -2.0451339915373765,
+       "iy": -1.2315170714029147,
+       "iwp": 104.37235543018335,
+       "ihp": 154.67979293347187,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 20.249691466854724,
+         "y": 38.70442708333333
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 79.62909908321579,
+         "y": 38.70442708333333
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 80.89849259520452,
+         "y": 50.28078176313628
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 92.25251234132581,
+         "y": 56.93102806855501
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 91.05364069111424,
+         "y": 74.66501821633827
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 22.92952221438646,
+         "y": 16.536939398604268
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 10.376630818053597,
+         "y": 50.03447634441708
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 34.35406382228491,
+         "y": 64.8128014675698
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 58.895671720733425,
+         "y": 74.66501821633827
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 31.180580042313117,
+         "y": 91.16748127052546
+        }
+       ],
+       "cap": [
+        {
+         "t": "사용자 역할 배정 (SCR-RBAC-003) — 역할 목록의 「배정하기」·「배정 현황」으로 들어옵니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 273.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "누가 어떤 역할로 이 프로젝트에 참여하는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 관리하는 화면입니다. 역할 목록이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "역할의 정의",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 다룬다면 여기는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사람과 역할의 연결",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣을 다룹니다. 한 사람에게 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "담당 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "유효 기간",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 함께 지정할 수 있어, 기간이 끝나면 자동으로 효력이 사라지게 둘 수도 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "역할 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 특정 역할의 배정만 추려 봅니다. 역할 목록의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「배정하기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 들어오면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 역할이 이미 선택된 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣필터와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(이름·이메일)도 함께 쓸 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「비활성 포함」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 해제된 배정까지 함께 봅니다. 평소에는 꺼 두고, 과거 배정을 확인할 때만 켭니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「이력」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정이 언제 바뀌었는지 봅니다 (4.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "「+ 신규 배정」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정 창을 엽니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "⋯ — 그 배정의 액션 메뉴입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "화면 부제 — “사용자별 프로젝트 역할과 담당 기관을 관리합니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "표시 N / 전체 N",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필터로 걸러진 수와 전체 수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "표는 7열",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 사용자 · 역할 · SITE · 유효 기간 · 배정 · 활성 · 액션. 사용자 칸에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이름과 이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "유효 기간",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기간을 지정하지 않았으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「— ~ 무기한」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 캡처가 그 상태입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "하단 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정하려는 사람이 목록에 없을 때의 안내입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "워크스페이스 멤버가 아니면 배정 자체를 할 수 없고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 먼저 워크스페⁣이스 멤버 관리에서 추가해야 합니다 (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "워크스페이스 멤버가 아닌 사람은 배정할 수 없습니다. 배정 창의 사용자 목록은 워크스페이스 멤버 중에서만 고르게 되어 있어, 아직⁣멤버가 아닌 사람은 아예 나타나지 않습니다. 화면 아래 안내의 링크를 따라 워크스페이스 멤버 관리에서 먼저 추가한 뒤 돌아와서 배⁣정하십시오. 「사용자 선택」 목록에 찾는 사람이 없다면 이름을 잘못 찾는 것이 아니라 멤버가 아닌 경우가 대부분입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "역할 배정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.2 역할 배정 > 신규 역할 배정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 1315,
+       "ih": 989,
+       "w": 268.5,
+       "h": 279.75,
+       "ix": -59.0782122905028,
+       "iy": -57.506702412868634,
+       "iwp": 257.26254710050046,
+       "ihp": 185.79088471849866,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 63.846456005586596,
+         "y": 24.281497849642538
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 63.846456005586596,
+         "y": 36.61393752792672
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 63.846456005586596,
+         "y": 48.142087661974976
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 39.544780027932966,
+         "y": 66.64074717940125
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 80.60623254189943,
+         "y": 66.64074717940125
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 74.18165153631286,
+         "y": 78.97318685768543
+        },
+        {
+         "kind": "set",
+         "n": 7,
+         "x": 83.12019902234637,
+         "y": 95.19302599977658
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 60.21517108938548,
+         "y": 11.949058171358356
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 92.05874650837988,
+         "y": 54.84450053060769
+        }
+       ],
+       "cap": [
+        {
+         "t": "신규 역할 배정 — 「배정하기」로 들어오면 역할이 미리 선택됩니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 400.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "사람 한 명에게 역할을 붙이는 창입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사용자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 둘만 정하면 배정되고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "담당 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "유효 기간",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 필요할 때만 지정합니다. 역⁣할 목록의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「배정하기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 들어왔다면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "역할이 이미 채워져 있으므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 사람만 고르면 됩니다 — 캡처가 그 상태입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "사용자 (워크스페이스 멤버)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정할 사람을 고릅니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "워크스페이스 멤버만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 목록에 나옵니다 (3.1 유의사항 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 어떤 역할로 참여시킬지 고릅니다. 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "AUDITOR",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 미리 선택되어 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Site",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 담당 기관입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고르지 않으면 프로젝트 전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 봅니다 (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "시작일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비워 두면 즉시 적용됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "종료일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비워 두면 무기한입니다. 넣어 두면 그 날 이후 자동으로 효력이 사라져, 일일이 해제하지 않아도 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 적어 두면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "변경 이력에 함께 기록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다 (4.3 참조). 선택이지만 감사 대응에서는 적어 두는 편이 좋습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 7,
+       "runs": [
+        {
+         "t": "「배정」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정을 확정합니다. 목록에 한 줄이 추가됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 설명 — “워크스페이스 멤버에게 프로젝트 역할을 배정합니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Site 를 지정했을 때의 결과",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 밝힌 안내입니다 — 그 기관의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구자로도 등록되어 업무·알림 대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "「Site」는 단순한 범위 지정이 아닙니다. 비워 두면 그 역할은 프로젝트 전체 기관의 자료를 보지만, 기관을 하나 지정하면 그 기관의⁣연구자로도 등록되어 업무·알림 대상이 됩니다 — 화면이 그 점을 직접 안내합니다. 즉 조회 범위를 좁히려고 무심코 기관을 고르면 그⁣기관의 업무까지 받게 됩니다. 모니터요원처럼 여러 기관을 담당하는 경우에는 비워 두고, 기관 소속 연구간호사처럼 실제로 그 기관⁣의 업무를 맡는 경우에만 지정하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 역할 배정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "4.1 권한 확인과 이력 > 역할-권한 매트릭스",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 1106,
+       "ih": 1088,
+       "w": 531.75,
+       "h": 267.0,
+       "ix": -1.0578279266572637,
+       "iy": -1.8258426966292134,
+       "iwp": 102.25669957686883,
+       "ihp": 200.28089887640448,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 50.00991713681241,
+         "y": 30.778086230102996
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 71.16647566995769,
+         "y": 20.94662555594569
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 99.23417665726375,
+         "y": 20.94662555594569
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 42.25251234132581,
+         "y": 11.957861511001873
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 17.851948166431594,
+         "y": 20.94662555594569
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 92.88720909732017,
+         "y": 30.4971873536985
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 52.54870416078985,
+         "y": 38.78370420763109
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 14.32585507757405,
+         "y": 50.7219064548221
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 48.03530500705219,
+         "y": 58.30617611774345
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 52.54870416078985,
+         "y": 73.19381656718164
+        }
+       ],
+       "cap": [
+        {
+         "t": "역할-권한 매트릭스 (SCR-RBAC-002) — 권한이 행, 역할이 열입니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 388.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "어떤 역할이 무엇을 할 수 있는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 한 표에서 보고 고칩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "권한이 행, 역할이 열",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이고 교차하는 칸의 체크가 곧 그 역할의 권한입니⁣다. 권한은 수가 많으므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "도메인별로 접히는 그룹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 묶여 있고, 위쪽 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 좁혀 찾습니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고친 내용은 「저장」을 눌러야",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 반영됩⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 권한 이름·기능·동작으로 좁힙니다. 찾는 권한이 어느 그룹에 있는지 모를 때 가장 빠른 길입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「변경 이력」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 권한이 언제 어떻게 바뀌었는지 봅니다 (4.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「저장 (N)」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 고친 내용을 반영합니다. 괄호 안이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고친 칸 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "0 이면 눌리지 않습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 되돌리려면 왼쪽 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「변경 취소」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 누릅니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "화면 부제가 규칙을 미리 밝힙니다 — “기본 역할의 예약 권한은 잠금 표시되며 변경 시 명시 동의가 필요합니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "변경 N건 · 영향 역할 N개",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 저장하기 전에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "얼마나 많은 역할이 영향을 받는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 여기에서 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "N개 표시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 보이는 권한 수입니다. 검색을 걸면 이 숫자가 줄어듭니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "열이 곧 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 캡처는 기본 5종(PI · CRC · CRA · DM · AUDITOR). 커스텀 역할을 만들면 열이 늘어납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "도메인 그룹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “피험자 (13개)” 처럼 묶여 있고 접었다 펼 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "자물쇠 + 「예약」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 역할의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "핵심 권한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이라 해제할 수 없는 칸입니다 (아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "체크 칸",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 눌러서 켜고 끕니다. 고친 칸은 색으로 구분되고 위쪽 변경 건수에 반영됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "잠긴 칸에는 세 가지 서로 다른 이유가 있습니다. ① 기본 역할의 핵심 권한 — 연구책임자에게서 피험자 철회 권한을 뺄 수 없는 것처⁣럼, 그 역할을 그 역할이게 하는 권한은 해제할 수 없습니다(캡처의 “예약 (PI,CRC)”). ② 플랫폼 등급 권한 — 프로젝트 역할에는 어떤⁣경우에도 줄 수 없습니다. ③ 시스템 관리자 전용 권한. 다만 직접 만든 커스텀 역할에서는 ① 이 잠기지 않고 켤 수 있으며, 저장할 때⁣「예약 권한 변경 확인」 창이 떠 한 번 더 동의를 받습니다 — 규제상 책임이 따르는 권한이므로 누구에게 왜 주는지 분명할 때만 사용⁣하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "권한 매트릭스",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 12,
+   "title": "4.2 권한 확인과 이력 > 기본 역할 템플릿",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p12_1.png",
+       "iw": 1050,
+       "ih": 1165,
+       "w": 466.5,
+       "h": 311.25,
+       "ix": -1.045016077170418,
+       "iy": -1.566265060240964,
+       "iwp": 102.41157556270097,
+       "ihp": 170.12048192771084,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 92.21387660771704,
+         "y": 4.233731802208835
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 52.583651527331185,
+         "y": 8.089153488955823
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 25.493619372990356,
+         "y": 16.52288842871486
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 30.15599879421222,
+         "y": 32.1855390311245
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 30.15599879421222,
+         "y": 41.583129392570285
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 22.438956993569132,
+         "y": 91.94457517570281
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 49.93091840836013,
+         "y": 96.52288842871486
+        }
+       ],
+       "cap": [
+        {
+         "t": "기본 역할 템플릿 안내 (SCR-RBAC-006) — 읽기 전용 참조 화면",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 432.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "기본 5종 역할이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "원래 어떤 역할인지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 설명하는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "읽기 전용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 화면입니다. 각 역할의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "주요 책임",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 책임의 규제 근거",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 카드로 정리되⁣어 있어, 권한을 조정하기 전에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 역할이 왜 그 권한을 갖는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 확인하는 데 씁니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트별 역할과는 무관한 원본",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이므로 여기에서⁣는 아무것도 바뀌지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「읽기 전용」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 이 화면에서는 고칠 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "화면 부제 — “학습·참조용 읽기 화면입니다. 프로젝트별 역할과 무관하게 기본 역할 템플릿 5종의 권한 매트릭스를 표시합니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "카드 오른쪽 배지 2종 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "권한 개수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site 제한 여부",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 역할마다 권한 수가 다른 것을 여기에서 한눈에 비교할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "주요 책임",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 역할이 맡는 일을 간추린 목록입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "규제 근거",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 책임이 어느 규정에서 나오는지 밝힙니다 (예: ICH-GCP §4 Investigator Responsibilities). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "권한을 줄이거나 늘릴 때⁣근거로 삼을 자리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "전체 권한 매트릭스 (도메인별)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 카드 아래에 5종 × 전체 권한 표가 이어집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "표의 열도 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기본 5종",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며, 가진 권한에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "초록 체크",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 표시됩니다. 편집용 매트릭스(4.1)와 달리 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "체크박스가 아니라 표시만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "이 화면의 내용과 우리 프로젝트의 실제 권한은 다를 수 있습니다. 여기는 시스템이 정해 둔 원본이고, 프로젝트에서 권한을 조정했다⁣면 실제 값은 역할-권한 매트릭스(4.1) 에 있습니다. 지금 무엇이 되는지를 확인할 때는 4.1 을, 원래 어떤 역할인지를 확인할 때는 이⁣화면을 보십시오. 권한 문의를 받았을 때 두 화면을 함께 열어 원본과 현재의 차이를 보면 언제 무엇이 바뀌었는지 짐작할 수 있고, 그⁣변경 시점은 이력(4.3) 에서 확인합니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "역할 템플릿",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 13,
+   "title": "4.3 권한 확인과 이력 > 역할 변경 이력",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p13_1.png",
+       "iw": 2328,
+       "ih": 481,
+       "w": 508.875,
+       "h": 87.0,
+       "ix": 0.0,
+       "iy": -2.1551724137931036,
+       "iwp": 182.31393977600712,
+       "ihp": 220.68965517241378,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 38.182802137067064,
+         "y": 76.35343705100574
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 25.434091746499632,
+         "y": 25.49136808548851
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 50.857820560058954,
+         "y": 44.45688532686782
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 11.727385777450259,
+         "y": 90.14654049928161
+        }
+       ],
+       "cap": [
+        {
+         "t": "역할 변경 이력 (SCR-RBAC-004) 위쪽 왼쪽 — 제목 · 안내 · 필터 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 208.125
+      },
+      {
+       "img": "p13_2.png",
+       "iw": 2328,
+       "ih": 481,
+       "w": 531.75,
+       "h": 96.75,
+       "ix": -92.45416078984485,
+       "iy": -1.937984496124031,
+       "iwp": 192.6657263751763,
+       "ihp": 218.60465116279067,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 81.60371121297602,
+         "y": 7.418594557493539
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 42.25251234132581,
+         "y": 75.63564882105943
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 90.34842207334273,
+         "y": 75.63564882105943
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 80.75744887165021,
+         "y": 89.58913719315245
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 띠의 오른쪽 — 내보내기 · 기간 필터 · 보기 전환 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 232.875,
+       "fy1": 329.625
+      },
+      {
+       "img": "p13_3.png",
+       "iw": 2328,
+       "ih": 481,
+       "w": 395.625,
+       "h": 53.25,
+       "ix": 0.0,
+       "iy": -119.01408450704226,
+       "iwp": 172.89099526066352,
+       "ihp": 266.19718309859155,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 77.45408767772511,
+         "y": 14.887305604460094
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 29.20764218009479,
+         "y": 86.71829151995306
+        }
+       ],
+       "cap": [
+        {
+         "t": "목록 왼쪽 — 조건에 맞는 이력이 없는 상태 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 353.625,
+       "fy1": 406.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "역할과 배정이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "언제 · 누구에게 · 무엇에서 무엇으로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 바뀌었는지를 모아 보는 화면입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "덧붙이기만 가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해서 한 번 쌓인 줄은 고치⁣거나 지울 수 없습니다 — 잘못 기록된 것이 있으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "바로잡는 새 줄을 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하는 방식으로 정정합니다. 화면은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사람의 배정 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 기본⁣이고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "역할 자체의 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "은 맨 아래에 따로 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "변경 유형 · 대상 사용자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 어떤 종류의 변경인지, 누구에 대한 변경인지로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「CSV 내보내기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 화면에 보이는 항목을 파일로 받습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "기간 (from)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 날짜부터.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "기간 (to)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 날짜까지.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "「테이블」 / 「사용자별 타임라인」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 표로 볼지, 사람별로 묶어 시간 순서대로 볼지 고릅니다. 한 사람의 역할이 어떻게 옮겨 다녔는⁣지 볼 때는 타임라인이 편합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "부제가 이 화면의 성격을 밝힙니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "21 CFR Part 11 § 11.10(e) · 수정·삭제 불가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ".",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "파랑 안내 — “본 화면의 모든 항목은 추가만 가능하며 수정·삭제할 수 없습니다. 데이터 정정이 필요하면 새 배정/해제/변경 항목을⁣추가하여 보정하세요.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "현재 표시 N 건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필터에 걸린 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "표는 7열",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 일시 · 대상 · 유형 · 이전 → 신규 · SITE 변경 · 사유 · 수행자. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열에는 배정할 때 적어 둔 사유가 그대로 나옵⁣니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "「역할 정의 변경 이력」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 접혀 있는 영역을 펼치면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "역할 자체의 생성·수정·비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 나옵니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정 이력과는 별개",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이므로 권한이⁣언제 바뀌었는지는 이쪽에서 찾습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "이 화면은 감사자와 워크스페이스 관리자만 들어올 수 있습니다. 그런데 역할 목록 화면의 「이력」 버튼은 누구에게나 보입니다 — 연⁣구책임자나 데이터 관리자가 눌러도 이동은 되지만 들어오면 권한 안내로 막힙니다. 버튼이 보인다고 열람 권한이 있는 것은 아니니,⁣이력이 필요하면 감사자나 워크스페이스 관리자에게 요청하십시오. 이력은 「CSV 내보내기」로 전달할 수 있는데, 받는 범위가 지금 화⁣면에 보이는 항목까지이므로 기간 필터를 먼저 맞춘 뒤 내보내야 합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 역할 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "역할 변경 이력",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

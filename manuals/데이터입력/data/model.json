@@ -1,0 +1,5040 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 데이터 입력",
+ "src": "SMART-EDC_사용자매뉴얼_데이터입력.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "데이터 입력 목록",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "데이터 입력 목록 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "데이터 입력 목록 > 목록 읽는 법"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "방문 타임라인",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "방문 타임라인 > 타임라인 구성"
+    },
+    {
+     "no": "2.2",
+     "title": "방문 타임라인 > 방문 행과 CRF 행"
+    },
+    {
+     "no": "2.3",
+     "title": "방문 타임라인 > 방문 상태 변경"
+    },
+    {
+     "no": "2.4",
+     "title": "방문 타임라인 > 건너뛰기 결과"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "CRF 데이터 입력",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "CRF 데이터 입력 > 입력 화면"
+    },
+    {
+     "no": "3.2",
+     "title": "CRF 데이터 입력 > 저장 완료"
+    },
+    {
+     "no": "3.3",
+     "title": "CRF 데이터 입력 > Query 답변"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "데이터 입력",
+    "SCR-VISIT-010·003·007 · SCR-CRF-005 · 워크리스트 · 방문 타임라인 · CRF 입력 · Query 답변",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-28"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 데이터 입력 목록 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 1623,
+       "ih": 1098,
+       "w": 531.375,
+       "h": 229.875,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 156.93311582381727,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 8.478519760056457,
+         "y": 30.20238580750408
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 29.438293930839805,
+         "y": 27.59227161500816
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 54.91465243472125,
+         "y": 27.59227161500816
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 89.77703775582216,
+         "y": 42.9266924959217
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 26.96828687367678,
+         "y": 10.13713295269168
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 41.78832921665491,
+         "y": 17.641211256117455
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 51.95064396612562,
+         "y": 35.912010603588904
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 62.959818278052225,
+         "y": 35.912010603588904
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 77.92100388143966,
+         "y": 35.912010603588904
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 79.89700952717008,
+         "y": 95.94463703099511
+        }
+       ],
+       "cap": [
+        {
+         "t": "데이터 입력 목록 (SCR-VISIT-010) — 피험자별 마지막 방문과 다음 방문을 한 줄에 보여줍니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 351.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "매일 데이터를 입력하는 사람이 가장 먼저 여는 화면입니다. 담당 피험자마다 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "마지막으로 수행한 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "다음에 예정된 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 한 줄⁣로 모아, 오늘 무엇을 해야 하는지 한눈에 보게 합니다. 실제 입력은 이 목록에서 바로 하지 않고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 타임라인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 거쳐 해당 방문의⁣CRF 로 들어가 수행합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구 운영 > 데이터 입력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 화면의 상시 입구입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — Screening No 또는 고유번호로 행을 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상태 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 5종 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체 · 진행 · 전건완료 · 방문 실적 없음 · Terminal",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 각 분류의 뜻은 1.2 의 표를 참조하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "방문 타임라인 ▶",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 피험자의 방문 전체를 엽니다 (2.1 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "행의 아무 곳이나 선택해도 같은 화면으로 이동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 방문 피험자 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "제목 아래에 이 목록이 무엇인지와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "전체 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 표시됩니다. 담당 Site 가 정해진 역할에게는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "내 Site 고정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 함께 표시되며, 이⁣때 목록은 자기 Site 피험자만으로 자동 제한됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 피험자의 현재 상태와 미처리 Query 건수입니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "마지막 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 직전에 수행이 끝난 방문과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실제 방문일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "다음 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 가장 가까운 미완료 예정 방문과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "예정일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 두 열의 날짜는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "축이 다릅니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "표시 건수 · 페이지 크기 · 쪽 이동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록 하단에 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "왼쪽 메뉴 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구 운영 > 데이터 입력",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "오늘 예정 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 위젯의 행",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "오늘 예정 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 위젯의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 워크리스트 →",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 현황",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 위젯의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "타임라인",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "담당 Site 가 정해진 역할(연구책임자·연구간호사·임상연구모니터요원)에게는 자기 Site 피험자만 표시됩니다. 목록에 있어야 할 피험⁣자가 보이지 않으면 먼저 Site 배정을 확인하십시오 — 검색이나 필터로는 범위 밖 피험자를 불러올 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "데이터 입력",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 데이터 입력 목록 > 목록 읽는 법",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 1623,
+       "ih": 1098,
+       "w": 531.75,
+       "h": 156.0,
+       "ix": -17.70098730606488,
+       "iy": -56.97115384615385,
+       "iwp": 117.91255289139633,
+       "ihp": 272.11538461538464,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 65.5247267277856,
+         "y": 30.562650240384613
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 88.0917224964739,
+         "y": 30.562650240384613
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 88.0917224964739,
+         "y": 56.04341947115385
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 41.829381170662906,
+         "y": 24.312650240384613
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 46.20173660084626,
+         "y": 24.312650240384613
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 64.11428949224259,
+         "y": 80.56265024038461
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 87.52754760225669,
+         "y": 43.06265024038461
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 73.42317524682652,
+         "y": 80.56265024038461
+        }
+       ],
+       "cap": [
+        {
+         "t": "목록 본문 — 두 방문 칸과 배지가 그 피험자의 현재 위치를 알려줍니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 277.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "한 행이 피험자 한 명입니다. 가운데 두 칸이 이 화면의 핵심으로, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "왼쪽은 이미 끝난 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "오른쪽은 앞으로 할 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 두 칸과⁣액션 열은 모두 그 피험자의 방문 타임라인으로 이어지며, 방문 칸을 선택하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해당 방문이 선택된 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "마지막 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 칸 — 선택하면 그 방문이 선택된 상태로 타임라인이 열립니다. 방문명 옆 날짜는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실제 방문일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "다음 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 칸 — 선택하면 그 방문이 선택된 상태로 타임라인이 열립니다. 방문명 옆 날짜는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "예정일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "방문 타임라인 ▶",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 특정 방문을 지정하지 않고 그 피험자의 방문 전체를 엽니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자의 현재 진행 상태입니다 (“투약 중” · “치료 종료” · “등록 완료” 등).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Q N",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 피험자의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미처리 Query 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 0 건이면 표시되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "DONE",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 마지막 방문 칸에만 붙는 수행 완료 표시입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "SCHEDULED",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지연",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 앞은 예정 상태이고, 뒤는 허용 기간(Window)을 넘겼다는 경고입니다. 기간에 막 들어선 방문에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "임박",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이⁣표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "전건 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 수행 실적이 있고 더 할 방문이 없는 상태입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "예정 방문 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(주황)과 혼동하지 마십시오 (아래 표 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "상태 필터 4종 (전체 제외)",
+     "head": [
+      "필터",
+      "그 분류에 들어가는 행",
+      "해야 할 일"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "진행",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "다음 방문이 남아 있는 피험자",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "예정일에 맞춰 방문과 입력을 수행",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "전건완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "수행 실적이 있고 다음 방문이 없는 피험자",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "없음 — 정상 종료 상태",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "방문 실적 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "수행 실적도 예정 방문도 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "둘 다 없는",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 피험자",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "조치 필요",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 방문이 전개되지 않은 원인을 확인",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "Terminal",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "종료 상태로 굳은 피험자",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "없음 — 조회만 가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      15.6,
+      40.3,
+      44.1
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "「전건 완료」 와 「예정 방문 없음」 은 뜻이 반대입니다. 앞은 할 일이 없는 것이고, 뒤는 방문이 하나도 전개되지 않아 원인을 찾아야⁣하는 상태입니다. 두 문구가 같은 칸에 표시되므로 색(회색 · 주황)과 문구를 함께 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 데이터 입력 > ",
+     "cur": false
+    },
+    {
+     "t": "목록 읽는 법",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "2.1 방문 타임라인 > 타임라인 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 1360,
+       "ih": 743,
+       "w": 531.375,
+       "h": 160.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 181.73302107728338,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 79.47357974594213,
+         "y": 14.318647540983607
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 95.98734121383204,
+         "y": 23.452137002341917
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 58.44323394495413,
+         "y": 41.719115925058546
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 31.484871206774876,
+         "y": 4.248389929742389
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 13.98310691601976,
+         "y": 35.63012295081967
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 60.41923959068455,
+         "y": 29.072745901639347
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 10.454525405786875,
+         "y": 53.428717798594846
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 93.44676252646437,
+         "y": 53.428717798594846
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 58.44323394495413,
+         "y": 69.11958430913349
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 29.932295342272408,
+         "y": 75.4427693208431
+        }
+       ],
+       "cap": [
+        {
+         "t": "방문 타임라인 (SCR-VISIT-003) 상단 — 요약 줄과 방문 그룹",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 281.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "한 피험자의 방문 전체를 연구 일정 순서대로 보여주는 화면입니다. 방문은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "선별 단계 · 치료 단계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 같은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그룹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 묶여 있고, 주기 치료⁣는 그 안에서 다시 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Cycle",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 나뉩니다. 데이터 입력도, 방문 상태 변경도 모두 이 화면에서 시작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Cycle 수동 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 정의된 주기 외에 Cycle 을 더 만듭니다. 직전 Cycle 이 종결되어야 선택할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "방문 수동 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계획에 없던 방문(비계획·상시 방문)을 추가합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Gantt 타임라인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭 — 같은 내용을 일정 막대 형태로 봅니다. 기본은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 그룹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 방문 피험자 목록 / 피험자 · 방문 타임라인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 피험자 화면에서 들어오면 경로가 달라집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "피험자 식별 줄 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Screening No · 피험자 번호 · 피험자 상태 · Site",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "방문 집계 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "총 건수 · 방문 수행 · 방문 진행 · 방문 예정 · 미방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 미방문이 남아 있으면 그 방문을 먼저 정리해야 합니다⁣(2.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "방문 그룹",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 연구 일정의 큰 마디입니다. 괄호 안 숫자는 그 그룹의 방문 수이며, 제목을 선택하면 접고 펼 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "그룹 오른쪽 집계 — 그 그룹 안의 상태별 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "방문 행의 구성 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기준 · 계획일 · 실제일 · 허용 기간 · 상태 배지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순으로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "결합된 CRF 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 방문에 연결된 CRF 가 없다는 뜻입니다. 입력할 자료가 없는 방문이며, 연결은 방문 정의의 CRF 매핑에서 관⁣리합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "데이터 입력 목록 → 행 선택 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 타임라인 ▶",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " (1.2 참조)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "데이터 입력 목록 → ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "마지막 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "다음 방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 칸 (해당 방문이 선택된 상태로 열림)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자 목록 → 행의 액션 메뉴 → ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 현황",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 위젯 → 피험자 선택",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "방문 집계의 「미방문」 은 그대로 두면 사라지지 않습니다. 예정일이 지난 방문은 수행하거나, 건너뛰기·취소·해당 없음 중 하나로 사유⁣와 함께 정리해야 합니다 (2.3 참조). 정리하지 않은 미방문은 그 피험자의 자료가 완결되지 않은 것으로 집계됩니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 데이터 입력 > ",
+     "cur": false
+    },
+    {
+     "t": "방문 타임라인",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.2 방문 타임라인 > 방문 행과 CRF 행",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 1360,
+       "ih": 743,
+       "w": 531.375,
+       "h": 130.5,
+       "ix": 0.0,
+       "iy": -122.70114942528735,
+       "iwp": 100.21171489061398,
+       "ihp": 223.56324177592194,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 15.959112561750178,
+         "y": 37.109187919061306
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 27.95628969654199,
+         "y": 45.442521252394634
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 1.280213479181369,
+         "y": 89.12068217193486
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 15.747397671136204,
+         "y": 89.12068217193486
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 13.98310691601976,
+         "y": 10.38504998802682
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 85.96616972477065,
+         "y": 10.38504998802682
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 18.9231210303458,
+         "y": 28.201141942049805
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 74.95699541284404,
+         "y": 37.109187919061306
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 84.97816690190544,
+         "y": 37.109187919061306
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 78.90900670430487,
+         "y": 45.442521252394634
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 20.475696894848273,
+         "y": 57.22413044779694
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 38.9654640084686,
+         "y": 69.86780860871647
+        }
+       ],
+       "cap": [
+        {
+         "t": "치료 단계 — 방문 행을 펼치면 그 방문에 결합된 CRF 행이 표시됩니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 251.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "방문 행 왼쪽의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "펼침 표시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 선택하면 그 방문에 결합된 CRF 가 한 줄씩 나타납니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CRF 행을 선택하면 입력 화면으로 이동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다⁣(3.1 참조). 방문 행을 선택하면 화면 아래에 그 방문의 상세가 열리고, 거기에서 상태 변경과 이력 확인을 수행합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "방문 행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택하면 아래에 그 방문의 상세가 열립니다. 왼쪽 펼침 표시로 결합된 CRF 목록을 펼칩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "CRF 행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택하면 그 CRF 의 입력 화면으로 이동합니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "상태 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 방문의 수행 여부를 기록하거나 건너뛰기·취소·해당 없음으로 정리합니다 (2.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 방문에 일어난 상태 변경 기록을 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "그룹 제목과 방문 수입니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "치료 단계 (Arm A)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 처럼 시험군이 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "그룹 오른쪽 집계 — 그 그룹의 상태별 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Cycle",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 과 그 안의 방문 구분입니다. 주기 치료는 같은 방문이 Cycle 마다 반복됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "방문 단위 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필수 입력 집계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 방문에 결합된 CRF 의 필수 항목이 얼마나 채워졌는지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "CRF 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 제목 — 아래 CRF 행의 배지가 이 두 축을 나타냅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "CRF 행의 배지 — 왼쪽부터 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필수 입력 집계 · 입력 상태 · Query 표시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Q",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 보이면 그 CRF 에 처리할 Query 가 있습니다 (3.3⁣참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "선택한 방문의 상세 머리 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문명 · 방문 유형 · 현재 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "상세의 주요 값 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "계획일 · 실제일 · 허용 기간(Window) · Visit-Event 상태 · Cycle 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "방문 행의 집계와 CRF 행의 집계는 범위가 다릅니다. 방문 행은 그 방문에 결합된 CRF 전체를 합산한 값이고, CRF 행은 그 CRF 하나⁣의 값입니다. 방문이 100% 로 보여도 결합된 CRF 가 하나뿐이면 같은 숫자가 되므로, 어느 쪽 숫자를 보고 있는지 확인하고 판단하십⁣시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 타임라인 > ",
+     "cur": false
+    },
+    {
+     "t": "방문 선택",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.3 방문 타임라인 > 방문 상태 변경",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 1154,
+       "ih": 918,
+       "w": 225.75,
+       "h": 199.5,
+       "ix": -39.03654485049834,
+       "iy": -33.27067669172932,
+       "iwp": 186.04651162790697,
+       "ihp": 167.29323308270676,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 42.54827657807309,
+         "y": 31.417288338032584
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 76.76754568106313,
+         "y": 30.665408638784463
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 42.54827657807309,
+         "y": 45.51503269893484
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 84.24262873754152,
+         "y": 62.62029585682958
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 84.24262873754152,
+         "y": 75.77819059367168
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 97.03332641196013,
+         "y": 91.94360412750626
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 56.335651993355484,
+         "y": 12.996235706453636
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 83.24595099667775,
+         "y": 10.364656759085213
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 18.46189784053156,
+         "y": 22.7706717966792
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 17.465220099667775,
+         "y": 57.35713796209273
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 20.455253322259136,
+         "y": 70.13909284931079
+        }
+       ],
+       "cap": [
+        {
+         "t": "방문 상태 변경 (SCR-VISIT-007) — 미방문 방문에서 선택할 수 있는 액션 3종 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 320.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "예정일이 지났는데 수행되지 않은 방문을 정리하는 창입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 상태에서 가능한 액션만 표시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되므로, 캡처처럼 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태에서는⁣건너뛰기·취소·해당 없음 세 가지가 나타납니다. 어느 것을 선택하든 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사유 입력이 필수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며, 기록은 감사 추적에 남습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "건너뛰기 (SKIP)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 방문 자체를 수행하지 않았다는 기록입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "편차(Deviation) 대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "취소 (CANCEL)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입력된 CRF 는 삭제되지 않고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 완결성 집계에서만 제외되며, 이후 입력은 조회 전용이 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "해당 없음 (NA)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 피험자에게 해당하지 않는 방문입니다. 편차 대상이 아닙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 건너뛰기는 프로젝트에 등록된 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사유 목록에서 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하며, 목록을 불러오지 못하면 직접 입력란으로 대체됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "메모",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 입력입니다. 목록의 사유만으로 설명이 부족할 때 덧붙입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "실행 버튼",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택한 액션의 이름이 표시되며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사유를 선택하기 전에는 흐리게 표시되어 선택할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 창만 닫습⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "대상 방문 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 유형 · 방문명 · 계획일 · 현재 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 상태 배지가 “✕ 미방문” 인지 확인한 뒤 진행하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "액션 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택한 카드에 색 테두리가 표시됩니다. 카드를 바꾸면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입력하던 사유와 메모는 초기화됩니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "사유 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "*",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 필수 항목 표시입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "메모 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(선택)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 비워 두어도 된다는 표시입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "액션 4종 — 상황에 맞는 것만 표시됩니다",
+     "head": [
+      "액션",
+      "표시되는 상황",
+      "편차 대상",
+      "되돌리기"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "방문 수행 처리",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "방문이 진행 중일 때",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "수행일에 따라 판정",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "되돌릴 수 없음",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "건너뛰기 (SKIP)",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "미방문 · 수행 기록 없음",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "복원 가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "취소 (CANCEL)",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "미방문 또는 진행 중",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "대상 아님",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "복원 가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "해당 없음 (NA)",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "미방문 · 수행 기록 없음",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "대상 아님",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "복원 가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      22.1,
+      31.0,
+      25.9,
+      21.0
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "주기(Cycle) 방문을 「취소」 하면 다음 Cycle 을 추가할 수 없게 됩니다. 종결로 인정되는 것이 수행 · 건너뛰기 · 해당 없음이고 취소는⁣제외되기 때문입니다. 잘못 만든 Cycle 은 취소 대신 해당 없음으로 정리하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 타임라인 > ",
+     "cur": false
+    },
+    {
+     "t": "방문 상태 변경",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "2.4 방문 타임라인 > 건너뛰기 결과",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 660,
+       "ih": 101,
+       "w": 423.375,
+       "h": 64.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.26572187776794,
+       "ihp": 101.75438596491229,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 27.470383082373782,
+         "y": 22.30407833820663
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 30.48189769707706,
+         "y": 51.543844420077974
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 76.540356510186,
+         "y": 78.44442921539961
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 93.54655668733393,
+         "y": 78.44442921539961
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 38.98499778565102,
+         "y": 78.44442921539961
+        }
+       ],
+       "cap": [
+        {
+         "t": "건너뛰기를 실행한 뒤의 방문 행 — 상태 배지가 「⊘ 건너뜀」 으로 바뀝니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 185.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "건너뛰기를 실행하면 창이 닫히고 타임라인으로 돌아옵니다. 그 방문 행의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태 배지가 바뀌고 방문명에 취소선",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 표시되어, 목록에서⁣바로 구별됩니다. 실제일은 끝까지 비어 있으며, 입력한 사유는 그 방문의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에서 확인할 수 있습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "방문이 속한 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그룹과 Cycle",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다 — 건너뛰기는 그 방문 하나에만 적용되고 같은 그룹의 다른 방문에는 영향을 주지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "방문 행 — 방문명에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "취소선",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "행 가운데의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 남습니다. 옆의 허용 기간은 계획값 그대로 유지됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "행 오른쪽 끝의 ⊘",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 건너뜀",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 건너뛰기 처리의 결과 표시입니다. 되돌리려면 그 방문을 다시 선택해 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상태 변경 > 복원",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 수행합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "결합된 CRF 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 방문에 연결된 CRF 가 없다는 뜻이며, 건너뛰기와는 무관한 별개의 표시입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "방문 상태 배지 7종",
+     "head": [
+      "배지",
+      "뜻",
+      "입력 가능 여부"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "○ 방문 예정",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "예정일이 아직 남은 방문",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "◐ 방문 진행",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "수행이 시작된 방문",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "✓",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 방문 수행",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "수행이 끝난 방문",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "✕",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 미방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "예정일이 지났는데 정리되지 않은 방문",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "정리 필요",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "⊘",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 건너뜀",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "수행하지 않기로 기록한 방문 (편차 대상)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "불가",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "⊗",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "취소한 방문 — 기존 CRF 는 유지",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "조회 전용",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "– 해당 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "이 피험자에게 해당하지 않는 방문",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "불가",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      19.6,
+      54.2,
+      26.2
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "건너뛰기는 편차(Deviation) 로 집계됩니다. 되돌릴 수는 있지만 처리와 복원이 모두 이력에 남으므로, 사유를 확인하지 않은 채 임시⁣로 눌러 보는 용도로 사용하지 마십시오. 방문을 아직 수행할 수 있다면 상태를 바꾸지 말고 그대로 두십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 타임라인 > ",
+     "cur": false
+    },
+    {
+     "t": "건너뛰기 처리 결과",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.1 CRF 데이터 입력 > 입력 화면",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 1376,
+       "ih": 561,
+       "w": 531.375,
+       "h": 172.875,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 125.81344902386118,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 90.48275405786875,
+         "y": 59.2494520516992
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 90.48275405786875,
+         "y": 75.95227200831526
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 90.48275405786875,
+         "y": 92.00433274584238
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 90.90618383909668,
+         "y": 16.082423852133044
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 97.3987738179252,
+         "y": 16.082423852133044
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 32.47287402964009,
+         "y": 2.850321937279691
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 29.932295342272408,
+         "y": 10.876350099421547
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 21.887129498941427,
+         "y": 14.347065934562545
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 37.41288814396613,
+         "y": 19.986979166666664
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 7.913946718419195,
+         "y": 29.965287192697037
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 10.454525405786875,
+         "y": 65.10628502349964
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 39.953466831333806,
+         "y": 34.737521466015906
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 37.41288814396613,
+         "y": 41.678953136297906
+        },
+        {
+         "kind": "ref",
+         "n": 9,
+         "x": 19.205407551164434,
+         "y": 59.2494520516992
+        }
+       ],
+       "cap": [
+        {
+         "t": "CRF 입력 화면 (SCR-CRF-005) — 아직 저장한 적이 없는 상태입니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 294.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "실제 자료를 입력하는 화면입니다. 왼쪽은 같은 피험자의 CRF 를 오가는 탐색 영역이고, 오른쪽이 입력 영역입니다. 처음 들어왔을 때⁣는 자료가 아직 만들어지지 않은 상태이며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "저장을 수행하는 시점에 비로소 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다 — 화면을 열어만 두고 나가면 아무것도 남지⁣않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "수축기혈압",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 숫자 입력란입니다. 양옆의 값이 허용 범위입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이완기혈압",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 방식으로 입력합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "방문일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 달력 아이콘으로 날짜를 선택하거나 직접 입력합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "임시저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력 중인 내용을 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "임시로 보관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다. 검증을 거치지 않고 감사 기록도 남지 않으므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "확정 저장이 아닙니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 확정합니다. 이때 자료가 생성되고 검증과 감사 기록이 함께 수행됩니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 방문 피험자 목록 / 방문 타임라인 / 피험자 · CRF명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "NOT_CREATED",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아직 저장한 적이 없다는 표시입니다. 저장하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "IN_PROGRESS",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "COMPLETED",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "CRF 코드와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "회차 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 같은 방문에서 반복 수집하는 CRF 는 회차가 늘어납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "피험자 식별 줄 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Screening No · 피험자 번호 · 상태 · Site · 성별 · 생년월일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "상세",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 피험자 정보를 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "CRF 탐색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 피험자의 다른 방문·CRF 로 바로 이동합니다. 접기 아이콘으로 영역을 숨길 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "현재 열려 있는 CRF 가 강조 표시됩니다. 느낌표 표시가 붙은 항목은 처리할 것이 남은 CRF 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "필수 입력 집계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “0/3 완료 · 0%” 와 미완료 건수입니다. 필수 항목을 모두 채우기 전에는 입력 완료로 집계되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "미완료 항목 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택하면 해당 입력란으로 이동합니다. 항목이 많은 양식에서 빠진 칸을 찾을 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 9,
+       "runs": [
+        {
+         "t": "입력란 양옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "허용 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 단위입니다. 범위를 벗어난 값은 저장할 때 검증에 걸립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "「임시저장」 은 확정 저장이 아닙니다. 임시저장한 내용은 검증을 거치지 않고 감사 기록도 남지 않으므로, 그대로 화면을 떠나면 그⁣자료는 정식 자료로 집계되지 않습니다. 입력을 마쳤으면 반드시 저장으로 확정하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 타임라인 > ",
+     "cur": false
+    },
+    {
+     "t": "CRF 입력",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.2 CRF 데이터 입력 > 저장 완료",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 1393,
+       "ih": 447,
+       "w": 531.375,
+       "h": 160.875,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 106.2937062937063,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 97.3987738179252,
+         "y": 20.545448475135974
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 77.49757410021172,
+         "y": 19.613047542735043
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 84.97816690190544,
+         "y": 19.613047542735043
+        },
+        {
+         "kind": "res",
+         "n": 1,
+         "x": 29.932295342272408,
+         "y": 12.153840083527584
+        },
+        {
+         "kind": "res",
+         "n": 1,
+         "x": 60.98381263232181,
+         "y": 11.687639617327116
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 44.4700511644319,
+         "y": 37.32866525835276
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 54.91465243472125,
+         "y": 37.32866525835276
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 93.729049047283,
+         "y": 48.05127598096348
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 29.932295342272408,
+         "y": 73.69230162198912
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 10.454525405786875,
+         "y": 69.49649742618492
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 32.47287402964009,
+         "y": 3.062933363836684
+        }
+       ],
+       "cap": [
+        {
+         "t": "저장을 확정한 뒤 — 상태와 집계가 함께 바뀌고 이력·삭제 기능이 나타납니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 282.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "저장을 수행하면 자료가 생성되고 화면 곳곳의 표시가 함께 바뀝니다. 필수 항목을 모두 채운 상태로 저장했으므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입력 상태는 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣가 되었고, 아직 검증을 받지 않았으므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "품질 상태는 검증 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 자료가 생기면서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "변경 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "삭제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 함께 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 확정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 1,
+       "runs": [
+        {
+         "t": "상태가 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "COMPLETED",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 로 바뀌고 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "저장됨",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 이 표시됩니다. 필수 항목이 남아 있었다면 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "IN_PROGRESS",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 가 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "변경 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 누가 언제 어떤 값을 어떻게 바꿨는지 확인합니다. 저장한 자료가 있어야 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "삭제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력한 자료를 거둡니다. 기록은 남으며 사유 입력이 필요합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "필수 입력 집계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 “3/3 완료 · 100%” 와 “모든 필수 입력 완료” 로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "품질",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "검증 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 원자료 대조(SDV)가 끝나면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "SDV 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 처리할 Query 까지 없으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CLEAN",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "항목마다 붙는 두 아이콘 — 왼쪽은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 항목의 Query",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 오른쪽은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 항목의 변경 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 자료가 생성된 뒤에 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "저장된 값이 입력란에 그대로 표시됩니다. 값을 고치고 다시 저장할 때는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "변경 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 요구받습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "CRF 탐색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에서 현재 CRF 가 강조 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "이동 경로는 저장 전과 같습니다 — 저장은 화면을 이동시키지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "입력 상태와 품질 상태 — 서로 다른 두 축",
+     "head": [
+      "축",
+      "표시",
+      "뜻"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "입력 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "NOT_CREATED",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "아직 저장한 적이 없음 (자료 미생성)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "입력 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "IN_PROGRESS",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "저장했으나 필수 항목이 남음",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "입력 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "COMPLETED",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "필수 항목을 모두 채워 저장함",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "품질 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "검증 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "원자료 대조(SDV)가 끝나지 않음",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "품질 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "SDV 완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "SDV 는 끝났으나 미완결 또는 Query 잔존",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "품질 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "CLEAN",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "입력 완료 + SDV 전건 + 처리할 Query 없음",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      16.3,
+      23.5,
+      60.1
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "입력 완료와 품질 완결은 다릅니다. “3/3 완료 · 100%” 는 필수 칸을 다 채웠다는 뜻일 뿐이고, 그 값이 의료기관 원자료와 일치하는⁣지는 아직 확인되지 않았습니다. 자료가 최종 확정되려면 원자료 대조(SDV)와 Query 처리가 함께 끝나야 합니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : CRF 입력 > ",
+     "cur": false
+    },
+    {
+     "t": "저장 완료",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "3.3 CRF 데이터 입력 > Query 답변",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 1386,
+       "ih": 756,
+       "w": 531.375,
+       "h": 202.5,
+       "ix": 0.0,
+       "iy": -4.2592592592592595,
+       "iwp": 100.21171489061398,
+       "ihp": 143.70370370370372,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 89.91818101623149,
+         "y": 41.32221739969136
+        },
+        {
+         "kind": "res",
+         "n": 1,
+         "x": 19.91112385321101,
+         "y": 68.3592544367284
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 95.42276817219478,
+         "y": 78.54443962191357
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 19.487694071983064,
+         "y": 90.21110628858024
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 97.3987738179252,
+         "y": 11.507402584876543
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 30.49686838390967,
+         "y": 5.766663727936922
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 61.97181545518702,
+         "y": 26.137032214506174
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 93.94076393789696,
+         "y": 34.28518036265432
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 37.41288814396613,
+         "y": 49.09999517746913
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 84.97816690190544,
+         "y": 49.09999517746913
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 39.953466831333806,
+         "y": 61.87777295524691
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 32.47287402964009,
+         "y": 72.80369888117283
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 42.91747529992943,
+         "y": 90.21110628858024
+        }
+       ],
+       "cap": [
+        {
+         "t": "입력한 값에 Query 가 걸린 상태 — 해당 항목 바로 아래에 답변 카드가 표시됩니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 323.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "입력한 값에 확인 요청(Query)이 걸리면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 항목 바로 아래에 답변 카드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 펼쳐집니다. 값을 고치는 일과 답변을 쓰는 일을 같은 자리⁣에서 수행하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "폼의 저장 한 번으로 둘이 함께 처리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "됩니다. 답변만 따로 보내는 별도의 화면으로 이동할 필요가 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "값 수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 원자료를 확인한 결과 값이 틀렸다면 이 입력란에서 바로 고칩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 1,
+       "runs": [
+        {
+         "t": "해소 방식",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "이 그 자리에서 바뀝니다 — 값을 고치면 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "값 정정",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": ", 고치지 않으면 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "현행 유지",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 입니다. ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "직접 고르는 항목이 아니라 값 변⁣경 여부에 따른 판정 결과",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "답변 코멘트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "5자 이상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입력해야 합니다. 원자료를 확인한 결과와 수정 여부를 기술합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "이 코멘트를 변경 사유로 함께 사용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 값을 고친 경우 따로 요구되는 변경 사유를 이 코멘트로 갈음합니다. 같은 내용을 두 번 입력⁣하지 않아도 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 값 수정과 답변이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "함께",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 처리됩니다. 답변만 저장되고 값은 남는 일이 생기지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "IN_PROGRESS",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 값을 고치는 중이므로 입력 상태가 진행 중으로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Query 미처리 N건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 CRF 에서 답변해야 할 건수입니다. 답변을 마쳤으나 아직 종결되지 않은 건은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종결 대기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 따로 표시됩니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "항목 오른쪽의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 아이콘",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "과 건수입니다. 선택하면 그 항목의 Query 를 조회합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "카드 머리 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "처리 상태 · 중요도 · 제목",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "담당자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "접기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 항목이 많은 양식에서는 카드가 접힌 상태로 시작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "질의 본문 — 확인을 요청한 내용입니다. 답변 전에 반드시 읽으십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "(5자 이상)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 조건을 채우지 못하면 저장이 거절됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "이력·상세 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 Query 의 전체 대화와 처리 이력을 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "Query 는 아무나 답변할 수 없습니다. 답변 권한이 있는 역할이면서 동시에 그 건의 담당자이거나 등록자여야 합니다. 카드는 보이는⁣데 입력이 되지 않는다면 본인이 담당자가 아닌 경우이므로, Query 목록에서 담당자를 확인해 전달하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : CRF 입력 > ",
+     "cur": false
+    },
+    {
+     "t": "Query 답변",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

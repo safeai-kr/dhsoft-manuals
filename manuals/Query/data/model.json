@@ -1,0 +1,4416 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — Query",
+ "src": "SMART-EDC_사용자매뉴얼_Query.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "Query 목록",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "Query 목록 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "Query 목록 > 행 액션 메뉴"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "Query 생성",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "Query 생성 > 처음 열었을 때"
+    },
+    {
+     "no": "2.2",
+     "title": "Query 생성 > 대상 지정과 생성"
+    },
+    {
+     "no": "2.3",
+     "title": "Query 생성 > 생성 결과"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "답변",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "답변 > Query 답변"
+    },
+    {
+     "no": "3.2",
+     "title": "답변 > 데이터 입력 화면에서 답변"
+    }
+   ]
+  },
+  {
+   "ch": "4",
+   "title": "종료와 재질의",
+   "items": [
+    {
+     "no": "4.1",
+     "title": "종료와 재질의 > Query 종료"
+    },
+    {
+     "no": "4.2",
+     "title": "종료와 재질의 > 재질의(Reopen)"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "Query",
+    "SCR-QA-003·004·005·006·007 · 목록 · 생성 · 답변 · 종료 · 재질의",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-28"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 Query 목록 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2550,
+       "ih": 711,
+       "w": 531.75,
+       "h": 142.5,
+       "ix": -15.726375176304655,
+       "iy": -15.526315789473685,
+       "iwp": 169.8166431593794,
+       "ihp": 176.3157894736842,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 24.057872002820872,
+         "y": 63.19490131578947
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 48.59947990126939,
+         "y": 63.19490131578947
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 73.70526269393513,
+         "y": 63.19490131578947
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 96.83643335684063,
+         "y": 63.19490131578947
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 29.981708392101552,
+         "y": 20.826480263157894
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 34.21302009873061,
+         "y": 39.24753289473684
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 71.44856311706629,
+         "y": 39.24753289473684
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 95.99017101551482,
+         "y": 39.24753289473684
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 19.82656029619182,
+         "y": 83.19490131578947
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 71.44856311706629,
+         "y": 83.19490131578947
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 90.20737834978844,
+         "y": 83.19490131578947
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 26.596659026798307,
+         "y": 92.93174342105263
+        }
+       ],
+       "cap": [
+        {
+         "t": "Query 목록 (SCR-QA-004) 왼쪽 영역 — 집계 카드 · 필터 · 대상 열 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 263.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "입력된 자료에 대한 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "확인 요청(Query)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 한곳에서 처리하는 화면입니다. 위에서부터 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "집계 카드 · 필터 · 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순으로 놓여 있고, 목록의⁣각 행이 Query 한 건입니다. 답변 · 종료 · 재질의가 모두 이 화면에서 시작하며, 처리는 행 오른쪽 끝의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "액션 메뉴",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 수행합니다 (1.2⁣참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 필터 — 미처리 · 답변됨 · 종료 등으로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Severity",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 필터 — 경미 · 중요 · 치명으로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Scope",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 필터 — 범위로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "생성 경로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 필터 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "자동(규칙)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "수동",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 좁힙니다. 자동은 검증 규칙이 만든 Query 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "제목 아래 안내 — “본 프로젝트의 Data Query 를 조회하고 답변·종료·재질의를 처리합니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "OPEN",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 아직 답변되지 않은 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "ANSWERED",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 답변은 왔으나 아직 종료되지 않은 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "지연 Query (>30일 OPEN)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 만들어진 지 30일이 넘도록 답변이 없는 건수입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "답변된 건은 아무리 오래돼도 여기에 들어가지⁣않습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — Query 제목입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "제목을 선택하면 Query 상세",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 이동해 처리 이력과 대상별 해소 상태를 확인할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "Scope",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "단일 필드 · 교차 필드 · 교차 CRF · 교차 Visit",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 4종입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "Severity",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "경미 · 중요 · 치명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 3종입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "제목 아래 작은 글자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필드 · 피험자 · 방문 · CRF",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다 — 어느 자료에 걸린 Query 인지 여기에서 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "Query 상태 6종",
+     "head": [
+      "상태",
+      "뜻",
+      "다음에 할 일"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "미처리",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "답변을 기다리는 상태",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "담당자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "답변",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "답변됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "답변이 등록된 상태",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "데이터 관리자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "부분 답변",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "여러 대상 중 일부만 해소된 상태",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "남은 대상을 마저 처리",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "해소가 확인된 상태",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "없음 — 필요하면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "재질의",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "재질의",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "종료했다가 다시 질의한 상태",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "새로 생긴 Query 에 답변",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "폐기된 Query",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "없음 — 이 화면에 취소 기능은 없습니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      13.9,
+      39.0,
+      47.0
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "감사자는 이 화면을 읽을 수만 있습니다. 처리 권한(생성 · 답변 · 종료 · 재질의)을 하나도 갖지 않은 사용자에게는 모든 액션이 비활성⁣으로 표시됩니다. 프로젝트가 종료 · 보관 상태일 때도 같습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "Query 목록",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 Query 목록 > 행 액션 메뉴",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2303,
+       "ih": 606,
+       "w": 531.75,
+       "h": 220.5,
+       "ix": -100.21156558533147,
+       "iy": -6.292517006802721,
+       "iwp": 200.42313117066294,
+       "ihp": 127.21087051357,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 84.98876057827927,
+         "y": 8.527317176870747
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 61.01132757404796,
+         "y": 47.47289540816326
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 76.94926833568407,
+         "y": 47.47289540816326
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 92.60512165021156,
+         "y": 70.9422831632653
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 94.29764633286318,
+         "y": 79.10554846938776
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 86.96337270803949,
+         "y": 84.88786139455783
+        },
+        {
+         "kind": "set",
+         "n": 7,
+         "x": 91.89990303244005,
+         "y": 91.01031037414967
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 43.945037023977434,
+         "y": 27.064732142857146
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 93.94503702397743,
+         "y": 27.064732142857146
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 28.99440232722144,
+         "y": 47.47289540816326
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 37.033894569816646,
+         "y": 60.738201530612244
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 57.97888751763046,
+         "y": 60.738201530612244
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 88.93798483779972,
+         "y": 60.738201530612244
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 38.021200634696754,
+         "y": 70.9422831632653
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 38.021200634696754,
+         "y": 81.99670493197279
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 화면의 오른쪽 영역 — 행 끝의 ⋯ 에서 그 행에 가능한 일만 표시됩니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 341.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "1.1 과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "같은 화면의 오른쪽 영역",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. Query 처리는 행마다 따로 하며, 행 오른쪽 끝의 ⋯ 를 선택하면 메뉴가 열립니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 행의 상⁣태와 내 권한에 따라 항목이 달라집니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "답변됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 행이라 답변과 종료가 함께 보이고, 재질의는 보이지 않습니다. 재질의는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종⁣료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 된 행에서만 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "신규 Query",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 사람이 직접 Query 를 만듭니다 (2.1 참조). 연구책임자 · 모니터요원 · 데이터 관리자에게만 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 메시지 · 필드 · 담당으로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "필터 초기화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 걸어 둔 조건을 한 번에 풉니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "⋯ — 그 행의 액션 메뉴를 엽니다. 할 수 있는 일이 하나도 없으면 ⋯",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 자체가 표시되지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "데이터 입력 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 Query 가 가리키는 CRF 입력 화면으로 이동합니다 (3.2 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "읽기 이동이라 권한과 무관하게 표시",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되며, 감⁣사자도 사용할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "답변",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 답변 창을 엽니다 (3.1 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미처리 · 답변됨 · 재질의",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태에서 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 7,
+       "runs": [
+        {
+         "t": "종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 종료 창을 엽니다 (4.1 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "답변됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태에서만, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 관리자에게만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "지연 Query (>30일 OPEN)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 카드 — 1.1 에서 설명한 집계의 나머지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "표시 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필터를 적용한 뒤",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 지금 화면에 보이는 건수입니다. 앞의 세 카드와 기준이 다릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "생성 경로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 필터 — 자동(규칙) · 수동으로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 메뉴에 무엇이 뜰지는 이 값이 정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "담당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 답변은 담당자 또는 등록자만 할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "경과(일)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 — 만들어진 날로부터 지난 일수입니다. 30일을 넘긴 미처리 건은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "행 전체가 붉게",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "첫 행은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "답변됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이라 답변 · 종료가 함께 열렸습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "둘째 행은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미처리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 라 같은 메뉴를 열면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종료가 빠지고 답변만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "「데이터 입력 화면」 항목이 보이지 않는 Query 도 있습니다. 그 Query 에 피험자 · 방문 · CRF 좌표가 기록되어 있지 않으면 이동할⁣곳을 알 수 없어 항목이 그려지지 않습니다 — 고장이 아닙니다. 이때는 대상 열의 식별자를 보고 해당 CRF 를 직접 찾아가십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Query 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "행 액션 메뉴",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "2.1 Query 생성 > 처음 열었을 때",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2305,
+       "ih": 1087,
+       "w": 152.25,
+       "h": 234.0,
+       "ix": -138.17733990147784,
+       "iy": -13.942307692307693,
+       "iwp": 419.2118226600985,
+       "ihp": 128.52564102564102,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 78.85237068965517,
+         "y": 14.605869391025642
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 66.29079433497537,
+         "y": 20.05458733974359
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 81.06911945812809,
+         "y": 47.29817708333333
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 81.06911945812809,
+         "y": 56.272536057692314
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 37.22675492610838,
+         "y": 72.29817708333334
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 83.03956280788178,
+         "y": 72.29817708333334
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 81.06911945812809,
+         "y": 3.708433493589743
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 74.66517857142857,
+         "y": 26.144330929487182
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 47.57158251231527,
+         "y": 36.08022836538461
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 83.03956280788178,
+         "y": 39.28535657051282
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 3.2366071428571432,
+         "y": 76.78535657051282
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 95.35483374384236,
+         "y": 84.95843349358975
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 49.78833128078818,
+         "y": 93.29176682692307
+        }
+       ],
+       "cap": [
+        {
+         "t": "Manual Query 생성 (SCR-QA-003) — 처음 열었을 때는 대상이 비어 있습니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 355.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "사람이 직접 Query 를 만드는 창입니다. 입력 순서가 번호로 표시되어 있고, ⓪",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 피험자를 먼저 고르지 않으면 나머지가 열리지 않습니⁣다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이후의 방문 · CRF · 필드 목록이 모두 그 피험자에게서 파생되기 때문입니다. 이 구조 덕분에 서로 다른 피험자를 섞어 지정할⁣경로가 아예 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "⓪",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 대상 피험자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 가장 먼저 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "대상 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 확인받을 필드를 추가합니다. 여러 건을 지정할 수 있습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "③ Query 제목",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 목록의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열에 그대로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "내용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "5자 이상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 원자료와 입력값의 차이 또는 모순을 구체적으로 기술합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "④ Severity",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 중요도입니다. 기본값은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "중요",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이며 경미 · 치명으로 바꿀 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "⑤ 담당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 이 Query 에 답변할 사람을 지정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 만들지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "대상 영역의 안내 — “먼저 대상 피험자를 선택하세요.” 피험자를 고르기 전까지 이 자리에는 아무것도 추가할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "② Query 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 비어 있습니다. “대상을 고르면 범위가 정해집니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "범위 안내 — “범위는 고른 대상의 분포로 서버가 정합니다. 위 표시는 미리보기이며 생성 결과가 정본입니다.” ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "직접 고르는 항목이⁣아닙니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "담당 칸이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "직접 입력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 되어 있고 “이 기관에 배정된 활성 연구자가 없습니다. 기관 배정을 먼저 완료하세요.” 가 안내됩니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고⁣를 후보가 없을 때의 대체 입력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며 고장이 아닙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "생성 시 자동 처리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 안내 — 만들면 담당자에게 알림이 가고, 그 CRF 의 품질 상태가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 열림",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 바뀌며, 처리 이력에 생성 기록⁣이 남습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수 항목을 모두 채우기 전에는 생성이 흐리게 표시되어 선택할 수 없습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "담당자를 고를 후보가 없다면 먼저 기관 배정을 끝내십시오. 담당은 필수인데 그 기관에 배정된 활성 연구자가 없으면 고를 대상이 없⁣습니다. 참여 기관 화면의 연구자 배정을 먼저 마친 뒤 돌아오는 것이 정상 경로입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Query 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "Manual Query 생성",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.2 Query 생성 > 대상 지정과 생성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2175,
+       "ih": 1099,
+       "w": 152.25,
+       "h": 243.75,
+       "ix": -138.66995073891627,
+       "iy": -17.692307692307693,
+       "iwp": 401.97044334975374,
+       "ihp": 127.0769230769231,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 41.660252463054185,
+         "y": 22.021534455128204
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 81.5617302955665,
+         "y": 22.021534455128204
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 81.5617302955665,
+         "y": 29.09845753205128
+        },
+        {
+         "kind": "res",
+         "n": 3,
+         "x": 67.76862684729063,
+         "y": 39.86768830128205
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 81.5617302955665,
+         "y": 96.48307291666667
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 69.73907019704434,
+         "y": 7.252303685897436
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 69.73907019704434,
+         "y": 50.94461137820513
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 69.73907019704434,
+         "y": 59.86768830128205
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 37.7193657635468,
+         "y": 75.55999599358975
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 79.59128694581281,
+         "y": 75.55999599358975
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 52.00508004926109,
+         "y": 96.48307291666667
+        }
+       ],
+       "cap": [
+        {
+         "t": "피험자를 고르면 방문 → CRF → 필드 3단이 열리고 범위가 자동으로 정해집니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 364.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자를 고르면 대상 영역이 열리고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문 → CRF → 필드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순으로 좁혀 갑니다. 세 가지를 모두 고르면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "② Query 범위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 자동으로 채⁣워집니다 — 직접 고르는 항목이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지정한 대상이 몇 건에 걸치는지를 보고 시스템이 판단한 결과",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 피험자에게 전개된 방문 중에서 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "CRF",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 방문에 결합된 CRF 중에서 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "필드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 CRF 의 항목 중에서 확인받을 항목을 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 3,
+       "runs": [
+        {
+         "t": "② Query 범위",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "가 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "단일 필드",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 로 확정되고 “대상이 1건입니다” 가 함께 표시됩니다. 대상을 더 추가하면 교차 범위로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "Query 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 만듭니다. 필수 항목(",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 · 대상 · 제목 · 내용 · 담당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ")이 모두 채워져야 선택할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "고른 피험자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Screening No",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 확정되어 표시됩니다. 여기를 바꾸면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "아래 대상이 초기화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되므로 먼저 확정하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "③ Query 제목",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록에서 이 Query 를 찾을 이름이므로 무엇을 묻는지 드러나게 적습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "내용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 담당자가 원자료를 확인할 수 있도록 근거를 적습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "④ Severity",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록의 Severity 열과 필터에 그대로 쓰입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "⑤ 담당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정된 연구자가 있으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "목록에서 고르는 방식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 바뀝니다 (2.1 참조). 역할이 괄호로 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 버리고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "Query 범위는 생성해 봐야 확정됩니다. 창에 보이는 범위는 미리보기이고, 최종 판단은 서버가 합니다. 반복해서 수집하는 CRF 에서⁣는 같은 방문 · 같은 양식이라도 회차가 다르면 교차 범위로 잡힐 수 있으므로, 생성 후 목록의 Scope 열에서 결과를 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Manual Query 생성 > ",
+     "cur": false
+    },
+    {
+     "t": "대상 지정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.3 Query 생성 > 생성 결과",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2292,
+       "ih": 588,
+       "w": 531.375,
+       "h": 154.5,
+       "ix": 0.0,
+       "iy": -11.407766990291263,
+       "iwp": 167.1136203246295,
+       "ihp": 147.0873786407767,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 14.124250176429076,
+         "y": 76.97572183454693
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 36.63660021171489,
+         "y": 25.762129601537215
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 78.20329040225829,
+         "y": 25.762129601537215
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 33.249161961891325,
+         "y": 81.34465387338187
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 77.49757410021172,
+         "y": 76.97572183454693
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 95.70505469301341,
+         "y": 76.97572183454693
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 16.664828863796753,
+         "y": 90.08251795105178
+        }
+       ],
+       "cap": [
+        {
+         "t": "생성 직후 — 목록 맨 위에 새 Query 가 들어오고 집계가 함께 바뀝니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 275.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "생성하면 창이 닫히고 목록으로 돌아옵니다. 새 Query 가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "목록 맨 위",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에 들어오고 집계 카드의 숫자도 함께 바뀝니다. 이 시점에 담당자⁣에게는 이미 알림이 가 있고, 그 CRF 의 품질 상태도 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 열림",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 바뀌어 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "새로 만든 Query — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "제목을 선택하면 Query 상세",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 이동합니다. 아래 작은 글자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필드 · 피험자 · 방문 · CRF",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "OPEN",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 하나 늘었습니다. 새 Query 는 항상 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미처리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 시작합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "ANSWERED",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 그대로입니다 — 답변이 오기 전까지 움직이지 않습니다. 오른쪽의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지연 Query",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 도 그대로이며(경과일 0 이라 30일⁣기준 밖), ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "표시 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 만 함께 늘어납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "새 Query 의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지정한 필드 · 피험자 · 방문 · CRF 가 그대로 실립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "Scope",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 생성 시 서버가 정한 값입니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "Severity",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 창에서 고른 값 그대로입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "기존 Query 는 그대로 남아 있습니다. 경과일이 큰 건은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "행 전체가 붉게",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시되어 먼저 처리할 대상임을 알립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "만든 사람도 자기 Query 에 답변할 수 있습니다. 답변 자격은 담당자 또는 등록자이기 때문입니다. 다만 그렇게 하면 묻고 답한 사람⁣이 같아져 확인의 의미가 사라지므로, 담당자가 원자료를 확인해 답변하도록 두십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Manual Query 생성 > ",
+     "cur": false
+    },
+    {
+     "t": "생성 결과",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 답변 > Query 답변",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2307,
+       "ih": 1075,
+       "w": 192.0,
+       "h": 234.75,
+       "ix": -138.0859375,
+       "iy": -30.191693290734822,
+       "iwp": 418.359375,
+       "ihp": 159.42492012779553,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 66.6290283203125,
+         "y": 48.1054271498935
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 80.8868408203125,
+         "y": 58.96804695820022
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 80.8868408203125,
+         "y": 69.9904111754526
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 78.9337158203125,
+         "y": 95.07028337992546
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 41.6290283203125,
+         "y": 11.523957501331203
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 60.1837158203125,
+         "y": 22.226832900692227
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 22.8790283203125,
+         "y": 37.88178497736954
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 80.8868408203125,
+         "y": 5.932903188232162
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 47.8790283203125,
+         "y": 89.6389734757721
+        }
+       ],
+       "cap": [
+        {
+         "t": "Query 답변 (SCR-QA-005) — 값 수정과 답변을 한 번에 저장합니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 355.875
+      },
+      {
+       "img": "p08_2.png",
+       "iw": 1568,
+       "ih": 101,
+       "w": 531.375,
+       "h": 33.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 103.37078651685394,
+       "badges": [
+        {
+         "kind": "res",
+         "n": 4,
+         "x": 90.90618383909668,
+         "y": 63.078622425093634
+        }
+       ],
+       "cap": [
+        {
+         "t": "저장 직후 — 상태가 「답변됨」 으로 바뀝니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 379.875,
+       "fy1": 413.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "담당자가 원자료를 확인한 결과를 기록하는 창입니다. 대상이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 곳",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이면 이 창에서 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "값 수정과 답변을 함께",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 처리하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "저장 한 번",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로⁣둘이 같이 기록됩니다. 대상이 여러 곳에 걸친 Query 는 값 수정 없이 답변만 받고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "부분 답변",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태가 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "값 수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 원자료와 다르면 여기에서 바로 고칩니다. 양옆이 허용 범위이며 벗어난 값은 저장할 때 걸립니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고치지 않아도 답변할⁣수 있습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "변경 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "값을 고쳤을 때만 필수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며 5자 이상입니다. 값을 그대로 두면 요구되지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "답변 내용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "항상 필수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며 5자 이상입니다. 원자료 확인 결과와 수정 여부를 기술합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "답변 + 값 저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 값과 답변을 함께 저장합니다. 값을 고치지 않았으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "답변 저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 4,
+       "runs": [
+        {
+         "t": "목록의 상태가 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "답변됨",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 으로 바뀌고, 집계의 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "OPEN",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 이 줄고 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "ANSWERED",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 가 늘어납니다. 이제 데이터 관리자의 종료를 기다립니⁣다 (4.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "상태 · Scope · Severity",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지 — 어떤 Query 에 답하고 있는지 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "질의 내용 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "제목 · 본문 · 대상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 답변 전에 반드시 읽으십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "현재 값",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 저장되어 있는 값입니다. 아래 입력란의 값과 비교해 무엇이 바뀌는지 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 답변하지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 버리고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "아무나 답변할 수 없습니다. 답변 권한이 있는 역할이면서 동시에 그 건의 담당자이거나 등록자여야 합니다. 목록에서 답변 항목이 보⁣이지 않는다면 본인이 대상이 아닌 것이므로, 담당 열을 확인해 그 사람에게 전달하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Query 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "Query 답변",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.2 답변 > 데이터 입력 화면에서 답변",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2295,
+       "ih": 1052,
+       "w": 531.75,
+       "h": 258.0,
+       "ix": -23.06064880112835,
+       "iy": -24.563941659853437,
+       "iwp": 200.42313117066294,
+       "ihp": 189.5348718924116,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 30.193273977433005,
+         "y": 42.60755435440892
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 88.93798483779972,
+         "y": 83.59592644743216
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 29.981708392101552,
+         "y": 94.06104272650194
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 60.024021509167845,
+         "y": 3.944765135299328
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 28.007096262341324,
+         "y": 24.293600866036822
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 11.998633638928068,
+         "y": 48.27615900557171
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 23.00004407616361,
+         "y": 55.688949703246124
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 53.95914139633287,
+         "y": 74.00290319161822
+        }
+       ],
+       "cap": [
+        {
+         "t": "데이터 입력 화면 (SCR-CRF-005) — 항목 아래에 Query 카드가 펼쳐집니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 379.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "행 액션의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 입력 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 이동하면 그 Query 가 걸린 항목이 있는 CRF 가 열립니다. 여기에서는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "실제 값을 보면서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 답변할 수⁣있어, 원자료 대조가 필요한 경우에 더 편합니다. 한 항목에 Query 가 여러 건이면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "카드가 여러 장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 쌓입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "종결",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 답변이 끝난 Query 를 그 자리에서 종료합니다. 데이터 관리자이거나 그 건의 담당자일 때 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "답변 코멘트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 미처리 Query 의 답변을 여기에 적습니다. 5자 이상이며, 폼의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 누를 때 값과 함께 기록됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "이 코멘트를 변경 사유로 함께 사용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 값을 고친 경우 따로 요구되는 변경 사유를 이 코멘트로 갈음합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "화면 위쪽 띠의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 미처리 N건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종결 대기 N건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 앞은 답변해야 할 건수, 뒤는 종료를 기다리는 건수입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "할 일이 다릅니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "답변됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 카드 — 이미 답변이 들어온 Query 입니다. “답변이 기록됐습니다. 검토 후 종결하세요.” 로 다음 할 일을 알려 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "이력·상세 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 Query 의 전체 대화와 처리 이력을 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "미처리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 카드 — 아직 답변하지 않은 Query 입니다. 항목 오른쪽 끝의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Query 아이콘",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에 걸린 건수가 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "해소 방식",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고르는 항목이 아니라 값 변경 여부에 따른 판정 결과",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 값을 고치면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "값 정정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 고치지 않으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현행 유지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 자동으⁣로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "이 화면의 답변은 폼을 저장해야 기록됩니다. 코멘트만 적고 화면을 떠나면 아무것도 남지 않습니다 — Query 목록의 답변 창이 저장⁣까지 한 번에 끝내는 것과 다릅니다. 코멘트를 적었으면 반드시 저장 으로 확정하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Query 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "데이터 입력 화면",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "4.1 종료와 재질의 > Query 종료",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2299,
+       "ih": 913,
+       "w": 254.25,
+       "h": 184.5,
+       "ix": -137.905604719764,
+       "iy": -82.3170731707317,
+       "iwp": 417.99410029498523,
+       "ihp": 228.86180515857893,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 83.05908923303835,
+         "y": 62.02031991023035
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 79.81425147492625,
+         "y": 92.10162072323848
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 64.47501843657817,
+         "y": 18.321132918360433
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 45.59596238938053,
+         "y": 36.00405974762872
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 47.8083517699115,
+         "y": 54.703246739498645
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 53.265578908554566,
+         "y": 92.10162072323848
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 81.58416297935102,
+         "y": 9.1747914549458
+        }
+       ],
+       "cap": [
+        {
+         "t": "Query 종료 (SCR-QA-006) — 데이터 관리자만 열 수 있습니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 305.625
+      },
+      {
+       "img": "p10_2.png",
+       "iw": 1607,
+       "ih": 98,
+       "w": 531.375,
+       "h": 31.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 103.6144578313253,
+       "badges": [
+        {
+         "kind": "res",
+         "n": 2,
+         "x": 91.47075688073394,
+         "y": 62.819245732931726
+        }
+       ],
+       "cap": [
+        {
+         "t": "종료 직후 — 상태가 「종료」 로 바뀝니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 330.375,
+       "fy1": 361.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "답변을 검토한 뒤 Query 를 닫는 창입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 관리자만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열 수 있고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "답변됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태에서만 열립니다. 종료는 끝이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되돌릴 수⁣있는 종결",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 나중에 다시 확인할 일이 생기면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "재질의",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 이어 갑니다 (4.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "종료 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 무엇으로 해소되었는지를 적습니다. 비워 두면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "저장이 거절됩니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "종료 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — Query 를 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 2,
+       "runs": [
+        {
+         "t": "목록의 상태가 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "종료",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 로 바뀌고 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "ANSWERED",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 집계에서 빠집니다.",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "창 머리의 안내 — “답변 검토 후 CLOSED 전환 · 이후 Reopen 으로 재질의 가능”. 종료가 최종 상태가 아님을 알려 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "질의 내용과 대상 — 무엇을 닫고 있는지 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "라벨이 사유의 성격을 밝힙니다 — “해소 근거 · 감사 증빙 — 필수”. 임상시험 자료는 왜 닫았는지까지 남아야 하기 때문입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 닫지 않고 창을 빠져나옵니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 동작입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "종료 사유는 감사 증빙입니다. “확인함” 처럼 내용 없는 문구를 적으면 나중에 그 Query 가 왜 해소되었는지 설명할 수 없습니다. 무⁣엇을 확인했고 그 결과 어떤 근거로 닫았는지를 남기십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Query 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "Query 종료",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "4.2 종료와 재질의 > 재질의(Reopen)",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 2287,
+       "ih": 1070,
+       "w": 211.5,
+       "h": 231.0,
+       "ix": -138.1205673758865,
+       "iy": -38.47402597402597,
+       "iwp": 418.79432624113474,
+       "ihp": 179.54546775652733,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 81.05330230496453,
+         "y": 41.74350226596321
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 81.05330230496453,
+         "y": 61.54869707115801
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 78.92564273049646,
+         "y": 81.02921655167748
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 78.92564273049646,
+         "y": 95.31493083739177
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 18.64195478723404,
+         "y": 12.522723045183984
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 58.35826684397163,
+         "y": 24.373372395833336
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 47.719968971631204,
+         "y": 95.31493083739177
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 81.05330230496453,
+         "y": 6.353891876352814
+        }
+       ],
+       "cap": [
+        {
+         "t": "Query Reopen (SCR-QA-007) — 종료된 Query 에서만 열립니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 352.125
+      },
+      {
+       "img": "p11_2.png",
+       "iw": 1490,
+       "ih": 142,
+       "w": 531.375,
+       "h": 49.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 102.29007633587786,
+       "badges": [
+        {
+         "kind": "res",
+         "n": 4,
+         "x": 89.49475123500353,
+         "y": 39.80150683842239
+        },
+        {
+         "kind": "res",
+         "n": 4,
+         "x": 89.49475123500353,
+         "y": 77.9694457697201
+        }
+       ],
+       "cap": [
+        {
+         "t": "재질의 직후 — 원래 Query 는 「재질의」 가 되고 새 Query 가 하나 더 생깁니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 376.875,
+       "fy1": 426.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "닫았던 Query 를 다시 묻는 창입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 상태에서만, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "모니터요원과 데이터 관리자에게만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열립니다. 중요한 점은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "원래 Query 를 되⁣살리는 것이 아니라는 것",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 원래 건은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "재질의",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 표시되어 남고, 답변을 받을 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "새 Query 가 하나 더",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 생깁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Reopen 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수이며 5자 이상입니다. 기존 답변으로 해소되지 않은 근거를 적습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "추가 질의 내용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수이며 5자 이상입니다. 담당자에게 추가로 확인받을 사항이며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "새로 생길 Query 의 내용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "담당",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 새 Query 를 받을 사람입니다. 기존 담당자가 기본값이며 바꿀 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "Reopen 실행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 재질의를 시작합니다. 두 사유를 모두 채우기 전에는 흐리게 표시되어 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 4,
+       "runs": [
+        {
+         "t": "원래 Query 의 상태가 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "재질의",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 로 바뀌고, 그와 별도로 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "미처리",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 인 새 Query 가 목록에 추가됩니다. 새 행에는 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "(reopen #1)",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 처럼⁣몇 번째 재질의인지가 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Severity",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 원래 Query 의 값을 이어받습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "닫았던 질의 내용과 대상 — 무엇을 다시 묻는지 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 재질의하지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 동작입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "재질의하면 처리할 건수가 하나 늘어납니다. 앞으로 답변해야 하는 것은 새로 생긴 Query 이고, 원래 건은 경위를 남기기 위해 재질의⁣상태로 보존됩니다. 목록에서 두 건이 보이는 것은 정상이며, 미처리 인 쪽을 처리하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Query 목록 > ",
+     "cur": false
+    },
+    {
+     "t": "Query Reopen",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

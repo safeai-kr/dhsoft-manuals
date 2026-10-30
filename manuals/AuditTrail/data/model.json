@@ -1,0 +1,3964 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — Audit Trail",
+ "src": "SMART-EDC_사용자매뉴얼_AuditTrail.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "감사 추적 조회",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "감사 추적 조회 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "감사 추적 조회 > 카테고리와 필터"
+    },
+    {
+     "no": "1.3",
+     "title": "감사 추적 조회 > 변경 이력 상세"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "규정 준수 안내",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "규정 준수 안내 > append-only 안내"
+    },
+    {
+     "no": "2.2",
+     "title": "규정 준수 안내 > 규정 원문 확인"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "카테고리별 보기",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "카테고리별 보기 > 탭 전환과 전용 컬럼"
+    }
+   ]
+  },
+  {
+   "ch": "4",
+   "title": "감사 추적 내보내기",
+   "items": [
+    {
+     "no": "4.1",
+     "title": "감사 추적 내보내기 > 범위 확인과 실행"
+    },
+    {
+     "no": "4.2",
+     "title": "감사 추적 내보내기 > 추출 파일 다운로드"
+    },
+    {
+     "no": "4.3",
+     "title": "감사 추적 내보내기 > 내려받은 파일"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "Audit Trail",
+    "SCR-AUDIT-001·002·003·004·005 · 통합 조회 · 카테고리별 보기 · 변경 이력 상세 · 내보내기",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-29"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 감사 추적 조회 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2544,
+       "ih": 971,
+       "w": 531.75,
+       "h": 195.0,
+       "ix": -9.520451339915374,
+       "iy": -6.730769230769231,
+       "iwp": 109.73201692524684,
+       "ihp": 114.23076923076923,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 85.12980430183357,
+         "y": 7.527043269230769
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 96.69538963328633,
+         "y": 5.219350961538462
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 16.15942348377997,
+         "y": 8.296274038461538
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 50.71513575458392,
+         "y": 15.98858173076923
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 31.53318935119887,
+         "y": 20.988581730769234
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 7.978887517630466,
+         "y": 25.796274038461537
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 34.283541960507755,
+         "y": 36.56550480769231
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 93.94503702397743,
+         "y": 40.21935096153847
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 12.91541784203103,
+         "y": 45.60396634615385
+        }
+       ],
+       "cap": [
+        {
+         "t": "Audit Trail 통합 조회 (SCR-AUDIT-001) — 왼쪽 메뉴를 제외한 본문 전체",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 316.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "임상 데이터가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "언제 · 누가 · 무엇을 · 무엇에서 무엇으로 · 왜",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 바뀌었는지를 한 화면에 모아 보는 화면입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "조회 전용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이라 이 화면에⁣는 고치거나 지우는 버튼이 없습니다 — 이력은 덧붙이기만 가능하며 지워지지 않습니다(2.1 참조). 위에서부터 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "준수 안내 → 카테고리⁣→ 필터 → 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순서로 읽고, 한 건을 자세히 볼 때 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 상세 창을 엽니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「카테고리별 보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 카테고리 하나만 전용 컬럼으로 보는 화면으로 이동합니다 (3.1 참조). 누르면 먼저 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「피험자 상태」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭이 열리⁣고, 거기에서 탭으로 옮깁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「CSV/Excel 내보내기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 걸어 둔 필터 범위를 파일로 추출합니다 (4.1 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 관리자 · 감사자에게만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시되는 버튼입⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "화면 부제가 다루는 범위를 밝힙니다 — “임상 데이터 변경 이력 통합 조회 (append-only · 9종 카테고리)”.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "21 CFR Part 11 준수 안내",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이력 보존 정책과 근거 규정 (2.1 · 2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "카테고리 빠른 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 9종 + 「전체」 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "보조 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 대상 Subject · 수행자 ID · 필드 키 · 시작일 · 종료일 · 정렬 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "목록은 6열",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 일시(KST) · 카테고리 · 대상 · 수행자 · 요약 · 조회. 시각은 모두 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한국 시간",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 환산되어 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "「보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 한 건의 상세 창을 엽니다 (1.3 참조). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "행 아무 곳이나 눌러도",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 같은 창이 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "카테고리 배지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 9종이 서로 다른 색으로 구분됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "왼쪽 메뉴 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「품질·규제 > Audit Trail」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트에 들어온 뒤에만 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 > 「감사 추적」 위젯",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록의 행을 누르거나 오른쪽 아래 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「Audit Trail →」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 누릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "같은 대시보드의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「감사 요약」 · 「카테고리 분포」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 위젯은 건수만 보여 주며 눌러도 이동하지 않습니다 — 이동은 위 두 곳뿐입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "이 화면은 연구책임자 · 데이터 관리자 · 감사자만 들어올 수 있습니다. 시스템 관리자는 전역 권한으로 모든 화면을 열 수 있으므로 여⁣기에도 들어옵니다. 워크스페이스 관리자 · 연구간호사 · 임상연구모니터요원(CRA)에게는 왼쪽 메뉴에 나타나지 않으며, 주소로 직접⁣들어가도 권한이 필요하다는 안내만 표시됩니다. 사용자 추가 · 설정 변경 같은 관리·운영 행위 이력은 이 화면이 아니라 「운영 이력」⁣화면에 있습니다. 또한 연구책임자는 자기 참여 기관의 이력만 보게 됩니다 — 화면이 아니라 시스템이 자동으로 걸러 줍니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "Audit Trail",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 감사 추적 조회 > 카테고리와 필터",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2544,
+       "ih": 971,
+       "w": 531.75,
+       "h": 50.25,
+       "ix": -32.228490832157966,
+       "iy": -309.7014925373134,
+       "iwp": 357.96897038081806,
+       "ihp": 1444.7761194029852,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 3.6065320874471083,
+         "y": 69.50792910447761
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 38.585375528913964,
+         "y": 69.50792910447761
+        }
+       ],
+       "cap": [
+        {
+         "t": "카테고리 빠른 선택 — 「전체」 + 9종 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 171.375
+      },
+      {
+       "img": "p04_2.png",
+       "iw": 2544,
+       "ih": 971,
+       "w": 531.75,
+       "h": 39.75,
+       "ix": -20.09873060648801,
+       "iy": -308.49056603773585,
+       "iwp": 223.69534555712272,
+       "ihp": 1143.3962264150944,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 30.122752115655853,
+         "y": 55.793042452830186
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 63.55011459802539,
+         "y": 55.793042452830186
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 95.4259961212976,
+         "y": 55.793042452830186
+        }
+       ],
+       "cap": [
+        {
+         "t": "보조 필터 왼쪽 — 대상 Subject · 수행자 ID · 필드 키 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 195.375,
+       "fy1": 235.125
+      },
+      {
+       "img": "p04_3.png",
+       "iw": 2544,
+       "ih": 971,
+       "w": 531.75,
+       "h": 44.25,
+       "ix": -115.30324400564176,
+       "iy": -265.2542372881356,
+       "iwp": 215.51480959097321,
+       "ihp": 988.1355932203389,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 26.87874647390691,
+         "y": 50.11917372881356
+        },
+        {
+         "kind": "set",
+         "n": 7,
+         "x": 58.61358427362482,
+         "y": 50.11917372881356
+        },
+        {
+         "kind": "set",
+         "n": 8,
+         "x": 81.60371121297602,
+         "y": 50.11917372881356
+        },
+        {
+         "kind": "set",
+         "n": 9,
+         "x": 95.84912729196051,
+         "y": 73.8479872881356
+        }
+       ],
+       "cap": [
+        {
+         "t": "보조 필터 오른쪽 — 시작일 · 종료일 · 정렬 · 초기화 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 259.125,
+       "fy1": 303.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "목록을 좁히는 수단은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "두 층",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 위쪽 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "카테고리 칩",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 어떤 종류의 이력을 볼지 고르고, 아래 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "보조 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 대상 · 수행자 · 기간을⁣좁힙니다. 두 층은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "함께 적용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "되며, 값을 바꾸면 잠시 뒤 목록이 자동으로 다시 조회됩니다 — 따로 「검색」 버튼을 누르지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「전체」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 9종을 모두 봅니다. 처음 들어오면 이 상태입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "카테고리 칩",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 누를 때마다 켜지고 꺼집니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "여러 개를 함께",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 고를 수 있고, 고른 것이 하나도 없으면 다시 「전체」와 같아집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "대상 Subject",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 피험자를 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "UUID",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 지정합니다 (“Subject UUID”). ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "쉼표로 여러 명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 넣을 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "수행자 ID",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 수행한 사용자를 UUID 로 지정합니다 (“UUID (정확 일치)”).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "필드 키",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — CRF 필드 이름으로 좁힙니다 (“예: age (CRF 필드)”). 「필드 값 변경」 이력에만 해당합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "시작일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 날짜부터. 비워 두면 처음부터입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 7,
+       "runs": [
+        {
+         "t": "종료일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 날짜까지. 비워 두면 현재까지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 8,
+       "runs": [
+        {
+         "t": "정렬",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "최근순",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(기본) 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "오래된순",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ".",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 9,
+       "runs": [
+        {
+         "t": "「초기화」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 카테고리와 필터를 모두 처음 상태로 되돌립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "피험자와 수행자는 UUID 로만 찾을 수 있습니다. 입력란이 요구하는 값은 목록 「대상」 열에 보이는 스크리닝번호(S-ONCO-000001)⁣나 사람 이름이 아니며, 그 값을 넣으면 결과가 비어 보입니다. 피험자 UUID 는 변경 이력 상세 창의 「피험자 ID」(1.3) 또는 피험자 화⁣면의 주소에서 확인합니다. 특정 피험자의 이력만 보려면 기간과 카테고리로 좁힌 뒤 「대상」 열을 눈으로 찾는 편이 빠릅니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Audit Trail > ",
+     "cur": false
+    },
+    {
+     "t": "카테고리 · 필터",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "1.3 감사 추적 조회 > 변경 이력 상세",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2300,
+       "ih": 978,
+       "w": 333.75,
+       "h": 282.0,
+       "ix": -150.2247191011236,
+       "iy": -76.99468085106383,
+       "iwp": 435.5056179775281,
+       "ihp": 219.14893617021275,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 33.83602528089887,
+         "y": 89.24742353723404
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 81.13939606741573,
+         "y": 6.800615026595745
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 45.52141853932584,
+         "y": 23.821891622340424
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 52.038272471910105,
+         "y": 43.76870013297872
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 49.903441011235955,
+         "y": 58.92827460106383
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 49.903441011235955,
+         "y": 66.37508311170212
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 80.24051966292134,
+         "y": 79.40699800531915
+        }
+       ],
+       "cap": [
+        {
+         "t": "변경 이력 상세 (SCR-AUDIT-004) — 목록의 행 또는 「보기」로 열립니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 403.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "이력 한 건을 통째로 보여 주는 창입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이력 정보 · 대상 · 사유 · 변경 전/후",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 네 묶음이 차례로 놓이고, 맨 아래에 그 이력의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참조 번⁣호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 붙습니다. 담긴 값에 따라 묶음이 늘기도 합니다 — 전자서명 이력이면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "서명 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가, 시스템이 접속 정보를 남긴 경우 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "IP · 접속⁣프로그램",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 함께 표시됩니다. 이 창에도 고치는 기능은 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「이전」 / 「다음」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록 순서대로 옆 이력으로 넘어갑니다. 가운데 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「1 / 50」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 지금 위치와 넘나들 수 있는 범위입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "닫기(×)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 창을 닫고 목록으로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이력 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 카테고리 · 일시(KST) · 수행자(이름 · 역할). 수행자는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이름 · 역할코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 형태로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "대상 > 종류",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한글 이름과 원문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 함께 적습니다 (“Query (DataQuery)”). 시스템에 새로 생긴 종류는 원문만 나옵니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경할 때 입력한 사유가 있을 때만 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "변경 전 / 후",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 왼쪽이 이전 값, 오른쪽이 바뀐 값입니다. 값이 없던 자리는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「(없음)」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "참조 번호(ref)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 이력 한 건을 가리키는 값입니다. 문의하거나 다른 자료와 대조할 때 이 값을 그대로 전달하십시오. 내려받은 파⁣일의 첫 열과 같은 값입니다 (4.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "「이전 / 다음」은 지금 목록에 불러온 범위 안에서만 움직입니다. 목록은 한 번에 50건씩 불러오므로 캡처처럼 「1 / 50」 이 되고, 51번⁣째 이력으로는 이 창에서 넘어갈 수 없습니다. 더 뒤의 이력을 보려면 창을 닫고 목록 아래에서 「다음」으로 페이지를 넘긴 뒤 다시 여⁣십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Audit Trail > ",
+     "cur": false
+    },
+    {
+     "t": "변경 이력 상세",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.1 규정 준수 안내 > append-only 안내",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 2544,
+       "ih": 971,
+       "w": 423.75,
+       "h": 54.75,
+       "ix": -300.9734513274336,
+       "iy": -177.3972602739726,
+       "iwp": 401.23896686025074,
+       "ihp": 1184.9315068493152,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 79.21598451327434,
+         "y": 33.65751640981735
+        }
+       ],
+       "cap": [
+        {
+         "t": "접힌 상태 — 배너 오른쪽 끝의 「자세히」 (오른쪽 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 175.875
+      },
+      {
+       "img": "p06_2.png",
+       "iw": 2304,
+       "ih": 240,
+       "w": 531.375,
+       "h": 96.0,
+       "ix": 0.0,
+       "iy": -47.265625,
+       "iwp": 263.79677667754646,
+       "ihp": 151.5625,
+       "badges": [
+        {
+         "kind": "res",
+         "n": 1,
+         "x": 52.515217007762885,
+         "y": 62.16405232747396
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 25.697997529992943,
+         "y": 17.63280232747396
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 71.0049841213832,
+         "y": 32.476552327473954
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 93.30561926605505,
+         "y": 87.94530232747397
+        }
+       ],
+       "cap": [
+        {
+         "t": "펼친 상태 (SCR-AUDIT-005) — 근거 규정 3건과 이력 대상 목록 (왼쪽 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 199.875,
+       "fy1": 295.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "목록 위의 초록 띠는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 화면의 이력을 어떻게 보존하는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 밝히는 안내입니다. 핵심은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "append-only",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 한 번 쌓인 이력은 고치거나⁣지울 수 없고, 바로잡아야 할 일이 있으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "새 이력을 덧붙여",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 기록합니다. 그래서 이 화면 어디에도 수정·삭제 버튼이 없습니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "감사자⁣로 들어오면 이 안내가 처음부터 펼쳐진 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「자세히」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 안내를 펼칩니다. 펼친 뒤에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「접기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 1,
+       "runs": [
+        {
+         "t": "펼치면 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "근거 규정 3건",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "과 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "이력 대상 목록",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "이 나타납니다. 규정은 눌러서 원문을 볼 수 있습니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "append-only 배지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 보존 방식을 한 낱말로 표시합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "본문 — “모든 이력은 append-only로 보존되며 물리 삭제·수정 불가입니다. 수정이 필요한 경우 신규 이력 레코드가 추가됩니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "이력 대상 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “대상: 12종 카테고리 이력 (SubjectStatus · Randomization · VisitEvent · DataInstance · FieldChange · SDV ·⁣DataQuery · BatchValidation · DataLock · RoleChange · ESignature · DataForm)”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "안내의 「12종」과 화면 부제의 「9종」은 다릅니다 — 실제로 조회·추출되는 것은 9종입니다. 안내문의 12종은 제도상 보존 대상 전체⁣이고, 이 화면의 카테고리 칩 · 탭 · 내보내기 범위는 모두 9종입니다. 차이 나는 3종(DataInstance · BatchValidation · DataForm)은⁣아직 이 화면에 나타나지 않으므로 여기에서 찾지 마십시오. 특히 CRF 양식 자체의 변경 같은 관리·운영 행위는 「운영 이력」 화면에서⁣확인합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Audit Trail > ",
+     "cur": false
+    },
+    {
+     "t": "21 CFR Part 11 준수 안내",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.2 규정 준수 안내 > 규정 원문 확인",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2304,
+       "ih": 240,
+       "w": 531.375,
+       "h": 82.5,
+       "ix": 0.0,
+       "iy": -195.0,
+       "iwp": 501.3408150288168,
+       "ihp": 336.36359937263256,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 91.47075688073394,
+         "y": 20.518169981060606
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 52.44464537755822,
+         "y": 49.609079071969695
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 44.893480945659846,
+         "y": 79.6090790719697
+        }
+       ],
+       "cap": [
+        {
+         "t": "펼친 안내 속 근거 규정 3건 — 모두 링크입니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 203.625
+      },
+      {
+       "img": "p07_2.png",
+       "iw": 2558,
+       "ih": 1380,
+       "w": 531.375,
+       "h": 162.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 172.90049400141143,
+       "ihp": 305.31177829099306,
+       "badges": [
+        {
+         "kind": "res",
+         "n": 2,
+         "x": 36.142598800282286,
+         "y": 3.958423546959199
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 29.22657904022583,
+         "y": 13.658192600076982
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 95.70505469301341,
+         "y": 54.535790752501924
+        }
+       ],
+       "cap": [
+        {
+         "t": "②를 누른 결과 — 외부 규정 사이트가 새 탭으로 열립니다 (광고 영역 제외)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 227.625,
+       "fy1": 390.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "안내에 적힌 규정 이름은 모두 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "링크",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 누르면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "새 탭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로 해당 규정의 공개 원문 사이트가 열리고, 작업 중이던 SMART-EDC 탭은⁣그대로 남습니다. 감사 대응 자료를 준비할 때 근거 조문을 그 자리에서 확인하라는 목적입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "21 CFR Part 11 §11.10(e)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “Secure, computer-generated, time-stamped audit trails”. 미국 FDA 전자기록·전자서명 규정으로, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이⁣화면의 근거",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "ICH E6(R3) §5.5.3",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “Data Handling”. 임상시험 관리기준의 자료 취급 조항입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 2,
+       "runs": [
+        {
+         "t": "누르면 새 탭에 원문 사이트가 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "EU Annex 11 §12",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — “Security”. 유럽 전산화 시스템 부속서입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "주소가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "외부 사이트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 바뀐 것을 확인할 수 있습니다 — SMART-EDC 가 아닙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "열린 문서의 제목입니다. 규정 전문이므로 필요한 절을 문서 안에서 찾아 읽습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "안내에 적힌 절 번호와 열린 문서의 장 번호가 다를 수 있습니다. 캡처가 그 예로, 안내는 “ICH E6(R3) §5.5.3” 인데 열린 문서의 해당⁣장은 「3. SPONSOR」 입니다 — 개정으로 장 번호가 바뀐 것이며 내용은 같은 자료 취급 조항입니다. 또한 이들 사이트는 SMART-⁣EDC 가 관리하지 않는 외부 사이트라 주소나 구성이 바뀔 수 있습니다. 제출·보관용 근거가 필요하면 링크가 아니라 기관이 확보한 규⁣정 사본을 사용하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 21 CFR Part 11 준수 안내 > ",
+     "cur": false
+    },
+    {
+     "t": "규정 원문",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 카테고리별 보기 > 탭 전환과 전용 컬럼",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 2313,
+       "ih": 1047,
+       "w": 531.75,
+       "h": 45.75,
+       "ix": -1.3399153737658673,
+       "iy": -179.5081967213115,
+       "iwp": 263.7517630465444,
+       "ihp": 1386.8852459016393,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 4.734881875881523,
+         "y": 69.78686390027322
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 25.468309238363894,
+         "y": 69.78686390027322
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 30.263795839210157,
+         "y": 22.245888631851944
+        }
+       ],
+       "cap": [
+        {
+         "t": "카테고리 탭 (SCR-AUDIT-002) — 「통합 보기」 + 9종 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 166.875
+      },
+      {
+       "img": "p08_2.png",
+       "iw": 2313,
+       "ih": 1047,
+       "w": 531.75,
+       "h": 87.75,
+       "ix": -66.78420310296191,
+       "iy": -119.23076923076923,
+       "iwp": 166.99578016646097,
+       "ihp": 458.1196581196581,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 91.61781558533146,
+         "y": 50.914518785612536
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 41.6883374471086,
+         "y": 13.30768117877493
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 68.2750793370945,
+         "y": 13.30768117877493
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 83.29623589562765,
+         "y": 32.11109998219373
+        }
+       ],
+       "cap": [
+        {
+         "t": "방문 이벤트 탭 목록의 오른쪽 — 「요약」 열 자리에 전용 컬럼이 들어섭니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 190.875,
+       "fy1": 278.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "카테고리 하나만 골라, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 카테고리에만 있는 항목을 열로 세워",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 보는 화면입니다. 예를 들어 피험자 상태 이력에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이전 상태 · 이후 상⁣태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열이, 전자서명 이력에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "트리거 · 무효화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 열이 붙습니다. 통합 조회와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필터 · 준수 안내 · 상세 창은 그대로 공유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하고, 바뀌는 것은",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣표의 열 구성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "뿐입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「통합 보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 9종을 한꺼번에 보는 화면(1.1)으로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "카테고리 탭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 누르면 그 카테고리만 조회합니다. 지금 보고 있는 탭은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "밑줄과 진한 글씨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 통합 조회와 같은 상세 창을 엽니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "탭 옆 숫자는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 카테고리의 전체 이력 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 어디를 봐야 할지 고르는 기준으로 쓰십시오. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "0건인 탭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "도 그대로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "「수행자」 다음이 바로 전용 컬럼",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다 — 통합 조회에 있던 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「요약」 열이 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 한 줄로 읽히던 내용이 여기에는 나오지 않습니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "그 자리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "카테고리 전용 컬럼",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 들어섭니다 — 방문 이벤트는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「방문」 · 「액션」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 2종입니다 (아래 표 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "값이 없으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「-」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 비워 둡니다. 캡처의 방문 이벤트 탭은 두 열이 전건 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「-」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "카테고리 9종과 전용 컬럼",
+     "head": [
+      "카테고리",
+      "담기는 변경",
+      "전용 컬럼"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "피험자 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "피험자 상태 전이",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "이전 상태 · 이후 상태 · Terminal",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "방문 이벤트",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "방문 생성 · 수행 · 결측",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "방문 · 액션",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "필드 값 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "CRF 입력값 수정",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "방문 · 필드 · 변경 유형",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "SDV",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "원자료 대조 수행",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "액션",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "Query",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "질의 열림 · 답변 · 종료",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "액션 · 중요도",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "Lock",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "잠금 · 해제",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "Lock 유형 · 액션",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "역할 변경",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "프로젝트 역할 배정 변경",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "이전 역할 · 이후 역할",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "전자서명",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "서명 · 서명 무효화",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "트리거 · 무효화",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "무작위배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "배정 · 배정 해제",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "배정 유형 · 배정번호",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      20.1,
+      35.4,
+      44.5
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "이 화면만으로는 무슨 일이 있었는지 알 수 없는 경우가 있습니다. 「요약」 열이 없는 데다 전용 컬럼마저 「-」 로 비면, 캡처의 방문 이⁣벤트 탭처럼 행에 일시 · 대상 · 수행자 만 남습니다. 그때는 행의 「보기」 로 상세를 열거나 「통합 보기」 로 돌아가 요약 열을 읽으십시⁣오 — 전용 컬럼이 비는 것은 그 카테고리가 해당 항목을 기록하지 않기 때문이며, 이력 자체가 비어 있는 것은 아닙니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Audit Trail > 카테고리별 보기 > ",
+     "cur": false
+    },
+    {
+     "t": "방문 이벤트",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "4.1 감사 추적 내보내기 > 범위 확인과 실행",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 2318,
+       "ih": 1118,
+       "w": 339.0,
+       "h": 74.25,
+       "ix": -283.73893805309734,
+       "iy": -302.5252525252525,
+       "iwp": 573.2300524866334,
+       "ihp": 1262.6262626262626,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 71.36511338495575,
+         "y": 62.1919060395623
+        }
+       ],
+       "cap": [
+        {
+         "t": "내보내기 전에 필터에서 기간부터 지정합니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 195.375
+      },
+      {
+       "img": "p09_2.png",
+       "iw": 2318,
+       "ih": 1118,
+       "w": 345.0,
+       "h": 219.75,
+       "ix": -138.3695652173913,
+       "iy": -104.6075085324232,
+       "iwp": 401.0869565217392,
+       "ihp": 303.7542662116041,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 33.16745923913044,
+         "y": 67.08873275739477
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 89.90658967391305,
+         "y": 84.66552456626849
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 41.86311141304348,
+         "y": 41.83276006114903
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 51.863111413043484,
+         "y": 46.61091705773606
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 41.86311141304348,
+         "y": 51.73037098265074
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 77.95006793478261,
+         "y": 73.91467132394767
+        }
+       ],
+       "cap": [
+        {
+         "t": "감사 추적 내보내기 (SCR-AUDIT-003) — 범위 확인 · 포맷 선택 · 실행",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 219.375,
+       "fy1": 439.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "목록 오른쪽 위 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「CSV/Excel 내보내기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 누르면 열리는 창입니다. 파일을 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "그 자리에서 만들지 않고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 요청만 접수한 뒤 시스템이 뒤에⁣서 만들어 둡니다 — 다 되면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "추출 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에서 내려받습니다 (4.2 참조). 창에 담긴 것은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "지금 걸려 있는 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 그대로이므로, 범위를 바꾸⁣려면 창을 닫고 목록 필터를 고칩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "기간을 먼저 지정합니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록 필터의 시작일 · 종료일 중 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "하나 이상",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 지정하지 않으면 실행 버튼이 눌리지 않습니다(아래 유의사⁣항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "포맷",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "CSV",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(기본) 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Excel",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 중 하나를 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「내보내기 실행」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 요청을 접수하고 창이 닫힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 1,
+       "badge": "res",
+       "n": 3,
+       "runs": [
+        {
+         "t": "“Audit Trail 추출을 시작했습니다. 완료되면 추출 화면에서 다운로드하세요.” 안내가 뜨고 ",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": "「추출 화면 보기」",
+         "b": true,
+         "code": false,
+         "tone": "res"
+        },
+        {
+         "t": " 로 바로 이동할 수⁣있습니다 (4.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": "res"
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "카테고리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 칩으로 고른 것이 그대로 들어옵니다. 고르지 않았으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「전체 9종」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기간",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 종료일을 비웠으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「~ 현재」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "예상 건수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 캡처처럼 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「—」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 남는 경우가 있습니다. 목록이 총건수를 세지 않는 방식으로 불러와져서이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "고장이 아닙니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그⁣대로 실행해도 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "개인정보 안내 — “이름·스크리닝번호 등 개인정보는 권한에 따라 자동으로 가려집니다.” ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사용자가 끄고 켜는 설정이 아닙니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "기간을 지정하지 않으면 「내보내기 실행」이 눌리지 않습니다. 창에 “Audit Trail 추출은 기간(시작·종료 중 하나 이상) 지정이 필요합⁣니다. 필터에서 기간을 설정한 뒤 다시 시도하세요.” 경고가 뜨고 버튼이 흐려집니다. 창을 닫고 목록 필터의 시작일(또는 종료일)을 채⁣운 뒤 다시 여십시오 — 전체 기간을 받고 싶더라도 시작일만이라도 넣어야 실행됩니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : Audit Trail > ",
+     "cur": false
+    },
+    {
+     "t": "감사 추적 내보내기",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "4.2 감사 추적 내보내기 > 추출 파일 다운로드",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 2287,
+       "ih": 751,
+       "w": 423.75,
+       "h": 239.25,
+       "ix": -108.23008849557523,
+       "iy": -21.786833855799372,
+       "iwp": 313.6283473912242,
+       "ihp": 182.4451410658307,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 73.37527654867256,
+         "y": 56.29153196839081
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 35.85315265486725,
+         "y": 10.210027266196448
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 26.649612831858406,
+         "y": 15.382441059299895
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 59.39297566371682,
+         "y": 29.959243567136884
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 67.18058628318585,
+         "y": 69.45767616901777
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 72.84430309734513,
+         "y": 85.13165736024033
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 4.70271017699115,
+         "y": 92.34168870820272
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 96.91509955752213,
+         "y": 10.210027266196448
+        }
+       ],
+       "cap": [
+        {
+         "t": "추출 파일 다운로드 (SCR-EXP-006) — 요청 카드와 완료 카드 (가운데 열 확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 360.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "요청한 추출이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떻게 되었는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 보여 주고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "파일을 내려받는",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 화면입니다. 위 카드가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "요청 내용",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(무엇을 · 언제 · 몇 건 · 어떤 포맷), 아래⁣초록 카드가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "결과물",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다. 내보내기 직후 안내의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「추출 화면 보기」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 오거나, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "데이터 내보내기 > 내보내기 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 에서 해당 건을 눌⁣러 다시 들어올 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "「다운로드」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 파일을 내려받습니다 (4.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "추출 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 문의할 때 이 값을 함께 알려 주십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "유형이 「Audit Trail」 인지 확인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다. 바로 아래 줄이 그 추출의 범위입니다 — 캡처는 “Site·피험자·폼·방문 필터 없음 · CSV” 입니⁣다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "레코드 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 파일에 담긴 이력 건수입니다. 아래 완료 카드에도 같은 값이 다시 표시되므로 두 값이 같은지 보면 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "유효 기한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 캡처는 실행 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "다음 날",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "까지입니다. 지나면 다운로드 링크가 열리지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "「동일 옵션으로 재실행」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — Audit Trail 추출에서는 사용할 수 없습니다(아래 유의사항).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "「무결성 검증 (SHA-256)」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 펼치면 파일의 검증값이 표시됩니다. 내려받은 파일이 중간에 바뀌지 않았는지 대조할 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "「완료」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 되어야 내려받을 수 있습니다. 그 전에는 진행 중 상태가 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "「동일 옵션으로 재실행」은 Audit Trail 추출에서 항상 사용할 수 없습니다. 버튼에 “이 추출은 하위 유형 정보가 없어 재실행할 수 없⁣습니다. 내보내기 허브에서 새로 요청해 주세요.” 안내가 붙습니다(추출을 관리할 권한이 없을 때도 같이 비활성됩니다). 유효 기한이⁣지났거나 파일을 다시 받아야 하면 Audit Trail 화면으로 돌아가 「CSV/Excel 내보내기」를 다시 실행하십시오 (4.1 참조).",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 데이터 내보내기 > 내보내기 이력 > ",
+     "cur": false
+    },
+    {
+     "t": "내보내기 상세",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 11,
+   "title": "4.3 감사 추적 내보내기 > 내려받은 파일",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p11_1.png",
+       "iw": 1075,
+       "ih": 676,
+       "w": 531.375,
+       "h": 250.5,
+       "ix": 0.0,
+       "iy": -33.38323353293413,
+       "iwp": 100.21171489061398,
+       "ihp": 133.8323353293413,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 28.9442925194072,
+         "y": 11.398199694361278
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 35.15459597741708,
+         "y": 26.817361371007987
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 92.45875970359916,
+         "y": 57.35628352669661
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 5.93794107268878,
+         "y": 95.08083442490019
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 1.280213479181369,
+         "y": 4.362273073481942
+        }
+       ],
+       "cap": [
+        {
+         "t": "내려받은 CSV 를 Excel 로 연 모습 — 머리글 1행 + 이력 16건",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 371.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "내려받은 파일은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이력 한 건이 한 행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "인 표입니다. 화면 목록에서 보던 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "일시 · 카테고리 · 대상 · 수행자 · 요약 · 변경 전/후 · 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 모⁣두 열로 들어 있고, 맨 앞에 상세 창에서 본 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참조 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 붙습니다. 개인정보는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "내려받는 사람의 권한에 따라 이미 가려진 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 저장⁣됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "A1 셀이 「entryRef」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 첫 행이 머리글입니다. 자료를 다룰 때 이 행을 지우지 마십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "수행자 이름",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 한글 그대로 보이면 정상입니다. 글자가 깨져 보이면 파일을 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "UTF-8",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 여십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "「#######」",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 열이 좁아 날짜를 다 못 쓴 표시입니다 — 값이 잘못된 것이 아니므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "열 경계를 두 번 눌러",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 넓히면 보입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "데이터는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "17행에서 끝납니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 머리글 1행을 뺀 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "16건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "으로, 추출 화면의 레코드 수(4.2)와 같습니다. 두 값이 다르면 파일이 온전하⁣지 않은 것입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "Excel 이 “이 통합 문서를 쉼표로 구분된 형식(.csv)으로 저장하면 일부 기능이 손실될 수 있습니다” 라고 알립니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "파일이 손상된⁣것이 아닙니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "열 구성 (캡처 기준 14열)",
+     "head": [
+      "열",
+      "담기는 내용"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "entryRef",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "이력 한 건의 참조 번호 — 상세 창 맨 아래의 ref 와 같은 값",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "category · timestamp",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "카테고리 코드 · 변경 시각",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "actorUserId · actorName · actorRole",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "수행자 ID · 이름 · 역할",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "targetType · targetId · targetScreeningNo",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "대상 종류 · 식별자 · 스크리닝번호",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "changeType · summary",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "변경 유형 · 한 줄 요약 (목록의 요약 열)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "prevValue · newValue · reason",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "변경 전 값 · 변경 후 값 · 사유",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      43.0,
+      57.0
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "내려받은 파일은 원본 그대로 보관하십시오. Excel 의 안내에 따라 「다른 이름으로 저장」으로 형식을 바꾸거나 열 너비·정렬을 고친⁣뒤 덮어쓰면, 제출·감사 근거로 쓸 원본이 사라집니다. 손봐야 할 일이 있으면 사본을 만들어 사본에서 작업하고, 원본은 추출 화면의⁣검증값(SHA-256) 과 함께 그대로 두십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 추출 파일 다운로드 > ",
+     "cur": false
+    },
+    {
+     "t": "내려받은 파일",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

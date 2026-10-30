@@ -1,0 +1,3150 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 방문 정의",
+ "src": "SMART-EDC_사용자매뉴얼_방문정의.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "방문 정의 관리",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "방문 정의 관리 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "방문 정의 관리 > VisitGroup 추가"
+    },
+    {
+     "no": "1.3",
+     "title": "방문 정의 관리 > 정의 수정"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "버전 관리",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "버전 관리 > 새 버전 생성과 발행"
+    },
+    {
+     "no": "2.2",
+     "title": "버전 관리 > Plan 미리보기"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "CRF 매핑",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "CRF 매핑 > 연결 조회"
+    },
+    {
+     "no": "3.2",
+     "title": "CRF 매핑 > 연결 수정"
+    },
+    {
+     "no": "3.3",
+     "title": "CRF 매핑 > 폼 순서"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "방문 정의",
+    "SCR-VISIT-001·002 · VisitGroup · 정의 · 버전 · CRF 매핑",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-27"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 방문 정의 관리 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 2543,
+       "ih": 1120,
+       "w": 531.375,
+       "h": 153.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 153.0562347188264,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 21.181413196894848,
+         "y": 15.19330684596577
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 22.451702540578687,
+         "y": 28.88523838630807
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 92.24704481298518,
+         "y": 21.061277506112468
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 75.80385497529993,
+         "y": 39.15418704156479
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 66.06497000705717,
+         "y": 39.15418704156479
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 5.4439396612561755,
+         "y": 54.31311124694377
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 17.088258645024702,
+         "y": 10.792328850855744
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 87.94217537050106,
+         "y": 21.061277506112468
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 14.97110973888497,
+         "y": 21.061277506112468
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 43.90547812279464,
+         "y": 46.48915036674816
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 66.77068630910374,
+         "y": 76.80699877750611
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 47.71634615384615,
+         "y": 39.15418704156479
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 57.949232533521524,
+         "y": 30.35223105134474
+        }
+       ],
+       "cap": [
+        {
+         "t": "방문 정의 관리 (SCR-VISIT-001) — 왼쪽 트리, 오른쪽 상세",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 274.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "연구 일정에 들어갈 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 정의하는 화면입니다. 왼쪽이 방문을 묶는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "VisitGroup",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 트리이고 오른쪽이 선택한 방문의 상세입니다. 여기⁣에서 정의한 방문이 피험자마다 전개되어 방문 타임라인이 되므로, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 등록보다 먼저 끝내야 하는 구축 작업",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "+ 새 VisitGroup",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 방문을 묶는 단위를 새로 만듭니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "트리의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "+",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 그 그룹에 방문을 추가하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연필",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 그룹 자체를 수정합니다. 방문은 끌어서 순서를 바꿀 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "CRF Visit Matrix",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 방문마다 어떤 CRF 를 받을지 연결하는 화면으로 이동합니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택한 방문의 정의값을 고칩니다 (1.3 참조). 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 발행된 방문을 거두는 수단으로, 삭제를 대신합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "발행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "새 버전 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 정의의 버전을 다룹니다 (2.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "왼쪽 메뉴의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구 관리 > 방문 정의",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 상시 입구입니다. 설계 버전 관리의 할 일 목록에서도 들어옵니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 방문 정의 관리",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Plan 미리보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 정의한 방문이 실제로 며칠째에 잡히는지 미리 봅니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "공통 / 전체",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭 — 시험군(Arm)별 필터입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "공통",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 모든 시험군이 함께 쓰는 방문입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "발행된 버전입니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 안내 — 구축 단계에서는 발행 후에도 제자리 수정이 가능하고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "삭제 대신 비활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 씁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "상세의 주요 값 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Visit 코드 · Visit 명 · Visit Type · Anchor Type · Offset Days · Repeating · Window Before/After · 허용 피험⁣자 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "버전 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 방문의 버전을 오갑니다. 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "버전 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 버전별 차이를 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "상세 머리에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "버전 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "발행 상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 함께 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "이 화면은 데이터 관리자(DM)와 워크스페이스 관리자만 들어올 수 있습니다. 연구책임자·연구간호사·모니터요원은 조회 목적이어도⁣진입할 수 없으므로, 방문 계획을 확인해야 한다면 피험자의 방문 타임라인이나 Plan 미리보기 결과를 공유받으십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 대시보드 > ",
+     "cur": false
+    },
+    {
+     "t": "방문 정의 관리",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 방문 정의 관리 > VisitGroup 추가",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 2290,
+       "ih": 1105,
+       "w": 240.0,
+       "h": 240.75,
+       "ix": -132.34375,
+       "iy": -48.13084112149533,
+       "iwp": 401.5625,
+       "ihp": 193.14643012152777,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 67.99072265625,
+         "y": 30.395735981308412
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 75.80322265625,
+         "y": 46.59511292834891
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 75.80322265625,
+         "y": 62.7944898753894
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 42.05322265625,
+         "y": 70.58265186915888
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 88.61572265625,
+         "y": 87.71660825545172
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 79.86572265625,
+         "y": 35.84744937694704
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 47.99072265625,
+         "y": 52.20258956386294
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 65.80322265625,
+         "y": 74.632496105919
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 45.80322265625,
+         "y": 81.79760514018692
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 29.86572265625,
+         "y": 17.77891355140187
+        }
+       ],
+       "cap": [
+        {
+         "t": "신규 VisitGroup 추가 — 코드는 생성 후 변경 불가입니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 361.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "방문을 묶는 단위를 만듭니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "선별 단계 · 치료 단계",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 처럼 연구 일정의 큰 마디를 그룹으로 두고, 그 안에 개별 방문을 넣습니다. 주기⁣치료처럼 같은 방문이 반복되는 연구는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Cycle 반복",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 켜서 한 번만 정의하고 주기 수만큼 전개합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Study Arm *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 현재 탭의 시험군이 자동으로 선택됩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "공통",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 두면 모든 시험군이 함께 씁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Visit Group 코드 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 영문·숫자·언더스코어·하이픈만 쓰며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "생성 후 변경할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Visit Group 명 *",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 화면에 표시되는 이름입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "Cycle 반복 활성화",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 켜면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "1 Cycle 주기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(일 수)를 입력해야 하고, 최대 Cycle 수는 선택 입력입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 세 필수 항목이 채워져야 선택할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Study Arm 안내 — 현재 탭의 시험군이 기본이며 바꿀 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "코드 칸 아래에 허용 문자와 변경 불가가 함께 안내됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Cycle 설명 — 주기 치료에서 같은 방문을 반복할 때 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "필수 항목이 비어 있으면 아래에 무엇을 채워야 하는지 안내됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "창 머리의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Arm: 공통",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 지금 어느 시험군 탭에서 만들고 있는지입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "VisitGroup 코드는 생성 후 끝까지 변경할 수 없습니다. 그룹 삭제도 설정 중(SETUP) 단계에서만 가능해 테스트 단계에서는 이미 막⁣힙니다. 프로토콜의 일정 구조를 확정한 뒤 만드십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 정의 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "신규 VisitGroup 추가",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "1.3 방문 정의 관리 > 정의 수정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 2296,
+       "ih": 1165,
+       "w": 353.25,
+       "h": 282.0,
+       "ix": -114.75583864118897,
+       "iy": -54.65425531914894,
+       "iwp": 286.624203821656,
+       "ihp": 182.1808510638298,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 70.18477972399151,
+         "y": 17.837849069148938
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 70.18477972399151,
+         "y": 32.332529920212764
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 23.687964437367302,
+         "y": 46.96018949468085
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 70.18477972399151,
+         "y": 46.96018949468085
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 23.687964437367302,
+         "y": 58.66231715425532
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 21.35250796178344,
+         "y": 76.48146609042553
+        },
+        {
+         "kind": "set",
+         "n": 7,
+         "x": 92.47777335456475,
+         "y": 4.93891289893617
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 18.592423036093418,
+         "y": 22.22614694148936
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 24.32490711252654,
+         "y": 36.58784906914894
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 70.18477972399151,
+         "y": 58.66231715425532
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 92.26545912951167,
+         "y": 88.98146609042553
+        }
+       ],
+       "cap": [
+        {
+         "t": "정의 수정 — 잠긴 항목은 바탕이 회색입니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 403.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "선택한 방문의 정의값을 고칩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Visit 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Visit Type",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 바탕이 회색으로 잠겨 있고, 나머지는 구축 단계에서 자유롭게 바꿀 수⁣있습니다. 저장하면 트리와 상세가 바로 갱신됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Visit 명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 화면에 표시되는 이름입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Anchor Type",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 날짜를 세는 기준점입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사전동의/서명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 기준으로 삼으면 그 날짜가 Day 0 이 됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Offset Days (anchor 기준)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기준일로부터 며칠째인지입니다. 0 이면 기준일 당일입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "Repeating",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 방문이 반복되는지 여부입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "Window Before/After (일)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 계획일에서 앞뒤로 며칠까지 허용할지입니다. 방문 타임라인의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(-N/+N)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시가 이 값입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "피험자 상태 제한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기본은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "제한 없음",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 특정 상태에서만 CRF 를 만들게 하려면 아래 10가지 상태 중에서 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 7,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 반영합니다. 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 변경을 버립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "Visit 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 “생성 후 변경 불가” 로 잠겨 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Visit Type",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 은 “프로젝트 SETUP 단계에서만 변경 가능” 이라 테스트 단계에서는 잠깁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Window After",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Window Before",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 한 쌍입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "상태 제한 안내 — “선택한 상태의 피험자만 이 방문의 CRF 를 새로 만들 수 있습니다. … 이미 입력된 기록의 정정은 막지 않습니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "운영(ACTIVE)으로 올라가면 정의 수정도 새 버전 생성도 모두 막힙니다. 그때 남는 것은 발행된 방문의 비활성화 하나뿐이므로, 일정⁣설계는 구축 단계(설정 중·테스트)에서 확정해야 합니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 정의 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "정의 수정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.1 버전 관리 > 새 버전 생성과 발행",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 715,
+       "ih": 534,
+       "w": 423.75,
+       "h": 158.25,
+       "ix": -2.0353982300884956,
+       "iy": -4.028436018957346,
+       "iwp": 104.4247715592736,
+       "ihp": 209.0047393364929,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 16.561117256637168,
+         "y": 90.31752937401264
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 31.251382743362832,
+         "y": 90.31752937401264
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 45.9416482300885,
+         "y": 90.31752937401264
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 60.27793141592921,
+         "y": 90.31752937401264
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 84.17173672566372,
+         "y": 90.31752937401264
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 95.32217920353983,
+         "y": 90.31752937401264
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 28.065542035398227,
+         "y": 7.616109983615965
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 36.56111725663717,
+         "y": 15.436012786334913
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 35.85315265486725,
+         "y": 53.82463837875198
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 41.162887168141594,
+         "y": 63.06634453988942
+        }
+       ],
+       "cap": [
+        {
+         "t": "새 버전 생성 직후 — v2 가 DRAFT 로 만들어집니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 279.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "발행된 정의를 고쳐야 할 때는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "새 버전",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 만듭니다. 새 버전은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "DRAFT",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 생기고, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "발행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해야 비로소 피험자 방문에 반영됩니다. 그 위의",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣개정본 발행 전 확인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 카드가 발행이 무엇을 바꾸는지 미리 알려 줍니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "버전 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 방문의 버전을 오갑니다. 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "v2 (DRAFT)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "버전 보기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 버전별 차이를 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "새 버전 생성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 발행된 버전에서만 선택할 수 있습니다. 이미 DRAFT 가 있으면 흐리게 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "발행",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — DRAFT 를 발행합니다. 발행 권한이 따로 있어 수정만 가능한 사람도 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "삭제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — DRAFT 버전을 지웁니다. 발행된 버전은 삭제 대신 비활성화합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — DRAFT 의 정의값을 고칩니다 (1.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "개정본 발행 전 확인",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 발행 전에 점검할 것을 모아 보여 줍니다. ✓ 는 확인됨, ℹ 는 알아 둘 것입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "“CRF 2건 연결 (v1: 2건)” — 새 버전에 CRF 가 몇 건 연결됐는지와 구버전과의 차이입니다. 0건이면 연결을 복사하는 버튼이 함께 표⁣시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "버전 배지 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "v2",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 와 상태 배지 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "DRAFT",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 나란히 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "그룹·Arm·코드는 버전이 달라도 같습니다 — 같은 방문의 다른 판이기 때문입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "발행하지 않으면 피험자에게 방문이 하나도 생기지 않습니다. 시스템은 발행된 정의만 피험자 방문으로 전개하므로, DRAFT 만 있는⁣상태에서는 피험자 화면이 그냥 “방문 없음” 으로 보입니다. 정의가 있는데 발행본이 없으면 이 화면이 경고를 표시하므로 반드시 확⁣인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 정의 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "버전",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.2 버전 관리 > Plan 미리보기",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 2305,
+       "ih": 1168,
+       "w": 324.75,
+       "h": 176.25,
+       "ix": -111.20092378752886,
+       "iy": -113.82978723404256,
+       "iwp": 358.66054567215167,
+       "ihp": 334.89361702127655,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 92.04857101616628,
+         "y": 14.285100842198581
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 51.86381351039261,
+         "y": 30.455313608156025
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 89.2772084295612,
+         "y": 39.8170157358156
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 25.07397517321016,
+         "y": 53.008505097517734
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 80.96312066974596,
+         "y": 73.85956892730496
+        }
+       ],
+       "cap": [
+        {
+         "t": "VisitPlan 미리보기 — 실제 피험자와 무관한 설계 시점 투영 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 297.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "정의한 방문이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "며칠째에 잡히는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 미리 계산해 보여 줍니다. 실제 피험자 데이터를 쓰지 않고 정의값만으로 그리므로, 등록 전에 일정⁣설계를 점검하는 용도입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 창을 닫습니다. 창 밖을 선택해도 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "설명 — 등록된 방문 정의를 시험군별로 전개해 보여 준다는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "anchor=Day 0 상대일 · design-time 투영 (실 subject 무관)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기준일을 0일로 두고 계산하며, 주기 그룹은 주기별로 펼쳐집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "시험군 탭 — 시험군이 여럿이면 여기에서 바꿔 가며 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "한 줄이 방문 하나입니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "D0",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(기준일로부터의 날짜) · 코드 · 이름 · 유형 · 기준 · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "±0/0",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(허용 오차) 순입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "여기 보이는 날짜는 기준일을 0일로 둔 상대 일수이지 달력 날짜가 아닙니다. 실제 날짜는 피험자마다 사전동의일 등 기준일이 달라⁣각자의 방문 타임라인에서 계산됩니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 정의 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "VisitPlan 미리보기",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 CRF 매핑 > 연결 조회",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 1184,
+       "ih": 446,
+       "w": 531.375,
+       "h": 199.12498474121094,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 100.94161965784293,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 95.70505469301341,
+         "y": 16.222210898128754
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 87.94217537050106,
+         "y": 16.222210898128754
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 23.72199188426253,
+         "y": 9.819197224796751
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 20.899126676076218,
+         "y": 32.41806901302734
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 36.98945836273818,
+         "y": 50.12051858047465
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 14.406536697247708,
+         "y": 77.99246045262572
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 30.49686838390967,
+         "y": 83.2655305365462
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 71.99298694424841,
+         "y": 90.61016386772114
+        }
+       ],
+       "cap": [
+        {
+         "t": "Visit × DataForm 매핑 (SCR-VISIT-002) — 연결 조회 모드",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 320.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "방문마다 어떤 CRF 를 받을지 연결하는 화면입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "세로가 방문, 가로가 CRF",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 인 표이고 교차점의 체크가 연결입니다. 처음 들어오면",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣연결 조회",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 모드라 값이 바뀌지 않으며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 눌러야 연결을 바꿀 수 있습니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 연결을 바꿀 수 있는 모드로 전환합니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "폼 순서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 방문별 CRF 카드 순서를 정합니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "머리의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연결 조회",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배지가 현재 모드입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "폼 열 정렬",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 칩 — 지금 열이 어느 방문의 카드 순서로 정렬돼 있는지입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "×",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 해제합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "열 머리 — CRF 코드 · 이름 · 버전입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "DRAFT",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 묶음의 열은 회색이며 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연결할 수 없습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 먼저 그 CRF 를 발행해야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "행 머리 — 방문 이름 · 유형 · 코드이고, 아래 선택 상자로 그 방문의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "정의 버전",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 고릅니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "교차점의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "체크",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 연결입니다. 연결된 셀을 선택하면 오른쪽에 그 CRF 의 항목이 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "아래 범례 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "필수 · 선택 · 미매핑",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 세 가지와 정렬 기준이 적혀 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "CRF 가 발행(PUBLISHED)되어야 방문에 연결할 수 있습니다. 작성 중인 CRF 는 DRAFT 열로 회색 표시되어 선택 자체가 막히므로, 연⁣결이 안 된다면 CRF 관리에서 발행 여부를 먼저 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 방문 정의 관리 > ",
+     "cur": false
+    },
+    {
+     "t": "CRF 매핑",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.2 CRF 매핑 > 연결 수정",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 1180,
+       "ih": 469,
+       "w": 531.375,
+       "h": 210.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 100.53475935828877,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 95.70505469301341,
+         "y": 15.711225304515747
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 90.0593242766408,
+         "y": 15.711225304515747
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 83.84902081863092,
+         "y": 15.711225304515747
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 75.94499823570925,
+         "y": 15.711225304515747
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 23.580848623853214,
+         "y": 9.294113005050505
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 78.48557692307693,
+         "y": 85.94295435977422
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 70.93441249117855,
+         "y": 88.79500427064765
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 96.97534403669725,
+         "y": 44.58823065210933
+        }
+       ],
+       "cap": [
+        {
+         "t": "연결 수정 모드 — 셀을 선택해 연결 상태를 바꿉니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 331.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 누르면 연결을 바꿀 수 있습니다. 셀을 선택할 때마다 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "미매핑 → 필수 → 선택 → 미매핑",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 순으로 돌고, 바꾼 내용은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 눌⁣러야 저장됩니다. 한 번에 여러 셀을 다루려면 다중 선택을 사용합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "완료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 바꾼 연결을 저장합니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 버튼을 누르기 전에는 저장되지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 바꾼 내용을 버리고 조회 모드로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 다중 선택 모드를 켭니다. 켜지 않아도 Shift 또는 Ctrl 을 누른 채 선택하면 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "폼 순서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 조회 모드와 같습니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "머리의 배지가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연결 수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 바뀝니다. 지금 어느 모드인지 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "아래 안내 — “셀 클릭: 미매핑 → 필수 → 선택 → 미매핑 순환 · 변경은 「완료」 버튼으로 저장”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "이어지는 안내 — “Shift/Ctrl+Click 또는 「선택」 버튼으로 다중 선택 → OPTIONAL 일괄” 입니다. 여러 셀을 한꺼번에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "선택⁣(OPTIONAL)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 바꿉니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "오른쪽 안내가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "매트릭스에서 셀을 선택하세요",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 바뀝니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "필수와 선택은 뜻이 다릅니다. 필수 로 연결한 CRF 는 그 방문을 완료하려면 반드시 입력해야 하고, 선택 은 비워 두어도 방문을 닫을⁣수 있습니다. 순환이 미매핑에서 필수 로 먼저 가므로, 선택 항목으로 두려면 한 번 더 누르십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : CRF 매핑 > ",
+     "cur": false
+    },
+    {
+     "t": "연결 수정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.3 CRF 매핑 > 폼 순서",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 1182,
+       "ih": 769,
+       "w": 423.75,
+       "h": 266.25,
+       "ix": -16.72566371681416,
+       "iy": -69.15492957746478,
+       "iwp": 167.2566227645649,
+       "ihp": 173.2394366197183,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 52.13633849557522,
+         "y": 29.878869571596244
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 5.056692477876106,
+         "y": 54.104221684272304
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 95.85315265486726,
+         "y": 65.23098224765258
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 96.73810840707965,
+         "y": 90.16055971244131
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 35.85315265486725,
+         "y": 20.723939994131456
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 29.215984513274336,
+         "y": 65.23098224765258
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 71.69386061946904,
+         "y": 79.31548928990611
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 69.12748893805309,
+         "y": 90.16055971244131
+        }
+       ],
+       "cap": [
+        {
+         "t": "CRF 폼 순서 — 피험자 방문 화면의 카드 순서를 정합니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 387.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "피험자 방문 화면에서 CRF 카드가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떤 순서로 뜰지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 정합니다. 여기에서 정한 순서가 매트릭스의 폼 열 정렬에도 그대로 쓰이므로, 기⁣록자가 실제로 입력하는 차례대로 맞춰 두면 현장에서 헤매지 않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "방문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 순서를 정할 방문을 고릅니다. 괄호 안이 그 방문에 연결된 CRF 건수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "손잡이",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 끌어 순서를 바꿉니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "▲▼",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 한 칸씩 올리고 내릴 수도 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 창을 닫습니다. 옆의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "폼 열 정렬 해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 매트릭스의 열 정렬만 풀고 순서 자체는 그대로 둡니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "설명 — 여기 순서가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 방문 화면의 카드 순서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이자 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "매트릭스 폼 열 순서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "라는 뜻입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "목록의 번호와 CRF 이름·코드입니다. 오른쪽 숫자가 현재 정렬값입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "노란 경고 — “정렬값이 겹치는 폼 N건”. 겹친 자리는 폼 코드순으로 밀려 표시 순서가 바뀔 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "같은 경고의 해결 안내 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 번 재정렬하면 정렬값이 10 간격으로 다시 매겨집니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "정렬값이 겹치는 것은 구축 파일에서 가져온 기본값 때문입니다. 겹친 상태로 두면 표시 순서가 의도와 달라질 수 있으므로, 경고가 보⁣이면 한 번 끌어서 재정렬해 간격을 다시 매기십시오.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : CRF 매핑 > ",
+     "cur": false
+    },
+    {
+     "t": "CRF 폼 순서",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}

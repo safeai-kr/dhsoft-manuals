@@ -1,0 +1,446 @@
+[
+ {
+  "ko": "통합 조회",
+  "tr": "Integrated lookup",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "감사 추적 조회",
+  "tr": "Audit Trail lookup",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "카테고리별 보기",
+  "tr": "View by category",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "통합 보기",
+  "tr": "Integrated view",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "카테고리",
+  "tr": "Category",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "카테고리 빠른 선택",
+  "tr": "Quick category selection",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "보조 필터",
+  "tr": "Secondary filters",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "피험자 상태",
+  "tr": "Subject status",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "방문 이벤트",
+  "tr": "Visit event",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "필드 값 변경",
+  "tr": "Field value change",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "역할 변경",
+  "tr": "Role change",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "전자서명",
+  "tr": "E-signature",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "무작위배정",
+  "tr": "Randomization",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "CSV/Excel 내보내기",
+  "tr": "CSV/Excel Export",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "내보내기",
+  "tr": "Export",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "내보내기 실행",
+  "tr": "Run export",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "추출",
+  "tr": "export",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "추출 화면",
+  "tr": "Export screen",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "추출 화면 보기",
+  "tr": "View export screen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "추출 파일 다운로드",
+  "tr": "Downloading the export file",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "내보내기 이력",
+  "tr": "Export history",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "내보내기 상세",
+  "tr": "Export details",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "데이터 내보내기",
+  "tr": "Data export",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "동일 옵션으로 재실행",
+  "tr": "Re-run with same options",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "무결성 검증 (SHA-256)",
+  "tr": "Integrity check (SHA-256)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "다운로드",
+  "tr": "Download",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "추출 번호",
+  "tr": "Export number",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "완료",
+  "tr": "Completed",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "레코드 수",
+  "tr": "Record count",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "유효 기한",
+  "tr": "Expiration",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "예상 건수",
+  "tr": "Estimated count",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "개인정보 안내",
+  "tr": "Personal data notice",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "운영 이력",
+  "tr": "Operation history",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "품질·규제",
+  "tr": "Quality·Regulatory",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "프로젝트 대시보드",
+  "tr": "Project dashboard",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "감사 요약",
+  "tr": "Audit summary",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "카테고리 분포",
+  "tr": "Category distribution",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "변경 이력 상세",
+  "tr": "Change history details",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "이전 / 다음",
+  "tr": "Previous / Next",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "닫기",
+  "tr": "Close",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "초기화",
+  "tr": "Reset",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "정렬",
+  "tr": "Sort",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "최근순",
+  "tr": "Newest first",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "오래된순",
+  "tr": "Oldest first",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "보기",
+  "tr": "View",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "이력 정보",
+  "tr": "History information",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "대상",
+  "tr": "Target",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "사유",
+  "tr": "Reason",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "변경 전 / 후",
+  "tr": "Before / After",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "참조 번호",
+  "tr": "Reference number",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "수행자",
+  "tr": "Performer",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "수행자 ID",
+  "tr": "Performer ID",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "피험자 ID",
+  "tr": "Subject ID",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "대상 Subject",
+  "tr": "Target Subject",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "필드 키",
+  "tr": "Field key",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "시작일",
+  "tr": "Start date",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "종료일",
+  "tr": "End date",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "기간",
+  "tr": "Period",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "~ 현재",
+  "tr": "~ present",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "전체 9종",
+  "tr": "All 9 categories",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "자세히",
+  "tr": "Details",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "접기",
+  "tr": "Collapse",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "요약",
+  "tr": "Summary",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "액션",
+  "tr": "Action",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "중요도",
+  "tr": "Priority",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "결측",
+  "tr": "missing",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "방문",
+  "tr": "Visit",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "연구책임자",
+  "tr": "Principal investigator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "데이터 관리자",
+  "tr": "Data manager",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "감사자",
+  "tr": "Auditor",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구간호사",
+  "tr": "Research nurse",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 관리자",
+  "tr": "Workspace administrator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "시스템 관리자",
+  "tr": "System administrator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "스크리닝번호",
+  "tr": "screening number",
+  "type": "term",
+  "note": ""
+ }
+]

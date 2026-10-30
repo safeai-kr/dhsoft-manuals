@@ -1,0 +1,518 @@
+[
+ {
+  "ko": "피험자 목록",
+  "tr": "Probandenliste",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "피험자 상세",
+  "tr": "Detailansicht des Probanden",
+  "type": "path",
+  "note": "장 제목"
+ },
+ {
+  "ko": "피험자 상태 변경",
+  "tr": "Probandenstatus ändern",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "신규 피험자 등록",
+  "tr": "Neuen Probanden anlegen",
+  "type": "path",
+  "note": "절 제목, 경로"
+ },
+ {
+  "ko": "프로젝트 대시보드",
+  "tr": "Projekt-Dashboard",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "기본 정보",
+  "tr": "Basisdaten",
+  "type": "tab",
+  "note": "경로·메뉴 항목"
+ },
+ {
+  "ko": "기본 정보 (개인식별정보)",
+  "tr": "Basisdaten (Identifikationsdaten)",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "등록 정보",
+  "tr": "Registrierungsdaten",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "배정 정보",
+  "tr": "Zuteilungsinformation",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "상태 이력",
+  "tr": "Statusverlauf",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "상태 변경 이력",
+  "tr": "Statusänderungsverlauf",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "방문 타임라인",
+  "tr": "Besuchszeitleiste",
+  "type": "path",
+  "note": "방문 분권 화면 이름과 맞춤"
+ },
+ {
+  "ko": "검색 · 정렬 · 필터",
+  "tr": "Suche · Sortierung · Filter",
+  "type": "term",
+  "note": "절 제목"
+ },
+ {
+  "ko": "검색 · 정렬 · 참여기관 · 종결 상태 전체",
+  "tr": "Suche · Sortierung · Einrichtung · Alle Abschlussstatus",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "참여기관",
+  "tr": "Einrichtung",
+  "type": "field",
+  "note": "기관 용어는 glossary의 Einrichtung에 맞춤"
+ },
+ {
+  "ko": "종결 상태 전체",
+  "tr": "Alle Abschlussstatus",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "상태 필터",
+  "tr": "Statusfilter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "내 참여기관 고정",
+  "tr": "Meine Einrichtung fixiert",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "집계 배지",
+  "tr": "Zähl-Badges",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "표 · 행 액션",
+  "tr": "Tabelle · Zeilenaktionen",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "⋯ 액션 메뉴",
+  "tr": "⋯-Aktionsmenü",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "신규 피험자",
+  "tr": "Neuer Proband",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "목록으로",
+  "tr": "Zur Liste",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "← 목록으로",
+  "tr": "← Zur Liste",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "← 기본 정보로",
+  "tr": "← Zu Basisdaten",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "상태 변경",
+  "tr": "Status ändern",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "상태 변경 실행",
+  "tr": "Statusänderung ausführen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "연구 종료",
+  "tr": "Studienende",
+  "type": "button",
+  "note": "버튼·절 제목 공통"
+ },
+ {
+  "ko": "연구 종료 실행",
+  "tr": "Studienende ausführen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "전용 화면으로 이동",
+  "tr": "Zum eigenen Bildschirm wechseln",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "전용 화면",
+  "tr": "Eigener Bildschirm",
+  "type": "label",
+  "note": "배지"
+ },
+ {
+  "ko": "정상 완료",
+  "tr": "Planmäßig abgeschlossen",
+  "type": "value",
+  "note": "치료 종료 사유"
+ },
+ {
+  "ko": "사망",
+  "tr": "Verstorben",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "추적 불가",
+  "tr": "Nicht nachverfolgbar",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "동의 철회",
+  "tr": "Einwilligung widerrufen",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "치료 종료",
+  "tr": "Behandlung beendet",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "투약 중",
+  "tr": "Unter Studienmedikation",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "스크리닝",
+  "tr": "Screening",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "스크리닝 실패",
+  "tr": "Screening fehlgeschlagen",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "등록",
+  "tr": "Registriert",
+  "type": "status",
+  "note": "상태 값. 화면 이름 등록은 anlegen으로 옮김"
+ },
+ {
+  "ko": "미배정",
+  "tr": "Nicht zugeteilt",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "Terminal",
+  "tr": "Terminal",
+  "type": "status",
+  "note": "영문 상태명 그대로 둠"
+ },
+ {
+  "ko": "전이 대상 선택",
+  "tr": "Zielstatus auswählen",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "취소",
+  "tr": "Abbrechen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "고유번호",
+  "tr": "Eindeutige Nummer",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "귀속 Site",
+  "tr": "Zugehörige Site",
+  "type": "field",
+  "note": "Site는 원문 그대로"
+ },
+ {
+  "ko": "이니셜",
+  "tr": "Initialen",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "이름",
+  "tr": "Name",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "생년월일",
+  "tr": "Geburtsdatum",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "성별",
+  "tr": "Geschlecht",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "여성",
+  "tr": "Weiblich",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "기타",
+  "tr": "Sonstige",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "ICF 동의일",
+  "tr": "ICF-Einwilligungsdatum",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "생성일",
+  "tr": "Erstellungsdatum",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "연구 종료일",
+  "tr": "Datum des Studienendes",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "종료 사유",
+  "tr": "Grund für den Abschluss",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "시험군",
+  "tr": "Studienarm",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "배정번호",
+  "tr": "Zuteilungsnummer",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "최근 방문",
+  "tr": "Letzter Besuch",
+  "type": "label",
+  "note": "열 이름"
+ },
+ {
+  "ko": "품질",
+  "tr": "Qualität",
+  "type": "label",
+  "note": "열 이름"
+ },
+ {
+  "ko": "검증 대기",
+  "tr": "Verifizierung ausstehend",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "SDV 완료",
+  "tr": "SDV abgeschlossen",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "쿼리 열림",
+  "tr": "Query offen",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "쿼리 답변",
+  "tr": "Query beantwortet",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "완결(CLEAN)",
+  "tr": "Abgeschlossen (CLEAN)",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "결합된 CRF 없음",
+  "tr": "Keine verknüpfte CRF",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "방문 수동 추가",
+  "tr": "Besuch manuell hinzufügen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "Cycle 수동 추가",
+  "tr": "Cycle manuell hinzufügen",
+  "type": "button",
+  "note": "Cycle은 원문 영문 표기 유지"
+ },
+ {
+  "ko": "방문 그룹",
+  "tr": "Besuchsgruppen",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "Gantt 타임라인",
+  "tr": "Gantt-Zeitleiste",
+  "type": "tab",
+  "note": ""
+ },
+ {
+  "ko": "방문 수행",
+  "tr": "Besuch durchgeführt",
+  "type": "status",
+  "note": "집계 라벨"
+ },
+ {
+  "ko": "방문 진행",
+  "tr": "Besuch läuft",
+  "type": "status",
+  "note": "집계 라벨"
+ },
+ {
+  "ko": "방문 예정",
+  "tr": "Besuch geplant",
+  "type": "status",
+  "note": "집계 라벨"
+ },
+ {
+  "ko": "미방문",
+  "tr": "Nicht besucht",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "총 N명",
+  "tr": "Gesamt N Probanden",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "총 N건",
+  "tr": "Gesamt N Einträge",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "미해결 Query",
+  "tr": "offene Queries",
+  "type": "term",
+  "note": "Query는 원문 유지"
+ },
+ {
+  "ko": "자물쇠 배지",
+  "tr": "Schloss-Badge",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "완전 잠금",
+  "tr": "vollständig gesperrt",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "개인식별정보",
+  "tr": "Identifikationsdaten",
+  "type": "term",
+  "note": "glossary 식별정보와 맞춤"
+ },
+ {
+  "ko": "연구책임자(PI)",
+  "tr": "Hauptprüfer (PI)",
+  "type": "term",
+  "note": "PI 약어 유지"
+ },
+ {
+  "ko": "서명 정책",
+  "tr": "Signaturrichtlinie",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "전자서명",
+  "tr": "elektronische Signatur",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "Lock Override",
+  "tr": "Lock Override",
+  "type": "label",
+  "note": "영문 배지 그대로"
+ },
+ {
+  "ko": "Patient Profile",
+  "tr": "Patient Profile",
+  "type": "term",
+  "note": "영문 그대로"
+ },
+ {
+  "ko": "단계 머리줄",
+  "tr": "Phasen-Kopfzeile",
+  "type": "term",
+  "note": ""
+ }
+]

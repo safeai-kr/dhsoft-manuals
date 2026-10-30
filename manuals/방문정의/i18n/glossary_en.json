@@ -1,0 +1,500 @@
+[
+ {
+  "ko": "방문 정의 관리",
+  "tr": "Visit definition management",
+  "type": "path",
+  "note": "화면 이름. 제목과 경로에 같은 번역"
+ },
+ {
+  "ko": "방문 정의",
+  "tr": "Visit definition",
+  "type": "menu",
+  "note": "왼쪽 메뉴 항목 및 표지"
+ },
+ {
+  "ko": "연구 관리",
+  "tr": "Study management",
+  "type": "menu",
+  "note": "왼쪽 메뉴 상위 그룹. 실제 영문 메뉴명 확인 필요"
+ },
+ {
+  "ko": "프로젝트 대시보드",
+  "tr": "Project dashboard",
+  "type": "path",
+  "note": "경로 첫 항목"
+ },
+ {
+  "ko": "VisitGroup 추가",
+  "tr": "Add VisitGroup",
+  "type": "label",
+  "note": "섹션 제목"
+ },
+ {
+  "ko": "신규 VisitGroup 추가",
+  "tr": "Add new VisitGroup",
+  "type": "path",
+  "note": "경로 항목"
+ },
+ {
+  "ko": "정의 수정",
+  "tr": "Edit definition",
+  "type": "label",
+  "note": "섹션 제목 및 경로"
+ },
+ {
+  "ko": "새 버전 생성과 발행",
+  "tr": "Create new version and publish",
+  "type": "label",
+  "note": "섹션 제목"
+ },
+ {
+  "ko": "버전 관리",
+  "tr": "Version management",
+  "type": "label",
+  "note": "장 제목"
+ },
+ {
+  "ko": "버전",
+  "tr": "Version",
+  "type": "path",
+  "note": "경로 항목"
+ },
+ {
+  "ko": "Plan 미리보기",
+  "tr": "Plan preview",
+  "type": "label",
+  "note": "섹션 제목 및 버튼"
+ },
+ {
+  "ko": "VisitPlan 미리보기",
+  "tr": "VisitPlan preview",
+  "type": "path",
+  "note": "경로 항목"
+ },
+ {
+  "ko": "연결 조회",
+  "tr": "Link view",
+  "type": "tab",
+  "note": "섹션 제목 및 모드 배지"
+ },
+ {
+  "ko": "연결 수정",
+  "tr": "Link edit",
+  "type": "tab",
+  "note": "섹션 제목 및 모드 배지"
+ },
+ {
+  "ko": "CRF 매핑",
+  "tr": "CRF mapping",
+  "type": "menu",
+  "note": "장 제목 및 경로"
+ },
+ {
+  "ko": "폼 순서",
+  "tr": "Form order",
+  "type": "tab",
+  "note": "섹션 제목 및 버튼"
+ },
+ {
+  "ko": "CRF 폼 순서",
+  "tr": "CRF form order",
+  "type": "path",
+  "note": "경로 항목"
+ },
+ {
+  "ko": "방문",
+  "tr": "visit",
+  "type": "term",
+  "note": "본문에서 Visit과 구분해 소문자 visit으로 씀. UI 필드명은 Visit 그대로"
+ },
+ {
+  "ko": "시험군",
+  "tr": "study arm",
+  "type": "term",
+  "note": "Arm 표기는 원문대로 유지"
+ },
+ {
+  "ko": "공통",
+  "tr": "Common",
+  "type": "tab",
+  "note": "시험군 필터 탭 및 값"
+ },
+ {
+  "ko": "수정",
+  "tr": "Edit",
+  "type": "button",
+  "note": "버튼. 편집(Edit)과 같은 번역"
+ },
+ {
+  "ko": "비활성화",
+  "tr": "Deactivate",
+  "type": "button",
+  "note": "발행된 방문을 거두는 버튼"
+ },
+ {
+  "ko": "생성",
+  "tr": "Create",
+  "type": "button",
+  "note": "VisitGroup 생성 버튼"
+ },
+ {
+  "ko": "새 버전 생성",
+  "tr": "Create new version",
+  "type": "button",
+  "note": "버튼"
+ },
+ {
+  "ko": "버전 선택",
+  "tr": "Select version",
+  "type": "button",
+  "note": "버전 전환 항목"
+ },
+ {
+  "ko": "버전 보기",
+  "tr": "View versions",
+  "type": "button",
+  "note": "버전별 차이 확인 버튼"
+ },
+ {
+  "ko": "닫기",
+  "tr": "Close",
+  "type": "button",
+  "note": "창 닫기 버튼"
+ },
+ {
+  "ko": "취소",
+  "tr": "Cancel",
+  "type": "button",
+  "note": "변경 버리기 버튼"
+ },
+ {
+  "ko": "완료",
+  "tr": "Done",
+  "type": "button",
+  "note": "연결 수정 저장 버튼"
+ },
+ {
+  "ko": "선택",
+  "tr": "Select",
+  "type": "button",
+  "note": "다중 선택 모드 켜기 버튼. 상태 값 선택(Optional)과 구분"
+ },
+ {
+  "ko": "다중 선택 모드",
+  "tr": "multiple choice mode",
+  "type": "button",
+  "note": "용어집 '다중 선택 = Multiple choice'를 따름. UI상 multi-select가 더 자연스러울 수 있음"
+ },
+ {
+  "ko": "필수",
+  "tr": "Required",
+  "type": "status",
+  "note": "연결 상태 값"
+ },
+ {
+  "ko": "선택 (연결 상태)",
+  "tr": "Optional",
+  "type": "status",
+  "note": "연결 상태 값. 버튼 '선택'(Select)과 다름"
+ },
+ {
+  "ko": "미매핑",
+  "tr": "Unmapped",
+  "type": "status",
+  "note": "연결 상태 값"
+ },
+ {
+  "ko": "폼 열 정렬",
+  "tr": "Form column sort",
+  "type": "label",
+  "note": "칩 이름"
+ },
+ {
+  "ko": "정렬값",
+  "tr": "sort value",
+  "type": "term",
+  "note": "폼 순서 숫자"
+ },
+ {
+  "ko": "개정본 발행 전 확인",
+  "tr": "Check before publishing revision",
+  "type": "label",
+  "note": "카드 제목"
+ },
+ {
+  "ko": "발행된 버전입니다",
+  "tr": "This is a published version",
+  "type": "message",
+  "note": "안내 문구"
+ },
+ {
+  "ko": "피험자 상태 제한",
+  "tr": "Subject status restriction",
+  "type": "label",
+  "note": "필드명"
+ },
+ {
+  "ko": "허용 피험자 상태",
+  "tr": "Allowed subject status",
+  "type": "label",
+  "note": "상세 항목명"
+ },
+ {
+  "ko": "버전 번호",
+  "tr": "version number",
+  "type": "label",
+  "note": "상세 머리 표시"
+ },
+ {
+  "ko": "발행 상태",
+  "tr": "publish status",
+  "type": "label",
+  "note": "상세 머리 배지"
+ },
+ {
+  "ko": "Visit 코드",
+  "tr": "Visit code",
+  "type": "field",
+  "note": "필드명"
+ },
+ {
+  "ko": "Visit 명",
+  "tr": "Visit name",
+  "type": "field",
+  "note": "필드명"
+ },
+ {
+  "ko": "Visit Group 코드",
+  "tr": "Visit Group code",
+  "type": "field",
+  "note": "필드명"
+ },
+ {
+  "ko": "Visit Group 명",
+  "tr": "Visit Group name",
+  "type": "field",
+  "note": "필드명"
+ },
+ {
+  "ko": "Offset Days (anchor 기준)",
+  "tr": "Offset Days (from anchor)",
+  "type": "field",
+  "note": "필드명"
+ },
+ {
+  "ko": "Window Before/After (일)",
+  "tr": "Window Before/After (days)",
+  "type": "field",
+  "note": "필드명"
+ },
+ {
+  "ko": "Cycle 반복 활성화",
+  "tr": "Enable cycle repeat",
+  "type": "label",
+  "note": "체크 항목"
+ },
+ {
+  "ko": "1 Cycle 주기",
+  "tr": "1 Cycle period",
+  "type": "field",
+  "note": "필드명"
+ },
+ {
+  "ko": "사전동의/서명",
+  "tr": "informed consent/signature",
+  "type": "value",
+  "note": "Anchor Type 선택 값"
+ },
+ {
+  "ko": "기준일",
+  "tr": "anchor date",
+  "type": "term",
+  "note": "날짜를 세는 기준 날짜"
+ },
+ {
+  "ko": "계획일",
+  "tr": "planned date",
+  "type": "term",
+  "note": "방문 계획 날짜"
+ },
+ {
+  "ko": "허용 오차",
+  "tr": "allowed window",
+  "type": "term",
+  "note": "±0/0 표시. window와 같은 뜻으로 통일"
+ },
+ {
+  "ko": "방문 타임라인",
+  "tr": "visit timeline",
+  "type": "term",
+  "note": "피험자 방문 화면"
+ },
+ {
+  "ko": "주기 치료",
+  "tr": "cyclic treatment",
+  "type": "term",
+  "note": "Cycle 반복 설명"
+ },
+ {
+  "ko": "선별 단계",
+  "tr": "screening stage",
+  "type": "value",
+  "note": "VisitGroup 예시 값"
+ },
+ {
+  "ko": "치료 단계",
+  "tr": "treatment stage",
+  "type": "value",
+  "note": "VisitGroup 예시 값"
+ },
+ {
+  "ko": "설정 중",
+  "tr": "setup stage",
+  "type": "status",
+  "note": "프로젝트 단계. SETUP 코드와 함께 씀"
+ },
+ {
+  "ko": "구축 단계",
+  "tr": "build stage",
+  "type": "term",
+  "note": "설정 중·테스트 단계를 포함하는 개념"
+ },
+ {
+  "ko": "테스트 단계",
+  "tr": "test stage",
+  "type": "status",
+  "note": "프로젝트 단계"
+ },
+ {
+  "ko": "운영",
+  "tr": "operation",
+  "type": "status",
+  "note": "프로젝트 단계. ACTIVE 코드와 함께 씀"
+ },
+ {
+  "ko": "방문 없음",
+  "tr": "No visits",
+  "type": "message",
+  "note": "피험자 화면 표시 문구"
+ },
+ {
+  "ko": "데이터 관리자",
+  "tr": "data manager",
+  "type": "term",
+  "note": "DM 역할"
+ },
+ {
+  "ko": "워크스페이스 관리자",
+  "tr": "workspace administrator",
+  "type": "term",
+  "note": "역할"
+ },
+ {
+  "ko": "연구책임자",
+  "tr": "principal investigator (PI)",
+  "type": "term",
+  "note": "역할. PI는 원문에서 Latin으로 쓰는 경우와 함께 씀"
+ },
+ {
+  "ko": "연구간호사",
+  "tr": "research nurse",
+  "type": "term",
+  "note": "역할"
+ },
+ {
+  "ko": "모니터요원",
+  "tr": "monitor",
+  "type": "term",
+  "note": "역할. 용어집의 CRA 표기와 같은 사람인지 확인 필요"
+ },
+ {
+  "ko": "프로토콜",
+  "tr": "protocol",
+  "type": "term",
+  "note": "임상시험 계획서"
+ },
+ {
+  "ko": "설계 버전 관리",
+  "tr": "design version management",
+  "type": "term",
+  "note": "화면 이름 확인 필요"
+ },
+ {
+  "ko": "할 일 목록",
+  "tr": "to-do list",
+  "type": "term",
+  "note": "설계 버전 관리 화면 항목"
+ },
+ {
+  "ko": "구축 파일",
+  "tr": "build file",
+  "type": "term",
+  "note": "정렬값 기본값 출처. 실제 파일명 확인 필요"
+ },
+ {
+  "ko": "범례",
+  "tr": "legend",
+  "type": "term",
+  "note": "매트릭스 하단 설명"
+ },
+ {
+  "ko": "교차점",
+  "tr": "intersection",
+  "type": "term",
+  "note": "매트릭스 셀"
+ },
+ {
+  "ko": "매트릭스",
+  "tr": "matrix",
+  "type": "term",
+  "note": "CRF Visit Matrix 화면"
+ },
+ {
+  "ko": "행 머리",
+  "tr": "row header",
+  "type": "term",
+  "note": "방문 행"
+ },
+ {
+  "ko": "열 머리",
+  "tr": "column header",
+  "type": "term",
+  "note": "CRF 열"
+ },
+ {
+  "ko": "선택 상자",
+  "tr": "dropdown",
+  "type": "term",
+  "note": "용어집 드롭다운 = Dropdown"
+ },
+ {
+  "ko": "손잡이",
+  "tr": "handle",
+  "type": "label",
+  "note": "드래그 순서 변경 아이콘"
+ },
+ {
+  "ko": "배지",
+  "tr": "badge",
+  "type": "term",
+  "note": "상태·버전 표시"
+ },
+ {
+  "ko": "창",
+  "tr": "window",
+  "type": "term",
+  "note": "팝업 창"
+ },
+ {
+  "ko": "잠금",
+  "tr": "locked",
+  "type": "term",
+  "note": "잠긴 항목 상태"
+ },
+ {
+  "ko": "구축",
+  "tr": "build",
+  "type": "term",
+  "note": "구축 단계 접두어"
+ }
+]

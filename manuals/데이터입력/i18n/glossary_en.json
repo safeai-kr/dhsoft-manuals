@@ -1,0 +1,470 @@
+[
+ {
+  "ko": "데이터 입력",
+  "tr": "Data entry",
+  "type": "menu",
+  "note": "left menu and volume title"
+ },
+ {
+  "ko": "데이터 입력 목록",
+  "tr": "Data entry list",
+  "type": "label",
+  "note": "screen name"
+ },
+ {
+  "ko": "연구 운영",
+  "tr": "Study Operations",
+  "type": "menu",
+  "note": "left menu group"
+ },
+ {
+  "ko": "방문 피험자 목록",
+  "tr": "Visit subject list",
+  "type": "menu",
+  "note": "navigation path"
+ },
+ {
+  "ko": "방문 워크리스트",
+  "tr": "Visit worklist",
+  "type": "button",
+  "note": "link on dashboard"
+ },
+ {
+  "ko": "오늘 예정 방문",
+  "tr": "Today's scheduled visits",
+  "type": "label",
+  "note": "dashboard widget"
+ },
+ {
+  "ko": "방문 현황",
+  "tr": "Visit status",
+  "type": "label",
+  "note": "dashboard widget"
+ },
+ {
+  "ko": "프로젝트 대시보드",
+  "tr": "Project dashboard",
+  "type": "path",
+  "note": "navigation path"
+ },
+ {
+  "ko": "방문 타임라인",
+  "tr": "Visit timeline",
+  "type": "tab",
+  "note": "screen name"
+ },
+ {
+  "ko": "방문 타임라인 ▶",
+  "tr": "Visit timeline ▶",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "CRF 입력",
+  "tr": "CRF entry",
+  "type": "menu",
+  "note": "screen name"
+ },
+ {
+  "ko": "Query 답변",
+  "tr": "Query response",
+  "type": "label",
+  "note": "section title"
+ },
+ {
+  "ko": "Gantt 타임라인",
+  "tr": "Gantt timeline",
+  "type": "tab",
+  "note": "view tab"
+ },
+ {
+  "ko": "방문 그룹",
+  "tr": "Visit group",
+  "type": "tab",
+  "note": "view tab"
+ },
+ {
+  "ko": "Cycle 수동 추가",
+  "tr": "Add Cycle manually",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "방문 수동 추가",
+  "tr": "Add visit manually",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "내 Site 고정",
+  "tr": "Fixed to my Site",
+  "type": "label",
+  "note": "badge"
+ },
+ {
+  "ko": "마지막 방문",
+  "tr": "Last visit",
+  "type": "label",
+  "note": "column and cell"
+ },
+ {
+  "ko": "다음 방문",
+  "tr": "Next visit",
+  "type": "label",
+  "note": "column and cell"
+ },
+ {
+  "ko": "실제 방문일",
+  "tr": "actual visit date",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "예정일",
+  "tr": "scheduled date",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "상태 필터",
+  "tr": "Status filter",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "전체",
+  "tr": "All",
+  "type": "value",
+  "note": "filter"
+ },
+ {
+  "ko": "진행",
+  "tr": "In progress",
+  "type": "value",
+  "note": "filter"
+ },
+ {
+  "ko": "전건완료",
+  "tr": "All completed",
+  "type": "value",
+  "note": "filter and status"
+ },
+ {
+  "ko": "전건 완료",
+  "tr": "All completed",
+  "type": "status",
+  "note": "same term as 전건완료"
+ },
+ {
+  "ko": "방문 실적 없음",
+  "tr": "No visit history",
+  "type": "value",
+  "note": "filter"
+ },
+ {
+  "ko": "예정 방문 없음",
+  "tr": "No scheduled visit",
+  "type": "status",
+  "note": "orange badge"
+ },
+ {
+  "ko": "지연",
+  "tr": "Overdue",
+  "type": "status",
+  "note": "warning badge"
+ },
+ {
+  "ko": "임박",
+  "tr": "Due soon",
+  "type": "status",
+  "note": "badge"
+ },
+ {
+  "ko": "조치 필요",
+  "tr": "Action needed",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "미처리 Query 건수",
+  "tr": "unresolved Query count",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "방문 수행",
+  "tr": "Completed",
+  "type": "status",
+  "note": "visit status"
+ },
+ {
+  "ko": "방문 진행",
+  "tr": "In progress",
+  "type": "status",
+  "note": "visit status"
+ },
+ {
+  "ko": "방문 예정",
+  "tr": "Scheduled",
+  "type": "status",
+  "note": "visit status"
+ },
+ {
+  "ko": "미방문",
+  "tr": "Not visited",
+  "type": "status",
+  "note": "visit status"
+ },
+ {
+  "ko": "건너뜀",
+  "tr": "Skipped",
+  "type": "status",
+  "note": "visit status"
+ },
+ {
+  "ko": "취소",
+  "tr": "Canceled",
+  "type": "status",
+  "note": "visit status badge"
+ },
+ {
+  "ko": "건너뛰기 (SKIP)",
+  "tr": "Skip (SKIP)",
+  "type": "button",
+  "note": "visit action"
+ },
+ {
+  "ko": "취소 (CANCEL)",
+  "tr": "Cancel (CANCEL)",
+  "type": "button",
+  "note": "visit action"
+ },
+ {
+  "ko": "해당 없음 (NA)",
+  "tr": "Not applicable (NA)",
+  "type": "button",
+  "note": "visit action"
+ },
+ {
+  "ko": "방문 상태 변경",
+  "tr": "Change visit status",
+  "type": "label",
+  "note": "window title"
+ },
+ {
+  "ko": "상태 변경 > 복원",
+  "tr": "Change status > Restore",
+  "type": "menu",
+  "note": "navigation inside visit details"
+ },
+ {
+  "ko": "복원",
+  "tr": "Restore",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "사유",
+  "tr": "Reason",
+  "type": "field",
+  "note": "required field"
+ },
+ {
+  "ko": "메모",
+  "tr": "Memo",
+  "type": "field",
+  "note": "optional field"
+ },
+ {
+  "ko": "편차 대상",
+  "tr": "Deviation target",
+  "type": "label",
+  "note": "column"
+ },
+ {
+  "ko": "편차",
+  "tr": "deviation",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "되돌리기",
+  "tr": "Reversible",
+  "type": "label",
+  "note": "column"
+ },
+ {
+  "ko": "전용 화면",
+  "tr": "Dedicated screen",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "CRF 탐색",
+  "tr": "CRF navigation",
+  "type": "label",
+  "note": "left panel"
+ },
+ {
+  "ko": "필수 입력 집계",
+  "tr": "Required-item count",
+  "type": "label",
+  "note": "entry progress"
+ },
+ {
+  "ko": "미완료 항목 목록",
+  "tr": "List of incomplete items",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "허용 범위",
+  "tr": "allowed range",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "회차 번호",
+  "tr": "entry number",
+  "type": "term",
+  "note": "repeated CRF"
+ },
+ {
+  "ko": "수축기혈압",
+  "tr": "Systolic blood pressure",
+  "type": "field",
+  "note": "example field"
+ },
+ {
+  "ko": "이완기혈압",
+  "tr": "Diastolic blood pressure",
+  "type": "field",
+  "note": "example field"
+ },
+ {
+  "ko": "방문일",
+  "tr": "Visit date",
+  "type": "field",
+  "note": "example field"
+ },
+ {
+  "ko": "임시저장",
+  "tr": "Save draft",
+  "type": "button",
+  "note": "not a final save"
+ },
+ {
+  "ko": "저장됨",
+  "tr": "Saved",
+  "type": "message",
+  "note": "status text"
+ },
+ {
+  "ko": "변경 이력",
+  "tr": "Change history",
+  "type": "button",
+  "note": "button and tab"
+ },
+ {
+  "ko": "입력 상태",
+  "tr": "Entry status",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "품질 상태",
+  "tr": "Quality status",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "검증 대기",
+  "tr": "Awaiting verification",
+  "type": "status",
+  "note": "quality status"
+ },
+ {
+  "ko": "SDV 완료",
+  "tr": "SDV completed",
+  "type": "status",
+  "note": "quality status"
+ },
+ {
+  "ko": "원자료 대조(SDV)",
+  "tr": "source data verification (SDV)",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "원자료",
+  "tr": "source data",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "종결 대기",
+  "tr": "Awaiting closure",
+  "type": "status",
+  "note": "Query status"
+ },
+ {
+  "ko": "값 정정",
+  "tr": "Value corrected",
+  "type": "value",
+  "note": "Query resolution"
+ },
+ {
+  "ko": "현행 유지",
+  "tr": "Keep current value",
+  "type": "value",
+  "note": "Query resolution"
+ },
+ {
+  "ko": "해소 방식",
+  "tr": "Resolution method",
+  "type": "label",
+  "note": "Query card"
+ },
+ {
+  "ko": "답변 코멘트",
+  "tr": "Response comment",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "변경 사유",
+  "tr": "reason for change",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "담당자",
+  "tr": "Assignee",
+  "type": "label",
+  "note": "Query card"
+ },
+ {
+  "ko": "처리 상태",
+  "tr": "Status",
+  "type": "label",
+  "note": "Query card header"
+ },
+ {
+  "ko": "중요도",
+  "tr": "Priority",
+  "type": "label",
+  "note": "Query card header"
+ },
+ {
+  "ko": "이력·상세 보기",
+  "tr": "History and details",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "Query 미처리 N건",
+  "tr": "N unresolved Queries",
+  "type": "label",
+  "note": "count label"
+ }
+]

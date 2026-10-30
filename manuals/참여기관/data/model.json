@@ -1,0 +1,3846 @@
+{
+ "title": "SMART-EDC 사용자 매뉴얼 — 참여 기관",
+ "src": "SMART-EDC_사용자매뉴얼_참여기관.pdf",
+ "toc": [
+  {
+   "ch": "1",
+   "title": "참여 기관 목록",
+   "items": [
+    {
+     "no": "1.1",
+     "title": "참여 기관 목록 > 화면 구성"
+    },
+    {
+     "no": "1.2",
+     "title": "참여 기관 목록 > 등록이 열리는 조건"
+    }
+   ]
+  },
+  {
+   "ch": "2",
+   "title": "참여 기관 등록 · 수정",
+   "items": [
+    {
+     "no": "2.1",
+     "title": "참여 기관 등록 > 기관 선택"
+    },
+    {
+     "no": "2.2",
+     "title": "참여 기관 등록 > 기관 등록 요청"
+    },
+    {
+     "no": "2.3",
+     "title": "참여 기관 수정 > 수정 화면"
+    }
+   ]
+  },
+  {
+   "ch": "3",
+   "title": "연구자 배정",
+   "items": [
+    {
+     "no": "3.1",
+     "title": "연구자 배정 > 배정 현황"
+    },
+    {
+     "no": "3.2",
+     "title": "연구자 배정 > 연구자 추가"
+    },
+    {
+     "no": "3.3",
+     "title": "연구자 배정 > 배정 규칙"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "kind": "cover",
+   "lines": [
+    "SMART",
+    " EDC",
+    "임상시험 전자자료수집 시스템",
+    "참여 기관",
+    "SCR-PRJ-005·006·007 · 목록 · 등록 · 수정 · 기관 등록 요청 · 연구자 배정",
+    "사용자 매뉴얼 · 화면별 분권",
+    "2026-10-28"
+   ]
+  },
+  {
+   "kind": "toc"
+  },
+  {
+   "kind": "body",
+   "no": 3,
+   "title": "1.1 참여 기관 목록 > 화면 구성",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p03_1.png",
+       "iw": 1611,
+       "ih": 532,
+       "w": 531.375,
+       "h": 169.12501525878906,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 104.2128599303288,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 25.415711009174313,
+         "y": 58.789499283502366
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 32.896303810868034,
+         "y": 58.789499283502366
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 57.455231122088925,
+         "y": 79.85379893514639
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 94.99933839096684,
+         "y": 79.85379893514639
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 86.95417254763585,
+         "y": 79.85379893514639
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 30.214581863091038,
+         "y": 15.773982100145103
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 25.697997529992943,
+         "y": 23.091054610716185
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 48.422062455892735,
+         "y": 36.394822811754516
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 24.427708186309104,
+         "y": 45.70746055248134
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 28.37971947776994,
+         "y": 70.54116119441956
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 43.482048341566696,
+         "y": 70.54116119441956
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 65.92382674664785,
+         "y": 70.54116119441956
+        },
+        {
+         "kind": "ref",
+         "n": 8,
+         "x": 79.47357974594213,
+         "y": 70.54116119441956
+        }
+       ],
+       "cap": [
+        {
+         "t": "참여 기관 목록 (SCR-PRJ-005) — 운영 중 프로젝트라 신규 등록이 닫혀 있습니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 290.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "이 프로젝트에서 피험자를 모집하는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관(Site)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 관리하는 화면입니다. 기관마다 책임연구자와 IRB 승인 정보를 두고, 그 기관에서 일⁣할 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구자를 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다. 참여 기관이 있어야 피험자를 등록할 수 있으므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자 등록보다 먼저 끝내야 하는 구축 작업",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 책임연구자명으로 행을 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "상태 필터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 활성·종료로 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 기관의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구자 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 화면으로 이동합니다 (3.1 참조). 왼쪽 숫자가 현재 배정된 연구자 수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "행 액션",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "수정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(2.3 참조)과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구자 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(3.1 참조) 두 가지입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 종료는 여기에 없습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트를 종료하면 하위 참여⁣기관이 모두 자동으로 종료되기 때문입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "피험자 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택하면 그 기관의 피험자 목록으로 이동합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 프로젝트 설정 / 참여 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "제목 옆 괄호 안이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "등록된 참여 기관 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "노란 배너 — “현재 프로젝트 상태 \"운영 중\" — 참여 기관 신규 등록은 설정 중 · 테스트 상태에서만 가능합니다”. 이 배너가 보이면⁣등록 버튼이 표시되지 않습니다 (1.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "집계 뷰",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭 — 집계 뷰는 기관별 등록 현황을 카드로 보여줍니다. 감사자는 집계 뷰를 볼 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "기관 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기관 코드는 기관 자체의 코드가 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 프로젝트 안에서 부여한 번호(siteCode)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다 (1.2 참조). 기관⁣명 아래 작은 글자가 기관 마스터의 코드입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "책임연구자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 등록·수정 화면에서 입력한 이름이 그대로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 8,
+       "runs": [
+        {
+         "t": "IRB 승인일 / 승인 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 승인 번호는 선택 입력이라 비어 있으면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "이 화면으로 가는 다른 길",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "왼쪽 메뉴 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 > 참여 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 설정 화면의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참여 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 바로가기",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 설정 화면의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "연구자 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 바로가기 (연구자 수 열이 강조된 상태로 열림)",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "프로젝트 대시보드 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참여 기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 위젯의 행 또는 전체 보기",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "연구책임자(PI)는 자기 기관 행만 수정·배정할 수 있습니다. 다른 기관 행에는 액션 메뉴가 표시되지 않습니다. 연구간호사·모니터요원·⁣감사자는 목록을 읽을 수만 있습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 프로젝트 설정 > ",
+     "cur": false
+    },
+    {
+     "t": "참여 기관",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 4,
+   "title": "1.2 참여 기관 목록 > 등록이 열리는 조건",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p04_1.png",
+       "iw": 1379,
+       "ih": 433,
+       "w": 531.375,
+       "h": 132.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21170340434604,
+       "ihp": 126.34560906515581,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 87.94217537050106,
+         "y": 22.419440509915013
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 53.43264820042343,
+         "y": 86.72538951841359
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 17.935118207480592,
+         "y": 24.402443342776202
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 9.889952364149613,
+         "y": 36.86703257790368
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 7.913946718419195,
+         "y": 86.72538951841359
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 62.395245236414965,
+         "y": 86.72538951841359
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 76.43899964714184,
+         "y": 86.72538951841359
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 90.90618383909668,
+         "y": 86.72538951841359
+        }
+       ],
+       "cap": [
+        {
+         "t": "같은 화면이지만 설정 중 프로젝트입니다 — 배너가 사라지고 등록 버튼이 나타납니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 253.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "앞 쪽과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "같은 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 다른 프로젝트에서 연 것입니다. 이 프로젝트는 아직 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이라 노란 배너가 없고 오른쪽 위에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참여 기관 등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "⁣버튼이 나타납니다. 참여 기관은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 중 · 테스트 단계에서만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 새로 넣거나 고칠 수 있으므로, 운영을 시작하기 전에 기관 구성을 확정⁣해야 합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "+ 참여 기관 등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 새 참여 기관을 추가합니다 (2.1 참조). 프로젝트가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "테스트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 일 때만, 그리고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "권한이 있는 사람에게⁣만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 연구자 배정 화면으로 이동합니다 (3.1 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "제목 아래에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트명과 프로토콜 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "가 표시됩니다. 앞 쪽과 다른 프로젝트인지 여기에서 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "집계 뷰",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 탭 구성은 프로젝트 상태와 무관하게 같습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "기관 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 가 기관 마스터 코드와 같은 값입니다. 등록할 때 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참여 기관 번호를 비워 두면 기관 코드가 그대로 들어가기 때문",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며, 앞⁣쪽처럼 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "SITE-01",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 형식으로 직접 정할 수도 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "책임연구자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 는 자유 입력 항목이라 실명이 아닌 값도 그대로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "IRB 승인번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 미입력 — 선택 항목이라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 표시됩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "IRB 승인일은 필수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "피험자 수",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 설정 중 단계에서 등록한 피험자는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시험 데이터",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이며 운영 시작 시 전건 삭제됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "프로젝트 상태별 가능 범위",
+     "head": [
+      "프로젝트 상태",
+      "참여 기관 등록·수정",
+      "연구자 배정·해제"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "설정 중 · 테스트",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "운영 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "불가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배너 표시 · 입력란 비활성",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "종료 · 보관",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "불가",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "불가 — 읽기 전용",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      24.9,
+      47.9,
+      27.2
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "운영을 시작하면 참여 기관을 더 넣을 수 없습니다. 반대로 연구자 배정은 운영 중에도 계속 가능합니다 — 인력 교체는 정상 업무이⁣기 때문입니다. 두 가지를 같은 제약으로 기억하지 마십시오. 운영 전환 전에 참여할 기관이 모두 들어갔는지 확인하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 참여 기관 > ",
+     "cur": false
+    },
+    {
+     "t": "설정 중 프로젝트",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 5,
+   "title": "2.1 참여 기관 등록 > 기관 선택",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p05_1.png",
+       "iw": 1379,
+       "ih": 572,
+       "w": 531.375,
+       "h": 220.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21170340434604,
+       "ihp": 100.51107325383303,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 93.44676252646437,
+         "y": 36.13979982964225
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 20.475696894848273,
+         "y": 44.65768739352641
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 85.96616972477065,
+         "y": 26.088692504258944
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 97.96334685956246,
+         "y": 93.72071976149915
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 9.466522582921666,
+         "y": 3.260753833049404
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 17.44111679604799,
+         "y": 14.674723168654175
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 6.431942484121383,
+         "y": 25.91833475298126
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 26.96828687367678,
+         "y": 47.7241269165247
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 93.94076393789696,
+         "y": 47.7241269165247
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 89.91818101623149,
+         "y": 93.72071976149915
+        }
+       ],
+       "cap": [
+        {
+         "t": "참여 기관 등록 (SCR-PRJ-006) — 먼저 기관 마스터에서 기관을 고릅니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 341.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "참여 기관을 추가하는 첫 단계입니다. 기관은 새로 입력하는 것이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이미 등록된 기관 목록에서 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "합니다. 기관을 고르면 그 아⁣래에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참여 기관 번호 · 책임연구자명 · IRB 승인 정보",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 입력하는 칸이 이어집니다 (항목 구성은 2.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "기관 검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기관명·코드·국가로 목록을 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기관 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록에서 기관을 선택합니다. 선택해야 아래 입력 항목과 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 열립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "+ 기관 등록 요청",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록에 찾는 기관이 없을 때 사용합니다 (2.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "등록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 저장하고 목록으로 돌아갑니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 · 참여 기관 번호 · 책임연구자명 · IRB 승인일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 을 모두 채우기 전에는 흐리게 표⁣시되어 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "← 참여 기관 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 저장하지 않고 목록으로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "어느 프로젝트에 추가하는지 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "프로젝트명과 프로토콜 번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "로 확인합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "기관",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 카드 — 기관을 고르는 영역입니다. 기관 자체의 정보(명칭·주소·유형)는 여기에서 수정할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "각 항목의 작은 글자는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 코드 · 국가 · 영문 명칭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 이름이 비슷한 기관이 있을 때 이 값으로 구별하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "목록은 스크롤됩니다 — 보이는 네 건이 전부가 아니므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "검색으로 좁혀",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 버리고 목록으로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "기관을 잘못 고르면 등록 후에는 바꿀 수 없습니다. 수정 화면에서는 기관 선택 영역 자체가 표시되지 않습니다 (2.3 참조). 기관을 바⁣꾸려면 참여 기관을 다시 등록해야 하므로, 코드와 국가까지 확인한 뒤 선택하십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 참여 기관 > ",
+     "cur": false
+    },
+    {
+     "t": "참여 기관 등록",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 6,
+   "title": "2.2 참여 기관 등록 > 기관 등록 요청",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p06_1.png",
+       "iw": 658,
+       "ih": 785,
+       "w": 243.0,
+       "h": 336.75,
+       "ix": -18.98148148148148,
+       "iy": -9.242761692650333,
+       "iwp": 135.49382716049382,
+       "ihp": 116.70378619153674,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 83.50935570987654,
+         "y": 22.95545367019302
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 83.50935570987654,
+         "y": 33.3118011089458
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 83.50935570987654,
+         "y": 43.11135567464737
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 80.88589891975309,
+         "y": 53.022268814959176
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 79.4970100308642,
+         "y": 63.15589910449147
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 83.50935570987654,
+         "y": 79.19153384836675
+        },
+        {
+         "kind": "set",
+         "n": 7,
+         "x": 95.54639274691358,
+         "y": 91.66369420471418
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 16.22540509259259,
+         "y": 14.380843425204157
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 76.71923225308642,
+         "y": 4.804006008723088
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 53.262442129629626,
+         "y": 67.61024208890126
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 59.435281635802475,
+         "y": 91.66369420471418
+        }
+       ],
+       "cap": [
+        {
+         "t": "기관 등록 요청 — 목록에 없는 기관을 시스템 관리자에게 요청합니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 457.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "참여시키려는 기관이 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 목록에 없을 때",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 사용하는 창입니다. 여기에서 바로 기관이 만들어지지는 않습니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "시스템 관리자가 검토⁣해 승인해야",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 목록에 나타나며, 승인되면 알림을 받습니다. 따라서 참여 기관 등록은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "승인된 뒤에 이어서",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 진행합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "제안 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 기관을 식별할 짧은 코드를 제안합니다 (예: “SNUH” · “AMC”). 최종 코드는 관리자가 정합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기관명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 공식 명칭을 입력합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "영문 명칭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택입니다. 다국가 연구에서 구별이 필요할 때 입력합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "기관 유형",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 병원 등 유형을 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "국가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 기본값은 대한민국이며 검색으로 좁혀 선택합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "요청 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택입니다. 관리자가 판단할 근거를 적으면 검토가 빨라집니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 7,
+       "runs": [
+        {
+         "t": "요청 제출",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 요청을 보냅니다. 제출하면 창이 바로 닫히지 않고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "완료 안내로 바뀌므로",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", 내용을 확인한 뒤 닫으십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "안내문 — “기관 관리에 등록되지 않은 기관입니다. 시스템 관리자 검토 후 승인되면 알림을 받습니다.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 요청하지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "국가 입력 안내 — “ISO-3166-1 alpha-2 코드 (검색으로 좁혀 선택)”. 두 글자 국가 코드 기준이며, 목록에 없는 값은 입력할 수 없습⁣니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 입력을 버리고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "같은 코드로 이미 대기 중인 요청이 있으면 거절됩니다. 이때는 다시 요청하지 말고 관리자의 검토가 끝날 때까지 기다리십시오 — 다⁣른 사람이 같은 기관을 이미 요청했을 수 있습니다. 승인 전까지는 그 기관을 참여 기관으로 추가할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 참여 기관 등록 > ",
+     "cur": false
+    },
+    {
+     "t": "기관 등록 요청",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 7,
+   "title": "2.3 참여 기관 수정 > 수정 화면",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p07_1.png",
+       "iw": 1381,
+       "ih": 699,
+       "w": 523.125,
+       "h": 264.375,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21505376344086,
+       "ihp": 100.42553191489361,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 46.891801075268816,
+         "y": 53.35318779550827
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 94.3469982078853,
+         "y": 53.35318779550827
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 46.891801075268816,
+         "y": 63.56595375295508
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 94.3469982078853,
+         "y": 63.56595375295508
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 45.88821684587814,
+         "y": 74.2042516252955
+        },
+        {
+         "kind": "set",
+         "n": 6,
+         "x": 97.93122759856631,
+         "y": 94.20425162529551
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 37.42943548387097,
+         "y": 17.75035091607565
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 28.39717741935484,
+         "y": 42.57304595153664
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 14.920474910394265,
+         "y": 36.04822325650118
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 35.924059139784944,
+         "y": 48.814180703309695
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 89.90255376344086,
+         "y": 94.20425162529551
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 9.47244623655914,
+         "y": 2.573047394448138
+        }
+       ],
+       "cap": [
+        {
+         "t": "참여 기관 수정 — 운영 중이라 모든 입력란이 비활성입니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 385.875
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "등록한 참여 기관의 값을 고치는 화면입니다. 등록 화면과 입력 항목이 같지만 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 자체는 바꿀 수 없습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ". 캡처는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "운영 중",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 프로젝⁣트라 전 항목이 비활성 상태이며, ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "설정 중 · 테스트",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 단계에서는 같은 자리에서 값을 고치고 저장할 수 있습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "참여 기관 번호(siteCode)",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 프로젝트 안에서 이 기관을 가리키는 번호입니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "피험자가 한 명이라도 등록되면 변경할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "책임연구자명",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다. 목록의 책임연구자 열에 그대로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "IRB 승인일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 필수입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "IRB 승인번호",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택입니다. 비워 두면 목록에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "—",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 로 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " · ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "종료",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 를 고릅니다. 연구책임자는 이 항목을 바꿀 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 6,
+       "runs": [
+        {
+         "t": "저장",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 적용하고 목록으로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "노란 배너 — “참여 기관 등록·수정은 PRJ 상태 = SETUP / TESTING 에서만 가능합니다”. 괄호 안이 현재 상태입니다. 이 배너가 보이⁣면 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "저장할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기관 정보는 본 화면에서 수정 불가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 기관의 명칭·유형·국가는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 관리 화면",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "에서만 고칩니다. 여기에서 고치는 것은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 프로젝트⁣에서의 참여 조건",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "뿐입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "선택된 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관명과 기관 코드",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 수정 화면에서는 다른 기관으로 바꿀 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "라벨이 잠금 사유를 함께 알려 줍니다 — “피험자 존재 — 변경 불가”. 연구책임자가 수정할 때도 이 항목은 잠깁니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 변경을 버리고 목록으로 돌아갑니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "← 참여 기관 목록",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 동작입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "참여 기관 번호는 피험자가 생기는 순간 끝까지 고정됩니다. 이미 발급된 피험자 식별 번호가 이 번호를 포함하기 때문입니다. 번호 체⁣계를 바꾸려면 피험자를 등록하기 전에 끝내십시오.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 참여 기관 > ",
+     "cur": false
+    },
+    {
+     "t": "참여 기관 수정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 8,
+   "title": "3.1 연구자 배정 > 배정 현황",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p08_1.png",
+       "iw": 1376,
+       "ih": 709,
+       "w": 531.375,
+       "h": 163.125,
+       "ix": 0.0,
+       "iy": 0.0,
+       "iwp": 100.21171489061398,
+       "ihp": 168.27586206896552,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 87.94217537050106,
+         "y": 50.14712045019157
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 13.418533874382499,
+         "y": 30.836775622605362
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 92.45875970359916,
+         "y": 78.19309746168582
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 23.439705363443895,
+         "y": 5.549421639278018
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 89.91818101623149,
+         "y": 18.882752634099617
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 18.499691249117856,
+         "y": 47.84826987547893
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 50.39806810162315,
+         "y": 68.76781010536398
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 59.43123676781934,
+         "y": 68.76781010536398
+        },
+        {
+         "kind": "ref",
+         "n": 6,
+         "x": 84.97816690190544,
+         "y": 68.76781010536398
+        },
+        {
+         "kind": "ref",
+         "n": 7,
+         "x": 20.475696894848273,
+         "y": 68.76781010536398
+        }
+       ],
+       "cap": [
+        {
+         "t": "연구자 배정 (SCR-PRJ-007) — 기관마다 탭이 나뉩니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 284.625
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "기관에서 일할 사람을 정하는 화면입니다. 참여 기관마다 탭이 있고, 탭 안에 그 기관에 배정된 연구자가 나열됩니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정은 운영 중⁣에도 계속 할 수 있습니다",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 인력 교체는 연구를 진행하면서 일어나는 정상 업무이기 때문입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "연구자 추가",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 기관에 사람을 배정합니다 (3.2 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "기관 탭",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 참여 기관이 여럿이면 탭으로 나뉩니다. 연구책임자에게는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "자기 기관 탭만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "해제",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정을 거둡니다. ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "사유를 5자 이상 입력해야",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 실행할 수 있으며, 확인 창에서 영향 범위를 안내합니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "이동 경로는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "대시보드 / 프로젝트 설정 / 참여 기관 / 연구자 배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "변경 이력",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "현재 선택할 수 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 배정·해제 기록은 시스템에 남고 있으며 화면 제공은 준비 중입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "선택한 기관의 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "참여 기관 번호 · 기관명 · 책임연구자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 작업 전에 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어느 기관을 보고 있는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 여기에서 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 그 사람이 이 기관에서 맡은 역할입니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "배정일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정된 시각입니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 6,
+       "runs": [
+        {
+         "t": "상태",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "활성",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 또는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "해제됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 해제한 사람도 목록에서 사라지지 않고 해제됨으로 남습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 7,
+       "runs": [
+        {
+         "t": "이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 같은 이름이 여럿일 때 이 값으로 구별합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "해제해도 기록은 지워지지 않습니다. 물리적으로 삭제하는 것이 아니라 비활성 처리이며, 그 사람이 그때까지 입력한 자료와 서명은⁣그대로 남습니다. 임상시험 자료는 누가 언제 무엇을 했는지 끝까지 추적할 수 있어야 하기 때문입니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 참여 기관 > ",
+     "cur": false
+    },
+    {
+     "t": "연구자 배정",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 9,
+   "title": "3.2 연구자 배정 > 연구자 추가",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p09_1.png",
+       "iw": 1379,
+       "ih": 1003,
+       "w": 296.25,
+       "h": 324.0,
+       "ix": -55.316455696202524,
+       "iy": -39.93055555555556,
+       "iwp": 251.13924050632912,
+       "ihp": 166.89814814814815,
+       "badges": [
+        {
+         "kind": "set",
+         "n": 1,
+         "x": 84.95450949367088,
+         "y": 16.335645134066358
+        },
+        {
+         "kind": "set",
+         "n": 2,
+         "x": 18.87856012658228,
+         "y": 31.729163652584873
+        },
+        {
+         "kind": "set",
+         "n": 3,
+         "x": 82.42286392405063,
+         "y": 69.5763858748071
+        },
+        {
+         "kind": "set",
+         "n": 4,
+         "x": 84.95450949367088,
+         "y": 81.61342291184414
+        },
+        {
+         "kind": "set",
+         "n": 5,
+         "x": 96.9798259493671,
+         "y": 91.79860809702932
+        },
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 82.42286392405063,
+         "y": 6.381941430362654
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 95.0810917721519,
+         "y": 23.858793282214506
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 44.954509493670884,
+         "y": 34.73842291184413
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 84.95450949367088,
+         "y": 35.085645134066354
+        },
+        {
+         "kind": "ref",
+         "n": 5,
+         "x": 70.0178006329114,
+         "y": 91.79860809702932
+        }
+       ],
+       "cap": [
+        {
+         "t": "연구자 추가 — 워크스페이스 멤버 중에서 고릅니다 (확대)",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 445.125
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "선택한 기관에 사람을 배정하는 창입니다. 아무나 고를 수 있는 것이 아니라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이미 워크스페이스에 소속된 사용자",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 중에서만 고릅니다.⁣사람과 역할을 정하고 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "을 선택하면 즉시 적용됩니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 1,
+       "runs": [
+        {
+         "t": "검색",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이메일 또는 이름으로 목록을 좁힙니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 2,
+       "runs": [
+        {
+         "t": "사용자 선택",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 목록에서 한 명을 선택합니다. 이 기관에 이미 배정된 사람은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이미 배정됨",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 으로 표시되어 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 3,
+       "runs": [
+        {
+         "t": "역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 기관에서 맡을 역할을 고릅니다. 고를 수 있는 역할은 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 단위로 일하는 역할 3종",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "뿐입니다 (3.3 참조).",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 4,
+       "runs": [
+        {
+         "t": "배정 사유",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 선택 입력입니다. 교체·증원처럼 배경이 있는 배정은 적어 두면 나중에 확인하기 쉽습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "set",
+       "n": 5,
+       "runs": [
+        {
+         "t": "배정",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정을 적용합니다. 사람과 역할을 모두 고르기 전에는 흐리게 표시되어 선택할 수 없습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "닫기",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 배정하지 않고 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "안내문 — “워크스페이스에 할당된 사용자만 검색됩니다. 대상자가 없다면 워크스페이스 사용자 관리 화면에서 먼저 추가하세요.”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "각 항목의 작은 글자가 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이메일",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 입니다. 같은 이름이 여럿일 때 이 값으로 구별하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "목록은 스크롤됩니다 — 보이는 몇 건이 전부가 아니므로 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "검색으로 좁혀",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 확인하십시오.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 5,
+       "runs": [
+        {
+         "t": "취소",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 창을 닫습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1d4ed8",
+       "runs": [
+        {
+         "t": "찾는 사람이 목록에 없다면 아직 워크스페이스 멤버가 아닙니다. 이 창에서는 계정을 만들 수 없으므로 워크스페이스 사용자 관리 화⁣면에서 먼저 추가한 뒤 돌아오십시오. 이름을 다르게 검색해도 나타나지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": "warn"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 연구자 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "연구자 추가",
+     "cur": true
+    }
+   ]
+  },
+  {
+   "kind": "body",
+   "no": 10,
+   "title": "3.3 연구자 배정 > 배정 규칙",
+   "sections": [
+    {
+     "kind": "figs",
+     "name": "메인화면",
+     "figs": [
+      {
+       "img": "p10_1.png",
+       "iw": 1376,
+       "ih": 709,
+       "w": 531.375,
+       "h": 191.25,
+       "ix": 0.0,
+       "iy": -166.47058823529412,
+       "iwp": 200.56459601417313,
+       "ihp": 287.05882352941177,
+       "badges": [
+        {
+         "kind": "ref",
+         "n": 1,
+         "x": 22.945703952011293,
+         "y": 15.909798815359476
+        },
+        {
+         "kind": "ref",
+         "n": 2,
+         "x": 34.942881086803105,
+         "y": 65.71372038398692
+        },
+        {
+         "kind": "ref",
+         "n": 3,
+         "x": 45.88148376852506,
+         "y": 44.341171364379086
+        },
+        {
+         "kind": "ref",
+         "n": 4,
+         "x": 87.94217537050106,
+         "y": 84.92940665849673
+        }
+       ],
+       "cap": [
+        {
+         "t": "화면 아래의 역할 권한 요약 — 배정 규칙 두 가지가 여기에 적혀 있습니다",
+         "b": false,
+         "code": false,
+         "tone": "mute"
+        }
+       ],
+       "fx0": 31.875,
+       "fy0": 121.125,
+       "fy1": 312.375
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "개요",
+     "items": [
+      {
+       "level": 0,
+       "color": "#1a1a1a",
+       "runs": [
+        {
+         "t": "배정 화면 아래에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "어떤 역할을 배정할 수 있는지",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "를 알려 주는 카드가 있습니다. 규칙은 두 가지입니다 — ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "기관 단위로 일하는 역할만⁣배정할 수 있고",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": ", ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "한 사람은 한 프로젝트에서 하나의 기관에만 배정됩니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 두 규칙은 시스템이 강제하므로, 어기는 배정은 저장되지⁣않습니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "badge",
+     "name": "화면 설명",
+     "items": [
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 1,
+       "runs": [
+        {
+         "t": "역할 권한 요약",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 이 프로젝트에 정의된 역할이 모두 나열됩니다. 배정 가능 여부는 아래 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "Site 제한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 표시로 갈립니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 2,
+       "runs": [
+        {
+         "t": "Site 제한 표시가 없는 역할",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "(감사자 · 데이터 관리자)은 전체 기관을 함께 보는 역할이라 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "특정 기관에 배정하지 않습니다.",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 이 역할은⁣권한 관리 화면에서 프로젝트 단위로 부여합니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 3,
+       "runs": [
+        {
+         "t": "Site 제한",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " — 자기 기관만 다루는 역할이라는 표시입니다. 연구자 추가 창의 역할 목록에는 ",
+         "b": false,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": "이 표시가 붙은 역할만",
+         "b": true,
+         "code": false,
+         "tone": null
+        },
+        {
+         "t": " 나타납니다.",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      },
+      {
+       "level": 0,
+       "badge": "ref",
+       "n": 4,
+       "runs": [
+        {
+         "t": "화면 안내문이 두 규칙을 그대로 적고 있습니다 — “Site 제한 역할만 배정할 수 있습니다. 1명의 연구자는 프로젝트 내 하나의 Site에⁣만 배정할 수 있습니다 (UNIQUE 제약).”",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "table",
+     "name": "역할 5종과 배정 가능 여부",
+     "head": [
+      "역할",
+      "하는 일",
+      "기관 배정"
+     ],
+     "rows": [
+      [
+       [
+        {
+         "t": "PI 연구책임자",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "자기 기관의 피험자와 자료를 책임집니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "CRC 연구간호사",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "자기 기관의 피험자 자료를 입력합니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "CRA 임상연구모니터요원",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "자기 기관의 자료를 원자료와 대조합니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "가능",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "DM 데이터 관리자",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 기관의 자료를 통합해 관리합니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "불가",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "t": "AUDITOR 감사자",
+         "b": true,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "전체 기관을 읽기 전용으로 확인합니다",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ],
+       [
+        {
+         "t": "불가",
+         "b": false,
+         "code": false,
+         "tone": null
+        }
+       ]
+      ]
+     ],
+     "widths": [
+      33.2,
+      51.5,
+      15.2
+     ]
+    },
+    {
+     "kind": "list",
+     "mode": "bul",
+     "name": "유의사항",
+     "items": [
+      {
+       "level": 0,
+       "color": "#b91c1c",
+       "runs": [
+        {
+         "t": "배정을 해제하면 그 프로젝트의 역할도 함께 끊깁니다. 기관 배정과 역할 배정은 짝으로 움직이므로, 사람을 다른 기관으로 옮기려면⁣먼저 해제한 뒤 새 기관에서 다시 배정해야 합니다. 두 기관에 동시에 배정할 수는 없습니다.",
+         "b": true,
+         "code": false,
+         "tone": "danger"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": [
+    {
+     "t": "1. 경로 : 연구자 배정 > ",
+     "cur": false
+    },
+    {
+     "t": "역할 권한 요약",
+     "cur": true
+    }
+   ]
+  }
+ ]
+}
