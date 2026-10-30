@@ -1,560 +1,1058 @@
 [
- {
-  "ko": "데이터 내보내기",
-  "tr": "データエクスポート",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "내보내기",
-  "tr": "エクスポート",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "추출",
-  "tr": "抽出",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "추출 개시",
-  "tr": "抽出開始",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "추출 시작",
-  "tr": "抽出開始",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "추출 시작 →",
-  "tr": "抽出開始 →",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "추출 화면",
-  "tr": "抽出画面",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "추출 이력",
-  "tr": "抽出履歴",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "최근 추출 이력",
-  "tr": "最近の抽出履歴",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "이력 전체 보기",
-  "tr": "履歴をすべて見る",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "추출 유형",
-  "tr": "抽出タイプ",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "유형",
-  "tr": "タイプ",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "순위",
-  "tr": "優先順位",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "1순위",
-  "tr": "第1優先",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "2순위",
-  "tr": "第2優先",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "Query 이력",
-  "tr": "Query 履歴",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Lock 이력",
-  "tr": "Lock 履歴",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "서명 이력",
-  "tr": "署名履歴",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "방문 이벤트",
-  "tr": "来院イベント",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "예정 방문",
-  "tr": "予定来院",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "결측",
-  "tr": "欠測",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "재방문",
-  "tr": "再来院",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "범위",
-  "tr": "範囲",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "범위 지정",
-  "tr": "範囲の指定",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "범위 고르기",
-  "tr": "範囲の選択",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "범위 프리셋",
-  "tr": "範囲プリセット",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "범위 계층 트리",
-  "tr": "範囲の階層ツリー",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "Site 범위",
-  "tr": "Site範囲",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "자기 Site",
-  "tr": "自Site",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "전체 Site",
-  "tr": "全体 Site",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "필터",
-  "tr": "フィルター",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "기간 필터",
-  "tr": "期間フィルター",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "DataForm 필터",
-  "tr": "DataFormフィルター",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "Visit 필터",
-  "tr": "Visitフィルター",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "예상 레코드 수",
-  "tr": "予想レコード数",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "데이터 존재 구간",
-  "tr": "データの存在区間",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "레코드",
-  "tr": "レコード",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "CRF 인스턴스",
-  "tr": "CRFインスタンス",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "추출 옵션",
-  "tr": "抽出オプション",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "추출 옵션 설정",
-  "tr": "抽出オプション設定",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "옵션 설정으로 이동",
-  "tr": "オプション設定へ",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "옵션 설정으로 이동 →",
-  "tr": "オプション設定へ →",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "PII 마스킹",
-  "tr": "PIIマスキング",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "미확정 데이터 워닝",
-  "tr": "未確定データの警告",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "미확정 데이터",
-  "tr": "未確定データ",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "아카이브된 데이터 포함",
-  "tr": "アーカイブされたデータを含む",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "버전 처리 정책",
-  "tr": "バージョン処理ポリシー",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "파일 포맷",
-  "tr": "ファイルフォーマット",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "포맷",
-  "tr": "フォーマット",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "뒤로",
-  "tr": "戻る",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "← 뒤로",
-  "tr": "← 戻る",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "닫기",
-  "tr": "閉じる",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "취소",
-  "tr": "キャンセル",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "다운로드",
-  "tr": "ダウンロード",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "동일 옵션으로 재실행",
-  "tr": "同じオプションで再実行",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "진행 중",
-  "tr": "進行中",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "실행 중",
-  "tr": "実行中",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "완료",
-  "tr": "完了",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "진행률",
-  "tr": "進捗",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "작업 번호",
-  "tr": "作業番号",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "실행 시각",
-  "tr": "実行時刻",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "수행자",
-  "tr": "実行者",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "유효 기한",
-  "tr": "有効期限",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "추출 경고",
-  "tr": "抽出警告",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "무결성 검증 (SHA-256)",
-  "tr": "完全性検証 (SHA-256)",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "무결성 검증",
-  "tr": "完全性検証",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "압축",
-  "tr": "圧縮",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "식별정보",
-  "tr": "識別情報",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "연구팀",
-  "tr": "研究チーム",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "연구간호사",
-  "tr": "研究看護師",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "연구책임자",
-  "tr": "研究責任者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "모니터요원",
-  "tr": "臨床開発モニター",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "조기 종료",
-  "tr": "早期終了",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "사망",
-  "tr": "死亡",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "추적 소실",
-  "tr": "追跡喪失",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "선별 실패",
-  "tr": "スクリーニング失敗",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "연구 종료",
-  "tr": "研究終了",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "전자서명 기록",
-  "tr": "電子署名の記録",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "데이터 서명",
-  "tr": "データ署名",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "잠금 서명",
-  "tr": "ロック署名",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "DataInstance 서명",
-  "tr": "DataInstance 署名",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "DataLock 서명",
-  "tr": "DataLock 署名",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "확정 데이터 Export",
-  "tr": "確定データ Export",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "테스트 데이터 Export",
-  "tr": "テストデータ Export",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "프로젝트 상태 배너",
-  "tr": "プロジェクト状態バナー",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "허브",
-  "tr": "ハブ",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "회차",
-  "tr": "回次",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "확정",
-  "tr": "確定",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "안내문",
-  "tr": "案内文",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "자동 갱신",
-  "tr": "自動更新",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "중단",
-  "tr": "中断",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "Terminal 피험자",
-  "tr": "Terminal被験者",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "HARD_LOCK 피험자 전체",
-  "tr": "HARD_LOCK被験者 全体",
-  "type": "value",
-  "note": ""
- }
+  {
+    "ko": "데이터 내보내기",
+    "tr": "データエクスポート",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "내보내기",
+    "tr": "エクスポート",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "추출",
+    "tr": "抽出",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "추출 개시",
+    "tr": "抽出開始",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "추출 시작",
+    "tr": "抽出開始",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "추출 시작 →",
+    "tr": "抽出開始 →",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "추출 화면",
+    "tr": "抽出画面",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "추출 이력",
+    "tr": "抽出履歴",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "최근 추출 이력",
+    "tr": "最近の抽出履歴",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이력 전체 보기",
+    "tr": "履歴をすべて見る",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "추출 유형",
+    "tr": "抽出タイプ",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "유형",
+    "tr": "タイプ",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "순위",
+    "tr": "優先順位",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "1순위",
+    "tr": "第1優先",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "2순위",
+    "tr": "第2優先",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Query 이력",
+    "tr": "Query 履歴",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Lock 이력",
+    "tr": "Lock 履歴",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "서명 이력",
+    "tr": "署名履歴",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "방문 이벤트",
+    "tr": "来院イベント",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "예정 방문",
+    "tr": "予定来院",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "결측",
+    "tr": "欠測",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "재방문",
+    "tr": "再来院",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "범위",
+    "tr": "範囲",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "범위 지정",
+    "tr": "範囲の指定",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "범위 고르기",
+    "tr": "範囲の選択",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "범위 프리셋",
+    "tr": "範囲プリセット",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "범위 계층 트리",
+    "tr": "範囲の階層ツリー",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Site 범위",
+    "tr": "Site範囲",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "자기 Site",
+    "tr": "自Site",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "전체 Site",
+    "tr": "全体 Site",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "필터",
+    "tr": "フィルター",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "기간 필터",
+    "tr": "期間フィルター",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "DataForm 필터",
+    "tr": "DataFormフィルター",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Visit 필터",
+    "tr": "Visitフィルター",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "예상 레코드 수",
+    "tr": "予想レコード数",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "데이터 존재 구간",
+    "tr": "データの存在区間",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "레코드",
+    "tr": "レコード",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "CRF 인스턴스",
+    "tr": "CRFインスタンス",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "추출 옵션",
+    "tr": "抽出オプション",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "추출 옵션 설정",
+    "tr": "抽出オプション設定",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "옵션 설정으로 이동",
+    "tr": "オプション設定へ",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "옵션 설정으로 이동 →",
+    "tr": "オプション設定へ →",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "PII 마스킹",
+    "tr": "PIIマスキング",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "미확정 데이터 워닝",
+    "tr": "未確定データの警告",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "미확정 데이터",
+    "tr": "未確定データ",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "아카이브된 데이터 포함",
+    "tr": "アーカイブされたデータを含む",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "버전 처리 정책",
+    "tr": "バージョン処理ポリシー",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "파일 포맷",
+    "tr": "ファイルフォーマット",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "포맷",
+    "tr": "フォーマット",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "뒤로",
+    "tr": "戻る",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "← 뒤로",
+    "tr": "← 戻る",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "닫기",
+    "tr": "閉じる",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "취소",
+    "tr": "キャンセル",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "다운로드",
+    "tr": "ダウンロード",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "동일 옵션으로 재실행",
+    "tr": "同じオプションで再実行",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "진행 중",
+    "tr": "進行中",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "실행 중",
+    "tr": "実行中",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "완료",
+    "tr": "完了",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "진행률",
+    "tr": "進捗",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "작업 번호",
+    "tr": "作業番号",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "실행 시각",
+    "tr": "実行時刻",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "수행자",
+    "tr": "実行者",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "유효 기한",
+    "tr": "有効期限",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "추출 경고",
+    "tr": "抽出警告",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "무결성 검증 (SHA-256)",
+    "tr": "完全性検証 (SHA-256)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "무결성 검증",
+    "tr": "完全性検証",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "압축",
+    "tr": "圧縮",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "식별정보",
+    "tr": "識別情報",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "연구팀",
+    "tr": "研究チーム",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "연구간호사",
+    "tr": "研究看護師",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "연구책임자",
+    "tr": "研究責任者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "모니터요원",
+    "tr": "臨床開発モニター",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "조기 종료",
+    "tr": "早期終了",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "사망",
+    "tr": "死亡",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "추적 소실",
+    "tr": "追跡喪失",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "선별 실패",
+    "tr": "スクリーニング失敗",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료",
+    "tr": "研究終了",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "전자서명 기록",
+    "tr": "電子署名の記録",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "데이터 서명",
+    "tr": "データ署名",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "잠금 서명",
+    "tr": "ロック署名",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "DataInstance 서명",
+    "tr": "DataInstance 署名",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "DataLock 서명",
+    "tr": "DataLock 署名",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "확정 데이터 Export",
+    "tr": "確定データ Export",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "테스트 데이터 Export",
+    "tr": "テストデータ Export",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 상태 배너",
+    "tr": "プロジェクト状態バナー",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "허브",
+    "tr": "ハブ",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "회차",
+    "tr": "回次",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "확정",
+    "tr": "確定",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "안내문",
+    "tr": "案内文",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "자동 갱신",
+    "tr": "自動更新",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "중단",
+    "tr": "中断",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "Terminal 피험자",
+    "tr": "Terminal被験者",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "HARD_LOCK 피험자 전체",
+    "tr": "HARD_LOCK被験者 全体",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "1순위 추출",
+    "tr": "第1優先の抽出",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 데이터",
+    "tr": "CRFデータ",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "2순위 추출",
+    "tr": "第2優先の抽出",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "최근 추출 이력 (최대 5건)",
+    "tr": "最近の抽出履歴 (最大5件)",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "被験者",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "이력 전체 보기 →",
+    "tr": "履歴をすべて見る →",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "범위 지정 — CRF 데이터",
+    "tr": "範囲の指定 — CRFデータ",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "전체",
+    "tr": "全体",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "범위 계층 선택",
+    "tr": "範囲の階層を選択",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "시작",
+    "tr": "開始",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "종료",
+    "tr": "終了",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치식 진단·치료 020 (1.0)",
+    "tr": "歯式の診断・治療 020 (1.0)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "검증 규칙 테스트 020 (1.0.0)",
+    "tr": "検証ルールのテスト 020 (1.0.0)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료 방문",
+    "tr": "歯式治療の来院",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "레코드 5 건",
+    "tr": "レコード5件",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CLOSED 만",
+    "tr": "CLOSEDのみ",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "Terminal 피험자 전체",
+    "tr": "Terminal被験者 全体",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "예정 방문만",
+    "tr": "予定来院のみ",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "① 내보내기 범위",
+    "tr": "① エクスポート範囲",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "선택 1개 노드 · 기간 2026-07-06 ~ *",
+    "tr": "選択 1ノード · 期間 2026-07-06 ~ *",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "② 파일 포맷 *",
+    "tr": "② ファイルフォーマット *",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "CSV 범용 텍스트 (UTF-8)",
+    "tr": "CSV 汎用テキスト (UTF-8)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "ZIP 추출 결과를 zip 으로 압축",
+    "tr": "ZIP: 抽出結果を zip に圧縮",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Excel xlsx · 시트 분할 가능",
+    "tr": "Excel xlsx · シート分割可能",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "③ PII 마스킹 (품 정의 기준)",
+    "tr": "③ PIIマスキング（データ定義基準）",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "PII / PHI 마스킹 적용",
+    "tr": "PII / PHI マスキングを適用",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "④ 미확정 데이터 워닝",
+    "tr": "④ 未確定データの警告",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "경고 표시 미완료(IN_PROGRESS) 인스턴스 건수를 추출 상세 화면의 경고 목록에 남깁니다 — 행은 항상 포함되며 추출 파일에 는 표시되지 않습니다 (CRF 데이터 추출 한정)",
+    "tr": "入力未完了（IN_PROGRESS）のインスタンス件数を、抽出の詳細画面の警告一覧に残します。行は常に含まれますが、抽出ファイルには表示されません（CRFデータの抽出のみ）。",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "경고 생략 미완료 인스턴스를 그대로 포함하되 경고를 남기지 않습니다",
+    "tr": "未完了のインスタンスはそのまま含めますが、警告は残しません。",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "⑤ 아카이브된 데이터 포함",
+    "tr": "⑤ アーカイブされたデータを含む",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "⑥ 버전 처리 정책",
+    "tr": "⑥ バージョン処理ポリシー",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "COLUMN_UNION (기본) 모든 버전 컬럼 union",
+    "tr": "COLUMN_UNION（デフォルト） 全バージョンの列を結合",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "PER_VERSION 버전별 별도 파일/시트",
+    "tr": "PER_VERSION バージョンごとに別ファイル / シート",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "추출 실행",
+    "tr": "抽出の実行",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "추출 진행 중 — 75%",
+    "tr": "抽出進行中 — 75%",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "레코드 수",
+    "tr": "レコード数",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "추출 완료",
+    "tr": "抽出完了",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "파일명",
+    "tr": "ファイル名",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "크기",
+    "tr": "サイズ",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "추출 경고 6건",
+    "tr": "抽出警告 6件",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "정렬",
+    "tr": "並べ替え",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "보기",
+    "tr": "表示",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "압축 풀기",
+    "tr": "すべて展開",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "이름",
+    "tr": "名前",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "압축된 크기",
+    "tr": "圧縮後のサイズ",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "암호 사용",
+    "tr": "パスワード保護",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "crf_dental_020__dental_chart_01a1... Microsoft Excel 쉼표로 ...",
+    "tr": "crf_dental_020__dental_chart_01a1... Microsoft Excel カンマ区切り ...",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Microsoft Excel 쉼표로 ...",
+    "tr": "Microsoft Excel カンマ区切り ...",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "아니요",
+    "tr": "いいえ",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "세부 정보",
+    "tr": "詳細",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "비율",
+    "tr": "比率",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "파일",
+    "tr": "ファイル",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "홈",
+    "tr": "ホーム",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "삽입",
+    "tr": "挿入",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "그리기",
+    "tr": "描画",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "페이지 레이아웃",
+    "tr": "ページ レイアウト",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "수식",
+    "tr": "数式",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "데이터",
+    "tr": "データ",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "검토",
+    "tr": "校閲",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "자동화",
+    "tr": "自動化",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "도움말",
+    "tr": "ヘルプ",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "일반",
+    "tr": "標準",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "붙여넣기",
+    "tr": "貼り付け",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "클립보드",
+    "tr": "クリップボード",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터가 손실될 수 있음",
+    "tr": "データが失われる可能性があります",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "맑은 고딕",
+    "tr": "Malgun Gothic",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "내제 ~",
+    "tr": "埋め込み ~",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "글꼴",
+    "tr": "フォント",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "맞춤",
+    "tr": "配置",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "표시 형식",
+    "tr": "表示形式",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "조건부 서식",
+    "tr": "条件付き書式",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "표 서식",
+    "tr": "テーブルとして書式設定",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "셀 스타일",
+    "tr": "セルのスタイル",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "스타일",
+    "tr": "スタイル",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "삭제",
+    "tr": "削除",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "서식",
+    "tr": "書式",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "셀",
+    "tr": "セル",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "메모",
+    "tr": "メモ",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "편집",
+    "tr": "編集",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "공유",
+    "tr": "共有",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "다시 표시 안 함",
+    "tr": "今後表示しない",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "추가 기능",
+    "tr": "アドイン",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "다른 이름으로 저장...",
+    "tr": "名前を付けて保存...",
+    "type": "button",
+    "note": "image"
+  }
 ]

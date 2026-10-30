@@ -1,560 +1,800 @@
 [
- {
-  "ko": "데이터 입력",
-  "tr": "Dateneingabe",
-  "type": "path",
-  "note": "볼륨 제목·경로"
- },
- {
-  "ko": "데이터 입력 목록",
-  "tr": "Liste der Dateneingabe",
-  "type": "path",
-  "note": "장 제목"
- },
- {
-  "ko": "방문 타임라인",
-  "tr": "Besuchszeitleiste",
-  "type": "path",
-  "note": "피험자 분권과 같은 번역"
- },
- {
-  "ko": "CRF 입력",
-  "tr": "CRF-Eingabe",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "CRF 데이터 입력",
-  "tr": "CRF-Dateneingabe",
-  "type": "path",
-  "note": "장 제목"
- },
- {
-  "ko": "Query 답변",
-  "tr": "Query-Antwort",
-  "type": "path",
-  "note": "절 제목·경로"
- },
- {
-  "ko": "방문 상태 변경",
-  "tr": "Besuchsstatus ändern",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "건너뛰기 처리 결과",
-  "tr": "Ergebnis der Überspringung",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "목록 읽는 법",
-  "tr": "So lesen Sie die Liste",
-  "type": "term",
-  "note": "절 제목"
- },
- {
-  "ko": "타임라인 구성",
-  "tr": "Aufbau der Zeitleiste",
-  "type": "term",
-  "note": "절 제목"
- },
- {
-  "ko": "방문 행과 CRF 행",
-  "tr": "Besuchszeilen und CRF-Zeilen",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "방문 행",
-  "tr": "Besuchszeile",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "CRF 행",
-  "tr": "CRF-Zeile",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "입력 화면",
-  "tr": "Eingabemaske",
-  "type": "term",
-  "note": "절 제목"
- },
- {
-  "ko": "저장 완료",
-  "tr": "Speichern abgeschlossen",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "워크리스트",
-  "tr": "Worklist",
-  "type": "term",
-  "note": "영문 표기 유지 여부는 노트 참고"
- },
- {
-  "ko": "방문 워크리스트",
-  "tr": "Besuchs-Worklist",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "오늘 예정 방문",
-  "tr": "Heute geplante Besuche",
-  "type": "label",
-  "note": "대시보드 위젯"
- },
- {
-  "ko": "방문 현황",
-  "tr": "Besuchsstatus",
-  "type": "label",
-  "note": "대시보드 위젯"
- },
- {
-  "ko": "내 Site 고정",
-  "tr": "Meine Site fixiert",
-  "type": "value",
-  "note": "배지"
- },
- {
-  "ko": "마지막 방문",
-  "tr": "Letzter Besuch",
-  "type": "label",
-  "note": "열·칸 이름"
- },
- {
-  "ko": "다음 방문",
-  "tr": "Nächster Besuch",
-  "type": "label",
-  "note": "열·칸 이름"
- },
- {
-  "ko": "실제 방문일",
-  "tr": "tatsächliches Besuchsdatum",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "예정일",
-  "tr": "geplantes Datum",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "진행",
-  "tr": "Laufend",
-  "type": "value",
-  "note": "상태 필터"
- },
- {
-  "ko": "전건완료",
-  "tr": "Alle Eingaben abgeschlossen",
-  "type": "value",
-  "note": "상태 필터"
- },
- {
-  "ko": "방문 실적 없음",
-  "tr": "Ohne Besuchsnachweis",
-  "type": "value",
-  "note": "상태 필터"
- },
- {
-  "ko": "전체",
-  "tr": "Alle",
-  "type": "value",
-  "note": "상태 필터"
- },
- {
-  "ko": "예정 방문 없음",
-  "tr": "Kein geplanter Besuch",
-  "type": "value",
-  "note": "배지"
- },
- {
-  "ko": "등록 완료",
-  "tr": "Registrierung abgeschlossen",
-  "type": "value",
-  "note": "상태 값, 피험자 분권의 Registriert와 표현 차이 있음"
- },
- {
-  "ko": "지연",
-  "tr": "Verspätet",
-  "type": "value",
-  "note": "배지"
- },
- {
-  "ko": "임박",
-  "tr": "Bald fällig",
-  "type": "value",
-  "note": "배지"
- },
- {
-  "ko": "DONE",
-  "tr": "DONE",
-  "type": "value",
-  "note": "영문 표기 유지"
- },
- {
-  "ko": "SCHEDULED",
-  "tr": "SCHEDULED",
-  "type": "value",
-  "note": "영문 표기 유지"
- },
- {
-  "ko": "Window",
-  "tr": "Window",
-  "type": "term",
-  "note": "영문 표기 유지"
- },
- {
-  "ko": "허용 기간",
-  "tr": "zulässiger Zeitraum",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "결합된 CRF 없음",
-  "tr": "Keine verknüpfte CRF",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "미완료 항목 목록",
-  "tr": "Liste der offenen Felder",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "필수 입력 집계",
-  "tr": "Pflichtfeldzählung",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "임시저장",
-  "tr": "Zwischenspeichern",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "저장",
-  "tr": "Speichern",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "삭제",
-  "tr": "Löschen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "변경 이력",
-  "tr": "Änderungshistorie",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "회차 번호",
-  "tr": "Wiederholungsnummer",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "저장됨",
-  "tr": "Gespeichert",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "검증 대기",
-  "tr": "Verifizierung ausstehend",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "SDV 완료",
-  "tr": "SDV abgeschlossen",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "입력 상태",
-  "tr": "Eingabestatus",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "품질 상태",
-  "tr": "Qualitätsstatus",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "원자료 대조(SDV)",
-  "tr": "Quelldatenabgleich (SDV)",
-  "type": "term",
-  "note": "SDV는 영문 유지"
- },
- {
-  "ko": "모든 필수 입력 완료",
-  "tr": "Alle Pflichteingaben abgeschlossen",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "변경 사유",
-  "tr": "Änderungsgrund",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "값 수정",
-  "tr": "Wert ändern",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "해소 방식",
-  "tr": "Erledigungsart",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "값 정정",
-  "tr": "Wert korrigiert",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "현행 유지",
-  "tr": "Beibehalten",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "답변 코멘트",
-  "tr": "Antwortkommentar",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "Query 미처리 N건",
-  "tr": "Unbearbeitete Queries N",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "종결 대기",
-  "tr": "Abschluss ausstehend",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "처리 상태",
-  "tr": "Bearbeitungsstatus",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "중요도",
-  "tr": "Priorität",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "담당자",
-  "tr": "Zuständige Person",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "이력·상세 보기",
-  "tr": "Verlauf · Details anzeigen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "CRF 탐색",
-  "tr": "CRF-Navigation",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "CRF 코드",
-  "tr": "CRF-Code",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "수축기혈압",
-  "tr": "Systolischer Blutdruck",
-  "type": "field",
-  "note": "예시 필드"
- },
- {
-  "ko": "이완기혈압",
-  "tr": "Diastolischer Blutdruck",
-  "type": "field",
-  "note": "예시 필드"
- },
- {
-  "ko": "방문일",
-  "tr": "Besuchsdatum",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "상세",
-  "tr": "Details",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "미처리 Query",
-  "tr": "unbearbeitete Queries",
-  "type": "term",
-  "note": "Query는 영문 유지"
- },
- {
-  "ko": "Cycle 수동 추가",
-  "tr": "Cycle manuell hinzufügen",
-  "type": "button",
-  "note": "Cycle 영문 유지"
- },
- {
-  "ko": "방문 수동 추가",
-  "tr": "Besuch manuell hinzufügen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "Gantt 타임라인",
-  "tr": "Gantt-Zeitleiste",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "방문 그룹",
-  "tr": "Besuchsgruppen",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "건너뛰기 (SKIP)",
-  "tr": "Überspringen (SKIP)",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "취소 (CANCEL)",
-  "tr": "Abbrechen (CANCEL)",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "해당 없음 (NA)",
-  "tr": "Nicht zutreffend (NA)",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "건너뜀",
-  "tr": "Übersprungen",
-  "type": "status",
-  "note": "배지"
- },
- {
-  "ko": "취소",
-  "tr": "Abgebrochen",
-  "type": "status",
-  "note": "방문 상태 배지"
- },
- {
-  "ko": "해당 없음",
-  "tr": "Nicht zutreffend",
-  "type": "status",
-  "note": "방문 상태 배지"
- },
- {
-  "ko": "방문 예정",
-  "tr": "Besuch geplant",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "방문 진행",
-  "tr": "Besuch läuft",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "방문 수행",
-  "tr": "Besuch durchgeführt",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "미방문",
-  "tr": "Nicht besucht",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "복원",
-  "tr": "Wiederherstellen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "편차 대상",
-  "tr": "Abweichung (Deviation)",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "사유",
-  "tr": "Grund",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "메모",
-  "tr": "Notiz",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "닫기",
-  "tr": "Schließen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "NOT_CREATED",
-  "tr": "NOT_CREATED",
-  "type": "status",
-  "note": "영문 상태 코드 유지"
- },
- {
-  "ko": "IN_PROGRESS",
-  "tr": "IN_PROGRESS",
-  "type": "status",
-  "note": "영문 상태 코드 유지"
- },
- {
-  "ko": "COMPLETED",
-  "tr": "COMPLETED",
-  "type": "status",
-  "note": "영문 상태 코드 유지"
- },
- {
-  "ko": "CLEAN",
-  "tr": "CLEAN",
-  "type": "status",
-  "note": "영문 상태 코드 유지"
- }
+  {
+    "ko": "데이터 입력",
+    "tr": "Dateneingabe",
+    "type": "path",
+    "note": "볼륨 제목·경로"
+  },
+  {
+    "ko": "데이터 입력 목록",
+    "tr": "Liste der Dateneingabe",
+    "type": "path",
+    "note": "장 제목"
+  },
+  {
+    "ko": "방문 타임라인",
+    "tr": "Besuchszeitleiste",
+    "type": "path",
+    "note": "피험자 분권과 같은 번역"
+  },
+  {
+    "ko": "CRF 입력",
+    "tr": "CRF-Eingabe",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "CRF 데이터 입력",
+    "tr": "CRF-Dateneingabe",
+    "type": "path",
+    "note": "장 제목"
+  },
+  {
+    "ko": "Query 답변",
+    "tr": "Query-Antwort",
+    "type": "path",
+    "note": "절 제목·경로"
+  },
+  {
+    "ko": "방문 상태 변경",
+    "tr": "Besuchsstatus ändern",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "건너뛰기 처리 결과",
+    "tr": "Ergebnis der Überspringung",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "목록 읽는 법",
+    "tr": "So lesen Sie die Liste",
+    "type": "term",
+    "note": "절 제목"
+  },
+  {
+    "ko": "타임라인 구성",
+    "tr": "Aufbau der Zeitleiste",
+    "type": "term",
+    "note": "절 제목"
+  },
+  {
+    "ko": "방문 행과 CRF 행",
+    "tr": "Besuchszeilen und CRF-Zeilen",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "방문 행",
+    "tr": "Besuchszeile",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "CRF 행",
+    "tr": "CRF-Zeile",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "입력 화면",
+    "tr": "Eingabemaske",
+    "type": "term",
+    "note": "절 제목"
+  },
+  {
+    "ko": "저장 완료",
+    "tr": "Speichern abgeschlossen",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "워크리스트",
+    "tr": "Worklist",
+    "type": "term",
+    "note": "영문 표기 유지 여부는 노트 참고"
+  },
+  {
+    "ko": "방문 워크리스트",
+    "tr": "Besuchs-Worklist",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "오늘 예정 방문",
+    "tr": "Heute geplante Besuche",
+    "type": "label",
+    "note": "대시보드 위젯"
+  },
+  {
+    "ko": "방문 현황",
+    "tr": "Besuchsstatus",
+    "type": "label",
+    "note": "대시보드 위젯"
+  },
+  {
+    "ko": "내 Site 고정",
+    "tr": "Meine Site fixiert",
+    "type": "value",
+    "note": "배지"
+  },
+  {
+    "ko": "마지막 방문",
+    "tr": "Letzter Besuch",
+    "type": "label",
+    "note": "열·칸 이름"
+  },
+  {
+    "ko": "다음 방문",
+    "tr": "Nächster Besuch",
+    "type": "label",
+    "note": "열·칸 이름"
+  },
+  {
+    "ko": "실제 방문일",
+    "tr": "tatsächliches Besuchsdatum",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "예정일",
+    "tr": "geplantes Datum",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "진행",
+    "tr": "Laufend",
+    "type": "value",
+    "note": "상태 필터"
+  },
+  {
+    "ko": "전건완료",
+    "tr": "Alle Eingaben abgeschlossen",
+    "type": "value",
+    "note": "상태 필터"
+  },
+  {
+    "ko": "방문 실적 없음",
+    "tr": "Ohne Besuchsnachweis",
+    "type": "value",
+    "note": "상태 필터"
+  },
+  {
+    "ko": "전체",
+    "tr": "Alle",
+    "type": "value",
+    "note": "상태 필터"
+  },
+  {
+    "ko": "예정 방문 없음",
+    "tr": "Kein geplanter Besuch",
+    "type": "value",
+    "note": "배지"
+  },
+  {
+    "ko": "등록 완료",
+    "tr": "Registrierung abgeschlossen",
+    "type": "value",
+    "note": "상태 값, 피험자 분권의 Registriert와 표현 차이 있음"
+  },
+  {
+    "ko": "지연",
+    "tr": "Verspätet",
+    "type": "value",
+    "note": "배지"
+  },
+  {
+    "ko": "임박",
+    "tr": "Bald fällig",
+    "type": "value",
+    "note": "배지"
+  },
+  {
+    "ko": "DONE",
+    "tr": "DONE",
+    "type": "value",
+    "note": "영문 표기 유지"
+  },
+  {
+    "ko": "SCHEDULED",
+    "tr": "SCHEDULED",
+    "type": "value",
+    "note": "영문 표기 유지"
+  },
+  {
+    "ko": "Window",
+    "tr": "Window",
+    "type": "term",
+    "note": "영문 표기 유지"
+  },
+  {
+    "ko": "허용 기간",
+    "tr": "zulässiger Zeitraum",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "결합된 CRF 없음",
+    "tr": "Keine verknüpfte CRF",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "미완료 항목 목록",
+    "tr": "Liste der offenen Felder",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "필수 입력 집계",
+    "tr": "Pflichtfeldzählung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "임시저장",
+    "tr": "Zwischenspeichern",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "저장",
+    "tr": "Speichern",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "삭제",
+    "tr": "Löschen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "변경 이력",
+    "tr": "Änderungshistorie",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "회차 번호",
+    "tr": "Wiederholungsnummer",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "저장됨",
+    "tr": "Gespeichert",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "검증 대기",
+    "tr": "Verifizierung ausstehend",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "SDV 완료",
+    "tr": "SDV abgeschlossen",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "입력 상태",
+    "tr": "Eingabestatus",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "품질 상태",
+    "tr": "Qualitätsstatus",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "원자료 대조(SDV)",
+    "tr": "Quelldatenabgleich (SDV)",
+    "type": "term",
+    "note": "SDV는 영문 유지"
+  },
+  {
+    "ko": "모든 필수 입력 완료",
+    "tr": "Alle Pflichteingaben abgeschlossen",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "변경 사유",
+    "tr": "Änderungsgrund",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "값 수정",
+    "tr": "Wert ändern",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "해소 방식",
+    "tr": "Erledigungsart",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "값 정정",
+    "tr": "Wert korrigiert",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "현행 유지",
+    "tr": "Beibehalten",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "답변 코멘트",
+    "tr": "Antwortkommentar",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Query 미처리 N건",
+    "tr": "Unbearbeitete Queries N",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "종결 대기",
+    "tr": "Abschluss ausstehend",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "처리 상태",
+    "tr": "Bearbeitungsstatus",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "중요도",
+    "tr": "Priorität",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "담당자",
+    "tr": "Zuständige Person",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이력·상세 보기",
+    "tr": "Verlauf · Details anzeigen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "CRF 탐색",
+    "tr": "CRF-Navigation",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "CRF 코드",
+    "tr": "CRF-Code",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "수축기혈압",
+    "tr": "Systolischer Blutdruck",
+    "type": "field",
+    "note": "예시 필드"
+  },
+  {
+    "ko": "이완기혈압",
+    "tr": "Diastolischer Blutdruck",
+    "type": "field",
+    "note": "예시 필드"
+  },
+  {
+    "ko": "방문일",
+    "tr": "Besuchsdatum",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "상세",
+    "tr": "Details",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "미처리 Query",
+    "tr": "unbearbeitete Queries",
+    "type": "term",
+    "note": "Query는 영문 유지"
+  },
+  {
+    "ko": "Cycle 수동 추가",
+    "tr": "Cycle manuell hinzufügen",
+    "type": "button",
+    "note": "Cycle 영문 유지"
+  },
+  {
+    "ko": "방문 수동 추가",
+    "tr": "Besuch manuell hinzufügen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "Gantt 타임라인",
+    "tr": "Gantt-Zeitleiste",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "방문 그룹",
+    "tr": "Besuchsgruppen",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "건너뛰기 (SKIP)",
+    "tr": "Überspringen (SKIP)",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "취소 (CANCEL)",
+    "tr": "Abbrechen (CANCEL)",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "해당 없음 (NA)",
+    "tr": "Nicht zutreffend (NA)",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "건너뜀",
+    "tr": "Übersprungen",
+    "type": "status",
+    "note": "배지"
+  },
+  {
+    "ko": "취소",
+    "tr": "Abgebrochen",
+    "type": "status",
+    "note": "방문 상태 배지"
+  },
+  {
+    "ko": "해당 없음",
+    "tr": "Nicht zutreffend",
+    "type": "status",
+    "note": "방문 상태 배지"
+  },
+  {
+    "ko": "방문 예정",
+    "tr": "Besuch geplant",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "방문 진행",
+    "tr": "Besuch läuft",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "방문 수행",
+    "tr": "Besuch durchgeführt",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "미방문",
+    "tr": "Nicht besucht",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "복원",
+    "tr": "Wiederherstellen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "편차 대상",
+    "tr": "Abweichung (Deviation)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "사유",
+    "tr": "Grund",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "메모",
+    "tr": "Notiz",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "닫기",
+    "tr": "Schließen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "NOT_CREATED",
+    "tr": "NOT_CREATED",
+    "type": "status",
+    "note": "영문 상태 코드 유지"
+  },
+  {
+    "ko": "IN_PROGRESS",
+    "tr": "IN_PROGRESS",
+    "type": "status",
+    "note": "영문 상태 코드 유지"
+  },
+  {
+    "ko": "COMPLETED",
+    "tr": "COMPLETED",
+    "type": "status",
+    "note": "영문 상태 코드 유지"
+  },
+  {
+    "ko": "CLEAN",
+    "tr": "CLEAN",
+    "type": "status",
+    "note": "영문 상태 코드 유지"
+  },
+  {
+    "ko": "운영 중",
+    "tr": "In Betrieb",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "메뉴",
+    "tr": "Menü",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "Studienbetrieb",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "Dashboard",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "Proband",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "Studienverwaltung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF-Verwaltung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE-Festlegung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB-Normalbereich",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "Besuchsdefinition",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "Versionsverwaltung des Designs",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "배정",
+    "tr": "Zuweisung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명",
+    "tr": "Elektronische Signatur",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 검증 (DVS)",
+    "tr": "Datenprüfung (DVS)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 내보내기",
+    "tr": "Daten exportieren",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "고유번호",
+    "tr": "Eindeutige Nr.",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이니셜",
+    "tr": "Initialen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상태",
+    "tr": "Status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "투약 중",
+    "tr": "In Behandlung",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "치료 종료",
+    "tr": "Behandlung beendet",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "페이지 크기",
+    "tr": "Seitengröße",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "선별 방문",
+    "tr": "Screening-Besuch",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "직전 방문 기준",
+    "tr": "Bezug: vorheriger Besuch",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "활력징후",
+    "tr": "Vitalzeichen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "주기 방문",
+    "tr": "Zyklusbesuch",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "상태 변경",
+    "tr": "Status ändern",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "이력",
+    "tr": "Verlauf",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 상태",
+    "tr": "CRF-Status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Query 상태",
+    "tr": "Query-Status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "액션 선택",
+    "tr": "Aktion auswählen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "메모 (선택)",
+    "tr": "Notiz (optional)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "타임라인",
+    "tr": "Zeitleiste",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "치료 단계 (Arm A)",
+    "tr": "Behandlungsphase (Arm A)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "수축기혈압 이완기혈압 방문일",
+    "tr": "Systolischer Blutdruck Diastolischer Blutdruck Besuchsdatum",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "품질",
+    "tr": "Qualität",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "필수",
+    "tr": "Pflicht",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "미처리",
+    "tr": "Unbearbeitet",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "중요 입력값 오타",
+    "tr": "Tippfehler bei Schlüsselwert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "입력값 오타",
+    "tr": "Eingabetippfehler",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "접기",
+    "tr": "Einklappen",
+    "type": "button",
+    "note": "image"
+  }
 ]

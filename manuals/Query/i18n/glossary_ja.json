@@ -1,494 +1,96 @@
 [
- {
-  "ko": "프로젝트 대시보드",
-  "tr": "プロジェクトダッシュボード",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Query 목록",
-  "tr": "Query一覧",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Query 생성",
-  "tr": "Query作成",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Manual Query 생성",
-  "tr": "Manual Query作成",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Query 답변",
-  "tr": "Query回答",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Query 종료",
-  "tr": "Query終了",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Query Reopen",
-  "tr": "Query Reopen",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "데이터 입력 화면",
-  "tr": "データ入力画面",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "대상 지정",
-  "tr": "対象指定",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "생성 결과",
-  "tr": "作成結果",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "행 액션 메뉴",
-  "tr": "行アクションメニュー",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "화면 구성",
-  "tr": "画面構成",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "처음 열었을 때",
-  "tr": "初めて開いたとき",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "재질의(Reopen)",
-  "tr": "再照会（Reopen）",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "재질의",
-  "tr": "再照会",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "미처리",
-  "tr": "未処理",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "답변됨",
-  "tr": "回答済み",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "부분 답변",
-  "tr": "一部回答",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "종료",
-  "tr": "終了",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "취소",
-  "tr": "キャンセル",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "Query 열림",
-  "tr": "Queryオープン",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "닫기",
-  "tr": "閉じる",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "신규 Query",
-  "tr": "新規Query",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "검색",
-  "tr": "検索",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "필터 초기화",
-  "tr": "フィルター初期化",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "답변",
-  "tr": "回答",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "종결",
-  "tr": "終結",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "종료 실행",
-  "tr": "終了実行",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "Reopen 실행",
-  "tr": "Reopen実行",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "답변 + 값 저장",
-  "tr": "回答 + 値保存",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "답변 저장",
-  "tr": "回答保存",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "이력·상세 보기",
-  "tr": "履歴 · 詳細表示",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "필터",
-  "tr": "フィルター",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "집계",
-  "tr": "集計",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "집계 카드",
-  "tr": "集計カード",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "지연 Query",
-  "tr": "遅延 Query",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "표시 중",
-  "tr": "表示中",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "생성 경로",
-  "tr": "作成経路",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "자동(규칙)",
-  "tr": "自動（規則）",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "자동",
-  "tr": "自動",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "수동",
-  "tr": "手動",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "대상",
-  "tr": "対象",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "담당",
-  "tr": "担当",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "담당자",
-  "tr": "担当者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "경과(일)",
-  "tr": "経過(日)",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "처리 이력",
-  "tr": "処理履歴",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "감사자",
-  "tr": "監査者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "연구책임자",
-  "tr": "研究責任者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "데이터 관리자",
-  "tr": "データ管理者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "기관",
-  "tr": "機関",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "기관 배정",
-  "tr": "機関割り当て",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "참여 기관",
-  "tr": "参加機関",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "연구자",
-  "tr": "研究者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "방문",
-  "tr": "来院",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "대상 피험자",
-  "tr": "対象被験者",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "Query 범위",
-  "tr": "Query範囲",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "Query 제목",
-  "tr": "Queryタイトル",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "제목",
-  "tr": "タイトル",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "내용",
-  "tr": "内容",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "변경 사유",
-  "tr": "変更理由",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "답변 내용",
-  "tr": "回答内容",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "답변 코멘트",
-  "tr": "回答コメント",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "종료 사유",
-  "tr": "終了理由",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "Reopen 사유",
-  "tr": "Reopen理由",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "추가 질의 내용",
-  "tr": "追加照会内容",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "질의 내용",
-  "tr": "照会内容",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "확인 요청",
-  "tr": "確認依頼",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "현재 값",
-  "tr": "現在値",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "값 수정",
-  "tr": "値の修正",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "값 정정",
-  "tr": "値の訂正",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "현행 유지",
-  "tr": "現行維持",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "해소 방식",
-  "tr": "解消方法",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "해소 근거 · 감사 증빙",
-  "tr": "解消根拠 · 監査エビデンス",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상태",
-  "tr": "状態",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "뜻",
-  "tr": "意味",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "다음에 할 일",
-  "tr": "次にすること",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "교차",
-  "tr": "交差",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "단일 필드",
-  "tr": "単一フィールド",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "회차",
-  "tr": "回次",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "등록자",
-  "tr": "登録者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "고장",
-  "tr": "故障",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "모니터요원",
-  "tr": "臨床開発モニター",
-  "type": "term",
-  "note": ""
- }
+{"ko": "프로젝트 대시보드", "tr": "プロジェクトダッシュボード", "type": "path", "note": ""},
+{"ko": "Query 목록", "tr": "Query一覧", "type": "path", "note": ""},
+{"ko": "Query 생성", "tr": "Query作成", "type": "path", "note": ""},
+{"ko": "Manual Query 생성", "tr": "Manual Query作成", "type": "path", "note": ""},
+{"ko": "Query 답변", "tr": "Query回答", "type": "path", "note": ""},
+{"ko": "Query 종료", "tr": "Query終了", "type": "path", "note": ""},
+{"ko": "Query Reopen", "tr": "Query Reopen", "type": "path", "note": ""},
+{"ko": "데이터 입력 화면", "tr": "データ入力画面", "type": "path", "note": ""},
+{"ko": "대상 지정", "tr": "対象指定", "type": "path", "note": ""},
+{"ko": "생성 결과", "tr": "作成結果", "type": "path", "note": ""},
+{"ko": "행 액션 메뉴", "tr": "行アクションメニュー", "type": "term", "note": ""},
+{"ko": "화면 구성", "tr": "画面構成", "type": "term", "note": ""},
+{"ko": "처음 열었을 때", "tr": "初めて開いたとき", "type": "term", "note": ""},
+{"ko": "재질의(Reopen)", "tr": "再照会（Reopen）", "type": "term", "note": ""},
+{"ko": "재질의", "tr": "再照会", "type": "status", "note": ""},
+{"ko": "미처리", "tr": "未処理", "type": "status", "note": ""},
+{"ko": "답변됨", "tr": "回答済み", "type": "status", "note": ""},
+{"ko": "부분 답변", "tr": "一部回答", "type": "status", "note": ""},
+{"ko": "종료", "tr": "終了", "type": "status", "note": ""},
+{"ko": "취소", "tr": "キャンセル", "type": "button", "note": ""},
+{"ko": "Query 열림", "tr": "Queryオープン", "type": "status", "note": ""},
+{"ko": "닫기", "tr": "閉じる", "type": "button", "note": ""},
+{"ko": "신규 Query", "tr": "新規Query", "type": "button", "note": ""},
+{"ko": "검색", "tr": "検索", "type": "button", "note": ""},
+{"ko": "필터 초기화", "tr": "フィルター初期化", "type": "button", "note": ""},
+{"ko": "답변", "tr": "回答", "type": "button", "note": ""},
+{"ko": "종결", "tr": "終結", "type": "button", "note": ""},
+{"ko": "종료 실행", "tr": "終了実行", "type": "button", "note": ""},
+{"ko": "Reopen 실행", "tr": "Reopen実行", "type": "button", "note": ""},
+{"ko": "답변 + 값 저장", "tr": "回答 + 値保存", "type": "button", "note": ""},
+{"ko": "답변 저장", "tr": "回答保存", "type": "button", "note": ""},
+{"ko": "이력·상세 보기", "tr": "履歴 · 詳細表示", "type": "button", "note": ""},
+{"ko": "필터", "tr": "フィルター", "type": "label", "note": ""},
+{"ko": "집계", "tr": "集計", "type": "term", "note": ""},
+{"ko": "집계 카드", "tr": "集計カード", "type": "term", "note": ""},
+{"ko": "지연 Query", "tr": "遅延 Query", "type": "term", "note": ""},
+{"ko": "표시 중", "tr": "表示中", "type": "label", "note": ""},
+{"ko": "생성 경로", "tr": "作成経路", "type": "label", "note": ""},
+{"ko": "자동(규칙)", "tr": "自動（規則）", "type": "value", "note": ""},
+{"ko": "자동", "tr": "自動", "type": "value", "note": ""},
+{"ko": "수동", "tr": "手動", "type": "value", "note": ""},
+{"ko": "대상", "tr": "対象", "type": "field", "note": ""},
+{"ko": "담당", "tr": "担当", "type": "field", "note": ""},
+{"ko": "담당자", "tr": "担当者", "type": "term", "note": ""},
+{"ko": "경과(일)", "tr": "経過(日)", "type": "label", "note": ""},
+{"ko": "처리 이력", "tr": "処理履歴", "type": "term", "note": ""},
+{"ko": "감사자", "tr": "監査者", "type": "term", "note": ""},
+{"ko": "연구책임자", "tr": "研究責任者", "type": "term", "note": ""},
+{"ko": "데이터 관리자", "tr": "データ管理者", "type": "term", "note": ""},
+{"ko": "기관", "tr": "機関", "type": "term", "note": ""},
+{"ko": "기관 배정", "tr": "機関割り当て", "type": "term", "note": ""},
+{"ko": "참여 기관", "tr": "参加機関", "type": "path", "note": ""},
+{"ko": "연구자", "tr": "研究者", "type": "term", "note": ""},
+{"ko": "방문", "tr": "来院", "type": "term", "note": ""},
+{"ko": "대상 피험자", "tr": "対象被験者", "type": "field", "note": ""},
+{"ko": "Query 범위", "tr": "Query範囲", "type": "label", "note": ""},
+{"ko": "Query 제목", "tr": "Queryタイトル", "type": "field", "note": ""},
+{"ko": "제목", "tr": "タイトル", "type": "field", "note": ""},
+{"ko": "내용", "tr": "内容", "type": "field", "note": ""},
+{"ko": "변경 사유", "tr": "変更理由", "type": "field", "note": ""},
+{"ko": "답변 내용", "tr": "回答内容", "type": "field", "note": ""},
+{"ko": "답변 코멘트", "tr": "回答コメント", "type": "field", "note": ""},
+{"ko": "종료 사유", "tr": "終了理由", "type": "field", "note": ""},
+{"ko": "Reopen 사유", "tr": "Reopen理由", "type": "field", "note": ""},
+{"ko": "추가 질의 내용", "tr": "追加照会内容", "type": "field", "note": ""},
+{"ko": "질의 내용", "tr": "照会内容", "type": "term", "note": ""},
+{"ko": "확인 요청", "tr": "確認依頼", "type": "term", "note": ""},
+{"ko": "현재 값", "tr": "現在値", "type": "label", "note": ""},
+{"ko": "값 수정", "tr": "値の修正", "type": "label", "note": ""},
+{"ko": "값 정정", "tr": "値の訂正", "type": "value", "note": ""},
+{"ko": "현행 유지", "tr": "現行維持", "type": "value", "note": ""},
+{"ko": "해소 방식", "tr": "解消方法", "type": "label", "note": ""},
+{"ko": "해소 근거 · 감사 증빙", "tr": "解消根拠 · 監査エビデンス", "type": "label", "note": ""},
+{"ko": "상태", "tr": "状態", "type": "label", "note": ""},
+{"ko": "뜻", "tr": "意味", "type": "label", "note": ""},
+{"ko": "다음에 할 일", "tr": "次にすること", "type": "label", "note": ""},
+{"ko": "교차", "tr": "交差", "type": "term", "note": ""},
+{"ko": "단일 필드", "tr": "単一フィールド", "type": "term", "note": ""},
+{"ko": "회차", "tr": "回次", "type": "term", "note": ""},
+{"ko": "등록자", "tr": "登録者", "type": "term", "note": ""},
+{"ko": "고장", "tr": "故障", "type": "term", "note": ""},
+{"ko": "모니터요원", "tr": "臨床開発モニター", "type": "term", "note": ""},
+{"ko": "전체", "tr": "すべて", "type": "label", "note": "image"},
+{"ko": "입력값 오타", "tr": "入力値の誤字", "type": "label", "note": "image"},
+{"ko": "중요", "tr": "重要", "type": "status", "note": "image"},
+{"ko": "생성 시 자동 처리", "tr": "作成時の自動処理", "type": "label", "note": "image"},
+{"ko": "필드", "tr": "フィールド", "type": "label", "note": "image"},
+{"ko": "활력징후", "tr": "バイタルサイン", "type": "label", "note": "image"},
+{"ko": "수축기혈압", "tr": "収縮期血圧", "type": "label", "note": "image"},
+{"ko": "수축기 혈압 아웃라이어", "tr": "収縮期血圧のアウトライアー", "type": "label", "note": "image"},
+{"ko": "모든 필수 입력 완료", "tr": "必須入力がすべて完了", "type": "status", "note": "image"},
+{"ko": "품질", "tr": "品質", "type": "label", "note": "image"},
+{"ko": "검증 대기", "tr": "検証待ち", "type": "status", "note": "image"},
+{"ko": "이 코멘트를 변경 사유로 함께 사용 이력·상세 보기", "tr": "このコメントを変更理由としても使用 · 履歴 · 詳細表示", "type": "label", "note": "image"}
 ]

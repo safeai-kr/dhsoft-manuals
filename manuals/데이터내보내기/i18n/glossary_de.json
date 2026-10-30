@@ -1,108 +1,1148 @@
 [
-{"ko": "추출 시작", "tr": "Export starten", "type": "button", "note": ""},
-{"ko": "이력 전체 보기", "tr": "Gesamten Verlauf anzeigen", "type": "button", "note": ""},
-{"ko": "범위 지정", "tr": "Bereich festlegen", "type": "path", "note": "범위 = Bereich (Export 대상 범위)"},
-{"ko": "범위 고르기", "tr": "Bereich auswählen", "type": "path", "note": ""},
-{"ko": "유형별 범위 지정", "tr": "Bereich je Typ festlegen", "type": "path", "note": ""},
-{"ko": "추출 옵션 설정", "tr": "Exportoptionen festlegen", "type": "path", "note": ""},
-{"ko": "추출 진행 중", "tr": "Export läuft", "type": "path", "note": ""},
-{"ko": "추출 완료와 내려받기", "tr": "Export abgeschlossen und herunterladen", "type": "path", "note": ""},
-{"ko": "추출 파일 다운로드", "tr": "Exportdatei herunterladen", "type": "path", "note": ""},
-{"ko": "데이터 내보내기", "tr": "Datenexport", "type": "path", "note": "Audit Trail 볼륨의 같은 용어와 일치"},
-{"ko": "데이터 내보내기 허브", "tr": "Export-Hub", "type": "menu", "note": "허브 = Hub. 원문 캡션은 「데이터 내보내기 허브」"},
-{"ko": "내보내기 이력", "tr": "Exportverlauf", "type": "menu", "note": ""},
-{"ko": "최근 추출 이력", "tr": "Letzte Exporte", "type": "label", "note": ""},
-{"ko": "추출 번호", "tr": "Exportnummer", "type": "label", "note": "작업 번호와 같은 값"},
-{"ko": "작업 번호", "tr": "Auftragsnummer", "type": "label", "note": "ext_ 로 시작하는 번호"},
-{"ko": "실행 중", "tr": "Läuft", "type": "status", "note": ""},
-{"ko": "완료", "tr": "Abgeschlossen", "type": "status", "note": "추출 상태"},
-{"ko": "만료", "tr": "abgelaufen", "type": "status", "note": ""},
-{"ko": "추출 경고", "tr": "Exportwarnungen", "type": "label", "note": ""},
-{"ko": "유효 기한", "tr": "Gültig bis", "type": "label", "note": ""},
-{"ko": "동일 옵션으로 재실행", "tr": "Mit gleichen Optionen erneut ausführen", "type": "button", "note": ""},
-{"ko": "무결성 검증 (SHA-256)", "tr": "Integritätsprüfung (SHA-256)", "type": "label", "note": ""},
-{"ko": "추출 화면", "tr": "Export-Bildschirm", "type": "menu", "note": ""},
-{"ko": "추출 화면 보기", "tr": "Export-Bildschirm anzeigen", "type": "button", "note": ""},
-{"ko": "내보내기 범위", "tr": "Exportbereich", "type": "label", "note": ""},
-{"ko": "범위 프리셋", "tr": "Bereichs-Voreinstellungen", "type": "label", "note": "프리셋 = Voreinstellung"},
-{"ko": "범위 계층 트리", "tr": "Bereichs-Baum", "type": "label", "note": ""},
-{"ko": "Site 범위", "tr": "Site-Bereich", "type": "label", "note": "Site는 원문 Latin 유지"},
-{"ko": "자기 Site", "tr": "Eigene Site", "type": "label", "note": ""},
-{"ko": "전체 Site", "tr": "alle Sites", "type": "value", "note": ""},
-{"ko": "범위 지정 — 유형명", "tr": "Bereich festlegen — Typname", "type": "label", "note": ""},
-{"ko": "필터와 예상 규모", "tr": "Filter und erwarteter Umfang", "type": "path", "note": ""},
-{"ko": "필터 · 예상 레코드 수", "tr": "Filter · erwartete Datensätze", "type": "path", "note": ""},
-{"ko": "레코드 수", "tr": "Anzahl der Datensätze", "type": "label", "note": ""},
-{"ko": "예상 레코드 수", "tr": "erwartete Anzahl der Datensätze", "type": "label", "note": ""},
-{"ko": "기간 필터", "tr": "Zeitraumfilter", "type": "label", "note": ""},
-{"ko": "기간 필터 — 시작", "tr": "Zeitraumfilter — Start", "type": "label", "note": ""},
-{"ko": "기간 필터 — 종료", "tr": "Zeitraumfilter — Ende", "type": "label", "note": ""},
-{"ko": "데이터 존재 구간", "tr": "Zeitraum mit vorhandenen Daten", "type": "label", "note": ""},
-{"ko": "DataForm 필터", "tr": "DataForm-Filter", "type": "label", "note": ""},
-{"ko": "Visit 필터", "tr": "Visit-Filter", "type": "label", "note": ""},
-{"ko": "옵션 설정으로 이동 →", "tr": "Zu den Exportoptionen →", "type": "button", "note": ""},
-{"ko": "취소", "tr": "Abbrechen", "type": "button", "note": ""},
-{"ko": "닫기", "tr": "Schließen", "type": "button", "note": ""},
-{"ko": "뒤로", "tr": "Zurück", "type": "button", "note": ""},
-{"ko": "파일 포맷", "tr": "Dateiformat", "type": "label", "note": ""},
-{"ko": "PII 마스킹", "tr": "PII-Maskierung", "type": "label", "note": "PII 는 원문 Latin 유지"},
-{"ko": "미확정 데이터 워닝", "tr": "Warnung bei unvollständigen Daten", "type": "label", "note": "미확정 = 아직 입력이 끝나지 않은 데이터"},
-{"ko": "아카이브된 데이터 포함", "tr": "Archivierte Daten einschließen", "type": "label", "note": ""},
-{"ko": "버전 처리 정책", "tr": "Versionsbehandlung", "type": "label", "note": ""},
-{"ko": "COLUMN_UNION", "tr": "COLUMN_UNION", "type": "value", "note": "코드 값 그대로"},
-{"ko": "PER_VERSION", "tr": "PER_VERSION", "type": "value", "note": "코드 값 그대로"},
-{"ko": "마스킹 해제", "tr": "Aufhebung der Maskierung", "type": "label", "note": ""},
-{"ko": "마스킹이 강제됩니다 (변경 불가)", "tr": "Maskierung ist erzwungen (nicht änderbar)", "type": "message", "note": ""},
-{"ko": "해제 가능", "tr": "Aufhebung möglich", "type": "message", "note": ""},
-{"ko": "식별정보", "tr": "Identifikationsdaten", "type": "term", "note": ""},
-{"ko": "Query 이력", "tr": "Query-Verlauf", "type": "label", "note": ""},
-{"ko": "Lock 이력", "tr": "Lock-Verlauf", "type": "label", "note": ""},
-{"ko": "서명 이력", "tr": "Signaturverlauf", "type": "label", "note": ""},
-{"ko": "방문 이벤트", "tr": "Besuchsereignisse", "type": "label", "note": ""},
-{"ko": "예정 방문만", "tr": "nur geplante Besuche", "type": "value", "note": ""},
-{"ko": "Subject Lock", "tr": "Subject-Lock", "type": "value", "note": "원문 Latin 유지"},
-{"ko": "Project Lock", "tr": "Project-Lock", "type": "value", "note": "원문 Latin 유지"},
-{"ko": "DataInstance 서명", "tr": "DataInstance-Signatur", "type": "value", "note": "자료 서명"},
-{"ko": "DataLock 서명", "tr": "DataLock-Signatur", "type": "value", "note": "잠금 서명"},
-{"ko": "HARD_LOCK 피험자 전체", "tr": "alle Probanden mit HARD_LOCK", "type": "value", "note": "HARD_LOCK 원문 유지"},
-{"ko": "Terminal 피험자 전체", "tr": "alle Terminal-Probanden", "type": "value", "note": ""},
-{"ko": "종료 상태 피험자", "tr": "Probanden im Endstatus", "type": "term", "note": ""},
-{"ko": "선별 실패", "tr": "Screening-Abbruch", "type": "value", "note": "screen failure"},
-{"ko": "조기 종료", "tr": "vorzeitiger Abbruch", "type": "value", "note": ""},
-{"ko": "추적 소실", "tr": "Verlust im Follow-up", "type": "value", "note": ""},
-{"ko": "사망", "tr": "Tod", "type": "value", "note": ""},
-{"ko": "연구 종료", "tr": "Studienende", "type": "value", "note": ""},
-{"ko": "Query 이력 프리셋 (OPEN + ANSWERED)", "tr": "OPEN + ANSWERED", "type": "value", "note": "상태 코드 원문 유지"},
-{"ko": "피험자 잠금", "tr": "Lock auf Probandenebene", "type": "term", "note": ""},
-{"ko": "프로젝트 잠금", "tr": "Lock auf Projektebene", "type": "term", "note": ""},
-{"ko": "확정 데이터 Export", "tr": "Bestätigter Datenexport", "type": "label", "note": "프로젝트 상태 배너 문구"},
-{"ko": "테스트 데이터 Export", "tr": "Testdaten Export", "type": "label", "note": ""},
-{"ko": "1순위", "tr": "Priorität 1", "type": "label", "note": ""},
-{"ko": "2순위", "tr": "Priorität 2", "type": "label", "note": ""},
-{"ko": "CRF 데이터", "tr": "CRF-Daten", "type": "label", "note": ""},
-{"ko": "피험자 기본 정보", "tr": "Grunddaten der Probanden", "type": "term", "note": ""},
-{"ko": "결측", "tr": "fehlend", "type": "term", "note": "방문 이벤트 항목"},
-{"ko": "재방문", "tr": "Wiederholungsbesuch", "type": "term", "note": ""},
-{"ko": "감사 대비", "tr": "Auditvorbereitung", "type": "term", "note": ""},
-{"ko": "규제 제출", "tr": "Behördeneinreichung", "type": "term", "note": ""},
-{"ko": "원자료 대조", "tr": "Quelldatenabgleich", "type": "term", "note": "SDV 의 뜻"},
-{"ko": "통계 분석 1차 자료", "tr": "statistische Primärdaten", "type": "term", "note": ""},
-{"ko": "유형 이름 · 담기는 내용 · 추출 시작", "tr": "Typname · Inhalt · Export starten", "type": "label", "note": ""},
-{"ko": "Site 1개(020A) · CSV", "tr": "1 Site (020A) · CSV", "type": "value", "note": "예시 값"},
-{"ko": "수행자", "tr": "Ausführender", "type": "label", "note": "변경 수행자"},
-{"ko": "스크리닝번호", "tr": "Screening-Nummer", "type": "term", "note": ""},
-{"ko": "열 이름", "tr": "Spaltennamen", "type": "label", "note": ""},
-{"ko": "회차", "tr": "Wiederholung", "type": "term", "note": "방문 회차 번호 열"},
-{"ko": "양식 버전", "tr": "Formularversion", "type": "term", "note": ""},
-{"ko": "양식 코드", "tr": "Formularcode", "type": "term", "note": ""},
-{"ko": "인스턴스", "tr": "Instanz", "type": "term", "note": ""},
-{"ko": "피험자", "tr": "Proband", "type": "term", "note": "기존 용어집 「피험자 / 임상 대상자 = Proband」"},
-{"ko": "기관 단위", "tr": "Einrichtungsebene", "type": "term", "note": ""},
-{"ko": "전자서명", "tr": "elektronische Signatur", "type": "term", "note": ""},
-{"ko": "잠금 · 해제 이력", "tr": "Verlauf der Sperren und Entsperrungen", "type": "term", "note": ""},
-{"ko": "이력 전체", "tr": "gesamter Verlauf", "type": "term", "note": ""},
-{"ko": "경고 N건", "tr": "N Warnungen", "type": "label", "note": ""},
-{"ko": "지문값", "tr": "Fingerabdruck", "type": "term", "note": "SHA-256 해시 값"},
-{"ko": "검증값", "tr": "Prüfwert", "type": "term", "note": ""},
-{"ko": "CSV/Excel 내보내기", "tr": "CSV/Excel exportieren", "type": "button", "note": ""}
+  {
+    "ko": "추출 시작",
+    "tr": "Export starten",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "이력 전체 보기",
+    "tr": "Gesamten Verlauf anzeigen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "범위 지정",
+    "tr": "Bereich festlegen",
+    "type": "path",
+    "note": "범위 = Bereich (Export 대상 범위)"
+  },
+  {
+    "ko": "범위 고르기",
+    "tr": "Bereich auswählen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "유형별 범위 지정",
+    "tr": "Bereich je Typ festlegen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "추출 옵션 설정",
+    "tr": "Exportoptionen festlegen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "추출 진행 중",
+    "tr": "Export läuft",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "추출 완료와 내려받기",
+    "tr": "Export abgeschlossen und herunterladen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "추출 파일 다운로드",
+    "tr": "Exportdatei herunterladen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "데이터 내보내기",
+    "tr": "Datenexport",
+    "type": "path",
+    "note": "Audit Trail 볼륨의 같은 용어와 일치"
+  },
+  {
+    "ko": "데이터 내보내기 허브",
+    "tr": "Export-Hub",
+    "type": "menu",
+    "note": "허브 = Hub. 원문 캡션은 「데이터 내보내기 허브」"
+  },
+  {
+    "ko": "내보내기 이력",
+    "tr": "Exportverlauf",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "최근 추출 이력",
+    "tr": "Letzte Exporte",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "추출 번호",
+    "tr": "Exportnummer",
+    "type": "label",
+    "note": "작업 번호와 같은 값"
+  },
+  {
+    "ko": "작업 번호",
+    "tr": "Auftragsnummer",
+    "type": "label",
+    "note": "ext_ 로 시작하는 번호"
+  },
+  {
+    "ko": "실행 중",
+    "tr": "Läuft",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "완료",
+    "tr": "Abgeschlossen",
+    "type": "status",
+    "note": "추출 상태"
+  },
+  {
+    "ko": "만료",
+    "tr": "abgelaufen",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "추출 경고",
+    "tr": "Exportwarnungen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "유효 기한",
+    "tr": "Gültig bis",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "동일 옵션으로 재실행",
+    "tr": "Mit gleichen Optionen erneut ausführen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "무결성 검증 (SHA-256)",
+    "tr": "Integritätsprüfung (SHA-256)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "추출 화면",
+    "tr": "Export-Bildschirm",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "추출 화면 보기",
+    "tr": "Export-Bildschirm anzeigen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "내보내기 범위",
+    "tr": "Exportbereich",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "범위 프리셋",
+    "tr": "Bereichs-Voreinstellungen",
+    "type": "label",
+    "note": "프리셋 = Voreinstellung"
+  },
+  {
+    "ko": "범위 계층 트리",
+    "tr": "Bereichs-Baum",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Site 범위",
+    "tr": "Site-Bereich",
+    "type": "label",
+    "note": "Site는 원문 Latin 유지"
+  },
+  {
+    "ko": "자기 Site",
+    "tr": "Eigene Site",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "전체 Site",
+    "tr": "alle Sites",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "범위 지정 — 유형명",
+    "tr": "Bereich festlegen — Typname",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "필터와 예상 규모",
+    "tr": "Filter und erwarteter Umfang",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "필터 · 예상 레코드 수",
+    "tr": "Filter · erwartete Datensätze",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "레코드 수",
+    "tr": "Anzahl der Datensätze",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "예상 레코드 수",
+    "tr": "erwartete Anzahl der Datensätze",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기간 필터",
+    "tr": "Zeitraumfilter",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기간 필터 — 시작",
+    "tr": "Zeitraumfilter — Start",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기간 필터 — 종료",
+    "tr": "Zeitraumfilter — Ende",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "데이터 존재 구간",
+    "tr": "Zeitraum mit vorhandenen Daten",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "DataForm 필터",
+    "tr": "DataForm-Filter",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Visit 필터",
+    "tr": "Visit-Filter",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "옵션 설정으로 이동 →",
+    "tr": "Zu den Exportoptionen →",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "취소",
+    "tr": "Abbrechen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "닫기",
+    "tr": "Schließen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "뒤로",
+    "tr": "Zurück",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "파일 포맷",
+    "tr": "Dateiformat",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "PII 마스킹",
+    "tr": "PII-Maskierung",
+    "type": "label",
+    "note": "PII 는 원문 Latin 유지"
+  },
+  {
+    "ko": "미확정 데이터 워닝",
+    "tr": "Warnung bei unvollständigen Daten",
+    "type": "label",
+    "note": "미확정 = 아직 입력이 끝나지 않은 데이터"
+  },
+  {
+    "ko": "아카이브된 데이터 포함",
+    "tr": "Archivierte Daten einschließen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "버전 처리 정책",
+    "tr": "Versionsbehandlung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "COLUMN_UNION",
+    "tr": "COLUMN_UNION",
+    "type": "value",
+    "note": "코드 값 그대로"
+  },
+  {
+    "ko": "PER_VERSION",
+    "tr": "PER_VERSION",
+    "type": "value",
+    "note": "코드 값 그대로"
+  },
+  {
+    "ko": "마스킹 해제",
+    "tr": "Aufhebung der Maskierung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "마스킹이 강제됩니다 (변경 불가)",
+    "tr": "Maskierung ist erzwungen (nicht änderbar)",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "해제 가능",
+    "tr": "Aufhebung möglich",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "식별정보",
+    "tr": "Identifikationsdaten",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Query 이력",
+    "tr": "Query-Verlauf",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Lock 이력",
+    "tr": "Lock-Verlauf",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 이력",
+    "tr": "Signaturverlauf",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "방문 이벤트",
+    "tr": "Besuchsereignisse",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "예정 방문만",
+    "tr": "nur geplante Besuche",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "Subject Lock",
+    "tr": "Subject-Lock",
+    "type": "value",
+    "note": "원문 Latin 유지"
+  },
+  {
+    "ko": "Project Lock",
+    "tr": "Project-Lock",
+    "type": "value",
+    "note": "원문 Latin 유지"
+  },
+  {
+    "ko": "DataInstance 서명",
+    "tr": "DataInstance-Signatur",
+    "type": "value",
+    "note": "자료 서명"
+  },
+  {
+    "ko": "DataLock 서명",
+    "tr": "DataLock-Signatur",
+    "type": "value",
+    "note": "잠금 서명"
+  },
+  {
+    "ko": "HARD_LOCK 피험자 전체",
+    "tr": "alle Probanden mit HARD_LOCK",
+    "type": "value",
+    "note": "HARD_LOCK 원문 유지"
+  },
+  {
+    "ko": "Terminal 피험자 전체",
+    "tr": "alle Terminal-Probanden",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "종료 상태 피험자",
+    "tr": "Probanden im Endstatus",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "선별 실패",
+    "tr": "Screening-Abbruch",
+    "type": "value",
+    "note": "screen failure"
+  },
+  {
+    "ko": "조기 종료",
+    "tr": "vorzeitiger Abbruch",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "추적 소실",
+    "tr": "Verlust im Follow-up",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "사망",
+    "tr": "Tod",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료",
+    "tr": "Studienende",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "Query 이력 프리셋 (OPEN + ANSWERED)",
+    "tr": "OPEN + ANSWERED",
+    "type": "value",
+    "note": "상태 코드 원문 유지"
+  },
+  {
+    "ko": "피험자 잠금",
+    "tr": "Lock auf Probandenebene",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 잠금",
+    "tr": "Lock auf Projektebene",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "확정 데이터 Export",
+    "tr": "Bestätigter Datenexport",
+    "type": "label",
+    "note": "프로젝트 상태 배너 문구"
+  },
+  {
+    "ko": "테스트 데이터 Export",
+    "tr": "Testdaten Export",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "1순위",
+    "tr": "Priorität 1",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "2순위",
+    "tr": "Priorität 2",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "CRF 데이터",
+    "tr": "CRF-Daten",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "피험자 기본 정보",
+    "tr": "Grunddaten der Probanden",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "결측",
+    "tr": "fehlend",
+    "type": "term",
+    "note": "방문 이벤트 항목"
+  },
+  {
+    "ko": "재방문",
+    "tr": "Wiederholungsbesuch",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "감사 대비",
+    "tr": "Auditvorbereitung",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "규제 제출",
+    "tr": "Behördeneinreichung",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "원자료 대조",
+    "tr": "Quelldatenabgleich",
+    "type": "term",
+    "note": "SDV 의 뜻"
+  },
+  {
+    "ko": "통계 분석 1차 자료",
+    "tr": "statistische Primärdaten",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "유형 이름 · 담기는 내용 · 추출 시작",
+    "tr": "Typname · Inhalt · Export starten",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Site 1개(020A) · CSV",
+    "tr": "1 Site (020A) · CSV",
+    "type": "value",
+    "note": "예시 값"
+  },
+  {
+    "ko": "수행자",
+    "tr": "Ausführender",
+    "type": "label",
+    "note": "변경 수행자"
+  },
+  {
+    "ko": "스크리닝번호",
+    "tr": "Screening-Nummer",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "열 이름",
+    "tr": "Spaltennamen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "회차",
+    "tr": "Wiederholung",
+    "type": "term",
+    "note": "방문 회차 번호 열"
+  },
+  {
+    "ko": "양식 버전",
+    "tr": "Formularversion",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "양식 코드",
+    "tr": "Formularcode",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "인스턴스",
+    "tr": "Instanz",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "피험자",
+    "tr": "Proband",
+    "type": "term",
+    "note": "기존 용어집 「피험자 / 임상 대상자 = Proband」"
+  },
+  {
+    "ko": "기관 단위",
+    "tr": "Einrichtungsebene",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "전자서명",
+    "tr": "elektronische Signatur",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "잠금 · 해제 이력",
+    "tr": "Verlauf der Sperren und Entsperrungen",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "이력 전체",
+    "tr": "gesamter Verlauf",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "경고 N건",
+    "tr": "N Warnungen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "지문값",
+    "tr": "Fingerabdruck",
+    "type": "term",
+    "note": "SHA-256 해시 값"
+  },
+  {
+    "ko": "검증값",
+    "tr": "Prüfwert",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "CSV/Excel 내보내기",
+    "tr": "CSV/Excel exportieren",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "1순위 추출",
+    "tr": "Export Priorität 1",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "추출 시작 →",
+    "tr": "Export starten →",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "2순위 추출",
+    "tr": "Export Priorität 2",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "최근 추출 이력 (최대 5건)",
+    "tr": "Letzte Exporte (maximal 5)",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "이력 전체 보기 →",
+    "tr": "Gesamten Verlauf anzeigen →",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "범위 지정 — CRF 데이터",
+    "tr": "Bereich festlegen — CRF-Daten",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "전체",
+    "tr": "Alle",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "범위 계층 선택",
+    "tr": "Bereichsebenen auswählen",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "시작",
+    "tr": "Beginn",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "종료",
+    "tr": "Ende",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치식 진단·치료 020 (1.0)",
+    "tr": "Zahndiagnose und -behandlung 020 (1.0)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "검증 규칙 테스트 020 (1.0.0)",
+    "tr": "Validierungsregeltest 020 (1.0.0)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료 방문",
+    "tr": "Zahnbehandlungsbesuch",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 인스턴스",
+    "tr": "CRF-Instanzen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "옵션 설정으로 이동",
+    "tr": "Zu den Exportoptionen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "레코드 5 건",
+    "tr": "5 Datensätze",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CLOSED 만",
+    "tr": "nur CLOSED",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "① 내보내기 범위",
+    "tr": "① Exportbereich",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "선택 1개 노드 · 기간 2026-07-06 ~ *",
+    "tr": "1 Knoten gewählt · Zeitraum 2026-07-06 ~ *",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "② 파일 포맷 *",
+    "tr": "② Dateiformat *",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "CSV 범용 텍스트 (UTF-8)",
+    "tr": "CSV-Klartext (UTF-8)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "ZIP 추출 결과를 zip 으로 압축",
+    "tr": "ZIP: Exportergebnisse als ZIP-Datei komprimiert",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Excel xlsx · 시트 분할 가능",
+    "tr": "Excel xlsx · Tabellenblätter teilbar",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "③ PII 마스킹 (품 정의 기준)",
+    "tr": "③ PII-Maskierung (gemäß Datendefinition)",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "PII / PHI 마스킹 적용",
+    "tr": "PII-/PHI-Maskierung anwenden",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "④ 미확정 데이터 워닝",
+    "tr": "④ Warnung bei unbestätigten Daten",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "경고 표시 미완료(IN_PROGRESS) 인스턴스 건수를 추출 상세 화면의 경고 목록에 남깁니다 — 행은 항상 포함되며 추출 파일에 는 표시되지 않습니다 (CRF 데이터 추출 한정)",
+    "tr": "Zählt unvollständige Instanzen (IN_PROGRESS) in der Warnliste des Exportdetails-Bildschirms. Zeilen sind immer enthalten, erscheinen aber nicht in der Exportdatei (nur CRF-Datenexport).",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "경고 생략 미완료 인스턴스를 그대로 포함하되 경고를 남기지 않습니다",
+    "tr": "Unvollständige Instanzen werden unverändert einbezogen, ohne dass eine Warnung erzeugt wird.",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "⑤ 아카이브된 데이터 포함",
+    "tr": "⑤ Archivierte Daten einschließen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "⑥ 버전 처리 정책",
+    "tr": "⑥ Versionsbehandlung",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "COLUMN_UNION (기본) 모든 버전 컬럼 union",
+    "tr": "COLUMN_UNION (Standard) Vereinigung der Spalten aller Versionen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "PER_VERSION 버전별 별도 파일/시트",
+    "tr": "PER_VERSION separate Dateien / Tabellenblätter je Version",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "추출 실행",
+    "tr": "Export starten",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "실행 시각",
+    "tr": "Startzeit",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "추출 진행 중 — 75%",
+    "tr": "Export läuft — 75%",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "포맷",
+    "tr": "Format",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "추출 완료",
+    "tr": "Export abgeschlossen",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "파일명",
+    "tr": "Dateiname",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "크기",
+    "tr": "Größe",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "다운로드",
+    "tr": "Download",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "추출 경고 6건",
+    "tr": "6 Exportwarnungen",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "정렬",
+    "tr": "Sortieren",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "보기",
+    "tr": "Ansicht",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "압축 풀기",
+    "tr": "Alle extrahieren",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "이름",
+    "tr": "Name",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "유형",
+    "tr": "Typ",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "압축된 크기",
+    "tr": "Komprimierte Größe",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "암호 사용",
+    "tr": "Kennwortschutz",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "crf_dental_020__dental_chart_01a1... Microsoft Excel 쉼표로 ...",
+    "tr": "crf_dental_020__dental_chart_01a1... Microsoft Excel Durch Kommas getrennt ...",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Microsoft Excel 쉼표로 ...",
+    "tr": "Microsoft Excel Durch Kommas getrennt ...",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "아니요",
+    "tr": "Nein",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "세부 정보",
+    "tr": "Details",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "비율",
+    "tr": "Verhältnis",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "파일",
+    "tr": "Datei",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "홈",
+    "tr": "Start",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "삽입",
+    "tr": "Einfügen",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "그리기",
+    "tr": "Zeichnen",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "페이지 레이아웃",
+    "tr": "Seitenlayout",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "수식",
+    "tr": "Formeln",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "데이터",
+    "tr": "Daten",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "검토",
+    "tr": "Überprüfen",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "자동화",
+    "tr": "Automatisieren",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "도움말",
+    "tr": "Hilfe",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "일반",
+    "tr": "Standard",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "붙여넣기",
+    "tr": "Einfügen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "클립보드",
+    "tr": "Zwischenablage",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터가 손실될 수 있음",
+    "tr": "Daten können verloren gehen",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "맑은 고딕",
+    "tr": "Malgun Gothic",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "내제 ~",
+    "tr": "Eingebettet ~",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "글꼴",
+    "tr": "Schriftart",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "맞춤",
+    "tr": "Ausrichtung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "표시 형식",
+    "tr": "Zahlenformat",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "조건부 서식",
+    "tr": "Bedingte Formatierung",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "표 서식",
+    "tr": "Als Tabelle formatieren",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "셀 스타일",
+    "tr": "Zellenformatvorlagen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "스타일",
+    "tr": "Formatvorlagen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "삭제",
+    "tr": "Löschen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "서식",
+    "tr": "Formatieren",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "셀",
+    "tr": "Zellen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "메모",
+    "tr": "Notizen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "편집",
+    "tr": "Bearbeiten",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "공유",
+    "tr": "Freigeben",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "다시 표시 안 함",
+    "tr": "Nicht mehr anzeigen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "추가 기능",
+    "tr": "Add-Ins",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "다른 이름으로 저장...",
+    "tr": "Speichern unter...",
+    "type": "button",
+    "note": "image"
+  }
 ]

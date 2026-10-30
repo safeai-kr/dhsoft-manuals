@@ -1,60 +1,548 @@
 [
-{"ko": "브라우저 주소창", "tr": "Browser-Adressleiste", "type": "path", "note": ""},
-{"ko": "로그인 화면", "tr": "Anmeldebildschirm", "type": "path", "note": ""},
-{"ko": "비밀번호 재설정", "tr": "Passwort zurücksetzen", "type": "path", "note": ""},
-{"ko": "재설정 요청 메일", "tr": "Zurücksetzungs-E-Mail", "type": "path", "note": ""},
-{"ko": "새 비밀번호 설정", "tr": "Neues Passwort festlegen", "type": "path", "note": ""},
-{"ko": "플랫폼 홈", "tr": "Plattform-Startseite", "type": "path", "note": ""},
-{"ko": "프로필 메뉴", "tr": "Profilmenü", "type": "path", "note": ""},
-{"ko": "로그아웃 확인", "tr": "Abmeldung bestätigen", "type": "path", "note": ""},
-{"ko": "로그인", "tr": "Anmelden", "type": "button", "note": "버튼 이름. 명사는 Anmeldung"},
-{"ko": "로그아웃", "tr": "Abmelden", "type": "button", "note": "버튼 이름. 명사는 Abmeldung"},
-{"ko": "취소", "tr": "Abbrechen", "type": "button", "note": ""},
-{"ko": "재설정 링크 발송", "tr": "Zurücksetzungslink senden", "type": "button", "note": ""},
-{"ko": "재설정 완료", "tr": "Zurücksetzung abschließen", "type": "button", "note": ""},
-{"ko": "비밀번호를 잊으셨나요?", "tr": "Passwort vergessen?", "type": "button", "note": ""},
-{"ko": "로그인 화면으로", "tr": "Zum Anmeldebildschirm", "type": "button", "note": ""},
-{"ko": "이어서", "tr": "Fortsetzen", "type": "button", "note": "최근 워크스페이스 바로가기. 실제 문구 확인 필요"},
-{"ko": "새로 고침", "tr": "Aktualisieren", "type": "button", "note": ""},
-{"ko": "검색", "tr": "Suche", "type": "button", "note": ""},
-{"ko": "닫기", "tr": "Schließen", "type": "button", "note": ""},
-{"ko": "전체 이력 보기", "tr": "Gesamten Verlauf anzeigen", "type": "button", "note": ""},
-{"ko": "변경", "tr": "Ändern", "type": "button", "note": ""},
-{"ko": "프로필 조회", "tr": "Profil anzeigen", "type": "menu", "note": ""},
-{"ko": "비밀번호 변경", "tr": "Passwort ändern", "type": "menu", "note": ""},
-{"ko": "전자서명 비밀번호 설정", "tr": "Passwort für die elektronische Signatur festlegen", "type": "menu", "note": ""},
-{"ko": "로그인 상태 유지", "tr": "Angemeldet bleiben", "type": "label", "note": ""},
-{"ko": "비밀번호", "tr": "Passwort", "type": "field", "note": ""},
-{"ko": "신규 비밀번호", "tr": "Neues Passwort", "type": "field", "note": ""},
-{"ko": "현재 비밀번호", "tr": "Aktuelles Passwort", "type": "field", "note": ""},
-{"ko": "비밀번호 확인", "tr": "Passwort bestätigen", "type": "field", "note": ""},
-{"ko": "현재 서명 비밀번호", "tr": "Aktuelles Signaturpasswort", "type": "field", "note": ""},
-{"ko": "신규 서명 비밀번호", "tr": "Neues Signaturpasswort", "type": "field", "note": ""},
-{"ko": "이름", "tr": "Name", "type": "field", "note": ""},
-{"ko": "계정 잠금됨", "tr": "Konto gesperrt", "type": "status", "note": "버튼 상태 문구"},
-{"ko": "충족", "tr": "erfüllt", "type": "status", "note": "조건 목록 상태"},
-{"ko": "미충족", "tr": "nicht erfüllt", "type": "status", "note": "조건 목록 상태"},
-{"ko": "세션", "tr": "Sitzung", "type": "term", "note": ""},
-{"ko": "세션 만료", "tr": "Sitzungsablauf", "type": "term", "note": ""},
-{"ko": "워크스페이스", "tr": "Workspace", "type": "term", "note": "독일어 대체어 없이 그대로 씀"},
-{"ko": "프로젝트", "tr": "Projekt", "type": "term", "note": ""},
-{"ko": "계정", "tr": "Konto", "type": "term", "note": ""},
-{"ko": "프로필", "tr": "Profil", "type": "term", "note": ""},
-{"ko": "시스템 관리자", "tr": "Systemadministrator", "type": "term", "note": ""},
-{"ko": "전자서명", "tr": "elektronische Signatur", "type": "term", "note": ""},
-{"ko": "이중 인증", "tr": "zweistufige Authentifizierung", "type": "term", "note": ""},
-{"ko": "인증", "tr": "Authentifizierung", "type": "term", "note": ""},
-{"ko": "알림", "tr": "Benachrichtigung", "type": "term", "note": ""},
-{"ko": "인앱", "tr": "In-App", "type": "label", "note": ""},
-{"ko": "잠금", "tr": "Sperre", "type": "term", "note": ""},
-{"ko": "착지 화면", "tr": "Landeseite", "type": "term", "note": "로그인 후 처음 보이는 화면. 독일어에서 흔한 말이 아니라 판단 필요"},
-{"ko": "배지", "tr": "Badge", "type": "term", "note": ""},
-{"ko": "서명 대기", "tr": "ausstehende Signatur", "type": "term", "note": ""},
-{"ko": "지연 서명", "tr": "verspätete Signatur", "type": "term", "note": ""},
-{"ko": "이메일 또는 비밀번호가 일치하지 않습니다. 5회 실패 시 계정이 잠깁니다.", "tr": "„E-Mail-Adresse oder Passwort stimmt nicht überein. Nach 5 Fehlversuchen wird das Konto gesperrt.“", "type": "message", "note": "경고 문구 (화면 그대로 인용)"},
-{"ko": "계정이 잠겼습니다. 시스템 관리자에게 문의하세요.", "tr": "„Das Konto wurde gesperrt. Wenden Sie sich an den Systemadministrator.“", "type": "message", "note": "경고 문구 (화면 그대로 인용)"},
-{"ko": "비밀번호가 일치하지 않습니다.", "tr": "„Die Passwörter stimmen nicht überein.“", "type": "message", "note": "입력 검사 문구"},
-{"ko": "재설정 링크가 만료되었습니다. 다시 요청해 주세요.", "tr": "„Der Zurücksetzungslink ist abgelaufen. Bitte fordern Sie einen neuen an.“", "type": "message", "note": "만료 안내 문구"},
-{"ko": "비밀번호가 재설정되었습니다. 새 비밀번호로 로그인해 주세요.", "tr": "„Das Passwort wurde zurückgesetzt. Bitte melden Sie sich mit dem neuen Passwort an.“", "type": "message", "note": "완료 안내 문구"},
-{"ko": "로그아웃 하시겠습니까?", "tr": "„Möchten Sie sich abmelden?“", "type": "message", "note": "확인 창 문구"}
+ {
+  "ko": "브라우저 주소창",
+  "tr": "Browser-Adressleiste",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "로그인 화면",
+  "tr": "Anmeldebildschirm",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "비밀번호 재설정",
+  "tr": "Passwort zurücksetzen",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "재설정 요청 메일",
+  "tr": "Zurücksetzungs-E-Mail",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "새 비밀번호 설정",
+  "tr": "Neues Passwort festlegen",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "플랫폼 홈",
+  "tr": "Plattform-Startseite",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "프로필 메뉴",
+  "tr": "Profilmenü",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "로그아웃 확인",
+  "tr": "Abmeldung bestätigen",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "로그인",
+  "tr": "Anmelden",
+  "type": "button",
+  "note": "버튼 이름. 명사는 Anmeldung"
+ },
+ {
+  "ko": "로그아웃",
+  "tr": "Abmelden",
+  "type": "button",
+  "note": "버튼 이름. 명사는 Abmeldung"
+ },
+ {
+  "ko": "취소",
+  "tr": "Abbrechen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "재설정 링크 발송",
+  "tr": "Zurücksetzungslink senden",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "재설정 완료",
+  "tr": "Zurücksetzung abschließen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "비밀번호를 잊으셨나요?",
+  "tr": "Passwort vergessen?",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "로그인 화면으로",
+  "tr": "Zum Anmeldebildschirm",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "이어서",
+  "tr": "Fortsetzen",
+  "type": "button",
+  "note": "최근 워크스페이스 바로가기. 실제 문구 확인 필요"
+ },
+ {
+  "ko": "새로 고침",
+  "tr": "Aktualisieren",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "검색",
+  "tr": "Suche",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "닫기",
+  "tr": "Schließen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "전체 이력 보기",
+  "tr": "Gesamten Verlauf anzeigen",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "변경",
+  "tr": "Ändern",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "프로필 조회",
+  "tr": "Profil anzeigen",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "비밀번호 변경",
+  "tr": "Passwort ändern",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "전자서명 비밀번호 설정",
+  "tr": "Passwort für die elektronische Signatur festlegen",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "로그인 상태 유지",
+  "tr": "Angemeldet bleiben",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "비밀번호",
+  "tr": "Passwort",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "신규 비밀번호",
+  "tr": "Neues Passwort",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "현재 비밀번호",
+  "tr": "Aktuelles Passwort",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "비밀번호 확인",
+  "tr": "Passwort bestätigen",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "현재 서명 비밀번호",
+  "tr": "Aktuelles Signaturpasswort",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "신규 서명 비밀번호",
+  "tr": "Neues Signaturpasswort",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "이름",
+  "tr": "Name",
+  "type": "field",
+  "note": ""
+ },
+ {
+  "ko": "계정 잠금됨",
+  "tr": "Konto gesperrt",
+  "type": "status",
+  "note": "버튼 상태 문구"
+ },
+ {
+  "ko": "충족",
+  "tr": "erfüllt",
+  "type": "status",
+  "note": "조건 목록 상태"
+ },
+ {
+  "ko": "미충족",
+  "tr": "nicht erfüllt",
+  "type": "status",
+  "note": "조건 목록 상태"
+ },
+ {
+  "ko": "세션",
+  "tr": "Sitzung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "세션 만료",
+  "tr": "Sitzungsablauf",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스",
+  "tr": "Workspace",
+  "type": "term",
+  "note": "독일어 대체어 없이 그대로 씀"
+ },
+ {
+  "ko": "프로젝트",
+  "tr": "Projekt",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "계정",
+  "tr": "Konto",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "프로필",
+  "tr": "Profil",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "시스템 관리자",
+  "tr": "Systemadministrator",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "전자서명",
+  "tr": "elektronische Signatur",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "이중 인증",
+  "tr": "zweistufige Authentifizierung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "인증",
+  "tr": "Authentifizierung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "알림",
+  "tr": "Benachrichtigung",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "인앱",
+  "tr": "In-App",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "잠금",
+  "tr": "Sperre",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "착지 화면",
+  "tr": "Landeseite",
+  "type": "term",
+  "note": "로그인 후 처음 보이는 화면. 독일어에서 흔한 말이 아니라 판단 필요"
+ },
+ {
+  "ko": "배지",
+  "tr": "Badge",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "서명 대기",
+  "tr": "ausstehende Signatur",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "지연 서명",
+  "tr": "verspätete Signatur",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "이메일 또는 비밀번호가 일치하지 않습니다. 5회 실패 시 계정이 잠깁니다.",
+  "tr": "„E-Mail-Adresse oder Passwort stimmt nicht überein. Nach 5 Fehlversuchen wird das Konto gesperrt.“",
+  "type": "message",
+  "note": "경고 문구 (화면 그대로 인용)"
+ },
+ {
+  "ko": "계정이 잠겼습니다. 시스템 관리자에게 문의하세요.",
+  "tr": "„Das Konto wurde gesperrt. Wenden Sie sich an den Systemadministrator.“",
+  "type": "message",
+  "note": "경고 문구 (화면 그대로 인용)"
+ },
+ {
+  "ko": "비밀번호가 일치하지 않습니다.",
+  "tr": "„Die Passwörter stimmen nicht überein.“",
+  "type": "message",
+  "note": "입력 검사 문구"
+ },
+ {
+  "ko": "재설정 링크가 만료되었습니다. 다시 요청해 주세요.",
+  "tr": "„Der Zurücksetzungslink ist abgelaufen. Bitte fordern Sie einen neuen an.“",
+  "type": "message",
+  "note": "만료 안내 문구"
+ },
+ {
+  "ko": "비밀번호가 재설정되었습니다. 새 비밀번호로 로그인해 주세요.",
+  "tr": "„Das Passwort wurde zurückgesetzt. Bitte melden Sie sich mit dem neuen Passwort an.“",
+  "type": "message",
+  "note": "완료 안내 문구"
+ },
+ {
+  "ko": "로그아웃 하시겠습니까?",
+  "tr": "„Möchten Sie sich abmelden?“",
+  "type": "message",
+  "note": "확인 창 문구"
+ },
+ {
+  "ko": "이메일",
+  "tr": "E-Mail",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "비밀번호 입력",
+  "tr": "Passwort eingeben",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "한국어",
+  "tr": "Koreanisch",
+  "type": "button",
+  "note": "image"
+ },
+ {
+  "ko": "프로젝트 선택",
+  "tr": "Projekt auswählen",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "메뉴",
+  "tr": "Menü",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "플랫폼 메뉴",
+  "tr": "Plattformmenü",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "플랫폼 대시보드",
+  "tr": "Plattform-Dashboard",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "기관 관리",
+  "tr": "Institutionsverwaltung",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "워크스페이스 관리",
+  "tr": "Workspace-Verwaltung",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "사용자 관리",
+  "tr": "Benutzerverwaltung",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "시스템 설정",
+  "tr": "Systemeinstellungen",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "코드 관리",
+  "tr": "Codeverwaltung",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "접속 로그",
+  "tr": "Zugriffsprotokoll",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "운영 이력",
+  "tr": "Betriebsverlauf",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "내 메뉴",
+  "tr": "Mein Menü",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "내 프로필",
+  "tr": "Mein Profil",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "전체 워크스페이스",
+  "tr": "Alle Workspaces",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "이어서 최근 진입",
+  "tr": "Zuletzt fortsetzen",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "통합",
+  "tr": "Integriert",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "워크스페이스 · 프로젝트 검색",
+  "tr": "Workspaces · Projekte suchen",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "통합 임상시험 워크스페이스",
+  "tr": "Integrierter Workspace für klinische Studien",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "임상시험 실증용 워크스페이스",
+  "tr": "Demo-Workspace für klinische Studien",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "전체 알림 보기",
+  "tr": "Alle Benachrichtigungen anzeigen",
+  "type": "button",
+  "note": "image"
+ },
+ {
+  "ko": "마스킹 ON",
+  "tr": "Maskierung AN",
+  "type": "status",
+  "note": "image"
+ },
+ {
+  "ko": "워크스페이스 선택",
+  "tr": "Workspace auswählen",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "받은편지함",
+  "tr": "Posteingang",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "나에게",
+  "tr": "An mich",
+  "type": "button",
+  "note": "image"
+ },
+ {
+  "ko": "8자 이상",
+  "tr": "Mindestens 8 Zeichen",
+  "type": "status",
+  "note": "image"
+ },
+ {
+  "ko": "영문 포함",
+  "tr": "Enthält Buchstaben",
+  "type": "status",
+  "note": "image"
+ },
+ {
+  "ko": "숫자 포함",
+  "tr": "Enthält Ziffern",
+  "type": "status",
+  "note": "image"
+ },
+ {
+  "ko": "특수문자 포함",
+  "tr": "Enthält Sonderzeichen",
+  "type": "status",
+  "note": "image"
+ },
+ {
+  "ko": "알림 설정",
+  "tr": "Benachrichtigungseinstellungen",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "만료 29일",
+  "tr": "Noch 29 Tage",
+  "type": "status",
+  "note": "image"
+ }
 ]

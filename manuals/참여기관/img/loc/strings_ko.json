@@ -1,0 +1,982 @@
+[
+{
+"id": "s1_1_1_000",
+"ko": "임상시험 실증용 워크스페…",
+"role": "title",
+"lines": 1,
+"truncated": true
+},
+{
+"id": "s1_1_1_001",
+"ko": "유방암 2상 SGS-ONCO-01",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_002",
+"ko": "운영 중",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_003",
+"ko": "연구 운영",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_004",
+"ko": "대시보드",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_005",
+"ko": "피험자",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_006",
+"ko": "데이터 입력",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_007",
+"ko": "연구 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_008",
+"ko": "CRF 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_009",
+"ko": "AE 지정",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_010",
+"ko": "LAB 정상범위",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_011",
+"ko": "방문 정의",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_012",
+"ko": "설계 버전 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_013",
+"ko": "배정",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_014",
+"ko": "전자서명",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_015",
+"ko": "대시보드 / 프로젝트 설정",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_016",
+"ko": "/ 참여 기관",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_017",
+"ko": "참여 기관 (2)",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_018",
+"ko": "유방암 2상 SGS-ONCO-01 · SGS-ONCO-01",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_019",
+"ko": "현재 프로젝트 상태 \"운영 중\" — 참여 기관 신규 등록은 설정 중 · 테스트 상태에서만 가능합니다",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_020",
+"ko": "목록",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_021",
+"ko": "집계 뷰",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_022",
+"ko": "책임연구자명 검색",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_023",
+"ko": "전체 상태",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_024",
+"ko": "기관 코드",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_025",
+"ko": "기관 명",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_026",
+"ko": "테스트 기관 001",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_027",
+"ko": "테스트 기관 003",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_028",
+"ko": "상태",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_029",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_030",
+"ko": "연구자 수",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_031",
+"ko": "연구자 수 2명",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_032",
+"ko": "등록",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_033",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_034",
+"ko": "연구자 수 0명",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_035",
+"ko": "등록",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_036",
+"ko": "책임연구자",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_037",
+"ko": "김철수",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_038",
+"ko": "이영희",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_039",
+"ko": "IRB 승인일/승인 번호",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_040",
+"ko": "피험자",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_041",
+"ko": "황",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_042",
+"ko": "대시보드 / 프로젝트 설정",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_043",
+"ko": "/ 참여 기관",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_044",
+"ko": "참여 기관 (1)",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_045",
+"ko": "목록",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_046",
+"ko": "집계 뷰",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_047",
+"ko": "책임연구자명 검색",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_048",
+"ko": "전체 상태",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_049",
+"ko": "기관 코드",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_050",
+"ko": "기관 명",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_051",
+"ko": "테스트 기관 001",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_052",
+"ko": "상태",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_053",
+"ko": "연구자 수",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_054",
+"ko": "책임연구자",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_055",
+"ko": "IRB 승인일/승인 번호",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_056",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_057",
+"ko": "연구자 수 3명",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_058",
+"ko": "등록",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_059",
+"ko": "책임자",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_060",
+"ko": "참여 기관 등록",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_061",
+"ko": "피험자",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_062",
+"ko": "참여 기관 목록",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_063",
+"ko": "참여 기관 등록",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_064",
+"ko": "기관",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_065",
+"ko": "기관명·코드·국가 검색",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_066",
+"ko": "국가임상시험지원재단(KONECT)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_067",
+"ko": "서울대학교 환경공학과 (최경호 교수)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_068",
+"ko": "서울대학교",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_069",
+"ko": "기관 등록 요청",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_070",
+"ko": "취소",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_071",
+"ko": "등록",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_072",
+"ko": "기관 등록 요청",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_073",
+"ko": "기관 관리에 등록되지 않은 기관입니다. 시스템 관리자 검토 후 승인되면 알림을 받습 니다.",
+"role": "text",
+"lines": 2,
+"truncated": false
+},
+{
+"id": "s2_2_1_075",
+"ko": "제안 코드 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_076",
+"ko": "예:",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_077",
+"ko": "기관명 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_078",
+"ko": "영문 명칭",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_079",
+"ko": "English name (선택)",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_080",
+"ko": "기관 유형 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_081",
+"ko": "병원",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_082",
+"ko": "국가 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_083",
+"ko": "KR - 대한민국",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_084",
+"ko": "ISO-3166-1 alpha-2 코드 (검색으로 좁혀 선택)",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_085",
+"ko": "요청 사유",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_086",
+"ko": "취소",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_087",
+"ko": "요청 제출",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_088",
+"ko": "참여 기관 목록",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_089",
+"ko": "참여 기관 수정",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_090",
+"ko": "유방암 2상 SGS-ONCO-01 · SGS-ONCO-01",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_091",
+"ko": "참여 기관 등록·수정은 PRJ 상태 = SETUP / TESTING 에서만 가능합니다 (현재: ACTIVE)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_092",
+"ko": "참여 기관 정보",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_093",
+"ko": "테스트 기관 001",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_094",
+"ko": "코드: INST-001",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_095",
+"ko": "기관 정보는 본 화면에서 수정 불가 (기관 관리 화면에서만)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_096",
+"ko": "siteCode * (프로젝트 내 참여 기관 번호) · 피험자 존재 — 변경 불가",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_097",
+"ko": "IRB 승인일 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_098",
+"ko": "상태",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_099",
+"ko": "활성",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_100",
+"ko": "책임연구자명 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_101",
+"ko": "김철수",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_102",
+"ko": "IRB 승인번호",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_103",
+"ko": "(선택) IRB 발급 번호",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_104",
+"ko": "취소",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_3_1_105",
+"ko": "저장",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_106",
+"ko": "대시보드",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_107",
+"ko": "프로젝트 설정",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_108",
+"ko": "참여 기관",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_109",
+"ko": "연구자 배정",
+"role": "breadcrumb",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_110",
+"ko": "연구자 배정",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_111",
+"ko": "유방암 2상 SGS-ONCO-01 · SGS-ONCO-01",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_112",
+"ko": "SITE-01 — 테스트 기관 001",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_113",
+"ko": "PI: 김철수",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_114",
+"ko": "이름",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_115",
+"ko": "이메일",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_116",
+"ko": "역할",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_117",
+"ko": "배정일",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_118",
+"ko": "상태",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_119",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_120",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_121",
+"ko": "변경 이력",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_122",
+"ko": "해제",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_123",
+"ko": "해제",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_124",
+"ko": "연구자 추가",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_126",
+"ko": "연구자 추가",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_127",
+"ko": "WS 멤버 이메일·이름 검색",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_128",
+"ko": "워크스페이스에 할당된 사용자만 검색됩니다. 대상자가 없다면 워크스페이스 사용자 관리 화면에서 먼저 추 가하세요.",
+"role": "text",
+"lines": 2,
+"truncated": false
+},
+{
+"id": "s3_2_1_130",
+"ko": "이유미",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_131",
+"ko": "이승준",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_132",
+"ko": "황민승",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_133",
+"ko": "역할",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_134",
+"ko": "배정 사유 (선택)",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_135",
+"ko": "예: 신규 모니터링 담당",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_136",
+"ko": "취소",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_137",
+"ko": "배정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_138",
+"ko": "역할 권한 요약",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_139",
+"ko": "Site 제한",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_140",
+"ko": "Site 제한",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_141",
+"ko": "Site 제한",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_142",
+"ko": "Site 제한 역할만 배정할 수 있습니다. 1명의 연구자는 프로젝트 내 하나의 Site에만 배정할 수 있습니다 (UNIQUE 제약).",
+"role": "text",
+"lines": 1,
+"truncated": false
+}
+]

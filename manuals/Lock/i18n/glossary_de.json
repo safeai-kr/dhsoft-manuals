@@ -1,560 +1,860 @@
 [
- {
-  "ko": "Lock 상태 조회",
-  "tr": "Lock-Statusübersicht",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Lock 이력",
-  "tr": "Lock-Historie",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Lock 적용",
-  "tr": "Lock anwenden",
-  "type": "button",
-  "note": "버튼·창 이름"
- },
- {
-  "ko": "Lock 해제",
-  "tr": "Lock aufheben",
-  "type": "button",
-  "note": "버튼·창 이름"
- },
- {
-  "ko": "Lock 적용 창",
-  "tr": "Fenster Lock anwenden",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Lock 해제 창",
-  "tr": "Fenster Lock aufheben",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Project Lock 적용",
-  "tr": "Project Lock anwenden",
-  "type": "button",
-  "note": "화면 실제 문구 확인 필요"
- },
- {
-  "ko": "Project Lock 해제",
-  "tr": "Project Lock aufheben",
-  "type": "button",
-  "note": "화면 실제 문구 확인 필요"
- },
- {
-  "ko": "Project Lock 해제 먼저",
-  "tr": "Zuerst Project Lock aufheben",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "Lock 상태 한눈에 보기",
-  "tr": "Lock-Status auf einen Blick",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Lock 유형",
-  "tr": "Sperrtyp",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "잠금 유형",
-  "tr": "Sperrtyp",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "잠금 기준일",
-  "tr": "Sperr-Stichtag",
-  "type": "label",
-  "note": "목록 열"
- },
- {
-  "ko": "기준일",
-  "tr": "Stichtag",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "부분",
-  "tr": "Teilweise",
-  "type": "value",
-  "note": "잠금 범위 배지"
- },
- {
-  "ko": "HARD 가능",
-  "tr": "HARD möglich",
-  "type": "value",
-  "note": "배지"
- },
- {
-  "ko": "HARD_LOCK 가능 (CLEAN)",
-  "tr": "HARD_LOCK möglich (CLEAN)",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "미적용",
-  "tr": "Nicht angewendet",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "활성 Subject Lock 건수",
-  "tr": "Aktive Subject Locks",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "전체 Subject",
-  "tr": "Alle Subjects",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "Subject 상태",
-  "tr": "Subject-Status",
-  "type": "label",
-  "note": "열 이름"
- },
- {
-  "ko": "잠금 범위",
-  "tr": "Sperrumfang",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "사유 구분",
-  "tr": "Begründungskategorie",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상세 메모",
-  "tr": "Detailnotiz",
-  "type": "label",
-  "note": "라벨은 「선택」이지만 실제 필수"
- },
- {
-  "ko": "전자서명",
-  "tr": "elektronische Signatur",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "전자서명으로 진행",
-  "tr": "Mit elektronischer Signatur fortfahren",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "서명 실행",
-  "tr": "Signatur ausführen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "전자서명 비밀번호",
-  "tr": "Passwort für die elektronische Signatur",
-  "type": "label",
-  "note": "로그인 비밀번호와 다름"
- },
- {
-  "ko": "서명 의미와 책임을 이해했습니다",
-  "tr": "Ich habe Bedeutung und Verantwortung der Signatur verstanden",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "서명 목적",
-  "tr": "Zweck der Signatur",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "서명 대상",
-  "tr": "Signaturobjekt",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "서명 의미",
-  "tr": "Bedeutung der Signatur",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "사용자 ID",
-  "tr": "Benutzer-ID",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "이력 조회",
-  "tr": "Historie abrufen",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "이력",
-  "tr": "Historie",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "체인 뷰",
-  "tr": "Kettenansicht",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "테이블",
-  "tr": "Tabelle",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "수행자",
-  "tr": "Ausführende Person",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "작업 종류",
-  "tr": "Vorgangsart",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "기간 시작",
-  "tr": "Zeitraum Beginn",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "기간 종료",
-  "tr": "Zeitraum Ende",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "서명 (열)",
-  "tr": "Signatur",
-  "type": "label",
-  "note": "이력 표 마지막 열"
- },
- {
-  "ko": "시각",
-  "tr": "Zeitpunkt",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "대상 지정",
-  "tr": "Zielauswahl",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "선택 해제",
-  "tr": "Auswahl aufheben",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "선택 N명 일괄 잠금 (FREEZE/SOFT_LOCK)",
-  "tr": "N Probanden auswählen — Sammelsperre (FREEZE/SOFT_LOCK)",
-  "type": "button",
-  "note": "버튼 문구의 N 자리 유지"
- },
- {
-  "ko": "일괄 잠금",
-  "tr": "Sammelsperre",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Patient Profile",
-  "tr": "Patient Profile",
-  "type": "label",
-  "note": "화면 영문 이름 유지 (확인 필요)"
- },
- {
-  "ko": "Lock 변경 내역",
-  "tr": "Lock-Änderungsprotokoll",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Audit Trail 화면",
-  "tr": "Audit-Trail-Seite",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "KST",
-  "tr": "KST",
-  "type": "term",
-  "note": "한국 시간. 원문 표기 유지"
- },
- {
-  "ko": "협정세계시",
-  "tr": "koordinierte Weltzeit (UTC)",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "적용일",
-  "tr": "Anwendungsdatum",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "적용자",
-  "tr": "Angewendet von",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "범위",
-  "tr": "Umfang",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "질의 (Query)",
-  "tr": "Query",
-  "type": "term",
-  "note": "제품 용어 유지"
- },
- {
-  "ko": "재질의",
-  "tr": "Query erneut stellen",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "해제 사유",
-  "tr": "Grund der Aufhebung",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "해제 사유 목록",
-  "tr": "Liste der Aufhebungsgründe",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "영향 안내",
-  "tr": "Hinweis zu den Auswirkungen",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "스크리닝번호",
-  "tr": "Screening-Nummer",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "고유번호",
-  "tr": "eindeutige Nummer",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "기관코드",
-  "tr": "Einrichtungscode",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "품질·규제",
-  "tr": "Qualität · Regulatorik",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "품질 · 규제",
-  "tr": "Qualität · Regulatorik",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Lock 현황",
-  "tr": "Lock-Stand",
-  "type": "label",
-  "note": "대시보드 위젯 이름"
- },
- {
-  "ko": "Lock 관리 →",
-  "tr": "Lock verwalten →",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "데이터 품질",
-  "tr": "Datenqualität",
-  "type": "label",
-  "note": "대시보드 위젯 이름"
- },
- {
-  "ko": "피험자 품질·Lock 목록",
-  "tr": "Probandenliste Qualität · Lock",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "Lock 목록",
-  "tr": "Lock-Liste",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "안내 배너",
-  "tr": "Hinweisband",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Interim Lock",
-  "tr": "Interim Lock",
-  "type": "term",
-  "note": "영문 유지"
- },
- {
-  "ko": "원자료 대조",
-  "tr": "Quelldatenabgleich",
-  "type": "term",
-  "note": "SDV"
- },
- {
-  "ko": "모니터링 검토",
-  "tr": "Monitoring-Prüfung",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "데이터 정리 단계",
-  "tr": "Datenbereinigungsschritt",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "연구 종결",
-  "tr": "Studienabschluss",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "규제 대응",
-  "tr": "regulatorische Reaktion",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "감사 대응",
-  "tr": "Reaktion auf Audit",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "프로토콜 변경",
-  "tr": "Prüfplanänderung",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "Lock 적용 오류 정정",
-  "tr": "Korrektur eines Fehlers bei der Sperre",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "추가 수정 필요",
-  "tr": "weitere Änderung nötig",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "모니터링 종료",
-  "tr": "Monitoring beendet",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "Lock 상세 메모 (3자 이상)",
-  "tr": "Detailnotiz (mindestens 3 Zeichen)",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "다수 피험자 · 대상 1건",
-  "tr": "Mehrere Probanden · 1 Ziel",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "Project 전체 · 대상 7건",
-  "tr": "Gesamtes Projekt · 7 Ziele",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "Project 전체 (하위 Subject 7명 포함)",
-  "tr": "Gesamtes Projekt (inklusive 7 untergeordneter Probanden)",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "기준일 당일 포함",
-  "tr": "einschließlich des Stichtags",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "HARD_LOCK 가능 피험자",
-  "tr": "HARD_LOCK möglich bei Probanden",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "프로젝트 잠금 (Project Lock)",
-  "tr": "Projektsperre",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "Subject Lock",
-  "tr": "Subject Lock",
-  "type": "term",
-  "note": "영문 유지"
- },
- {
-  "ko": "Lock (잠금)",
-  "tr": "Lock",
-  "type": "term",
-  "note": "제품 용어 유지"
- },
- {
-  "ko": "잠금",
-  "tr": "Sperre",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "해제",
-  "tr": "Aufhebung",
-  "type": "term",
-  "note": ""
- }
+  {
+    "ko": "Lock 상태 조회",
+    "tr": "Lock-Statusübersicht",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "Lock 이력",
+    "tr": "Lock-Historie",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "Lock 적용",
+    "tr": "Lock anwenden",
+    "type": "button",
+    "note": "버튼·창 이름"
+  },
+  {
+    "ko": "Lock 해제",
+    "tr": "Lock aufheben",
+    "type": "button",
+    "note": "버튼·창 이름"
+  },
+  {
+    "ko": "Lock 적용 창",
+    "tr": "Fenster Lock anwenden",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Lock 해제 창",
+    "tr": "Fenster Lock aufheben",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Project Lock 적용",
+    "tr": "Project Lock anwenden",
+    "type": "button",
+    "note": "화면 실제 문구 확인 필요"
+  },
+  {
+    "ko": "Project Lock 해제",
+    "tr": "Project Lock aufheben",
+    "type": "button",
+    "note": "화면 실제 문구 확인 필요"
+  },
+  {
+    "ko": "Project Lock 해제 먼저",
+    "tr": "Zuerst Project Lock aufheben",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "Lock 상태 한눈에 보기",
+    "tr": "Lock-Status auf einen Blick",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Lock 유형",
+    "tr": "Sperrtyp",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "잠금 유형",
+    "tr": "Sperrtyp",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "잠금 기준일",
+    "tr": "Sperr-Stichtag",
+    "type": "label",
+    "note": "목록 열"
+  },
+  {
+    "ko": "기준일",
+    "tr": "Stichtag",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "부분",
+    "tr": "Teilweise",
+    "type": "value",
+    "note": "잠금 범위 배지"
+  },
+  {
+    "ko": "HARD 가능",
+    "tr": "HARD möglich",
+    "type": "value",
+    "note": "배지"
+  },
+  {
+    "ko": "HARD_LOCK 가능 (CLEAN)",
+    "tr": "HARD_LOCK möglich (CLEAN)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "미적용",
+    "tr": "Nicht angewendet",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "활성 Subject Lock 건수",
+    "tr": "Aktive Subject Locks",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "전체 Subject",
+    "tr": "Alle Subjects",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Subject 상태",
+    "tr": "Subject-Status",
+    "type": "label",
+    "note": "열 이름"
+  },
+  {
+    "ko": "잠금 범위",
+    "tr": "Sperrumfang",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "사유 구분",
+    "tr": "Begründungskategorie",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "상세 메모",
+    "tr": "Detailnotiz",
+    "type": "label",
+    "note": "라벨은 「선택」이지만 실제 필수"
+  },
+  {
+    "ko": "전자서명",
+    "tr": "elektronische Signatur",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "전자서명으로 진행",
+    "tr": "Mit elektronischer Signatur fortfahren",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "서명 실행",
+    "tr": "Signatur ausführen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "전자서명 비밀번호",
+    "tr": "Passwort für die elektronische Signatur",
+    "type": "label",
+    "note": "로그인 비밀번호와 다름"
+  },
+  {
+    "ko": "서명 의미와 책임을 이해했습니다",
+    "tr": "Ich habe Bedeutung und Verantwortung der Signatur verstanden",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 목적",
+    "tr": "Zweck der Signatur",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 대상",
+    "tr": "Signaturobjekt",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 의미",
+    "tr": "Bedeutung der Signatur",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "사용자 ID",
+    "tr": "Benutzer-ID",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이력 조회",
+    "tr": "Historie abrufen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "이력",
+    "tr": "Historie",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "체인 뷰",
+    "tr": "Kettenansicht",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "테이블",
+    "tr": "Tabelle",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "수행자",
+    "tr": "Ausführende Person",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "작업 종류",
+    "tr": "Vorgangsart",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기간 시작",
+    "tr": "Zeitraum Beginn",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기간 종료",
+    "tr": "Zeitraum Ende",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 (열)",
+    "tr": "Signatur",
+    "type": "label",
+    "note": "이력 표 마지막 열"
+  },
+  {
+    "ko": "시각",
+    "tr": "Zeitpunkt",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "대상 지정",
+    "tr": "Zielauswahl",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "선택 해제",
+    "tr": "Auswahl aufheben",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "선택 N명 일괄 잠금 (FREEZE/SOFT_LOCK)",
+    "tr": "N Probanden auswählen — Sammelsperre (FREEZE/SOFT_LOCK)",
+    "type": "button",
+    "note": "버튼 문구의 N 자리 유지"
+  },
+  {
+    "ko": "일괄 잠금",
+    "tr": "Sammelsperre",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Patient Profile",
+    "tr": "Patient Profile",
+    "type": "label",
+    "note": "화면 영문 이름 유지 (확인 필요)"
+  },
+  {
+    "ko": "Lock 변경 내역",
+    "tr": "Lock-Änderungsprotokoll",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Audit Trail 화면",
+    "tr": "Audit-Trail-Seite",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "KST",
+    "tr": "KST",
+    "type": "term",
+    "note": "한국 시간. 원문 표기 유지"
+  },
+  {
+    "ko": "협정세계시",
+    "tr": "koordinierte Weltzeit (UTC)",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "적용일",
+    "tr": "Anwendungsdatum",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "적용자",
+    "tr": "Angewendet von",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "범위",
+    "tr": "Umfang",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "질의 (Query)",
+    "tr": "Query",
+    "type": "term",
+    "note": "제품 용어 유지"
+  },
+  {
+    "ko": "재질의",
+    "tr": "Query erneut stellen",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "해제 사유",
+    "tr": "Grund der Aufhebung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "해제 사유 목록",
+    "tr": "Liste der Aufhebungsgründe",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "영향 안내",
+    "tr": "Hinweis zu den Auswirkungen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "스크리닝번호",
+    "tr": "Screening-Nummer",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "고유번호",
+    "tr": "eindeutige Nummer",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "기관코드",
+    "tr": "Einrichtungscode",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "품질·규제",
+    "tr": "Qualität · Regulatorik",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "품질 · 규제",
+    "tr": "Qualität · Regulatorik",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "Lock 현황",
+    "tr": "Lock-Stand",
+    "type": "label",
+    "note": "대시보드 위젯 이름"
+  },
+  {
+    "ko": "Lock 관리 →",
+    "tr": "Lock verwalten →",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "데이터 품질",
+    "tr": "Datenqualität",
+    "type": "label",
+    "note": "대시보드 위젯 이름"
+  },
+  {
+    "ko": "피험자 품질·Lock 목록",
+    "tr": "Probandenliste Qualität · Lock",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "Lock 목록",
+    "tr": "Lock-Liste",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "안내 배너",
+    "tr": "Hinweisband",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Interim Lock",
+    "tr": "Interim Lock",
+    "type": "term",
+    "note": "영문 유지"
+  },
+  {
+    "ko": "원자료 대조",
+    "tr": "Quelldatenabgleich",
+    "type": "term",
+    "note": "SDV"
+  },
+  {
+    "ko": "모니터링 검토",
+    "tr": "Monitoring-Prüfung",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "데이터 정리 단계",
+    "tr": "Datenbereinigungsschritt",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "연구 종결",
+    "tr": "Studienabschluss",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "규제 대응",
+    "tr": "regulatorische Reaktion",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "감사 대응",
+    "tr": "Reaktion auf Audit",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "프로토콜 변경",
+    "tr": "Prüfplanänderung",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "Lock 적용 오류 정정",
+    "tr": "Korrektur eines Fehlers bei der Sperre",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "추가 수정 필요",
+    "tr": "weitere Änderung nötig",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "모니터링 종료",
+    "tr": "Monitoring beendet",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "Lock 상세 메모 (3자 이상)",
+    "tr": "Detailnotiz (mindestens 3 Zeichen)",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "다수 피험자 · 대상 1건",
+    "tr": "Mehrere Probanden · 1 Ziel",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "Project 전체 · 대상 7건",
+    "tr": "Gesamtes Projekt · 7 Ziele",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "Project 전체 (하위 Subject 7명 포함)",
+    "tr": "Gesamtes Projekt (inklusive 7 untergeordneter Probanden)",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "기준일 당일 포함",
+    "tr": "einschließlich des Stichtags",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "HARD_LOCK 가능 피험자",
+    "tr": "HARD_LOCK möglich bei Probanden",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 잠금 (Project Lock)",
+    "tr": "Projektsperre",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Subject Lock",
+    "tr": "Subject Lock",
+    "type": "term",
+    "note": "영문 유지"
+  },
+  {
+    "ko": "Lock (잠금)",
+    "tr": "Lock",
+    "type": "term",
+    "note": "제품 용어 유지"
+  },
+  {
+    "ko": "잠금",
+    "tr": "Sperre",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "해제",
+    "tr": "Aufhebung",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "테스트 메뉴",
+    "tr": "Testmenü",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "Studienbetrieb",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "Dashboard",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "Proband",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 입력",
+    "tr": "Dateneingabe",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "Studienverwaltung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF-Verwaltung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE-Festlegung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB-Normbereich",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "Besuchsdefinition",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "Verwaltung der Designversionen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "배정",
+    "tr": "Zuteilung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "PROJECT LOCK 상태",
+    "tr": "PROJECT-LOCK-Status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "활성 Subject Lock 0건",
+    "tr": "0 aktive Subject Locks",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "전체",
+    "tr": "Gesamt",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "품질",
+    "tr": "Qualität",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "검색",
+    "tr": "Suchen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "액션",
+    "tr": "Aktion",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "Site 범위",
+    "tr": "Site-Umfang",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Lock 상태",
+    "tr": "Lock-Status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "SUBJECT 상태",
+    "tr": "SUBJECT-Status",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "전체 SUBJECT",
+    "tr": "Alle SUBJECTs",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "활성 Subject Lock 2건",
+    "tr": "2 aktive Subject Locks",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "3건",
+    "tr": "3 Einträge",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "대상",
+    "tr": "Ziel",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "선택 1명 일괄",
+    "tr": "Sammelsperre: 1 ausgewählt",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "① Lock 유형 *",
+    "tr": "① Sperrtyp *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "FREEZE — 검토 중 임시 잠금",
+    "tr": "FREEZE — vorübergehende Sperre während der Prüfung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "SOFT_LOCK — 데이터 정리 단계",
+    "tr": "SOFT_LOCK — Datenbereinigungsschritt",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "② 사유 구분 *",
+    "tr": "② Begründungskategorie *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상세 메모 (선택, 감사 추적)",
+    "tr": "Detailnotiz (optional, Audit Trail)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "soft lock 적용",
+    "tr": "Soft lock anwenden",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "특정 기준일까지의 데이터만 잠금",
+    "tr": "Nur Daten bis zu einem Stichtag sperren",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "취소",
+    "tr": "Abbrechen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명 수행",
+    "tr": "Elektronische Signatur ausführen",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 잠금 적용",
+    "tr": "Datensperre anwenden",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "SOFT_LOCK 일괄 적용",
+    "tr": "SOFT_LOCK-Sammelanwendung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "서명 의미 (meaningCode)",
+    "tr": "Bedeutung der Signatur (meaningCode)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "승인자 확인 (APPROVAL) (정책 고정)",
+    "tr": "Bestätigung durch die genehmigende Person (APPROVAL) (durch Richtlinie festgelegt)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명 비밀번호 *",
+    "tr": "Passwort für die elektronische Signatur *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "서명 의미와 책임을 이해했습니다.",
+    "tr": "Ich habe Bedeutung und Verantwortung der Signatur verstanden.",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "해제 사유 *",
+    "tr": "Grund der Aufhebung *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상세 메모 * (5자 이상)",
+    "tr": "Detailnotiz * (mindestens 5 Zeichen)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드 /",
+    "tr": "Dashboard /",
+    "type": "breadcrumb",
+    "note": "image"
+  },
+  {
+    "ko": "/ Lock 이력",
+    "tr": "/ Lock-Historie",
+    "type": "breadcrumb",
+    "note": "image"
+  },
+  {
+    "ko": "표시 2건 / 전체 2건",
+    "tr": "Angezeigt 2 / Gesamt 2",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "기간 (from)",
+    "tr": "Zeitraum (von)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기간 (to)",
+    "tr": "Zeitraum (bis)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "적용",
+    "tr": "Anwenden",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "잠금 기준시점",
+    "tr": "Sperr-Zeitpunkt",
+    "type": "header",
+    "note": "image"
+  }
 ]

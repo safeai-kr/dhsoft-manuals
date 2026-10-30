@@ -1,0 +1,3995 @@
+{
+ "lang": "de",
+ "method": "한국어 글자 자리를 바탕색으로 덮고 번역어를 Pretendard(일본어 Pretendard JP)로 다시 그림. 생성형 AI 사용 안 함",
+ "files": {
+  "s1_1_1.png": {
+   "replaced": 42,
+   "segments": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "임상시험 실증용 워크스페…",
+     "tr": "Demo-Arbeitsbereich für klinische Studien…",
+     "box_px_orig": [
+      182.0,
+      2.0,
+      134.0,
+      11.0
+     ],
+     "font_px": 13.4,
+     "scale": 0.561,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "유방암 2상 SGS-ONCO-01",
+     "tr": "Brustkrebs Phase 2 SGS-ONCO-01",
+     "box_px_orig": [
+      181.5,
+      19.0,
+      163.0,
+      13.5
+     ],
+     "font_px": 23.6,
+     "scale": 0.819,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "운영 중",
+     "tr": "Im Betrieb",
+     "box_px_orig": [
+      403.0,
+      8.5,
+      45.5,
+      19.0
+     ],
+     "font_px": 20,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_003",
+     "ko": "연구 운영",
+     "tr": "Studienbetrieb",
+     "box_px_orig": [
+      15.0,
+      108.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004",
+     "ko": "대시보드",
+     "tr": "Dashboard",
+     "box_px_orig": [
+      39.5,
+      142.0,
+      51.0,
+      13.0
+     ],
+     "font_px": 28.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "피험자",
+     "tr": "Probanden",
+     "box_px_orig": [
+      39.0,
+      176.0,
+      39.0,
+      13.0
+     ],
+     "font_px": 29.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "데이터 입력",
+     "tr": "Dateneingabe",
+     "box_px_orig": [
+      39.5,
+      210.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "연구 관리",
+     "tr": "Studienverwaltung",
+     "box_px_orig": [
+      15.0,
+      246.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "CRF 관리",
+     "tr": "CRF-Verwaltung",
+     "box_px_orig": [
+      39.0,
+      280.0,
+      55.5,
+      13.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_009",
+     "ko": "AE 지정",
+     "tr": "AE-Festlegung",
+     "box_px_orig": [
+      39.0,
+      314.0,
+      46.0,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "LAB 정상범위",
+     "tr": "LAB-Normalbereich",
+     "box_px_orig": [
+      40.0,
+      348.0,
+      79.0,
+      13.0
+     ],
+     "font_px": 17.6,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "방문 정의",
+     "tr": "Besuchsdefinition",
+     "box_px_orig": [
+      39.5,
+      382.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "설계 버전 관리",
+     "tr": "Verwaltung der Designversionen",
+     "box_px_orig": [
+      39.5,
+      416.0,
+      82.5,
+      13.0
+     ],
+     "font_px": 12.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "배정",
+     "tr": "Zuweisung",
+     "box_px_orig": [
+      39.5,
+      450.0,
+      24.5,
+      13.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_014",
+     "ko": "전자서명",
+     "tr": "elektronische Signatur",
+     "box_px_orig": [
+      39.5,
+      484.0,
+      50.0,
+      13.0
+     ],
+     "font_px": 28.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_015",
+     "ko": "대시보드 / 프로젝트 설정",
+     "tr": "Dashboard / Projekteinstellungen",
+     "box_px_orig": [
+      247.5,
+      76.0,
+      134.0,
+      11.5
+     ],
+     "font_px": 18.7,
+     "scale": 0.703,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_016",
+     "ko": "/ 참여 기관",
+     "tr": "/ Teilnehmende Einrichtungen",
+     "box_px_orig": [
+      390.5,
+      75.5,
+      60.5,
+      12.0
+     ],
+     "font_px": 27,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_017",
+     "ko": "참여 기관 (2)",
+     "tr": "Teilnehmende Einrichtungen (2)",
+     "box_px_orig": [
+      275.5,
+      109.5,
+      107.5,
+      20.0
+     ],
+     "font_px": 39.2,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_018",
+     "ko": "유방암 2상 SGS-ONCO-01 · SGS-ONCO-01",
+     "tr": "Brustkrebs Phase 2 SGS-ONCO-01 · SGS-ONCO-01",
+     "box_px_orig": [
+      247.0,
+      140.0,
+      228.0,
+      11.0
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_019",
+     "ko": "현재 프로젝트 상태 \"운영 중\" — 참여 기관 신규 등록은 설정 중 · 테스트 상태에서만 가능합니다",
+     "tr": "Projektstatus „Im Betrieb“ — Neue teilnehmende Einrichtungen lassen sich nur im Status In Einrichtung oder Test registrieren.",
+     "box_px_orig": [
+      274.0,
+      180.5,
+      464.0,
+      12.0
+     ],
+     "font_px": 26,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_020",
+     "ko": "목록",
+     "tr": "Liste",
+     "box_px_orig": [
+      259.5,
+      231.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_021",
+     "ko": "집계 뷰",
+     "tr": "Übersichtsansicht",
+     "box_px_orig": [
+      313.0,
+      231.0,
+      42.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_022",
+     "ko": "책임연구자명 검색",
+     "tr": "Nach Name des verantwortlichen Prüfers suchen",
+     "box_px_orig": [
+      273.5,
+      298.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 13.7,
+     "scale": 0.481,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_023",
+     "ko": "전체 상태",
+     "tr": "Alle Status",
+     "box_px_orig": [
+      461.5,
+      298.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_024",
+     "ko": "기관 코드",
+     "tr": "Einrichtungscode",
+     "box_px_orig": [
+      260.5,
+      363.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 20.9,
+     "scale": 0.86,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_025",
+     "ko": "기관 명",
+     "tr": "Einrichtungsname",
+     "box_px_orig": [
+      382.5,
+      363.0,
+      34.5,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_026",
+     "ko": "테스트 기관 001",
+     "tr": "Test-Einrichtung 001",
+     "box_px_orig": [
+      400.5,
+      397.0,
+      94.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_027",
+     "ko": "테스트 기관 003",
+     "tr": "Test-Einrichtung 003",
+     "box_px_orig": [
+      400.5,
+      452.0,
+      98.0,
+      13.5
+     ],
+     "font_px": 20.7,
+     "scale": 0.702,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_028",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      637.5,
+      363.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_029",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      631.0,
+      405.0,
+      31.5,
+      18.0
+     ],
+     "font_px": 28.2,
+     "scale": 0.721,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_030",
+     "ko": "연구자 수",
+     "tr": "Anzahl Forschungspersonal",
+     "box_px_orig": [
+      806.0,
+      363.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 16.6,
+     "scale": 0.68,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_031",
+     "ko": "연구자 수 2명",
+     "tr": "2 Forschungspersonen",
+     "box_px_orig": [
+      760.0,
+      405.0,
+      97.0,
+      13.5
+     ],
+     "font_px": 19.5,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_032",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      864.0,
+      401.0,
+      34.0,
+      22.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_033",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      628.5,
+      460.0,
+      34.0,
+      18.0
+     ],
+     "font_px": 30,
+     "scale": 0.739,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_034",
+     "ko": "연구자 수 0명",
+     "tr": "0 Forschungspersonen",
+     "box_px_orig": [
+      760.0,
+      460.0,
+      97.0,
+      13.5
+     ],
+     "font_px": 19.5,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_035",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      864.0,
+      456.0,
+      34.0,
+      22.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_036",
+     "ko": "책임연구자",
+     "tr": "Verantwortlicher Prüfer",
+     "box_px_orig": [
+      974.0,
+      363.0,
+      55.5,
+      11.0
+     ],
+     "font_px": 17.3,
+     "scale": 0.7,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_037",
+     "ko": "김철수",
+     "tr": "Cheolsu Kim",
+     "box_px_orig": [
+      974.5,
+      406.0,
+      38.0,
+      13.5
+     ],
+     "font_px": 29.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_038",
+     "ko": "이영희",
+     "tr": "Younghee Lee",
+     "box_px_orig": [
+      974.5,
+      461.0,
+      37.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_039",
+     "ko": "IRB 승인일/승인 번호",
+     "tr": "IRB-Genehmigungsdatum / Genehmigungsnummer",
+     "box_px_orig": [
+      1104.0,
+      363.0,
+      109.0,
+      11.5
+     ],
+     "font_px": 19,
+     "scale": 0.76,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_040",
+     "ko": "피험자",
+     "tr": "Probanden",
+     "box_px_orig": [
+      1437.0,
+      362.5,
+      34.0,
+      11.5
+     ],
+     "font_px": 25.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "황",
+     "tr": "Hwang",
+     "box_px_orig": [
+      1578.0,
+      11.0,
+      12.5,
+      13.5
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "임상시험 실증용 워크스페…",
+     "tr": "Demo-Arbeitsbereich für klinische Studien…",
+     "box_px_orig": [
+      182.0,
+      2.0,
+      134.0,
+      11.0
+     ],
+     "font_px": 13.4,
+     "scale": 0.561,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "유방암 2상 SGS-ONCO-01",
+     "tr": "Brustkrebs Phase 2 SGS-ONCO-01",
+     "box_px_orig": [
+      181.5,
+      19.0,
+      163.0,
+      13.5
+     ],
+     "font_px": 23.6,
+     "scale": 0.819,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "운영 중",
+     "tr": "Im Betrieb",
+     "box_px_orig": [
+      403.0,
+      8.5,
+      45.5,
+      19.0
+     ],
+     "font_px": 20,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "CRF 관리",
+     "tr": "CRF-Verwaltung",
+     "box_px_orig": [
+      39.0,
+      280.0,
+      55.5,
+      13.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "LAB 정상범위",
+     "tr": "LAB-Normalbereich",
+     "box_px_orig": [
+      40.0,
+      348.0,
+      79.0,
+      13.0
+     ],
+     "font_px": 17.6,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "설계 버전 관리",
+     "tr": "Verwaltung der Designversionen",
+     "box_px_orig": [
+      39.5,
+      416.0,
+      82.5,
+      13.0
+     ],
+     "font_px": 12.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_015",
+     "ko": "대시보드 / 프로젝트 설정",
+     "tr": "Dashboard / Projekteinstellungen",
+     "box_px_orig": [
+      247.5,
+      76.0,
+      134.0,
+      11.5
+     ],
+     "font_px": 18.7,
+     "scale": 0.703,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_022",
+     "ko": "책임연구자명 검색",
+     "tr": "Nach Name des verantwortlichen Prüfers suchen",
+     "box_px_orig": [
+      273.5,
+      298.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 13.7,
+     "scale": 0.481,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_027",
+     "ko": "테스트 기관 003",
+     "tr": "Test-Einrichtung 003",
+     "box_px_orig": [
+      400.5,
+      452.0,
+      98.0,
+      13.5
+     ],
+     "font_px": 20.7,
+     "scale": 0.702,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_029",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      631.0,
+      405.0,
+      31.5,
+      18.0
+     ],
+     "font_px": 28.2,
+     "scale": 0.721,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_030",
+     "ko": "연구자 수",
+     "tr": "Anzahl Forschungspersonal",
+     "box_px_orig": [
+      806.0,
+      363.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 16.6,
+     "scale": 0.68,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_031",
+     "ko": "연구자 수 2명",
+     "tr": "2 Forschungspersonen",
+     "box_px_orig": [
+      760.0,
+      405.0,
+      97.0,
+      13.5
+     ],
+     "font_px": 19.5,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_032",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      864.0,
+      401.0,
+      34.0,
+      22.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_033",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      628.5,
+      460.0,
+      34.0,
+      18.0
+     ],
+     "font_px": 30,
+     "scale": 0.739,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_034",
+     "ko": "연구자 수 0명",
+     "tr": "0 Forschungspersonen",
+     "box_px_orig": [
+      760.0,
+      460.0,
+      97.0,
+      13.5
+     ],
+     "font_px": 19.5,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_035",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      864.0,
+      456.0,
+      34.0,
+      22.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_036",
+     "ko": "책임연구자",
+     "tr": "Verantwortlicher Prüfer",
+     "box_px_orig": [
+      974.0,
+      363.0,
+      55.5,
+      11.0
+     ],
+     "font_px": 17.3,
+     "scale": 0.7,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_039",
+     "ko": "IRB 승인일/승인 번호",
+     "tr": "IRB-Genehmigungsdatum / Genehmigungsnummer",
+     "box_px_orig": [
+      1104.0,
+      363.0,
+      109.0,
+      11.5
+     ],
+     "font_px": 19,
+     "scale": 0.76,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "황",
+     "tr": "Hwang",
+     "box_px_orig": [
+      1578.0,
+      11.0,
+      12.5,
+      13.5
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s1_2_1.png": {
+   "replaced": 20,
+   "segments": [
+    {
+     "id": "s1_2_1_042",
+     "ko": "대시보드 / 프로젝트 설정",
+     "tr": "Dashboard / Projekteinstellungen",
+     "box_px_orig": [
+      15.5,
+      17.0,
+      134.0,
+      11.5
+     ],
+     "font_px": 18.7,
+     "scale": 0.703,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_043",
+     "ko": "/ 참여 기관",
+     "tr": "/ Teilnehmende Einrichtungen",
+     "box_px_orig": [
+      158.5,
+      16.5,
+      60.5,
+      12.0
+     ],
+     "font_px": 27,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_044",
+     "ko": "참여 기관 (1)",
+     "tr": "Teilnehmende Einrichtungen (1)",
+     "box_px_orig": [
+      43.5,
+      50.5,
+      103.5,
+      20.0
+     ],
+     "font_px": 38.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_045",
+     "ko": "목록",
+     "tr": "Liste",
+     "box_px_orig": [
+      27.5,
+      122.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_046",
+     "ko": "집계 뷰",
+     "tr": "Übersichtsansicht",
+     "box_px_orig": [
+      81.0,
+      122.0,
+      42.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_047",
+     "ko": "책임연구자명 검색",
+     "tr": "Nach Name des verantwortlichen Prüfers suchen",
+     "box_px_orig": [
+      41.5,
+      189.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 13.7,
+     "scale": 0.481,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_048",
+     "ko": "전체 상태",
+     "tr": "Alle Status",
+     "box_px_orig": [
+      229.5,
+      189.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_049",
+     "ko": "기관 코드",
+     "tr": "Einrichtungscode",
+     "box_px_orig": [
+      28.5,
+      254.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 23.4,
+     "scale": 0.963,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_050",
+     "ko": "기관 명",
+     "tr": "Einrichtungsname",
+     "box_px_orig": [
+      171.5,
+      254.0,
+      35.0,
+      11.0
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_051",
+     "ko": "테스트 기관 001",
+     "tr": "Test-Einrichtung 001",
+     "box_px_orig": [
+      189.5,
+      288.0,
+      95.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_052",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      441.5,
+      254.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_053",
+     "ko": "연구자 수",
+     "tr": "Anzahl Forschungspersonal",
+     "box_px_orig": [
+      622.5,
+      254.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.721,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_054",
+     "ko": "책임연구자",
+     "tr": "Verantwortlicher Prüfer",
+     "box_px_orig": [
+      800.5,
+      254.0,
+      55.5,
+      11.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.721,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_055",
+     "ko": "IRB 승인일/승인 번호",
+     "tr": "IRB-Genehmigungsdatum / Genehmigungsnummer",
+     "box_px_orig": [
+      939.5,
+      254.0,
+      109.0,
+      11.5
+     ],
+     "font_px": 15.5,
+     "scale": 0.62,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_056",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      443.0,
+      299.5,
+      19.0,
+      10.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.899,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_057",
+     "ko": "연구자 수 3명",
+     "tr": "3 Forschungspersonen",
+     "box_px_orig": [
+      577.0,
+      296.0,
+      97.0,
+      13.5
+     ],
+     "font_px": 18.9,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_058",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      688.0,
+      296.5,
+      20.0,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_059",
+     "ko": "책임자",
+     "tr": "Verantwortliche Person",
+     "box_px_orig": [
+      800.5,
+      297.0,
+      38.5,
+      13.5
+     ],
+     "font_px": 24.8,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_060",
+     "ko": "참여 기관 등록",
+     "tr": "Teilnehmende Einrichtung registrieren",
+     "box_px_orig": [
+      1284.0,
+      72.5,
+      72.5,
+      12.0
+     ],
+     "font_px": 11.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_061",
+     "ko": "피험자",
+     "tr": "Probanden",
+     "box_px_orig": [
+      1195.0,
+      253.5,
+      33.5,
+      11.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_2_1_042",
+     "ko": "대시보드 / 프로젝트 설정",
+     "tr": "Dashboard / Projekteinstellungen",
+     "box_px_orig": [
+      15.5,
+      17.0,
+      134.0,
+      11.5
+     ],
+     "font_px": 18.7,
+     "scale": 0.703,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_047",
+     "ko": "책임연구자명 검색",
+     "tr": "Nach Name des verantwortlichen Prüfers suchen",
+     "box_px_orig": [
+      41.5,
+      189.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 13.7,
+     "scale": 0.481,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_053",
+     "ko": "연구자 수",
+     "tr": "Anzahl Forschungspersonal",
+     "box_px_orig": [
+      622.5,
+      254.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.721,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_054",
+     "ko": "책임연구자",
+     "tr": "Verantwortlicher Prüfer",
+     "box_px_orig": [
+      800.5,
+      254.0,
+      55.5,
+      11.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.721,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_055",
+     "ko": "IRB 승인일/승인 번호",
+     "tr": "IRB-Genehmigungsdatum / Genehmigungsnummer",
+     "box_px_orig": [
+      939.5,
+      254.0,
+      109.0,
+      11.5
+     ],
+     "font_px": 15.5,
+     "scale": 0.62,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_057",
+     "ko": "연구자 수 3명",
+     "tr": "3 Forschungspersonen",
+     "box_px_orig": [
+      577.0,
+      296.0,
+      97.0,
+      13.5
+     ],
+     "font_px": 18.9,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_058",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      688.0,
+      296.5,
+      20.0,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_059",
+     "ko": "책임자",
+     "tr": "Verantwortliche Person",
+     "box_px_orig": [
+      800.5,
+      297.0,
+      38.5,
+      13.5
+     ],
+     "font_px": 24.8,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_060",
+     "ko": "참여 기관 등록",
+     "tr": "Teilnehmende Einrichtung registrieren",
+     "box_px_orig": [
+      1284.0,
+      72.5,
+      72.5,
+      12.0
+     ],
+     "font_px": 11.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s2_1_1.png": {
+   "replaced": 10,
+   "segments": [
+    {
+     "id": "s2_1_1_062",
+     "ko": "참여 기관 목록",
+     "tr": "Liste der teilnehmenden Einrichtungen",
+     "box_px_orig": [
+      28.0,
+      15.0,
+      72.5,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_063",
+     "ko": "참여 기관 등록",
+     "tr": "Teilnehmende Einrichtung registrieren",
+     "box_px_orig": [
+      12.5,
+      48.5,
+      119.0,
+      20.0
+     ],
+     "font_px": 18.7,
+     "scale": 0.44,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_064",
+     "ko": "기관",
+     "tr": "Einrichtung",
+     "box_px_orig": [
+      37.0,
+      141.0,
+      29.5,
+      16.0
+     ],
+     "font_px": 34.2,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_065",
+     "ko": "기관명·코드·국가 검색",
+     "tr": "Nach Einrichtungsname, Code oder Land suchen",
+     "box_px_orig": [
+      74.5,
+      201.0,
+      123.5,
+      13.0
+     ],
+     "font_px": 12.5,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_066",
+     "ko": "국가임상시험지원재단(KONECT)",
+     "tr": "Korea National Enterprise for Clinical Trials (KoNECT)",
+     "box_px_orig": [
+      50.0,
+      249.5,
+      193.5,
+      14.5
+     ],
+     "font_px": 28.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_067",
+     "ko": "서울대학교 환경공학과 (최경호 교수)",
+     "tr": "Seoul National University, Fachbereich Umweltingenieurwesen (Prof. Kyungho Choi)",
+     "box_px_orig": [
+      50.0,
+      360.5,
+      211.5,
+      14.5
+     ],
+     "font_px": 28.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_068",
+     "ko": "서울대학교",
+     "tr": "Seoul National University",
+     "box_px_orig": [
+      45.0,
+      416.5,
+      73.5,
+      13.5
+     ],
+     "font_px": 14.3,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_069",
+     "ko": "기관 등록 요청",
+     "tr": "Registrierung einer Einrichtung beantragen",
+     "box_px_orig": [
+      1255.5,
+      143.5,
+      71.0,
+      12.0
+     ],
+     "font_px": 11.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_070",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      1288.0,
+      494.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 15.2,
+     "scale": 0.618,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_071",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      1343.0,
+      494.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 11.1,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_1_1_063",
+     "ko": "참여 기관 등록",
+     "tr": "Teilnehmende Einrichtung registrieren",
+     "box_px_orig": [
+      12.5,
+      48.5,
+      119.0,
+      20.0
+     ],
+     "font_px": 18.7,
+     "scale": 0.44,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_065",
+     "ko": "기관명·코드·국가 검색",
+     "tr": "Nach Einrichtungsname, Code oder Land suchen",
+     "box_px_orig": [
+      74.5,
+      201.0,
+      123.5,
+      13.0
+     ],
+     "font_px": 12.5,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_068",
+     "ko": "서울대학교",
+     "tr": "Seoul National University",
+     "box_px_orig": [
+      45.0,
+      416.5,
+      73.5,
+      13.5
+     ],
+     "font_px": 14.3,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_069",
+     "ko": "기관 등록 요청",
+     "tr": "Registrierung einer Einrichtung beantragen",
+     "box_px_orig": [
+      1255.5,
+      143.5,
+      71.0,
+      12.0
+     ],
+     "font_px": 11.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_070",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      1288.0,
+      494.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 15.2,
+     "scale": 0.618,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_071",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      1343.0,
+      494.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 11.1,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s2_2_1.png": {
+   "replaced": 15,
+   "segments": [
+    {
+     "id": "s2_2_1_072",
+     "ko": "기관 등록 요청",
+     "tr": "Registrierung einer Einrichtung beantragen",
+     "box_px_orig": [
+      22.0,
+      26.0,
+      82.5,
+      13.5
+     ],
+     "font_px": 28.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_073",
+     "ko": "기관 관리에 등록되지 않은 기관입니다. 시스템 관리자 검토 후 승인되면 알림을 받습 니다.",
+     "tr": "Diese Einrichtung ist in der Einrichtungsverwaltung nicht registriert. Nach Prüfung durch den Systemadministrator und Genehmigung erhalten Sie eine Benachrichtigung.",
+     "box_px_orig": [
+      22.0,
+      76.0,
+      410.0,
+      11.0
+     ],
+     "font_px": 21.7,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_075",
+     "ko": "제안 코드 *",
+     "tr": "Vorgeschlagener Code *",
+     "box_px_orig": [
+      21.5,
+      121.0,
+      71.0,
+      20.5
+     ],
+     "font_px": 15,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_076",
+     "ko": "예:",
+     "tr": "z. B.:",
+     "box_px_orig": [
+      35.0,
+      149.0,
+      18.0,
+      13.0
+     ],
+     "font_px": 21.4,
+     "scale": 0.682,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_077",
+     "ko": "기관명 *",
+     "tr": "Einrichtungsname *",
+     "box_px_orig": [
+      22.0,
+      189.0,
+      54.5,
+      20.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_078",
+     "ko": "영문 명칭",
+     "tr": "Englische Bezeichnung",
+     "box_px_orig": [
+      22.0,
+      257.0,
+      57.0,
+      19.0
+     ],
+     "font_px": 14.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_079",
+     "ko": "English name (선택)",
+     "tr": "Englische Bezeichnung (optional)",
+     "box_px_orig": [
+      35.5,
+      285.0,
+      121.5,
+      14.5
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_080",
+     "ko": "기관 유형 *",
+     "tr": "Einrichtungstyp *",
+     "box_px_orig": [
+      22.0,
+      325.0,
+      70.5,
+      20.0
+     ],
+     "font_px": 17.7,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_081",
+     "ko": "병원",
+     "tr": "Krankenhaus",
+     "box_px_orig": [
+      39.5,
+      353.0,
+      23.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_082",
+     "ko": "국가 *",
+     "tr": "Land *",
+     "box_px_orig": [
+      22.0,
+      393.0,
+      41.5,
+      19.5
+     ],
+     "font_px": 28,
+     "scale": 0.761,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_083",
+     "ko": "KR - 대한민국",
+     "tr": "KR - Südkorea",
+     "box_px_orig": [
+      35.0,
+      422.0,
+      70.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_084",
+     "ko": "ISO-3166-1 alpha-2 코드 (검색으로 좁혀 선택)",
+     "tr": "ISO-3166-1-Alpha-2-Code (durch Suche eingrenzen und auswählen)",
+     "box_px_orig": [
+      22.0,
+      452.0,
+      214.5,
+      11.0
+     ],
+     "font_px": 21.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_085",
+     "ko": "요청 사유",
+     "tr": "Begründung des Antrags",
+     "box_px_orig": [
+      22.0,
+      481.0,
+      57.0,
+      19.5
+     ],
+     "font_px": 14.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_086",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      325.5,
+      614.5,
+      21.5,
+      11.5
+     ],
+     "font_px": 14.1,
+     "scale": 0.56,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_087",
+     "ko": "요청 제출",
+     "tr": "Antrag absenden",
+     "box_px_orig": [
+      380.5,
+      615.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.638,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_1_075",
+     "ko": "제안 코드 *",
+     "tr": "Vorgeschlagener Code *",
+     "box_px_orig": [
+      21.5,
+      121.0,
+      71.0,
+      20.5
+     ],
+     "font_px": 15,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_076",
+     "ko": "예:",
+     "tr": "z. B.:",
+     "box_px_orig": [
+      35.0,
+      149.0,
+      18.0,
+      13.0
+     ],
+     "font_px": 21.4,
+     "scale": 0.682,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_077",
+     "ko": "기관명 *",
+     "tr": "Einrichtungsname *",
+     "box_px_orig": [
+      22.0,
+      189.0,
+      54.5,
+      20.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_078",
+     "ko": "영문 명칭",
+     "tr": "Englische Bezeichnung",
+     "box_px_orig": [
+      22.0,
+      257.0,
+      57.0,
+      19.0
+     ],
+     "font_px": 14.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_080",
+     "ko": "기관 유형 *",
+     "tr": "Einrichtungstyp *",
+     "box_px_orig": [
+      22.0,
+      325.0,
+      70.5,
+      20.0
+     ],
+     "font_px": 17.7,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_081",
+     "ko": "병원",
+     "tr": "Krankenhaus",
+     "box_px_orig": [
+      39.5,
+      353.0,
+      23.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_082",
+     "ko": "국가 *",
+     "tr": "Land *",
+     "box_px_orig": [
+      22.0,
+      393.0,
+      41.5,
+      19.5
+     ],
+     "font_px": 28,
+     "scale": 0.761,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_085",
+     "ko": "요청 사유",
+     "tr": "Begründung des Antrags",
+     "box_px_orig": [
+      22.0,
+      481.0,
+      57.0,
+      19.5
+     ],
+     "font_px": 14.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_086",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      325.5,
+      614.5,
+      21.5,
+      11.5
+     ],
+     "font_px": 14.1,
+     "scale": 0.56,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_087",
+     "ko": "요청 제출",
+     "tr": "Antrag absenden",
+     "box_px_orig": [
+      380.5,
+      615.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.638,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s2_3_1.png": {
+   "replaced": 18,
+   "segments": [
+    {
+     "id": "s2_3_1_088",
+     "ko": "참여 기관 목록",
+     "tr": "Liste der teilnehmenden Einrichtungen",
+     "box_px_orig": [
+      28.0,
+      13.0,
+      72.5,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_089",
+     "ko": "참여 기관 수정",
+     "tr": "Teilnehmende Einrichtung bearbeiten",
+     "box_px_orig": [
+      12.5,
+      46.5,
+      118.0,
+      20.0
+     ],
+     "font_px": 42.5,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_090",
+     "ko": "유방암 2상 SGS-ONCO-01 · SGS-ONCO-01",
+     "tr": "Brustkrebs Phase 2 SGS-ONCO-01 · SGS-ONCO-01",
+     "box_px_orig": [
+      12.0,
+      77.0,
+      228.0,
+      11.0
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_091",
+     "ko": "참여 기관 등록·수정은 PRJ 상태 = SETUP / TESTING 에서만 가능합니다 (현재: ACTIVE)",
+     "tr": "Teilnehmende Einrichtungen lassen sich nur bei PRJ-Status = SETUP / TESTING registrieren und bearbeiten (aktuell: ACTIVE)",
+     "box_px_orig": [
+      39.0,
+      117.5,
+      440.5,
+      12.5
+     ],
+     "font_px": 15.7,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_092",
+     "ko": "참여 기관 정보",
+     "tr": "Einrichtungsangaben",
+     "box_px_orig": [
+      37.0,
+      185.0,
+      93.0,
+      16.0
+     ],
+     "font_px": 34,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_093",
+     "ko": "테스트 기관 001",
+     "tr": "Test-Einrichtung 001",
+     "box_px_orig": [
+      74.5,
+      245.5,
+      95.0,
+      14.0
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_094",
+     "ko": "코드: INST-001",
+     "tr": "Code: INST-001",
+     "box_px_orig": [
+      74.0,
+      270.5,
+      79.0,
+      9.0
+     ],
+     "font_px": 24,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_095",
+     "ko": "기관 정보는 본 화면에서 수정 불가 (기관 관리 화면에서만)",
+     "tr": "Einrichtungsangaben lassen sich auf diesem Bildschirm nicht ändern (nur im Bildschirm Einrichtungsverwaltung)",
+     "box_px_orig": [
+      74.0,
+      295.0,
+      237.0,
+      9.0
+     ],
+     "font_px": 9.2,
+     "scale": 0.482,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_096",
+     "ko": "siteCode * (프로젝트 내 참여 기관 번호) · 피험자 존재 — 변경 불가",
+     "tr": "siteCode * (Nummer der teilnehmenden Einrichtung im Projekt) · Proband vorhanden — Änderung nicht möglich",
+     "box_px_orig": [
+      37.0,
+      336.5,
+      387.0,
+      14.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.74,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_097",
+     "ko": "IRB 승인일 *",
+     "tr": "IRB-Genehmigungsdatum *",
+     "box_px_orig": [
+      37.5,
+      409.0,
+      73.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_3_1_098",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      37.0,
+      481.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 30.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_099",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      54.0,
+      515.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_100",
+     "ko": "책임연구자명 *",
+     "tr": "Name des verantwortlichen Prüfers *",
+     "box_px_orig": [
+      695.0,
+      337.0,
+      86.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_3_1_101",
+     "ko": "김철수",
+     "tr": "Cheolsu Kim",
+     "box_px_orig": [
+      708.5,
+      368.5,
+      37.0,
+      12.5
+     ],
+     "font_px": 28,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_102",
+     "ko": "IRB 승인번호",
+     "tr": "IRB-Genehmigungsnummer",
+     "box_px_orig": [
+      695.0,
+      409.0,
+      77.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_103",
+     "ko": "(선택) IRB 발급 번호",
+     "tr": "(Optional) IRB-Genehmigungsnummer",
+     "box_px_orig": [
+      708.0,
+      439.5,
+      116.5,
+      13.0
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_104",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      1288.0,
+      604.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 15.2,
+     "scale": 0.618,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_105",
+     "ko": "저장",
+     "tr": "Speichern",
+     "box_px_orig": [
+      1343.0,
+      604.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_3_1_091",
+     "ko": "참여 기관 등록·수정은 PRJ 상태 = SETUP / TESTING 에서만 가능합니다 (현재: ACTIVE)",
+     "tr": "Teilnehmende Einrichtungen lassen sich nur bei PRJ-Status = SETUP / TESTING registrieren und bearbeiten (aktuell: ACTIVE)",
+     "box_px_orig": [
+      39.0,
+      117.5,
+      440.5,
+      12.5
+     ],
+     "font_px": 15.7,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_095",
+     "ko": "기관 정보는 본 화면에서 수정 불가 (기관 관리 화면에서만)",
+     "tr": "Einrichtungsangaben lassen sich auf diesem Bildschirm nicht ändern (nur im Bildschirm Einrichtungsverwaltung)",
+     "box_px_orig": [
+      74.0,
+      295.0,
+      237.0,
+      9.0
+     ],
+     "font_px": 9.2,
+     "scale": 0.482,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_096",
+     "ko": "siteCode * (프로젝트 내 참여 기관 번호) · 피험자 존재 — 변경 불가",
+     "tr": "siteCode * (Nummer der teilnehmenden Einrichtung im Projekt) · Proband vorhanden — Änderung nicht möglich",
+     "box_px_orig": [
+      37.0,
+      336.5,
+      387.0,
+      14.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.74,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_097",
+     "ko": "IRB 승인일 *",
+     "tr": "IRB-Genehmigungsdatum *",
+     "box_px_orig": [
+      37.5,
+      409.0,
+      73.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_3_1_100",
+     "ko": "책임연구자명 *",
+     "tr": "Name des verantwortlichen Prüfers *",
+     "box_px_orig": [
+      695.0,
+      337.0,
+      86.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_3_1_104",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      1288.0,
+      604.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 15.2,
+     "scale": 0.618,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_105",
+     "ko": "저장",
+     "tr": "Speichern",
+     "box_px_orig": [
+      1343.0,
+      604.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s3_1_1.png": {
+   "replaced": 19,
+   "segments": [
+    {
+     "id": "s3_1_1_106",
+     "ko": "대시보드",
+     "tr": "Dashboard",
+     "box_px_orig": [
+      14.5,
+      19.0,
+      43.5,
+      11.0
+     ],
+     "font_px": 19.2,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_107",
+     "ko": "프로젝트 설정",
+     "tr": "Projekteinstellungen",
+     "box_px_orig": [
+      80.0,
+      19.0,
+      68.5,
+      11.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.638,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_108",
+     "ko": "참여 기관",
+     "tr": "Teilnehmende Einrichtungen",
+     "box_px_orig": [
+      171.0,
+      19.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 16.1,
+     "scale": 0.657,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_109",
+     "ko": "연구자 배정",
+     "tr": "Zuweisung des Forschungspersonals",
+     "box_px_orig": [
+      240.0,
+      18.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_110",
+     "ko": "연구자 배정",
+     "tr": "Zuweisung des Forschungspersonals",
+     "box_px_orig": [
+      14.5,
+      52.5,
+      95.0,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_111",
+     "ko": "유방암 2상 SGS-ONCO-01 · SGS-ONCO-01",
+     "tr": "Brustkrebs Phase 2 SGS-ONCO-01 · SGS-ONCO-01",
+     "box_px_orig": [
+      14.0,
+      83.0,
+      228.0,
+      11.0
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_112",
+     "ko": "SITE-01 — 테스트 기관 001",
+     "tr": "SITE-01 — Test-Einrichtung 001",
+     "box_px_orig": [
+      39.0,
+      195.0,
+      181.5,
+      16.0
+     ],
+     "font_px": 33,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_113",
+     "ko": "PI: 김철수",
+     "tr": "PI: Cheolsu Kim",
+     "box_px_orig": [
+      39.5,
+      222.0,
+      50.0,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_114",
+     "ko": "이름",
+     "tr": "Name",
+     "box_px_orig": [
+      27.0,
+      288.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_115",
+     "ko": "이메일",
+     "tr": "E-Mail",
+     "box_px_orig": [
+      221.0,
+      288.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_116",
+     "ko": "역할",
+     "tr": "Rolle",
+     "box_px_orig": [
+      633.5,
+      287.5,
+      22.0,
+      11.5
+     ],
+     "font_px": 20.1,
+     "scale": 0.801,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_117",
+     "ko": "배정일",
+     "tr": "Zuweisungsdatum",
+     "box_px_orig": [
+      749.0,
+      288.0,
+      32.0,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_118",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      1114.0,
+      288.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_119",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      1122.0,
+      328.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.724,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_120",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      1122.0,
+      373.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.724,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_121",
+     "ko": "변경 이력",
+     "tr": "Änderungshistorie",
+     "box_px_orig": [
+      1308.0,
+      75.0,
+      45.0,
+      11.0
+     ],
+     "font_px": 10.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_122",
+     "ko": "해제",
+     "tr": "Zuweisung aufheben",
+     "box_px_orig": [
+      1324.0,
+      327.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 11.2,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_123",
+     "ko": "해제",
+     "tr": "Zuweisung aufheben",
+     "box_px_orig": [
+      1324.0,
+      372.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 11.2,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_124",
+     "ko": "연구자 추가",
+     "tr": "Forschungspersonal hinzufügen",
+     "box_px_orig": [
+      1272.0,
+      207.5,
+      58.5,
+      12.0
+     ],
+     "font_px": 11.5,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_1_1_106",
+     "ko": "대시보드",
+     "tr": "Dashboard",
+     "box_px_orig": [
+      14.5,
+      19.0,
+      43.5,
+      11.0
+     ],
+     "font_px": 19.2,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_107",
+     "ko": "프로젝트 설정",
+     "tr": "Projekteinstellungen",
+     "box_px_orig": [
+      80.0,
+      19.0,
+      68.5,
+      11.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.638,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_108",
+     "ko": "참여 기관",
+     "tr": "Teilnehmende Einrichtungen",
+     "box_px_orig": [
+      171.0,
+      19.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 16.1,
+     "scale": 0.657,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_116",
+     "ko": "역할",
+     "tr": "Rolle",
+     "box_px_orig": [
+      633.5,
+      287.5,
+      22.0,
+      11.5
+     ],
+     "font_px": 20.1,
+     "scale": 0.801,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_119",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      1122.0,
+      328.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.724,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_120",
+     "ko": "활성",
+     "tr": "Aktiv",
+     "box_px_orig": [
+      1122.0,
+      373.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.724,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_121",
+     "ko": "변경 이력",
+     "tr": "Änderungshistorie",
+     "box_px_orig": [
+      1308.0,
+      75.0,
+      45.0,
+      11.0
+     ],
+     "font_px": 10.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_122",
+     "ko": "해제",
+     "tr": "Zuweisung aufheben",
+     "box_px_orig": [
+      1324.0,
+      327.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 11.2,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_123",
+     "ko": "해제",
+     "tr": "Zuweisung aufheben",
+     "box_px_orig": [
+      1324.0,
+      372.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 11.2,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_124",
+     "ko": "연구자 추가",
+     "tr": "Forschungspersonal hinzufügen",
+     "box_px_orig": [
+      1272.0,
+      207.5,
+      58.5,
+      12.0
+     ],
+     "font_px": 11.5,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s3_2_1.png": {
+   "replaced": 11,
+   "segments": [
+    {
+     "id": "s3_2_1_126",
+     "ko": "연구자 추가",
+     "tr": "Forschungspersonal hinzufügen",
+     "box_px_orig": [
+      29.0,
+      32.0,
+      67.5,
+      13.5
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_127",
+     "ko": "WS 멤버 이메일·이름 검색",
+     "tr": "Nach E-Mail oder Name eines Arbeitsbereichsmitglieds suchen",
+     "box_px_orig": [
+      65.5,
+      88.5,
+      149.5,
+      19.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_2_1_128",
+     "ko": "워크스페이스에 할당된 사용자만 검색됩니다. 대상자가 없다면 워크스페이스 사용자 관리 화면에서 먼저 추 가하세요.",
+     "tr": "Es werden nur Benutzer gefunden, die dem Arbeitsbereich zugewiesen sind. Fehlt die gesuchte Person, fügen Sie sie zuerst im Bildschirm Benutzerverwaltung des Arbeitsbereichs hinzu.",
+     "box_px_orig": [
+      29.0,
+      131.0,
+      476.5,
+      10.0
+     ],
+     "font_px": 22.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_130",
+     "ko": "이유미",
+     "tr": "Yumi Lee",
+     "box_px_orig": [
+      42.0,
+      185.0,
+      37.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_131",
+     "ko": "이승준",
+     "tr": "Seungjun Lee",
+     "box_px_orig": [
+      42.0,
+      240.0,
+      38.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_132",
+     "ko": "황민승",
+     "tr": "Minseung Hwang",
+     "box_px_orig": [
+      41.5,
+      296.0,
+      38.5,
+      13.5
+     ],
+     "font_px": 29.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_133",
+     "ko": "역할",
+     "tr": "Rolle",
+     "box_px_orig": [
+      29.0,
+      382.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_134",
+     "ko": "배정 사유 (선택)",
+     "tr": "Zuweisungsgrund (optional)",
+     "box_px_orig": [
+      29.0,
+      454.0,
+      91.5,
+      14.0
+     ],
+     "font_px": 28,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_135",
+     "ko": "예: 신규 모니터링 담당",
+     "tr": "z. B. Verantwortung für neues Monitoring",
+     "box_px_orig": [
+      42.0,
+      484.0,
+      130.0,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_136",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      421.5,
+      547.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 11.6,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_2_1_137",
+     "ko": "배정",
+     "tr": "Zuweisung",
+     "box_px_orig": [
+      477.0,
+      548.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_1_127",
+     "ko": "WS 멤버 이메일·이름 검색",
+     "tr": "Nach E-Mail oder Name eines Arbeitsbereichsmitglieds suchen",
+     "box_px_orig": [
+      65.5,
+      88.5,
+      149.5,
+      19.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_2_1_136",
+     "ko": "취소",
+     "tr": "Abbrechen",
+     "box_px_orig": [
+      421.5,
+      547.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 11.6,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_2_1_137",
+     "ko": "배정",
+     "tr": "Zuweisung",
+     "box_px_orig": [
+      477.0,
+      548.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s3_3_1.png": {
+   "replaced": 5,
+   "segments": [
+    {
+     "id": "s3_3_1_138",
+     "ko": "역할 권한 요약",
+     "tr": "Zusammenfassung der Rollenrechte",
+     "box_px_orig": [
+      39.0,
+      34.0,
+      93.0,
+      16.0
+     ],
+     "font_px": 20.4,
+     "scale": 0.6,
+     "weight": 700,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_139",
+     "ko": "Site 제한",
+     "tr": "Site-Beschränkung",
+     "box_px_orig": [
+      248.5,
+      106.0,
+      36.0,
+      9.5
+     ],
+     "font_px": 9.1,
+     "scale": 0.437,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_140",
+     "ko": "Site 제한",
+     "tr": "Site-Beschränkung",
+     "box_px_orig": [
+      260.0,
+      130.5,
+      36.0,
+      8.5
+     ],
+     "font_px": 18.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_141",
+     "ko": "Site 제한",
+     "tr": "Site-Beschränkung",
+     "box_px_orig": [
+      201.5,
+      176.0,
+      36.0,
+      9.5
+     ],
+     "font_px": 9.1,
+     "scale": 0.437,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_142",
+     "ko": "Site 제한 역할만 배정할 수 있습니다. 1명의 연구자는 프로젝트 내 하나의 Site에만 배정할 수 있습니다 (UNIQUE 제약).",
+     "tr": "Es können nur Rollen mit Site-Beschränkung zugewiesen werden. Eine Person kann im Projekt nur einer Site zugewiesen werden (UNIQUE-Einschränkung).",
+     "box_px_orig": [
+      39.0,
+      207.0,
+      534.0,
+      10.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.858,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_3_1_138",
+     "ko": "역할 권한 요약",
+     "tr": "Zusammenfassung der Rollenrechte",
+     "box_px_orig": [
+      39.0,
+      34.0,
+      93.0,
+      16.0
+     ],
+     "font_px": 20.4,
+     "scale": 0.6,
+     "weight": 700,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_139",
+     "ko": "Site 제한",
+     "tr": "Site-Beschränkung",
+     "box_px_orig": [
+      248.5,
+      106.0,
+      36.0,
+      9.5
+     ],
+     "font_px": 9.1,
+     "scale": 0.437,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_141",
+     "ko": "Site 제한",
+     "tr": "Site-Beschränkung",
+     "box_px_orig": [
+      201.5,
+      176.0,
+      36.0,
+      9.5
+     ],
+     "font_px": 9.1,
+     "scale": 0.437,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  }
+ }
+}

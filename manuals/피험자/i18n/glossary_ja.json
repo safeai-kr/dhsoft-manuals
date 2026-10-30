@@ -1,566 +1,914 @@
 [
- {
-  "ko": "피험자 목록",
-  "tr": "被験者一覧",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "프로젝트 대시보드",
-  "tr": "プロジェクトダッシュボード",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "신규 피험자 등록",
-  "tr": "新規被験者登録",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "피험자 상세",
-  "tr": "被験者詳細",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "화면 구성",
-  "tr": "画面構成",
-  "type": "term",
-  "note": "화면 구성 제목은 모두 같은 번역을 쓴다"
- },
- {
-  "ko": "검색 · 정렬 · 필터",
-  "tr": "検索 · 並べ替え · フィルター",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "검색",
-  "tr": "検索",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "정렬",
-  "tr": "並べ替え",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "필터",
-  "tr": "フィルター",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상태 필터",
-  "tr": "ステータスフィルター",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "참여기관",
-  "tr": "参加施設",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "내 참여기관 고정",
-  "tr": "自施設固定",
-  "type": "label",
-  "note": "배지 이름"
- },
- {
-  "ko": "종결 상태 전체",
-  "tr": "終了ステータス全体",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "신규 피험자",
-  "tr": "新規被験者",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "집계 배지",
-  "tr": "集計バッジ",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "총 N명",
-  "tr": "全N名",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "표",
-  "tr": "表",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "행 액션",
-  "tr": "行アクション",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상태 변경",
-  "tr": "ステータス変更",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "상태 이력",
-  "tr": "ステータス履歴",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "방문 타임라인",
-  "tr": "来院タイムライン",
-  "type": "tab",
-  "note": "방문은 来院으로 통일(방문일 = 来院日)"
- },
- {
-  "ko": "방문 수동 추가",
-  "tr": "来院手動追加",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "Cycle 수동 추가",
-  "tr": "Cycle 手動追加",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "방문 그룹",
-  "tr": "来院グループ",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "등록 정보",
-  "tr": "登録情報",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "취소",
-  "tr": "キャンセル",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "← 목록으로",
-  "tr": "← 一覧へ",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "← 기본 정보로",
-  "tr": "← 基本情報へ",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "귀속 Site",
-  "tr": "帰属 Site",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "이름",
-  "tr": "氏名",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "이니셜",
-  "tr": "イニシャル",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "생년월일",
-  "tr": "生年月日",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "성별",
-  "tr": "性別",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "고유번호",
-  "tr": "固有番号",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "생성일",
-  "tr": "作成日",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "여성",
-  "tr": "女性",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "기타",
-  "tr": "その他",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "스크리닝",
-  "tr": "スクリーニング",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "등록",
-  "tr": "登録",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "투약 중",
-  "tr": "投与中",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "치료 종료",
-  "tr": "治療終了",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "추적 불가",
-  "tr": "追跡不能",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "사망",
-  "tr": "死亡",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "연구 종료",
-  "tr": "研究終了",
-  "type": "status",
-  "note": "상태 값과 버튼 모두 같은 번역"
- },
- {
-  "ko": "동의 철회",
-  "tr": "同意撤回",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "스크리닝 실패",
-  "tr": "スクリーニング失敗",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "미배정",
-  "tr": "未割付",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "배정",
-  "tr": "割付",
-  "type": "term",
-  "note": "무작위배정과 함께 割付로 통일"
- },
- {
-  "ko": "무작위배정",
-  "tr": "無作為割付",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "배정번호",
-  "tr": "割付番号",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "시험군",
-  "tr": "試験群",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "검증 대기",
-  "tr": "検証待ち",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "SDV 완료",
-  "tr": "SDV完了",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "쿼리",
-  "tr": "クエリ",
-  "type": "term",
-  "note": "Query(라틴 문자)와 함께 쓰인 한글 표기"
- },
- {
-  "ko": "쿼리 열림",
-  "tr": "クエリ発行中",
-  "type": "status",
-  "note": "실제 UI 문구 확인 필요 시 notes 참조"
- },
- {
-  "ko": "쿼리 답변",
-  "tr": "クエリ回答済み",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "완결(CLEAN)",
-  "tr": "完了(CLEAN)",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "최근 방문",
-  "tr": "最近の来院",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "방문",
-  "tr": "来院",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "방문 수행",
-  "tr": "来院実施",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "방문 진행",
-  "tr": "来院進行中",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "방문 예정",
-  "tr": "来院予定",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "미방문",
-  "tr": "未来院",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "계획일",
-  "tr": "計画日",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "실제일",
-  "tr": "実施日",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "허용 오차",
-  "tr": "許容誤差",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "기준",
-  "tr": "基準",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "수행 상태",
-  "tr": "実施状態",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "결합된 CRF",
-  "tr": "紐づくCRF",
-  "type": "term",
-  "note": "결합 = 紐づけ로 통일"
- },
- {
-  "ko": "결합된 CRF 없음",
-  "tr": "紐づくCRFなし",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상세",
-  "tr": "詳細",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "전이 대상 선택",
-  "tr": "遷移先の選択",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "전이",
-  "tr": "遷移",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "정상 완료",
-  "tr": "正常完了",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "조기 종료",
-  "tr": "早期終了",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "전용 화면",
-  "tr": "専用画面",
-  "type": "label",
-  "note": "배지 이름"
- },
- {
-  "ko": "전용 화면으로 이동",
-  "tr": "専用画面へ移動",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "연구 종료 실행",
-  "tr": "研究終了を実行",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "연구 종료일",
-  "tr": "研究終了日",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "종료 사유",
-  "tr": "終了理由",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상태 변경 이력",
-  "tr": "ステータス変更履歴",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "상태 변경 실행",
-  "tr": "ステータス変更の実行",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "전자서명",
-  "tr": "電子署名",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "서명 정책",
-  "tr": "署名ポリシー",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "잠금",
-  "tr": "ロック",
-  "type": "term",
-  "note": "UI에 Lock이 라틴 문자로 함께 쓰여 Lock은 그대로 둠"
- },
- {
-  "ko": "완전 잠금",
-  "tr": "完全ロック",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "연구책임자",
-  "tr": "研究責任者",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "수행자",
-  "tr": "実行者",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "사유",
-  "tr": "理由",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "이력",
-  "tr": "履歴",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "연구 운영",
-  "tr": "研究運営",
-  "type": "menu",
-  "note": "실제 메뉴 이름 확인 필요 시 notes 참조"
- },
- {
-  "ko": "기록",
-  "tr": "記録",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "가능",
-  "tr": "可能",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "불가",
-  "tr": "不可",
-  "type": "value",
-  "note": ""
- }
+  {
+    "ko": "피험자 목록",
+    "tr": "被験者一覧",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 대시보드",
+    "tr": "プロジェクトダッシュボード",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "신규 피험자 등록",
+    "tr": "新規被験者登録",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "피험자 상세",
+    "tr": "被験者詳細",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "화면 구성",
+    "tr": "画面構成",
+    "type": "term",
+    "note": "화면 구성 제목은 모두 같은 번역을 쓴다"
+  },
+  {
+    "ko": "검색 · 정렬 · 필터",
+    "tr": "検索 · 並べ替え · フィルター",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "검색",
+    "tr": "検索",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "정렬",
+    "tr": "並べ替え",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "필터",
+    "tr": "フィルター",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "상태 필터",
+    "tr": "ステータスフィルター",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "참여기관",
+    "tr": "参加施設",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "내 참여기관 고정",
+    "tr": "自施設固定",
+    "type": "label",
+    "note": "배지 이름"
+  },
+  {
+    "ko": "종결 상태 전체",
+    "tr": "終了ステータス全体",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "신규 피험자",
+    "tr": "新規被験者",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "집계 배지",
+    "tr": "集計バッジ",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "총 N명",
+    "tr": "全N名",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "표",
+    "tr": "表",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "행 액션",
+    "tr": "行アクション",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "상태 변경",
+    "tr": "ステータス変更",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "상태 이력",
+    "tr": "ステータス履歴",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "방문 타임라인",
+    "tr": "来院タイムライン",
+    "type": "tab",
+    "note": "방문은 来院으로 통일(방문일 = 来院日)"
+  },
+  {
+    "ko": "방문 수동 추가",
+    "tr": "来院手動追加",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "Cycle 수동 추가",
+    "tr": "Cycle 手動追加",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "방문 그룹",
+    "tr": "来院グループ",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "등록 정보",
+    "tr": "登録情報",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "취소",
+    "tr": "キャンセル",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "← 목록으로",
+    "tr": "← 一覧へ",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "← 기본 정보로",
+    "tr": "← 基本情報へ",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "귀속 Site",
+    "tr": "帰属 Site",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이름",
+    "tr": "氏名",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이니셜",
+    "tr": "イニシャル",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "생년월일",
+    "tr": "生年月日",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "성별",
+    "tr": "性別",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "고유번호",
+    "tr": "固有番号",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "생성일",
+    "tr": "作成日",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "여성",
+    "tr": "女性",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "기타",
+    "tr": "その他",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "스크리닝",
+    "tr": "スクリーニング",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "등록",
+    "tr": "登録",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "투약 중",
+    "tr": "投与中",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "치료 종료",
+    "tr": "治療終了",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "추적 불가",
+    "tr": "追跡不能",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "사망",
+    "tr": "死亡",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료",
+    "tr": "研究終了",
+    "type": "status",
+    "note": "상태 값과 버튼 모두 같은 번역"
+  },
+  {
+    "ko": "동의 철회",
+    "tr": "同意撤回",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "스크리닝 실패",
+    "tr": "スクリーニング失敗",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "미배정",
+    "tr": "未割付",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "배정",
+    "tr": "割付",
+    "type": "term",
+    "note": "무작위배정과 함께 割付로 통일"
+  },
+  {
+    "ko": "무작위배정",
+    "tr": "無作為割付",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "배정번호",
+    "tr": "割付番号",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "시험군",
+    "tr": "試験群",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "검증 대기",
+    "tr": "検証待ち",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "SDV 완료",
+    "tr": "SDV完了",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "쿼리",
+    "tr": "クエリ",
+    "type": "term",
+    "note": "Query(라틴 문자)와 함께 쓰인 한글 표기"
+  },
+  {
+    "ko": "쿼리 열림",
+    "tr": "クエリ発行中",
+    "type": "status",
+    "note": "실제 UI 문구 확인 필요 시 notes 참조"
+  },
+  {
+    "ko": "쿼리 답변",
+    "tr": "クエリ回答済み",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "완결(CLEAN)",
+    "tr": "完了(CLEAN)",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "최근 방문",
+    "tr": "最近の来院",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "방문",
+    "tr": "来院",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "방문 수행",
+    "tr": "来院実施",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "방문 진행",
+    "tr": "来院進行中",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "방문 예정",
+    "tr": "来院予定",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "미방문",
+    "tr": "未来院",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "계획일",
+    "tr": "計画日",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "실제일",
+    "tr": "実施日",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "허용 오차",
+    "tr": "許容誤差",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기준",
+    "tr": "基準",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "수행 상태",
+    "tr": "実施状態",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "결합된 CRF",
+    "tr": "紐づくCRF",
+    "type": "term",
+    "note": "결합 = 紐づけ로 통일"
+  },
+  {
+    "ko": "결합된 CRF 없음",
+    "tr": "紐づくCRFなし",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "상세",
+    "tr": "詳細",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "전이 대상 선택",
+    "tr": "遷移先の選択",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "전이",
+    "tr": "遷移",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "정상 완료",
+    "tr": "正常完了",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "조기 종료",
+    "tr": "早期終了",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "전용 화면",
+    "tr": "専用画面",
+    "type": "label",
+    "note": "배지 이름"
+  },
+  {
+    "ko": "전용 화면으로 이동",
+    "tr": "専用画面へ移動",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료 실행",
+    "tr": "研究終了を実行",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료일",
+    "tr": "研究終了日",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "종료 사유",
+    "tr": "終了理由",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "상태 변경 이력",
+    "tr": "ステータス変更履歴",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "상태 변경 실행",
+    "tr": "ステータス変更の実行",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "전자서명",
+    "tr": "電子署名",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "서명 정책",
+    "tr": "署名ポリシー",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "잠금",
+    "tr": "ロック",
+    "type": "term",
+    "note": "UI에 Lock이 라틴 문자로 함께 쓰여 Lock은 그대로 둠"
+  },
+  {
+    "ko": "완전 잠금",
+    "tr": "完全ロック",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "연구책임자",
+    "tr": "研究責任者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "수행자",
+    "tr": "実行者",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "사유",
+    "tr": "理由",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이력",
+    "tr": "履歴",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "研究運営",
+    "type": "menu",
+    "note": "실제 메뉴 이름 확인 필요 시 notes 참조"
+  },
+  {
+    "ko": "기록",
+    "tr": "記録",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "가능",
+    "tr": "可能",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "불가",
+    "tr": "不可",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "뉴",
+    "tr": "新規",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "ダッシュボード",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "被験者",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 입력",
+    "tr": "データ入力",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "研究管理",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF管理",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE指定",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB正常範囲",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "来院定義",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "設計バージョン管理",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "품질·규제",
+    "tr": "品質·規制",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 검증 (DVS)",
+    "tr": "データ検証 (DVS)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "유방암 2상 SGS-ONCO-01",
+    "tr": "乳がん 2相 SGS-ONCO-01",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "운영 중",
+    "tr": "運用中",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "스크리닝 0",
+    "tr": "スクリーニング 0",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "등록/배정 0",
+    "tr": "登録/割付 0",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "등록 완료",
+    "tr": "登録完了",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "배정 완료",
+    "tr": "割付完了",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "최신순",
+    "tr": "最新順",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "참여기관 전체",
+    "tr": "参加施設全体",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "상태",
+    "tr": "ステータス",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "등록일",
+    "tr": "登録日",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "품질",
+    "tr": "品質",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "액션",
+    "tr": "アクション",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "기본 정보",
+    "tr": "基本情報",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "완결(CLEAN",
+    "tr": "完了(CLEAN)",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "귀속 Site *",
+    "tr": "帰属 Site *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이름 *",
+    "tr": "氏名 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이니셜 *",
+    "tr": "イニシャル *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "성별 *",
+    "tr": "性別 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "남성",
+    "tr": "男性",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "미상",
+    "tr": "不明",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "ICF 동의일",
+    "tr": "ICF同意日",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "고유번호 *",
+    "tr": "固有番号 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "저장",
+    "tr": "保存",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "참여 기관:",
+    "tr": "参加施設:",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기본 정보 (개인식별정보)",
+    "tr": "基本情報 (個人識別情報)",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "배정 정보",
+    "tr": "割付情報",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "다음 가능 상태:",
+    "tr": "次に可能なステータス:",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 매트릭스",
+    "tr": "CRFマトリクス",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "편집",
+    "tr": "編集",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 매트릭스 Casebook",
+    "tr": "CRFマトリクス Casebook",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "선별 단계 (2)",
+    "tr": "選別段階 (2)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "선별 방문",
+    "tr": "選別来院",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "등록 방문",
+    "tr": "登録来院",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치료 단계 (Arm B) (5)",
+    "tr": "治療段階 (Arm B) (5)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "사전동의/서명 기준",
+    "tr": "事前同意/署名基準",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "직전 방문 기준",
+    "tr": "直前の来院基準",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "활력징후",
+    "tr": "バイタルサイン",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Gantt 타임라인",
+    "tr": "ガントタイムライン",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "방문 수행 2",
+    "tr": "来院実施 2",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 상태",
+    "tr": "CRFステータス",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "미입력",
+    "tr": "未入力",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "Query 상태",
+    "tr": "クエリステータス",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "피험자 상태 변경",
+    "tr": "被験者ステータス変更",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "연구 종료 정보",
+    "tr": "研究終了情報",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "연구 종료일 *",
+    "tr": "研究終了日 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "종료 사유 *",
+    "tr": "終了理由 *",
+    "type": "label",
+    "note": "image"
+  }
 ]

@@ -99,8 +99,13 @@ def runs_key(no, si, ii): return f'p{no}s{si}i{ii}'
 
 # ---------- 화면 이미지: 원본 캡처를 잘라 2배 확대(Lanczos + 약한 선명화)해 300dpi 기준을 맞춘다
 os.makedirs(f'{OUT}/img', exist_ok=True); os.makedirs(f'{OUT}/fonts', exist_ok=True)
+# 번역본 캡처(img/<lang>/, template/img_localize.py 결과)가 있으면 그 파일을 쓰고 덩어리 기록을 품질 기록에 합친다
+LOCI = f'{V}/img/{lang}'
+LOC_REP = json.load(open(f'{LOCI}/replacements.json'))['files'] if lang != 'ko' and os.path.exists(f'{LOCI}/replacements.json') else None
 manifest = dict(document=f'SMART-EDC_사용자매뉴얼_{vol}_{lang}.html', source=m['src'], lang=lang,
-                localized_text=(lang == 'ko'), note='' if lang == 'ko' else '한국어 캡처를 그대로 씀 — 이미지 안 글자 현지화는 아직 하지 않았다 [확인 필요]', files=[])
+                localized_text=(lang == 'ko' or LOC_REP is not None),
+                note='' if lang == 'ko' else ('한국어 캡처의 글자 자리만 번역어로 바꿈(template/img_localize.py). 덩어리별 기록은 files[*].segments' if LOC_REP is not None else '한국어 캡처를 그대로 씀 — 이미지 안 글자 현지화는 아직 하지 않았다 [확인 필요]'),
+                method='PIL Lanczos ×2 + UnsharpMask(r=1.0, 35%, t=3)' + ('; 글자 교체는 확대본에서' if LOC_REP is not None else ''), files={})
 K = 650 / 532.5   # 원본 본문 폭(532.5pt) → 본문 영역 폭(650px)
 def place_figs(figs, secno):
     """같은 줄(세로로 겹침)에 있는 그림은 나란히, 아니면 위아래로. 돌려주는 값: [[(fig, width_px, aspect, name)...] ...]"""
@@ -127,14 +132,20 @@ def process_image(g, name, width_px):
     crop = im.crop((x0, y0, x1, y1))
     scale = 2
     big = crop.resize((crop.width * scale, crop.height * scale), Image.LANCZOS).filter(ImageFilter.UnsharpMask(radius=1.0, percent=35, threshold=3))
+    loc = None
+    if LOC_REP is not None and name in LOC_REP and os.path.exists(f'{LOCI}/{name}'):
+        lim = Image.open(f'{LOCI}/{name}').convert('RGB')
+        if lim.size != big.size: sys.exit(f'번역 캡처 크기가 한국어판과 다름: {name} {lim.size} != {big.size}')
+        big = lim; loc = LOC_REP[name]
     big.save(f'{OUT}/img/{name}', optimize=True)
     disp_h = width_px * g['h'] / g['w']
     mm = [width_px / 96 * 25.4, disp_h / 96 * 25.4]
     req = [int(-(-mm[0] // 25.4 * 300)), int(-(-mm[1] // 25.4 * 300))]
-    manifest['files'].append(dict(name=name, source_xref_image=g['img'], source_px=[iw, ih], crop_box_px=[x0, y0, x1, y1], crop_px=[crop.width, crop.height],
-                                  output_px=[big.width, big.height], scale=scale, method='PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)',
+    manifest['files'][name] = dict(name=name, source_xref_image=g['img'], source_px=[iw, ih], crop_box_px=[x0, y0, x1, y1], crop_px=[crop.width, crop.height],
+                                  output_px=[big.width, big.height], scale=scale, scale_from_orig=float(scale), method='PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)',
+                                  localized=loc is not None, replaced=(loc or {}).get('replaced', 0), segments=(loc or {}).get('segments', []), flags=(loc or {}).get('flags', []),
                                   placed_css_px=[round(width_px, 1), round(disp_h, 1)], placed_mm=[round(v, 2) for v in mm], required_px_300dpi=req,
-                                  effective_dpi=round(big.width / (mm[0] / 25.4), 1), meets_300dpi_pixels=big.width >= req[0] and big.height >= req[1]))
+                                  effective_dpi=round(big.width / (mm[0] / 25.4), 1), meets_300dpi_pixels=big.width >= req[0] and big.height >= req[1])
 
 # ---------- 쪽(절) 단위 마크업
 CHEV = '<svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>'
@@ -243,7 +254,7 @@ for pg in m['pages']:
 # ---------- 표지 · 목차 · 문서 조립
 doc_title = U('doc.title', 'title', esc(f'SMART-EDC 사용자 매뉴얼 — {COVER_TITLE}')) if lang == 'ko' or EXPORT else f'{FX("SMART-EDC 사용자 매뉴얼")} — {plain(TR["cover.title"])}'
 cover_html = (f'<section class="cover">\n  <div class="cv-wave"></div><div class="cv-grad"></div>\n'
-              f'  <div class="cv-top"><span class="cv-brand"><span class="sm">SMART</span> EDC</span><span class="cv-sys">{FX("임상시험 전자자료수집 시스템")}</span></div>\n'
+              f'  <div class="cv-top"><img class="cv-brand" src="img/smart-edc-logo.png" alt="SMART EDC"><span class="cv-sys">{FX("임상시험 전자자료수집 시스템")}</span></div>\n'
               f'  <div class="cv-main noclass"><h1 class="cv-title">{U("cover.title", "cover", esc(COVER_TITLE))}</h1><p class="cv-sub">{U("cover.sub", "cover", esc(COVER_SUB))}</p></div>\n'
               f'  <div class="cv-bottom"><span class="cv-kind">{FX("사용자 매뉴얼 · 화면별 분권")}</span><img class="cv-logo" src="img/logo.png" alt="DH Digital Healthcare Software"></div>\n</section>')
 toc_html = ''.join(
@@ -266,6 +277,6 @@ html_doc = ('<!doctype html>\n'
 open(f'{OUT}/SMART-EDC_사용자매뉴얼_{vol}_{lang}.html', 'w').write(html_doc)
 fonts = f'{HERE}/assets/fonts_ja' if lang == 'ja' else f'{HERE}/assets/fonts'
 for fn in os.listdir(fonts): shutil.copy(f'{fonts}/{fn}', f'{OUT}/fonts/{fn}')
-for fn in ('wave.jpg', 'logo.png'): shutil.copy(f'{HERE}/assets/img/{fn}', f'{OUT}/img/{fn}')
+for fn in ('wave.jpg', 'logo.png', 'smart-edc-logo.png', 'smart-edc-logo-gray.png'): shutil.copy(f'{HERE}/assets/img/{fn}', f'{OUT}/img/{fn}')
 json.dump(manifest, open(f'{OUT}/img/quality-manifest.json', 'w'), ensure_ascii=False, indent=1)
 print('html', f'{OUT}/SMART-EDC_사용자매뉴얼_{vol}_{lang}.html', 'images', len(manifest['files']), 'units', len({u['key'] for u in units}))

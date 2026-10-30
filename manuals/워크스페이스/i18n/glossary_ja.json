@@ -1,65 +1,680 @@
 [
-{"ko": "워크스페이스", "tr": "ワークスペース", "type": "term", "note": ""},
-{"ko": "워크스페이스 관리", "tr": "ワークスペース管理", "type": "menu", "note": ""},
-{"ko": "워크스페이스 상세", "tr": "ワークスペース詳細", "type": "path", "note": ""},
-{"ko": "워크스페이스 대시보드", "tr": "ワークスペースダッシュボード", "type": "menu", "note": ""},
-{"ko": "플랫폼 홈", "tr": "プラットフォームホーム", "type": "path", "note": ""},
-{"ko": "신규 워크스페이스 생성", "tr": "新規ワークスペース作成", "type": "button", "note": ""},
-{"ko": "워크스페이스 이름", "tr": "ワークスペース名", "type": "field", "note": ""},
-{"ko": "워크스페이스 삭제", "tr": "ワークスペース削除", "type": "button", "note": ""},
-{"ko": "코드", "tr": "コード", "type": "field", "note": ""},
-{"ko": "설명", "tr": "説明", "type": "field", "note": ""},
-{"ko": "이름", "tr": "名前", "type": "field", "note": ""},
-{"ko": "주관 기관", "tr": "主管機関", "type": "field", "note": ""},
-{"ko": "기관 관리", "tr": "機関管理", "type": "menu", "note": ""},
-{"ko": "생성", "tr": "作成", "type": "button", "note": "생성 창의 확정 버튼"},
-{"ko": "사용자 할당 관리", "tr": "ユーザー割り当て管理", "type": "tab", "note": ""},
-{"ko": "사용자 할당", "tr": "ユーザー割り当て", "type": "menu", "note": ""},
-{"ko": "사용자 추가", "tr": "ユーザー追加", "type": "button", "note": ""},
-{"ko": "할당", "tr": "割り当て", "type": "term", "note": ""},
-{"ko": "해제", "tr": "解除", "type": "button", "note": ""},
-{"ko": "관리자 지정", "tr": "管理者に指定", "type": "button", "note": ""},
-{"ko": "역할", "tr": "ロール", "type": "label", "note": "사용자 역할 열, 기존 ロール 표기를 따름"},
-{"ko": "워크스페이스 관리자", "tr": "ワークスペース管理者", "type": "term", "note": ""},
-{"ko": "시스템 관리자", "tr": "システム管理者", "type": "term", "note": ""},
-{"ko": "데이터 관리자", "tr": "データ管理者", "type": "term", "note": ""},
-{"ko": "연구자", "tr": "研究者", "type": "term", "note": ""},
-{"ko": "모니터요원", "tr": "臨床開発モニター", "type": "term", "note": "기존 용어 임상연구모니터요원=臨床開発モニター 를 따름"},
-{"ko": "활성화", "tr": "有効化", "type": "button", "note": ""},
-{"ko": "비활성화", "tr": "無効化", "type": "button", "note": ""},
-{"ko": "비활성", "tr": "無効", "type": "status", "note": ""},
-{"ko": "비활성 워크스페이스", "tr": "無効なワークスペース", "type": "term", "note": ""},
-{"ko": "구성 현황", "tr": "構成状況", "type": "label", "note": ""},
-{"ko": "구축", "tr": "構築", "type": "status", "note": ""},
-{"ko": "설정 중", "tr": "設定中", "type": "status", "note": ""},
-{"ko": "운영", "tr": "運用", "type": "status", "note": ""},
-{"ko": "메타 편집", "tr": "メタ情報の編集", "type": "button", "note": "섹션 제목에도 동일 사용"},
-{"ko": "바로가기", "tr": "ショートカット", "type": "button", "note": ""},
-{"ko": "다음 할 일", "tr": "次に行うこと", "type": "label", "note": ""},
-{"ko": "전체 보기", "tr": "すべて表示", "type": "button", "note": ""},
-{"ko": "최근 활동", "tr": "最近のアクティビティ", "type": "label", "note": ""},
-{"ko": "최근 진입", "tr": "最近のアクセス", "type": "label", "note": ""},
-{"ko": "이어서", "tr": "続きから", "type": "label", "note": ""},
-{"ko": "내 프로젝트", "tr": "自分のプロジェクト", "type": "menu", "note": ""},
-{"ko": "프로젝트 생성", "tr": "プロジェクト作成", "type": "button", "note": ""},
-{"ko": "신규 프로젝트 생성", "tr": "新規プロジェクト作成", "type": "button", "note": ""},
-{"ko": "프로젝트 코드", "tr": "プロジェクトコード", "type": "field", "note": ""},
-{"ko": "프로젝트명", "tr": "プロジェクト名", "type": "field", "note": ""},
-{"ko": "연구 유형", "tr": "研究タイプ", "type": "field", "note": ""},
-{"ko": "보관 정책", "tr": "保管ポリシー", "type": "field", "note": ""},
-{"ko": "초기 상태", "tr": "初期ステータス", "type": "label", "note": ""},
-{"ko": "초기 역할", "tr": "初期ロール", "type": "field", "note": ""},
-{"ko": "표준 역할", "tr": "標準ロール", "type": "term", "note": ""},
-{"ko": "소속 프로젝트", "tr": "所属プロジェクト", "type": "term", "note": ""},
-{"ko": "참여 기관 수", "tr": "参加機関数", "type": "label", "note": ""},
-{"ko": "집계", "tr": "集計", "type": "label", "note": ""},
-{"ko": "현황 카드", "tr": "状況カード", "type": "label", "note": ""},
-{"ko": "재시도", "tr": "再試行", "type": "button", "note": ""},
-{"ko": "컨텍스트 전환", "tr": "コンテキスト切り替え", "type": "label", "note": ""},
-{"ko": "이 화면으로 가는 다른 길", "tr": "この画面へのほかの経路", "type": "term", "note": "h3 제목"},
-{"ko": "취소", "tr": "キャンセル", "type": "button", "note": ""},
-{"ko": "저장", "tr": "保存", "type": "button", "note": ""},
-{"ko": "복구", "tr": "復旧", "type": "term", "note": ""},
-{"ko": "활성", "tr": "有効", "type": "status", "note": ""},
-{"ko": "기관", "tr": "機関", "type": "term", "note": ""}
+  {
+    "ko": "워크스페이스",
+    "tr": "ワークスペース",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 관리",
+    "tr": "ワークスペース管理",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 상세",
+    "tr": "ワークスペース詳細",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 대시보드",
+    "tr": "ワークスペースダッシュボード",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "플랫폼 홈",
+    "tr": "プラットフォームホーム",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "신규 워크스페이스 생성",
+    "tr": "新規ワークスペース作成",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 이름",
+    "tr": "ワークスペース名",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 삭제",
+    "tr": "ワークスペース削除",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "코드",
+    "tr": "コード",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "설명",
+    "tr": "説明",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "이름",
+    "tr": "名前",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "주관 기관",
+    "tr": "主管機関",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "기관 관리",
+    "tr": "機関管理",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "생성",
+    "tr": "作成",
+    "type": "button",
+    "note": "생성 창의 확정 버튼"
+  },
+  {
+    "ko": "사용자 할당 관리",
+    "tr": "ユーザー割り当て管理",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "사용자 할당",
+    "tr": "ユーザー割り当て",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "사용자 추가",
+    "tr": "ユーザー追加",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "할당",
+    "tr": "割り当て",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "해제",
+    "tr": "解除",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "관리자 지정",
+    "tr": "管理者に指定",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "역할",
+    "tr": "ロール",
+    "type": "label",
+    "note": "사용자 역할 열, 기존 ロール 표기를 따름"
+  },
+  {
+    "ko": "워크스페이스 관리자",
+    "tr": "ワークスペース管理者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "시스템 관리자",
+    "tr": "システム管理者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "데이터 관리자",
+    "tr": "データ管理者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "연구자",
+    "tr": "研究者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "모니터요원",
+    "tr": "臨床開発モニター",
+    "type": "term",
+    "note": "기존 용어 임상연구모니터요원=臨床開発モニター 를 따름"
+  },
+  {
+    "ko": "활성화",
+    "tr": "有効化",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "비활성화",
+    "tr": "無効化",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "비활성",
+    "tr": "無効",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "비활성 워크스페이스",
+    "tr": "無効なワークスペース",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "구성 현황",
+    "tr": "構成状況",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "구축",
+    "tr": "構築",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "설정 중",
+    "tr": "設定中",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "운영",
+    "tr": "運用",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "메타 편집",
+    "tr": "メタ情報の編集",
+    "type": "button",
+    "note": "섹션 제목에도 동일 사용"
+  },
+  {
+    "ko": "바로가기",
+    "tr": "ショートカット",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "다음 할 일",
+    "tr": "次に行うこと",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "전체 보기",
+    "tr": "すべて表示",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "최근 활동",
+    "tr": "最近のアクティビティ",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "최근 진입",
+    "tr": "最近のアクセス",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이어서",
+    "tr": "続きから",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "내 프로젝트",
+    "tr": "自分のプロジェクト",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 생성",
+    "tr": "プロジェクト作成",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "신규 프로젝트 생성",
+    "tr": "新規プロジェクト作成",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 코드",
+    "tr": "プロジェクトコード",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트명",
+    "tr": "プロジェクト名",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "연구 유형",
+    "tr": "研究タイプ",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "보관 정책",
+    "tr": "保管ポリシー",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "초기 상태",
+    "tr": "初期ステータス",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "초기 역할",
+    "tr": "初期ロール",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "표준 역할",
+    "tr": "標準ロール",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "소속 프로젝트",
+    "tr": "所属プロジェクト",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "참여 기관 수",
+    "tr": "参加機関数",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "집계",
+    "tr": "集計",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "현황 카드",
+    "tr": "状況カード",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "재시도",
+    "tr": "再試行",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "컨텍스트 전환",
+    "tr": "コンテキスト切り替え",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이 화면으로 가는 다른 길",
+    "tr": "この画面へのほかの経路",
+    "type": "term",
+    "note": "h3 제목"
+  },
+  {
+    "ko": "취소",
+    "tr": "キャンセル",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "저장",
+    "tr": "保存",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "복구",
+    "tr": "復旧",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "활성",
+    "tr": "有効",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "기관",
+    "tr": "機関",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 선택",
+    "tr": "ワークスペースを選択",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 선택",
+    "tr": "プロジェクトを選択",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "워크스페이스 메뉴",
+    "tr": "ワークスペースメニュー",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "플랫폼 메뉴",
+    "tr": "プラットフォームメニュー",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "플랫폼 대시보드",
+    "tr": "プラットフォームダッシュボード",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "사용자 관리",
+    "tr": "ユーザー管理",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "시스템 설정",
+    "tr": "システム設定",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "코드 관리",
+    "tr": "コード管理",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "접속 로그",
+    "tr": "接続ログ",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "운영 이력",
+    "tr": "運用履歴",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "내 메뉴",
+    "tr": "マイメニュー",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "내 프로필",
+    "tr": "マイプロフィール",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "알림",
+    "tr": "通知",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "전체 WS",
+    "tr": "全WS",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기관별 WS 분포",
+    "tr": "機関別WS分布",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "WS명",
+    "tr": "WS名",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "활성 WS",
+    "tr": "有効 WS",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "비활성 WS",
+    "tr": "無効 WS",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 보유 상위 WS",
+    "tr": "プロジェクト保有数の上位WS",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "진입 현황",
+    "tr": "アクセス状況",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "총 피험자",
+    "tr": "総被験者数",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "사용자",
+    "tr": "ユーザー",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "상태",
+    "tr": "ステータス",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "전체 상태",
+    "tr": "全ステータス",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "전체 기관",
+    "tr": "全機関",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "전체 프로젝트",
+    "tr": "全プロジェクト",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "활성 프로젝트",
+    "tr": "有効プロジェクト",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "완료",
+    "tr": "完了",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "지금 할 차례",
+    "tr": "今すぐ実施",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "대기",
+    "tr": "待機中",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "할당 사용자",
+    "tr": "割り当てユーザー",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "멤버 관리",
+    "tr": "メンバー管理",
+    "type": "breadcrumb",
+    "note": "image"
+  },
+  {
+    "ko": "소속 기관",
+    "tr": "所属機関",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "할당일",
+    "tr": "割り当て日",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "할당자",
+    "tr": "割り当て者",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "PRJ명",
+    "tr": "PRJ名",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "被験者",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "최종 수정",
+    "tr": "最終更新",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "기본 정보",
+    "tr": "基本情報",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "연구자 주도 (IIT)",
+    "tr": "研究者主導 (IIT)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "시작일 (예상)",
+    "tr": "開始日 (予定)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "종료일 (예상)",
+    "tr": "終了日 (予定)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이메일",
+    "tr": "メール",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "멤버",
+    "tr": "メンバー",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "교육 강사",
+    "tr": "研修講師",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 수정",
+    "tr": "プロジェクト更新",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 정의 수정",
+    "tr": "CRF定義の修正",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의 상태 변경",
+    "tr": "来院定義のステータス変更",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문-CRF 매핑 생성",
+    "tr": "来院-CRFマッピング作成",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "워크스페이스 생성",
+    "tr": "ワークスペース作成",
+    "type": "label",
+    "note": "image"
+  }
 ]

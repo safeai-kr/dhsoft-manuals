@@ -1,0 +1,5654 @@
+{
+ "lang": "ja",
+ "method": "한국어 글자 자리를 바탕색으로 덮고 번역어를 Pretendard(일본어 Pretendard JP)로 다시 그림. 생성형 AI 사용 안 함",
+ "files": {
+  "s1_1_1.png": {
+   "replaced": 63,
+   "segments": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "워크스페이스 선택",
+     "tr": "ワークスペースを選択",
+     "box_px_orig": [
+      188.0,
+      7.0,
+      90.0,
+      9.5
+     ],
+     "font_px": 18.8,
+     "scale": 0.821,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "프로젝트 선택",
+     "tr": "プロジェクトを選択",
+     "box_px_orig": [
+      188.0,
+      12.5,
+      88.0,
+      25.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "워크스페이스 메뉴",
+     "tr": "ワークスペースメニュー",
+     "box_px_orig": [
+      21.0,
+      113.0,
+      106.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_003",
+     "ko": "워크스페이스 대시보드",
+     "tr": "ワークスペースダッシュボード",
+     "box_px_orig": [
+      45.0,
+      147.0,
+      132.0,
+      13.0
+     ],
+     "font_px": 26.7,
+     "scale": 0.94,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004",
+     "ko": "플랫폼 메뉴",
+     "tr": "プラットフォームメニュー",
+     "box_px_orig": [
+      21.0,
+      183.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "플랫폼 대시보드",
+     "tr": "プラットフォームダッシュボード",
+     "box_px_orig": [
+      45.0,
+      217.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 24.8,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "기관 관리",
+     "tr": "機関管理",
+     "box_px_orig": [
+      45.5,
+      251.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "워크스페이스 관리",
+     "tr": "ワークスペース管理",
+     "box_px_orig": [
+      45.0,
+      285.0,
+      105.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "사용자 관리",
+     "tr": "ユーザー管理",
+     "box_px_orig": [
+      45.0,
+      319.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 23.3,
+     "scale": 0.818,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_009",
+     "ko": "시스템 설정",
+     "tr": "システム設定",
+     "box_px_orig": [
+      45.5,
+      353.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "코드 관리",
+     "tr": "コード管理",
+     "box_px_orig": [
+      45.0,
+      387.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "접속 로그",
+     "tr": "接続ログ",
+     "box_px_orig": [
+      45.5,
+      421.0,
+      54.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "운영 이력",
+     "tr": "運用履歴",
+     "box_px_orig": [
+      45.0,
+      455.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "내 메뉴",
+     "tr": "マイメニュー",
+     "box_px_orig": [
+      21.5,
+      491.0,
+      41.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_014",
+     "ko": "내 프로필",
+     "tr": "マイプロフィール",
+     "box_px_orig": [
+      46.0,
+      525.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_015",
+     "ko": "알림",
+     "tr": "通知",
+     "box_px_orig": [
+      45.5,
+      559.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 25.1,
+     "scale": 0.863,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_016",
+     "ko": "워크스페이스 관리",
+     "tr": "ワークスペース管理",
+     "box_px_orig": [
+      253.0,
+      82.5,
+      150.5,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_017",
+     "ko": "시스템 전역 워크스페이스 조회·생성·비활성화",
+     "tr": "システム全体のワークスペースの照会・作成・無効化",
+     "box_px_orig": [
+      253.5,
+      110.0,
+      260.5,
+      13.0
+     ],
+     "font_px": 28.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_018",
+     "ko": "전체 WS",
+     "tr": "全WS",
+     "box_px_orig": [
+      288.5,
+      158.0,
+      43.0,
+      11.0
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_019",
+     "ko": "기관별 WS 분포",
+     "tr": "機関別WS分布",
+     "box_px_orig": [
+      292.0,
+      252.5,
+      94.0,
+      14.0
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_020",
+     "ko": "연세대학교 치과대학 소아치과연구소",
+     "tr": "延世大学校 歯科大学 小児歯科研究所",
+     "box_px_orig": [
+      270.0,
+      314.5,
+      182.5,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_021",
+     "ko": "서울대학교",
+     "tr": "ソウル大学校",
+     "box_px_orig": [
+      270.5,
+      358.5,
+      54.5,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_022",
+     "ko": "연세대학교 원주세브란스기독병원",
+     "tr": "延世大学校 原州セブランス基督病院",
+     "box_px_orig": [
+      270.0,
+      380.5,
+      168.0,
+      12.0
+     ],
+     "font_px": 25.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_023",
+     "ko": "외 1개 기관",
+     "tr": "ほか1機関",
+     "box_px_orig": [
+      270.0,
+      404.0,
+      50.0,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_024",
+     "ko": "프로젝트 미보유 활성 WS",
+     "tr": "プロジェクト未保有の有効WS",
+     "box_px_orig": [
+      292.0,
+      466.5,
+      148.5,
+      14.0
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_025",
+     "ko": "모든 활성 WS가 프로젝트를 보유 중입니다",
+     "tr": "すべての有効WSにプロジェクトがあります。",
+     "box_px_orig": [
+      270.0,
+      507.0,
+      210.5,
+      11.0
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_026",
+     "ko": "WS명·코드 검색",
+     "tr": "WS名・コードで検索",
+     "box_px_orig": [
+      303.0,
+      666.0,
+      91.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_027",
+     "ko": "WS명",
+     "tr": "WS名",
+     "box_px_orig": [
+      266.0,
+      731.0,
+      30.0,
+      11.0
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_028",
+     "ko": "연세대학교 원주세브란스기독병원",
+     "tr": "延世大学校 原州セブランス基督病院",
+     "box_px_orig": [
+      266.0,
+      892.5,
+      196.0,
+      14.0
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_029",
+     "ko": "통합 임상시험 워크스페이스",
+     "tr": "統合臨床試験ワークスペース",
+     "box_px_orig": [
+      266.0,
+      976.5,
+      161.5,
+      14.0
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_030",
+     "ko": "연세대 의과대 종양내과 (손주혁 교수)",
+     "tr": "延世大学校 医学部 腫瘍内科 (ソン・ジュヒョク教授)",
+     "box_px_orig": [
+      266.0,
+      1018.5,
+      215.0,
+      14.5
+     ],
+     "font_px": 28.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_031",
+     "ko": "활성 WS",
+     "tr": "有効 WS",
+     "box_px_orig": [
+      745.0,
+      158.0,
+      43.5,
+      11.0
+     ],
+     "font_px": 23.7,
+     "scale": 0.983,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_032",
+     "ko": "코드",
+     "tr": "コード",
+     "box_px_orig": [
+      829.5,
+      731.5,
+      22.0,
+      9.5
+     ],
+     "font_px": 26.4,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_034",
+     "ko": "비활성 WS",
+     "tr": "無効 WS",
+     "box_px_orig": [
+      1202.0,
+      158.0,
+      54.5,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_035",
+     "ko": "프로젝트 보유 상위 WS",
+     "tr": "プロジェクト保有数の上位WS",
+     "box_px_orig": [
+      1031.0,
+      466.5,
+      136.0,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_036",
+     "ko": "임상시험 실증용 워크스페이스",
+     "tr": "臨床試験の実証用ワークスペース",
+     "box_px_orig": [
+      1031.5,
+      528.5,
+      149.0,
+      11.0
+     ],
+     "font_px": 20.9,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_037",
+     "ko": "소아치과 희귀질환 연구 (송제선 교수)",
+     "tr": "小児歯科の希少疾患研究 (ソン・ジェソン教授)",
+     "box_px_orig": [
+      1031.5,
+      550.5,
+      184.5,
+      11.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_038",
+     "ko": "총 프로젝트",
+     "tr": "総プロジェクト数",
+     "box_px_orig": [
+      1659.0,
+      158.0,
+      57.5,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_039",
+     "ko": "6개 기관",
+     "tr": "6機関",
+     "box_px_orig": [
+      1321.5,
+      254.0,
+      36.5,
+      10.5
+     ],
+     "font_px": 22.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "멤버 미배정 활성 WS",
+     "tr": "メンバー未割り当ての有効WS",
+     "box_px_orig": [
+      1434.5,
+      252.5,
+      122.0,
+      14.0
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_042",
+     "ko": "연세대학교 원주세브란스기독병원",
+     "tr": "延世大学校 原州セブランス基督病院",
+     "box_px_orig": [
+      1412.0,
+      297.5,
+      168.0,
+      12.0
+     ],
+     "font_px": 25.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_043",
+     "ko": "소아치과 희귀질환 연구 (송제선 교수)",
+     "tr": "小児歯科の希少疾患研究 (ソン・ジェソン教授)",
+     "box_px_orig": [
+      1412.0,
+      327.5,
+      184.5,
+      12.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_044",
+     "ko": "주관 기관",
+     "tr": "主管機関",
+     "box_px_orig": [
+      1361.5,
+      731.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_045",
+     "ko": "연세대학교 원주세브란스기독병원",
+     "tr": "延世大学校 原州セブランス基督病院",
+     "box_px_orig": [
+      1361.5,
+      893.5,
+      168.0,
+      12.0
+     ],
+     "font_px": 25.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_046",
+     "ko": "서울대학교",
+     "tr": "ソウル大学校",
+     "box_px_orig": [
+      1362.0,
+      935.5,
+      54.5,
+      12.0
+     ],
+     "font_px": 19.3,
+     "scale": 0.739,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_047",
+     "ko": "연세대학교 의과대학",
+     "tr": "延世大学校 医学部",
+     "box_px_orig": [
+      1361.5,
+      1019.5,
+      102.5,
+      10.0
+     ],
+     "font_px": 24,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_048",
+     "ko": "진입 현황",
+     "tr": "アクセス状況",
+     "box_px_orig": [
+      1815.0,
+      466.5,
+      54.5,
+      14.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.618,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_049",
+     "ko": "최근 진입",
+     "tr": "最近のアクセス",
+     "box_px_orig": [
+      1793.0,
+      507.0,
+      42.0,
+      10.0
+     ],
+     "font_px": 12.6,
+     "scale": 0.562,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_050",
+     "ko": "진입 기록 없음",
+     "tr": "アクセス記録はありません",
+     "box_px_orig": [
+      1793.5,
+      525.0,
+      71.0,
+      11.0
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_051",
+     "ko": "총 멤버 배정",
+     "tr": "総メンバー割り当て数",
+     "box_px_orig": [
+      2115.5,
+      158.0,
+      60.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_052",
+     "ko": "사용자",
+     "tr": "ユーザー",
+     "box_px_orig": [
+      2039.0,
+      731.0,
+      33.5,
+      11.0
+     ],
+     "font_px": 23.8,
+     "scale": 0.96,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_053",
+     "ko": "상태",
+     "tr": "ステータス",
+     "box_px_orig": [
+      2096.0,
+      731.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.7,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_054",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2096.5,
+      766.5,
+      32.5,
+      18.0
+     ],
+     "font_px": 34.4,
+     "scale": 0.88,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_055",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      808.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_056",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2096.5,
+      850.5,
+      32.5,
+      18.0
+     ],
+     "font_px": 34.4,
+     "scale": 0.88,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_057",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      892.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_058",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      934.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_059",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2098.0,
+      975.5,
+      30.0,
+      14.0
+     ],
+     "font_px": 31.6,
+     "scale": 0.94,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_060",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      1018.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_061",
+     "ko": "전체 상태",
+     "tr": "全ステータス",
+     "box_px_orig": [
+      2213.5,
+      666.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_062",
+     "ko": "최근 진입",
+     "tr": "最近のアクセス",
+     "box_px_orig": [
+      2255.5,
+      731.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_063",
+     "ko": "신규 워크스페이스 생성",
+     "tr": "新規ワークスペース作成",
+     "box_px_orig": [
+      2397.0,
+      95.5,
+      126.5,
+      30.5
+     ],
+     "font_px": 24.2,
+     "scale": 0.82,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_064",
+     "ko": "전체 기관",
+     "tr": "全機関",
+     "box_px_orig": [
+      2353.5,
+      666.0,
+      54.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "워크스페이스 선택",
+     "tr": "ワークスペースを選択",
+     "box_px_orig": [
+      188.0,
+      7.0,
+      90.0,
+      9.5
+     ],
+     "font_px": 18.8,
+     "scale": 0.821,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "프로젝트 선택",
+     "tr": "プロジェクトを選択",
+     "box_px_orig": [
+      188.0,
+      12.5,
+      88.0,
+      25.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "플랫폼 대시보드",
+     "tr": "プラットフォームダッシュボード",
+     "box_px_orig": [
+      45.0,
+      217.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 24.8,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "사용자 관리",
+     "tr": "ユーザー管理",
+     "box_px_orig": [
+      45.0,
+      319.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 23.3,
+     "scale": 0.818,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_046",
+     "ko": "서울대학교",
+     "tr": "ソウル大学校",
+     "box_px_orig": [
+      1362.0,
+      935.5,
+      54.5,
+      12.0
+     ],
+     "font_px": 19.3,
+     "scale": 0.739,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_048",
+     "ko": "진입 현황",
+     "tr": "アクセス状況",
+     "box_px_orig": [
+      1815.0,
+      466.5,
+      54.5,
+      14.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.618,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_049",
+     "ko": "최근 진입",
+     "tr": "最近のアクセス",
+     "box_px_orig": [
+      1793.0,
+      507.0,
+      42.0,
+      10.0
+     ],
+     "font_px": 12.6,
+     "scale": 0.562,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_055",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      808.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_057",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      892.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_058",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      934.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_060",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2097.0,
+      1018.5,
+      31.5,
+      18.0
+     ],
+     "font_px": 32.9,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_063",
+     "ko": "신규 워크스페이스 생성",
+     "tr": "新規ワークスペース作成",
+     "box_px_orig": [
+      2397.0,
+      95.5,
+      126.5,
+      30.5
+     ],
+     "font_px": 24.2,
+     "scale": 0.82,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s1_2_1.png": {
+   "replaced": 13,
+   "segments": [
+    {
+     "id": "s1_2_1_065",
+     "ko": "프",
+     "tr": "プ",
+     "box_px_orig": [
+      33.5,
+      77.0,
+      15.5,
+      21.0
+     ],
+     "font_px": 33.6,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_066",
+     "ko": "임",
+     "tr": "臨",
+     "box_px_orig": [
+      33.5,
+      138.0,
+      16.5,
+      22.0
+     ],
+     "font_px": 35.2,
+     "scale": 0.72,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_067",
+     "ko": "소",
+     "tr": "小",
+     "box_px_orig": [
+      33.5,
+      162.0,
+      17.0,
+      17.0
+     ],
+     "font_px": 35.9,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_068",
+     "ko": "신규 워크스페이스 생성",
+     "tr": "新規ワークスペース作成",
+     "box_px_orig": [
+      64.5,
+      33.0,
+      134.0,
+      13.5
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_069",
+     "ko": "워크스페이스 이름 *",
+     "tr": "ワークスペース名 *",
+     "box_px_orig": [
+      64.5,
+      86.0,
+      115.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_070",
+     "ko": "예: Oncology 워크스페이스",
+     "tr": "例: Oncology ワークスペース",
+     "box_px_orig": [
+      77.5,
+      116.0,
+      161.0,
+      14.5
+     ],
+     "font_px": 25.6,
+     "scale": 0.921,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_071",
+     "ko": "코드 * (생성 후 변경 불가)",
+     "tr": "コード * (作成後は変更不可)",
+     "box_px_orig": [
+      64.5,
+      158.0,
+      146.5,
+      14.0
+     ],
+     "font_px": 27.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_072",
+     "ko": "예:",
+     "tr": "例:",
+     "box_px_orig": [
+      77.5,
+      188.0,
+      18.0,
+      13.0
+     ],
+     "font_px": 31.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_073",
+     "ko": "주관 기관 *",
+     "tr": "主管機関 *",
+     "box_px_orig": [
+      64.5,
+      230.0,
+      63.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_074",
+     "ko": "선택하세요",
+     "tr": "選択してください",
+     "box_px_orig": [
+      81.5,
+      260.0,
+      63.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_075",
+     "ko": "설명",
+     "tr": "説明",
+     "box_px_orig": [
+      64.5,
+      302.0,
+      24.0,
+      13.5
+     ],
+     "font_px": 25.5,
+     "scale": 0.861,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_076",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      362.0,
+      425.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 22.5,
+     "scale": 0.763,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_077",
+     "ko": "생성",
+     "tr": "作成",
+     "box_px_orig": [
+      436.0,
+      425.0,
+      25.0,
+      14.0
+     ],
+     "font_px": 30.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_2_1_065",
+     "ko": "프",
+     "tr": "プ",
+     "box_px_orig": [
+      33.5,
+      77.0,
+      15.5,
+      21.0
+     ],
+     "font_px": 33.6,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_066",
+     "ko": "임",
+     "tr": "臨",
+     "box_px_orig": [
+      33.5,
+      138.0,
+      16.5,
+      22.0
+     ],
+     "font_px": 35.2,
+     "scale": 0.72,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_067",
+     "ko": "소",
+     "tr": "小",
+     "box_px_orig": [
+      33.5,
+      162.0,
+      17.0,
+      17.0
+     ],
+     "font_px": 35.9,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_076",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      362.0,
+      425.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 22.5,
+     "scale": 0.763,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s2_1_1.png": {
+   "replaced": 29,
+   "segments": [
+    {
+     "id": "s2_1_1_078",
+     "ko": "워크스페이스 관리 / 워크스페이스 상세",
+     "tr": "ワークスペース管理 / ワークスペース詳細",
+     "box_px_orig": [
+      12.0,
+      17.5,
+      204.0,
+      12.0
+     ],
+     "font_px": 25.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_079",
+     "ko": "Training_01 활성",
+     "tr": "Training_01 有効",
+     "box_px_orig": [
+      64.5,
+      73.5,
+      127.0,
+      19.0
+     ],
+     "font_px": 33.4,
+     "scale": 0.941,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_080",
+     "ko": "TRAINING_01 · Demo sample · 생성 2026-10-15T09:15:53.238251Z",
+     "tr": "TRAINING_01 · Demo sample · 作成 2026-10-15T09:15:53.238251Z",
+     "box_px_orig": [
+      37.0,
+      99.0,
+      367.0,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_081",
+     "ko": "교육용 축소 워크스페이스 — Demo sample(RA 골건강) 기반 · 양식 5 · 입력 항목 36(구분 제목 8 별도)",
+     "tr": "教育用の縮小ワークスペース — Demo sample(RA 骨健康)ベース · フォーム5件 · 入力項目36(区分見出し8は別)",
+     "box_px_orig": [
+      37.0,
+      140.0,
+      591.0,
+      14.0
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_082",
+     "ko": "다음 할 일",
+     "tr": "次に行うこと",
+     "box_px_orig": [
+      69.5,
+      213.0,
+      49.0,
+      18.5
+     ],
+     "font_px": 27,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_083",
+     "ko": "운영",
+     "tr": "運用",
+     "box_px_orig": [
+      69.0,
+      229.5,
+      25.0,
+      14.0
+     ],
+     "font_px": 26.4,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_084",
+     "ko": "구성 현황",
+     "tr": "構成状況",
+     "box_px_orig": [
+      12.0,
+      278.5,
+      55.0,
+      14.0
+     ],
+     "font_px": 29.1,
+     "scale": 0.98,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_085",
+     "ko": "워크스페이스 생성",
+     "tr": "ワークスペース作成",
+     "box_px_orig": [
+      25.0,
+      346.0,
+      105.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_086",
+     "ko": "사용자 할당",
+     "tr": "ユーザー割り当て",
+     "box_px_orig": [
+      592.5,
+      346.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_087",
+     "ko": "19명 할당",
+     "tr": "19名 割り当て済み",
+     "box_px_orig": [
+      592.5,
+      371.0,
+      47.5,
+      11.0
+     ],
+     "font_px": 23.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_088",
+     "ko": "전체 프로젝트",
+     "tr": "全プロジェクト",
+     "box_px_orig": [
+      25.5,
+      429.0,
+      68.5,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_089",
+     "ko": "활성 프로젝트",
+     "tr": "有効プロジェクト",
+     "box_px_orig": [
+      592.5,
+      429.0,
+      69.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_090",
+     "ko": "프로젝트 생성",
+     "tr": "プロジェクト作成",
+     "box_px_orig": [
+      56.0,
+      523.0,
+      80.0,
+      14.0
+     ],
+     "font_px": 20.8,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_091",
+     "ko": "사용자 할당 관리",
+     "tr": "ユーザー割り当て管理",
+     "box_px_orig": [
+      210.0,
+      523.0,
+      95.5,
+      13.5
+     ],
+     "font_px": 23.3,
+     "scale": 0.798,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_092",
+     "ko": "워크스페이스 비활성화",
+     "tr": "ワークスペースを無効化",
+     "box_px_orig": [
+      381.0,
+      522.5,
+      132.0,
+      14.0
+     ],
+     "font_px": 25.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_093",
+     "ko": "소속 프로젝트 (18)",
+     "tr": "所属プロジェクト (18)",
+     "box_px_orig": [
+      37.0,
+      596.0,
+      118.0,
+      16.5
+     ],
+     "font_px": 31.4,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_094",
+     "ko": "완료",
+     "tr": "完了",
+     "box_px_orig": [
+      1089.0,
+      318.0,
+      33.0,
+      18.0
+     ],
+     "font_px": 34.7,
+     "scale": 0.861,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_095",
+     "ko": "프로젝트 생성",
+     "tr": "プロジェクト作成",
+     "box_px_orig": [
+      1159.5,
+      346.0,
+      80.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_096",
+     "ko": "18개",
+     "tr": "18件",
+     "box_px_orig": [
+      1159.5,
+      371.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_097",
+     "ko": "총 피험자",
+     "tr": "総被験者数",
+     "box_px_orig": [
+      1160.0,
+      429.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 19.8,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_098",
+     "ko": "운영",
+     "tr": "運用",
+     "box_px_orig": [
+      1727.0,
+      346.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_099",
+     "ko": "할당 사용자",
+     "tr": "割り当てユーザー",
+     "box_px_orig": [
+      1727.0,
+      429.0,
+      58.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_100",
+     "ko": "메타 편집",
+     "tr": "メタ情報の編集",
+     "box_px_orig": [
+      2184.0,
+      82.5,
+      46.5,
+      12.0
+     ],
+     "font_px": 16.3,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_101",
+     "ko": "바로가기 →",
+     "tr": "ショートカット →",
+     "box_px_orig": [
+      2181.0,
+      222.0,
+      69.0,
+      13.5
+     ],
+     "font_px": 20,
+     "scale": 0.68,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_102",
+     "ko": "완료",
+     "tr": "完了",
+     "box_px_orig": [
+      2133.5,
+      282.0,
+      18.0,
+      9.0
+     ],
+     "font_px": 20.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_103",
+     "ko": "지금 할 차례",
+     "tr": "今すぐ実施",
+     "box_px_orig": [
+      2163.5,
+      281.5,
+      62.5,
+      9.5
+     ],
+     "font_px": 22.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_104",
+     "ko": "대기",
+     "tr": "待機中",
+     "box_px_orig": [
+      2251.0,
+      282.0,
+      17.5,
+      9.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.577,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_105",
+     "ko": "지금 할 차례",
+     "tr": "今すぐ実施",
+     "box_px_orig": [
+      2194.0,
+      318.0,
+      62.0,
+      18.0
+     ],
+     "font_px": 26,
+     "scale": 0.939,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_1_1_013",
+     "ko": "완료",
+     "tr": "完了",
+     "box_px_orig": [
+      1656.0,
+      318.0,
+      33.0,
+      18.0
+     ],
+     "font_px": 34.7,
+     "scale": 0.861,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_1_1_090",
+     "ko": "프로젝트 생성",
+     "tr": "プロジェクト作成",
+     "box_px_orig": [
+      56.0,
+      523.0,
+      80.0,
+      14.0
+     ],
+     "font_px": 20.8,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_091",
+     "ko": "사용자 할당 관리",
+     "tr": "ユーザー割り当て管理",
+     "box_px_orig": [
+      210.0,
+      523.0,
+      95.5,
+      13.5
+     ],
+     "font_px": 23.3,
+     "scale": 0.798,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_092",
+     "ko": "워크스페이스 비활성화",
+     "tr": "ワークスペースを無効化",
+     "box_px_orig": [
+      381.0,
+      522.5,
+      132.0,
+      14.0
+     ],
+     "font_px": 25.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_097",
+     "ko": "총 피험자",
+     "tr": "総被験者数",
+     "box_px_orig": [
+      1160.0,
+      429.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 19.8,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_100",
+     "ko": "메타 편집",
+     "tr": "メタ情報の編集",
+     "box_px_orig": [
+      2184.0,
+      82.5,
+      46.5,
+      12.0
+     ],
+     "font_px": 16.3,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_101",
+     "ko": "바로가기 →",
+     "tr": "ショートカット →",
+     "box_px_orig": [
+      2181.0,
+      222.0,
+      69.0,
+      13.5
+     ],
+     "font_px": 20,
+     "scale": 0.68,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_104",
+     "ko": "대기",
+     "tr": "待機中",
+     "box_px_orig": [
+      2251.0,
+      282.0,
+      17.5,
+      9.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.577,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s2_2_1.png": {
+   "replaced": 8,
+   "segments": [
+    {
+     "id": "s2_2_1_106",
+     "ko": "Training_01 활성",
+     "tr": "Training_01 有効",
+     "box_px_orig": [
+      67.5,
+      38.5,
+      124.0,
+      19.0
+     ],
+     "font_px": 32.7,
+     "scale": 0.921,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_107",
+     "ko": "TRAINING_01 · Demo sample · 생성 2026-10-15T09:15:53.238251Z",
+     "tr": "TRAINING_01 · Demo sample · 作成 2026-10-15T09:15:53.238251Z",
+     "box_px_orig": [
+      40.0,
+      64.0,
+      367.0,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_108",
+     "ko": "이름",
+     "tr": "名前",
+     "box_px_orig": [
+      40.5,
+      107.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 29.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_109",
+     "ko": "설명",
+     "tr": "説明",
+     "box_px_orig": [
+      40.5,
+      179.0,
+      24.5,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_110",
+     "ko": "교육용 축소 워크스페이스 — Demo sample(RA 골건강) 기반 · 양식 5 · 입력 항목 36(구분 제목 8 별도)",
+     "tr": "教育用の縮小ワークスペース — Demo sample(RA 骨健康)ベース · フォーム5件 · 入力項目36(区分見出し8は別)",
+     "box_px_orig": [
+      53.0,
+      210.0,
+      591.5,
+      14.5
+     ],
+     "font_px": 27.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_111",
+     "ko": "코드 (변경 불가)",
+     "tr": "コード (変更不可)",
+     "box_px_orig": [
+      40.0,
+      275.0,
+      92.5,
+      14.0
+     ],
+     "font_px": 28.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_112",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      2134.0,
+      47.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 11.6,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_114",
+     "ko": "저장",
+     "tr": "保存",
+     "box_px_orig": [
+      2213.0,
+      47.5,
+      22.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_1_112",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      2134.0,
+      47.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 11.6,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s2_3_1.png": {
+   "replaced": 33,
+   "segments": [
+    {
+     "id": "s2_3_1_115",
+     "ko": "할당 사용자 (요약 · 최대 5명)",
+     "tr": "割り当てユーザー (概要 · 最大5名)",
+     "box_px_orig": [
+      34.5,
+      30.5,
+      164.5,
+      14.5
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_116",
+     "ko": "황민승",
+     "tr": "ファン・ミンスン",
+     "box_px_orig": [
+      27.0,
+      81.0,
+      35.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_117",
+     "ko": "이승준",
+     "tr": "イ・スンジュン",
+     "box_px_orig": [
+      27.5,
+      128.0,
+      34.5,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_118",
+     "ko": "교육 강사",
+     "tr": "研修講師",
+     "box_px_orig": [
+      27.0,
+      176.0,
+      49.5,
+      12.5
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_119",
+     "ko": "교육생 15",
+     "tr": "研修生15",
+     "box_px_orig": [
+      27.0,
+      224.0,
+      51.0,
+      12.5
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_120",
+     "ko": "이두이",
+     "tr": "イ・ドゥイ",
+     "box_px_orig": [
+      27.5,
+      272.0,
+      33.5,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_121",
+     "ko": "전체 보기 →",
+     "tr": "すべて表示 →",
+     "box_px_orig": [
+      2219.0,
+      34.0,
+      55.5,
+      10.0
+     ],
+     "font_px": 22.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_122",
+     "ko": "최근 활동",
+     "tr": "最近のアクティビティ",
+     "box_px_orig": [
+      34.5,
+      349.5,
+      55.0,
+      14.0
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_123",
+     "ko": "프로젝트 수정",
+     "tr": "プロジェクト更新",
+     "box_px_orig": [
+      52.5,
+      387.0,
+      71.5,
+      12.5
+     ],
+     "font_px": 18.6,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_124",
+     "ko": "박하은 2026. 10. 23. 15:51:08",
+     "tr": "パク・ハウン 2026. 10. 23. 15:51:08",
+     "box_px_orig": [
+      53.0,
+      397.5,
+      144.0,
+      19.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_125",
+     "ko": "CRF 정의 수정",
+     "tr": "CRF定義の修正",
+     "box_px_orig": [
+      52.0,
+      440.0,
+      77.0,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_126",
+     "ko": "교육 강사 2026. 10. 23. 15:48:35",
+     "tr": "研修講師 2026. 10. 23. 15:48:35",
+     "box_px_orig": [
+      53.0,
+      460.0,
+      158.0,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_127",
+     "ko": "프로젝트 수정",
+     "tr": "プロジェクト更新",
+     "box_px_orig": [
+      52.5,
+      493.0,
+      71.5,
+      12.5
+     ],
+     "font_px": 18.6,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_128",
+     "ko": "박하은 2026. 10. 23. 15:46:09",
+     "tr": "パク・ハウン 2026. 10. 23. 15:46:09",
+     "box_px_orig": [
+      53.0,
+      513.0,
+      145.5,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_129",
+     "ko": "프로젝트 수정",
+     "tr": "プロジェクト更新",
+     "box_px_orig": [
+      52.5,
+      547.0,
+      71.5,
+      12.5
+     ],
+     "font_px": 18.6,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_130",
+     "ko": "박하은 2026. 10. 23. 15:45:35",
+     "tr": "パク・ハウン 2026. 10. 23. 15:45:35",
+     "box_px_orig": [
+      53.0,
+      566.0,
+      146.0,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_131",
+     "ko": "방문-CRF 매핑 생성",
+     "tr": "来院-CRFマッピング作成",
+     "box_px_orig": [
+      52.5,
+      600.0,
+      105.0,
+      12.5
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_132",
+     "ko": "박하은 2026. 10. 23. 15:45:21",
+     "tr": "パク・ハウン 2026. 10. 23. 15:45:21",
+     "box_px_orig": [
+      53.0,
+      620.0,
+      142.5,
+      10.0
+     ],
+     "font_px": 17.9,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_133",
+     "ko": "방문-CRF 매핑 생성",
+     "tr": "来院-CRFマッピング作成",
+     "box_px_orig": [
+      52.5,
+      653.0,
+      105.0,
+      12.5
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_134",
+     "ko": "박하은 2026. 10. 23. 15:45:21",
+     "tr": "パク・ハウン 2026. 10. 23. 15:45:21",
+     "box_px_orig": [
+      53.0,
+      673.0,
+      142.5,
+      10.0
+     ],
+     "font_px": 17.9,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_135",
+     "ko": "CRF 정의 수정",
+     "tr": "CRF定義の修正",
+     "box_px_orig": [
+      52.0,
+      706.0,
+      77.0,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_136",
+     "ko": "공다인 2026. 10. 23. 15:45:09",
+     "tr": "コン・ダイン 2026. 10. 23. 15:45:09",
+     "box_px_orig": [
+      52.5,
+      714.5,
+      146.5,
+      21.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_137",
+     "ko": "방문 정의 상태 변경",
+     "tr": "来院定義のステータス変更",
+     "box_px_orig": [
+      52.5,
+      759.0,
+      101.0,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_138",
+     "ko": "김현경 2026. 10. 23. 15:44:49",
+     "tr": "キム・ヒョンギョン 2026. 10. 23. 15:44:49",
+     "box_px_orig": [
+      53.0,
+      769.0,
+      145.0,
+      20.0
+     ],
+     "font_px": 23.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_139",
+     "ko": "방문 정의 상태 변경",
+     "tr": "来院定義のステータス変更",
+     "box_px_orig": [
+      52.5,
+      812.0,
+      101.0,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_140",
+     "ko": "김현경 2026. 10. 23. 15:44:33",
+     "tr": "キム・ヒョンギョン 2026. 10. 23. 15:44:33",
+     "box_px_orig": [
+      53.0,
+      822.0,
+      145.5,
+      20.0
+     ],
+     "font_px": 23.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_141",
+     "ko": "방문 정의 상태 변경",
+     "tr": "来院定義のステータス変更",
+     "box_px_orig": [
+      52.5,
+      866.0,
+      101.0,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_142",
+     "ko": "교육생 05",
+     "tr": "研修生05",
+     "box_px_orig": [
+      53.0,
+      885.0,
+      45.5,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_143",
+     "ko": "워크스페이스 삭제",
+     "tr": "ワークスペース削除",
+     "box_px_orig": [
+      56.0,
+      965.5,
+      105.5,
+      14.0
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_144",
+     "ko": "비활성화 상태 + 소속 프로젝트가 전부 구축 단계(SETUP-TESTING)이거나 없을 때만 가능합니다.",
+     "tr": "無効状態 + 所属プロジェクトがすべて構築段階(SETUP-TESTING)であるか、プロジェクトがない場合にのみ可能です。",
+     "box_px_orig": [
+      35.0,
+      992.0,
+      424.5,
+      7.5
+     ],
+     "font_px": 15.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_145",
+     "ko": "워크스페이스와 하위 구성이 물리 삭제되며 되돌릴 수 없습니다.",
+     "tr": "ワークスペースと下位の構成は物理的に削除され、元に戻せません。",
+     "box_px_orig": [
+      464.0,
+      992.0,
+      277.5,
+      7.5
+     ],
+     "font_px": 18.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_146",
+     "ko": "먼저 워크스페이스를 비활성화해야 삭제할 수 있습니다.",
+     "tr": "先にワークスペースを無効化する必要があります。",
+     "box_px_orig": [
+      63.0,
+      1034.5,
+      243.5,
+      11.0
+     ],
+     "font_px": 22.3,
+     "scale": 0.957,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_147",
+     "ko": "워크스페이스 삭제",
+     "tr": "ワークスペース削除",
+     "box_px_orig": [
+      41.0,
+      1067.0,
+      119.0,
+      21.0
+     ],
+     "font_px": 27.6,
+     "scale": 0.78,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_3_1_123",
+     "ko": "프로젝트 수정",
+     "tr": "プロジェクト更新",
+     "box_px_orig": [
+      52.5,
+      387.0,
+      71.5,
+      12.5
+     ],
+     "font_px": 18.6,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_127",
+     "ko": "프로젝트 수정",
+     "tr": "プロジェクト更新",
+     "box_px_orig": [
+      52.5,
+      493.0,
+      71.5,
+      12.5
+     ],
+     "font_px": 18.6,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_129",
+     "ko": "프로젝트 수정",
+     "tr": "プロジェクト更新",
+     "box_px_orig": [
+      52.5,
+      547.0,
+      71.5,
+      12.5
+     ],
+     "font_px": 18.6,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_132",
+     "ko": "박하은 2026. 10. 23. 15:45:21",
+     "tr": "パク・ハウン 2026. 10. 23. 15:45:21",
+     "box_px_orig": [
+      53.0,
+      620.0,
+      142.5,
+      10.0
+     ],
+     "font_px": 17.9,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_134",
+     "ko": "박하은 2026. 10. 23. 15:45:21",
+     "tr": "パク・ハウン 2026. 10. 23. 15:45:21",
+     "box_px_orig": [
+      53.0,
+      673.0,
+      142.5,
+      10.0
+     ],
+     "font_px": 17.9,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_147",
+     "ko": "워크스페이스 삭제",
+     "tr": "ワークスペース削除",
+     "box_px_orig": [
+      41.0,
+      1067.0,
+      119.0,
+      21.0
+     ],
+     "font_px": 27.6,
+     "scale": 0.78,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_1_1.png": {
+   "replaced": 43,
+   "segments": [
+    {
+     "id": "s3_1_1_148",
+     "ko": "워크스페이스 관리",
+     "tr": "ワークスペース管理",
+     "box_px_orig": [
+      11.0,
+      9.0,
+      90.5,
+      11.0
+     ],
+     "font_px": 22,
+     "scale": 0.898,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_149",
+     "ko": "워크스페이스 상세",
+     "tr": "ワークスペース詳細",
+     "box_px_orig": [
+      110.5,
+      9.0,
+      104.5,
+      11.5
+     ],
+     "font_px": 25.5,
+     "scale": 0.917,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_150",
+     "ko": "멤버 관리",
+     "tr": "メンバー管理",
+     "box_px_orig": [
+      237.5,
+      8.5,
+      46.0,
+      12.0
+     ],
+     "font_px": 26.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_151",
+     "ko": "변경 이력",
+     "tr": "変更履歴",
+     "box_px_orig": [
+      179.5,
+      160.5,
+      46.0,
+      12.0
+     ],
+     "font_px": 24.1,
+     "scale": 0.92,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_152",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      61.0,
+      211.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_153",
+     "ko": "이름",
+     "tr": "名前",
+     "box_px_orig": [
+      633.0,
+      211.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_154",
+     "ko": "황민승",
+     "tr": "ファン・ミンスン",
+     "box_px_orig": [
+      633.0,
+      249.0,
+      38.0,
+      13.5
+     ],
+     "font_px": 29.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_155",
+     "ko": "이승준",
+     "tr": "イ・スンジュン",
+     "box_px_orig": [
+      633.5,
+      294.0,
+      37.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_156",
+     "ko": "교육 강사",
+     "tr": "研修講師",
+     "box_px_orig": [
+      633.0,
+      339.0,
+      55.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_157",
+     "ko": "교육생 15",
+     "tr": "研修生15",
+     "box_px_orig": [
+      633.0,
+      384.0,
+      56.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_158",
+     "ko": "이두이",
+     "tr": "イ・ドゥイ",
+     "box_px_orig": [
+      633.5,
+      429.0,
+      37.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_159",
+     "ko": "교육생 13",
+     "tr": "研修生13",
+     "box_px_orig": [
+      633.0,
+      474.0,
+      56.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_160",
+     "ko": "교육생 12",
+     "tr": "研修生12",
+     "box_px_orig": [
+      633.0,
+      519.0,
+      55.5,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_161",
+     "ko": "역할",
+     "tr": "ロール",
+     "box_px_orig": [
+      839.5,
+      210.5,
+      22.0,
+      11.5
+     ],
+     "font_px": 25.1,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_162",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      839.0,
+      247.0,
+      37.0,
+      20.0
+     ],
+     "font_px": 45.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_163",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      839.0,
+      292.0,
+      37.0,
+      20.0
+     ],
+     "font_px": 45.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_164",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      839.0,
+      337.0,
+      37.0,
+      20.0
+     ],
+     "font_px": 45.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_165",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      839.0,
+      382.0,
+      37.0,
+      20.0
+     ],
+     "font_px": 45.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_166",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      839.0,
+      427.0,
+      36.5,
+      20.0
+     ],
+     "font_px": 19.8,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_167",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      839.0,
+      472.0,
+      37.0,
+      20.0
+     ],
+     "font_px": 45.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_168",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      840.0,
+      517.0,
+      36.0,
+      18.0
+     ],
+     "font_px": 43.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_169",
+     "ko": "소속 기관",
+     "tr": "所属機関",
+     "box_px_orig": [
+      975.0,
+      211.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_170",
+     "ko": "연세대학교",
+     "tr": "延世大学校",
+     "box_px_orig": [
+      975.0,
+      249.5,
+      55.0,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_171",
+     "ko": "연세대학교",
+     "tr": "延世大学校",
+     "box_px_orig": [
+      975.0,
+      294.5,
+      55.0,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_172",
+     "ko": "국가임상시험지원재단 (KONECT)",
+     "tr": "国家臨床試験支援財団 (KONECT)",
+     "box_px_orig": [
+      975.0,
+      339.5,
+      165.0,
+      12.5
+     ],
+     "font_px": 23.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_173",
+     "ko": "할당일",
+     "tr": "割り当て日",
+     "box_px_orig": [
+      1399.0,
+      210.5,
+      32.5,
+      11.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_174",
+     "ko": "할당자",
+     "tr": "割り当て者",
+     "box_px_orig": [
+      1850.5,
+      210.5,
+      33.5,
+      11.5
+     ],
+     "font_px": 25,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_175",
+     "ko": "사용자 추가",
+     "tr": "ユーザー追加",
+     "box_px_orig": [
+      2212.5,
+      160.5,
+      59.0,
+      12.0
+     ],
+     "font_px": 22,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_176",
+     "ko": "관리자 지정",
+     "tr": "管理者に指定",
+     "box_px_orig": [
+      2162.0,
+      249.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_177",
+     "ko": "관리자 지정",
+     "tr": "管理者に指定",
+     "box_px_orig": [
+      2162.0,
+      294.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_178",
+     "ko": "관리자 지정",
+     "tr": "管理者に指定",
+     "box_px_orig": [
+      2162.0,
+      339.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_179",
+     "ko": "관리자 지정",
+     "tr": "管理者に指定",
+     "box_px_orig": [
+      2162.0,
+      384.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_180",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      2240.0,
+      250.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_181",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      2240.0,
+      295.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_182",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      2240.0,
+      340.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_183",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      2240.0,
+      385.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_184",
+     "ko": "관리자 지정",
+     "tr": "管理者に指定",
+     "box_px_orig": [
+      2162.0,
+      429.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_185",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      2240.0,
+      430.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_186",
+     "ko": "관리자 지정",
+     "tr": "管理者に指定",
+     "box_px_orig": [
+      2162.0,
+      474.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_187",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      2240.0,
+      475.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_188",
+     "ko": "관리자 지정",
+     "tr": "管理者に指定",
+     "box_px_orig": [
+      2162.0,
+      519.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_189",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      2240.0,
+      520.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "x_s3_1_1_014",
+     "ko": "현재 할당 사용자 (19)",
+     "tr": "現在の割り当てユーザー (19)",
+     "box_px_orig": [
+      11.0,
+      159.5,
+      123.5,
+      14.5
+     ],
+     "font_px": 20.1,
+     "scale": 0.72,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_1_1_155",
+     "ko": "이승준",
+     "tr": "イ・スンジュン",
+     "box_px_orig": [
+      633.5,
+      294.0,
+      37.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_166",
+     "ko": "멤버",
+     "tr": "メンバー",
+     "box_px_orig": [
+      839.0,
+      427.0,
+      36.5,
+      20.0
+     ],
+     "font_px": 19.8,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_175",
+     "ko": "사용자 추가",
+     "tr": "ユーザー追加",
+     "box_px_orig": [
+      2212.5,
+      160.5,
+      59.0,
+      12.0
+     ],
+     "font_px": 22,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "x_s3_1_1_014",
+     "ko": "현재 할당 사용자 (19)",
+     "tr": "現在の割り当てユーザー (19)",
+     "box_px_orig": [
+      11.0,
+      159.5,
+      123.5,
+      14.5
+     ],
+     "font_px": 20.1,
+     "scale": 0.72,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_2_1.png": {
+   "replaced": 29,
+   "segments": [
+    {
+     "id": "s3_2_1_190",
+     "ko": "워크스페이스",
+     "tr": "ワークスペース",
+     "box_px_orig": [
+      4.0,
+      15.0,
+      66.0,
+      11.0
+     ],
+     "font_px": 21.1,
+     "scale": 0.861,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_191",
+     "ko": "Training_01 활성",
+     "tr": "Training_01 有効",
+     "box_px_orig": [
+      56.5,
+      66.5,
+      126.5,
+      19.0
+     ],
+     "font_px": 33.4,
+     "scale": 0.941,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_192",
+     "ko": "TRAINING_01 · Demo sample · 생성 2026-10-15T09:15:53.238251Z",
+     "tr": "TRAINING_01 · Demo sample · 作成 2026-10-15T09:15:53.238251Z",
+     "box_px_orig": [
+      29.0,
+      92.0,
+      367.0,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_193",
+     "ko": "교육용 축소 워크스페이스 — Demo sample(RA 골건강) 기반 · 양식 5 · 입력 항목 36(구분 제목 8 별도)",
+     "tr": "教育用の縮小ワークスペース — Demo sample(RA 骨健康)ベース · フォーム5件 · 入力項目36(区分見出し8は別)",
+     "box_px_orig": [
+      29.0,
+      133.0,
+      591.0,
+      14.0
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_194",
+     "ko": "다음 할 일",
+     "tr": "次に行うこと",
+     "box_px_orig": [
+      61.5,
+      202.0,
+      49.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_195",
+     "ko": "운영",
+     "tr": "運用",
+     "box_px_orig": [
+      61.0,
+      205.5,
+      31.5,
+      27.0
+     ],
+     "font_px": 33.3,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_196",
+     "ko": "구성 현황",
+     "tr": "構成状況",
+     "box_px_orig": [
+      26.0,
+      263.5,
+      55.0,
+      14.0
+     ],
+     "font_px": 29.1,
+     "scale": 0.98,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_197",
+     "ko": "완료",
+     "tr": "完了",
+     "box_px_orig": [
+      91.0,
+      265.0,
+      36.0,
+      12.0
+     ],
+     "font_px": 29.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_198",
+     "ko": "전체 프로젝트",
+     "tr": "全プロジェクト",
+     "box_px_orig": [
+      15.5,
+      314.0,
+      68.5,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_199",
+     "ko": "프로젝트 생성",
+     "tr": "プロジェクト作成",
+     "box_px_orig": [
+      48.0,
+      396.0,
+      80.0,
+      14.0
+     ],
+     "font_px": 20.8,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_200",
+     "ko": "사용자 할당 관리",
+     "tr": "ユーザー割り当て管理",
+     "box_px_orig": [
+      202.0,
+      396.0,
+      95.5,
+      13.5
+     ],
+     "font_px": 23.3,
+     "scale": 0.798,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_201",
+     "ko": "워크스페이스 비활성화",
+     "tr": "ワークスペースを無効化",
+     "box_px_orig": [
+      373.0,
+      395.5,
+      132.0,
+      14.0
+     ],
+     "font_px": 25.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_202",
+     "ko": "활성 프로젝트",
+     "tr": "有効プロジェクト",
+     "box_px_orig": [
+      582.5,
+      314.0,
+      69.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_203",
+     "ko": "변경 이력 조회",
+     "tr": "変更履歴の照会",
+     "box_px_orig": [
+      580.0,
+      396.0,
+      81.5,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_204",
+     "ko": "소속 프로젝트 (18)",
+     "tr": "所属プロジェクト (18)",
+     "box_px_orig": [
+      29.0,
+      469.0,
+      118.0,
+      16.5
+     ],
+     "font_px": 31.4,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_205",
+     "ko": "PRJ명",
+     "tr": "PRJ名",
+     "box_px_orig": [
+      17.0,
+      512.0,
+      34.0,
+      11.0
+     ],
+     "font_px": 26.4,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_206",
+     "ko": "실습-01",
+     "tr": "実習-01",
+     "box_px_orig": [
+      17.5,
+      547.0,
+      45.5,
+      13.5
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_207",
+     "ko": "상태",
+     "tr": "ステータス",
+     "box_px_orig": [
+      495.5,
+      512.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_208",
+     "ko": "설정 중",
+     "tr": "設定中",
+     "box_px_orig": [
+      503.5,
+      549.5,
+      30.0,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_209",
+     "ko": "피험자",
+     "tr": "被験者",
+     "box_px_orig": [
+      766.5,
+      511.5,
+      33.5,
+      11.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_210",
+     "ko": "프로젝트 검색",
+     "tr": "プロジェクトを検索",
+     "box_px_orig": [
+      957.0,
+      472.0,
+      68.0,
+      11.0
+     ],
+     "font_px": 16.1,
+     "scale": 0.663,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_211",
+     "ko": "최종 수정",
+     "tr": "最終更新",
+     "box_px_orig": [
+      952.5,
+      512.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_212",
+     "ko": "총 피험자",
+     "tr": "総被験者数",
+     "box_px_orig": [
+      1150.0,
+      314.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 19.8,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_213",
+     "ko": "할당 사용자 (요약 · 최대 5명)",
+     "tr": "割り当てユーザー (概要 · 最大5名)",
+     "box_px_orig": [
+      1165.5,
+      465.0,
+      182.5,
+      16.5
+     ],
+     "font_px": 31.4,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_214",
+     "ko": "황민승",
+     "tr": "ファン・ミンスン",
+     "box_px_orig": [
+      1158.0,
+      504.5,
+      38.0,
+      14.0
+     ],
+     "font_px": 30.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_215",
+     "ko": "할당 사용자",
+     "tr": "割り当てユーザー",
+     "box_px_orig": [
+      1717.0,
+      314.0,
+      58.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_216",
+     "ko": "메타 편집",
+     "tr": "メタ情報の編集",
+     "box_px_orig": [
+      2176.0,
+      75.5,
+      46.5,
+      12.0
+     ],
+     "font_px": 16.3,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_2_1_217",
+     "ko": "바로가기 →",
+     "tr": "ショートカット →",
+     "box_px_orig": [
+      2173.0,
+      211.0,
+      69.0,
+      13.5
+     ],
+     "font_px": 18.8,
+     "scale": 0.639,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_2_1_218",
+     "ko": "전체 보기 →",
+     "tr": "すべて表示 →",
+     "box_px_orig": [
+      2174.0,
+      468.0,
+      62.5,
+      11.5
+     ],
+     "font_px": 24.6,
+     "scale": 0.98,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_1_195",
+     "ko": "운영",
+     "tr": "運用",
+     "box_px_orig": [
+      61.0,
+      205.5,
+      31.5,
+      27.0
+     ],
+     "font_px": 33.3,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_199",
+     "ko": "프로젝트 생성",
+     "tr": "プロジェクト作成",
+     "box_px_orig": [
+      48.0,
+      396.0,
+      80.0,
+      14.0
+     ],
+     "font_px": 20.8,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_200",
+     "ko": "사용자 할당 관리",
+     "tr": "ユーザー割り当て管理",
+     "box_px_orig": [
+      202.0,
+      396.0,
+      95.5,
+      13.5
+     ],
+     "font_px": 23.3,
+     "scale": 0.798,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_201",
+     "ko": "워크스페이스 비활성화",
+     "tr": "ワークスペースを無効化",
+     "box_px_orig": [
+      373.0,
+      395.5,
+      132.0,
+      14.0
+     ],
+     "font_px": 25.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_210",
+     "ko": "프로젝트 검색",
+     "tr": "プロジェクトを検索",
+     "box_px_orig": [
+      957.0,
+      472.0,
+      68.0,
+      11.0
+     ],
+     "font_px": 16.1,
+     "scale": 0.663,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_212",
+     "ko": "총 피험자",
+     "tr": "総被験者数",
+     "box_px_orig": [
+      1150.0,
+      314.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 19.8,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_216",
+     "ko": "메타 편집",
+     "tr": "メタ情報の編集",
+     "box_px_orig": [
+      2176.0,
+      75.5,
+      46.5,
+      12.0
+     ],
+     "font_px": 16.3,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_2_1_217",
+     "ko": "바로가기 →",
+     "tr": "ショートカット →",
+     "box_px_orig": [
+      2173.0,
+      211.0,
+      69.0,
+      13.5
+     ],
+     "font_px": 18.8,
+     "scale": 0.639,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s3_3_1.png": {
+   "replaced": 25,
+   "segments": [
+    {
+     "id": "s3_3_1_219",
+     "ko": "워크스페이스 대시보드",
+     "tr": "ワークスペースダッシュボード",
+     "box_px_orig": [
+      29.0,
+      19.0,
+      113.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_220",
+     "ko": "신규 프로젝트 생성",
+     "tr": "新規プロジェクト作成",
+     "box_px_orig": [
+      13.0,
+      52.5,
+      155.5,
+      20.0
+     ],
+     "font_px": 42.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_221",
+     "ko": "워크스페이스: Training_01 · 초기 상태:",
+     "tr": "ワークスペース: Training_01 · 初期ステータス:",
+     "box_px_orig": [
+      13.0,
+      84.0,
+      232.0,
+      14.5
+     ],
+     "font_px": 23.4,
+     "scale": 0.821,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_222",
+     "ko": "기본 정보",
+     "tr": "基本情報",
+     "box_px_orig": [
+      38.0,
+      146.0,
+      61.0,
+      16.0
+     ],
+     "font_px": 34.2,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_223",
+     "ko": "프로젝트 코드 * (생성 후 변경 불가)",
+     "tr": "プロジェクトコード * (作成後は変更不可)",
+     "box_px_orig": [
+      38.0,
+      196.0,
+      202.0,
+      14.0
+     ],
+     "font_px": 22.9,
+     "scale": 0.821,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_224",
+     "ko": "예: ONCO-XX-2026",
+     "tr": "例: ONCO-XX-2026",
+     "box_px_orig": [
+      51.0,
+      226.0,
+      130.0,
+      13.0
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_225",
+     "ko": "영문·숫자와 - _ 만 사용 (한글·공백 불가 · 최대 50자)",
+     "tr": "英字・数字と - _ のみ使用 (韓国語・空白は不可 · 最大50文字)",
+     "box_px_orig": [
+      38.0,
+      258.0,
+      234.5,
+      10.0
+     ],
+     "font_px": 21.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_226",
+     "ko": "설명",
+     "tr": "説明",
+     "box_px_orig": [
+      38.5,
+      293.0,
+      31.0,
+      22.0
+     ],
+     "font_px": 32.8,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_227",
+     "ko": "연구 목적·대상·주요 가설",
+     "tr": "研究目的・対象・主な仮説",
+     "box_px_orig": [
+      51.0,
+      324.0,
+      140.5,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_228",
+     "ko": "연구 유형 *",
+     "tr": "研究タイプ *",
+     "box_px_orig": [
+      38.0,
+      392.5,
+      64.0,
+      14.0
+     ],
+     "font_px": 23.7,
+     "scale": 0.782,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_229",
+     "ko": "연구자 주도 (IIT)",
+     "tr": "研究者主導 (IIT)",
+     "box_px_orig": [
+      55.0,
+      423.0,
+      93.5,
+      14.0
+     ],
+     "font_px": 27.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_230",
+     "ko": "시작일 (예상)",
+     "tr": "開始日 (予定)",
+     "box_px_orig": [
+      38.0,
+      469.0,
+      76.0,
+      14.0
+     ],
+     "font_px": 28.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_231",
+     "ko": "연도-월-일",
+     "tr": "年-月-日",
+     "box_px_orig": [
+      52.0,
+      499.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 30.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_233",
+     "ko": "보관 정책·역할 템플릿",
+     "tr": "保管ポリシー・ロールテンプレート",
+     "box_px_orig": [
+      38.0,
+      593.0,
+      145.5,
+      16.0
+     ],
+     "font_px": 33.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_234",
+     "ko": "보관 정책",
+     "tr": "保管ポリシー",
+     "box_px_orig": [
+      38.0,
+      643.0,
+      54.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_235",
+     "ko": "표준 (허가일 + 3년)",
+     "tr": "標準 (承認日 + 3年)",
+     "box_px_orig": [
+      68.0,
+      682.0,
+      112.0,
+      14.0
+     ],
+     "font_px": 27.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_236",
+     "ko": "기타 (종료일 + 3년)",
+     "tr": "その他 (終了日 + 3年)",
+     "box_px_orig": [
+      68.5,
+      728.0,
+      111.5,
+      14.0
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_237",
+     "ko": "초기 역할",
+     "tr": "初期ロール",
+     "box_px_orig": [
+      38.0,
+      774.5,
+      55.0,
+      14.0
+     ],
+     "font_px": 23.2,
+     "scale": 0.781,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_238",
+     "ko": "프로젝트 생성 시 PI·CRC·CRA·DM·Auditor 표준 역할이 서버에서 자동 생성됩니다. 별도 선택은 필요하지 않습니다.",
+     "tr": "プロジェクトを作成すると、標準ロールのPI・CRC・CRA・DM・Auditorがサーバーで自動作成されます。別途選択する必要はありません。",
+     "box_px_orig": [
+      38.0,
+      801.0,
+      519.5,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_239",
+     "ko": "프로젝트명 *",
+     "tr": "プロジェクト名 *",
+     "box_px_orig": [
+      1157.0,
+      196.0,
+      74.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_240",
+     "ko": "예: Phase III ABC Study",
+     "tr": "例: Phase III ABC Study",
+     "box_px_orig": [
+      1170.0,
+      226.0,
+      147.5,
+      14.5
+     ],
+     "font_px": 27.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_241",
+     "ko": "종료일 (예상)",
+     "tr": "終了日 (予定)",
+     "box_px_orig": [
+      1157.0,
+      469.0,
+      76.0,
+      14.0
+     ],
+     "font_px": 28.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_242",
+     "ko": "연도-월-일",
+     "tr": "年-月-日",
+     "box_px_orig": [
+      1171.0,
+      499.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 30.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_244",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      2148.5,
+      870.5,
+      47.5,
+      29.5
+     ],
+     "font_px": 26.4,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_245",
+     "ko": "프로젝트 생성",
+     "tr": "プロジェクト作成",
+     "box_px_orig": [
+      2216.0,
+      878.0,
+      68.0,
+      11.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.742,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_3_1_221",
+     "ko": "워크스페이스: Training_01 · 초기 상태:",
+     "tr": "ワークスペース: Training_01 · 初期ステータス:",
+     "box_px_orig": [
+      13.0,
+      84.0,
+      232.0,
+      14.5
+     ],
+     "font_px": 23.4,
+     "scale": 0.821,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_223",
+     "ko": "프로젝트 코드 * (생성 후 변경 불가)",
+     "tr": "プロジェクトコード * (作成後は変更不可)",
+     "box_px_orig": [
+      38.0,
+      196.0,
+      202.0,
+      14.0
+     ],
+     "font_px": 22.9,
+     "scale": 0.821,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_226",
+     "ko": "설명",
+     "tr": "説明",
+     "box_px_orig": [
+      38.5,
+      293.0,
+      31.0,
+      22.0
+     ],
+     "font_px": 32.8,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_228",
+     "ko": "연구 유형 *",
+     "tr": "研究タイプ *",
+     "box_px_orig": [
+      38.0,
+      392.5,
+      64.0,
+      14.0
+     ],
+     "font_px": 23.7,
+     "scale": 0.782,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_237",
+     "ko": "초기 역할",
+     "tr": "初期ロール",
+     "box_px_orig": [
+      38.0,
+      774.5,
+      55.0,
+      14.0
+     ],
+     "font_px": 23.2,
+     "scale": 0.781,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_244",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      2148.5,
+      870.5,
+      47.5,
+      29.5
+     ],
+     "font_px": 26.4,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_245",
+     "ko": "프로젝트 생성",
+     "tr": "プロジェクト作成",
+     "box_px_orig": [
+      2216.0,
+      878.0,
+      68.0,
+      11.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.742,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_4_1.png": {
+   "replaced": 2,
+   "segments": [
+    {
+     "id": "s3_4_1_246",
+     "ko": "비활성 상태의 워크스페이스입니다.",
+     "tr": "無効状態のワークスペースです。",
+     "box_px_orig": [
+      84.5,
+      70.0,
+      202.0,
+      13.5
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_4_1_247",
+     "ko": "재시도",
+     "tr": "再試行",
+     "box_px_orig": [
+      168.5,
+      108.5,
+      33.0,
+      12.0
+     ],
+     "font_px": 26.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": []
+  }
+ }
+}

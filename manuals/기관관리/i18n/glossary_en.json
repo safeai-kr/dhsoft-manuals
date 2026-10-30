@@ -1,224 +1,620 @@
 [
- {
-  "ko": "기관 관리",
-  "tr": "Institution management",
-  "type": "menu",
-  "note": "좌측 메뉴 이름, 권 제목"
- },
- {
-  "ko": "플랫폼 홈",
-  "tr": "Platform home",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "기관",
-  "tr": "Institution",
-  "type": "term",
-  "note": "용어집의 「기관 (정상범위 단위)=site」는 검사 정상범위 맥락이라 이 권에서는 Institution으로 씀"
- },
- {
-  "ko": "참여 기관",
-  "tr": "participating institution",
-  "type": "term",
-  "note": "프로젝트에 참여하는 기관"
- },
- {
-  "ko": "신규 기관",
-  "tr": "New institution",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "신규 기관 등록",
-  "tr": "Register new institution",
-  "type": "menu",
-  "note": "절 제목과 화면 이름"
- },
- {
-  "ko": "기관 상세",
-  "tr": "Institution details",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "기관 변경 이력",
-  "tr": "Institution change history",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "변경 이력",
-  "tr": "Change history",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "유사 명칭 경고",
-  "tr": "Similar name warning",
-  "type": "label",
-  "note": "절 제목, 실제 UI 문구 확인 필요"
- },
- {
-  "ko": "비활성화 결과",
-  "tr": "Deactivation result",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "집계",
-  "tr": "Summary",
-  "type": "label",
-  "note": "목록 상단 숫자 요약"
- },
- {
-  "ko": "검색",
-  "tr": "Search",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "기관 코드",
-  "tr": "Institution code",
-  "type": "field",
-  "note": "코드 institutionCode는 그대로 둠"
- },
- {
-  "ko": "기관명",
-  "tr": "Institution name",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "영문 명칭",
-  "tr": "English name",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "유형",
-  "tr": "Type",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "국가",
-  "tr": "Country",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "활성 상태",
-  "tr": "Active status",
-  "type": "field",
-  "note": "목록 열과 필터 이름, 실제 UI 문구 확인 필요"
- },
- {
-  "ko": "생성일",
-  "tr": "Created on",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "주소 검색",
-  "tr": "Address search",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "연락·주소",
-  "tr": "Contact and address",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "참여 통계",
-  "tr": "Participation statistics",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "등록",
-  "tr": "Register",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "수정",
-  "tr": "Edit",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "비활성화",
-  "tr": "Deactivate",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "상세 보기",
-  "tr": "View details",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "취소",
-  "tr": "Cancel",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "등록 권한",
-  "tr": "registration permission",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "연구책임자",
-  "tr": "Principal investigator",
-  "type": "term",
-  "note": "약어 PI는 원문에 없어 풀어 씀"
- },
- {
-  "ko": "감사자",
-  "tr": "Auditor",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "작업 종류",
-  "tr": "Action",
-  "type": "field",
-  "note": "변경 이력 필터와 열 이름"
- },
- {
-  "ko": "수행자",
-  "tr": "Performed by",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "기간",
-  "tr": "Period",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "변경 내용",
-  "tr": "Change details",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "메모",
-  "tr": "Memo",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "기본 기간",
-  "tr": "default period",
-  "type": "term",
-  "note": ""
- }
+  {
+    "ko": "기관 관리",
+    "tr": "Institution management",
+    "type": "menu",
+    "note": "좌측 메뉴 이름, 권 제목"
+  },
+  {
+    "ko": "플랫폼 홈",
+    "tr": "Platform home",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "기관",
+    "tr": "Institution",
+    "type": "term",
+    "note": "용어집의 「기관 (정상범위 단위)=site」는 검사 정상범위 맥락이라 이 권에서는 Institution으로 씀"
+  },
+  {
+    "ko": "참여 기관",
+    "tr": "participating institution",
+    "type": "term",
+    "note": "프로젝트에 참여하는 기관"
+  },
+  {
+    "ko": "신규 기관",
+    "tr": "New institution",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "신규 기관 등록",
+    "tr": "Register new institution",
+    "type": "menu",
+    "note": "절 제목과 화면 이름"
+  },
+  {
+    "ko": "기관 상세",
+    "tr": "Institution details",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "기관 변경 이력",
+    "tr": "Institution change history",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "변경 이력",
+    "tr": "Change history",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "유사 명칭 경고",
+    "tr": "Similar name warning",
+    "type": "label",
+    "note": "절 제목, 실제 UI 문구 확인 필요"
+  },
+  {
+    "ko": "비활성화 결과",
+    "tr": "Deactivation result",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "집계",
+    "tr": "Summary",
+    "type": "label",
+    "note": "목록 상단 숫자 요약"
+  },
+  {
+    "ko": "검색",
+    "tr": "Search",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "기관 코드",
+    "tr": "Institution code",
+    "type": "field",
+    "note": "코드 institutionCode는 그대로 둠"
+  },
+  {
+    "ko": "기관명",
+    "tr": "Institution name",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "영문 명칭",
+    "tr": "English name",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "유형",
+    "tr": "Type",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "국가",
+    "tr": "Country",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "활성 상태",
+    "tr": "Active status",
+    "type": "field",
+    "note": "목록 열과 필터 이름, 실제 UI 문구 확인 필요"
+  },
+  {
+    "ko": "생성일",
+    "tr": "Created on",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "주소 검색",
+    "tr": "Address search",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "연락·주소",
+    "tr": "Contact and address",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "참여 통계",
+    "tr": "Participation statistics",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "등록",
+    "tr": "Register",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "수정",
+    "tr": "Edit",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "비활성화",
+    "tr": "Deactivate",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "상세 보기",
+    "tr": "View details",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "취소",
+    "tr": "Cancel",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "등록 권한",
+    "tr": "registration permission",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "연구책임자",
+    "tr": "Principal investigator",
+    "type": "term",
+    "note": "약어 PI는 원문에 없어 풀어 씀"
+  },
+  {
+    "ko": "감사자",
+    "tr": "Auditor",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "작업 종류",
+    "tr": "Action",
+    "type": "field",
+    "note": "변경 이력 필터와 열 이름"
+  },
+  {
+    "ko": "수행자",
+    "tr": "Performed by",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "기간",
+    "tr": "Period",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "변경 내용",
+    "tr": "Change details",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "메모",
+    "tr": "Memo",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "기본 기간",
+    "tr": "default period",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 선택",
+    "tr": "Select workspace",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 선택",
+    "tr": "Select project",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "플랫폼 메뉴",
+    "tr": "Platform menu",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "플랫폼 대시보드",
+    "tr": "Platform dashboard",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "워크스페이스 관리",
+    "tr": "Workspace management",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "사용자 관리",
+    "tr": "User management",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "시스템 설정",
+    "tr": "System settings",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "코드 관리",
+    "tr": "Code management",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "접속 로그",
+    "tr": "Access log",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "운영 이력",
+    "tr": "Operation history",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "내 메뉴",
+    "tr": "My menu",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "내 프로필",
+    "tr": "My profile",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "알림",
+    "tr": "Notifications",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전체 기관",
+    "tr": "All institutions",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "활성",
+    "tr": "Active",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "비활성",
+    "tr": "Inactive",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "기타",
+    "tr": "Other",
+    "type": "value",
+    "note": "image"
+  },
+  {
+    "ko": "병원",
+    "tr": "Hospital",
+    "type": "value",
+    "note": "image"
+  },
+  {
+    "ko": "대학/연구소",
+    "tr": "University/research institute",
+    "type": "value",
+    "note": "image"
+  },
+  {
+    "ko": "국가별 (1국)",
+    "tr": "By country (1 country)",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "연결 SITE 수",
+    "tr": "Connected SITE count",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "전체 국가",
+    "tr": "All countries",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전체 유형",
+    "tr": "All types",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "활성만",
+    "tr": "Active only",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "기관명*",
+    "tr": "Institution name*",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "주소",
+    "tr": "Address",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "활성 상태로 등록",
+    "tr": "Register as active",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "영문 명칭 (nameEn)",
+    "tr": "English name (nameEn)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "KR - 대한민국",
+    "tr": "KR - South Korea",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이미 등록된 유사 명칭이 있습니다",
+    "tr": "A similar name is already registered",
+    "type": "message",
+    "note": "image"
+  },
+  {
+    "ko": "KONECT · 국가임상시험지원재단 (KoNECT) (대한민국)",
+    "tr": "KONECT · National Clinical Trial Support Foundation (KoNECT) (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "DEMO_SAMPLE · Demo sample (대한민국)",
+    "tr": "DEMO_SAMPLE · Demo sample (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "SNU_ENV_001 · 서울대학교 환경공학과 (최경호 교수) (대한민국)",
+    "tr": "SNU_ENV_001 · Department of Environmental Engineering, Seoul National University (Prof. Kyeongho Choi) (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "SEOUL_NATIONAL_UNIV · 서울대학교 (대한민국)",
+    "tr": "SEOUL_NATIONAL_UNIV · Seoul National University (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "UNI-INST-01 · 통합병원 제1기관 (대한민국)",
+    "tr": "UNI-INST-01 · Integrated hospital institution 1 (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "UNI-INST-02 · 통합병원 제2기관 (대한민국)",
+    "tr": "UNI-INST-02 · Integrated hospital institution 2 (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "JEONBUK_UNIV_00 · 전북대학교 (대한민국)",
+    "tr": "JEONBUK_UNIV_00 · Jeonbuk National University (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "BUSAN_UNIV · 부산대학교 (대한민국)",
+    "tr": "BUSAN_UNIV · Busan National University (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "YONSEI_UNIV_00 · 연세대학교 (대한민국)",
+    "tr": "YONSEI_UNIV_00 · Yonsei University (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "JBNU_MEDICAL_LAB01 · 전북대학교 의과대학 (대한민국)",
+    "tr": "JBNU_MEDICAL_LAB01 · Jeonbuk National University College of Medicine (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "BSUH_MEDICAL_LAB01 · 부산대학교 의과대학 (대한민국)",
+    "tr": "BSUH_MEDICAL_LAB01 · Busan National University College of Medicine (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "BSUH_DENTAL_LAB01 · 부산대학교 치과대학 (대한민국)",
+    "tr": "BSUH_DENTAL_LAB01 · Busan National University College of Dentistry (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "YSUH_MEDICAL_LAB01 · 연세대학교 의과대학 (대한민국)",
+    "tr": "YSUH_MEDICAL_LAB01 · Yonsei University College of Medicine (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "JBNUH_DENTAL_LAB01 · 전북대학교 치과대학 (대한민국)",
+    "tr": "JBNUH_DENTAL_LAB01 · Jeonbuk National University College of Dentistry (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "YSUH_DENTAL_LAB01 · 연세대학교 치과대학 소아치과연구소 (대한민국)",
+    "tr": "YSUH_DENTAL_LAB01 · Pediatric Dentistry Research Institute, Yonsei University College of Dentistry (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "INST-003 · 테스트 기관 003 (대한민국)",
+    "tr": "INST-003 · Test institution 003 (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "INST-005 · 테스트 기관 005 (대한민국)",
+    "tr": "INST-005 · Test institution 005 (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "INST-001 · 테스트 기관 001 (대한민국)",
+    "tr": "INST-001 · Test institution 001 (South Korea)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "중복 등록이 아닌지 확인하세요. 저장은 계속 진행할 수 있습니다.",
+    "tr": "Check that this is not a duplicate. You can still continue saving.",
+    "type": "message",
+    "note": "image"
+  },
+  {
+    "ko": "기관 수정",
+    "tr": "Edit institution",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "참조 중 — 변경사항은 즉시 모든 ProjectSite에 반영됩니다",
+    "tr": "Referenced — changes apply to all ProjectSites immediately",
+    "type": "message",
+    "note": "image"
+  },
+  {
+    "ko": "이 기관은 2개 ProjectSite에서 참조 중입니다.",
+    "tr": "This institution is referenced by 2 ProjectSites.",
+    "type": "message",
+    "note": "image"
+  },
+  {
+    "ko": "메타 정보 수정",
+    "tr": "Edit basic information",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "institutionCode * (생성 후 변경 불가)",
+    "tr": "institutionCode * (Cannot be changed after creation)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "저장",
+    "tr": "Save",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트",
+    "tr": "Project",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "최근 수정일",
+    "tr": "Last modified",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "삭제",
+    "tr": "Delete",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "IRB 승인",
+    "tr": "IRB approval",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상태",
+    "tr": "Status",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "UNI-INST-01 · 통합병원 제1기관",
+    "tr": "UNI-INST-01 · Integrated hospital institution 1",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "일시",
+    "tr": "Date and time",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "전체",
+    "tr": "All",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기간 (from)",
+    "tr": "Period (from)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "변경",
+    "tr": "Change",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "기간 (to)",
+    "tr": "Period (to)",
+    "type": "label",
+    "note": "image"
+  }
 ]

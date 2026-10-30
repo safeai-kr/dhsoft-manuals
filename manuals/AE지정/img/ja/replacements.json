@@ -1,0 +1,2138 @@
+{
+ "lang": "ja",
+ "method": "한국어 글자 자리를 바탕색으로 덮고 번역어를 Pretendard(일본어 Pretendard JP)로 다시 그림. 생성형 AI 사용 안 함",
+ "files": {
+  "s1_1_1.png": {
+   "replaced": 11,
+   "segments": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "AE 지정",
+     "tr": "AE指定",
+     "box_px_orig": [
+      27.5,
+      21.0,
+      36.0,
+      10.5
+     ],
+     "font_px": 22.4,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "AE 지정",
+     "tr": "AE指定",
+     "box_px_orig": [
+      52.5,
+      52.0,
+      54.5,
+      16.0
+     ],
+     "font_px": 34.2,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "이상사례 양식에서",
+     "tr": "有害事象フォームで「SAE有無」として使う",
+     "box_px_orig": [
+      28.0,
+      79.0,
+      81.0,
+      10.0
+     ],
+     "font_px": 16.3,
+     "scale": 0.741,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_003",
+     "ko": "「SAE 여부」 로 쓸 필드를 지정합니다. 그 값이 아니오 → 예로 바뀌는 순간 SAE 통보가 나갑니다.",
+     "tr": "フィールドを指定します。その値がいいえ → はいに変わった瞬間に、SAE通知が送られます。",
+     "box_px_orig": [
+      119.0,
+      78.5,
+      426.0,
+      10.5
+     ],
+     "font_px": 21,
+     "scale": 0.959,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004",
+     "ko": "양식",
+     "tr": "フォーム",
+     "box_px_orig": [
+      35.0,
+      116.0,
+      22.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "SAE 여부",
+     "tr": "SAE有無",
+     "box_px_orig": [
+      556.5,
+      116.0,
+      50.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "지정할 양식:",
+     "tr": "指定するフォーム:",
+     "box_px_orig": [
+      61.0,
+      251.0,
+      55.0,
+      10.0
+     ],
+     "font_px": 14.6,
+     "scale": 0.661,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "코드·이름·도메인으로 찾기",
+     "tr": "コード·名前·ドメインで探す",
+     "box_px_orig": [
+      136.0,
+      251.0,
+      115.0,
+      10.0
+     ],
+     "font_px": 21.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_009",
+     "ko": "SAE 여부는 BOOLEAN·SELECT·RADIO 타입 필드에만 지정할 수 있습니다. 지정한 필드가 양식 개정으로 사라지면 그 버전의 발행이 막힙니다.",
+     "tr": "SAE有無はBOOLEAN·SELECT·RADIOタイプのフィールドにのみ指定できます。指定したフィールドがフォームの改訂で消えると、そのバージョンの発行が止まります。",
+     "box_px_orig": [
+      27.0,
+      332.5,
+      590.5,
+      9.5
+     ],
+     "font_px": 20.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "지정된 양식이 없습니다. 아래에서 이상사례 양식을 골라 지정하십시오.",
+     "tr": "指定されたフォームはありません。下からAEフォームを選んで指定してください。",
+     "box_px_orig": [
+      997.0,
+      173.5,
+      362.5,
+      11.5
+     ],
+     "font_px": 25.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "인지일",
+     "tr": "認識日",
+     "box_px_orig": [
+      1451.5,
+      116.0,
+      34.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_1_1_002",
+     "ko": "이상사례 양식에서",
+     "tr": "有害事象フォームで「SAE有無」として使う",
+     "box_px_orig": [
+      28.0,
+      79.0,
+      81.0,
+      10.0
+     ],
+     "font_px": 16.3,
+     "scale": 0.741,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "지정할 양식:",
+     "tr": "指定するフォーム:",
+     "box_px_orig": [
+      61.0,
+      251.0,
+      55.0,
+      10.0
+     ],
+     "font_px": 14.6,
+     "scale": 0.661,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s1_2_1.png": {
+   "replaced": 11,
+   "segments": [
+    {
+     "id": "s1_2_1_012",
+     "ko": "AE 지정 — MED_COMMON",
+     "tr": "AE指定 — MED_COMMON",
+     "box_px_orig": [
+      26.5,
+      34.5,
+      178.0,
+      14.5
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_013",
+     "ko": "「SAE 여부」 로 쓸 필드를 고릅니다. 이 필드가 예로 바뀌는 순간 SAE 통보가 나가 고 추출 필터가 이 축으로 좁혀집니다.",
+     "tr": "「SAE有無」として使うフィールドを選びます。このフィールドがはいに変わった瞬間にSAE通知が送られ、抽出フィルターもこのフィールドで絞り込まれます。",
+     "box_px_orig": [
+      33.0,
+      58.5,
+      358.0,
+      16.5
+     ],
+     "font_px": 20.8,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_015",
+     "ko": "SAE 여부 (필수)",
+     "tr": "SAE有無（必須）",
+     "box_px_orig": [
+      27.0,
+      99.5,
+      83.0,
+      12.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_016",
+     "ko": "선택하세요",
+     "tr": "選択",
+     "box_px_orig": [
+      38.0,
+      126.5,
+      57.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_017",
+     "ko": "예/아니오 또는 단일 선택만 지정할 수 있습니다. 복수 선택은 조건부 표시 판정이 화면과 서버에서 갈려 제외됩니다.",
+     "tr": "はい/いいえまたは単一選択のみ指定できます。複数選択は、条件付き表示の判定が画面とサーバーで分かれるため除外されます。",
+     "box_px_orig": [
+      27.0,
+      154.0,
+      353.5,
+      9.0
+     ],
+     "font_px": 19.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_019",
+     "ko": "인지일 (선택)",
+     "tr": "認識日（任意）",
+     "box_px_orig": [
+      27.0,
+      195.5,
+      67.5,
+      12.5
+     ],
+     "font_px": 25.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_020",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      38.0,
+      222.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_021",
+     "ko": "규제 보고 기한의 기산점이고 SAE 추출의 기간 기준입니다. 지금은 선택이지만 기한 시계· 추출이 열리면 필수가 됩니다.",
+     "tr": "規制報告期限の起算点であり、SAE抽出の期間の基準です。今は任意ですが、期限タイマーと抽出が開かれると必須になります。",
+     "box_px_orig": [
+      27.0,
+      251.0,
+      358.0,
+      9.0
+     ],
+     "font_px": 19.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_023",
+     "ko": "이 양식에 DATE·DATETIME 타입 필드가 없습니다 — 먼저 저작해 주십시오.",
+     "tr": "このフォームにはDATE·DATETIMEタイプのフィールドがありません。先に作成してください。",
+     "box_px_orig": [
+      27.0,
+      283.5,
+      304.0,
+      10.0
+     ],
+     "font_px": 18.5,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_024",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      294.0,
+      324.5,
+      23.0,
+      11.5
+     ],
+     "font_px": 17.4,
+     "scale": 0.662,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_025",
+     "ko": "저장",
+     "tr": "保存",
+     "box_px_orig": [
+      354.0,
+      324.0,
+      23.0,
+      12.0
+     ],
+     "font_px": 26.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_2_1_024",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      294.0,
+      324.5,
+      23.0,
+      11.5
+     ],
+     "font_px": 17.4,
+     "scale": 0.662,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s1_3_1.png": {
+   "replaced": 2,
+   "segments": [
+    {
+     "id": "s1_3_1_026",
+     "ko": "양식",
+     "tr": "フォーム",
+     "box_px_orig": [
+      11.5,
+      18.0,
+      30.5,
+      12.5
+     ],
+     "font_px": 30,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_3_1_027",
+     "ko": "의과 _공통",
+     "tr": "医学共通",
+     "box_px_orig": [
+      101.0,
+      60.0,
+      56.0,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": []
+  },
+  "s1_3_2.png": {
+   "replaced": 3,
+   "segments": [
+    {
+     "id": "s1_3_2_028",
+     "ko": "인지일",
+     "tr": "認識日",
+     "box_px_orig": [
+      115.0,
+      19.0,
+      34.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_3_2_029",
+     "ko": "변경",
+     "tr": "変更",
+     "box_px_orig": [
+      532.5,
+      64.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_3_2_030",
+     "ko": "서식 슬롯",
+     "tr": "報告様式スロット",
+     "box_px_orig": [
+      599.0,
+      60.5,
+      42.5,
+      11.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.66,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_3_2_030",
+     "ko": "서식 슬롯",
+     "tr": "報告様式スロット",
+     "box_px_orig": [
+      599.0,
+      60.5,
+      42.5,
+      11.0
+     ],
+     "font_px": 15.7,
+     "scale": 0.66,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s1_4_1.png": {
+   "replaced": 10,
+   "segments": [
+    {
+     "id": "s1_4_1_032",
+     "ko": "AE 지정 — MED_COMMON",
+     "tr": "AE指定 — MED_COMMON",
+     "box_px_orig": [
+      36.5,
+      36.5,
+      178.0,
+      14.5
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_033",
+     "ko": "「SAE 여부」 로 쓸 필드를 고릅니다. 이 필드가 예로 바뀌는 순간 SAE 통보가 나가 고 추출 필터가 이 축으로 좁혀집니다.",
+     "tr": "「SAE有無」として使うフィールドを選びます。このフィールドがはいに変わった瞬間にSAE通知が送られ、抽出フィルターもこのフィールドで絞り込まれます。",
+     "box_px_orig": [
+      43.0,
+      60.5,
+      358.0,
+      16.5
+     ],
+     "font_px": 20.8,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_035",
+     "ko": "SAE 여부 (필수)",
+     "tr": "SAE有無（必須）",
+     "box_px_orig": [
+      37.0,
+      101.5,
+      83.0,
+      12.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_036",
+     "ko": "예/아니오 또는 단일 선택만 지정할 수 있습니다. 복수 선택은 조건부 표시 판정이 화면과 서버에서 갈려 제외됩니다.",
+     "tr": "はい/いいえまたは単一選択のみ指定できます。複数選択は、条件付き表示の判定が画面とサーバーで分かれるため除外されます。",
+     "box_px_orig": [
+      37.0,
+      156.0,
+      353.5,
+      9.0
+     ],
+     "font_px": 19.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_038",
+     "ko": "인지일 (선택)",
+     "tr": "認識日（任意）",
+     "box_px_orig": [
+      37.0,
+      197.5,
+      67.5,
+      12.5
+     ],
+     "font_px": 25.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_039",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      48.0,
+      224.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_040",
+     "ko": "규제 보고 기한의 기산점이고 SAE 추출의 기간 기준입니다. 지금은 선택이지만 기한 시계· 추출이 열리면 필수가 됩니다.",
+     "tr": "規制報告期限の起算点であり、SAE抽出の期間の基準です。今は任意ですが、期限タイマーと抽出が開かれると必須になります。",
+     "box_px_orig": [
+      37.0,
+      253.0,
+      358.0,
+      9.0
+     ],
+     "font_px": 19.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_042",
+     "ko": "이 양식에 DATE·DATETIME 타입 필드가 없습니다 — 먼저 저작해 주십시오.",
+     "tr": "このフォームにはDATE·DATETIMEタイプのフィールドがありません。先に作成してください。",
+     "box_px_orig": [
+      37.0,
+      285.5,
+      304.0,
+      10.0
+     ],
+     "font_px": 18.5,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_4_1_043",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      304.0,
+      326.5,
+      23.0,
+      11.5
+     ],
+     "font_px": 17.4,
+     "scale": 0.662,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_4_1_044",
+     "ko": "저장",
+     "tr": "保存",
+     "box_px_orig": [
+      364.0,
+      326.0,
+      23.0,
+      12.5
+     ],
+     "font_px": 24,
+     "scale": 0.879,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_4_1_043",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      304.0,
+      326.5,
+      23.0,
+      11.5
+     ],
+     "font_px": 17.4,
+     "scale": 0.662,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s1_5_1.png": {
+   "replaced": 4,
+   "segments": [
+    {
+     "id": "s1_5_1_045",
+     "ko": "AE 지정을 해제합니다",
+     "tr": "AE指定を解除します",
+     "box_px_orig": [
+      42.5,
+      43.0,
+      148.0,
+      16.0
+     ],
+     "font_px": 33.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_5_1_046",
+     "ko": "해제하면 이 양식은 더 이상 AE 양식으로 취급되지 않습니다 — SAE 통보와 추출 필터가 함께 멈춥니다. 지정된 서식 슬롯 1건도 함께 해제됩니다.",
+     "tr": "解除すると、このフォームはAEフォームとして扱われなくなります。SAE通知と抽出フィルターも同時に止まります。指定された報告様式スロット1件も一緒に解除されます。",
+     "box_px_orig": [
+      43.0,
+      72.5,
+      411.5,
+      20.5
+     ],
+     "font_px": 22.2,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_5_1_048",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      360.5,
+      129.5,
+      22.5,
+      11.5
+     ],
+     "font_px": 11.3,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_5_1_049",
+     "ko": "해제",
+     "tr": "解除",
+     "box_px_orig": [
+      420.0,
+      129.0,
+      23.0,
+      12.5
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_5_1_046",
+     "ko": "해제하면 이 양식은 더 이상 AE 양식으로 취급되지 않습니다 — SAE 통보와 추출 필터가 함께 멈춥니다. 지정된 서식 슬롯 1건도 함께 해제됩니다.",
+     "tr": "解除すると、このフォームはAEフォームとして扱われなくなります。SAE通知と抽出フィルターも同時に止まります。指定された報告様式スロット1件も一緒に解除されます。",
+     "box_px_orig": [
+      43.0,
+      72.5,
+      411.5,
+      20.5
+     ],
+     "font_px": 22.2,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_5_1_048",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      360.5,
+      129.5,
+      22.5,
+      11.5
+     ],
+     "font_px": 11.3,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s2_1_1.png": {
+   "replaced": 18,
+   "segments": [
+    {
+     "id": "s2_1_1_050",
+     "ko": "서식 슬롯 지정 — MED_COMMON",
+     "tr": "報告様式スロット指定 — MED_COMMON",
+     "box_px_orig": [
+      50.5,
+      32.5,
+      215.0,
+      14.5
+     ],
+     "font_px": 30.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_051",
+     "ko": "중대이상사례 보고서 (예시 서식) 의 칸을 이 양식의 필드로 채웁니다. 지정하지 않은 칸은 공란으로 출력되고, 지정하지 않은 CRF 값은 부록에 실립니다.",
+     "tr": "重篤な有害事象報告書（例示様式）の欄を、このフォームのフィールドで埋めます。指定しなかった欄は空欄で出力され、指定しなかったCRFの値は付録に掲載されます。",
+     "box_px_orig": [
+      29.0,
+      57.0,
+      563.0,
+      17.0
+     ],
+     "font_px": 23.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_053",
+     "ko": "피험자 정보",
+     "tr": "被験者情報",
+     "box_px_orig": [
+      29.0,
+      100.0,
+      51.5,
+      10.0
+     ],
+     "font_px": 21.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_054",
+     "ko": "피험자 식별번호",
+     "tr": "被験者識別番号",
+     "box_px_orig": [
+      58.5,
+      124.0,
+      72.0,
+      10.5
+     ],
+     "font_px": 22.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_055",
+     "ko": "시스템이 채웁니다 (피험자·과제·기관 정보)",
+     "tr": "システムが入力します（被験者·課題·機関情報）",
+     "box_px_orig": [
+      59.0,
+      138.0,
+      171.0,
+      9.0
+     ],
+     "font_px": 19,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_056",
+     "ko": "이니셜",
+     "tr": "イニシャル",
+     "box_px_orig": [
+      59.0,
+      163.0,
+      28.5,
+      10.5
+     ],
+     "font_px": 11.9,
+     "scale": 0.52,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_057",
+     "ko": "시스템이 채웁니다 (피험자·과제·기관 정보)",
+     "tr": "システムが入力します（被験者·課題·機関情報）",
+     "box_px_orig": [
+      59.0,
+      178.0,
+      171.0,
+      9.0
+     ],
+     "font_px": 19,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_058",
+     "ko": "성별",
+     "tr": "性別",
+     "box_px_orig": [
+      59.0,
+      203.0,
+      18.5,
+      10.5
+     ],
+     "font_px": 19.3,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_059",
+     "ko": "시스템이 채웁니다 (피험자·과제·기관 정보)",
+     "tr": "システムが入力します（被験者·課題·機関情報）",
+     "box_px_orig": [
+      59.0,
+      217.0,
+      171.0,
+      9.0
+     ],
+     "font_px": 19,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_060",
+     "ko": "출생연도",
+     "tr": "出生年",
+     "box_px_orig": [
+      59.0,
+      242.0,
+      39.0,
+      10.5
+     ],
+     "font_px": 22.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_061",
+     "ko": "시스템이 채웁니다 (피험자·과제·기관 정보)",
+     "tr": "システムが入力します（被験者·課題·機関情報）",
+     "box_px_orig": [
+      59.0,
+      256.0,
+      171.0,
+      9.0
+     ],
+     "font_px": 19,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_062",
+     "ko": "이상사례",
+     "tr": "有害事象",
+     "box_px_orig": [
+      29.0,
+      290.0,
+      38.5,
+      10.0
+     ],
+     "font_px": 20.4,
+     "scale": 0.923,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_063",
+     "ko": "중대성 여부 f_0002",
+     "tr": "重篤性の有無 f_0002",
+     "box_px_orig": [
+      58.5,
+      315.0,
+      97.5,
+      17.0
+     ],
+     "font_px": 21.5,
+     "scale": 0.821,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_064",
+     "ko": "AE 지정에서 관리합니다",
+     "tr": "AE指定で管理します",
+     "box_px_orig": [
+      58.5,
+      329.0,
+      99.0,
+      9.0
+     ],
+     "font_px": 19.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_065",
+     "ko": "인지일",
+     "tr": "認識日",
+     "box_px_orig": [
+      58.5,
+      354.0,
+      29.0,
+      10.5
+     ],
+     "font_px": 23,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_066",
+     "ko": "AE 지정에서 관리합니다",
+     "tr": "AE指定で管理します",
+     "box_px_orig": [
+      58.5,
+      369.0,
+      99.0,
+      9.0
+     ],
+     "font_px": 19.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_067",
+     "ko": "이상사례명",
+     "tr": "有害事象名",
+     "box_px_orig": [
+      41.0,
+      394.0,
+      48.0,
+      10.5
+     ],
+     "font_px": 20.2,
+     "scale": 0.882,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_068",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      419.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_1_1_056",
+     "ko": "이니셜",
+     "tr": "イニシャル",
+     "box_px_orig": [
+      59.0,
+      163.0,
+      28.5,
+      10.5
+     ],
+     "font_px": 11.9,
+     "scale": 0.52,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_058",
+     "ko": "성별",
+     "tr": "性別",
+     "box_px_orig": [
+      59.0,
+      203.0,
+      18.5,
+      10.5
+     ],
+     "font_px": 19.3,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_063",
+     "ko": "중대성 여부 f_0002",
+     "tr": "重篤性の有無 f_0002",
+     "box_px_orig": [
+      58.5,
+      315.0,
+      97.5,
+      17.0
+     ],
+     "font_px": 21.5,
+     "scale": 0.821,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s2_2_1.png": {
+   "replaced": 20,
+   "segments": [
+    {
+     "id": "s2_2_1_070",
+     "ko": "발현일 ONSET_DATE",
+     "tr": "発現日 ONSET_DATE",
+     "box_px_orig": [
+      41.0,
+      16.0,
+      95.5,
+      18.0
+     ],
+     "font_px": 20.7,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_071",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      41.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_072",
+     "ko": "이 칸에 지정 가능한 필드 형식이 이 양식에 없습니다 (DATETIME·DATE 필요)",
+     "tr": "この欄に指定できるフィールド形式がこのフォームにありません（DATETIME·DATEが必要）",
+     "box_px_orig": [
+      41.0,
+      69.5,
+      309.5,
+      10.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_073",
+     "ko": "종료일",
+     "tr": "終了日",
+     "box_px_orig": [
+      40.5,
+      96.0,
+      29.0,
+      10.5
+     ],
+     "font_px": 23,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_074",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      122.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_075",
+     "ko": "이 칸에 지정 가능한 필드 형식이 이 양식에 없습니다 (DATETIME·DATE 필요)",
+     "tr": "この欄に指定できるフィールド形式がこのフォームにありません（DATETIME·DATEが必要）",
+     "box_px_orig": [
+      41.0,
+      149.5,
+      309.5,
+      10.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_076",
+     "ko": "지속 여부",
+     "tr": "持続の有無",
+     "box_px_orig": [
+      40.5,
+      177.0,
+      42.0,
+      10.0
+     ],
+     "font_px": 19.7,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_077",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      203.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_078",
+     "ko": "중대성 기준",
+     "tr": "重篤性基準",
+     "box_px_orig": [
+      41.0,
+      239.0,
+      51.5,
+      10.5
+     ],
+     "font_px": 21.6,
+     "scale": 0.939,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_079",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      265.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_080",
+     "ko": "중증도",
+     "tr": "重症度",
+     "box_px_orig": [
+      40.5,
+      301.0,
+      29.5,
+      10.5
+     ],
+     "font_px": 20.8,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_081",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      327.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_082",
+     "ko": "결과",
+     "tr": "転帰",
+     "box_px_orig": [
+      41.0,
+      363.0,
+      19.5,
+      10.5
+     ],
+     "font_px": 23,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_083",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      389.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_084",
+     "ko": "인과관계 평가",
+     "tr": "因果関係評価",
+     "box_px_orig": [
+      29.0,
+      435.0,
+      62.0,
+      10.0
+     ],
+     "font_px": 22,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_085",
+     "ko": "의심 시험약·기기",
+     "tr": "疑われる治験薬·機器",
+     "box_px_orig": [
+      41.0,
+      459.0,
+      73.0,
+      10.5
+     ],
+     "font_px": 17.7,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_086",
+     "ko": "지정 안 함",
+     "tr": "指定なし",
+     "box_px_orig": [
+      52.0,
+      485.0,
+      52.0,
+      12.5
+     ],
+     "font_px": 27.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_087",
+     "ko": "인과관계 판정",
+     "tr": "因果関係判定",
+     "box_px_orig": [
+      40.5,
+      521.0,
+      61.5,
+      10.5
+     ],
+     "font_px": 23,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_088",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      498.0,
+      562.5,
+      22.5,
+      11.5
+     ],
+     "font_px": 17.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_089",
+     "ko": "저장",
+     "tr": "保存",
+     "box_px_orig": [
+      558.0,
+      562.0,
+      23.0,
+      12.5
+     ],
+     "font_px": 24,
+     "scale": 0.879,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_1_072",
+     "ko": "이 칸에 지정 가능한 필드 형식이 이 양식에 없습니다 (DATETIME·DATE 필요)",
+     "tr": "この欄に指定できるフィールド形式がこのフォームにありません（DATETIME·DATEが必要）",
+     "box_px_orig": [
+      41.0,
+      69.5,
+      309.5,
+      10.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_075",
+     "ko": "이 칸에 지정 가능한 필드 형식이 이 양식에 없습니다 (DATETIME·DATE 필요)",
+     "tr": "この欄に指定できるフィールド形式がこのフォームにありません（DATETIME·DATEが必要）",
+     "box_px_orig": [
+      41.0,
+      149.5,
+      309.5,
+      10.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_085",
+     "ko": "의심 시험약·기기",
+     "tr": "疑われる治験薬·機器",
+     "box_px_orig": [
+      41.0,
+      459.0,
+      73.0,
+      10.5
+     ],
+     "font_px": 17.7,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_088",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      498.0,
+      562.5,
+      22.5,
+      11.5
+     ],
+     "font_px": 17.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_1_1.png": {
+   "replaced": 16,
+   "segments": [
+    {
+     "id": "s3_1_1_090",
+     "ko": "대시보드 /",
+     "tr": "ダッシュボード /",
+     "box_px_orig": [
+      27.0,
+      15.0,
+      51.5,
+      10.0
+     ],
+     "font_px": 23.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_091",
+     "ko": "DataForm 설계",
+     "tr": "DataForm設計",
+     "box_px_orig": [
+      86.5,
+      15.0,
+      69.5,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_092",
+     "ko": "/ LAB 정상범위",
+     "tr": "/ LAB正常範囲",
+     "box_px_orig": [
+      164.0,
+      15.0,
+      74.5,
+      10.5
+     ],
+     "font_px": 23.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_093",
+     "ko": "LAB 정상범위",
+     "tr": "LAB正常範囲",
+     "box_px_orig": [
+      52.5,
+      46.0,
+      93.5,
+      16.0
+     ],
+     "font_px": 32.8,
+     "scale": 0.959,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_094",
+     "ko": "검사 항목별 정상범위를 기관 × 성별 × 연령 단위로 저작합니다. 저장 이후 입력되는 검사값은 이 범위로 자동 판정됩니다.",
+     "tr": "検査項目ごとの正常範囲を機関 × 性別 × 年齢の単位で作成します。保存後に入力される検査値は、この範囲で自動判定されます。",
+     "box_px_orig": [
+      27.0,
+      76.0,
+      527.0,
+      10.0
+     ],
+     "font_px": 19,
+     "scale": 0.88,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_095",
+     "ko": "저장해도 이미 입력된 값의 판정은 바뀌지 않습니다 — 재판정은 별 동작입니다(아래",
+     "tr": "保存しても、入力済みの値の判定は変わりません。再判定は別の操作です（下記",
+     "box_px_orig": [
+      38.0,
+      105.5,
+      379.0,
+      11.0
+     ],
+     "font_px": 22.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_096",
+     "ko": "「정상범위 재판정」). 규제 데이터가 사용자 모르게 대량 변경되지 않도록 한 결정입니다.",
+     "tr": "「正常範囲再判定」）。規制データがユーザーの知らないうちに大量に変わらないよう、そう決めています。",
+     "box_px_orig": [
+      426.5,
+      105.5,
+      382.0,
+      11.0
+     ],
+     "font_px": 21.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_097",
+     "ko": "정상범위",
+     "tr": "正常範囲",
+     "box_px_orig": [
+      1103.0,
+      150.0,
+      45.5,
+      12.5
+     ],
+     "font_px": 27.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_098",
+     "ko": "바인딩 개관 (O)",
+     "tr": "バインディング概要 (O)",
+     "box_px_orig": [
+      1171.5,
+      150.5,
+      79.5,
+      12.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_099",
+     "ko": "기관",
+     "tr": "機関",
+     "box_px_orig": [
+      26.5,
+      189.5,
+      20.0,
+      10.5
+     ],
+     "font_px": 23,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_100",
+     "ko": "양식",
+     "tr": "フォーム",
+     "box_px_orig": [
+      267.5,
+      189.5,
+      20.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_101",
+     "ko": "선택하세요",
+     "tr": "選択",
+     "box_px_orig": [
+      42.0,
+      216.0,
+      57.5,
+      12.5
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_102",
+     "ko": "선택하세요",
+     "tr": "選択",
+     "box_px_orig": [
+      283.0,
+      216.0,
+      57.5,
+      12.5
+     ],
+     "font_px": 27.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_103",
+     "ko": "행 추가",
+     "tr": "行追加",
+     "box_px_orig": [
+      546.5,
+      215.5,
+      37.5,
+      11.5
+     ],
+     "font_px": 25.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_104",
+     "ko": "일괄 등록",
+     "tr": "一括登録",
+     "box_px_orig": [
+      647.5,
+      215.5,
+      48.5,
+      11.5
+     ],
+     "font_px": 25.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_105",
+     "ko": "기관과 양식을 고르면 저작된 정상범위가 표시됩니다.",
+     "tr": "機関とフォームを選ぶと、作成された正常範囲が表示されます。",
+     "box_px_orig": [
+      1041.0,
+      277.5,
+      272.5,
+      11.5
+     ],
+     "font_px": 22.8,
+     "scale": 0.898,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    }
+   ],
+   "flags": []
+  }
+ }
+}

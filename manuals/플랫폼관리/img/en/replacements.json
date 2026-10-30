@@ -1,0 +1,7434 @@
+{
+ "lang": "en",
+ "method": "한국어 글자 자리를 바탕색으로 덮고 번역어를 Pretendard(일본어 Pretendard JP)로 다시 그림. 생성형 AI 사용 안 함",
+ "files": {
+  "s1_1_1.png": {
+   "replaced": 79,
+   "segments": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "프로젝트 선택",
+     "tr": "Select project",
+     "box_px_orig": [
+      13.5,
+      2.5,
+      265.5,
+      45.5
+     ],
+     "font_px": 85.6,
+     "scale": 0.859,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "워크스페이스 선택",
+     "tr": "Select workspace",
+     "box_px_orig": [
+      176.0,
+      2.0,
+      135.0,
+      35.0
+     ],
+     "font_px": 33.8,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "플랫폼 메뉴",
+     "tr": "Platform menu",
+     "box_px_orig": [
+      22.0,
+      115.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_003",
+     "ko": "플랫폼 대시보드",
+     "tr": "Platform dashboard",
+     "box_px_orig": [
+      46.0,
+      149.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004",
+     "ko": "기관 관리",
+     "tr": "Institution management",
+     "box_px_orig": [
+      46.5,
+      183.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "워크스페이스 관리",
+     "tr": "Workspace management",
+     "box_px_orig": [
+      46.0,
+      217.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      46.0,
+      251.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "시스템 설정",
+     "tr": "System settings",
+     "box_px_orig": [
+      46.0,
+      285.0,
+      67.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "코드 관리",
+     "tr": "Code management",
+     "box_px_orig": [
+      46.0,
+      319.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_009",
+     "ko": "접속 로그",
+     "tr": "Access log",
+     "box_px_orig": [
+      46.5,
+      353.0,
+      54.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "운영 이력",
+     "tr": "Operation history",
+     "box_px_orig": [
+      46.0,
+      387.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "내 메뉴",
+     "tr": "My menu",
+     "box_px_orig": [
+      22.5,
+      423.0,
+      41.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "내 프로필",
+     "tr": "My profile",
+     "box_px_orig": [
+      47.0,
+      457.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      46.5,
+      491.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_014",
+     "ko": "시스템 설정",
+     "tr": "System settings",
+     "box_px_orig": [
+      254.0,
+      84.5,
+      95.5,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_015",
+     "ko": "보안·세션·파일·알림 등 시스템 운영 정책 관리",
+     "tr": "Manage system operation policies such as security, session, file and notification",
+     "box_px_orig": [
+      254.5,
+      112.0,
+      256.0,
+      13.0
+     ],
+     "font_px": 14.2,
+     "scale": 0.5,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_016",
+     "ko": "※ 변경 이력은 운영 이력에 기록됩니다.",
+     "tr": "※ Changes are recorded in the operation history.",
+     "box_px_orig": [
+      255.0,
+      136.0,
+      178.0,
+      10.0
+     ],
+     "font_px": 22.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_017",
+     "ko": "전체",
+     "tr": "All",
+     "box_px_orig": [
+      259.0,
+      170.5,
+      78.5,
+      33.0
+     ],
+     "font_px": 79.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_018",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      361.5,
+      181.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_019",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      407.5,
+      181.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 17.9,
+     "scale": 0.702,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_020",
+     "ko": "파일",
+     "tr": "File",
+     "box_px_orig": [
+      453.5,
+      181.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_021",
+     "ko": "일반",
+     "tr": "General",
+     "box_px_orig": [
+      500.0,
+      181.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_022",
+     "ko": "편집 가능 여부",
+     "tr": "Editable status",
+     "box_px_orig": [
+      267.0,
+      239.0,
+      72.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_023",
+     "ko": "전체",
+     "tr": "All",
+     "box_px_orig": [
+      284.5,
+      268.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_024",
+     "ko": "설정",
+     "tr": "Setting",
+     "box_px_orig": [
+      267.5,
+      333.0,
+      20.5,
+      11.0
+     ],
+     "font_px": 12.7,
+     "scale": 0.523,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_025",
+     "ko": "로그인 실패 잠금 임계값",
+     "tr": "Login failure lock threshold",
+     "box_px_orig": [
+      267.0,
+      365.5,
+      119.0,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_026",
+     "ko": "비밀번호 만료 일수",
+     "tr": "Password expiry (days)",
+     "box_px_orig": [
+      267.5,
+      414.5,
+      93.5,
+      12.0
+     ],
+     "font_px": 26.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_027",
+     "ko": "비밀번호 변경 유예 최대 횟수",
+     "tr": "Max. password change grace count",
+     "box_px_orig": [
+      267.5,
+      463.5,
+      143.5,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_028",
+     "ko": "최대 세션 수명 (시간)",
+     "tr": "Max. session lifetime (hours)",
+     "box_px_orig": [
+      267.0,
+      512.5,
+      104.5,
+      12.5
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_029",
+     "ko": "이메일 알림 전역 토글",
+     "tr": "Global email notification toggle",
+     "box_px_orig": [
+      267.0,
+      561.5,
+      108.0,
+      12.0
+     ],
+     "font_px": 15.2,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_030",
+     "ko": "동시 세션 최대 수",
+     "tr": "Max. concurrent sessions",
+     "box_px_orig": [
+      267.0,
+      610.5,
+      86.0,
+      12.0
+     ],
+     "font_px": 26.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_031",
+     "ko": "remember-me 유지 일수 (미구현 기능)",
+     "tr": "Remember-me retention days (not implemented)",
+     "box_px_orig": [
+      267.0,
+      659.5,
+      197.5,
+      12.5
+     ],
+     "font_px": 24,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_032",
+     "ko": "강제 발송 이벤트 유형 (JSON)",
+     "tr": "Forced send event types (JSON)",
+     "box_px_orig": [
+      267.0,
+      708.5,
+      151.5,
+      11.5
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_033",
+     "ko": "유휴 세션 타임아웃 (분)",
+     "tr": "Idle session timeout (minutes)",
+     "box_px_orig": [
+      267.0,
+      757.5,
+      115.5,
+      12.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_034",
+     "ko": "검색",
+     "tr": "Search",
+     "box_px_orig": [
+      832.0,
+      239.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 25.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_035",
+     "ko": "설정 키 또는 설명 (부분 일치)",
+     "tr": "Setting key or description (partial match)",
+     "box_px_orig": [
+      796.0,
+      258.0,
+      221.0,
+      34.0
+     ],
+     "font_px": 41,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_036",
+     "ko": "카테고리",
+     "tr": "Category",
+     "box_px_orig": [
+      989.0,
+      333.0,
+      43.0,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_037",
+     "ko": "보안",
+     "tr": "Security",
+     "box_px_orig": [
+      989.0,
+      374.0,
+      22.0,
+      11.5
+     ],
+     "font_px": 25.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_038",
+     "ko": "보안",
+     "tr": "Security",
+     "box_px_orig": [
+      989.0,
+      423.0,
+      22.0,
+      11.5
+     ],
+     "font_px": 25.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_039",
+     "ko": "보안",
+     "tr": "Security",
+     "box_px_orig": [
+      989.0,
+      472.0,
+      22.0,
+      11.5
+     ],
+     "font_px": 25.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_040",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      520.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      989.0,
+      569.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 11.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_042",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      618.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_043",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      667.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_044",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      989.0,
+      716.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 11.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_045",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      765.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_046",
+     "ko": "현재 값",
+     "tr": "Current value",
+     "box_px_orig": [
+      1210.5,
+      333.0,
+      36.0,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_047",
+     "ko": "사용",
+     "tr": "Enabled",
+     "box_px_orig": [
+      1210.5,
+      569.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_048",
+     "ko": "타입",
+     "tr": "Type",
+     "box_px_orig": [
+      1504.0,
+      333.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 25.7,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_049",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      1497.0,
+      370.0,
+      36.0,
+      21.0
+     ],
+     "font_px": 45.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_050",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      1497.0,
+      419.0,
+      36.0,
+      21.0
+     ],
+     "font_px": 45.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_051",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      1497.0,
+      468.0,
+      36.0,
+      21.0
+     ],
+     "font_px": 45.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_052",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      1497.0,
+      517.0,
+      36.0,
+      21.0
+     ],
+     "font_px": 45.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_053",
+     "ko": "참/거짓",
+     "tr": "True/False",
+     "box_px_orig": [
+      1489.0,
+      566.0,
+      51.0,
+      21.0
+     ],
+     "font_px": 37.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_054",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      1497.0,
+      615.0,
+      36.0,
+      21.0
+     ],
+     "font_px": 45.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_055",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      1497.0,
+      664.0,
+      36.0,
+      21.0
+     ],
+     "font_px": 45.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_056",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      1497.0,
+      762.0,
+      36.0,
+      21.0
+     ],
+     "font_px": 45.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_057",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      1740.5,
+      333.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_058",
+     "ko": "잠김",
+     "tr": "Locked",
+     "box_px_orig": [
+      1734.5,
+      373.0,
+      34.0,
+      12.0
+     ],
+     "font_px": 29.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_059",
+     "ko": "잠김",
+     "tr": "Locked",
+     "box_px_orig": [
+      1734.5,
+      422.0,
+      34.0,
+      12.0
+     ],
+     "font_px": 29.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_060",
+     "ko": "잠김",
+     "tr": "Locked",
+     "box_px_orig": [
+      1734.5,
+      471.0,
+      34.0,
+      12.0
+     ],
+     "font_px": 29.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_061",
+     "ko": "편집 가능",
+     "tr": "Editable",
+     "box_px_orig": [
+      1728.0,
+      521.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 25.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 2,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_063",
+     "ko": "편집 가능",
+     "tr": "Editable",
+     "box_px_orig": [
+      1728.0,
+      570.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_064",
+     "ko": "잠김",
+     "tr": "Locked",
+     "box_px_orig": [
+      1734.5,
+      618.0,
+      34.0,
+      12.0
+     ],
+     "font_px": 29.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_065",
+     "ko": "편집 가능",
+     "tr": "Editable",
+     "box_px_orig": [
+      1728.0,
+      668.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_066",
+     "ko": "편집 가능",
+     "tr": "Editable",
+     "box_px_orig": [
+      1728.0,
+      717.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_067",
+     "ko": "편집 가능",
+     "tr": "Editable",
+     "box_px_orig": [
+      1728.0,
+      766.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_068",
+     "ko": "최종 수정 (KST)",
+     "tr": "Last modified (KST)",
+     "box_px_orig": [
+      1879.5,
+      333.0,
+      78.5,
+      11.5
+     ],
+     "font_px": 23.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_069",
+     "ko": "초기화",
+     "tr": "Reset",
+     "box_px_orig": [
+      2467.0,
+      270.5,
+      33.0,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_070",
+     "ko": "액션",
+     "tr": "Actions",
+     "box_px_orig": [
+      2491.0,
+      333.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 11.9,
+     "scale": 0.478,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_071",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2479.0,
+      374.0,
+      20.0,
+      11.0
+     ],
+     "font_px": 23.4,
+     "scale": 0.959,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_072",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2479.0,
+      423.0,
+      20.0,
+      11.0
+     ],
+     "font_px": 23.4,
+     "scale": 0.959,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_073",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2479.0,
+      472.0,
+      20.0,
+      11.0
+     ],
+     "font_px": 23.4,
+     "scale": 0.959,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_074",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2467.0,
+      511.0,
+      46.0,
+      30.5
+     ],
+     "font_px": 53.8,
+     "scale": 0.879,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_075",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2478.0,
+      569.5,
+      21.5,
+      12.0
+     ],
+     "font_px": 25.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_076",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2479.0,
+      619.0,
+      20.0,
+      11.0
+     ],
+     "font_px": 23.4,
+     "scale": 0.959,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_077",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2478.0,
+      658.0,
+      35.0,
+      30.5
+     ],
+     "font_px": 41,
+     "scale": 0.882,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_078",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2465.0,
+      707.0,
+      48.0,
+      32.0
+     ],
+     "font_px": 62.6,
+     "scale": 0.981,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_079",
+     "ko": "편집",
+     "tr": "Edit",
+     "box_px_orig": [
+      2478.0,
+      765.5,
+      21.5,
+      12.0
+     ],
+     "font_px": 25.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_1_1_001",
+     "ko": "워크스페이스 선택",
+     "tr": "Select workspace",
+     "box_px_orig": [
+      176.0,
+      2.0,
+      135.0,
+      35.0
+     ],
+     "font_px": 33.8,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      46.0,
+      251.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      46.5,
+      491.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_015",
+     "ko": "보안·세션·파일·알림 등 시스템 운영 정책 관리",
+     "tr": "Manage system operation policies such as security, session, file and notification",
+     "box_px_orig": [
+      254.5,
+      112.0,
+      256.0,
+      13.0
+     ],
+     "font_px": 14.2,
+     "scale": 0.5,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_019",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      407.5,
+      181.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 17.9,
+     "scale": 0.702,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_024",
+     "ko": "설정",
+     "tr": "Setting",
+     "box_px_orig": [
+      267.5,
+      333.0,
+      20.5,
+      11.0
+     ],
+     "font_px": 12.7,
+     "scale": 0.523,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_029",
+     "ko": "이메일 알림 전역 토글",
+     "tr": "Global email notification toggle",
+     "box_px_orig": [
+      267.0,
+      561.5,
+      108.0,
+      12.0
+     ],
+     "font_px": 15.2,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_040",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      520.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      989.0,
+      569.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 11.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_042",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      618.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_043",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      667.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_044",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      989.0,
+      716.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 11.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_045",
+     "ko": "세션",
+     "tr": "Session",
+     "box_px_orig": [
+      989.0,
+      765.5,
+      21.0,
+      12.0
+     ],
+     "font_px": 12.1,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_070",
+     "ko": "액션",
+     "tr": "Actions",
+     "box_px_orig": [
+      2491.0,
+      333.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 11.9,
+     "scale": 0.478,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s1_2_1.png": {
+   "replaced": 14,
+   "segments": [
+    {
+     "id": "s1_2_1_080",
+     "ko": "보안",
+     "tr": "Security",
+     "box_px_orig": [
+      94.0,
+      18.0,
+      26.0,
+      8.0
+     ],
+     "font_px": 19.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_081",
+     "ko": "최대 세션 수명 (시간)",
+     "tr": "Max. session lifetime (hours)",
+     "box_px_orig": [
+      66.5,
+      50.5,
+      155.5,
+      18.0
+     ],
+     "font_px": 35.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_082",
+     "ko": "SESSION.MAX_LIFETIME_HOURS · 세션 · 정수",
+     "tr": "SESSION.MAX_LIFETIME_HOURS · Session · Integer",
+     "box_px_orig": [
+      66.5,
+      80.0,
+      288.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_083",
+     "ko": "세션 최대 수명 (시간)",
+     "tr": "Max. session lifetime (hours)",
+     "box_px_orig": [
+      66.5,
+      115.0,
+      103.0,
+      11.5
+     ],
+     "font_px": 23.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_084",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      600.0,
+      14.5,
+      32.5,
+      12.0
+     ],
+     "font_px": 20.3,
+     "scale": 0.7,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_085",
+     "ko": "영향 범위 — 현재 이 값은 적용되지 않습니다 — 세션 만료는 서버 고정 설정으로 판정 (배선 후 신규 세션부터 적용)",
+     "tr": "Impact scope — This value is not applied at present — session expiry is decided by a fixed server setting (applies to new sessions once connected)",
+     "box_px_orig": [
+      79.5,
+      155.5,
+      526.5,
+      11.0
+     ],
+     "font_px": 18,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_086",
+     "ko": "값",
+     "tr": "Value",
+     "box_px_orig": [
+      66.5,
+      194.0,
+      12.5,
+      13.5
+     ],
+     "font_px": 29.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_087",
+     "ko": "변경 사유",
+     "tr": "Reason for change",
+     "box_px_orig": [
+      66.5,
+      264.0,
+      58.0,
+      13.5
+     ],
+     "font_px": 30.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_088",
+     "ko": "(선택) 운영 이력에 기록됩니다.",
+     "tr": "(Optional) Recorded in the operation history.",
+     "box_px_orig": [
+      79.5,
+      293.0,
+      175.0,
+      14.0
+     ],
+     "font_px": 27.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_089",
+     "ko": "기본값: 24",
+     "tr": "Default: 24",
+     "box_px_orig": [
+      79.5,
+      353.0,
+      53.5,
+      11.0
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_090",
+     "ko": "기본값으로 복원",
+     "tr": "Restore default",
+     "box_px_orig": [
+      582.5,
+      353.0,
+      78.5,
+      11.5
+     ],
+     "font_px": 22.7,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_091",
+     "ko": "변경 이력 (0건)",
+     "tr": "Change history (0)",
+     "box_px_orig": [
+      93.0,
+      411.0,
+      92.5,
+      13.0
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_092",
+     "ko": "취소",
+     "tr": "Cancel",
+     "box_px_orig": [
+      599.0,
+      473.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.959,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_093",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      654.0,
+      472.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 19.9,
+     "scale": 0.76,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_2_1_084",
+     "ko": "정수",
+     "tr": "Integer",
+     "box_px_orig": [
+      600.0,
+      14.5,
+      32.5,
+      12.0
+     ],
+     "font_px": 20.3,
+     "scale": 0.7,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_085",
+     "ko": "영향 범위 — 현재 이 값은 적용되지 않습니다 — 세션 만료는 서버 고정 설정으로 판정 (배선 후 신규 세션부터 적용)",
+     "tr": "Impact scope — This value is not applied at present — session expiry is decided by a fixed server setting (applies to new sessions once connected)",
+     "box_px_orig": [
+      79.5,
+      155.5,
+      526.5,
+      11.0
+     ],
+     "font_px": 18,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_093",
+     "ko": "저장",
+     "tr": "Save",
+     "box_px_orig": [
+      654.0,
+      472.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 19.9,
+     "scale": 0.76,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s2_1_1.png": {
+   "replaced": 36,
+   "segments": [
+    {
+     "id": "s2_1_1_094",
+     "ko": "메뉴",
+     "tr": "Menu",
+     "box_px_orig": [
+      2.0,
+      70.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 14.7,
+     "scale": 0.677,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_095",
+     "ko": "플랫폼 메뉴",
+     "tr": "Platform menu",
+     "box_px_orig": [
+      22.0,
+      113.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_096",
+     "ko": "플랫폼 대시보드",
+     "tr": "Platform dashboard",
+     "box_px_orig": [
+      46.0,
+      147.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_097",
+     "ko": "기관 관리",
+     "tr": "Institution management",
+     "box_px_orig": [
+      46.5,
+      181.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_098",
+     "ko": "워크스페이스 관리",
+     "tr": "Workspace management",
+     "box_px_orig": [
+      46.0,
+      215.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_099",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      46.0,
+      249.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_100",
+     "ko": "시스템 설정",
+     "tr": "System settings",
+     "box_px_orig": [
+      46.5,
+      283.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_101",
+     "ko": "코드 관리",
+     "tr": "Code management",
+     "box_px_orig": [
+      46.0,
+      317.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_103",
+     "ko": "접속 로그",
+     "tr": "Access log",
+     "box_px_orig": [
+      46.5,
+      351.0,
+      54.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_104",
+     "ko": "운영 이력",
+     "tr": "Operation history",
+     "box_px_orig": [
+      46.0,
+      385.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_105",
+     "ko": "내 메뉴",
+     "tr": "My menu",
+     "box_px_orig": [
+      22.5,
+      421.0,
+      41.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_106",
+     "ko": "내 프로필",
+     "tr": "My profile",
+     "box_px_orig": [
+      47.0,
+      455.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_108",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      46.5,
+      489.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_109",
+     "ko": "워크스페이스 선택",
+     "tr": "Select workspace",
+     "box_px_orig": [
+      189.0,
+      7.0,
+      90.0,
+      11.0
+     ],
+     "font_px": 22.3,
+     "scale": 0.918,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_110",
+     "ko": "프로젝트 선택",
+     "tr": "Select project",
+     "box_px_orig": [
+      189.0,
+      24.0,
+      79.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_111",
+     "ko": "코드 관리",
+     "tr": "Code management",
+     "box_px_orig": [
+      254.0,
+      82.5,
+      77.0,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_112",
+     "ko": "표준 코드 관리 (피험자 상태·기관 유형·원자료 대조 면제 사유 등)",
+     "tr": "Standard code management (subject status, institution type, source data verification exemption reasons, etc.)",
+     "box_px_orig": [
+      254.0,
+      110.0,
+      381.0,
+      14.0
+     ],
+     "font_px": 29,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_113",
+     "ko": "※ 변경은 운영 이력에 기록됩니다.",
+     "tr": "※ Changes are recorded in the operation history.",
+     "box_px_orig": [
+      255.0,
+      134.0,
+      155.0,
+      10.0
+     ],
+     "font_px": 22.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_114",
+     "ko": "플랫폼",
+     "tr": "Platform",
+     "box_px_orig": [
+      269.0,
+      178.5,
+      33.0,
+      12.0
+     ],
+     "font_px": 17.4,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_115",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      326.5,
+      179.0,
+      43.5,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_116",
+     "ko": "코드·이름",
+     "tr": "Code · name",
+     "box_px_orig": [
+      283.0,
+      233.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_117",
+     "ko": "국가",
+     "tr": "Country",
+     "box_px_orig": [
+      269.0,
+      309.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_118",
+     "ko": "방문 미방문 사유",
+     "tr": "Reason for visit or non-visit",
+     "box_px_orig": [
+      269.5,
+      357.5,
+      82.5,
+      12.0
+     ],
+     "font_px": 22,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_119",
+     "ko": "플랫폼",
+     "tr": "Platform",
+     "box_px_orig": [
+      460.0,
+      308.0,
+      41.0,
+      18.0
+     ],
+     "font_px": 21.9,
+     "scale": 0.64,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_120",
+     "ko": "플랫폼",
+     "tr": "Platform",
+     "box_px_orig": [
+      460.0,
+      356.0,
+      41.0,
+      18.0
+     ],
+     "font_px": 21.9,
+     "scale": 0.64,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_121",
+     "ko": "코드·이름",
+     "tr": "Code · name",
+     "box_px_orig": [
+      559.0,
+      233.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_122",
+     "ko": "국가",
+     "tr": "Country",
+     "box_px_orig": [
+      547.0,
+      277.5,
+      26.0,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_123",
+     "ko": "COUNTRY · scope=GLOBAL · 값 2개 · type=SYSTEM",
+     "tr": "COUNTRY · scope=GLOBAL · 2 values · type=SYSTEM",
+     "box_px_orig": [
+      547.0,
+      298.0,
+      224.0,
+      10.0
+     ],
+     "font_px": 19.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_124",
+     "ko": "대한민국",
+     "tr": "South Korea",
+     "box_px_orig": [
+      775.5,
+      369.5,
+      44.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_125",
+     "ko": "미국",
+     "tr": "United States",
+     "box_px_orig": [
+      776.0,
+      418.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 26.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_126",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      1532.5,
+      329.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_127",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      1531.5,
+      369.5,
+      28.0,
+      16.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_128",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      1531.5,
+      418.5,
+      25.0,
+      16.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.539,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_129",
+     "ko": "최종 수정 (KST)",
+     "tr": "Last modified (KST)",
+     "box_px_orig": [
+      1670.0,
+      329.0,
+      78.5,
+      11.5
+     ],
+     "font_px": 23.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_131",
+     "ko": "+ 값 추가",
+     "tr": "+ Add value",
+     "box_px_orig": [
+      2425.0,
+      276.0,
+      80.5,
+      32.0
+     ],
+     "font_px": 29.9,
+     "scale": 0.64,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_132",
+     "ko": "액션",
+     "tr": "Actions",
+     "box_px_orig": [
+      2491.0,
+      329.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 11.9,
+     "scale": 0.478,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_1_1_094",
+     "ko": "메뉴",
+     "tr": "Menu",
+     "box_px_orig": [
+      2.0,
+      70.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 14.7,
+     "scale": 0.677,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_099",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      46.0,
+      249.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_108",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      46.5,
+      489.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_114",
+     "ko": "플랫폼",
+     "tr": "Platform",
+     "box_px_orig": [
+      269.0,
+      178.5,
+      33.0,
+      12.0
+     ],
+     "font_px": 17.4,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_118",
+     "ko": "방문 미방문 사유",
+     "tr": "Reason for visit or non-visit",
+     "box_px_orig": [
+      269.5,
+      357.5,
+      82.5,
+      12.0
+     ],
+     "font_px": 22,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_119",
+     "ko": "플랫폼",
+     "tr": "Platform",
+     "box_px_orig": [
+      460.0,
+      308.0,
+      41.0,
+      18.0
+     ],
+     "font_px": 21.9,
+     "scale": 0.64,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_120",
+     "ko": "플랫폼",
+     "tr": "Platform",
+     "box_px_orig": [
+      460.0,
+      356.0,
+      41.0,
+      18.0
+     ],
+     "font_px": 21.9,
+     "scale": 0.64,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_122",
+     "ko": "국가",
+     "tr": "Country",
+     "box_px_orig": [
+      547.0,
+      277.5,
+      26.0,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_127",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      1531.5,
+      369.5,
+      28.0,
+      16.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.58,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_128",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      1531.5,
+      418.5,
+      25.0,
+      16.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.539,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_131",
+     "ko": "+ 값 추가",
+     "tr": "+ Add value",
+     "box_px_orig": [
+      2425.0,
+      276.0,
+      80.5,
+      32.0
+     ],
+     "font_px": 29.9,
+     "scale": 0.64,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_132",
+     "ko": "액션",
+     "tr": "Actions",
+     "box_px_orig": [
+      2491.0,
+      329.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 11.9,
+     "scale": 0.478,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s2_2_1.png": {
+   "replaced": 15,
+   "segments": [
+    {
+     "id": "s2_2_1_133",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      592.5,
+      17.5,
+      15.5,
+      8.5
+     ],
+     "font_px": 18.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_134",
+     "ko": "신규 코드 값",
+     "tr": "New code value",
+     "box_px_orig": [
+      96.5,
+      50.5,
+      91.0,
+      17.5
+     ],
+     "font_px": 37.4,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_135",
+     "ko": "대상 그룹: 국가",
+     "tr": "Target group: Country",
+     "box_px_orig": [
+      97.0,
+      80.0,
+      87.0,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_136",
+     "ko": "코드 *",
+     "tr": "Code *",
+     "box_px_orig": [
+      96.5,
+      114.0,
+      34.5,
+      11.0
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_137",
+     "ko": "영문/숫자/언더스코어 1~50자. 생성 후 변경 불가.",
+     "tr": "Letters, numbers and underscores, 1~50 characters. Cannot be changed after creation.",
+     "box_px_orig": [
+      96.5,
+      173.0,
+      224.0,
+      10.0
+     ],
+     "font_px": 22.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_138",
+     "ko": "라벨 *",
+     "tr": "Label *",
+     "box_px_orig": [
+      96.5,
+      198.0,
+      41.0,
+      20.5
+     ],
+     "font_px": 25.8,
+     "scale": 0.699,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_139",
+     "ko": "등록됨",
+     "tr": "Registered",
+     "box_px_orig": [
+      109.5,
+      227.0,
+      36.5,
+      13.0
+     ],
+     "font_px": 14.8,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_140",
+     "ko": "값 타입",
+     "tr": "Value type",
+     "box_px_orig": [
+      96.5,
+      264.0,
+      45.0,
+      20.5
+     ],
+     "font_px": 18.9,
+     "scale": 0.538,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_141",
+     "ko": "문자열",
+     "tr": "Text",
+     "box_px_orig": [
+      113.5,
+      293.0,
+      37.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_142",
+     "ko": "MVP 는 STRING 기본 사용 권장.",
+     "tr": "For the MVP, STRING is recommended as the default.",
+     "box_px_orig": [
+      96.5,
+      315.0,
+      152.0,
+      19.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.522,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_143",
+     "ko": "정렬 순서",
+     "tr": "Sort order",
+     "box_px_orig": [
+      333.5,
+      264.0,
+      58.0,
+      19.5
+     ],
+     "font_px": 25.3,
+     "scale": 0.74,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_144",
+     "ko": "(자동)",
+     "tr": "(Automatic)",
+     "box_px_orig": [
+      346.5,
+      293.0,
+      32.5,
+      14.0
+     ],
+     "font_px": 27.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_145",
+     "ko": "미입력 시 마지막 + 1 자동 부여,",
+     "tr": "If left blank, the last value + 1 is assigned automatically,",
+     "box_px_orig": [
+      334.0,
+      315.0,
+      142.0,
+      19.0
+     ],
+     "font_px": 11.3,
+     "scale": 0.461,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_146",
+     "ko": "취소",
+     "tr": "Cancel",
+     "box_px_orig": [
+      469.0,
+      373.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.959,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_147",
+     "ko": "추가",
+     "tr": "Add",
+     "box_px_orig": [
+      524.0,
+      372.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 24.1,
+     "scale": 0.92,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_1_138",
+     "ko": "라벨 *",
+     "tr": "Label *",
+     "box_px_orig": [
+      96.5,
+      198.0,
+      41.0,
+      20.5
+     ],
+     "font_px": 25.8,
+     "scale": 0.699,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_139",
+     "ko": "등록됨",
+     "tr": "Registered",
+     "box_px_orig": [
+      109.5,
+      227.0,
+      36.5,
+      13.0
+     ],
+     "font_px": 14.8,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_140",
+     "ko": "값 타입",
+     "tr": "Value type",
+     "box_px_orig": [
+      96.5,
+      264.0,
+      45.0,
+      20.5
+     ],
+     "font_px": 18.9,
+     "scale": 0.538,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_142",
+     "ko": "MVP 는 STRING 기본 사용 권장.",
+     "tr": "For the MVP, STRING is recommended as the default.",
+     "box_px_orig": [
+      96.5,
+      315.0,
+      152.0,
+      19.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.522,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_143",
+     "ko": "정렬 순서",
+     "tr": "Sort order",
+     "box_px_orig": [
+      333.5,
+      264.0,
+      58.0,
+      19.5
+     ],
+     "font_px": 25.3,
+     "scale": 0.74,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_145",
+     "ko": "미입력 시 마지막 + 1 자동 부여,",
+     "tr": "If left blank, the last value + 1 is assigned automatically,",
+     "box_px_orig": [
+      334.0,
+      315.0,
+      142.0,
+      19.0
+     ],
+     "font_px": 11.3,
+     "scale": 0.461,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s3_1_1.png": {
+   "replaced": 48,
+   "segments": [
+    {
+     "id": "s3_1_1_148",
+     "ko": "워크스페이스 선택",
+     "tr": "Select workspace",
+     "box_px_orig": [
+      181.0,
+      2.0,
+      115.0,
+      21.0
+     ],
+     "font_px": 28.8,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_149",
+     "ko": "프로젝트 선택",
+     "tr": "Select project",
+     "box_px_orig": [
+      194.0,
+      26.0,
+      79.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_150",
+     "ko": "플랫폼 메뉴",
+     "tr": "Platform menu",
+     "box_px_orig": [
+      27.0,
+      115.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_151",
+     "ko": "플랫폼 대시보드",
+     "tr": "Platform dashboard",
+     "box_px_orig": [
+      51.0,
+      149.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_152",
+     "ko": "기관 관리",
+     "tr": "Institution management",
+     "box_px_orig": [
+      51.5,
+      183.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_153",
+     "ko": "워크스페이스 관리",
+     "tr": "Workspace management",
+     "box_px_orig": [
+      51.0,
+      217.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_154",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      51.0,
+      251.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_155",
+     "ko": "시스템 설정",
+     "tr": "System settings",
+     "box_px_orig": [
+      51.5,
+      285.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_156",
+     "ko": "코드 관리",
+     "tr": "Code management",
+     "box_px_orig": [
+      51.0,
+      319.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_157",
+     "ko": "접속 로그",
+     "tr": "Access log",
+     "box_px_orig": [
+      51.0,
+      353.0,
+      55.0,
+      13.5
+     ],
+     "font_px": 28.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_158",
+     "ko": "운영 이력",
+     "tr": "Operation history",
+     "box_px_orig": [
+      51.0,
+      387.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_159",
+     "ko": "내 메뉴",
+     "tr": "My menu",
+     "box_px_orig": [
+      27.5,
+      423.0,
+      41.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_160",
+     "ko": "내 프로필",
+     "tr": "My profile",
+     "box_px_orig": [
+      52.0,
+      457.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_161",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      51.5,
+      491.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_162",
+     "ko": "접속 로그",
+     "tr": "Access log",
+     "box_px_orig": [
+      259.5,
+      84.5,
+      77.5,
+      20.0
+     ],
+     "font_px": 29.9,
+     "scale": 0.699,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_163",
+     "ko": "로그인·로그아웃·세션 이벤트 (수정·삭제 불가)",
+     "tr": "Login, logout and session events (cannot be edited or deleted)",
+     "box_px_orig": [
+      259.0,
+      112.0,
+      258.0,
+      14.0
+     ],
+     "font_px": 18.4,
+     "scale": 0.662,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_164",
+     "ko": "사용자",
+     "tr": "User",
+     "box_px_orig": [
+      272.0,
+      160.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_165",
+     "ko": "IP 주소",
+     "tr": "IP address",
+     "box_px_orig": [
+      1020.0,
+      160.5,
+      36.0,
+      10.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_166",
+     "ko": "사용자 상세에서 진입하면 자동 입력",
+     "tr": "Filled in automatically when opened from user details",
+     "box_px_orig": [
+      285.0,
+      189.0,
+      206.0,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_167",
+     "ko": "10.0.0.1 (전체 일치)",
+     "tr": "10.0.0.1 (exact match)",
+     "box_px_orig": [
+      1033.0,
+      189.0,
+      111.5,
+      14.0
+     ],
+     "font_px": 27.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_168",
+     "ko": "종료일",
+     "tr": "End date",
+     "box_px_orig": [
+      272.0,
+      228.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_169",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      286.0,
+      257.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_170",
+     "ko": "이벤트 (1개 선택): 로그인 성공 | 로그인 실패 | 로그아웃 | 전자서명 실패 | 세션 대체 | 계정 잠금 | 비밀번호 변경 연기 | 비밀번호 만료 연기",
+     "tr": "Event (select one): Login success | Login failure | Logout | E-signature failure | Session replaced | Account lock | Password change postponed | Password expiry postponed",
+     "box_px_orig": [
+      272.5,
+      303.0,
+      807.5,
+      22.0
+     ],
+     "font_px": 21.1,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_171",
+     "ko": "비밀번호 만료 강제",
+     "tr": "Force password expiry",
+     "box_px_orig": [
+      1088.0,
+      303.0,
+      112.5,
+      22.0
+     ],
+     "font_px": 22.2,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_172",
+     "ko": "실패 상위 IP (top 5)",
+     "tr": "Top failed IPs (top 5)",
+     "box_px_orig": [
+      296.0,
+      369.5,
+      113.0,
+      15.0
+     ],
+     "font_px": 22.8,
+     "scale": 0.797,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_173",
+     "ko": "현재 페이지 실패 없음",
+     "tr": "No failures on this page",
+     "box_px_orig": [
+      272.0,
+      397.0,
+      108.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_174",
+     "ko": "현재 페이지 기준",
+     "tr": "Current page only",
+     "box_px_orig": [
+      272.0,
+      422.0,
+      68.0,
+      9.0
+     ],
+     "font_px": 16.7,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_175",
+     "ko": "계정 잠금",
+     "tr": "Account lock",
+     "box_px_orig": [
+      1052.0,
+      369.5,
+      54.0,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_176",
+     "ko": "현재 페이지 ACCOUNT_LOCKED 이벤트 수",
+     "tr": "Number of ACCOUNT_LOCKED events on this page",
+     "box_px_orig": [
+      1028.5,
+      430.0,
+      184.5,
+      9.0
+     ],
+     "font_px": 19.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_177",
+     "ko": "시각 (KST)",
+     "tr": "Time (KST)",
+     "box_px_orig": [
+      272.0,
+      502.0,
+      53.5,
+      11.5
+     ],
+     "font_px": 22.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_178",
+     "ko": "사용자",
+     "tr": "User",
+     "box_px_orig": [
+      605.0,
+      502.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_179",
+     "ko": "이벤트",
+     "tr": "Event",
+     "box_px_orig": [
+      1037.5,
+      502.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_180",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.0,
+      540.5,
+      61.0,
+      17.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_181",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1022.5,
+      586.5,
+      63.0,
+      18.0
+     ],
+     "font_px": 19.4,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_182",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.0,
+      633.5,
+      61.5,
+      17.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_183",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1030.0,
+      682.5,
+      48.0,
+      10.0
+     ],
+     "font_px": 17.5,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_184",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1030.0,
+      728.5,
+      48.0,
+      10.0
+     ],
+     "font_px": 17.5,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_185",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.5,
+      772.5,
+      60.5,
+      17.0
+     ],
+     "font_px": 18.6,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_186",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.0,
+      818.5,
+      61.0,
+      17.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_187",
+     "ko": "시작일",
+     "tr": "Start date",
+     "box_px_orig": [
+      1767.5,
+      160.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_188",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      1781.5,
+      189.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 27.7,
+     "scale": 0.92,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_189",
+     "ko": "초기화",
+     "tr": "Reset",
+     "box_px_orig": [
+      1672.0,
+      250.0,
+      83.0,
+      32.0
+     ],
+     "font_px": 68.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_190",
+     "ko": "최근 24h 로그인",
+     "tr": "Logins in the last 24h",
+     "box_px_orig": [
+      1809.0,
+      369.5,
+      93.0,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_191",
+     "ko": "성공",
+     "tr": "Success",
+     "box_px_orig": [
+      1785.0,
+      397.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.619,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_192",
+     "ko": "실패",
+     "tr": "Failure",
+     "box_px_orig": [
+      1822.5,
+      397.0,
+      20.5,
+      11.0
+     ],
+     "font_px": 13.6,
+     "scale": 0.56,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_193",
+     "ko": "전체 1,190건 중 현재 페이지 기준",
+     "tr": "Current page, out of 1,190 in total",
+     "box_px_orig": [
+      1785.0,
+      450.0,
+      134.0,
+      9.5
+     ],
+     "font_px": 18.2,
+     "scale": 0.924,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_194",
+     "ko": "CSV 내보내기",
+     "tr": "CSV export",
+     "box_px_orig": [
+      2187.0,
+      97.0,
+      329.0,
+      30.0
+     ],
+     "font_px": 72.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_195",
+     "ko": "사유",
+     "tr": "Reason",
+     "box_px_orig": [
+      2423.5,
+      502.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_1_1_148",
+     "ko": "워크스페이스 선택",
+     "tr": "Select workspace",
+     "box_px_orig": [
+      181.0,
+      2.0,
+      115.0,
+      21.0
+     ],
+     "font_px": 28.8,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_154",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      51.0,
+      251.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_161",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      51.5,
+      491.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_162",
+     "ko": "접속 로그",
+     "tr": "Access log",
+     "box_px_orig": [
+      259.5,
+      84.5,
+      77.5,
+      20.0
+     ],
+     "font_px": 29.9,
+     "scale": 0.699,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_163",
+     "ko": "로그인·로그아웃·세션 이벤트 (수정·삭제 불가)",
+     "tr": "Login, logout and session events (cannot be edited or deleted)",
+     "box_px_orig": [
+      259.0,
+      112.0,
+      258.0,
+      14.0
+     ],
+     "font_px": 18.4,
+     "scale": 0.662,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_169",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      286.0,
+      257.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_170",
+     "ko": "이벤트 (1개 선택): 로그인 성공 | 로그인 실패 | 로그아웃 | 전자서명 실패 | 세션 대체 | 계정 잠금 | 비밀번호 변경 연기 | 비밀번호 만료 연기",
+     "tr": "Event (select one): Login success | Login failure | Logout | E-signature failure | Session replaced | Account lock | Password change postponed | Password expiry postponed",
+     "box_px_orig": [
+      272.5,
+      303.0,
+      807.5,
+      22.0
+     ],
+     "font_px": 21.1,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_171",
+     "ko": "비밀번호 만료 강제",
+     "tr": "Force password expiry",
+     "box_px_orig": [
+      1088.0,
+      303.0,
+      112.5,
+      22.0
+     ],
+     "font_px": 22.2,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_172",
+     "ko": "실패 상위 IP (top 5)",
+     "tr": "Top failed IPs (top 5)",
+     "box_px_orig": [
+      296.0,
+      369.5,
+      113.0,
+      15.0
+     ],
+     "font_px": 22.8,
+     "scale": 0.797,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_174",
+     "ko": "현재 페이지 기준",
+     "tr": "Current page only",
+     "box_px_orig": [
+      272.0,
+      422.0,
+      68.0,
+      9.0
+     ],
+     "font_px": 16.7,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_180",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.0,
+      540.5,
+      61.0,
+      17.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_181",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1022.5,
+      586.5,
+      63.0,
+      18.0
+     ],
+     "font_px": 19.4,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_182",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.0,
+      633.5,
+      61.5,
+      17.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_183",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1030.0,
+      682.5,
+      48.0,
+      10.0
+     ],
+     "font_px": 17.5,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_184",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1030.0,
+      728.5,
+      48.0,
+      10.0
+     ],
+     "font_px": 17.5,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_185",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.5,
+      772.5,
+      60.5,
+      17.0
+     ],
+     "font_px": 18.6,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_186",
+     "ko": "로그인 성공",
+     "tr": "Login success",
+     "box_px_orig": [
+      1024.0,
+      818.5,
+      61.0,
+      17.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_191",
+     "ko": "성공",
+     "tr": "Success",
+     "box_px_orig": [
+      1785.0,
+      397.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.619,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_192",
+     "ko": "실패",
+     "tr": "Failure",
+     "box_px_orig": [
+      1822.5,
+      397.0,
+      20.5,
+      11.0
+     ],
+     "font_px": 13.6,
+     "scale": 0.56,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_2_1.png": {
+   "replaced": 10,
+   "segments": [
+    {
+     "id": "s3_2_1_196",
+     "ko": "사용자",
+     "tr": "User",
+     "box_px_orig": [
+      43.0,
+      19.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_197",
+     "ko": "사용자 상세에서 진입하면 자동 입력",
+     "tr": "Filled in automatically when opened from user details",
+     "box_px_orig": [
+      56.0,
+      48.0,
+      206.0,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_198",
+     "ko": "종료일",
+     "tr": "End date",
+     "box_px_orig": [
+      43.0,
+      87.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_199",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      57.0,
+      116.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_200",
+     "ko": "IP 주소",
+     "tr": "IP address",
+     "box_px_orig": [
+      791.0,
+      19.5,
+      36.0,
+      10.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_201",
+     "ko": "10.0.0.1 (전체 일치)",
+     "tr": "10.0.0.1 (exact match)",
+     "box_px_orig": [
+      804.0,
+      48.0,
+      111.5,
+      14.0
+     ],
+     "font_px": 27.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_202",
+     "ko": "이벤트 (1개 선택): 로그인 성공 | 로그인 실패 | 로그아웃 | 전자서명 실패 | 세션 대체 | 계정 잠금 | 비밀번호 변경 연기 | 비밀번호 만료 연기 | 비밀번호 만료 강제",
+     "tr": "Event (select one): Login success | Login failure | Logout | E-signature failure | Session replaced | Account lock | Password change postponed | Password expiry postponed | Force password expiry",
+     "box_px_orig": [
+      43.5,
+      162.0,
+      928.5,
+      22.0
+     ],
+     "font_px": 31.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_203",
+     "ko": "시작일",
+     "tr": "Start date",
+     "box_px_orig": [
+      1538.5,
+      19.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_204",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      1552.5,
+      48.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 28.3,
+     "scale": 0.94,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_205",
+     "ko": "초기화",
+     "tr": "Reset",
+     "box_px_orig": [
+      1480.0,
+      118.5,
+      33.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_1_199",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      57.0,
+      116.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_2_2.png": {
+   "replaced": 9,
+   "segments": [
+    {
+     "id": "s3_2_2_207",
+     "ko": "실패 상위 IP (top 5)",
+     "tr": "Top failed IPs (top 5)",
+     "box_px_orig": [
+      67.0,
+      36.5,
+      113.0,
+      15.0
+     ],
+     "font_px": 22.8,
+     "scale": 0.797,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_2_208",
+     "ko": "현재 페이지 실패 없음",
+     "tr": "No failures on this page",
+     "box_px_orig": [
+      43.0,
+      64.0,
+      108.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_2_209",
+     "ko": "현재 페이지 기준",
+     "tr": "Current page only",
+     "box_px_orig": [
+      43.0,
+      89.0,
+      69.5,
+      9.0
+     ],
+     "font_px": 20.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_2_210",
+     "ko": "계정 잠금",
+     "tr": "Account lock",
+     "box_px_orig": [
+      823.0,
+      36.5,
+      54.0,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_2_211",
+     "ko": "현재 페이지 ACCOUNT_LOCKED 이벤트 수",
+     "tr": "Number of ACCOUNT_LOCKED events on this page",
+     "box_px_orig": [
+      799.5,
+      97.0,
+      184.5,
+      9.0
+     ],
+     "font_px": 19.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_2_212",
+     "ko": "최근 24h 로그인",
+     "tr": "Logins in the last 24h",
+     "box_px_orig": [
+      1580.0,
+      36.5,
+      93.0,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_2_213",
+     "ko": "성공",
+     "tr": "Success",
+     "box_px_orig": [
+      1556.0,
+      64.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.619,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_2_214",
+     "ko": "실패",
+     "tr": "Failure",
+     "box_px_orig": [
+      1593.5,
+      64.0,
+      20.5,
+      11.0
+     ],
+     "font_px": 13.6,
+     "scale": 0.56,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_2_215",
+     "ko": "전체 1,190건 중 현재 페이지 기준",
+     "tr": "Current page, out of 1,190 in total",
+     "box_px_orig": [
+      1556.0,
+      117.0,
+      135.0,
+      9.5
+     ],
+     "font_px": 19.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_2_207",
+     "ko": "실패 상위 IP (top 5)",
+     "tr": "Top failed IPs (top 5)",
+     "box_px_orig": [
+      67.0,
+      36.5,
+      113.0,
+      15.0
+     ],
+     "font_px": 22.8,
+     "scale": 0.797,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_2_213",
+     "ko": "성공",
+     "tr": "Success",
+     "box_px_orig": [
+      1556.0,
+      64.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 15.6,
+     "scale": 0.619,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_2_214",
+     "ko": "실패",
+     "tr": "Failure",
+     "box_px_orig": [
+      1593.5,
+      64.0,
+      20.5,
+      11.0
+     ],
+     "font_px": 13.6,
+     "scale": 0.56,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_3_1.png": {
+   "replaced": 4,
+   "segments": [
+    {
+     "id": "s3_3_1_216",
+     "ko": "3,021B · 완료",
+     "tr": "3,021B · Completed",
+     "box_px_orig": [
+      569.0,
+      54.5,
+      67.5,
+      11.5
+     ],
+     "font_px": 23.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_218",
+     "ko": "CSV 내보내기",
+     "tr": "CSV export",
+     "box_px_orig": [
+      631.0,
+      169.5,
+      71.0,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_219",
+     "ko": "현재 결과 20건 / 전체 1,190건 (전수 export 미지원)",
+     "tr": "Current results 20 / Total 1,190 (full export not supported)",
+     "box_px_orig": [
+      723.5,
+      172.0,
+      213.5,
+      10.0
+     ],
+     "font_px": 16.7,
+     "scale": 0.843,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_3_1_220",
+     "ko": "시작일",
+     "tr": "Start date",
+     "box_px_orig": [
+      189.5,
+      223.0,
+      31.0,
+      7.0
+     ],
+     "font_px": 16.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_3_1_219",
+     "ko": "현재 결과 20건 / 전체 1,190건 (전수 export 미지원)",
+     "tr": "Current results 20 / Total 1,190 (full export not supported)",
+     "box_px_orig": [
+      723.5,
+      172.0,
+      213.5,
+      10.0
+     ],
+     "font_px": 16.7,
+     "scale": 0.843,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_3_2.png": {
+   "replaced": 0,
+   "segments": [],
+   "flags": []
+  },
+  "s4_1_1.png": {
+   "replaced": 79,
+   "segments": [
+    {
+     "id": "s4_1_1_221",
+     "ko": "워크스페이스 선택",
+     "tr": "Select workspace",
+     "box_px_orig": [
+      187.0,
+      6.0,
+      90.0,
+      11.0
+     ],
+     "font_px": 22.3,
+     "scale": 0.918,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_222",
+     "ko": "프로젝트 선택",
+     "tr": "Select project",
+     "box_px_orig": [
+      187.0,
+      23.0,
+      79.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_223",
+     "ko": "메뉴",
+     "tr": "Menu",
+     "box_px_orig": [
+      0.0,
+      69.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 14.7,
+     "scale": 0.677,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_224",
+     "ko": "플랫폼 메뉴",
+     "tr": "Platform menu",
+     "box_px_orig": [
+      20.0,
+      112.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_225",
+     "ko": "플랫폼 대시보드",
+     "tr": "Platform dashboard",
+     "box_px_orig": [
+      44.0,
+      146.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_226",
+     "ko": "기관 관리",
+     "tr": "Institution management",
+     "box_px_orig": [
+      44.5,
+      180.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_227",
+     "ko": "워크스페이스 관리",
+     "tr": "Workspace management",
+     "box_px_orig": [
+      44.0,
+      214.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_228",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      44.0,
+      248.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_229",
+     "ko": "시스템 설정",
+     "tr": "System settings",
+     "box_px_orig": [
+      44.5,
+      282.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_230",
+     "ko": "코드 관리",
+     "tr": "Code management",
+     "box_px_orig": [
+      44.0,
+      316.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_231",
+     "ko": "접속 로그",
+     "tr": "Access log",
+     "box_px_orig": [
+      44.5,
+      350.0,
+      54.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_232",
+     "ko": "운영 이력",
+     "tr": "Operation history",
+     "box_px_orig": [
+      44.0,
+      384.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_233",
+     "ko": "내 메뉴",
+     "tr": "My menu",
+     "box_px_orig": [
+      20.5,
+      420.0,
+      41.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_234",
+     "ko": "내 프로필",
+     "tr": "My profile",
+     "box_px_orig": [
+      45.0,
+      454.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_235",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      44.5,
+      488.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_1_236",
+     "ko": "운영 이력",
+     "tr": "Operation history",
+     "box_px_orig": [
+      252.0,
+      81.5,
+      78.0,
+      32.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_1_237",
+     "ko": "계정·프로젝트·조직·워크스페이스·시스템 운영 이력 (수정·삭제 불가)",
+     "tr": "Operation history for accounts, projects, organizations, workspaces and the system (cannot be edited or deleted)",
+     "box_px_orig": [
+      252.5,
+      109.0,
+      383.0,
+      14.0
+     ],
+     "font_px": 27.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_238",
+     "ko": "※ 임상 데이터 변경 이력(Audit Trail) 은 별도 화면(SCR-AUDIT) 에서 제공됩니다.",
+     "tr": "※ Clinical data change history (Audit Trail) is provided on a separate screen (SCR-AUDIT).",
+     "box_px_orig": [
+      253.0,
+      133.0,
+      369.0,
+      10.0
+     ],
+     "font_px": 18.3,
+     "scale": 0.863,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_239",
+     "ko": "계정 관리",
+     "tr": "Account management",
+     "box_px_orig": [
+      313.0,
+      174.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 11.4,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_1_1_240",
+     "ko": "프로젝트 상태 전이",
+     "tr": "Project status transitions",
+     "box_px_orig": [
+      384.5,
+      174.0,
+      93.0,
+      11.0
+     ],
+     "font_px": 19,
+     "scale": 0.782,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_241",
+     "ko": "테스트 데이터 삭제",
+     "tr": "Test data deletion",
+     "box_px_orig": [
+      502.5,
+      174.0,
+      93.5,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_242",
+     "ko": "Site 관리",
+     "tr": "Site management",
+     "box_px_orig": [
+      620.5,
+      174.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 15,
+     "scale": 0.6,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_243",
+     "ko": "인력 관리",
+     "tr": "Staff management",
+     "box_px_orig": [
+      692.0,
+      174.0,
+      46.0,
+      11.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.559,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_244",
+     "ko": "이벤트",
+     "tr": "Event",
+     "box_px_orig": [
+      265.5,
+      228.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_245",
+     "ko": "전체",
+     "tr": "All",
+     "box_px_orig": [
+      282.5,
+      257.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_246",
+     "ko": "시각 (KST)",
+     "tr": "Time (KST)",
+     "box_px_orig": [
+      265.0,
+      322.0,
+      53.5,
+      11.5
+     ],
+     "font_px": 22.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_247",
+     "ko": "대상 종류",
+     "tr": "Target type",
+     "box_px_orig": [
+      639.0,
+      228.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_248",
+     "ko": "전체",
+     "tr": "All",
+     "box_px_orig": [
+      656.0,
+      257.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_249",
+     "ko": "카테고리",
+     "tr": "Category",
+     "box_px_orig": [
+      608.0,
+      322.0,
+      43.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_250",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      363.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_251",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      412.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_252",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      461.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_253",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      510.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_254",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      559.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_255",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      608.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_256",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      657.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_257",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      706.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_258",
+     "ko": "프로젝트",
+     "tr": "Project",
+     "box_px_orig": [
+      608.0,
+      755.0,
+      44.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_259",
+     "ko": "워크스페이스 멤버",
+     "tr": "Workspace members",
+     "box_px_orig": [
+      763.0,
+      174.0,
+      90.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_260",
+     "ko": "시스템 설정 변경",
+     "tr": "System setting changes",
+     "box_px_orig": [
+      878.0,
+      174.0,
+      82.5,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_261",
+     "ko": "수행자 ID",
+     "tr": "Performed-by ID",
+     "box_px_orig": [
+      1013.0,
+      228.0,
+      47.5,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_262",
+     "ko": "UUID (정확 일치)",
+     "tr": "UUID (exact match)",
+     "box_px_orig": [
+      1013.0,
+      247.5,
+      111.5,
+      30.0
+     ],
+     "font_px": 34.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_263",
+     "ko": "이벤트",
+     "tr": "Event",
+     "box_px_orig": [
+      805.5,
+      322.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_264",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      361.0,
+      35.0,
+      18.0
+     ],
+     "font_px": 41.1,
+     "scale": 0.981,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_265",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      410.0,
+      35.0,
+      18.0
+     ],
+     "font_px": 41.1,
+     "scale": 0.981,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_266",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      459.0,
+      34.5,
+      18.0
+     ],
+     "font_px": 40.5,
+     "scale": 0.981,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_267",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      508.0,
+      34.5,
+      18.0
+     ],
+     "font_px": 40.5,
+     "scale": 0.981,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_268",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      557.0,
+      34.0,
+      18.0
+     ],
+     "font_px": 39.9,
+     "scale": 0.98,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_269",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      606.0,
+      34.0,
+      18.0
+     ],
+     "font_px": 39.9,
+     "scale": 0.98,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_270",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      655.0,
+      34.0,
+      18.0
+     ],
+     "font_px": 39.9,
+     "scale": 0.98,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_271",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      704.0,
+      34.0,
+      18.0
+     ],
+     "font_px": 39.9,
+     "scale": 0.98,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_272",
+     "ko": "수정",
+     "tr": "Edit",
+     "box_px_orig": [
+      804.0,
+      753.0,
+      35.0,
+      18.0
+     ],
+     "font_px": 41.1,
+     "scale": 0.981,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_273",
+     "ko": "대상",
+     "tr": "Target",
+     "box_px_orig": [
+      901.5,
+      322.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_274",
+     "ko": "시작일",
+     "tr": "Start date",
+     "box_px_orig": [
+      1386.5,
+      228.0,
+      32.0,
+      10.0
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_275",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      1400.5,
+      257.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_277",
+     "ko": "종료일",
+     "tr": "End date",
+     "box_px_orig": [
+      1760.5,
+      228.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_278",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      1774.5,
+      257.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 27.7,
+     "scale": 0.92,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_280",
+     "ko": "수행자",
+     "tr": "Performed by",
+     "box_px_orig": [
+      1757.0,
+      322.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 10.8,
+     "scale": 0.439,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_1_281",
+     "ko": "상세",
+     "tr": "Details",
+     "box_px_orig": [
+      2011.0,
+      322.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_282",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      363.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_283",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      412.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_284",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      461.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_285",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      510.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_286",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      559.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_287",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      608.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_288",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      657.0,
+      122.5,
+      12.0
+     ],
+     "font_px": 23.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_289",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      755.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_290",
+     "ko": "CSV/Excel 내보내기",
+     "tr": "CSV/Excel export",
+     "box_px_orig": [
+      2367.0,
+      124.0,
+      128.5,
+      14.0
+     ],
+     "font_px": 30.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_291",
+     "ko": "초기화",
+     "tr": "Reset",
+     "box_px_orig": [
+      2427.0,
+      259.0,
+      56.0,
+      14.0
+     ],
+     "font_px": 33.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_292",
+     "ko": "조회",
+     "tr": "Search",
+     "box_px_orig": [
+      2474.0,
+      322.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.522,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_1_1_293",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      354.5,
+      34.5,
+      29.5
+     ],
+     "font_px": 31.1,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_294",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      402.0,
+      44.0,
+      32.0
+     ],
+     "font_px": 39.7,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_295",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      451.0,
+      47.0,
+      32.0
+     ],
+     "font_px": 42.4,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_296",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      500.0,
+      47.5,
+      32.0
+     ],
+     "font_px": 42.9,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_297",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      549.0,
+      48.0,
+      32.0
+     ],
+     "font_px": 43.3,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_298",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      598.0,
+      44.0,
+      32.0
+     ],
+     "font_px": 39.7,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_299",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      647.0,
+      47.0,
+      32.0
+     ],
+     "font_px": 42.4,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_300",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      696.0,
+      37.5,
+      32.0
+     ],
+     "font_px": 33.8,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_301",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      745.0,
+      41.0,
+      32.0
+     ],
+     "font_px": 37,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s4_1_1_223",
+     "ko": "메뉴",
+     "tr": "Menu",
+     "box_px_orig": [
+      0.0,
+      69.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 14.7,
+     "scale": 0.677,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_228",
+     "ko": "사용자 관리",
+     "tr": "User management",
+     "box_px_orig": [
+      44.0,
+      248.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 15.9,
+     "scale": 0.558,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_235",
+     "ko": "알림",
+     "tr": "Notification",
+     "box_px_orig": [
+      44.5,
+      488.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_1_236",
+     "ko": "운영 이력",
+     "tr": "Operation history",
+     "box_px_orig": [
+      252.0,
+      81.5,
+      78.0,
+      32.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_1_239",
+     "ko": "계정 관리",
+     "tr": "Account management",
+     "box_px_orig": [
+      313.0,
+      174.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 11.4,
+     "scale": 0.46,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_1_1_240",
+     "ko": "프로젝트 상태 전이",
+     "tr": "Project status transitions",
+     "box_px_orig": [
+      384.5,
+      174.0,
+      93.0,
+      11.0
+     ],
+     "font_px": 19,
+     "scale": 0.782,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_242",
+     "ko": "Site 관리",
+     "tr": "Site management",
+     "box_px_orig": [
+      620.5,
+      174.0,
+      46.5,
+      11.0
+     ],
+     "font_px": 15,
+     "scale": 0.6,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_243",
+     "ko": "인력 관리",
+     "tr": "Staff management",
+     "box_px_orig": [
+      692.0,
+      174.0,
+      46.0,
+      11.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.559,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_275",
+     "ko": "연도-월-일",
+     "tr": "YYYY-MM-DD",
+     "box_px_orig": [
+      1400.5,
+      257.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.681,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_280",
+     "ko": "수행자",
+     "tr": "Performed by",
+     "box_px_orig": [
+      1757.0,
+      322.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 10.8,
+     "scale": 0.439,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_1_282",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      363.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_283",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      412.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_284",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      461.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_285",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      510.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_286",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      559.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_287",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      608.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_289",
+     "ko": "version, formCode 외 2",
+     "tr": "version, formCode and 2 more",
+     "box_px_orig": [
+      2011.0,
+      755.0,
+      123.5,
+      12.0
+     ],
+     "font_px": 18.1,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_292",
+     "ko": "조회",
+     "tr": "Search",
+     "box_px_orig": [
+      2474.0,
+      322.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.522,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_1_1_293",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      354.5,
+      34.5,
+      29.5
+     ],
+     "font_px": 31.1,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_294",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      402.0,
+      44.0,
+      32.0
+     ],
+     "font_px": 39.7,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_295",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      451.0,
+      47.0,
+      32.0
+     ],
+     "font_px": 42.4,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_296",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      500.0,
+      47.5,
+      32.0
+     ],
+     "font_px": 42.9,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_297",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      549.0,
+      48.0,
+      32.0
+     ],
+     "font_px": 43.3,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_298",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      598.0,
+      44.0,
+      32.0
+     ],
+     "font_px": 39.7,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_299",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      647.0,
+      47.0,
+      32.0
+     ],
+     "font_px": 42.4,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_300",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      696.0,
+      37.5,
+      32.0
+     ],
+     "font_px": 33.8,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_301",
+     "ko": "보기",
+     "tr": "View",
+     "box_px_orig": [
+      2448.0,
+      745.0,
+      41.0,
+      32.0
+     ],
+     "font_px": 37,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s4_2_1.png": {
+   "replaced": 5,
+   "segments": [
+    {
+     "id": "s4_2_1_302",
+     "ko": "운영 이력 상세",
+     "tr": "Operation history details",
+     "box_px_orig": [
+      93.0,
+      51.5,
+      106.5,
+      17.5
+     ],
+     "font_px": 17.9,
+     "scale": 0.48,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_2_1_303",
+     "ko": "2026. 10. 27. 13:56:20 · 프로젝트 · 수정",
+     "tr": "2026. 10. 27. 13:56:20 · Project · Edit",
+     "box_px_orig": [
+      93.5,
+      81.0,
+      235.0,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_304",
+     "ko": "대상",
+     "tr": "Target",
+     "box_px_orig": [
+      93.5,
+      116.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_305",
+     "ko": "수행자",
+     "tr": "Performed by",
+     "box_px_orig": [
+      93.0,
+      136.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.52,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_2_1_306",
+     "ko": "변경 내역 (DETAILS)",
+     "tr": "Change details (DETAILS)",
+     "box_px_orig": [
+      93.5,
+      173.0,
+      104.5,
+      11.5
+     ],
+     "font_px": 23.2,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s4_2_1_302",
+     "ko": "운영 이력 상세",
+     "tr": "Operation history details",
+     "box_px_orig": [
+      93.0,
+      51.5,
+      106.5,
+      17.5
+     ],
+     "font_px": 17.9,
+     "scale": 0.48,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_2_1_305",
+     "ko": "수행자",
+     "tr": "Performed by",
+     "box_px_orig": [
+      93.0,
+      136.0,
+      33.0,
+      11.0
+     ],
+     "font_px": 12.8,
+     "scale": 0.52,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  }
+ }
+}

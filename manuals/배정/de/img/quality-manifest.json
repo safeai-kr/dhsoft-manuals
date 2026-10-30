@@ -2,10 +2,11 @@
  "document": "SMART-EDC_사용자매뉴얼_배정_de.html",
  "source": "SMART-EDC_사용자매뉴얼_배정.pdf",
  "lang": "de",
- "localized_text": false,
- "note": "한국어 캡처를 그대로 씀 — 이미지 안 글자 현지화는 아직 하지 않았다 [확인 필요]",
- "files": [
-  {
+ "localized_text": true,
+ "note": "한국어 캡처의 글자 자리만 번역어로 바꿈(template/img_localize.py). 덩어리별 기록은 files[*].segments",
+ "method": "PIL Lanczos ×2 + UnsharpMask(r=1.0, 35%, t=3); 글자 교체는 확대본에서",
+ "files": {
+  "s1_1_1.png": {
    "name": "s1_1_1.png",
    "source_xref_image": "p03_1.png",
    "source_px": [
@@ -27,7 +28,1477 @@
     1748
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 52,
+   "segments": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "임상시험 실증용 워크스페…",
+     "tr": "Klinische Studie: Demo-Arbeitsbereich…",
+     "box_px_orig": [
+      177.0,
+      1.0,
+      151.0,
+      17.0
+     ],
+     "font_px": 16,
+     "scale": 0.539,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "샘플 프로젝트 005",
+     "tr": "Beispielprojekt 005",
+     "box_px_orig": [
+      186.0,
+      15.0,
+      111.5,
+      22.5
+     ],
+     "font_px": 25.4,
+     "scale": 0.801,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "운영 중",
+     "tr": "In Betrieb",
+     "box_px_orig": [
+      381.5,
+      13.5,
+      48.5,
+      19.0
+     ],
+     "font_px": 22,
+     "scale": 0.599,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_003",
+     "ko": "대시보드 / 배정",
+     "tr": "Dashboard / Randomisierung",
+     "box_px_orig": [
+      251.5,
+      73.0,
+      87.0,
+      11.5
+     ],
+     "font_px": 27,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004",
+     "ko": "배정 관리",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      251.5,
+      96.5,
+      76.5,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "내 권한에 해당하는 배정 준비·운영 — 설정·시험군·풀·배정",
+     "tr": "Vorbereitung und Betrieb der Randomisierung für Ihre Berechtigung — Einstellungen · Studienarme · Pool · Randomisierung",
+     "box_px_orig": [
+      252.0,
+      128.0,
+      326.0,
+      13.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "홈 현황 요약",
+     "tr": "Start-Übersicht",
+     "box_px_orig": [
+      255.0,
+      159.5,
+      57.5,
+      10.5
+     ],
+     "font_px": 22.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "사전 준비 순서 무관 · 완료 체크",
+     "tr": "Vorbereitung · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      372.0,
+      159.5,
+      136.0,
+      10.5
+     ],
+     "font_px": 10.5,
+     "scale": 0.459,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      283.0,
+      186.5,
+      26.0,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_009",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      400.5,
+      187.0,
+      73.5,
+      13.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      521.0,
+      187.0,
+      57.0,
+      13.0
+     ],
+     "font_px": 21.8,
+     "scale": 0.701,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      626.0,
+      187.0,
+      61.0,
+      13.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.601,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "메뉴",
+     "tr": "Menü",
+     "box_px_orig": [
+      0.0,
+      70.5,
+      17.5,
+      9.5
+     ],
+     "font_px": 13.7,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "연구 운영",
+     "tr": "Studienbetrieb",
+     "box_px_orig": [
+      19.0,
+      113.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_014",
+     "ko": "대시보드",
+     "tr": "Dashboard",
+     "box_px_orig": [
+      43.5,
+      147.0,
+      51.0,
+      13.0
+     ],
+     "font_px": 28.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_015",
+     "ko": "피험자",
+     "tr": "Proband",
+     "box_px_orig": [
+      43.0,
+      181.0,
+      39.0,
+      13.0
+     ],
+     "font_px": 29.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_016",
+     "ko": "데이터 입력",
+     "tr": "Dateneingabe",
+     "box_px_orig": [
+      43.5,
+      215.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_017",
+     "ko": "연구 관리",
+     "tr": "Studienverwaltung",
+     "box_px_orig": [
+      19.0,
+      251.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_018",
+     "ko": "CRF 관리",
+     "tr": "CRF-Verwaltung",
+     "box_px_orig": [
+      43.0,
+      285.0,
+      55.5,
+      13.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_019",
+     "ko": "AE 지정",
+     "tr": "AE-Festlegung",
+     "box_px_orig": [
+      43.0,
+      319.0,
+      46.0,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_020",
+     "ko": "LAB 정상범위",
+     "tr": "LAB-Normalbereich",
+     "box_px_orig": [
+      44.0,
+      353.0,
+      79.0,
+      13.0
+     ],
+     "font_px": 17.6,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_021",
+     "ko": "방문 정의",
+     "tr": "Besuchsdefinition",
+     "box_px_orig": [
+      43.5,
+      387.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_022",
+     "ko": "설계 버전 관리",
+     "tr": "Versionsverwaltung des Designs",
+     "box_px_orig": [
+      43.5,
+      421.0,
+      82.5,
+      13.0
+     ],
+     "font_px": 12.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_023",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      43.5,
+      455.0,
+      24.5,
+      13.5
+     ],
+     "font_px": 29.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_024",
+     "ko": "전자서명",
+     "tr": "Elektronische Signatur",
+     "box_px_orig": [
+      43.5,
+      489.0,
+      50.0,
+      13.0
+     ],
+     "font_px": 28.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_025",
+     "ko": "품질·규제",
+     "tr": "Qualität · Regulierung",
+     "box_px_orig": [
+      19.0,
+      525.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_026",
+     "ko": "데이터 검증 (DVS)",
+     "tr": "Datenvalidierung (DVS)",
+     "box_px_orig": [
+      43.5,
+      593.0,
+      105.5,
+      14.0
+     ],
+     "font_px": 19.9,
+     "scale": 0.721,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_027",
+     "ko": "데이터 내보내기",
+     "tr": "Datenexport",
+     "box_px_orig": [
+      43.5,
+      695.0,
+      92.0,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_028",
+     "ko": "설정",
+     "tr": "Einstellungen",
+     "box_px_orig": [
+      19.0,
+      731.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_029",
+     "ko": "프로젝트 설정",
+     "tr": "Projekteinstellungen",
+     "box_px_orig": [
+      43.0,
+      765.0,
+      80.0,
+      13.0
+     ],
+     "font_px": 28.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_030",
+     "ko": "SAE 통보",
+     "tr": "SAE-Meldung",
+     "box_px_orig": [
+      43.5,
+      799.5,
+      54.5,
+      12.5
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_031",
+     "ko": "참여 기관",
+     "tr": "Teilnehmende Standorte",
+     "box_px_orig": [
+      43.5,
+      833.0,
+      54.5,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_032",
+     "ko": "배정 운영 통합 작업",
+     "tr": "Randomisierungsbetrieb: Gesamtaufgaben",
+     "box_px_orig": [
+      750.5,
+      159.5,
+      89.5,
+      10.5
+     ],
+     "font_px": 10,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_033",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      779.0,
+      187.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_034",
+     "ko": "풀 번호",
+     "tr": "Nummern im Pool",
+     "box_px_orig": [
+      760.0,
+      254.0,
+      36.0,
+      11.0
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_035",
+     "ko": "준비 현황 순서 무관 · 완료 체크",
+     "tr": "Vorbereitungsstand · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      764.0,
+      352.5,
+      156.5,
+      14.0
+     ],
+     "font_px": 12,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_036",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      765.0,
+      391.0,
+      81.0,
+      30.0
+     ],
+     "font_px": 47.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_037",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      792.0,
+      447.5,
+      38.5,
+      28.5
+     ],
+     "font_px": 13.9,
+     "scale": 0.438,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_038",
+     "ko": "미정의",
+     "tr": "Nicht definiert",
+     "box_px_orig": [
+      792.5,
+      467.0,
+      31.5,
+      11.0
+     ],
+     "font_px": 11,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_039",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      792.5,
+      505.5,
+      40.0,
+      11.5
+     ],
+     "font_px": 12,
+     "scale": 0.438,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_040",
+     "ko": "미등록",
+     "tr": "Nicht registriert",
+     "box_px_orig": [
+      765.0,
+      505.5,
+      66.0,
+      29.5
+     ],
+     "font_px": 24.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "시험군별 배정 분포",
+     "tr": "Verteilung der Randomisierung nach Studienarm",
+     "box_px_orig": [
+      764.0,
+      600.5,
+      110.0,
+      14.0
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_042",
+     "ko": "정의된 시험군이 없습니다.",
+     "tr": "Keine Studienarme definiert.",
+     "box_px_orig": [
+      764.5,
+      637.0,
+      151.0,
+      13.0
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_043",
+     "ko": "시험군 정의 >",
+     "tr": "Studienarme definieren >",
+     "box_px_orig": [
+      764.0,
+      662.0,
+      98.0,
+      19.0
+     ],
+     "font_px": 38.6,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_044",
+     "ko": "최근 활동 최근 5건",
+     "tr": "Letzte Aktivitäten (letzte 5)",
+     "box_px_orig": [
+      764.0,
+      748.5,
+      102.0,
+      14.0
+     ],
+     "font_px": 16.5,
+     "scale": 0.559,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_045",
+     "ko": "아직 배정 활동이 없습니다.",
+     "tr": "Noch keine Randomisierungsaktivitäten.",
+     "box_px_orig": [
+      764.0,
+      785.0,
+      155.0,
+      13.0
+     ],
+     "font_px": 28.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_046",
+     "ko": "배정됨",
+     "tr": "Randomisiert",
+     "box_px_orig": [
+      1083.5,
+      254.0,
+      31.5,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.441,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_047",
+     "ko": "가용",
+     "tr": "Verfügbar",
+     "box_px_orig": [
+      1406.5,
+      254.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_048",
+     "ko": "배정 설정 요약",
+     "tr": "Zusammenfassung der Randomisierungseinstellungen",
+     "box_px_orig": [
+      1412.5,
+      352.5,
+      83.5,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_049",
+     "ko": "아직 배정 설정이 없습니다.",
+     "tr": "Noch keine Randomisierungseinstellungen.",
+     "box_px_orig": [
+      1412.0,
+      389.0,
+      155.0,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_050",
+     "ko": "설정하기 >",
+     "tr": "Einrichten >",
+     "box_px_orig": [
+      1408.0,
+      412.0,
+      87.5,
+      28.5
+     ],
+     "font_px": 30.4,
+     "scale": 0.7,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_051",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      1729.5,
+      254.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "임상시험 실증용 워크스페…",
+     "tr": "Klinische Studie: Demo-Arbeitsbereich…",
+     "box_px_orig": [
+      177.0,
+      1.0,
+      151.0,
+      17.0
+     ],
+     "font_px": 16,
+     "scale": 0.539,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "샘플 프로젝트 005",
+     "tr": "Beispielprojekt 005",
+     "box_px_orig": [
+      186.0,
+      15.0,
+      111.5,
+      22.5
+     ],
+     "font_px": 25.4,
+     "scale": 0.801,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "운영 중",
+     "tr": "In Betrieb",
+     "box_px_orig": [
+      381.5,
+      13.5,
+      48.5,
+      19.0
+     ],
+     "font_px": 22,
+     "scale": 0.599,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "내 권한에 해당하는 배정 준비·운영 — 설정·시험군·풀·배정",
+     "tr": "Vorbereitung und Betrieb der Randomisierung für Ihre Berechtigung — Einstellungen · Studienarme · Pool · Randomisierung",
+     "box_px_orig": [
+      252.0,
+      128.0,
+      326.0,
+      13.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "사전 준비 순서 무관 · 완료 체크",
+     "tr": "Vorbereitung · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      372.0,
+      159.5,
+      136.0,
+      10.5
+     ],
+     "font_px": 10.5,
+     "scale": 0.459,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      283.0,
+      186.5,
+      26.0,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_009",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      400.5,
+      187.0,
+      73.5,
+      13.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      521.0,
+      187.0,
+      57.0,
+      13.0
+     ],
+     "font_px": 21.8,
+     "scale": 0.701,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      626.0,
+      187.0,
+      61.0,
+      13.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.601,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "메뉴",
+     "tr": "Menü",
+     "box_px_orig": [
+      0.0,
+      70.5,
+      17.5,
+      9.5
+     ],
+     "font_px": 13.7,
+     "scale": 0.659,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_018",
+     "ko": "CRF 관리",
+     "tr": "CRF-Verwaltung",
+     "box_px_orig": [
+      43.0,
+      285.0,
+      55.5,
+      13.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_020",
+     "ko": "LAB 정상범위",
+     "tr": "LAB-Normalbereich",
+     "box_px_orig": [
+      44.0,
+      353.0,
+      79.0,
+      13.0
+     ],
+     "font_px": 17.6,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_022",
+     "ko": "설계 버전 관리",
+     "tr": "Versionsverwaltung des Designs",
+     "box_px_orig": [
+      43.5,
+      421.0,
+      82.5,
+      13.0
+     ],
+     "font_px": 12.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_026",
+     "ko": "데이터 검증 (DVS)",
+     "tr": "Datenvalidierung (DVS)",
+     "box_px_orig": [
+      43.5,
+      593.0,
+      105.5,
+      14.0
+     ],
+     "font_px": 19.9,
+     "scale": 0.721,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_032",
+     "ko": "배정 운영 통합 작업",
+     "tr": "Randomisierungsbetrieb: Gesamtaufgaben",
+     "box_px_orig": [
+      750.5,
+      159.5,
+      89.5,
+      10.5
+     ],
+     "font_px": 10,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_033",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      779.0,
+      187.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_035",
+     "ko": "준비 현황 순서 무관 · 완료 체크",
+     "tr": "Vorbereitungsstand · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      764.0,
+      352.5,
+      156.5,
+      14.0
+     ],
+     "font_px": 12,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_037",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      792.0,
+      447.5,
+      38.5,
+      28.5
+     ],
+     "font_px": 13.9,
+     "scale": 0.438,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_038",
+     "ko": "미정의",
+     "tr": "Nicht definiert",
+     "box_px_orig": [
+      792.5,
+      467.0,
+      31.5,
+      11.0
+     ],
+     "font_px": 11,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_039",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      792.5,
+      505.5,
+      40.0,
+      11.5
+     ],
+     "font_px": 12,
+     "scale": 0.438,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_040",
+     "ko": "미등록",
+     "tr": "Nicht registriert",
+     "box_px_orig": [
+      765.0,
+      505.5,
+      66.0,
+      29.5
+     ],
+     "font_px": 24.7,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_044",
+     "ko": "최근 활동 최근 5건",
+     "tr": "Letzte Aktivitäten (letzte 5)",
+     "box_px_orig": [
+      764.0,
+      748.5,
+      102.0,
+      14.0
+     ],
+     "font_px": 16.5,
+     "scale": 0.559,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_046",
+     "ko": "배정됨",
+     "tr": "Randomisiert",
+     "box_px_orig": [
+      1083.5,
+      254.0,
+      31.5,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.441,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_048",
+     "ko": "배정 설정 요약",
+     "tr": "Zusammenfassung der Randomisierungseinstellungen",
+     "box_px_orig": [
+      1412.5,
+      352.5,
+      83.5,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_050",
+     "ko": "설정하기 >",
+     "tr": "Einrichten >",
+     "box_px_orig": [
+      1408.0,
+      412.0,
+      87.5,
+      28.5
+     ],
+     "font_px": 30.4,
+     "scale": 0.7,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     560,
     209.9
@@ -43,7 +1514,7 @@
    "effective_dpi": 800.2,
    "meets_300dpi_pixels": true
   },
-  {
+  "s1_2_1.png": {
    "name": "s1_2_1.png",
    "source_xref_image": "p04_1.png",
    "source_px": [
@@ -65,7 +1536,1155 @@
     1952
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 42,
+   "segments": [
+    {
+     "id": "s1_2_1_052",
+     "ko": "대시보드 / 배정",
+     "tr": "Dashboard / Randomisierung",
+     "box_px_orig": [
+      17.5,
+      10.0,
+      87.0,
+      11.5
+     ],
+     "font_px": 27,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_053",
+     "ko": "배정 관리",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      17.5,
+      33.5,
+      76.5,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_054",
+     "ko": "내 권한에 해당하는 배정 준비·운영 — 설정·시험군·풀·배정",
+     "tr": "Vorbereitung und Betrieb der Randomisierung für Ihre Berechtigung — Einstellungen · Studienarme · Pool · Randomisierung",
+     "box_px_orig": [
+      18.0,
+      65.0,
+      326.0,
+      13.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_055",
+     "ko": "홈 현황 요약",
+     "tr": "Start-Übersicht",
+     "box_px_orig": [
+      21.0,
+      96.5,
+      57.5,
+      10.5
+     ],
+     "font_px": 22.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_056",
+     "ko": "사전 준비 순서 무관 · 완료 체크",
+     "tr": "Vorbereitung · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      138.0,
+      96.5,
+      136.0,
+      10.5
+     ],
+     "font_px": 10.5,
+     "scale": 0.459,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_057",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      49.0,
+      123.5,
+      26.0,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_058",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      166.5,
+      124.0,
+      74.5,
+      14.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_059",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      287.0,
+      124.0,
+      58.0,
+      14.0
+     ],
+     "font_px": 29.5,
+     "scale": 0.881,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_060",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      392.0,
+      124.0,
+      62.0,
+      14.0
+     ],
+     "font_px": 28.1,
+     "scale": 0.819,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_061",
+     "ko": "배정 운영 통합 작업",
+     "tr": "Randomisierungsbetrieb: Gesamtaufgaben",
+     "box_px_orig": [
+      516.5,
+      96.5,
+      89.5,
+      10.5
+     ],
+     "font_px": 10,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_062",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      545.0,
+      124.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_063",
+     "ko": "풀 번호",
+     "tr": "Nummern im Pool",
+     "box_px_orig": [
+      526.0,
+      191.0,
+      36.0,
+      11.0
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_064",
+     "ko": "준비 현황 순서 무관 · 완료 체크",
+     "tr": "Vorbereitungsstand · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      530.0,
+      289.5,
+      156.5,
+      14.0
+     ],
+     "font_px": 12,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_065",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      558.5,
+      328.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_066",
+     "ko": "설정 완료",
+     "tr": "Einstellungen abgeschlossen",
+     "box_px_orig": [
+      558.5,
+      328.0,
+      53.5,
+      30.0
+     ],
+     "font_px": 30.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_067",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      558.0,
+      384.5,
+      38.5,
+      14.0
+     ],
+     "font_px": 13.6,
+     "scale": 0.459,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_068",
+     "ko": "2개",
+     "tr": "2",
+     "box_px_orig": [
+      558.0,
+      404.0,
+      18.0,
+      9.5
+     ],
+     "font_px": 23,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_069",
+     "ko": "정의",
+     "tr": "Definiert",
+     "box_px_orig": [
+      580.0,
+      404.0,
+      20.5,
+      9.5
+     ],
+     "font_px": 10.5,
+     "scale": 0.459,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_070",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      558.0,
+      442.0,
+      43.5,
+      28.5
+     ],
+     "font_px": 33.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_071",
+     "ko": "8개 등록",
+     "tr": "8 registriert",
+     "box_px_orig": [
+      558.0,
+      453.5,
+      43.5,
+      18.5
+     ],
+     "font_px": 27.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_072",
+     "ko": "배정됨",
+     "tr": "Randomisiert",
+     "box_px_orig": [
+      849.5,
+      191.0,
+      31.5,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.441,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_073",
+     "ko": "시험군별 배정 분포",
+     "tr": "Verteilung der Randomisierung nach Studienarm",
+     "box_px_orig": [
+      530.0,
+      537.5,
+      110.0,
+      14.0
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_074",
+     "ko": "ARM_A 표준요법 · 시험군",
+     "tr": "ARM_A Standardtherapie · Studienarm",
+     "box_px_orig": [
+      529.5,
+      567.5,
+      138.5,
+      12.0
+     ],
+     "font_px": 26,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_075",
+     "ko": "ARM_B 시험요법 · 시험군",
+     "tr": "ARM_B Prüftherapie · Studienarm",
+     "box_px_orig": [
+      529.5,
+      611.5,
+      138.5,
+      12.0
+     ],
+     "font_px": 26,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_076",
+     "ko": "최근 활동 최근 5건",
+     "tr": "Letzte Aktivitäten (letzte 5)",
+     "box_px_orig": [
+      530.0,
+      691.5,
+      102.0,
+      14.0
+     ],
+     "font_px": 16.5,
+     "scale": 0.559,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_077",
+     "ko": "S02-0002 → ARM_B (D-0004)",
+     "tr": "S02-0002 → ARM_B (D-0004)",
+     "box_px_orig": [
+      530.5,
+      902.0,
+      312.0,
+      30.0
+     ],
+     "font_px": 48.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_078",
+     "ko": "가용",
+     "tr": "Verfügbar",
+     "box_px_orig": [
+      1172.5,
+      191.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_079",
+     "ko": "배정 설정 요약",
+     "tr": "Zusammenfassung der Randomisierungseinstellungen",
+     "box_px_orig": [
+      1178.5,
+      289.5,
+      83.5,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_080",
+     "ko": "배정 방식",
+     "tr": "Randomisierungsverfahren",
+     "box_px_orig": [
+      1178.5,
+      318.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_081",
+     "ko": "맹검",
+     "tr": "Verblindung",
+     "box_px_orig": [
+      1179.0,
+      348.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_082",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      1178.5,
+      378.0,
+      24.5,
+      13.0
+     ],
+     "font_px": 28.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_083",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      1495.5,
+      191.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_084",
+     "ko": "외부 업로드 (External Upload)",
+     "tr": "Externer Upload (External Upload)",
+     "box_px_orig": [
+      1592.5,
+      318.0,
+      183.5,
+      14.5
+     ],
+     "font_px": 24.1,
+     "scale": 0.861,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_085",
+     "ko": "공개 (Open Label)",
+     "tr": "offen (Open Label)",
+     "box_px_orig": [
+      1664.0,
+      348.0,
+      112.0,
+      14.5
+     ],
+     "font_px": 26.8,
+     "scale": 0.961,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_086",
+     "ko": "피험자 배정됨 · 방식·맹검 잠금",
+     "tr": "Proband randomisiert · Verfahren und Verblindung gesperrt",
+     "box_px_orig": [
+      1602.0,
+      377.5,
+      174.0,
+      14.0
+     ],
+     "font_px": 24.3,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_087",
+     "ko": "3 / 4 · 목표 1",
+     "tr": "3 / 4 · Ziel 1",
+     "box_px_orig": [
+      1711.5,
+      567.0,
+      64.0,
+      11.5
+     ],
+     "font_px": 25.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_088",
+     "ko": "3 / 4 · 목표 1",
+     "tr": "3 / 4 · Ziel 1",
+     "box_px_orig": [
+      1712.0,
+      611.0,
+      63.5,
+      8.0
+     ],
+     "font_px": 19.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_089",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      738.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 14.4,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_090",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      795.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 14.4,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_091",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      852.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 14.4,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_092",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      909.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 21.7,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "",
+     "button_widened_px": 116
+    },
+    {
+     "id": "s1_2_1_093",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      966.5,
+      19.5,
+      9.0
+     ],
+     "font_px": 9.6,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_2_1_054",
+     "ko": "내 권한에 해당하는 배정 준비·운영 — 설정·시험군·풀·배정",
+     "tr": "Vorbereitung und Betrieb der Randomisierung für Ihre Berechtigung — Einstellungen · Studienarme · Pool · Randomisierung",
+     "box_px_orig": [
+      18.0,
+      65.0,
+      326.0,
+      13.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_056",
+     "ko": "사전 준비 순서 무관 · 완료 체크",
+     "tr": "Vorbereitung · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      138.0,
+      96.5,
+      136.0,
+      10.5
+     ],
+     "font_px": 10.5,
+     "scale": 0.459,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_057",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      49.0,
+      123.5,
+      26.0,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_058",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      166.5,
+      124.0,
+      74.5,
+      14.0
+     ],
+     "font_px": 14.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_060",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      392.0,
+      124.0,
+      62.0,
+      14.0
+     ],
+     "font_px": 28.1,
+     "scale": 0.819,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_061",
+     "ko": "배정 운영 통합 작업",
+     "tr": "Randomisierungsbetrieb: Gesamtaufgaben",
+     "box_px_orig": [
+      516.5,
+      96.5,
+      89.5,
+      10.5
+     ],
+     "font_px": 10,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_062",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      545.0,
+      124.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_064",
+     "ko": "준비 현황 순서 무관 · 완료 체크",
+     "tr": "Vorbereitungsstand · beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      530.0,
+      289.5,
+      156.5,
+      14.0
+     ],
+     "font_px": 12,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_067",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      558.0,
+      384.5,
+      38.5,
+      14.0
+     ],
+     "font_px": 13.6,
+     "scale": 0.459,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_069",
+     "ko": "정의",
+     "tr": "Definiert",
+     "box_px_orig": [
+      580.0,
+      404.0,
+      20.5,
+      9.5
+     ],
+     "font_px": 10.5,
+     "scale": 0.459,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_072",
+     "ko": "배정됨",
+     "tr": "Randomisiert",
+     "box_px_orig": [
+      849.5,
+      191.0,
+      31.5,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.441,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_076",
+     "ko": "최근 활동 최근 5건",
+     "tr": "Letzte Aktivitäten (letzte 5)",
+     "box_px_orig": [
+      530.0,
+      691.5,
+      102.0,
+      14.0
+     ],
+     "font_px": 16.5,
+     "scale": 0.559,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_079",
+     "ko": "배정 설정 요약",
+     "tr": "Zusammenfassung der Randomisierungseinstellungen",
+     "box_px_orig": [
+      1178.5,
+      289.5,
+      83.5,
+      14.0
+     ],
+     "font_px": 13.2,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_2_1_086",
+     "ko": "피험자 배정됨 · 방식·맹검 잠금",
+     "tr": "Proband randomisiert · Verfahren und Verblindung gesperrt",
+     "box_px_orig": [
+      1602.0,
+      377.5,
+      174.0,
+      14.0
+     ],
+     "font_px": 24.3,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_089",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      738.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 14.4,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_090",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      795.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 14.4,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_091",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      852.5,
+      19.5,
+      11.0
+     ],
+     "font_px": 14.4,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_093",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      1750.0,
+      966.5,
+      19.5,
+      9.0
+     ],
+     "font_px": 9.6,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
    "placed_css_px": [
     560,
     239.1
@@ -81,7 +2700,7 @@
    "effective_dpi": 784.8,
    "meets_300dpi_pixels": true
   },
-  {
+  "s2_1_1.png": {
    "name": "s2_1_1.png",
    "source_xref_image": "p05_1.png",
    "source_px": [
@@ -103,7 +2722,700 @@
     1678
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 26,
+   "segments": [
+    {
+     "id": "s2_1_1_094",
+     "ko": "배정 설정이 아직 없습니다 — 기본값으로 초기화",
+     "tr": "Noch keine Randomisierungseinstellungen — mit Standardwerten initialisiert",
+     "box_px_orig": [
+      65.0,
+      41.5,
+      241.0,
+      23.0
+     ],
+     "font_px": 13,
+     "scale": 0.48,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_095",
+     "ko": "아래 값을 확인하고 저장하면 배정 설정이 생성됩니다.",
+     "tr": "Prüfen Sie die Werte unten und speichern Sie, um die Randomisierungseinstellungen anzulegen.",
+     "box_px_orig": [
+      65.5,
+      59.5,
+      262.5,
+      12.0
+     ],
+     "font_px": 12,
+     "scale": 0.462,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_096",
+     "ko": "배정 규칙",
+     "tr": "Randomisierungsregeln",
+     "box_px_orig": [
+      73.5,
+      126.5,
+      53.5,
+      14.0
+     ],
+     "font_px": 29.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_097",
+     "ko": "외부 업로드 (External Upload)",
+     "tr": "Externer Upload (External Upload)",
+     "box_px_orig": [
+      83.0,
+      203.5,
+      160.0,
+      26.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.759,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_098",
+     "ko": "IVRS/IWRS 등 외부 시스템 배정 결과 파일 업로드",
+     "tr": "Hochladen der Randomisierungsergebnisdatei aus externen Systemen wie IVRS/IWRS",
+     "box_px_orig": [
+      83.5,
+      222.0,
+      226.5,
+      10.0
+     ],
+     "font_px": 22.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_099",
+     "ko": "내부 알고리즘 (Internal)",
+     "tr": "Interner Algorithmus (Internal)",
+     "box_px_orig": [
+      83.5,
+      261.0,
+      121.5,
+      11.5
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_100",
+     "ko": "시스템 내부 무작위 배정 알고리즘 (향후 확장)",
+     "tr": "Systeminterner Randomisierungsalgorithmus (künftige Erweiterung)",
+     "box_px_orig": [
+      84.0,
+      280.0,
+      203.5,
+      10.0
+     ],
+     "font_px": 21.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_101",
+     "ko": "향후 확장",
+     "tr": "Künftige Erweiterung",
+     "box_px_orig": [
+      575.0,
+      258.0,
+      46.0,
+      16.0
+     ],
+     "font_px": 11.6,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_102",
+     "ko": "배정 시작 Subject 상태",
+     "tr": "Startstatus des Probanden für die Randomisierung",
+     "box_px_orig": [
+      49.5,
+      327.0,
+      136.5,
+      14.0
+     ],
+     "font_px": 28.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_103",
+     "ko": "ENROLLED (고정) — ENROLLED → RANDOMIZED 전이 시 배정 수행",
+     "tr": "ENROLLED (fest) — Randomisierung erfolgt beim Übergang ENROLLED → RANDOMIZED",
+     "box_px_orig": [
+      62.5,
+      361.0,
+      354.0,
+      11.5
+     ],
+     "font_px": 17.9,
+     "scale": 0.762,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_104",
+     "ko": "공개 (Open Label)",
+     "tr": "offen (Open Label)",
+     "box_px_orig": [
+      688.0,
+      203.5,
+      101.0,
+      27.0
+     ],
+     "font_px": 23.9,
+     "scale": 0.86,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_105",
+     "ko": "배정 결과(armCode) 모두 노출. 규제 영향 최소.",
+     "tr": "Alle Randomisierungsergebnisse (armCode) sind sichtbar. Geringe regulatorische Auswirkungen.",
+     "box_px_orig": [
+      688.0,
+      222.0,
+      214.5,
+      10.0
+     ],
+     "font_px": 21.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_106",
+     "ko": "단일 맹검 (Single Blind)",
+     "tr": "einfach verblindet (Single Blind)",
+     "box_px_orig": [
+      688.5,
+      259.5,
+      124.0,
+      13.0
+     ],
+     "font_px": 24.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_107",
+     "ko": "피험자는 모름, 연구자는",
+     "tr": "Probanden wissen es nicht, Prüfer",
+     "box_px_orig": [
+      688.5,
+      262.5,
+      124.0,
+      26.5
+     ],
+     "font_px": 16.2,
+     "scale": 0.581,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_108",
+     "ko": "이중 맹검 (Double Blind)",
+     "tr": "doppelt verblindet (Double Blind)",
+     "box_px_orig": [
+      688.0,
+      316.5,
+      128.5,
+      12.5
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_109",
+     "ko": "피험자+연구자 모두 모름. armCode 마스킹, DM만 조회 가능.",
+     "tr": "Probanden und Prüfer wissen es nicht. armCode ist maskiert; nur DM kann es einsehen.",
+     "box_px_orig": [
+      688.5,
+      335.0,
+      277.0,
+      11.0
+     ],
+     "font_px": 21.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_110",
+     "ko": "삼중 맹검 (Triple Blind)",
+     "tr": "dreifach verblindet (Triple Blind)",
+     "box_px_orig": [
+      654.0,
+      372.5,
+      271.0,
+      28.5
+     ],
+     "font_px": 54.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_111",
+     "ko": "배정 정책",
+     "tr": "Randomisierungsrichtlinien",
+     "box_px_orig": [
+      49.0,
+      459.0,
+      71.5,
+      13.5
+     ],
+     "font_px": 14,
+     "scale": 0.439,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_112",
+     "ko": "수동 지정 허용 기본 OFF",
+     "tr": "Manuelle Zuweisung zulassen · Standard AUS",
+     "box_px_orig": [
+      90.0,
+      494.0,
+      140.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_113",
+     "ko": "켜면 배정 번호를 직접 지정할 수 있습니다(사유 필수). 꺼져 있으면 수동 지정 시도가 서버에서 거부됩니다.",
+     "tr": "Bei Einschaltung können Sie eine Randomisierungsnummer direkt zuweisen (Grund erforderlich). Ist sie ausgeschaltet, werden manuelle Zuweisungsversuche vom Server abgelehnt.",
+     "box_px_orig": [
+      90.0,
+      515.0,
+      517.0,
+      11.5
+     ],
+     "font_px": 12.5,
+     "scale": 0.521,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_114",
+     "ko": "자동 배정",
+     "tr": "Automatische Randomisierung",
+     "box_px_orig": [
+      90.0,
+      570.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_115",
+     "ko": "기본 OFF",
+     "tr": "Standard AUS",
+     "box_px_orig": [
+      153.5,
+      572.0,
+      47.5,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_116",
+     "ko": "피험자가 배정 가능 상태에 도달하면 시스템이 배정을 수행합니다.",
+     "tr": "Sobald ein Proband den zuweisbaren Status erreicht, führt das System die Randomisierung durch.",
+     "box_px_orig": [
+      90.0,
+      591.0,
+      321.5,
+      11.0
+     ],
+     "font_px": 24.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_117",
+     "ko": "설명",
+     "tr": "Beschreibung",
+     "box_px_orig": [
+      49.0,
+      664.0,
+      42.5,
+      13.5
+     ],
+     "font_px": 31.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_118",
+     "ko": "외부 배정 시스템 설명, 배정 방법 등 (선택)",
+     "tr": "Beschreibung des externen Systems, Randomisierungsmethode usw. (optional)",
+     "box_px_orig": [
+      62.5,
+      695.0,
+      240.5,
+      14.0
+     ],
+     "font_px": 27.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_120",
+     "ko": "저장",
+     "tr": "Speichern",
+     "box_px_orig": [
+      1197.0,
+      783.0,
+      26.0,
+      14.0
+     ],
+     "font_px": 17.5,
+     "scale": 0.572,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침",
+     "button_widened_px": 9
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_1_1_094",
+     "ko": "배정 설정이 아직 없습니다 — 기본값으로 초기화",
+     "tr": "Noch keine Randomisierungseinstellungen — mit Standardwerten initialisiert",
+     "box_px_orig": [
+      65.0,
+      41.5,
+      241.0,
+      23.0
+     ],
+     "font_px": 13,
+     "scale": 0.48,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_095",
+     "ko": "아래 값을 확인하고 저장하면 배정 설정이 생성됩니다.",
+     "tr": "Prüfen Sie die Werte unten und speichern Sie, um die Randomisierungseinstellungen anzulegen.",
+     "box_px_orig": [
+      65.5,
+      59.5,
+      262.5,
+      12.0
+     ],
+     "font_px": 12,
+     "scale": 0.462,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_097",
+     "ko": "외부 업로드 (External Upload)",
+     "tr": "Externer Upload (External Upload)",
+     "box_px_orig": [
+      83.0,
+      203.5,
+      160.0,
+      26.5
+     ],
+     "font_px": 20.5,
+     "scale": 0.759,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_101",
+     "ko": "향후 확장",
+     "tr": "Künftige Erweiterung",
+     "box_px_orig": [
+      575.0,
+      258.0,
+      46.0,
+      16.0
+     ],
+     "font_px": 11.6,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_103",
+     "ko": "ENROLLED (고정) — ENROLLED → RANDOMIZED 전이 시 배정 수행",
+     "tr": "ENROLLED (fest) — Randomisierung erfolgt beim Übergang ENROLLED → RANDOMIZED",
+     "box_px_orig": [
+      62.5,
+      361.0,
+      354.0,
+      11.5
+     ],
+     "font_px": 17.9,
+     "scale": 0.762,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_107",
+     "ko": "피험자는 모름, 연구자는",
+     "tr": "Probanden wissen es nicht, Prüfer",
+     "box_px_orig": [
+      688.5,
+      262.5,
+      124.0,
+      26.5
+     ],
+     "font_px": 16.2,
+     "scale": 0.581,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_111",
+     "ko": "배정 정책",
+     "tr": "Randomisierungsrichtlinien",
+     "box_px_orig": [
+      49.0,
+      459.0,
+      71.5,
+      13.5
+     ],
+     "font_px": 14,
+     "scale": 0.439,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_113",
+     "ko": "켜면 배정 번호를 직접 지정할 수 있습니다(사유 필수). 꺼져 있으면 수동 지정 시도가 서버에서 거부됩니다.",
+     "tr": "Bei Einschaltung können Sie eine Randomisierungsnummer direkt zuweisen (Grund erforderlich). Ist sie ausgeschaltet, werden manuelle Zuweisungsversuche vom Server abgelehnt.",
+     "box_px_orig": [
+      90.0,
+      515.0,
+      517.0,
+      11.5
+     ],
+     "font_px": 12.5,
+     "scale": 0.521,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_114",
+     "ko": "자동 배정",
+     "tr": "Automatische Randomisierung",
+     "box_px_orig": [
+      90.0,
+      570.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_120",
+     "ko": "저장",
+     "tr": "Speichern",
+     "box_px_orig": [
+      1197.0,
+      783.0,
+      26.0,
+      14.0
+     ],
+     "font_px": 17.5,
+     "scale": 0.572,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침",
+     "button_widened_px": 9
+    }
+   ],
    "placed_css_px": [
     483.4,
     304.9
@@ -119,7 +3431,7 @@
    "effective_dpi": 527.5,
    "meets_300dpi_pixels": true
   },
-  {
+  "s2_2_1.png": {
    "name": "s2_2_1.png",
    "source_xref_image": "p06_1.png",
    "source_px": [
@@ -137,11 +3449,437 @@
     429
    ],
    "output_px": [
-    4596,
+    4715,
     858
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 13,
+   "segments": [
+    {
+     "id": "s2_2_1_121",
+     "ko": "사전 준비",
+     "tr": "Vorbereitung",
+     "box_px_orig": [
+      134.0,
+      23.5,
+      42.0,
+      10.5
+     ],
+     "font_px": 13.4,
+     "scale": 0.598,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_122",
+     "ko": "순서 무관 · 완료 체크",
+     "tr": "Beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      185.0,
+      25.0,
+      85.0,
+      9.0
+     ],
+     "font_px": 8.8,
+     "scale": 0.442,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_123",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      162.5,
+      51.0,
+      73.5,
+      13.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_124",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      283.0,
+      50.5,
+      57.0,
+      14.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_125",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      388.0,
+      51.0,
+      61.0,
+      13.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.601,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_126",
+     "ko": "배정 운영",
+     "tr": "Randomisierungsbetrieb",
+     "box_px_orig": [
+      512.5,
+      23.5,
+      42.5,
+      10.5
+     ],
+     "font_px": 10,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_127",
+     "ko": "통합 작업",
+     "tr": "Gesamtaufgaben",
+     "box_px_orig": [
+      564.5,
+      24.5,
+      37.5,
+      9.5
+     ],
+     "font_px": 9.5,
+     "scale": 0.461,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_128",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      541.0,
+      51.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_129",
+     "ko": "등록된 시험군이 없습니다. [신규 시험군] 버튼으로 추가하세요",
+     "tr": "Keine Studienarme registriert. Fügen Sie mit der Schaltfläche [Neuer Studienarm] einen hinzu.",
+     "box_px_orig": [
+      970.0,
+      239.0,
+      358.0,
+      14.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_130",
+     "ko": "armCode는 생성 후 변경 불가 (Immutable). 배정 이력이 있는 Arm은 삭제할 수 없습니다.",
+     "tr": "armCode lässt sich nach der Erstellung nicht ändern (Immutable). Ein Arm mit Randomisierungshistorie kann nicht gelöscht werden.",
+     "box_px_orig": [
+      533.0,
+      338.5,
+      406.5,
+      10.5
+     ],
+     "font_px": 21.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_131",
+     "ko": "신규 시험군",
+     "tr": "Neuer Studienarm",
+     "box_px_orig": [
+      2201.5,
+      105.5,
+      67.5,
+      14.5
+     ],
+     "font_px": 28.3,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "",
+     "button_completed": true
+    },
+    {
+     "id": "s2_2_1_132",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      45.5,
+      51.0,
+      25.0,
+      13.0
+     ],
+     "font_px": 12.6,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "x_s2_2_1_000",
+     "ko": "홈 현황 요약",
+     "tr": "Start-Übersicht",
+     "box_px_orig": [
+      17.0,
+      23.5,
+      57.5,
+      10.5
+     ],
+     "font_px": 22.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_1_121",
+     "ko": "사전 준비",
+     "tr": "Vorbereitung",
+     "box_px_orig": [
+      134.0,
+      23.5,
+      42.0,
+      10.5
+     ],
+     "font_px": 13.4,
+     "scale": 0.598,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_122",
+     "ko": "순서 무관 · 완료 체크",
+     "tr": "Beliebige Reihenfolge · Abschlusskontrolle",
+     "box_px_orig": [
+      185.0,
+      25.0,
+      85.0,
+      9.0
+     ],
+     "font_px": 8.8,
+     "scale": 0.442,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_123",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      162.5,
+      51.0,
+      73.5,
+      13.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_124",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      283.0,
+      50.5,
+      57.0,
+      14.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.66,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_125",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      388.0,
+      51.0,
+      61.0,
+      13.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.601,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_126",
+     "ko": "배정 운영",
+     "tr": "Randomisierungsbetrieb",
+     "box_px_orig": [
+      512.5,
+      23.5,
+      42.5,
+      10.5
+     ],
+     "font_px": 10,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_127",
+     "ko": "통합 작업",
+     "tr": "Gesamtaufgaben",
+     "box_px_orig": [
+      564.5,
+      24.5,
+      37.5,
+      9.5
+     ],
+     "font_px": 9.5,
+     "scale": 0.461,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_128",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      541.0,
+      51.0,
+      24.0,
+      13.0
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_132",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      45.5,
+      51.0,
+      25.0,
+      13.0
+     ],
+     "font_px": 12.6,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
    "placed_css_px": [
     560,
     104.3
@@ -155,9 +3893,10 @@
     600
    ],
    "effective_dpi": 787.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "right_margin_added_px": 119
   },
-  {
+  "s2_3_1.png": {
    "name": "s2_3_1.png",
    "source_xref_image": "p07_1.png",
    "source_px": [
@@ -179,7 +3918,185 @@
     1204
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 9,
+   "segments": [
+    {
+     "id": "s2_3_1_133",
+     "ko": "최근 배치",
+     "tr": "Letzte Chargen",
+     "box_px_orig": [
+      118.0,
+      46.5,
+      54.0,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_134",
+     "ko": "0건",
+     "tr": "0",
+     "box_px_orig": [
+      1273.0,
+      48.0,
+      18.0,
+      11.0
+     ],
+     "font_px": 25.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_135",
+     "ko": "업로드된 배치가 없습니다.",
+     "tr": "Keine Chargen hochgeladen.",
+     "box_px_orig": [
+      628.0,
+      99.0,
+      130.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_136",
+     "ko": "신규 풀 업로드",
+     "tr": "Neuen Pool hochladen",
+     "box_px_orig": [
+      122.0,
+      177.5,
+      84.0,
+      14.0
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_137",
+     "ko": "배치 설명",
+     "tr": "Chargenbeschreibung",
+     "box_px_orig": [
+      98.5,
+      229.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_138",
+     "ko": "예: Q3 신규 pool 업로드 (+30건)",
+     "tr": "z. B. Q3-Upload neuer Pool (+30 Einträge)",
+     "box_px_orig": [
+      110.5,
+      256.5,
+      192.5,
+      19.0
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_139",
+     "ko": "CSV 파일을 선택 또는 드래그",
+     "tr": "CSV-Datei auswählen oder hierher ziehen",
+     "box_px_orig": [
+      608.0,
+      401.0,
+      170.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_140",
+     "ko": "필수 컬럼: randomNo(또는 assignmentNo), armCode · 선택: stratum",
+     "tr": "Pflichtspalten: randomNo (oder assignmentNo), armCode · optional: stratum",
+     "box_px_orig": [
+      529.5,
+      428.0,
+      327.0,
+      11.0
+     ],
+     "font_px": 21.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_141",
+     "ko": "업로드 실행",
+     "tr": "Upload starten",
+     "box_px_orig": [
+      1204.5,
+      531.0,
+      66.5,
+      13.5
+     ],
+     "font_px": 25.5,
+     "scale": 0.862,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "",
+     "button_widened_px": 14
+    }
+   ],
+   "flags": [],
    "placed_css_px": [
     517.3,
     226.1
@@ -195,7 +4112,7 @@
    "effective_dpi": 511.9,
    "meets_300dpi_pixels": true
   },
-  {
+  "s3_1_1.png": {
    "name": "s3_1_1.png",
    "source_xref_image": "p08_1.png",
    "source_px": [
@@ -217,7 +4134,394 @@
     1402
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 11,
+   "segments": [
+    {
+     "id": "s3_1_1_142",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      51.5,
+      16.0,
+      25.0,
+      13.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_143",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      168.5,
+      16.0,
+      73.5,
+      13.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_144",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      289.0,
+      16.0,
+      57.0,
+      13.0
+     ],
+     "font_px": 21.8,
+     "scale": 0.701,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_145",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      394.0,
+      16.0,
+      61.0,
+      13.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.601,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_146",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      547.0,
+      15.5,
+      24.5,
+      14.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_147",
+     "ko": "배정 해제",
+     "tr": "Randomisierung aufheben",
+     "box_px_orig": [
+      154.5,
+      61.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_148",
+     "ko": "배정 설정이 필요합니다",
+     "tr": "Randomisierungseinstellungen erforderlich",
+     "box_px_orig": [
+      1068.5,
+      552.5,
+      173.5,
+      17.5
+     ],
+     "font_px": 16.3,
+     "scale": 0.439,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_149",
+     "ko": "배정을 수행하려면 먼저 배정 설정을 완료해야 합니다.",
+     "tr": "Um die Randomisierung durchzuführen, schließen Sie zuerst die Randomisierungseinstellungen ab.",
+     "box_px_orig": [
+      1002.0,
+      583.0,
+      306.5,
+      13.0
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_150",
+     "ko": "배정 설정으로 이동",
+     "tr": "Zu den Randomisierungseinstellungen",
+     "box_px_orig": [
+      1114.0,
+      627.0,
+      110.0,
+      14.0
+     ],
+     "font_px": 14.7,
+     "scale": 0.48,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "x_s3_1_1_001",
+     "ko": "배정 수행",
+     "tr": "Zuweisung ausführen",
+     "box_px_orig": [
+      51.5,
+      61.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "x_s3_1_1_002",
+     "ko": "배정 수행",
+     "tr": "Zuweisung ausführen",
+     "box_px_orig": [
+      51.5,
+      61.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_1_1_142",
+     "ko": "개요",
+     "tr": "Übersicht",
+     "box_px_orig": [
+      51.5,
+      16.0,
+      25.0,
+      13.0
+     ],
+     "font_px": 12.4,
+     "scale": 0.441,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_143",
+     "ko": "배정 설정",
+     "tr": "Randomisierungseinstellungen",
+     "box_px_orig": [
+      168.5,
+      16.0,
+      73.5,
+      13.0
+     ],
+     "font_px": 13.8,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_144",
+     "ko": "시험군",
+     "tr": "Studienarm",
+     "box_px_orig": [
+      289.0,
+      16.0,
+      57.0,
+      13.0
+     ],
+     "font_px": 21.8,
+     "scale": 0.701,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_145",
+     "ko": "번호 풀",
+     "tr": "Nummernpool",
+     "box_px_orig": [
+      394.0,
+      16.0,
+      61.0,
+      13.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.601,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_146",
+     "ko": "배정",
+     "tr": "Randomisierung",
+     "box_px_orig": [
+      547.0,
+      15.5,
+      24.5,
+      14.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_1_1_148",
+     "ko": "배정 설정이 필요합니다",
+     "tr": "Randomisierungseinstellungen erforderlich",
+     "box_px_orig": [
+      1068.5,
+      552.5,
+      173.5,
+      17.5
+     ],
+     "font_px": 16.3,
+     "scale": 0.439,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_150",
+     "ko": "배정 설정으로 이동",
+     "tr": "Zu den Randomisierungseinstellungen",
+     "box_px_orig": [
+      1114.0,
+      627.0,
+      110.0,
+      14.0
+     ],
+     "font_px": 14.7,
+     "scale": 0.48,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "x_s3_1_1_001",
+     "ko": "배정 수행",
+     "tr": "Zuweisung ausführen",
+     "box_px_orig": [
+      51.5,
+      61.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "x_s3_1_1_002",
+     "ko": "배정 수행",
+     "tr": "Zuweisung ausführen",
+     "box_px_orig": [
+      51.5,
+      61.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
    "placed_css_px": [
     516.8,
     158.4
@@ -233,7 +4537,7 @@
    "effective_dpi": 853.0,
    "meets_300dpi_pixels": true
   },
-  {
+  "s3_1_2.png": {
    "name": "s3_1_2.png",
    "source_xref_image": "p08_2.png",
    "source_px": [
@@ -255,7 +4559,147 @@
     596
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 6,
+   "segments": [
+    {
+     "id": "s3_1_2_151",
+     "ko": "배정 방식",
+     "tr": "Randomisierungsverfahren",
+     "box_px_orig": [
+      118.5,
+      35.5,
+      53.5,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_2_152",
+     "ko": "자동 제안 승인 (기본)",
+     "tr": "Automatischen Vorschlag bestätigen (Standard)",
+     "box_px_orig": [
+      128.0,
+      96.5,
+      104.5,
+      12.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_2_153",
+     "ko": "배정 가능 번호가 없습니다. DM에게 풀 업로드 요청.",
+     "tr": "Keine Randomisierungsnummer verfügbar. Bitten Sie den DM um einen Pool-Upload.",
+     "box_px_orig": [
+      98.0,
+      98.0,
+      292.5,
+      44.5
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_2_154",
+     "ko": "수동 Override (DM 전용)",
+     "tr": "Manuelles Override (nur DM)",
+     "box_px_orig": [
+      128.0,
+      170.5,
+      129.0,
+      12.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_2_155",
+     "ko": "예외적 수정 (배정 오류 정정 등). 사유 필수.",
+     "tr": "Ausnahmsweise Korrektur (z. B. bei einem Randomisierungsfehler). Grund erforderlich.",
+     "box_px_orig": [
+      128.0,
+      187.0,
+      192.0,
+      10.0
+     ],
+     "font_px": 21.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_2_156",
+     "ko": "배정 확정",
+     "tr": "Randomisierung bestätigen",
+     "box_px_orig": [
+      1213.5,
+      252.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_1_2_156",
+     "ko": "배정 확정",
+     "tr": "Randomisierung bestätigen",
+     "box_px_orig": [
+      1213.5,
+      252.0,
+      53.5,
+      13.5
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
    "placed_css_px": [
     483.4,
     105.3
@@ -271,7 +4715,7 @@
    "effective_dpi": 545.0,
    "meets_300dpi_pixels": false
   },
-  {
+  "s3_2_1.png": {
    "name": "s3_2_1.png",
    "source_xref_image": "p09_1.png",
    "source_px": [
@@ -293,7 +4737,301 @@
     1116
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 13,
+   "segments": [
+    {
+     "id": "s3_2_1_157",
+     "ko": "대상 Subject (1)",
+     "tr": "Zielproband (Subject) (1)",
+     "box_px_orig": [
+      89.0,
+      35.0,
+      69.5,
+      11.0
+     ],
+     "font_px": 20.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_158",
+     "ko": "고유번호",
+     "tr": "Eindeutige Nummer",
+     "box_px_orig": [
+      439.5,
+      67.0,
+      44.5,
+      11.0
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_159",
+     "ko": "찾는 피험자가 없습니까? 이미 배정된 피험자는 이 목록에 나오지 않습니다 — 배정 해제 후 재배정하십시오.",
+     "tr": "Den gesuchten Probanden finden Sie nicht? Bereits randomisierte Probanden erscheinen nicht in dieser Liste. Heben Sie die Randomisierung auf und randomisieren Sie erneut.",
+     "box_px_orig": [
+      89.0,
+      137.5,
+      482.0,
+      11.0
+     ],
+     "font_px": 23.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_160",
+     "ko": "이름",
+     "tr": "Name",
+     "box_px_orig": [
+      648.0,
+      67.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_161",
+     "ko": "대상 04",
+     "tr": "Proband 04",
+     "box_px_orig": [
+      648.0,
+      100.5,
+      40.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_162",
+     "ko": "참여기관",
+     "tr": "Standort",
+     "box_px_orig": [
+      845.0,
+      67.0,
+      44.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_163",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      1053.0,
+      67.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_164",
+     "ko": "등록 완료",
+     "tr": "Registrierung abgeschlossen",
+     "box_px_orig": [
+      1061.0,
+      101.5,
+      47.0,
+      12.0
+     ],
+     "font_px": 26.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_165",
+     "ko": "배정 방식",
+     "tr": "Randomisierungsverfahren",
+     "box_px_orig": [
+      121.5,
+      294.5,
+      53.5,
+      14.0
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_166",
+     "ko": "자동 제안 승인 (기본)",
+     "tr": "Automatischen Vorschlag bestätigen (Standard)",
+     "box_px_orig": [
+      131.0,
+      355.5,
+      104.5,
+      12.5
+     ],
+     "font_px": 24.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_167",
+     "ko": "수동 Override (DM 전용)",
+     "tr": "Manuelles Override (nur DM)",
+     "box_px_orig": [
+      131.0,
+      431.5,
+      128.5,
+      12.5
+     ],
+     "font_px": 19.7,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_168",
+     "ko": "예외적 수정 (배정 오류 정정 등). 사유 필수.",
+     "tr": "Ausnahmsweise Korrektur (z. B. bei einem Randomisierungsfehler). Grund erforderlich.",
+     "box_px_orig": [
+      110.0,
+      435.5,
+      213.0,
+      22.5
+     ],
+     "font_px": 26.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_169",
+     "ko": "배정 확정",
+     "tr": "Randomisierung bestätigen",
+     "box_px_orig": [
+      1216.0,
+      513.5,
+      54.0,
+      14.5
+     ],
+     "font_px": 13.9,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침",
+     "button_widened_px": 8
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_1_167",
+     "ko": "수동 Override (DM 전용)",
+     "tr": "Manuelles Override (nur DM)",
+     "box_px_orig": [
+      131.0,
+      431.5,
+      128.5,
+      12.5
+     ],
+     "font_px": 19.7,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_169",
+     "ko": "배정 확정",
+     "tr": "Randomisierung bestätigen",
+     "box_px_orig": [
+      1216.0,
+      513.5,
+      54.0,
+      14.5
+     ],
+     "font_px": 13.9,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침",
+     "button_widened_px": 8
+    }
+   ],
    "placed_css_px": [
     448.6,
     182.2
@@ -309,7 +5047,7 @@
    "effective_dpi": 589.4,
    "meets_300dpi_pixels": true
   },
-  {
+  "s3_2_2.png": {
    "name": "s3_2_2.png",
    "source_xref_image": "p09_2.png",
    "source_px": [
@@ -331,7 +5069,52 @@
     228
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 1,
+   "segments": [
+    {
+     "id": "s3_2_2_170",
+     "ko": "배정 완료 — D-0007 · ARM_A · ENROLLED → RANDOMIZED",
+     "tr": "Randomisierung abgeschlossen — D-0007 · ARM_A · ENROLLED → RANDOMIZED",
+     "box_px_orig": [
+      133.5,
+      49.0,
+      324.5,
+      12.0
+     ],
+     "font_px": 17.3,
+     "scale": 0.658,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_2_170",
+     "ko": "배정 완료 — D-0007 · ARM_A · ENROLLED → RANDOMIZED",
+     "tr": "Randomisierung abgeschlossen — D-0007 · ARM_A · ENROLLED → RANDOMIZED",
+     "box_px_orig": [
+      133.5,
+      49.0,
+      324.5,
+      12.0
+     ],
+     "font_px": 17.3,
+     "scale": 0.658,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     345.1,
     75.1
@@ -347,7 +5130,7 @@
    "effective_dpi": 291.5,
    "meets_300dpi_pixels": false
   },
-  {
+  "s3_3_1.png": {
    "name": "s3_3_1.png",
    "source_xref_image": "p10_1.png",
    "source_px": [
@@ -369,7 +5152,625 @@
     1698
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 27,
+   "segments": [
+    {
+     "id": "s3_3_1_171",
+     "ko": "고유번호",
+     "tr": "Eindeutige Nummer",
+     "box_px_orig": [
+      360.5,
+      30.0,
+      44.5,
+      11.0
+     ],
+     "font_px": 21.9,
+     "scale": 0.88,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_172",
+     "ko": "이름",
+     "tr": "Name",
+     "box_px_orig": [
+      517.5,
+      30.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_173",
+     "ko": "대상 05",
+     "tr": "Proband 05",
+     "box_px_orig": [
+      517.5,
+      63.5,
+      40.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_174",
+     "ko": "대상 04",
+     "tr": "Proband 04",
+     "box_px_orig": [
+      517.5,
+      100.5,
+      40.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_175",
+     "ko": "대상 06",
+     "tr": "Proband 06",
+     "box_px_orig": [
+      517.5,
+      137.5,
+      40.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_176",
+     "ko": "대상 07",
+     "tr": "Proband 07",
+     "box_px_orig": [
+      517.5,
+      174.5,
+      39.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_177",
+     "ko": "대상 08",
+     "tr": "Proband 08",
+     "box_px_orig": [
+      517.5,
+      211.5,
+      40.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_178",
+     "ko": "대상 09",
+     "tr": "Proband 09",
+     "box_px_orig": [
+      517.5,
+      248.5,
+      40.0,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_179",
+     "ko": "대상 10",
+     "tr": "Proband 10",
+     "box_px_orig": [
+      517.5,
+      285.5,
+      37.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_180",
+     "ko": "참여기관",
+     "tr": "Standort",
+     "box_px_orig": [
+      666.5,
+      30.0,
+      44.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_181",
+     "ko": "상태",
+     "tr": "Status",
+     "box_px_orig": [
+      823.0,
+      30.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_182",
+     "ko": "배정 완료",
+     "tr": "Randomisierung abgeschlossen",
+     "box_px_orig": [
+      831.5,
+      64.5,
+      46.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_183",
+     "ko": "배정 완료",
+     "tr": "Randomisierung abgeschlossen",
+     "box_px_orig": [
+      831.5,
+      102.0,
+      46.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_184",
+     "ko": "투약 중",
+     "tr": "In Behandlung",
+     "box_px_orig": [
+      826.5,
+      135.0,
+      40.5,
+      20.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_185",
+     "ko": "치료 종료",
+     "tr": "Behandlung beendet",
+     "box_px_orig": [
+      824.5,
+      171.5,
+      53.0,
+      21.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_186",
+     "ko": "추적 불가",
+     "tr": "Nicht nachverfolgbar",
+     "box_px_orig": [
+      826.0,
+      209.0,
+      56.0,
+      20.0
+     ],
+     "font_px": 14.2,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_187",
+     "ko": "사망",
+     "tr": "Verstorben",
+     "box_px_orig": [
+      831.0,
+      250.0,
+      22.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_188",
+     "ko": "연구 종료",
+     "tr": "Studie beendet",
+     "box_px_orig": [
+      831.0,
+      286.5,
+      47.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "",
+     "button_widened_px": 85
+    },
+    {
+     "id": "s3_3_1_189",
+     "ko": "해제 사유",
+     "tr": "Grund der Aufhebung",
+     "box_px_orig": [
+      100.5,
+      475.0,
+      61.0,
+      16.0
+     ],
+     "font_px": 34.2,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_190",
+     "ko": "사유 구분 *",
+     "tr": "Grund *",
+     "box_px_orig": [
+      100.5,
+      525.0,
+      64.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_191",
+     "ko": "— 선택 —",
+     "tr": "— Auswahl —",
+     "box_px_orig": [
+      118.0,
+      555.0,
+      57.5,
+      13.5
+     ],
+     "font_px": 29,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_192",
+     "ko": "상세 메모 * (5자 이상)",
+     "tr": "Detailnotiz * (mind. 5 Zeichen)",
+     "box_px_orig": [
+      100.5,
+      597.0,
+      111.0,
+      13.5
+     ],
+     "font_px": 26,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_193",
+     "ko": "해제 상세 사유를 입력해 주세요",
+     "tr": "Bitte geben Sie den detaillierten Grund für die Aufhebung ein.",
+     "box_px_orig": [
+      114.0,
+      632.0,
+      180.5,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_194",
+     "ko": "전자서명 필요 (21 CFR Part 11) — 활성 서명 정책에 따라 해제 실행 시 전자서명 모달이 표시됩니다. 서명하면 1회용 토큰으로 즉시 처리됩니다.",
+     "tr": "Elektronische Signatur erforderlich (21 CFR Part 11) — Je nach aktiver Signaturrichtlinie erscheint beim Ausführen der Aufhebung ein Dialog zur elektronischen Signatur. Nach der Signatur wird sie sofort mit einem einmaligen Token verarbeitet.",
+     "box_px_orig": [
+      137.5,
+      731.5,
+      703.5,
+      12.5
+     ],
+     "font_px": 21.1,
+     "scale": 0.879,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_195",
+     "ko": "기존 배정",
+     "tr": "Bisherige Randomisierung",
+     "box_px_orig": [
+      1024.0,
+      30.0,
+      46.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_3_1_196",
+     "ko": "현재 배정",
+     "tr": "Aktuelle Randomisierung",
+     "box_px_orig": [
+      1251.5,
+      355.0,
+      38.5,
+      9.0
+     ],
+     "font_px": 9,
+     "scale": 0.439,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_3_1_197",
+     "ko": "해제 실행",
+     "tr": "Aufhebung ausführen",
+     "box_px_orig": [
+      1219.5,
+      813.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 13.5,
+     "scale": 0.458,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침",
+     "button_widened_px": 3
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_3_1_184",
+     "ko": "투약 중",
+     "tr": "In Behandlung",
+     "box_px_orig": [
+      826.5,
+      135.0,
+      40.5,
+      20.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_185",
+     "ko": "치료 종료",
+     "tr": "Behandlung beendet",
+     "box_px_orig": [
+      824.5,
+      171.5,
+      53.0,
+      21.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_186",
+     "ko": "추적 불가",
+     "tr": "Nicht nachverfolgbar",
+     "box_px_orig": [
+      826.0,
+      209.0,
+      56.0,
+      20.0
+     ],
+     "font_px": 14.2,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s3_3_1_196",
+     "ko": "현재 배정",
+     "tr": "Aktuelle Randomisierung",
+     "box_px_orig": [
+      1251.5,
+      355.0,
+      38.5,
+      9.0
+     ],
+     "font_px": 9,
+     "scale": 0.439,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "header",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_3_1_197",
+     "ko": "해제 실행",
+     "tr": "Aufhebung ausführen",
+     "box_px_orig": [
+      1219.5,
+      813.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 13.5,
+     "scale": 0.458,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침",
+     "button_widened_px": 3
+    }
+   ],
    "placed_css_px": [
     483.4,
     305.8
@@ -385,5 +5786,5 @@
    "effective_dpi": 534.2,
    "meets_300dpi_pixels": true
   }
- ]
+ }
 }

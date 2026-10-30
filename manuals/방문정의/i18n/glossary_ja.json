@@ -1,92 +1,896 @@
 [
-{"ko": "방문", "tr": "来院", "type": "term", "note": ""},
-{"ko": "방문 정의", "tr": "来院定義", "type": "path", "note": ""},
-{"ko": "방문 정의 관리", "tr": "来院定義管理", "type": "path", "note": ""},
-{"ko": "방문 타임라인", "tr": "来院タイムライン", "type": "term", "note": ""},
-{"ko": "방문 없음", "tr": "来院なし", "type": "message", "note": "피험자 화면에 표시되는 빈 상태 문구"},
-{"ko": "정의", "tr": "定義", "type": "term", "note": ""},
-{"ko": "정의 수정", "tr": "定義の編集", "type": "path", "note": ""},
-{"ko": "화면 구성", "tr": "画面構成", "type": "term", "note": "h2 섹션 제목"},
-{"ko": "연구 일정", "tr": "研究スケジュール", "type": "term", "note": ""},
-{"ko": "일정", "tr": "日程", "type": "term", "note": ""},
-{"ko": "연구 관리", "tr": "研究管理", "type": "menu", "note": "왼쪽 메뉴 이름"},
-{"ko": "설계 버전 관리", "tr": "設計バージョン管理", "type": "menu", "note": ""},
-{"ko": "할 일 목록", "tr": "作業リスト", "type": "term", "note": ""},
-{"ko": "프로젝트 대시보드", "tr": "プロジェクトダッシュボード", "type": "path", "note": ""},
-{"ko": "VisitGroup", "tr": "VisitGroup", "type": "term", "note": "제품 고유 명칭이므로 그대로 둠"},
-{"ko": "새 VisitGroup", "tr": "新規 VisitGroup", "type": "button", "note": "본문 설명의 버튼 표기"},
-{"ko": "신규 VisitGroup 추가", "tr": "新規 VisitGroup 追加", "type": "path", "note": ""},
-{"ko": "VisitGroup 추가", "tr": "VisitGroup 追加", "type": "tab", "note": "섹션 제목"},
-{"ko": "Visit Group 코드", "tr": "Visit Group コード", "type": "label", "note": ""},
-{"ko": "Visit Group 명", "tr": "Visit Group 名", "type": "label", "note": ""},
-{"ko": "Visit 코드", "tr": "Visit コード", "type": "label", "note": ""},
-{"ko": "Visit 명", "tr": "Visit 名", "type": "label", "note": ""},
-{"ko": "Cycle 반복", "tr": "Cycle 繰り返し", "type": "label", "note": ""},
-{"ko": "Cycle 반복 활성화", "tr": "Cycle 繰り返しを有効化", "type": "label", "note": ""},
-{"ko": "주기", "tr": "周期", "type": "term", "note": ""},
-{"ko": "주기 치료", "tr": "周期治療", "type": "term", "note": ""},
-{"ko": "선별 단계", "tr": "スクリーニング段階", "type": "term", "note": "연구 일정의 단계 이름 예시"},
-{"ko": "치료 단계", "tr": "治療段階", "type": "term", "note": "연구 일정의 단계 이름 예시"},
-{"ko": "구축 단계", "tr": "構築段階", "type": "term", "note": ""},
-{"ko": "테스트 단계", "tr": "テスト段階", "type": "term", "note": ""},
-{"ko": "설정 중", "tr": "設定中", "type": "status", "note": "프로젝트 상태 SETUP"},
-{"ko": "운영", "tr": "運用", "type": "status", "note": "프로젝트 상태 ACTIVE"},
-{"ko": "공통", "tr": "共通", "type": "value", "note": "Arm 탭 이름"},
-{"ko": "사전동의/서명", "tr": "事前同意/署名", "type": "value", "note": "Anchor Type 값"},
-{"ko": "기준일", "tr": "基準日", "type": "term", "note": ""},
-{"ko": "기준", "tr": "基準", "type": "term", "note": ""},
-{"ko": "유형", "tr": "種類", "type": "term", "note": "Visit Type 열 이름"},
-{"ko": "허용 오차", "tr": "許容誤差", "type": "term", "note": ""},
-{"ko": "허용 피험자 상태", "tr": "許可する被験者の状態", "type": "label", "note": ""},
-{"ko": "피험자 상태 제한", "tr": "被験者状態の制限", "type": "label", "note": ""},
-{"ko": "피험자 상태", "tr": "被験者の状態", "type": "term", "note": ""},
-{"ko": "제한 없음", "tr": "制限なし", "type": "value", "note": ""},
-{"ko": "비활성화", "tr": "無効化", "type": "button", "note": "삭제 대신 쓰는 발행 방문 처리 버튼"},
-{"ko": "새 버전 생성", "tr": "新しいバージョン作成", "type": "button", "note": ""},
-{"ko": "새 버전 생성과 발행", "tr": "新しいバージョンの作成と発行", "type": "term", "note": "섹션 제목"},
-{"ko": "버전", "tr": "バージョン", "type": "term", "note": ""},
-{"ko": "버전 관리", "tr": "バージョン管理", "type": "term", "note": ""},
-{"ko": "버전 선택", "tr": "バージョン選択", "type": "label", "note": ""},
-{"ko": "버전 보기", "tr": "バージョン表示", "type": "button", "note": ""},
-{"ko": "구버전", "tr": "旧バージョン", "type": "term", "note": ""},
-{"ko": "개정본 발행 전 확인", "tr": "改訂版発行前の確認", "type": "label", "note": "카드 제목"},
-{"ko": "발행 권한", "tr": "発行権限", "type": "term", "note": ""},
-{"ko": "발행된 버전입니다", "tr": "発行済みのバージョンです", "type": "status", "note": ""},
-{"ko": "배지", "tr": "バッジ", "type": "term", "note": ""},
-{"ko": "Plan 미리보기", "tr": "Plan プレビュー", "type": "button", "note": ""},
-{"ko": "VisitPlan 미리보기", "tr": "VisitPlan プレビュー", "type": "path", "note": ""},
-{"ko": "닫기", "tr": "閉じる", "type": "button", "note": ""},
-{"ko": "취소", "tr": "キャンセル", "type": "button", "note": ""},
-{"ko": "완료", "tr": "完了", "type": "button", "note": ""},
-{"ko": "생성", "tr": "作成", "type": "button", "note": ""},
-{"ko": "수정", "tr": "編集", "type": "button", "note": "본문에서도 같은 말로 씀"},
-{"ko": "복사", "tr": "コピー", "type": "button", "note": ""},
-{"ko": "정렬", "tr": "並べ替え", "type": "term", "note": ""},
-{"ko": "폼 열 정렬", "tr": "フォーム列の並べ替え", "type": "label", "note": ""},
-{"ko": "정렬값", "tr": "並び順の値", "type": "term", "note": ""},
-{"ko": "선택 (OPTIONAL)", "tr": "任意 (OPTIONAL)", "type": "value", "note": "연결 상태 값. 버튼 「선택」과 구분"},
-{"ko": "선택", "tr": "選択", "type": "button", "note": "다중 선택 모드 버튼"},
-{"ko": "미매핑", "tr": "未マッピング", "type": "value", "note": ""},
-{"ko": "매핑", "tr": "マッピング", "type": "term", "note": ""},
-{"ko": "CRF 매핑", "tr": "CRFマッピング", "type": "path", "note": ""},
-{"ko": "연결", "tr": "紐付け", "type": "term", "note": "Visit과 CRF의 연결을 뜻함"},
-{"ko": "연결 조회", "tr": "紐付けの照会", "type": "status", "note": "조회 모드 배지"},
-{"ko": "연결 수정", "tr": "紐付けの編集", "type": "status", "note": "수정 모드 배지"},
-{"ko": "폼 순서", "tr": "フォーム順序", "type": "tab", "note": ""},
-{"ko": "CRF 폼 순서", "tr": "CRFフォーム順序", "type": "path", "note": ""},
-{"ko": "교차점", "tr": "交差点", "type": "term", "note": ""},
-{"ko": "행 머리", "tr": "行見出し", "type": "term", "note": "기존 항목과 같음"},
-{"ko": "열 머리", "tr": "列見出し", "type": "term", "note": ""},
-{"ko": "범례", "tr": "凡例", "type": "term", "note": ""},
-{"ko": "안내", "tr": "案内", "type": "term", "note": ""},
-{"ko": "잠금", "tr": "ロック", "type": "term", "note": ""},
-{"ko": "회색", "tr": "グレー", "type": "value", "note": ""},
-{"ko": "코드", "tr": "コード", "type": "term", "note": ""},
-{"ko": "이름", "tr": "名前", "type": "term", "note": ""},
-{"ko": "상태 배지", "tr": "ステータスバッジ", "type": "term", "note": ""},
-{"ko": "데이터 관리자", "tr": "データ管理者", "type": "term", "note": ""},
-{"ko": "워크스페이스 관리자", "tr": "ワークスペース管理者", "type": "term", "note": ""},
-{"ko": "연구책임자", "tr": "研究責任者", "type": "term", "note": "PI로 함께 씀"},
-{"ko": "연구간호사", "tr": "研究看護師", "type": "term", "note": "일본 현장 직무명 확인 필요 (notes 참고)"},
-{"ko": "모니터요원", "tr": "臨床開発モニター", "type": "term", "note": ""}
+  {
+    "ko": "방문",
+    "tr": "来院",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "来院定義",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "방문 정의 관리",
+    "tr": "来院定義管理",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "방문 타임라인",
+    "tr": "来院タイムライン",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "방문 없음",
+    "tr": "来院なし",
+    "type": "message",
+    "note": "피험자 화면에 표시되는 빈 상태 문구"
+  },
+  {
+    "ko": "정의",
+    "tr": "定義",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "정의 수정",
+    "tr": "定義の編集",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "화면 구성",
+    "tr": "画面構成",
+    "type": "term",
+    "note": "h2 섹션 제목"
+  },
+  {
+    "ko": "연구 일정",
+    "tr": "研究スケジュール",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "일정",
+    "tr": "日程",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "研究管理",
+    "type": "menu",
+    "note": "왼쪽 메뉴 이름"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "設計バージョン管理",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "할 일 목록",
+    "tr": "作業リスト",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 대시보드",
+    "tr": "プロジェクトダッシュボード",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "VisitGroup",
+    "tr": "VisitGroup",
+    "type": "term",
+    "note": "제품 고유 명칭이므로 그대로 둠"
+  },
+  {
+    "ko": "새 VisitGroup",
+    "tr": "新規 VisitGroup",
+    "type": "button",
+    "note": "본문 설명의 버튼 표기"
+  },
+  {
+    "ko": "신규 VisitGroup 추가",
+    "tr": "新規 VisitGroup 追加",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "VisitGroup 추가",
+    "tr": "VisitGroup 追加",
+    "type": "tab",
+    "note": "섹션 제목"
+  },
+  {
+    "ko": "Visit Group 코드",
+    "tr": "Visit Group コード",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Visit Group 명",
+    "tr": "Visit Group 名",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Visit 코드",
+    "tr": "Visit コード",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Visit 명",
+    "tr": "Visit 名",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Cycle 반복",
+    "tr": "Cycle 繰り返し",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "Cycle 반복 활성화",
+    "tr": "Cycle 繰り返しを有効化",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "주기",
+    "tr": "周期",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "주기 치료",
+    "tr": "周期治療",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "선별 단계",
+    "tr": "スクリーニング段階",
+    "type": "term",
+    "note": "연구 일정의 단계 이름 예시"
+  },
+  {
+    "ko": "치료 단계",
+    "tr": "治療段階",
+    "type": "term",
+    "note": "연구 일정의 단계 이름 예시"
+  },
+  {
+    "ko": "구축 단계",
+    "tr": "構築段階",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "테스트 단계",
+    "tr": "テスト段階",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "설정 중",
+    "tr": "設定中",
+    "type": "status",
+    "note": "프로젝트 상태 SETUP"
+  },
+  {
+    "ko": "운영",
+    "tr": "運用",
+    "type": "status",
+    "note": "프로젝트 상태 ACTIVE"
+  },
+  {
+    "ko": "공통",
+    "tr": "共通",
+    "type": "value",
+    "note": "Arm 탭 이름"
+  },
+  {
+    "ko": "사전동의/서명",
+    "tr": "事前同意/署名",
+    "type": "value",
+    "note": "Anchor Type 값"
+  },
+  {
+    "ko": "기준일",
+    "tr": "基準日",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "기준",
+    "tr": "基準",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "유형",
+    "tr": "種類",
+    "type": "term",
+    "note": "Visit Type 열 이름"
+  },
+  {
+    "ko": "허용 오차",
+    "tr": "許容誤差",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "허용 피험자 상태",
+    "tr": "許可する被験者の状態",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "피험자 상태 제한",
+    "tr": "被験者状態の制限",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "피험자 상태",
+    "tr": "被験者の状態",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "제한 없음",
+    "tr": "制限なし",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "비활성화",
+    "tr": "無効化",
+    "type": "button",
+    "note": "삭제 대신 쓰는 발행 방문 처리 버튼"
+  },
+  {
+    "ko": "새 버전 생성",
+    "tr": "新しいバージョン作成",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "새 버전 생성과 발행",
+    "tr": "新しいバージョンの作成と発行",
+    "type": "term",
+    "note": "섹션 제목"
+  },
+  {
+    "ko": "버전",
+    "tr": "バージョン",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "버전 관리",
+    "tr": "バージョン管理",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "버전 선택",
+    "tr": "バージョン選択",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "버전 보기",
+    "tr": "バージョン表示",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "구버전",
+    "tr": "旧バージョン",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "개정본 발행 전 확인",
+    "tr": "改訂版発行前の確認",
+    "type": "label",
+    "note": "카드 제목"
+  },
+  {
+    "ko": "발행 권한",
+    "tr": "発行権限",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "발행된 버전입니다",
+    "tr": "発行済みのバージョンです",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "배지",
+    "tr": "バッジ",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "Plan 미리보기",
+    "tr": "Plan プレビュー",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "VisitPlan 미리보기",
+    "tr": "VisitPlan プレビュー",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "닫기",
+    "tr": "閉じる",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "취소",
+    "tr": "キャンセル",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "완료",
+    "tr": "完了",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "생성",
+    "tr": "作成",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "수정",
+    "tr": "編集",
+    "type": "button",
+    "note": "본문에서도 같은 말로 씀"
+  },
+  {
+    "ko": "복사",
+    "tr": "コピー",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "정렬",
+    "tr": "並べ替え",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "폼 열 정렬",
+    "tr": "フォーム列の並べ替え",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "정렬값",
+    "tr": "並び順の値",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "선택 (OPTIONAL)",
+    "tr": "任意 (OPTIONAL)",
+    "type": "value",
+    "note": "연결 상태 값. 버튼 「선택」과 구분"
+  },
+  {
+    "ko": "선택",
+    "tr": "選択",
+    "type": "button",
+    "note": "다중 선택 모드 버튼"
+  },
+  {
+    "ko": "미매핑",
+    "tr": "未マッピング",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "매핑",
+    "tr": "マッピング",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "CRF 매핑",
+    "tr": "CRFマッピング",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "연결",
+    "tr": "紐付け",
+    "type": "term",
+    "note": "Visit과 CRF의 연결을 뜻함"
+  },
+  {
+    "ko": "연결 조회",
+    "tr": "紐付けの照会",
+    "type": "status",
+    "note": "조회 모드 배지"
+  },
+  {
+    "ko": "연결 수정",
+    "tr": "紐付けの編集",
+    "type": "status",
+    "note": "수정 모드 배지"
+  },
+  {
+    "ko": "폼 순서",
+    "tr": "フォーム順序",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "CRF 폼 순서",
+    "tr": "CRFフォーム順序",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "교차점",
+    "tr": "交差点",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "행 머리",
+    "tr": "行見出し",
+    "type": "term",
+    "note": "기존 항목과 같음"
+  },
+  {
+    "ko": "열 머리",
+    "tr": "列見出し",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "범례",
+    "tr": "凡例",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "안내",
+    "tr": "案内",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "잠금",
+    "tr": "ロック",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "회색",
+    "tr": "グレー",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "코드",
+    "tr": "コード",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "이름",
+    "tr": "名前",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "상태 배지",
+    "tr": "ステータスバッジ",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "데이터 관리자",
+    "tr": "データ管理者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 관리자",
+    "tr": "ワークスペース管理者",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "연구책임자",
+    "tr": "研究責任者",
+    "type": "term",
+    "note": "PI로 함께 씀"
+  },
+  {
+    "ko": "연구간호사",
+    "tr": "研究看護師",
+    "type": "term",
+    "note": "일본 현장 직무명 확인 필요 (notes 참고)"
+  },
+  {
+    "ko": "모니터요원",
+    "tr": "臨床開発モニター",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "테스트",
+    "tr": "テスト",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "테스트 메뉴",
+    "tr": "テストメニュー",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드 / 방문 정의 관리",
+    "tr": "ダッシュボード / 来院定義管理",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "研究運営",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "ダッシュボード",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "被験者",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 입력",
+    "tr": "データ入力",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전체",
+    "tr": "全体",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료 ①",
+    "tr": "歯式治療 ①",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료 방문",
+    "tr": "歯式治療の来院",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF管理",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE指定",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB正常範囲",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "배정",
+    "tr": "割付",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명",
+    "tr": "電子署名",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "품질·규제",
+    "tr": "品質·規制",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 검증 (DVS)",
+    "tr": "データ検証 (DVS)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 내보내기",
+    "tr": "データエクスポート",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료 방문 v1 PUBLISHED",
+    "tr": "歯式治療の来院 v1 PUBLISHED",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "발행",
+    "tr": "発行",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "Window Before (일)",
+    "tr": "Window Before (日)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Window After (일)",
+    "tr": "Window After (日)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF Visit Matrix",
+    "tr": "CRF Visit Matrix",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료 방문 v2",
+    "tr": "歯式治療の来院 v2",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "Arm: 공통",
+    "tr": "Arm: 共通",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Visit Group 코드 *",
+    "tr": "Visit Group コード *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Visit Group 명 *",
+    "tr": "Visit Group 名 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "저장",
+    "tr": "保存",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "Offset Days (anchor 기준)",
+    "tr": "Offset Days (anchor 基準)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "아래 상태에서만 입력 허용",
+    "tr": "以下の状態でのみ入力を許可",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "등록",
+    "tr": "登録",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "배정 완료",
+    "tr": "割付完了",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치료 종료",
+    "tr": "治療終了",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 종료",
+    "tr": "研究終了",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "스크리닝",
+    "tr": "スクリーニング",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "투약 중",
+    "tr": "投与中",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "추적 불가",
+    "tr": "追跡不能",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "등록 완료",
+    "tr": "登録完了",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "스크리닝 실패",
+    "tr": "スクリーニング失敗",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "사망",
+    "tr": "死亡",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 2건 연결 (v1: 2건)",
+    "tr": "CRF 2件を紐付け (v1: 2件)",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "삭제",
+    "tr": "削除",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "정의 기준",
+    "tr": "定義の基準",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료",
+    "tr": "歯式治療",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "Visit × DataForm 매핑",
+    "tr": "Visit × DataForm マッピング",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "폼 열 정렬: 치식 치료 방문 카드 순서",
+    "tr": "フォーム列の並べ替え: 歯式治療の来院 カード順",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "출처(원본 파일)",
+    "tr": "出典(原本ファイル)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "초안",
+    "tr": "下書き",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "치식 진단·치료",
+    "tr": "歯式の診断·治療",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "검증 규칙 테스 트 020",
+    "tr": "検証ルール テスト 020",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "디자이너 편집 용 DRAFT",
+    "tr": "デザイナー編集用 DRAFT",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "v2 · 초안",
+    "tr": "v2 · 下書き",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "필수",
+    "tr": "必須",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "미매 핑",
+    "tr": "未マッピング",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "치식 치료 방문 (2건) · DENTAL_V1",
+    "tr": "歯式治療の来院 (2件) · DENTAL_V1",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "카드 순서 치식 치료 방문",
+    "tr": "カード順: 歯式治療の来院",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "1 치식 진단·치료 020",
+    "tr": "1 歯式の診断·治療 020",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "2 검증 규칙 테스트 020",
+    "tr": "2 検証ルール テスト 020",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "폼 열 정렬 해제",
+    "tr": "フォーム列の並べ替えを解除",
+    "type": "button",
+    "note": "image"
+  }
 ]

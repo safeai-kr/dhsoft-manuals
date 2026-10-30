@@ -1,380 +1,776 @@
 [
- {
-  "ko": "프로젝트",
-  "tr": "Projekt",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "워크스페이스 대시보드",
-  "tr": "Arbeitsbereich-Dashboard",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "신규 프로젝트 생성",
-  "tr": "Neues Projekt anlegen",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "프로젝트 설정",
-  "tr": "Projekteinstellungen",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "상태 변경",
-  "tr": "Statusänderung",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "메타 편집",
-  "tr": "Metadaten bearbeiten",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "프로젝트 생성",
-  "tr": "Projekt anlegen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "프로젝트 코드",
-  "tr": "Projektcode",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "프로젝트명",
-  "tr": "Projektname",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "연구 유형",
-  "tr": "Studientyp",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "연구자 주도(IIT)",
-  "tr": "Investigator-initiiert (IIT)",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "의뢰자 주도(IND)",
-  "tr": "Sponsor-initiiert (IND)",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "기관 주도(SIT)",
-  "tr": "Einrichtungs-initiiert (SIT)",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "기타",
-  "tr": "Sonstiges",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "시작일 (예상)",
-  "tr": "Startdatum (geplant)",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "종료일 (예상)",
-  "tr": "Enddatum (geplant)",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "설정 중",
-  "tr": "In Einrichtung",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "테스트",
-  "tr": "Test",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "운영 중",
-  "tr": "Im Betrieb",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "종료",
-  "tr": "Beendet",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "보관",
-  "tr": "Archiviert",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "보관 정책",
-  "tr": "Aufbewahrungsrichtlinie",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "표준 (허가일 + 3년)",
-  "tr": "Standard (Genehmigungsdatum + 3 Jahre)",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "기타 (종료일 + 3년)",
-  "tr": "Sonstige (Enddatum + 3 Jahre)",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "초기 역할",
-  "tr": "Anfangsrolle",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "보관 만료일",
-  "tr": "Ende der Aufbewahrungsfrist",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "설정",
-  "tr": "Einstellungen",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "참여 기관",
-  "tr": "Teilnehmende Einrichtungen",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "참여 기관 관리",
-  "tr": "Verwaltung teilnehmender Einrichtungen",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "연구자 배정",
-  "tr": "Zuweisung des Forschungspersonals",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "권한 관리",
-  "tr": "Rechteverwaltung",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "SAE 통보",
-  "tr": "SAE-Meldung",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "설명",
-  "tr": "Beschreibung",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "시작일",
-  "tr": "Startdatum",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "종료일",
-  "tr": "Enddatum",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "IRB 승인일",
-  "tr": "IRB-Genehmigungsdatum",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "프로토콜 번호",
-  "tr": "Protokollnummer",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "단계",
-  "tr": "Phase",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "집계",
-  "tr": "Kennzahlen",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "전이 사유",
-  "tr": "Grund des Übergangs",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "실행",
-  "tr": "Ausführen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "취소",
-  "tr": "Abbrechen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "전자서명",
-  "tr": "elektronische Signatur",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "전자서명 비밀번호",
-  "tr": "Passwort für die elektronische Signatur",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "전자서명 수행",
-  "tr": "Elektronische Signatur ausführen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "(잠금)",
-  "tr": "(gesperrt)",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "테스트 데이터 삭제 확인",
-  "tr": "Löschung der Testdaten bestätigen",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "운영 전환 확인",
-  "tr": "Umstellung in den Betrieb bestätigen",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "프로젝트 종료 확인",
-  "tr": "Beendigung des Projekts bestätigen",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "프로젝트 재개",
-  "tr": "Projekt wieder aufnehmen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "데이터 내보내기",
-  "tr": "Datenexport",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "전제 조건",
-  "tr": "Voraussetzungen",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "부작용",
-  "tr": "Auswirkung",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "내 계정",
-  "tr": "Mein Konto",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "동의",
-  "tr": "Zustimmung",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "동의 체크",
-  "tr": "Zustimmungshaken",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "완전 잠금",
-  "tr": "vollständige Sperre",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "데이터 편집 차단",
-  "tr": "Sperrung der Datenbearbeitung",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "피험자 순번",
-  "tr": "Probandennummerierung",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "시험 데이터",
-  "tr": "Testdaten",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "서명 실행",
-  "tr": "Signieren",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "서명 의미",
-  "tr": "Bedeutung der Signatur",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "사용자 ID",
-  "tr": "Benutzer-ID",
-  "type": "label",
-  "note": ""
- }
+  {
+    "ko": "프로젝트",
+    "tr": "Projekt",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "워크스페이스 대시보드",
+    "tr": "Arbeitsbereich-Dashboard",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "신규 프로젝트 생성",
+    "tr": "Neues Projekt anlegen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 설정",
+    "tr": "Projekteinstellungen",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "상태 변경",
+    "tr": "Statusänderung",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "메타 편집",
+    "tr": "Metadaten bearbeiten",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 생성",
+    "tr": "Projekt anlegen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 코드",
+    "tr": "Projektcode",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트명",
+    "tr": "Projektname",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "연구 유형",
+    "tr": "Studientyp",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "연구자 주도(IIT)",
+    "tr": "Investigator-initiiert (IIT)",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "의뢰자 주도(IND)",
+    "tr": "Sponsor-initiiert (IND)",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "기관 주도(SIT)",
+    "tr": "Einrichtungs-initiiert (SIT)",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "기타",
+    "tr": "Sonstiges",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "시작일 (예상)",
+    "tr": "Startdatum (geplant)",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "종료일 (예상)",
+    "tr": "Enddatum (geplant)",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "설정 중",
+    "tr": "In Einrichtung",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "테스트",
+    "tr": "Test",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "운영 중",
+    "tr": "Im Betrieb",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "종료",
+    "tr": "Beendet",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "보관",
+    "tr": "Archiviert",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "보관 정책",
+    "tr": "Aufbewahrungsrichtlinie",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "표준 (허가일 + 3년)",
+    "tr": "Standard (Genehmigungsdatum + 3 Jahre)",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "기타 (종료일 + 3년)",
+    "tr": "Sonstige (Enddatum + 3 Jahre)",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "초기 역할",
+    "tr": "Anfangsrolle",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "보관 만료일",
+    "tr": "Ende der Aufbewahrungsfrist",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "설정",
+    "tr": "Einstellungen",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "참여 기관",
+    "tr": "Teilnehmende Einrichtungen",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "참여 기관 관리",
+    "tr": "Verwaltung teilnehmender Einrichtungen",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "연구자 배정",
+    "tr": "Zuweisung des Forschungspersonals",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "권한 관리",
+    "tr": "Rechteverwaltung",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "SAE 통보",
+    "tr": "SAE-Meldung",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "설명",
+    "tr": "Beschreibung",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "시작일",
+    "tr": "Startdatum",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "종료일",
+    "tr": "Enddatum",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "IRB 승인일",
+    "tr": "IRB-Genehmigungsdatum",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "프로토콜 번호",
+    "tr": "Protokollnummer",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "단계",
+    "tr": "Phase",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "집계",
+    "tr": "Kennzahlen",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "전이 사유",
+    "tr": "Grund des Übergangs",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "실행",
+    "tr": "Ausführen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "취소",
+    "tr": "Abbrechen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "전자서명",
+    "tr": "elektronische Signatur",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "전자서명 비밀번호",
+    "tr": "Passwort für die elektronische Signatur",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "전자서명 수행",
+    "tr": "Elektronische Signatur ausführen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "(잠금)",
+    "tr": "(gesperrt)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "테스트 데이터 삭제 확인",
+    "tr": "Löschung der Testdaten bestätigen",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "운영 전환 확인",
+    "tr": "Umstellung in den Betrieb bestätigen",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 종료 확인",
+    "tr": "Beendigung des Projekts bestätigen",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 재개",
+    "tr": "Projekt wieder aufnehmen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "데이터 내보내기",
+    "tr": "Datenexport",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "전제 조건",
+    "tr": "Voraussetzungen",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "부작용",
+    "tr": "Auswirkung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "내 계정",
+    "tr": "Mein Konto",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "동의",
+    "tr": "Zustimmung",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "동의 체크",
+    "tr": "Zustimmungshaken",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "완전 잠금",
+    "tr": "vollständige Sperre",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "데이터 편집 차단",
+    "tr": "Sperrung der Datenbearbeitung",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "피험자 순번",
+    "tr": "Probandennummerierung",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "시험 데이터",
+    "tr": "Testdaten",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "서명 실행",
+    "tr": "Signieren",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "서명 의미",
+    "tr": "Bedeutung der Signatur",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "사용자 ID",
+    "tr": "Benutzer-ID",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기본 정보",
+    "tr": "Basisdaten",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 코드 * (생성 후 변경 불가)",
+    "tr": "Projektcode * (nach dem Anlegen nicht änderbar)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "연구 유형 *",
+    "tr": "Studientyp *",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트명 *",
+    "tr": "Projektname *",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "보관 정책 · 역할 템플릿",
+    "tr": "Aufbewahrungsrichtlinie · Rollenvorlage",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "기타(종료일 + 3년)",
+    "tr": "Sonstige (Enddatum + 3 Jahre)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "임상시험",
+    "tr": "Klinische Studie",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드 / 프로젝트 설정",
+    "tr": "Dashboard / Projekteinstellungen",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "Studienbetrieb",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "Dashboard",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "Proband",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 입력",
+    "tr": "Dateneingabe",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "Studienverwaltung",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF-Verwaltung",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE-Festlegung",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB-Normalbereich",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "Besuchsdefinition",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "Versionsverwaltung des Designs",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "배정",
+    "tr": "Zuordnung",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "품질·규제",
+    "tr": "Qualität · Regulatorik",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 검증 (DVS)",
+    "tr": "Datenvalidierung (DVS)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "워크스페이스 메뉴",
+    "tr": "Arbeitsbereichsmenü",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "플랫폼 메뉴",
+    "tr": "Plattformmenü",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "유형",
+    "tr": "Typ",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "상태 워크플로",
+    "tr": "Statusworkflow",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "설정 중 → 테스트 → 운영 중 → 종료 → 보관",
+    "tr": "In Einrichtung → Test → Im Betrieb → Beendet → Archiviert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "빠른 진입",
+    "tr": "Schnellzugriff",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "내 메뉴",
+    "tr": "Mein Menü",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "내 프로필",
+    "tr": "Mein Profil",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "변경 이력",
+    "tr": "Änderungshistorie",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "이름",
+    "tr": "Name",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "활성 Query",
+    "tr": "Aktive Queries",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "Lock 상태",
+    "tr": "Sperrstatus",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "프로토콜 번호 (잠금)",
+    "tr": "Protokollnummer (gesperrt)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "이름 *",
+    "tr": "Name *",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "단계 (현재 변경 불가)",
+    "tr": "Phase (derzeit nicht änderbar)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "저장",
+    "tr": "Speichern",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "현재 상태",
+    "tr": "Aktueller Status",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "설정 중 (현재)",
+    "tr": "In Einrichtung (aktuell)",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "테스트 (대상)",
+    "tr": "Test (Ziel)",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "운영 중 → 종료 → 보관",
+    "tr": "Im Betrieb → Beendet → Archiviert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "전이 대상 선택",
+    "tr": "Übergangsziel auswählen",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "설정 중 → 테스트",
+    "tr": "In Einrichtung → Test",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "설정 중 → 테스트 전이 검증",
+    "tr": "Übergang In Einrichtung → Test prüfen",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "전이 사유 * (감사 추적용)",
+    "tr": "Grund des Übergangs * (für Audit-Trail)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드 / 프로젝트 설정 / 상태 변경",
+    "tr": "Dashboard / Projekteinstellungen / Statusänderung",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "테스트 (현재)",
+    "tr": "Test (aktuell)",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "운영 중 (대상) → 종료 → 보관",
+    "tr": "Im Betrieb (Ziel) → Beendet → Archiviert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "테스트 → 설정 중",
+    "tr": "Test → In Einrichtung",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "테스트 → 운영 중",
+    "tr": "Test → Im Betrieb",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "테스트 → 운영 중 전이 검증",
+    "tr": "Übergang Test → Im Betrieb prüfen",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "전이 사유 * (감사추적용)",
+    "tr": "Grund des Übergangs * (für Audit-Trail)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "삭제하고 계속",
+    "tr": "Löschen und fortfahren",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "ACTIVE 전환 확인 (불가역)",
+    "tr": "Umstellung auf ACTIVE bestätigen (nicht umkehrbar)",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "ACTIVE로 전환",
+    "tr": "Auf ACTIVE umstellen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "설정 중 → 테스트 → 운영 중 (현재) → 종료 (대상) → 보관",
+    "tr": "In Einrichtung → Test → Im Betrieb (aktuell) → Beendet (Ziel) → Archiviert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "운영 중 → 종료",
+    "tr": "Im Betrieb → Beendet",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "운영 중 → 종료 전이 검증",
+    "tr": "Übergang Im Betrieb → Beendet prüfen",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 종료 확인 (ACTIVE → CLOSED)",
+    "tr": "Beendigung des Projekts bestätigen (ACTIVE → CLOSED)",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 단위 HARD_LOCK 적용 및 데이터 편집 차단에 동의합니다.",
+    "tr": "Ich stimme der projektweiten HARD_LOCK-Sperre und der Sperrung der Datenbearbeitung zu.",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "종료 실행",
+    "tr": "Beendigung ausführen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "서명 대상",
+    "tr": "Signaturziel",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 종결",
+    "tr": "Projektabschluss",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "서명 의미(meaningCode)",
+    "tr": "Bedeutung der Signatur (meaningCode)",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명 비밀번호 *",
+    "tr": "Passwort für die elektronische Signatur *",
+    "type": "field",
+    "note": "image"
+  },
+  {
+    "ko": "서명 의미와 책임을 이해했습니다.",
+    "tr": "Ich habe die Bedeutung und Verantwortung dieser Signatur verstanden.",
+    "type": "field",
+    "note": "image"
+  }
 ]

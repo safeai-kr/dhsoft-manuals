@@ -1,236 +1,488 @@
 [
- {
-  "ko": "내 계정",
-  "tr": "My account",
-  "type": "term",
-  "note": "Chapter title and cover."
- },
- {
-  "ko": "내 프로필",
-  "tr": "My profile",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "프로필 조회",
-  "tr": "View profile",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "프로필 메뉴",
-  "tr": "Profile menu",
-  "type": "menu",
-  "note": "Same as the Login volume."
- },
- {
-  "ko": "화면 구성",
-  "tr": "Screen layout",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "동시 세션 차단 알림",
-  "tr": "Concurrent session block notice",
-  "type": "term",
-  "note": "Banner and section title."
- },
- {
-  "ko": "전체 이력 보기",
-  "tr": "View full history",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "닫기",
-  "tr": "Close",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "내 활동 관리",
-  "tr": "My activity management",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "최근 로그인 이력",
-  "tr": "Recent login history",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "편집 아이콘",
-  "tr": "Edit icon",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "조회 상태",
-  "tr": "View mode",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "편집 상태",
-  "tr": "Edit mode",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "이메일은 변경할 수 없습니다.",
-  "tr": "Email cannot be changed.",
-  "type": "message",
-  "note": "Shown under the disabled email field. Wording is a suggestion."
- },
- {
-  "ko": "비밀번호 관리",
-  "tr": "Password management",
-  "type": "term",
-  "note": "Chapter title."
- },
- {
-  "ko": "비밀번호 변경",
-  "tr": "Change password",
-  "type": "button",
-  "note": "Same as the Login volume."
- },
- {
-  "ko": "현재 비밀번호",
-  "tr": "Current password",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "변경",
-  "tr": "Change",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "전자서명 비밀번호 변경",
-  "tr": "Change e-signature password",
-  "type": "term",
-  "note": "Section title and button text."
- },
- {
-  "ko": "현재 서명 비밀번호",
-  "tr": "Current e-signature password",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "신규 서명 비밀번호",
-  "tr": "New e-signature password",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "복잡도 검증 목록",
-  "tr": "Complexity check list",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "21 CFR Part 11",
-  "tr": "21 CFR Part 11",
-  "type": "term",
-  "note": "Regulation name; kept as is."
- },
- {
-  "ko": "알림 설정",
-  "tr": "Notification settings",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "알림 수신 사용",
-  "tr": "Enable notifications",
-  "type": "label",
-  "note": "Master switch."
- },
- {
-  "ko": "인앱",
-  "tr": "In-app",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "회색 글자",
-  "tr": "gray text",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "서명 대기 목록",
-  "tr": "Pending signatures",
-  "type": "menu",
-  "note": "Same title is used for the section."
- },
- {
-  "ko": "내 서명 대기",
-  "tr": "My pending signatures",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "서명 시점",
-  "tr": "Signing timing",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "기간 (from)",
-  "tr": "Period (from)",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "기간 (to)",
-  "tr": "Period (to)",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "검색",
-  "tr": "Search",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "지연 서명",
-  "tr": "Late signature",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "세션 대체 이력",
-  "tr": "Session replacement history",
-  "type": "menu",
-  "note": "A record of sessions ended by a login elsewhere."
- },
- {
-  "ko": "확인 상태",
-  "tr": "Check status",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "확인",
-  "tr": "Check",
-  "type": "label",
-  "note": "Column header. Other uses of 확인 in this volume are plain verbs."
- },
- {
-  "ko": "접속 기록",
-  "tr": "access record",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "사용자 관리",
-  "tr": "User management",
-  "type": "menu",
-  "note": "Name of a screen in the administrator volume."
- }
+  {
+    "ko": "내 계정",
+    "tr": "My account",
+    "type": "term",
+    "note": "Chapter title and cover."
+  },
+  {
+    "ko": "내 프로필",
+    "tr": "My profile",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "프로필 조회",
+    "tr": "View profile",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "프로필 메뉴",
+    "tr": "Profile menu",
+    "type": "menu",
+    "note": "Same as the Login volume."
+  },
+  {
+    "ko": "화면 구성",
+    "tr": "Screen layout",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "동시 세션 차단 알림",
+    "tr": "Concurrent session block notice",
+    "type": "term",
+    "note": "Banner and section title."
+  },
+  {
+    "ko": "전체 이력 보기",
+    "tr": "View full history",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "닫기",
+    "tr": "Close",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "내 활동 관리",
+    "tr": "My activity management",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "최근 로그인 이력",
+    "tr": "Recent login history",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "편집 아이콘",
+    "tr": "Edit icon",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "조회 상태",
+    "tr": "View mode",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "편집 상태",
+    "tr": "Edit mode",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "이메일은 변경할 수 없습니다.",
+    "tr": "Email cannot be changed.",
+    "type": "message",
+    "note": "Shown under the disabled email field. Wording is a suggestion."
+  },
+  {
+    "ko": "비밀번호 관리",
+    "tr": "Password management",
+    "type": "term",
+    "note": "Chapter title."
+  },
+  {
+    "ko": "비밀번호 변경",
+    "tr": "Change password",
+    "type": "button",
+    "note": "Same as the Login volume."
+  },
+  {
+    "ko": "현재 비밀번호",
+    "tr": "Current password",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "변경",
+    "tr": "Change",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "전자서명 비밀번호 변경",
+    "tr": "Change e-signature password",
+    "type": "term",
+    "note": "Section title and button text."
+  },
+  {
+    "ko": "현재 서명 비밀번호",
+    "tr": "Current e-signature password",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "신규 서명 비밀번호",
+    "tr": "New e-signature password",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "복잡도 검증 목록",
+    "tr": "Complexity check list",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "21 CFR Part 11",
+    "tr": "21 CFR Part 11",
+    "type": "term",
+    "note": "Regulation name; kept as is."
+  },
+  {
+    "ko": "알림 설정",
+    "tr": "Notification settings",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "알림 수신 사용",
+    "tr": "Enable notifications",
+    "type": "label",
+    "note": "Master switch."
+  },
+  {
+    "ko": "인앱",
+    "tr": "In-app",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "회색 글자",
+    "tr": "gray text",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "서명 대기 목록",
+    "tr": "Pending signatures",
+    "type": "menu",
+    "note": "Same title is used for the section."
+  },
+  {
+    "ko": "내 서명 대기",
+    "tr": "My pending signatures",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "서명 시점",
+    "tr": "Signing timing",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기간 (from)",
+    "tr": "Period (from)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기간 (to)",
+    "tr": "Period (to)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "검색",
+    "tr": "Search",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "지연 서명",
+    "tr": "Late signature",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "세션 대체 이력",
+    "tr": "Session replacement history",
+    "type": "menu",
+    "note": "A record of sessions ended by a login elsewhere."
+  },
+  {
+    "ko": "확인 상태",
+    "tr": "Check status",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "확인",
+    "tr": "Check",
+    "type": "label",
+    "note": "Column header. Other uses of 확인 in this volume are plain verbs."
+  },
+  {
+    "ko": "접속 기록",
+    "tr": "access record",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "사용자 관리",
+    "tr": "User management",
+    "type": "menu",
+    "note": "Name of a screen in the administrator volume."
+  },
+  {
+    "ko": "기본 정보",
+    "tr": "Basic information",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "이름",
+    "tr": "Name",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이메일",
+    "tr": "Email",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "비밀번호 만료 임박",
+    "tr": "Password expiring soon",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명 비밀번호",
+    "tr": "E-signature password",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "이동",
+    "tr": "Go to",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "설정",
+    "tr": "Set",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "보기",
+    "tr": "View",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "최근 로그인 이력 (5건)",
+    "tr": "Recent login history (5 items)",
+    "type": "term",
+    "note": "image"
+  },
+  {
+    "ko": "성공",
+    "tr": "Success",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "저장",
+    "tr": "Save",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "취소",
+    "tr": "Cancel",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "비밀번호",
+    "tr": "Password",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "만료 임박",
+    "tr": "Expiring soon",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "신규 비밀번호",
+    "tr": "New password",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "비밀번호 확인",
+    "tr": "Confirm password",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "현재 서명 비밀번호 *",
+    "tr": "Current e-signature password *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "신규 서명 비밀번호 *",
+    "tr": "New e-signature password *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "비밀번호 확인 *",
+    "tr": "Confirm password *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "복잡도 검증",
+    "tr": "Complexity check",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "트리거",
+    "tr": "Trigger",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자 상태",
+    "tr": "Subject status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 상태",
+    "tr": "Project status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "계정 잠금",
+    "tr": "Account lock",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 임박",
+    "tr": "Visit due soon",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 지연",
+    "tr": "Visit overdue",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "... / 서명 대기",
+    "tr": ".../ Pending signatures",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "전체 대기",
+    "tr": "All pending",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "전체",
+    "tr": "All",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "표시 0 / 전체 0",
+    "tr": "Shown 0 / Total 0",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "정상",
+    "tr": "On time",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "요청 일시",
+    "tr": "Requested at",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대상",
+    "tr": "Target",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "요청자",
+    "tr": "Requester",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "지연 여부",
+    "tr": "Delayed",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "경과",
+    "tr": "Elapsed",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "새로 고침",
+    "tr": "Refresh",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "액션",
+    "tr": "Action",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "14건",
+    "tr": "14 items",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "발생 시각",
+    "tr": "Occurred at",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기기(USER-AGENT)",
+    "tr": "Device (USER-AGENT)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "미확인",
+    "tr": "Unchecked",
+    "type": "label",
+    "note": "image"
+  }
 ]

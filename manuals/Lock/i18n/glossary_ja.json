@@ -1,620 +1,914 @@
 [
- {
-  "ko": "Lock 상태 조회",
-  "tr": "Lock 状態照会",
-  "type": "path",
-  "note": "画面名"
- },
- {
-  "ko": "Lock 적용",
-  "tr": "Lock 適用",
-  "type": "path",
-  "note": "画面名・メニュー名"
- },
- {
-  "ko": "Lock 적용 창",
-  "tr": "Lock適用ダイアログ",
-  "type": "path",
-  "note": "「창」はダイアログと訳した"
- },
- {
-  "ko": "Lock 해제",
-  "tr": "Lock 解除",
-  "type": "path",
-  "note": "画面名・メニュー名"
- },
- {
-  "ko": "해제 창",
-  "tr": "解除ダイアログ",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "Lock 이력",
-  "tr": "Lock 履歴",
-  "type": "path",
-  "note": "画面名"
- },
- {
-  "ko": "Project Lock 적용",
-  "tr": "Project Lock 適用",
-  "type": "button",
-  "note": "Project Lockの表記はLatin のまま"
- },
- {
-  "ko": "Project Lock 해제",
-  "tr": "Project Lock 解除",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "Lock 적용 배경·검토 맥락",
-  "tr": "Lock適用の背景・検討の経緯",
-  "type": "message",
-  "note": "入力欄の案内文"
- },
- {
-  "ko": "프로젝트 잠금",
-  "tr": "プロジェクトのロック",
-  "type": "term",
-  "note": "プロジェクト全体のロック"
- },
- {
-  "ko": "잠금",
-  "tr": "ロック",
-  "type": "term",
-  "note": "Lock の日本語の言い方として使用"
- },
- {
-  "ko": "피험자 잠금",
-  "tr": "被験者ロック",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "전체 잠금",
-  "tr": "全体ロック",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "부분 잠금",
-  "tr": "部分ロック",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "완전 잠금",
-  "tr": "完全ロック",
-  "type": "term",
-  "note": "HARD_LOCKを指す"
- },
- {
-  "ko": "일괄 잠금",
-  "tr": "一括ロック",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "잠금 유형",
-  "tr": "ロック種類",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "잠금 기준일",
-  "tr": "ロック基準日",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "잠금 기준시점",
-  "tr": "ロック基準時点",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "Lock 유형별 사유 구분",
-  "tr": "Lock 種類別の理由の区分",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "사유 구분",
-  "tr": "理由の区分",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "해제 사유",
-  "tr": "解除理由",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "상세 메모",
-  "tr": "詳細メモ",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "적용자",
-  "tr": "適用者",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "적용일",
-  "tr": "適用日",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "적용",
-  "tr": "適用",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "해제",
-  "tr": "解除",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "재적용",
-  "tr": "再適用",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "전자서명",
-  "tr": "電子署名",
-  "type": "term",
-  "note": "21 CFR Part 11 の用語"
- },
- {
-  "ko": "전자서명 비밀번호",
-  "tr": "電子署名パスワード",
-  "type": "field",
-  "note": "ログインパスワードとは別物"
- },
- {
-  "ko": "전자서명으로 진행",
-  "tr": "電子署名で進む",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "전자서명 수행",
-  "tr": "電子署名の実行",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "서명 실행",
-  "tr": "署名を実行",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "서명 목적",
-  "tr": "署名の目的",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "서명 대상",
-  "tr": "署名の対象",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "서명 의미",
-  "tr": "署名の意味",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "서명 의미와 책임을 이해했습니다",
-  "tr": "署名の意味と責任を理解しました",
-  "type": "label",
-  "note": "チェック項目"
- },
- {
-  "ko": "사용자 ID",
-  "tr": "ユーザーID",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "승인자 확인",
-  "tr": "承認者の確認",
-  "type": "value",
-  "note": "署名の意味の固定値"
- },
- {
-  "ko": "서명",
-  "tr": "署名",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "대상",
-  "tr": "対象",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "대상 건수",
-  "tr": "対象件数",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "기준일 지정",
-  "tr": "基準日の指定",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "당일 포함",
-  "tr": "当日を含む",
-  "type": "message",
-  "note": "画面の文言"
- },
- {
-  "ko": "특정 기준일까지의 데이터만 잠금",
-  "tr": "特定の基準日までのデータだけをロック",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "전체 데이터",
-  "tr": "全体のデータ",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "집계",
-  "tr": "集計",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "필터",
-  "tr": "フィルター",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "검색",
-  "tr": "検索",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "참여 기관",
-  "tr": "参加施設",
-  "type": "field",
-  "note": "Site を指す"
- },
- {
-  "ko": "스크리닝번호",
-  "tr": "スクリーニング番号",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "고유번호",
-  "tr": "固有番号",
-  "type": "field",
-  "note": "被験者の識別番号"
- },
- {
-  "ko": "기관코드",
-  "tr": "施設コード",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "품질",
-  "tr": "品質",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "품질·규제",
-  "tr": "品質・規制",
-  "type": "menu",
-  "note": "左側メニュー名"
- },
- {
-  "ko": "피험자 목록",
-  "tr": "被験者一覧",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "피험자 목록과 행 액션",
-  "tr": "被験者一覧と行アクション",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "행 액션",
-  "tr": "行アクション",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "Lock 현황",
-  "tr": "Lock 現況",
-  "type": "label",
-  "note": "ダッシュボードのウィジェット名"
- },
- {
-  "ko": "Lock 관리",
-  "tr": "Lock 管理",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "데이터 품질",
-  "tr": "データ品質",
-  "type": "label",
-  "note": "ダッシュボードのウィジェット名"
- },
- {
-  "ko": "피험자 품질·Lock 목록",
-  "tr": "被験者の品質・Lock一覧",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "프로젝트 대시보드",
-  "tr": "プロジェクトダッシュボード",
-  "type": "path",
-  "note": ""
- },
- {
-  "ko": "미적용",
-  "tr": "未適用",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "활성 Subject Lock 건수",
-  "tr": "有効なSubject Lock件数",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "HARD_LOCK 가능",
-  "tr": "HARD_LOCK 可能",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "HARD 가능",
-  "tr": "HARD 可能",
-  "type": "status",
-  "note": "一覧のLock列のバッジ"
- },
- {
-  "ko": "전체 Subject",
-  "tr": "全体Subject",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "잠금 유형 3종",
-  "tr": "ロック種類3種",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "무엇이 막히는가",
-  "tr": "何がブロックされるか",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "쓰는 때",
-  "tr": "使うとき",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "원자료 대조(SDV)",
-  "tr": "原資料照合(SDV)",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "데이터 정리 단계",
-  "tr": "データ整理の段階",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "연구 종결",
-  "tr": "研究終了",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "모니터링 검토",
-  "tr": "モニタリング検討",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "모니터링 종료",
-  "tr": "モニタリング終了",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "추가 수정 필요",
-  "tr": "追加修正の必要あり",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "Lock 적용 오류 정정",
-  "tr": "Lock適用の誤り訂正",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "프로토콜 변경",
-  "tr": "プロトコル変更",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "감사 대응",
-  "tr": "監査対応",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "규제 대응",
-  "tr": "規制対応",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "기타",
-  "tr": "その他",
-  "type": "value",
-  "note": ""
- },
- {
-  "ko": "선택 해제",
-  "tr": "選択解除",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "행 선택",
-  "tr": "行の選択",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "선택 N명 일괄 잠금 (FREEZE/SOFT_LOCK)",
-  "tr": "選択 N名を一括ロック (FREEZE/SOFT_LOCK)",
-  "type": "button",
-  "note": "Nは人数"
- },
- {
-  "ko": "Project Lock 적용 중 — 하위 Subject Lock 단독 해제 차단",
-  "tr": "Project Lock 適用中 — 下位のSubject Lockの単独解除をブロック",
-  "type": "message",
-  "note": "画面の表示文"
- },
- {
-  "ko": "체인 뷰",
-  "tr": "チェーンビュー",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "테이블",
-  "tr": "テーブル",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "표시 건수 / 전체 건수",
-  "tr": "表示件数 / 全体件数",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "작업 종류",
-  "tr": "作業の種類",
-  "type": "field",
-  "note": "適用・解除の区分"
- },
- {
-  "ko": "수행자",
-  "tr": "実行者",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "기간 시작",
-  "tr": "期間の開始",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "기간 종료",
-  "tr": "期間の終了",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "Open Query",
-  "tr": "Open Query",
-  "type": "label",
-  "note": "Latin のまま"
- },
- {
-  "ko": "하위 Subject",
-  "tr": "下位のSubject",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "상위 Project Lock이 적용 중입니다. Project Lock 해제를 먼저 수행해야 Subject Lock을 해제할 수 있습니다.",
-  "tr": "上位のProject Lockが適用中です。Subject Lockを解除するには、先にProject Lockを解除する必要があります。",
-  "type": "message",
-  "note": "画面に出る警告文"
- },
- {
-  "ko": "Project Lock 해제 먼저",
-  "tr": "Project Lock 解除を先に",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "협정세계시",
-  "tr": "協定世界時",
-  "type": "term",
-  "note": "UTC"
- },
- {
-  "ko": "한국 시간",
-  "tr": "韓国時間",
-  "type": "term",
-  "note": "KST"
- },
- {
-  "ko": "일시 (KST)",
-  "tr": "日時 (KST)",
-  "type": "label",
-  "note": "Audit Trail 画面の列名"
- },
- {
-  "ko": "Interim Lock",
-  "tr": "Interim Lock",
-  "type": "value",
-  "note": "Latin のまま"
- },
- {
-  "ko": "덧붙이기 전용 · 조회 전용",
-  "tr": "追記専用 · 照会専用",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "범위",
-  "tr": "範囲",
-  "type": "field",
-  "note": ""
- }
+  {
+    "ko": "Lock 상태 조회",
+    "tr": "Lock 状態照会",
+    "type": "path",
+    "note": "画面名"
+  },
+  {
+    "ko": "Lock 적용",
+    "tr": "Lock 適用",
+    "type": "path",
+    "note": "画面名・メニュー名"
+  },
+  {
+    "ko": "Lock 적용 창",
+    "tr": "Lock適用ダイアログ",
+    "type": "path",
+    "note": "「창」はダイアログと訳した"
+  },
+  {
+    "ko": "Lock 해제",
+    "tr": "Lock 解除",
+    "type": "path",
+    "note": "画面名・メニュー名"
+  },
+  {
+    "ko": "해제 창",
+    "tr": "解除ダイアログ",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "Lock 이력",
+    "tr": "Lock 履歴",
+    "type": "path",
+    "note": "画面名"
+  },
+  {
+    "ko": "Project Lock 적용",
+    "tr": "Project Lock 適用",
+    "type": "button",
+    "note": "Project Lockの表記はLatin のまま"
+  },
+  {
+    "ko": "Project Lock 해제",
+    "tr": "Project Lock 解除",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "Lock 적용 배경·검토 맥락",
+    "tr": "Lock適用の背景・検討の経緯",
+    "type": "message",
+    "note": "入力欄の案内文"
+  },
+  {
+    "ko": "프로젝트 잠금",
+    "tr": "プロジェクトのロック",
+    "type": "term",
+    "note": "プロジェクト全体のロック"
+  },
+  {
+    "ko": "잠금",
+    "tr": "ロック",
+    "type": "term",
+    "note": "Lock の日本語の言い方として使用"
+  },
+  {
+    "ko": "피험자 잠금",
+    "tr": "被験者ロック",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "전체 잠금",
+    "tr": "全体ロック",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "부분 잠금",
+    "tr": "部分ロック",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "완전 잠금",
+    "tr": "完全ロック",
+    "type": "term",
+    "note": "HARD_LOCKを指す"
+  },
+  {
+    "ko": "일괄 잠금",
+    "tr": "一括ロック",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "잠금 유형",
+    "tr": "ロック種類",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "잠금 기준일",
+    "tr": "ロック基準日",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "잠금 기준시점",
+    "tr": "ロック基準時点",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "Lock 유형별 사유 구분",
+    "tr": "Lock 種類別の理由の区分",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "사유 구분",
+    "tr": "理由の区分",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "해제 사유",
+    "tr": "解除理由",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "상세 메모",
+    "tr": "詳細メモ",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "적용자",
+    "tr": "適用者",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "적용일",
+    "tr": "適用日",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "적용",
+    "tr": "適用",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "해제",
+    "tr": "解除",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "재적용",
+    "tr": "再適用",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "전자서명",
+    "tr": "電子署名",
+    "type": "term",
+    "note": "21 CFR Part 11 の用語"
+  },
+  {
+    "ko": "전자서명 비밀번호",
+    "tr": "電子署名パスワード",
+    "type": "field",
+    "note": "ログインパスワードとは別物"
+  },
+  {
+    "ko": "전자서명으로 진행",
+    "tr": "電子署名で進む",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "전자서명 수행",
+    "tr": "電子署名の実行",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "서명 실행",
+    "tr": "署名を実行",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "서명 목적",
+    "tr": "署名の目的",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 대상",
+    "tr": "署名の対象",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 의미",
+    "tr": "署名の意味",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "서명 의미와 책임을 이해했습니다",
+    "tr": "署名の意味と責任を理解しました",
+    "type": "label",
+    "note": "チェック項目"
+  },
+  {
+    "ko": "사용자 ID",
+    "tr": "ユーザーID",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "승인자 확인",
+    "tr": "承認者の確認",
+    "type": "value",
+    "note": "署名の意味の固定値"
+  },
+  {
+    "ko": "서명",
+    "tr": "署名",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "대상",
+    "tr": "対象",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "대상 건수",
+    "tr": "対象件数",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "기준일 지정",
+    "tr": "基準日の指定",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "당일 포함",
+    "tr": "当日を含む",
+    "type": "message",
+    "note": "画面の文言"
+  },
+  {
+    "ko": "특정 기준일까지의 데이터만 잠금",
+    "tr": "特定の基準日までのデータだけをロック",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "전체 데이터",
+    "tr": "全体のデータ",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "집계",
+    "tr": "集計",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "필터",
+    "tr": "フィルター",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "검색",
+    "tr": "検索",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "참여 기관",
+    "tr": "参加施設",
+    "type": "field",
+    "note": "Site を指す"
+  },
+  {
+    "ko": "스크리닝번호",
+    "tr": "スクリーニング番号",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "고유번호",
+    "tr": "固有番号",
+    "type": "field",
+    "note": "被験者の識別番号"
+  },
+  {
+    "ko": "기관코드",
+    "tr": "施設コード",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "품질",
+    "tr": "品質",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "품질·규제",
+    "tr": "品質・規制",
+    "type": "menu",
+    "note": "左側メニュー名"
+  },
+  {
+    "ko": "피험자 목록",
+    "tr": "被験者一覧",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "피험자 목록과 행 액션",
+    "tr": "被験者一覧と行アクション",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "행 액션",
+    "tr": "行アクション",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "Lock 현황",
+    "tr": "Lock 現況",
+    "type": "label",
+    "note": "ダッシュボードのウィジェット名"
+  },
+  {
+    "ko": "Lock 관리",
+    "tr": "Lock 管理",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "데이터 품질",
+    "tr": "データ品質",
+    "type": "label",
+    "note": "ダッシュボードのウィジェット名"
+  },
+  {
+    "ko": "피험자 품질·Lock 목록",
+    "tr": "被験者の品質・Lock一覧",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "프로젝트 대시보드",
+    "tr": "プロジェクトダッシュボード",
+    "type": "path",
+    "note": ""
+  },
+  {
+    "ko": "미적용",
+    "tr": "未適用",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "활성 Subject Lock 건수",
+    "tr": "有効なSubject Lock件数",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "HARD_LOCK 가능",
+    "tr": "HARD_LOCK 可能",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "HARD 가능",
+    "tr": "HARD 可能",
+    "type": "status",
+    "note": "一覧のLock列のバッジ"
+  },
+  {
+    "ko": "전체 Subject",
+    "tr": "全体Subject",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "잠금 유형 3종",
+    "tr": "ロック種類3種",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "무엇이 막히는가",
+    "tr": "何がブロックされるか",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "쓰는 때",
+    "tr": "使うとき",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "원자료 대조(SDV)",
+    "tr": "原資料照合(SDV)",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "데이터 정리 단계",
+    "tr": "データ整理の段階",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "연구 종결",
+    "tr": "研究終了",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "모니터링 검토",
+    "tr": "モニタリング検討",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "모니터링 종료",
+    "tr": "モニタリング終了",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "추가 수정 필요",
+    "tr": "追加修正の必要あり",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "Lock 적용 오류 정정",
+    "tr": "Lock適用の誤り訂正",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "프로토콜 변경",
+    "tr": "プロトコル変更",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "감사 대응",
+    "tr": "監査対応",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "규제 대응",
+    "tr": "規制対応",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "기타",
+    "tr": "その他",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "선택 해제",
+    "tr": "選択解除",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "행 선택",
+    "tr": "行の選択",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "선택 N명 일괄 잠금 (FREEZE/SOFT_LOCK)",
+    "tr": "選択 N名を一括ロック (FREEZE/SOFT_LOCK)",
+    "type": "button",
+    "note": "Nは人数"
+  },
+  {
+    "ko": "Project Lock 적용 중 — 하위 Subject Lock 단독 해제 차단",
+    "tr": "Project Lock 適用中 — 下位のSubject Lockの単独解除をブロック",
+    "type": "message",
+    "note": "画面の表示文"
+  },
+  {
+    "ko": "체인 뷰",
+    "tr": "チェーンビュー",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "테이블",
+    "tr": "テーブル",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "표시 건수 / 전체 건수",
+    "tr": "表示件数 / 全体件数",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "작업 종류",
+    "tr": "作業の種類",
+    "type": "field",
+    "note": "適用・解除の区分"
+  },
+  {
+    "ko": "수행자",
+    "tr": "実行者",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "기간 시작",
+    "tr": "期間の開始",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "기간 종료",
+    "tr": "期間の終了",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "Open Query",
+    "tr": "Open Query",
+    "type": "label",
+    "note": "Latin のまま"
+  },
+  {
+    "ko": "하위 Subject",
+    "tr": "下位のSubject",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "상위 Project Lock이 적용 중입니다. Project Lock 해제를 먼저 수행해야 Subject Lock을 해제할 수 있습니다.",
+    "tr": "上位のProject Lockが適用中です。Subject Lockを解除するには、先にProject Lockを解除する必要があります。",
+    "type": "message",
+    "note": "画面に出る警告文"
+  },
+  {
+    "ko": "Project Lock 해제 먼저",
+    "tr": "Project Lock 解除を先に",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "협정세계시",
+    "tr": "協定世界時",
+    "type": "term",
+    "note": "UTC"
+  },
+  {
+    "ko": "한국 시간",
+    "tr": "韓国時間",
+    "type": "term",
+    "note": "KST"
+  },
+  {
+    "ko": "일시 (KST)",
+    "tr": "日時 (KST)",
+    "type": "label",
+    "note": "Audit Trail 画面の列名"
+  },
+  {
+    "ko": "Interim Lock",
+    "tr": "Interim Lock",
+    "type": "value",
+    "note": "Latin のまま"
+  },
+  {
+    "ko": "덧붙이기 전용 · 조회 전용",
+    "tr": "追記専用 · 照会専用",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "범위",
+    "tr": "範囲",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "테스트 메뉴",
+    "tr": "テストメニュー",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "研究運営",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "ダッシュボード",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "被験者",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 입력",
+    "tr": "データ入力",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "研究管理",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF管理",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE指定",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB正常範囲",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "訪問定義",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "設計バージョン管理",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "배정",
+    "tr": "割付",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "PROJECT LOCK 상태",
+    "tr": "PROJECT LOCK 状態",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "활성 Subject Lock 0건",
+    "tr": "有効なSubject Lock 0件",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "HARD_LOCK 가능 (CLEAN)",
+    "tr": "HARD_LOCK 可能 (CLEAN)",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "전체",
+    "tr": "全体",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이력",
+    "tr": "履歴",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "액션",
+    "tr": "アクション",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "Site 범위",
+    "tr": "Site 範囲",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Lock 상태",
+    "tr": "Lock 状態",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "SUBJECT 상태",
+    "tr": "SUBJECT 状態",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "전체 SUBJECT",
+    "tr": "全体 SUBJECT",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "활성 Subject Lock 2건",
+    "tr": "有効なSubject Lock 2件",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "3건",
+    "tr": "3件",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "기준일",
+    "tr": "基準日",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "다수 피험자 · 대상 1건",
+    "tr": "複数の被験者 · 対象1件",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "선택 1명 일괄",
+    "tr": "一括: 選択1名",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "① Lock 유형 *",
+    "tr": "① ロック種類 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "FREEZE — 검토 중 임시 잠금",
+    "tr": "FREEZE — 検討中の一時ロック",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "SOFT_LOCK — 데이터 정리 단계",
+    "tr": "SOFT_LOCK — データ整理の段階",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "② 사유 구분 *",
+    "tr": "② 理由の区分 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상세 메모 (선택, 감사 추적)",
+    "tr": "詳細メモ (任意、Audit Trail)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "soft lock 적용",
+    "tr": "soft lock 適用",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "취소",
+    "tr": "キャンセル",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 잠금 적용",
+    "tr": "データロックを適用",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "SOFT_LOCK 일괄 적용",
+    "tr": "SOFT_LOCK 一括適用",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "서명 의미 (meaningCode)",
+    "tr": "署名の意味 (meaningCode)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "승인자 확인 (APPROVAL) (정책 고정)",
+    "tr": "承認者の確認 (APPROVAL) (ポリシーで固定)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명 비밀번호 *",
+    "tr": "電子署名パスワード *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "서명 의미와 책임을 이해했습니다.",
+    "tr": "署名の意味と責任を理解しました。",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "Project 전체 · 대상 7건",
+    "tr": "Project 全体 · 対象7件",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "해제 사유 *",
+    "tr": "解除理由 *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상세 메모 * (5자 이상)",
+    "tr": "詳細メモ * (5文字以上)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드 /",
+    "tr": "ダッシュボード /",
+    "type": "breadcrumb",
+    "note": "image"
+  },
+  {
+    "ko": "/ Lock 이력",
+    "tr": "/ Lock 履歴",
+    "type": "breadcrumb",
+    "note": "image"
+  },
+  {
+    "ko": "표시 2건 / 전체 2건",
+    "tr": "表示件数 2 / 全体件数 2",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "기간 (from)",
+    "tr": "期間 (from)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기간 (to)",
+    "tr": "期間 (to)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "시각",
+    "tr": "時刻",
+    "type": "header",
+    "note": "image"
+  }
 ]

@@ -1,0 +1,2095 @@
+[
+{
+"id": "s1_1_1_000",
+"ko": "프로젝트 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_001",
+"ko": "워크스페이스 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_002",
+"ko": "플랫폼 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_003",
+"ko": "플랫폼 대시보드",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_004",
+"ko": "기관 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_005",
+"ko": "워크스페이스 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_006",
+"ko": "사용자 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_007",
+"ko": "시스템 설정",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_008",
+"ko": "코드 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_009",
+"ko": "접속 로그",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_010",
+"ko": "운영 이력",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_011",
+"ko": "내 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_012",
+"ko": "내 프로필",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_013",
+"ko": "알림",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_014",
+"ko": "시스템 설정",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_015",
+"ko": "보안·세션·파일·알림 등 시스템 운영 정책 관리",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_016",
+"ko": "※ 변경 이력은 운영 이력에 기록됩니다.",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_017",
+"ko": "전체",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_018",
+"ko": "세션",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_019",
+"ko": "알림",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_020",
+"ko": "파일",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_021",
+"ko": "일반",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_022",
+"ko": "편집 가능 여부",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_023",
+"ko": "전체",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_024",
+"ko": "설정",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_025",
+"ko": "로그인 실패 잠금 임계값",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_026",
+"ko": "비밀번호 만료 일수",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_027",
+"ko": "비밀번호 변경 유예 최대 횟수",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_028",
+"ko": "최대 세션 수명 (시간)",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_029",
+"ko": "이메일 알림 전역 토글",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_030",
+"ko": "동시 세션 최대 수",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_031",
+"ko": "remember-me 유지 일수 (미구현 기능)",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_032",
+"ko": "강제 발송 이벤트 유형 (JSON)",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_033",
+"ko": "유휴 세션 타임아웃 (분)",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_034",
+"ko": "검색",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_035",
+"ko": "설정 키 또는 설명 (부분 일치)",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_036",
+"ko": "카테고리",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_037",
+"ko": "보안",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_038",
+"ko": "보안",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_039",
+"ko": "보안",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_040",
+"ko": "세션",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_041",
+"ko": "알림",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_042",
+"ko": "세션",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_043",
+"ko": "세션",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_044",
+"ko": "알림",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_045",
+"ko": "세션",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_046",
+"ko": "현재 값",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_047",
+"ko": "사용",
+"role": "status",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_048",
+"ko": "타입",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_049",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_050",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_051",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_052",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_053",
+"ko": "참/거짓",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_054",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_055",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_056",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_057",
+"ko": "상태",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_058",
+"ko": "잠김",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_059",
+"ko": "잠김",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_060",
+"ko": "잠김",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_061",
+"ko": "편집 가능",
+"role": "badge",
+"lines": 2,
+"truncated": false
+},
+{
+"id": "s1_1_1_063",
+"ko": "편집 가능",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_064",
+"ko": "잠김",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_065",
+"ko": "편집 가능",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_066",
+"ko": "편집 가능",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_067",
+"ko": "편집 가능",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_068",
+"ko": "최종 수정 (KST)",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_069",
+"ko": "초기화",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_070",
+"ko": "액션",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_071",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_072",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_073",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_074",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_075",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_076",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_077",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_078",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_1_1_079",
+"ko": "편집",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_080",
+"ko": "보안",
+"role": "tab",
+"lines": 1,
+"truncated": true
+},
+{
+"id": "s1_2_1_081",
+"ko": "최대 세션 수명 (시간)",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_082",
+"ko": "SESSION.MAX_LIFETIME_HOURS · 세션 · 정수",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_083",
+"ko": "세션 최대 수명 (시간)",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_084",
+"ko": "정수",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_085",
+"ko": "영향 범위 — 현재 이 값은 적용되지 않습니다 — 세션 만료는 서버 고정 설정으로 판정 (배선 후 신규 세션부터 적용)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_086",
+"ko": "값",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_087",
+"ko": "변경 사유",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_088",
+"ko": "(선택) 운영 이력에 기록됩니다.",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_089",
+"ko": "기본값: 24",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_090",
+"ko": "기본값으로 복원",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_091",
+"ko": "변경 이력 (0건)",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_092",
+"ko": "취소",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s1_2_1_093",
+"ko": "저장",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_094",
+"ko": "메뉴",
+"role": "label",
+"lines": 1,
+"truncated": true
+},
+{
+"id": "s2_1_1_095",
+"ko": "플랫폼 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_096",
+"ko": "플랫폼 대시보드",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_097",
+"ko": "기관 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_098",
+"ko": "워크스페이스 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_099",
+"ko": "사용자 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_100",
+"ko": "시스템 설정",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_101",
+"ko": "코드 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_103",
+"ko": "접속 로그",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_104",
+"ko": "운영 이력",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_105",
+"ko": "내 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_106",
+"ko": "내 프로필",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_108",
+"ko": "알림",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_109",
+"ko": "워크스페이스 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_110",
+"ko": "프로젝트 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_111",
+"ko": "코드 관리",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_112",
+"ko": "표준 코드 관리 (피험자 상태·기관 유형·원자료 대조 면제 사유 등)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_113",
+"ko": "※ 변경은 운영 이력에 기록됩니다.",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_114",
+"ko": "플랫폼",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_115",
+"ko": "프로젝트",
+"role": "tab",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_116",
+"ko": "코드·이름",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_117",
+"ko": "국가",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_118",
+"ko": "방문 미방문 사유",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_119",
+"ko": "플랫폼",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_120",
+"ko": "플랫폼",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_121",
+"ko": "코드·이름",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_122",
+"ko": "국가",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_123",
+"ko": "COUNTRY · scope=GLOBAL · 값 2개 · type=SYSTEM",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_124",
+"ko": "대한민국",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_125",
+"ko": "미국",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_126",
+"ko": "상태",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_127",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_128",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_129",
+"ko": "최종 수정 (KST)",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_131",
+"ko": "+ 값 추가",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_1_1_132",
+"ko": "액션",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_133",
+"ko": "활성",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_134",
+"ko": "신규 코드 값",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_135",
+"ko": "대상 그룹: 국가",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_136",
+"ko": "코드 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_137",
+"ko": "영문/숫자/언더스코어 1~50자. 생성 후 변경 불가.",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_138",
+"ko": "라벨 *",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_139",
+"ko": "등록됨",
+"role": "status",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_140",
+"ko": "값 타입",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_141",
+"ko": "문자열",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_142",
+"ko": "MVP 는 STRING 기본 사용 권장.",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_143",
+"ko": "정렬 순서",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_144",
+"ko": "(자동)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_145",
+"ko": "미입력 시 마지막 + 1 자동 부여,",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_146",
+"ko": "취소",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s2_2_1_147",
+"ko": "추가",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_148",
+"ko": "워크스페이스 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_149",
+"ko": "프로젝트 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_150",
+"ko": "플랫폼 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_151",
+"ko": "플랫폼 대시보드",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_152",
+"ko": "기관 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_153",
+"ko": "워크스페이스 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_154",
+"ko": "사용자 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_155",
+"ko": "시스템 설정",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_156",
+"ko": "코드 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_157",
+"ko": "접속 로그",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_158",
+"ko": "운영 이력",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_159",
+"ko": "내 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_160",
+"ko": "내 프로필",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_161",
+"ko": "알림",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_162",
+"ko": "접속 로그",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_163",
+"ko": "로그인·로그아웃·세션 이벤트 (수정·삭제 불가)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_164",
+"ko": "사용자",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_165",
+"ko": "IP 주소",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_166",
+"ko": "사용자 상세에서 진입하면 자동 입력",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_167",
+"ko": "10.0.0.1 (전체 일치)",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_168",
+"ko": "종료일",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_169",
+"ko": "연도-월-일",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_170",
+"ko": "이벤트 (1개 선택): 로그인 성공 | 로그인 실패 | 로그아웃 | 전자서명 실패 | 세션 대체 | 계정 잠금 | 비밀번호 변경 연기 | 비밀번호 만료 연기",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_171",
+"ko": "비밀번호 만료 강제",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_172",
+"ko": "실패 상위 IP (top 5)",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_173",
+"ko": "현재 페이지 실패 없음",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_174",
+"ko": "현재 페이지 기준",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_175",
+"ko": "계정 잠금",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_176",
+"ko": "현재 페이지 ACCOUNT_LOCKED 이벤트 수",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_177",
+"ko": "시각 (KST)",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_178",
+"ko": "사용자",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_179",
+"ko": "이벤트",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_180",
+"ko": "로그인 성공",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_181",
+"ko": "로그인 성공",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_182",
+"ko": "로그인 성공",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_183",
+"ko": "로그인 성공",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_184",
+"ko": "로그인 성공",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_185",
+"ko": "로그인 성공",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_186",
+"ko": "로그인 성공",
+"role": "badge",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_187",
+"ko": "시작일",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_188",
+"ko": "연도-월-일",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_189",
+"ko": "초기화",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_190",
+"ko": "최근 24h 로그인",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_191",
+"ko": "성공",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_192",
+"ko": "실패",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_193",
+"ko": "전체 1,190건 중 현재 페이지 기준",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_194",
+"ko": "CSV 내보내기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_1_1_195",
+"ko": "사유",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_196",
+"ko": "사용자",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_197",
+"ko": "사용자 상세에서 진입하면 자동 입력",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_198",
+"ko": "종료일",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_199",
+"ko": "연도-월-일",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_200",
+"ko": "IP 주소",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_201",
+"ko": "10.0.0.1 (전체 일치)",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_202",
+"ko": "이벤트 (1개 선택): 로그인 성공 | 로그인 실패 | 로그아웃 | 전자서명 실패 | 세션 대체 | 계정 잠금 | 비밀번호 변경 연기 | 비밀번호 만료 연기 | 비밀번호 만료 강제",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_203",
+"ko": "시작일",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_204",
+"ko": "연도-월-일",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_1_205",
+"ko": "초기화",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_207",
+"ko": "실패 상위 IP (top 5)",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_208",
+"ko": "현재 페이지 실패 없음",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_209",
+"ko": "현재 페이지 기준",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_210",
+"ko": "계정 잠금",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_211",
+"ko": "현재 페이지 ACCOUNT_LOCKED 이벤트 수",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_212",
+"ko": "최근 24h 로그인",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_213",
+"ko": "성공",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_214",
+"ko": "실패",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_2_2_215",
+"ko": "전체 1,190건 중 현재 페이지 기준",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_216",
+"ko": "3,021B · 완료",
+"role": "status",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_218",
+"ko": "CSV 내보내기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_219",
+"ko": "현재 결과 20건 / 전체 1,190건 (전수 export 미지원)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s3_3_1_220",
+"ko": "시작일",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_221",
+"ko": "워크스페이스 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_222",
+"ko": "프로젝트 선택",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_223",
+"ko": "메뉴",
+"role": "label",
+"lines": 1,
+"truncated": true
+},
+{
+"id": "s4_1_1_224",
+"ko": "플랫폼 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_225",
+"ko": "플랫폼 대시보드",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_226",
+"ko": "기관 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_227",
+"ko": "워크스페이스 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_228",
+"ko": "사용자 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_229",
+"ko": "시스템 설정",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_230",
+"ko": "코드 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_231",
+"ko": "접속 로그",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_232",
+"ko": "운영 이력",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_233",
+"ko": "내 메뉴",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_234",
+"ko": "내 프로필",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_235",
+"ko": "알림",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_236",
+"ko": "운영 이력",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_237",
+"ko": "계정·프로젝트·조직·워크스페이스·시스템 운영 이력 (수정·삭제 불가)",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_238",
+"ko": "※ 임상 데이터 변경 이력(Audit Trail) 은 별도 화면(SCR-AUDIT) 에서 제공됩니다.",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_239",
+"ko": "계정 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_240",
+"ko": "프로젝트 상태 전이",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_241",
+"ko": "테스트 데이터 삭제",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_242",
+"ko": "Site 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_243",
+"ko": "인력 관리",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_244",
+"ko": "이벤트",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_245",
+"ko": "전체",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_246",
+"ko": "시각 (KST)",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_247",
+"ko": "대상 종류",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_248",
+"ko": "전체",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_249",
+"ko": "카테고리",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_250",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_251",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_252",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_253",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_254",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_255",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_256",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_257",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_258",
+"ko": "프로젝트",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_259",
+"ko": "워크스페이스 멤버",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_260",
+"ko": "시스템 설정 변경",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_261",
+"ko": "수행자 ID",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_262",
+"ko": "UUID (정확 일치)",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_263",
+"ko": "이벤트",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_264",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_265",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_266",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_267",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_268",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_269",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_270",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_271",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_272",
+"ko": "수정",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_273",
+"ko": "대상",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_274",
+"ko": "시작일",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_275",
+"ko": "연도-월-일",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_277",
+"ko": "종료일",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_278",
+"ko": "연도-월-일",
+"role": "placeholder",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_280",
+"ko": "수행자",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_281",
+"ko": "상세",
+"role": "header",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_282",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_283",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_284",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_285",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_286",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_287",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_288",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_289",
+"ko": "version, formCode 외 2",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_290",
+"ko": "CSV/Excel 내보내기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_291",
+"ko": "초기화",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_292",
+"ko": "조회",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_293",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_294",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_295",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_296",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_297",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_298",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_299",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_300",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_1_1_301",
+"ko": "보기",
+"role": "button",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_2_1_302",
+"ko": "운영 이력 상세",
+"role": "title",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_2_1_303",
+"ko": "2026. 10. 27. 13:56:20 · 프로젝트 · 수정",
+"role": "text",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_2_1_304",
+"ko": "대상",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_2_1_305",
+"ko": "수행자",
+"role": "label",
+"lines": 1,
+"truncated": false
+},
+{
+"id": "s4_2_1_306",
+"ko": "변경 내역 (DETAILS)",
+"role": "title",
+"lines": 1,
+"truncated": false
+}
+]

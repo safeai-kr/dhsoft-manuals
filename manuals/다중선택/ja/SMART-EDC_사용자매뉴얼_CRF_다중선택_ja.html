@@ -36,8 +36,7 @@ a{color:inherit;text-decoration:none}
 .cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
 .cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
 .cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:20px}
-.cv-brand{font-size:28.5px;font-weight:800;line-height:34px;letter-spacing:-0.01em}
-.cv-brand .sm{color:#65E5D1}
+.cv-brand{height:34px;width:auto;display:block}
 .cv-sys{font-size:18px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
 .cv-main{position:absolute;left:56px;right:56px;top:322px}
 .cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
@@ -50,7 +49,7 @@ a{color:inherit;text-decoration:none}
 /* ---------- 목차 ---------- */
 .toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
 .toc-h h1{font-size:33.5px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
-.toc-h .brand{font-size:12.5px;font-weight:700;color:#94A3B8;line-height:15px}
+.toc-h .brand{height:22px;width:auto;display:block}
 .page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
 .tch{margin-bottom:37.33px}
 .tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
@@ -190,7 +189,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div id="src" hidden>
 <section class="cover">
   <div class="cv-wave"></div><div class="cv-grad"></div>
-  <div class="cv-top"><span class="cv-brand"><span class="sm">SMART</span> EDC</span><span class="cv-sys">臨床試験電子データ収集システム</span></div>
+  <div class="cv-top"><img class="cv-brand" src="img/smart-edc-logo.png" alt="SMART EDC"><span class="cv-sys">臨床試験電子データ収集システム</span></div>
   <div class="cv-main"><div class="cv-class">CRF フィールドタイプ</div><h1 class="cv-title">複数選択</h1><p class="cv-sub">MULTISELECT · 選択肢から複数を選ぶ入力欄</p></div>
   <div class="cv-bottom"><span class="cv-kind">ユーザーマニュアル · フォームタイプ別分冊</span><img class="cv-logo" src="img/logo.png" alt="DH Digital Healthcare Software"></div>
 </section>
@@ -714,7 +713,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
   let firstToc = true;
   flow(tocBlocks, () => {
     const p = newPage('toc');
-    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><span class="brand">SMART EDC</span></div><div class="area"></div>`;
+    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><img class="brand" src="img/smart-edc-logo-gray.png" alt="SMART EDC"></div><div class="area"></div>`;
     if (firstToc) { p.id = 'toc'; pageMap.toc = +p.dataset.pno; firstToc = false; }
     return p.querySelector('.area');
   });

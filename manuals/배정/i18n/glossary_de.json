@@ -1,66 +1,782 @@
 [
-{"ko": "배정", "tr": "Randomisierung", "type": "path", "note": "메뉴·화면명. 원문 '배정'은 무작위배정(randomization)이라 Randomisierung으로 통일"},
-{"ko": "배정 설정", "tr": "Randomisierungseinstellungen", "type": "tab", "note": "탭명·절 제목"},
-{"ko": "배정 수행", "tr": "Randomisierung durchführen", "type": "button", "note": "탭·버튼·경로"},
-{"ko": "배정 확정", "tr": "Randomisierung bestätigen", "type": "button", "note": ""},
-{"ko": "배정 해제", "tr": "Randomisierung aufheben", "type": "button", "note": "버튼·탭 전환·절 제목 공통"},
-{"ko": "배정 번호", "tr": "Randomisierungsnummer", "type": "label", "note": ""},
-{"ko": "배정됨", "tr": "Randomisiert", "type": "label", "note": "지표 라벨"},
-{"ko": "배정 완료", "tr": "Randomisierung abgeschlossen", "type": "status", "note": "피험자 상태 전환 표시"},
-{"ko": "배정 수 / 풀 수", "tr": "Randomisiert / Pool", "type": "label", "note": ""},
-{"ko": "배정 가능 번호가 없습니다", "tr": "Keine Randomisierungsnummer verfügbar", "type": "message", "note": ""},
-{"ko": "배정 방식", "tr": "Randomisierungsverfahren", "type": "label", "note": ""},
-{"ko": "배정 정책", "tr": "Randomisierungsrichtlinien", "type": "label", "note": ""},
-{"ko": "배정 설정 요약", "tr": "Zusammenfassung der Randomisierungseinstellungen", "type": "label", "note": ""},
-{"ko": "배정 설정이 필요합니다", "tr": "Randomisierungseinstellungen erforderlich", "type": "message", "note": "차단 안내. 번역자가 정한 UI 문구"},
-{"ko": "배정 설정으로 이동", "tr": "Zu den Randomisierungseinstellungen", "type": "button", "note": ""},
-{"ko": "배정 운영", "tr": "Randomisierungsbetrieb", "type": "tab", "note": "탭 묶음 이름·장 제목"},
-{"ko": "사전 준비", "tr": "Vorbereitung", "type": "tab", "note": "탭 묶음 이름·장 제목"},
-{"ko": "준비 현황", "tr": "Vorbereitungsstand", "type": "label", "note": ""},
-{"ko": "준비를 마친 뒤", "tr": "Nach Abschluss der Vorbereitung", "type": "label", "note": "절 제목"},
-{"ko": "무작위배정", "tr": "Randomisierung", "type": "term", "note": ""},
-{"ko": "개요", "tr": "Übersicht", "type": "tab", "note": ""},
-{"ko": "시험군", "tr": "Studienarm", "type": "tab", "note": "탭명. 용어로 쓸 때도 Studienarm, 복수는 Studienarme"},
-{"ko": "시험군 정의", "tr": "Studienarme definieren", "type": "button", "note": ""},
-{"ko": "번호 풀", "tr": "Nummernpool", "type": "tab", "note": "탭명·절 제목"},
-{"ko": "배치", "tr": "Charge", "type": "term", "note": "업로드 묶음 단위"},
-{"ko": "배치 설명", "tr": "Chargenbeschreibung", "type": "label", "note": ""},
-{"ko": "CSV 파일을 선택 또는 드래그", "tr": "CSV-Datei auswählen oder hierher ziehen", "type": "button", "note": ""},
-{"ko": "업로드 실행", "tr": "Upload starten", "type": "button", "note": ""},
-{"ko": "최근 배치", "tr": "Letzte Chargen", "type": "label", "note": ""},
-{"ko": "최근 활동", "tr": "Letzte Aktivitäten", "type": "label", "note": ""},
-{"ko": "필수 컬럼", "tr": "Pflichtspalten", "type": "label", "note": "CSV 열 이름 randomNo·armCode 등은 영문 유지"},
-{"ko": "자동 배정", "tr": "Automatische Randomisierung", "type": "label", "note": ""},
-{"ko": "수동 지정 허용", "tr": "Manuelle Zuweisung zulassen", "type": "label", "note": ""},
-{"ko": "수동 Override (DM 전용)", "tr": "Manuelles Override (nur DM)", "type": "label", "note": ""},
-{"ko": "자동 제안 승인 (기본)", "tr": "Automatischen Vorschlag bestätigen (Standard)", "type": "label", "note": ""},
-{"ko": "대상 피험자 선택", "tr": "Zielproband auswählen", "type": "label", "note": ""},
-{"ko": "대상 Subject", "tr": "Zielproband (Subject)", "type": "label", "note": "Subject는 원문 영문 유지"},
-{"ko": "사유 구분 *", "tr": "Grund *", "type": "field", "note": ""},
-{"ko": "상세 메모 *", "tr": "Detailnotiz *", "type": "field", "note": ""},
-{"ko": "해제 실행", "tr": "Aufhebung ausführen", "type": "button", "note": ""},
-{"ko": "배정 오류", "tr": "Randomisierungsfehler", "type": "value", "note": ""},
-{"ko": "환자 부적격 판정", "tr": "Proband als ungeeignet eingestuft", "type": "value", "note": ""},
-{"ko": "기타", "tr": "Sonstiges", "type": "value", "note": ""},
-{"ko": "Blind Type(맹검)", "tr": "Blind Type (Verblindung)", "type": "label", "note": "맹검 = Verblindung"},
-{"ko": "공개", "tr": "offen", "type": "value", "note": "맹검 옵션"},
-{"ko": "단일 맹검", "tr": "einfach verblindet", "type": "value", "note": "맹검 옵션"},
-{"ko": "이중 맹검", "tr": "doppelt verblindet", "type": "value", "note": "맹검 옵션"},
-{"ko": "삼중 맹검", "tr": "dreifach verblindet", "type": "value", "note": "맹검 옵션"},
-{"ko": "외부 업로드", "tr": "Externer Upload", "type": "value", "note": "배정 방식 값"},
-{"ko": "내부 알고리즘 (Internal)", "tr": "Interner Algorithmus (Internal)", "type": "value", "note": "향후 확장 항목"},
-{"ko": "배정 시작 Subject 상태", "tr": "Startstatus des Probanden für die Randomisierung", "type": "label", "note": ""},
-{"ko": "등록 완료", "tr": "Registrierung abgeschlossen", "type": "status", "note": "피험자 상태 값"},
-{"ko": "투약 중", "tr": "in Behandlung", "type": "status", "note": "피험자 상태 값"},
-{"ko": "치료 종료", "tr": "Behandlung beendet", "type": "status", "note": "피험자 상태 값"},
-{"ko": "추적 불가", "tr": "nicht nachverfolgbar", "type": "status", "note": "피험자 상태 값"},
-{"ko": "사망", "tr": "verstorben", "type": "status", "note": "피험자 상태 값"},
-{"ko": "연구 종료", "tr": "Studie beendet", "type": "status", "note": "피험자 상태 값"},
-{"ko": "종결 상태", "tr": "Abschlussstatus", "type": "term", "note": "Terminal 상태 메시지는 영문 Terminal-Status 유지"},
-{"ko": "전자서명 필요 (21 CFR Part 11)", "tr": "Elektronische Signatur erforderlich (21 CFR Part 11)", "type": "message", "note": "규정명은 영문 유지"},
-{"ko": "기존 배정", "tr": "Bisherige Randomisierung", "type": "label", "note": ""},
-{"ko": "현재 배정", "tr": "aktuelle Randomisierung", "type": "label", "note": ""},
-{"ko": "PI 승인자 식별자", "tr": "Kennung der PI-Genehmigenden", "type": "field", "note": ""},
-{"ko": "치료 종료 사유", "tr": "Grund für das Behandlungsende", "type": "field", "note": ""},
-{"ko": "Protocol Amendment", "tr": "Protocol Amendment", "type": "value", "note": "영문 유지"}
+  {
+    "ko": "배정",
+    "tr": "Randomisierung",
+    "type": "path",
+    "note": "메뉴·화면명. 원문 '배정'은 무작위배정(randomization)이라 Randomisierung으로 통일"
+  },
+  {
+    "ko": "배정 설정",
+    "tr": "Randomisierungseinstellungen",
+    "type": "tab",
+    "note": "탭명·절 제목"
+  },
+  {
+    "ko": "배정 수행",
+    "tr": "Randomisierung durchführen",
+    "type": "button",
+    "note": "탭·버튼·경로"
+  },
+  {
+    "ko": "배정 확정",
+    "tr": "Randomisierung bestätigen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "배정 해제",
+    "tr": "Randomisierung aufheben",
+    "type": "button",
+    "note": "버튼·탭 전환·절 제목 공통"
+  },
+  {
+    "ko": "배정 번호",
+    "tr": "Randomisierungsnummer",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "배정됨",
+    "tr": "Randomisiert",
+    "type": "label",
+    "note": "지표 라벨"
+  },
+  {
+    "ko": "배정 완료",
+    "tr": "Randomisierung abgeschlossen",
+    "type": "status",
+    "note": "피험자 상태 전환 표시"
+  },
+  {
+    "ko": "배정 수 / 풀 수",
+    "tr": "Randomisiert / Pool",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "배정 가능 번호가 없습니다",
+    "tr": "Keine Randomisierungsnummer verfügbar",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "배정 방식",
+    "tr": "Randomisierungsverfahren",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "배정 정책",
+    "tr": "Randomisierungsrichtlinien",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "배정 설정 요약",
+    "tr": "Zusammenfassung der Randomisierungseinstellungen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "배정 설정이 필요합니다",
+    "tr": "Randomisierungseinstellungen erforderlich",
+    "type": "message",
+    "note": "차단 안내. 번역자가 정한 UI 문구"
+  },
+  {
+    "ko": "배정 설정으로 이동",
+    "tr": "Zu den Randomisierungseinstellungen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "배정 운영",
+    "tr": "Randomisierungsbetrieb",
+    "type": "tab",
+    "note": "탭 묶음 이름·장 제목"
+  },
+  {
+    "ko": "사전 준비",
+    "tr": "Vorbereitung",
+    "type": "tab",
+    "note": "탭 묶음 이름·장 제목"
+  },
+  {
+    "ko": "준비 현황",
+    "tr": "Vorbereitungsstand",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "준비를 마친 뒤",
+    "tr": "Nach Abschluss der Vorbereitung",
+    "type": "label",
+    "note": "절 제목"
+  },
+  {
+    "ko": "무작위배정",
+    "tr": "Randomisierung",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "개요",
+    "tr": "Übersicht",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "시험군",
+    "tr": "Studienarm",
+    "type": "tab",
+    "note": "탭명. 용어로 쓸 때도 Studienarm, 복수는 Studienarme"
+  },
+  {
+    "ko": "시험군 정의",
+    "tr": "Studienarme definieren",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "번호 풀",
+    "tr": "Nummernpool",
+    "type": "tab",
+    "note": "탭명·절 제목"
+  },
+  {
+    "ko": "배치",
+    "tr": "Charge",
+    "type": "term",
+    "note": "업로드 묶음 단위"
+  },
+  {
+    "ko": "배치 설명",
+    "tr": "Chargenbeschreibung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "CSV 파일을 선택 또는 드래그",
+    "tr": "CSV-Datei auswählen oder hierher ziehen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "업로드 실행",
+    "tr": "Upload starten",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "최근 배치",
+    "tr": "Letzte Chargen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "최근 활동",
+    "tr": "Letzte Aktivitäten",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "필수 컬럼",
+    "tr": "Pflichtspalten",
+    "type": "label",
+    "note": "CSV 열 이름 randomNo·armCode 등은 영문 유지"
+  },
+  {
+    "ko": "자동 배정",
+    "tr": "Automatische Randomisierung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "수동 지정 허용",
+    "tr": "Manuelle Zuweisung zulassen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "수동 Override (DM 전용)",
+    "tr": "Manuelles Override (nur DM)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "자동 제안 승인 (기본)",
+    "tr": "Automatischen Vorschlag bestätigen (Standard)",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "대상 피험자 선택",
+    "tr": "Zielproband auswählen",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "대상 Subject",
+    "tr": "Zielproband (Subject)",
+    "type": "label",
+    "note": "Subject는 원문 영문 유지"
+  },
+  {
+    "ko": "사유 구분 *",
+    "tr": "Grund *",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "상세 메모 *",
+    "tr": "Detailnotiz *",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "해제 실행",
+    "tr": "Aufhebung ausführen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "배정 오류",
+    "tr": "Randomisierungsfehler",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "환자 부적격 판정",
+    "tr": "Proband als ungeeignet eingestuft",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "기타",
+    "tr": "Sonstiges",
+    "type": "value",
+    "note": ""
+  },
+  {
+    "ko": "Blind Type(맹검)",
+    "tr": "Blind Type (Verblindung)",
+    "type": "label",
+    "note": "맹검 = Verblindung"
+  },
+  {
+    "ko": "공개",
+    "tr": "offen",
+    "type": "value",
+    "note": "맹검 옵션"
+  },
+  {
+    "ko": "단일 맹검",
+    "tr": "einfach verblindet",
+    "type": "value",
+    "note": "맹검 옵션"
+  },
+  {
+    "ko": "이중 맹검",
+    "tr": "doppelt verblindet",
+    "type": "value",
+    "note": "맹검 옵션"
+  },
+  {
+    "ko": "삼중 맹검",
+    "tr": "dreifach verblindet",
+    "type": "value",
+    "note": "맹검 옵션"
+  },
+  {
+    "ko": "외부 업로드",
+    "tr": "Externer Upload",
+    "type": "value",
+    "note": "배정 방식 값"
+  },
+  {
+    "ko": "내부 알고리즘 (Internal)",
+    "tr": "Interner Algorithmus (Internal)",
+    "type": "value",
+    "note": "향후 확장 항목"
+  },
+  {
+    "ko": "배정 시작 Subject 상태",
+    "tr": "Startstatus des Probanden für die Randomisierung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "등록 완료",
+    "tr": "Registrierung abgeschlossen",
+    "type": "status",
+    "note": "피험자 상태 값"
+  },
+  {
+    "ko": "투약 중",
+    "tr": "in Behandlung",
+    "type": "status",
+    "note": "피험자 상태 값"
+  },
+  {
+    "ko": "치료 종료",
+    "tr": "Behandlung beendet",
+    "type": "status",
+    "note": "피험자 상태 값"
+  },
+  {
+    "ko": "추적 불가",
+    "tr": "nicht nachverfolgbar",
+    "type": "status",
+    "note": "피험자 상태 값"
+  },
+  {
+    "ko": "사망",
+    "tr": "verstorben",
+    "type": "status",
+    "note": "피험자 상태 값"
+  },
+  {
+    "ko": "연구 종료",
+    "tr": "Studie beendet",
+    "type": "status",
+    "note": "피험자 상태 값"
+  },
+  {
+    "ko": "종결 상태",
+    "tr": "Abschlussstatus",
+    "type": "term",
+    "note": "Terminal 상태 메시지는 영문 Terminal-Status 유지"
+  },
+  {
+    "ko": "전자서명 필요 (21 CFR Part 11)",
+    "tr": "Elektronische Signatur erforderlich (21 CFR Part 11)",
+    "type": "message",
+    "note": "규정명은 영문 유지"
+  },
+  {
+    "ko": "기존 배정",
+    "tr": "Bisherige Randomisierung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "현재 배정",
+    "tr": "aktuelle Randomisierung",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "PI 승인자 식별자",
+    "tr": "Kennung der PI-Genehmigenden",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "치료 종료 사유",
+    "tr": "Grund für das Behandlungsende",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "Protocol Amendment",
+    "tr": "Protocol Amendment",
+    "type": "value",
+    "note": "영문 유지"
+  },
+  {
+    "ko": "임상시험 실증용 워크스페…",
+    "tr": "Klinische Studie: Demo-Arbeitsbereich…",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "샘플 프로젝트 005",
+    "tr": "Beispielprojekt 005",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "운영 중",
+    "tr": "In Betrieb",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드 / 배정",
+    "tr": "Dashboard / Randomisierung",
+    "type": "path",
+    "note": "image"
+  },
+  {
+    "ko": "배정 관리",
+    "tr": "Randomisierung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "홈 현황 요약",
+    "tr": "Start-Übersicht",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "메뉴",
+    "tr": "Menü",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "Studienbetrieb",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "Dashboard",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "Proband",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 입력",
+    "tr": "Dateneingabe",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "Studienverwaltung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF-Verwaltung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE-Festlegung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB-Normalbereich",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "Besuchsdefinition",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "Versionsverwaltung des Designs",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명",
+    "tr": "Elektronische Signatur",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "품질·규제",
+    "tr": "Qualität · Regulierung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 검증 (DVS)",
+    "tr": "Datenvalidierung (DVS)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 내보내기",
+    "tr": "Datenexport",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "설정",
+    "tr": "Einstellungen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 설정",
+    "tr": "Projekteinstellungen",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "SAE 통보",
+    "tr": "SAE-Meldung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "참여 기관",
+    "tr": "Teilnehmende Standorte",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "배정 운영 통합 작업",
+    "tr": "Randomisierungsbetrieb: Gesamtaufgaben",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "풀 번호",
+    "tr": "Nummern im Pool",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "준비 현황 순서 무관 · 완료 체크",
+    "tr": "Vorbereitungsstand · beliebige Reihenfolge · Abschlusskontrolle",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "미정의",
+    "tr": "Nicht definiert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "미등록",
+    "tr": "Nicht registriert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "시험군별 배정 분포",
+    "tr": "Verteilung der Randomisierung nach Studienarm",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "시험군 정의 >",
+    "tr": "Studienarme definieren >",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "최근 활동 최근 5건",
+    "tr": "Letzte Aktivitäten (letzte 5)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "가용",
+    "tr": "Verfügbar",
+    "type": "th",
+    "note": "image"
+  },
+  {
+    "ko": "설정하기 >",
+    "tr": "Einrichten >",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "설정 완료",
+    "tr": "Einstellungen abgeschlossen",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "2개",
+    "tr": "2",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "정의",
+    "tr": "Definiert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "8개 등록",
+    "tr": "8 registriert",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "ARM_A 표준요법 · 시험군",
+    "tr": "ARM_A Standardtherapie · Studienarm",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "ARM_B 시험요법 · 시험군",
+    "tr": "ARM_B Prüftherapie · Studienarm",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "맹검",
+    "tr": "Verblindung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상태",
+    "tr": "Status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "외부 업로드 (External Upload)",
+    "tr": "Externer Upload (External Upload)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "공개 (Open Label)",
+    "tr": "offen (Open Label)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "3 / 4 · 목표 1",
+    "tr": "3 / 4 · Ziel 1",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "배정 규칙",
+    "tr": "Randomisierungsregeln",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "향후 확장",
+    "tr": "Künftige Erweiterung",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "단일 맹검 (Single Blind)",
+    "tr": "einfach verblindet (Single Blind)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이중 맹검 (Double Blind)",
+    "tr": "doppelt verblindet (Double Blind)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "삼중 맹검 (Triple Blind)",
+    "tr": "dreifach verblindet (Triple Blind)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "수동 지정 허용 기본 OFF",
+    "tr": "Manuelle Zuweisung zulassen · Standard AUS",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기본 OFF",
+    "tr": "Standard AUS",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "설명",
+    "tr": "Beschreibung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "저장",
+    "tr": "Speichern",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "순서 무관 · 완료 체크",
+    "tr": "Beliebige Reihenfolge · Abschlusskontrolle",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "통합 작업",
+    "tr": "Gesamtaufgaben",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "신규 시험군",
+    "tr": "Neuer Studienarm",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "0건",
+    "tr": "0",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "신규 풀 업로드",
+    "tr": "Neuen Pool hochladen",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "대상 Subject (1)",
+    "tr": "Zielproband (Subject) (1)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "고유번호",
+    "tr": "Eindeutige Nummer",
+    "type": "th",
+    "note": "image"
+  },
+  {
+    "ko": "이름",
+    "tr": "Name",
+    "type": "th",
+    "note": "image"
+  },
+  {
+    "ko": "참여기관",
+    "tr": "Standort",
+    "type": "th",
+    "note": "image"
+  },
+  {
+    "ko": "해제 사유",
+    "tr": "Grund der Aufhebung",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "상세 메모 * (5자 이상)",
+    "tr": "Detailnotiz * (mind. 5 Zeichen)",
+    "type": "label",
+    "note": "image"
+  }
 ]

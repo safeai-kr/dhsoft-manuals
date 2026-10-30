@@ -1,63 +1,668 @@
 [
-  {"ko": "플랫폼 홈", "tr": "Platform home", "type": "path", "note": "Breadcrumb root"},
-  {"ko": "워크스페이스 관리", "tr": "Workspace management", "type": "menu", "note": "Screen SCR-WS-002; also breadcrumb"},
-  {"ko": "워크스페이스", "tr": "Workspace", "type": "menu", "note": "Left menu group; breadcrumb root of the dashboard path"},
-  {"ko": "워크스페이스 대시보드", "tr": "Workspace dashboard", "type": "menu", "note": "Screen SCR-WS-004 for members"},
-  {"ko": "워크스페이스 상세", "tr": "Workspace details", "type": "path", "note": "Screen SCR-WS-004 for administrators"},
-  {"ko": "신규 워크스페이스 생성", "tr": "Create new workspace", "type": "menu", "note": "Create window title; also breadcrumb"},
-  {"ko": "워크스페이스 이름", "tr": "Workspace name", "type": "field", "note": ""},
-  {"ko": "코드", "tr": "Code", "type": "field", "note": "Cannot be changed after creation"},
-  {"ko": "주관 기관", "tr": "Lead organization", "type": "field", "note": ""},
-  {"ko": "기관 관리", "tr": "Organization management", "type": "menu", "note": "Other volume; name to be confirmed"},
-  {"ko": "설명", "tr": "Description", "type": "field", "note": "Optional"},
-  {"ko": "생성", "tr": "Create", "type": "button", "note": "Create window button"},
-  {"ko": "상세 보기", "tr": "View details", "type": "button", "note": "Row menu item"},
-  {"ko": "사용자 할당", "tr": "Assign users", "type": "button", "note": "Row menu item (system administrators only)"},
-  {"ko": "사용자 할당 관리", "tr": "User assignment management", "type": "menu", "note": "Screen SCR-WS-003; also breadcrumb and button"},
-  {"ko": "비활성화", "tr": "Deactivate", "type": "button", "note": ""},
-  {"ko": "활성화", "tr": "Activate", "type": "button", "note": ""},
-  {"ko": "메타 편집", "tr": "Edit name and description", "type": "button", "note": "Edits the name and description only"},
-  {"ko": "바로가기", "tr": "Shortcut", "type": "button", "note": ""},
-  {"ko": "다음 할 일", "tr": "Next to-do", "type": "label", "note": "Step shown by the shortcut"},
-  {"ko": "프로젝트 생성", "tr": "Create project", "type": "button", "note": "Also the title of the project creation screen (신규 프로젝트 생성)"},
-  {"ko": "워크스페이스 비활성화", "tr": "Deactivate workspace", "type": "button", "note": ""},
-  {"ko": "구성 현황", "tr": "Setup progress", "type": "label", "note": "Four-step panel"},
-  {"ko": "워크스페이스 생성", "tr": "Create workspace", "type": "label", "note": "Step 1 of setup progress"},
-  {"ko": "구축 단계", "tr": "setup stage", "type": "term", "note": ""},
-  {"ko": "설정 중", "tr": "Setting up", "type": "status", "note": "Project status at creation"},
-  {"ko": "운영", "tr": "Operation", "type": "status", "note": "Step 4 of setup progress; also the status after setup"},
-  {"ko": "전체 보기", "tr": "View all", "type": "button", "note": "Opens the full member list"},
-  {"ko": "워크스페이스 삭제", "tr": "Delete workspace", "type": "button", "note": ""},
-  {"ko": "할당 사용자", "tr": "Assigned users", "type": "label", "note": "Member summary; up to 5 shown"},
-  {"ko": "최근 활동", "tr": "Recent activity", "type": "label", "note": ""},
-  {"ko": "사용자 추가", "tr": "Add user", "type": "button", "note": ""},
-  {"ko": "관리자 지정", "tr": "Designate as administrator", "type": "button", "note": ""},
-  {"ko": "해제", "tr": "Remove", "type": "button", "note": "Removes the user from the workspace"},
-  {"ko": "역할", "tr": "Role", "type": "label", "note": "Position inside the workspace"},
-  {"ko": "관리자", "tr": "administrator", "type": "term", "note": "Workspace administrator"},
-  {"ko": "멤버", "tr": "member", "type": "term", "note": "Workspace member"},
-  {"ko": "이 화면으로 가는 다른 길", "tr": "Other ways to reach this screen", "type": "label", "note": "Sub-heading of the entry list"},
-  {"ko": "연구자 배정", "tr": "Researcher assignment", "type": "menu", "note": "Other volume; name to be confirmed"},
-  {"ko": "변경 이력", "tr": "Change history", "type": "button", "note": "Opens the change log"},
-  {"ko": "변경 이력 조회", "tr": "View change history", "type": "button", "note": "Dashboard button; needs permission"},
-  {"ko": "컨텍스트 전환", "tr": "Context switcher", "type": "label", "note": "Control at the top of the screen"},
-  {"ko": "재시도", "tr": "Retry", "type": "button", "note": ""},
-  {"ko": "참여 기관 수", "tr": "Participating organizations", "type": "label", "note": "Column label"},
-  {"ko": "최근 진입", "tr": "Last entered", "type": "label", "note": "Column label"},
-  {"ko": "이어서", "tr": "Continue", "type": "label", "note": "Home section; recently entered workspaces"},
-  {"ko": "내 프로젝트", "tr": "My projects", "type": "label", "note": "Platform home section"},
-  {"ko": "집계", "tr": "Summary", "type": "label", "note": "Count cards at the top"},
-  {"ko": "현황 카드", "tr": "Status cards", "type": "label", "note": "Cards that show what needs attention"},
-  {"ko": "활성 프로젝트", "tr": "Active projects", "type": "label", "note": "Counted only when active"},
-  {"ko": "프로젝트 코드", "tr": "Project code", "type": "field", "note": "Cannot be changed after creation"},
-  {"ko": "프로젝트명", "tr": "Project name", "type": "field", "note": ""},
-  {"ko": "연구 유형", "tr": "Study type", "type": "field", "note": "Example: investigator-led"},
-  {"ko": "보관 정책", "tr": "Retention policy", "type": "field", "note": "Default: Standard"},
-  {"ko": "표준", "tr": "Standard", "type": "value", "note": "Default retention policy"},
-  {"ko": "초기 역할", "tr": "Initial roles", "type": "label", "note": "Not selected; standard roles generated automatically"},
-  {"ko": "초기 상태", "tr": "Initial status", "type": "label", "note": "Header of the project creation window"},
-  {"ko": "연구자", "tr": "researcher", "type": "term", "note": "Project role"},
-  {"ko": "모니터요원", "tr": "monitor", "type": "term", "note": "Project role; check whether this equals CRA"},
-  {"ko": "(변경 불가)", "tr": "(Cannot be changed)", "type": "message", "note": "Added to the Code label in edit mode"},
-  {"ko": "비활성 상태의 워크스페이스입니다.", "tr": "This workspace is in an inactive state.", "type": "message", "note": "Notice on the inactive access screen"}
+  {
+    "ko": "플랫폼 홈",
+    "tr": "Platform home",
+    "type": "path",
+    "note": "Breadcrumb root"
+  },
+  {
+    "ko": "워크스페이스 관리",
+    "tr": "Workspace management",
+    "type": "menu",
+    "note": "Screen SCR-WS-002; also breadcrumb"
+  },
+  {
+    "ko": "워크스페이스",
+    "tr": "Workspace",
+    "type": "menu",
+    "note": "Left menu group; breadcrumb root of the dashboard path"
+  },
+  {
+    "ko": "워크스페이스 대시보드",
+    "tr": "Workspace dashboard",
+    "type": "menu",
+    "note": "Screen SCR-WS-004 for members"
+  },
+  {
+    "ko": "워크스페이스 상세",
+    "tr": "Workspace details",
+    "type": "path",
+    "note": "Screen SCR-WS-004 for administrators"
+  },
+  {
+    "ko": "신규 워크스페이스 생성",
+    "tr": "Create new workspace",
+    "type": "menu",
+    "note": "Create window title; also breadcrumb"
+  },
+  {
+    "ko": "워크스페이스 이름",
+    "tr": "Workspace name",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "코드",
+    "tr": "Code",
+    "type": "field",
+    "note": "Cannot be changed after creation"
+  },
+  {
+    "ko": "주관 기관",
+    "tr": "Lead organization",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "기관 관리",
+    "tr": "Organization management",
+    "type": "menu",
+    "note": "Other volume; name to be confirmed"
+  },
+  {
+    "ko": "설명",
+    "tr": "Description",
+    "type": "field",
+    "note": "Optional"
+  },
+  {
+    "ko": "생성",
+    "tr": "Create",
+    "type": "button",
+    "note": "Create window button"
+  },
+  {
+    "ko": "상세 보기",
+    "tr": "View details",
+    "type": "button",
+    "note": "Row menu item"
+  },
+  {
+    "ko": "사용자 할당",
+    "tr": "Assign users",
+    "type": "button",
+    "note": "Row menu item (system administrators only)"
+  },
+  {
+    "ko": "사용자 할당 관리",
+    "tr": "User assignment management",
+    "type": "menu",
+    "note": "Screen SCR-WS-003; also breadcrumb and button"
+  },
+  {
+    "ko": "비활성화",
+    "tr": "Deactivate",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "활성화",
+    "tr": "Activate",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "메타 편집",
+    "tr": "Edit name and description",
+    "type": "button",
+    "note": "Edits the name and description only"
+  },
+  {
+    "ko": "바로가기",
+    "tr": "Shortcut",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "다음 할 일",
+    "tr": "Next to-do",
+    "type": "label",
+    "note": "Step shown by the shortcut"
+  },
+  {
+    "ko": "프로젝트 생성",
+    "tr": "Create project",
+    "type": "button",
+    "note": "Also the title of the project creation screen (신규 프로젝트 생성)"
+  },
+  {
+    "ko": "워크스페이스 비활성화",
+    "tr": "Deactivate workspace",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "구성 현황",
+    "tr": "Setup progress",
+    "type": "label",
+    "note": "Four-step panel"
+  },
+  {
+    "ko": "워크스페이스 생성",
+    "tr": "Create workspace",
+    "type": "label",
+    "note": "Step 1 of setup progress"
+  },
+  {
+    "ko": "구축 단계",
+    "tr": "setup stage",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "설정 중",
+    "tr": "Setting up",
+    "type": "status",
+    "note": "Project status at creation"
+  },
+  {
+    "ko": "운영",
+    "tr": "Operation",
+    "type": "status",
+    "note": "Step 4 of setup progress; also the status after setup"
+  },
+  {
+    "ko": "전체 보기",
+    "tr": "View all",
+    "type": "button",
+    "note": "Opens the full member list"
+  },
+  {
+    "ko": "워크스페이스 삭제",
+    "tr": "Delete workspace",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "할당 사용자",
+    "tr": "Assigned users",
+    "type": "label",
+    "note": "Member summary; up to 5 shown"
+  },
+  {
+    "ko": "최근 활동",
+    "tr": "Recent activity",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "사용자 추가",
+    "tr": "Add user",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "관리자 지정",
+    "tr": "Designate as administrator",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "해제",
+    "tr": "Remove",
+    "type": "button",
+    "note": "Removes the user from the workspace"
+  },
+  {
+    "ko": "역할",
+    "tr": "Role",
+    "type": "label",
+    "note": "Position inside the workspace"
+  },
+  {
+    "ko": "관리자",
+    "tr": "administrator",
+    "type": "term",
+    "note": "Workspace administrator"
+  },
+  {
+    "ko": "멤버",
+    "tr": "member",
+    "type": "term",
+    "note": "Workspace member"
+  },
+  {
+    "ko": "이 화면으로 가는 다른 길",
+    "tr": "Other ways to reach this screen",
+    "type": "label",
+    "note": "Sub-heading of the entry list"
+  },
+  {
+    "ko": "연구자 배정",
+    "tr": "Researcher assignment",
+    "type": "menu",
+    "note": "Other volume; name to be confirmed"
+  },
+  {
+    "ko": "변경 이력",
+    "tr": "Change history",
+    "type": "button",
+    "note": "Opens the change log"
+  },
+  {
+    "ko": "변경 이력 조회",
+    "tr": "View change history",
+    "type": "button",
+    "note": "Dashboard button; needs permission"
+  },
+  {
+    "ko": "컨텍스트 전환",
+    "tr": "Context switcher",
+    "type": "label",
+    "note": "Control at the top of the screen"
+  },
+  {
+    "ko": "재시도",
+    "tr": "Retry",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "참여 기관 수",
+    "tr": "Participating organizations",
+    "type": "label",
+    "note": "Column label"
+  },
+  {
+    "ko": "최근 진입",
+    "tr": "Last entered",
+    "type": "label",
+    "note": "Column label"
+  },
+  {
+    "ko": "이어서",
+    "tr": "Continue",
+    "type": "label",
+    "note": "Home section; recently entered workspaces"
+  },
+  {
+    "ko": "내 프로젝트",
+    "tr": "My projects",
+    "type": "label",
+    "note": "Platform home section"
+  },
+  {
+    "ko": "집계",
+    "tr": "Summary",
+    "type": "label",
+    "note": "Count cards at the top"
+  },
+  {
+    "ko": "현황 카드",
+    "tr": "Status cards",
+    "type": "label",
+    "note": "Cards that show what needs attention"
+  },
+  {
+    "ko": "활성 프로젝트",
+    "tr": "Active projects",
+    "type": "label",
+    "note": "Counted only when active"
+  },
+  {
+    "ko": "프로젝트 코드",
+    "tr": "Project code",
+    "type": "field",
+    "note": "Cannot be changed after creation"
+  },
+  {
+    "ko": "프로젝트명",
+    "tr": "Project name",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "연구 유형",
+    "tr": "Study type",
+    "type": "field",
+    "note": "Example: investigator-led"
+  },
+  {
+    "ko": "보관 정책",
+    "tr": "Retention policy",
+    "type": "field",
+    "note": "Default: Standard"
+  },
+  {
+    "ko": "표준",
+    "tr": "Standard",
+    "type": "value",
+    "note": "Default retention policy"
+  },
+  {
+    "ko": "초기 역할",
+    "tr": "Initial roles",
+    "type": "label",
+    "note": "Not selected; standard roles generated automatically"
+  },
+  {
+    "ko": "초기 상태",
+    "tr": "Initial status",
+    "type": "label",
+    "note": "Header of the project creation window"
+  },
+  {
+    "ko": "연구자",
+    "tr": "researcher",
+    "type": "term",
+    "note": "Project role"
+  },
+  {
+    "ko": "모니터요원",
+    "tr": "monitor",
+    "type": "term",
+    "note": "Project role; check whether this equals CRA"
+  },
+  {
+    "ko": "(변경 불가)",
+    "tr": "(Cannot be changed)",
+    "type": "message",
+    "note": "Added to the Code label in edit mode"
+  },
+  {
+    "ko": "비활성 상태의 워크스페이스입니다.",
+    "tr": "This workspace is in an inactive state.",
+    "type": "message",
+    "note": "Notice on the inactive access screen"
+  },
+  {
+    "ko": "워크스페이스 선택",
+    "tr": "Select workspace",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 선택",
+    "tr": "Select project",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "워크스페이스 메뉴",
+    "tr": "Workspace menu",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "플랫폼 메뉴",
+    "tr": "Platform menu",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "플랫폼 대시보드",
+    "tr": "Platform dashboard",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "사용자 관리",
+    "tr": "User management",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "시스템 설정",
+    "tr": "System settings",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "코드 관리",
+    "tr": "Code management",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "접속 로그",
+    "tr": "Access log",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "운영 이력",
+    "tr": "Operation history",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "내 메뉴",
+    "tr": "My menu",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "내 프로필",
+    "tr": "My profile",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "알림",
+    "tr": "Notifications",
+    "type": "menu",
+    "note": "image"
+  },
+  {
+    "ko": "전체 WS",
+    "tr": "All WS",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기관별 WS 분포",
+    "tr": "WS by organization",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "WS명",
+    "tr": "WS name",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "활성 WS",
+    "tr": "Active WS",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "비활성 WS",
+    "tr": "Inactive WS",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 보유 상위 WS",
+    "tr": "Top WS by project count",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "진입 현황",
+    "tr": "Access status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "총 피험자",
+    "tr": "Total subjects",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "사용자",
+    "tr": "User",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "상태",
+    "tr": "Status",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "활성",
+    "tr": "Active",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "전체 상태",
+    "tr": "All statuses",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "전체 기관",
+    "tr": "All organizations",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "취소",
+    "tr": "Cancel",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "전체 프로젝트",
+    "tr": "All projects",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "완료",
+    "tr": "Completed",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "지금 할 차례",
+    "tr": "Up next",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "대기",
+    "tr": "Waiting",
+    "type": "status",
+    "note": "image"
+  },
+  {
+    "ko": "이름",
+    "tr": "Name",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "멤버 관리",
+    "tr": "Member management",
+    "type": "breadcrumb",
+    "note": "image"
+  },
+  {
+    "ko": "소속 기관",
+    "tr": "Affiliation",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "할당일",
+    "tr": "Assigned on",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "할당자",
+    "tr": "Assigned by",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "PRJ명",
+    "tr": "PRJ name",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "Subject",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "최종 수정",
+    "tr": "Last modified",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "신규 프로젝트 생성",
+    "tr": "Create new project",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "기본 정보",
+    "tr": "Basic information",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "연구자 주도 (IIT)",
+    "tr": "Investigator-led (IIT)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "시작일 (예상)",
+    "tr": "Start date (planned)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "종료일 (예상)",
+    "tr": "End date (planned)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이메일",
+    "tr": "Email",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "교육 강사",
+    "tr": "Training instructor",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "프로젝트 수정",
+    "tr": "Project updated",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 정의 수정",
+    "tr": "CRF definition updated",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의 상태 변경",
+    "tr": "Visit definition status changed",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문-CRF 매핑 생성",
+    "tr": "Visit-CRF mapping created",
+    "type": "label",
+    "note": "image"
+  }
 ]

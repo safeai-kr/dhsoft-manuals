@@ -1,434 +1,758 @@
 [
- {
-  "ko": "피험자 목록",
-  "tr": "Subject list",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "피험자 상세",
-  "tr": "Subject details",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "연구 운영",
-  "tr": "Study Operations",
-  "type": "menu",
-  "note": "left menu group"
- },
- {
-  "ko": "신규 피험자 등록",
-  "tr": "Register new subject",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "신규 피험자",
-  "tr": "New subject",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "검색 · 정렬 · 필터",
-  "tr": "Search · Sort · Filter",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상태 필터",
-  "tr": "Status filter",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "종결 상태 전체",
-  "tr": "All end statuses",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "참여기관",
-  "tr": "Site",
-  "type": "label",
-  "note": "Site kept as product term"
- },
- {
-  "ko": "내 참여기관 고정",
-  "tr": "Fixed to my Site",
-  "type": "label",
-  "note": "badge"
- },
- {
-  "ko": "최신순",
-  "tr": "Latest",
-  "type": "value",
-  "note": "sort option"
- },
- {
-  "ko": "등록일",
-  "tr": "Registration date",
-  "type": "value",
-  "note": "sort option and column"
- },
- {
-  "ko": "집계 배지",
-  "tr": "summary badge",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "등록/배정",
-  "tr": "Enrolled/Assigned",
-  "type": "label",
-  "note": "summary badge"
- },
- {
-  "ko": "최근 방문",
-  "tr": "Latest visit",
-  "type": "label",
-  "note": "column"
- },
- {
-  "ko": "품질",
-  "tr": "Quality",
-  "type": "label",
-  "note": "column"
- },
- {
-  "ko": "액션",
-  "tr": "Actions",
-  "type": "label",
-  "note": "column"
- },
- {
-  "ko": "시험군",
-  "tr": "Study arm",
-  "type": "label",
-  "note": "column"
- },
- {
-  "ko": "이니셜",
-  "tr": "Initials",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "귀속 Site",
-  "tr": "Assigned Site",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "이름",
-  "tr": "Name",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "생년월일",
-  "tr": "Date of birth",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "성별",
-  "tr": "Sex",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "고유번호",
-  "tr": "Unique number",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "생성일",
-  "tr": "Created date",
-  "type": "field",
-  "note": "read-only field"
- },
- {
-  "ko": "기본 정보",
-  "tr": "Basic information",
-  "type": "tab",
-  "note": "card and tab"
- },
- {
-  "ko": "등록 정보",
-  "tr": "Registration information",
-  "type": "tab",
-  "note": "card"
- },
- {
-  "ko": "배정 정보",
-  "tr": "Assignment information",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "배정번호",
-  "tr": "assignment number",
-  "type": "term",
-  "note": ""
- },
- {
-  "ko": "미배정",
-  "tr": "Not assigned",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "스크리닝",
-  "tr": "Screening",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "등록",
-  "tr": "Registered",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "투약 중",
-  "tr": "On treatment",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "치료 종료",
-  "tr": "Treatment completed",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "스크리닝 실패",
-  "tr": "Screen failure",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "추적 불가",
-  "tr": "Lost to follow-up",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "사망",
-  "tr": "Deceased",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "동의 철회",
-  "tr": "Consent withdrawn",
-  "type": "status",
-  "note": ""
- },
- {
-  "ko": "연구 종료",
-  "tr": "End of study",
-  "type": "status",
-  "note": "also screen name and button"
- },
- {
-  "ko": "검증 대기",
-  "tr": "Awaiting verification",
-  "type": "status",
-  "note": "quality status"
- },
- {
-  "ko": "SDV 완료",
-  "tr": "SDV completed",
-  "type": "status",
-  "note": "quality status"
- },
- {
-  "ko": "쿼리 열림",
-  "tr": "Query open",
-  "type": "status",
-  "note": "quality status"
- },
- {
-  "ko": "쿼리 답변",
-  "tr": "Query answered",
-  "type": "status",
-  "note": "quality status"
- },
- {
-  "ko": "완결(CLEAN)",
-  "tr": "Complete (CLEAN)",
-  "type": "status",
-  "note": "quality status"
- },
- {
-  "ko": "방문 수행",
-  "tr": "Completed",
-  "type": "status",
-  "note": "visit status count"
- },
- {
-  "ko": "방문 진행",
-  "tr": "In progress",
-  "type": "status",
-  "note": "visit status count"
- },
- {
-  "ko": "방문 예정",
-  "tr": "Scheduled",
-  "type": "status",
-  "note": "visit status count"
- },
- {
-  "ko": "미방문",
-  "tr": "Not visited",
-  "type": "status",
-  "note": "visit status"
- },
- {
-  "ko": "결합된 CRF 없음",
-  "tr": "No linked CRF",
-  "type": "message",
-  "note": ""
- },
- {
-  "ko": "방문 타임라인",
-  "tr": "Visit timeline",
-  "type": "tab",
-  "note": ""
- },
- {
-  "ko": "방문 수동 추가",
-  "tr": "Add visit manually",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "Cycle 수동 추가",
-  "tr": "Add Cycle manually",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "방문 그룹",
-  "tr": "Visit group",
-  "type": "tab",
-  "note": "view mode"
- },
- {
-  "ko": "Gantt 타임라인",
-  "tr": "Gantt timeline",
-  "type": "tab",
-  "note": "view mode"
- },
- {
-  "ko": "전용 화면",
-  "tr": "Dedicated screen",
-  "type": "label",
-  "note": "badge"
- },
- {
-  "ko": "전용 화면으로 이동",
-  "tr": "Go to dedicated screen",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "상태 변경",
-  "tr": "Change status",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "상태 변경 이력",
-  "tr": "Status change history",
-  "type": "tab",
-  "note": "screen name"
- },
- {
-  "ko": "상태 이력",
-  "tr": "Status history",
-  "type": "menu",
-  "note": ""
- },
- {
-  "ko": "전이 대상 선택",
-  "tr": "Select target status",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "다음 가능 상태",
-  "tr": "Next possible statuses",
-  "type": "label",
-  "note": ""
- },
- {
-  "ko": "상태 변경 실행",
-  "tr": "Run status change",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "연구 종료일",
-  "tr": "End of study date",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "종료 사유",
-  "tr": "End reason",
-  "type": "field",
-  "note": ""
- },
- {
-  "ko": "연구 종료 실행",
-  "tr": "Run end of study",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "← 목록으로",
-  "tr": "← To list",
-  "type": "button",
-  "note": "back link"
- },
- {
-  "ko": "← 기본 정보로",
-  "tr": "← To basic information",
-  "type": "button",
-  "note": "back link"
- },
- {
-  "ko": "CRF 매트릭스",
-  "tr": "CRF matrix",
-  "type": "menu",
-  "note": "other screen, not in this volume"
- },
- {
-  "ko": "취소",
-  "tr": "Cancel",
-  "type": "button",
-  "note": ""
- },
- {
-  "ko": "총 N명",
-  "tr": "Total N subjects",
-  "type": "label",
-  "note": "count label"
- },
- {
-  "ko": "총 N건",
-  "tr": "Total N entries",
-  "type": "label",
-  "note": "count label"
- },
- {
-  "ko": "초기 등록 이외 이력이 없습니다.",
-  "tr": "No history other than initial registration.",
-  "type": "message",
-  "note": "empty state"
- }
+  {
+    "ko": "피험자 목록",
+    "tr": "Subject list",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "피험자 상세",
+    "tr": "Subject details",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "연구 운영",
+    "tr": "Study Operations",
+    "type": "menu",
+    "note": "left menu group"
+  },
+  {
+    "ko": "신규 피험자 등록",
+    "tr": "Register new subject",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "신규 피험자",
+    "tr": "New subject",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "검색 · 정렬 · 필터",
+    "tr": "Search · Sort · Filter",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "상태 필터",
+    "tr": "Status filter",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "종결 상태 전체",
+    "tr": "All end statuses",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "참여기관",
+    "tr": "Site",
+    "type": "label",
+    "note": "Site kept as product term"
+  },
+  {
+    "ko": "내 참여기관 고정",
+    "tr": "Fixed to my Site",
+    "type": "label",
+    "note": "badge"
+  },
+  {
+    "ko": "최신순",
+    "tr": "Latest",
+    "type": "value",
+    "note": "sort option"
+  },
+  {
+    "ko": "등록일",
+    "tr": "Registration date",
+    "type": "value",
+    "note": "sort option and column"
+  },
+  {
+    "ko": "집계 배지",
+    "tr": "summary badge",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "등록/배정",
+    "tr": "Enrolled/Assigned",
+    "type": "label",
+    "note": "summary badge"
+  },
+  {
+    "ko": "최근 방문",
+    "tr": "Latest visit",
+    "type": "label",
+    "note": "column"
+  },
+  {
+    "ko": "품질",
+    "tr": "Quality",
+    "type": "label",
+    "note": "column"
+  },
+  {
+    "ko": "액션",
+    "tr": "Actions",
+    "type": "label",
+    "note": "column"
+  },
+  {
+    "ko": "시험군",
+    "tr": "Study arm",
+    "type": "label",
+    "note": "column"
+  },
+  {
+    "ko": "이니셜",
+    "tr": "Initials",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "귀속 Site",
+    "tr": "Assigned Site",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "이름",
+    "tr": "Name",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "생년월일",
+    "tr": "Date of birth",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "성별",
+    "tr": "Sex",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "고유번호",
+    "tr": "Unique number",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "생성일",
+    "tr": "Created date",
+    "type": "field",
+    "note": "read-only field"
+  },
+  {
+    "ko": "기본 정보",
+    "tr": "Basic information",
+    "type": "tab",
+    "note": "card and tab"
+  },
+  {
+    "ko": "등록 정보",
+    "tr": "Registration information",
+    "type": "tab",
+    "note": "card"
+  },
+  {
+    "ko": "배정 정보",
+    "tr": "Assignment information",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "배정번호",
+    "tr": "assignment number",
+    "type": "term",
+    "note": ""
+  },
+  {
+    "ko": "미배정",
+    "tr": "Not assigned",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "스크리닝",
+    "tr": "Screening",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "등록",
+    "tr": "Registered",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "투약 중",
+    "tr": "On treatment",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "치료 종료",
+    "tr": "Treatment completed",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "스크리닝 실패",
+    "tr": "Screen failure",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "추적 불가",
+    "tr": "Lost to follow-up",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "사망",
+    "tr": "Deceased",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "동의 철회",
+    "tr": "Consent withdrawn",
+    "type": "status",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료",
+    "tr": "End of study",
+    "type": "status",
+    "note": "also screen name and button"
+  },
+  {
+    "ko": "검증 대기",
+    "tr": "Awaiting verification",
+    "type": "status",
+    "note": "quality status"
+  },
+  {
+    "ko": "SDV 완료",
+    "tr": "SDV completed",
+    "type": "status",
+    "note": "quality status"
+  },
+  {
+    "ko": "쿼리 열림",
+    "tr": "Query open",
+    "type": "status",
+    "note": "quality status"
+  },
+  {
+    "ko": "쿼리 답변",
+    "tr": "Query answered",
+    "type": "status",
+    "note": "quality status"
+  },
+  {
+    "ko": "완결(CLEAN)",
+    "tr": "Complete (CLEAN)",
+    "type": "status",
+    "note": "quality status"
+  },
+  {
+    "ko": "방문 수행",
+    "tr": "Completed",
+    "type": "status",
+    "note": "visit status count"
+  },
+  {
+    "ko": "방문 진행",
+    "tr": "In progress",
+    "type": "status",
+    "note": "visit status count"
+  },
+  {
+    "ko": "방문 예정",
+    "tr": "Scheduled",
+    "type": "status",
+    "note": "visit status count"
+  },
+  {
+    "ko": "미방문",
+    "tr": "Not visited",
+    "type": "status",
+    "note": "visit status"
+  },
+  {
+    "ko": "결합된 CRF 없음",
+    "tr": "No linked CRF",
+    "type": "message",
+    "note": ""
+  },
+  {
+    "ko": "방문 타임라인",
+    "tr": "Visit timeline",
+    "type": "tab",
+    "note": ""
+  },
+  {
+    "ko": "방문 수동 추가",
+    "tr": "Add visit manually",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "Cycle 수동 추가",
+    "tr": "Add Cycle manually",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "방문 그룹",
+    "tr": "Visit group",
+    "type": "tab",
+    "note": "view mode"
+  },
+  {
+    "ko": "Gantt 타임라인",
+    "tr": "Gantt timeline",
+    "type": "tab",
+    "note": "view mode"
+  },
+  {
+    "ko": "전용 화면",
+    "tr": "Dedicated screen",
+    "type": "label",
+    "note": "badge"
+  },
+  {
+    "ko": "전용 화면으로 이동",
+    "tr": "Go to dedicated screen",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "상태 변경",
+    "tr": "Change status",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "상태 변경 이력",
+    "tr": "Status change history",
+    "type": "tab",
+    "note": "screen name"
+  },
+  {
+    "ko": "상태 이력",
+    "tr": "Status history",
+    "type": "menu",
+    "note": ""
+  },
+  {
+    "ko": "전이 대상 선택",
+    "tr": "Select target status",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "다음 가능 상태",
+    "tr": "Next possible statuses",
+    "type": "label",
+    "note": ""
+  },
+  {
+    "ko": "상태 변경 실행",
+    "tr": "Run status change",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료일",
+    "tr": "End of study date",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "종료 사유",
+    "tr": "End reason",
+    "type": "field",
+    "note": ""
+  },
+  {
+    "ko": "연구 종료 실행",
+    "tr": "Run end of study",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "← 목록으로",
+    "tr": "← To list",
+    "type": "button",
+    "note": "back link"
+  },
+  {
+    "ko": "← 기본 정보로",
+    "tr": "← To basic information",
+    "type": "button",
+    "note": "back link"
+  },
+  {
+    "ko": "CRF 매트릭스",
+    "tr": "CRF matrix",
+    "type": "menu",
+    "note": "other screen, not in this volume"
+  },
+  {
+    "ko": "취소",
+    "tr": "Cancel",
+    "type": "button",
+    "note": ""
+  },
+  {
+    "ko": "총 N명",
+    "tr": "Total N subjects",
+    "type": "label",
+    "note": "count label"
+  },
+  {
+    "ko": "총 N건",
+    "tr": "Total N entries",
+    "type": "label",
+    "note": "count label"
+  },
+  {
+    "ko": "초기 등록 이외 이력이 없습니다.",
+    "tr": "No history other than initial registration.",
+    "type": "message",
+    "note": "empty state"
+  },
+  {
+    "ko": "뉴",
+    "tr": "New",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "대시보드",
+    "tr": "Dashboard",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "피험자",
+    "tr": "Subjects",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 입력",
+    "tr": "Data entry",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "연구 관리",
+    "tr": "Study management",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 관리",
+    "tr": "CRF Management",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "AE 지정",
+    "tr": "AE Designation",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "LAB 정상범위",
+    "tr": "LAB reference ranges",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 정의",
+    "tr": "Visit definition",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "설계 버전 관리",
+    "tr": "Design version control",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "배정",
+    "tr": "Assignment",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "전자서명",
+    "tr": "Electronic signature",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "품질·규제",
+    "tr": "Quality·Regulatory",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "데이터 검증 (DVS)",
+    "tr": "Data verification (DVS)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "유방암 2상 SGS-ONCO-01",
+    "tr": "Breast cancer Phase 2 SGS-ONCO-01",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "운영 중",
+    "tr": "In operation",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "스크리닝 0",
+    "tr": "Screening 0",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "등록/배정 0",
+    "tr": "Registered/Assigned 0",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "등록 완료",
+    "tr": "Registration complete",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "배정 완료",
+    "tr": "Assignment complete",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "참여기관 전체",
+    "tr": "All Sites",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "상태",
+    "tr": "Status",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "완결(CLEAN",
+    "tr": "Complete (CLEAN)",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "귀속 Site *",
+    "tr": "Assigned Site *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이름 *",
+    "tr": "Name *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "이니셜 *",
+    "tr": "Initials *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "성별 *",
+    "tr": "Sex *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "남성",
+    "tr": "Male",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "여성",
+    "tr": "Female",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기타",
+    "tr": "Other",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "미상",
+    "tr": "Unknown",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "ICF 동의일",
+    "tr": "ICF consent date",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "고유번호 *",
+    "tr": "Unique number *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "저장",
+    "tr": "Save",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "참여 기관:",
+    "tr": "Site:",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "기본 정보 (개인식별정보)",
+    "tr": "Basic information (personal identifiers)",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "다음 가능 상태:",
+    "tr": "Next possible statuses:",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "편집",
+    "tr": "Edit",
+    "type": "button",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 매트릭스 Casebook",
+    "tr": "CRF matrix Casebook",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "선별 단계 (2)",
+    "tr": "Screening stage (2)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "선별 방문",
+    "tr": "Screening visit",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "등록 방문",
+    "tr": "Registration visit",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "치료 단계 (Arm B) (5)",
+    "tr": "Treatment stage (Arm B) (5)",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "사전동의/서명 기준",
+    "tr": "Pre-consent/signature basis",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "직전 방문 기준",
+    "tr": "Based on previous visit",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "활력징후",
+    "tr": "Vital signs",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "방문 수행 2",
+    "tr": "Completed 2",
+    "type": "tab",
+    "note": "image"
+  },
+  {
+    "ko": "CRF 상태",
+    "tr": "CRF status",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "미입력",
+    "tr": "Not entered",
+    "type": "badge",
+    "note": "image"
+  },
+  {
+    "ko": "Query 상태",
+    "tr": "Query status",
+    "type": "header",
+    "note": "image"
+  },
+  {
+    "ko": "피험자 상태 변경",
+    "tr": "Change subject status",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "연구 종료 정보",
+    "tr": "End of study information",
+    "type": "title",
+    "note": "image"
+  },
+  {
+    "ko": "연구 종료일 *",
+    "tr": "End of study date *",
+    "type": "label",
+    "note": "image"
+  },
+  {
+    "ko": "종료 사유 *",
+    "tr": "End reason *",
+    "type": "label",
+    "note": "image"
+  }
 ]

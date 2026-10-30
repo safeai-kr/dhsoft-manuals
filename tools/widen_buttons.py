@@ -69,6 +69,8 @@ def find_container(ko, box, h):
     seed = np.zeros_like(allowed); seed[y - Y0 + hh // 2, x - X0 + w // 2] = True
     comp = grow(seed, allowed)
     ys, xs = np.where(comp)
+    if len(ys) == 0:
+        return None   # 글자 자리 가운데가 배경색이 아니면(아이콘·겹친 글) 버튼으로 보지 않는다
     # 창 경계에 닿으면 열린 공간(버튼 아님). 이미지 끝에서 잘린 버튼은 닫힌 것으로 본다
     if (ys.min() == 0 and Y0 > 0) or (ys.max() == comp.shape[0] - 1 and Y1 < H) or ys.min() == 0 and Y0 == 0 or ys.max() == comp.shape[0] - 1 and Y1 == H:
         return None
@@ -223,7 +225,7 @@ def process(manuals, vol, lang, dry, sheet_dir, log):
             rows = slice(max(c['y0'], y0 - 2), min(c['y1'], y1 + 2) + 1)
             colfree = (dist(tr[rows, :], c['bg']) < TOL_IN).all(0)
             L = x0 + (x1 - x0) // 2
-            if not colfree[L]:
+            if L < 0 or L >= len(colfree) or not colfree[L]:
                 tr = snap; continue
             a = L
             while a > 0 and colfree[a - 1]: a -= 1

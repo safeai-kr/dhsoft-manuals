@@ -2,10 +2,11 @@
  "document": "SMART-EDC_사용자매뉴얼_사용자관리_ja.html",
  "source": "SMART-EDC_사용자매뉴얼_사용자관리.pdf",
  "lang": "ja",
- "localized_text": false,
- "note": "한국어 캡처를 그대로 씀 — 이미지 안 글자 현지화는 아직 하지 않았다 [확인 필요]",
- "files": [
-  {
+ "localized_text": true,
+ "note": "한국어 캡처의 글자 자리만 번역어로 바꿈(template/img_localize.py). 덩어리별 기록은 files[*].segments",
+ "method": "PIL Lanczos ×2 + UnsharpMask(r=1.0, 35%, t=3); 글자 교체는 확대본에서",
+ "files": {
+  "s1_1_1.png": {
    "name": "s1_1_1.png",
    "source_xref_image": "p03_1.png",
    "source_px": [
@@ -27,7 +28,755 @@
     856
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 33,
+   "segments": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "메뉴",
+     "tr": "メニュー",
+     "box_px_orig": [
+      1.0,
+      64.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 9.5,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "워크스페이스 선택",
+     "tr": "ワークスペースを選択",
+     "box_px_orig": [
+      188.0,
+      1.0,
+      90.0,
+      11.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.778,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "프로젝트 선택",
+     "tr": "プロジェクトを選択",
+     "box_px_orig": [
+      188.0,
+      18.0,
+      79.5,
+      13.5
+     ],
+     "font_px": 29,
+     "scale": 0.983,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_003",
+     "ko": "사용자 관리",
+     "tr": "ユーザー管理",
+     "box_px_orig": [
+      253.0,
+      76.5,
+      95.5,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004",
+     "ko": "플랫폼 사용자 조회·상태 관리·초대",
+     "tr": "プラットフォームユーザー照会·状態管理·招待",
+     "box_px_orig": [
+      253.0,
+      104.0,
+      195.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "이메일·이름·기관 검색",
+     "tr": "メール·氏名·機関で検索",
+     "box_px_orig": [
+      303.5,
+      161.0,
+      123.5,
+      13.0
+     ],
+     "font_px": 25,
+     "scale": 0.88,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      266.0,
+      226.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 25.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "내 메뉴",
+     "tr": "マイメニュー",
+     "box_px_orig": [
+      21.5,
+      415.0,
+      41.5,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      2197.0,
+      161.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "신규 사용자 등록",
+     "tr": "新規ユーザー登録",
+     "box_px_orig": [
+      2430.0,
+      98.5,
+      83.0,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "연세대학교",
+     "tr": "延世大学校",
+     "box_px_orig": [
+      2337.0,
+      161.0,
+      64.0,
+      13.5
+     ],
+     "font_px": 29.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "플랫폼 메뉴",
+     "tr": "プラットフォームメニュー",
+     "box_px_orig": [
+      21.0,
+      107.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "플랫폼 대시보드",
+     "tr": "プラットフォームダッシュボード",
+     "box_px_orig": [
+      45.0,
+      141.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 24.8,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_014",
+     "ko": "기관 관리",
+     "tr": "機関管理",
+     "box_px_orig": [
+      45.5,
+      175.0,
+      53.5,
+      13.0
+     ],
+     "font_px": 28.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_015",
+     "ko": "워크스페이스 관리",
+     "tr": "ワークスペース管理",
+     "box_px_orig": [
+      45.0,
+      209.0,
+      105.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_016",
+     "ko": "사용자 관리",
+     "tr": "ユーザー管理",
+     "box_px_orig": [
+      45.0,
+      243.0,
+      67.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_017",
+     "ko": "시스템 설정",
+     "tr": "システム設定",
+     "box_px_orig": [
+      45.5,
+      277.0,
+      66.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_018",
+     "ko": "코드 관리",
+     "tr": "コード管理",
+     "box_px_orig": [
+      45.0,
+      311.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_020",
+     "ko": "접속 로그",
+     "tr": "アクセスログ",
+     "box_px_orig": [
+      45.5,
+      345.0,
+      54.5,
+      13.0
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_022",
+     "ko": "운영 이력",
+     "tr": "運用履歴",
+     "box_px_orig": [
+      45.0,
+      379.0,
+      54.0,
+      13.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_023",
+     "ko": "이름",
+     "tr": "氏名",
+     "box_px_orig": [
+      837.0,
+      226.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_024",
+     "ko": "신동환",
+     "tr": "シン・ドンファン",
+     "box_px_orig": [
+      837.0,
+      267.5,
+      38.5,
+      14.0
+     ],
+     "font_px": 30.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_025",
+     "ko": "이승준",
+     "tr": "イ・スンジュン",
+     "box_px_orig": [
+      837.0,
+      321.0,
+      38.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_026",
+     "ko": "황민승",
+     "tr": "ファン・ミンスン",
+     "box_px_orig": [
+      836.5,
+      373.5,
+      38.5,
+      14.0
+     ],
+     "font_px": 30.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_027",
+     "ko": "소속 기관",
+     "tr": "所属機関",
+     "box_px_orig": [
+      1059.0,
+      226.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_028",
+     "ko": "연세대학교",
+     "tr": "延世大学校",
+     "box_px_orig": [
+      1059.0,
+      268.5,
+      55.0,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_029",
+     "ko": "연세대학교",
+     "tr": "延世大学校",
+     "box_px_orig": [
+      1059.0,
+      321.5,
+      55.0,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_030",
+     "ko": "연세대학교",
+     "tr": "延世大学校",
+     "box_px_orig": [
+      1059.0,
+      374.5,
+      55.0,
+      12.0
+     ],
+     "font_px": 26.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_031",
+     "ko": "상태",
+     "tr": "状態",
+     "box_px_orig": [
+      1420.5,
+      226.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_032",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      1422.0,
+      270.5,
+      18.5,
+      10.0
+     ],
+     "font_px": 19.4,
+     "scale": 0.878,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_033",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      1422.0,
+      323.5,
+      18.5,
+      10.0
+     ],
+     "font_px": 19.4,
+     "scale": 0.878,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_034",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      1416.5,
+      373.5,
+      27.5,
+      18.0
+     ],
+     "font_px": 29,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_035",
+     "ko": "생성일",
+     "tr": "作成日",
+     "box_px_orig": [
+      1998.0,
+      226.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "메뉴",
+     "tr": "メニュー",
+     "box_px_orig": [
+      1.0,
+      64.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 9.5,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "워크스페이스 선택",
+     "tr": "ワークスペースを選択",
+     "box_px_orig": [
+      188.0,
+      1.0,
+      90.0,
+      11.0
+     ],
+     "font_px": 18.9,
+     "scale": 0.778,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "신규 사용자 등록",
+     "tr": "新規ユーザー登録",
+     "box_px_orig": [
+      2430.0,
+      98.5,
+      83.0,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "플랫폼 대시보드",
+     "tr": "プラットフォームダッシュボード",
+     "box_px_orig": [
+      45.0,
+      141.0,
+      93.5,
+      13.5
+     ],
+     "font_px": 24.8,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_025",
+     "ko": "이승준",
+     "tr": "イ・スンジュン",
+     "box_px_orig": [
+      837.0,
+      321.0,
+      38.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_034",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      1416.5,
+      373.5,
+      27.5,
+      18.0
+     ],
+     "font_px": 29,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     560,
     94.5
@@ -43,7 +792,7 @@
    "effective_dpi": 869.8,
    "meets_300dpi_pixels": true
   },
-  {
+  "s1_2_1.png": {
    "name": "s1_2_1.png",
    "source_xref_image": "p04_1.png",
    "source_px": [
@@ -65,7 +814,32 @@
     482
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 1,
+   "segments": [
+    {
+     "id": "s1_2_1_037",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      37.0,
+      39.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    }
+   ],
+   "flags": [],
    "placed_css_px": [
     560,
     58.4
@@ -81,7 +855,7 @@
    "effective_dpi": 791.3,
    "meets_300dpi_pixels": true
   },
-  {
+  "s1_3_1.png": {
    "name": "s1_3_1.png",
    "source_xref_image": "p05_1.png",
    "source_px": [
@@ -103,7 +877,127 @@
     506
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 6,
+   "segments": [
+    {
+     "id": "s1_3_1_038",
+     "ko": "소속 기관",
+     "tr": "所属機関",
+     "box_px_orig": [
+      904.5,
+      18.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_3_1_039",
+     "ko": "이름",
+     "tr": "氏名",
+     "box_px_orig": [
+      673.5,
+      18.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_3_1_040",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      32.0,
+      18.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_3_1_000",
+     "ko": "상세 보기",
+     "tr": "詳細表示",
+     "box_px_orig": [
+      2055.5,
+      146.0,
+      58.5,
+      20.5
+     ],
+     "font_px": 34.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_3_1_001",
+     "ko": "비밀번호 초기화",
+     "tr": "パスワード初期化",
+     "box_px_orig": [
+      2068.0,
+      219.5,
+      102.0,
+      13.5
+     ],
+     "font_px": 26.9,
+     "scale": 0.859,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_3_1_002",
+     "ko": "비활성화",
+     "tr": "無効化",
+     "box_px_orig": [
+      2090.5,
+      192.0,
+      43.5,
+      11.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [],
    "placed_css_px": [
     560,
     62.7
@@ -119,7 +1013,7 @@
    "effective_dpi": 778.6,
    "meets_300dpi_pixels": true
   },
-  {
+  "s1_3_2.png": {
    "name": "s1_3_2.png",
    "source_xref_image": "p05_2.png",
    "source_px": [
@@ -141,7 +1035,90 @@
     316
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 3,
+   "segments": [
+    {
+     "id": "s1_3_2_041",
+     "ko": "상세 보기",
+     "tr": "詳細表示",
+     "box_px_orig": [
+      430.5,
+      57.0,
+      45.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_3_2_042",
+     "ko": "비활성화",
+     "tr": "無効化",
+     "box_px_orig": [
+      452.5,
+      94.0,
+      43.5,
+      11.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_3_2_043",
+     "ko": "비밀번호 초기화",
+     "tr": "パスワード初期化",
+     "box_px_orig": [
+      452.5,
+      122.0,
+      79.5,
+      11.5
+     ],
+     "font_px": 21.1,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_3_2_043",
+     "ko": "비밀번호 초기화",
+     "tr": "パスワード初期化",
+     "box_px_orig": [
+      452.5,
+      122.0,
+      79.5,
+      11.5
+     ],
+     "font_px": 21.1,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     517.3,
     129.1
@@ -157,7 +1134,7 @@
    "effective_dpi": 235.7,
    "meets_300dpi_pixels": false
   },
-  {
+  "s2_1_1.png": {
    "name": "s2_1_1.png",
    "source_xref_image": "p06_1.png",
    "source_px": [
@@ -179,7 +1156,280 @@
     1168
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 12,
+   "segments": [
+    {
+     "id": "s2_1_1_044",
+     "ko": "신규 사용자 등록",
+     "tr": "新規ユーザー登録",
+     "box_px_orig": [
+      91.5,
+      50.5,
+      123.5,
+      17.5
+     ],
+     "font_px": 37.4,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_045",
+     "ko": "등록 후 입력한 이메일로 초대 링크가 발송됩니다. 사용자는 비밀번호 설정 후 로 그인할 수 있습니다.",
+     "tr": "登録後、入力したメールアドレスに招待リンクが送信されます。ユーザーはパスワードを設定した後、ログインできます。",
+     "box_px_orig": [
+      91.5,
+      80.0,
+      452.5,
+      13.0
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_047",
+     "ko": "이메일 *",
+     "tr": "メール *",
+     "box_px_orig": [
+      91.5,
+      138.0,
+      54.0,
+      13.5
+     ],
+     "font_px": 32.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_048",
+     "ko": "이름 *",
+     "tr": "氏名 *",
+     "box_px_orig": [
+      91.5,
+      210.0,
+      34.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_049",
+     "ko": "홍길동",
+     "tr": "ホン・ギルドン",
+     "box_px_orig": [
+      104.5,
+      240.0,
+      37.5,
+      13.0
+     ],
+     "font_px": 28.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_050",
+     "ko": "소속 기관 *",
+     "tr": "所属機関 *",
+     "box_px_orig": [
+      91.5,
+      282.0,
+      63.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_051",
+     "ko": "선택하세요",
+     "tr": "選択してください",
+     "box_px_orig": [
+      108.5,
+      312.0,
+      63.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_052",
+     "ko": "휴대전화",
+     "tr": "携帯電話",
+     "box_px_orig": [
+      91.5,
+      354.0,
+      55.0,
+      21.0
+     ],
+     "font_px": 29.2,
+     "scale": 0.861,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_053",
+     "ko": "직책 / 부서",
+     "tr": "役職 / 部署",
+     "box_px_orig": [
+      91.5,
+      426.0,
+      68.0,
+      20.5
+     ],
+     "font_px": 29,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_054",
+     "ko": "연구원",
+     "tr": "研究員",
+     "box_px_orig": [
+      104.5,
+      456.0,
+      37.0,
+      13.0
+     ],
+     "font_px": 28.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_055",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      404.5,
+      506.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.513,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_056",
+     "ko": "등록 + 초대 발송",
+     "tr": "登録 + 招待送信",
+     "box_px_orig": [
+      459.0,
+      506.5,
+      82.0,
+      12.0
+     ],
+     "font_px": 24.2,
+     "scale": 0.92,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_1_1_053",
+     "ko": "직책 / 부서",
+     "tr": "役職 / 部署",
+     "box_px_orig": [
+      91.5,
+      426.0,
+      68.0,
+      20.5
+     ],
+     "font_px": 29,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_055",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      404.5,
+      506.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 13.5,
+     "scale": 0.513,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ],
    "placed_css_px": [
     303.0,
     276.5
@@ -195,7 +1445,7 @@
    "effective_dpi": 406.1,
    "meets_300dpi_pixels": true
   },
-  {
+  "s2_2_1.png": {
    "name": "s2_2_1.png",
    "source_xref_image": "p07_1.png",
    "source_px": [
@@ -217,7 +1467,527 @@
     720
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 25,
+   "segments": [
+    {
+     "id": "s2_2_1_057",
+     "ko": "사용자 관리",
+     "tr": "ユーザー管理",
+     "box_px_orig": [
+      17.0,
+      9.5,
+      95.5,
+      20.0
+     ],
+     "font_px": 42.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_058",
+     "ko": "플랫폼 사용자 조회·상태 관리·초대",
+     "tr": "プラットフォームユーザー照会·状態管理·招待",
+     "box_px_orig": [
+      17.0,
+      37.0,
+      195.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_059",
+     "ko": "이메일·이름·기관 검색",
+     "tr": "メール·氏名·機関で検索",
+     "box_px_orig": [
+      67.5,
+      94.0,
+      123.5,
+      13.0
+     ],
+     "font_px": 25,
+     "scale": 0.88,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_060",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      30.0,
+      159.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_061",
+     "ko": "이름",
+     "tr": "氏名",
+     "box_px_orig": [
+      671.5,
+      159.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_062",
+     "ko": "소속 기관",
+     "tr": "所属機関",
+     "box_px_orig": [
+      902.5,
+      159.0,
+      47.0,
+      11.0
+     ],
+     "font_px": 24.5,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_063",
+     "ko": "통합병원 제2기관",
+     "tr": "統合病院第2機関",
+     "box_px_orig": [
+      902.5,
+      201.5,
+      87.5,
+      12.0
+     ],
+     "font_px": 24.5,
+     "scale": 0.942,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_064",
+     "ko": "국가임상시험지원재단 (KoNECT)",
+     "tr": "国家臨床試験支援財団 (KoNECT)",
+     "box_px_orig": [
+      902.5,
+      254.5,
+      165.0,
+      12.5
+     ],
+     "font_px": 23.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_065",
+     "ko": "국가임상시험지원재단 (KoNECT)",
+     "tr": "国家臨床試験支援財団 (KoNECT)",
+     "box_px_orig": [
+      902.5,
+      307.5,
+      165.0,
+      12.5
+     ],
+     "font_px": 23.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_066",
+     "ko": "최근 로그인",
+     "tr": "最終ログイン",
+     "box_px_orig": [
+      1583.0,
+      159.0,
+      57.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_067",
+     "ko": "전체",
+     "tr": "全体",
+     "box_px_orig": [
+      1946.5,
+      94.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_068",
+     "ko": "생성일",
+     "tr": "作成日",
+     "box_px_orig": [
+      1903.0,
+      159.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 24.8,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_069",
+     "ko": "신규 사용자 등록",
+     "tr": "新規ユーザー登録",
+     "box_px_orig": [
+      2179.0,
+      31.5,
+      83.0,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_070",
+     "ko": "전체 기관",
+     "tr": "全機関",
+     "box_px_orig": [
+      2086.5,
+      94.0,
+      54.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_071",
+     "ko": "상세 보기",
+     "tr": "詳細表示",
+     "box_px_orig": [
+      2066.5,
+      243.0,
+      45.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_072",
+     "ko": "초대 메일 재발송",
+     "tr": "招待メールの再送信",
+     "box_px_orig": [
+      2088.5,
+      271.0,
+      82.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_073",
+     "ko": "비활성화",
+     "tr": "無効化",
+     "box_px_orig": [
+      2088.5,
+      308.0,
+      43.5,
+      11.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_074",
+     "ko": "비밀번호 초기화",
+     "tr": "パスワード初期化",
+     "box_px_orig": [
+      2088.5,
+      336.0,
+      79.5,
+      11.5
+     ],
+     "font_px": 21.1,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "x_s2_2_1_003",
+     "ko": "초대 대기",
+     "tr": "招待待ち",
+     "box_px_orig": [
+      1443.5,
+      199.5,
+      44.0,
+      13.5
+     ],
+     "font_px": 23.3,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_2_1_004",
+     "ko": "초대 대기",
+     "tr": "招待待ち",
+     "box_px_orig": [
+      1443.5,
+      203.0,
+      44.0,
+      15.5
+     ],
+     "font_px": 23.3,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_2_1_005",
+     "ko": "초대 대기",
+     "tr": "招待待ち",
+     "box_px_orig": [
+      1445.0,
+      203.0,
+      42.5,
+      15.5
+     ],
+     "font_px": 22.6,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_2_1_006",
+     "ko": "상태",
+     "tr": "状態",
+     "box_px_orig": [
+      1457.5,
+      159.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_2_1_007",
+     "ko": "상태",
+     "tr": "状態",
+     "box_px_orig": [
+      1457.5,
+      159.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_2_1_008",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      1453.5,
+      252.5,
+      25.5,
+      14.0
+     ],
+     "font_px": 26.8,
+     "scale": 0.879,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_2_1_009",
+     "ko": "활성",
+     "tr": "有効",
+     "box_px_orig": [
+      1459.0,
+      309.5,
+      18.0,
+      10.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.88,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_1_069",
+     "ko": "신규 사용자 등록",
+     "tr": "新規ユーザー登録",
+     "box_px_orig": [
+      2179.0,
+      31.5,
+      83.0,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_074",
+     "ko": "비밀번호 초기화",
+     "tr": "パスワード初期化",
+     "box_px_orig": [
+      2088.5,
+      336.0,
+      79.5,
+      11.5
+     ],
+     "font_px": 21.1,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     560,
     89.0
@@ -233,7 +2003,7 @@
    "effective_dpi": 776.9,
    "meets_300dpi_pixels": true
   },
-  {
+  "s2_2_2.png": {
    "name": "s2_2_2.png",
    "source_xref_image": "p07_2.png",
    "source_px": [
@@ -255,7 +2025,109 @@
     362
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 4,
+   "segments": [
+    {
+     "id": "s2_2_2_075",
+     "ko": "상세 보기",
+     "tr": "詳細表示",
+     "box_px_orig": [
+      431.5,
+      61.0,
+      45.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_2_076",
+     "ko": "초대 메일 재발송",
+     "tr": "招待メールの再送信",
+     "box_px_orig": [
+      453.5,
+      89.0,
+      82.5,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_2_077",
+     "ko": "비활성화",
+     "tr": "無効化",
+     "box_px_orig": [
+      453.5,
+      126.0,
+      43.5,
+      11.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_2_078",
+     "ko": "비밀번호 초기화",
+     "tr": "パスワード初期化",
+     "box_px_orig": [
+      453.5,
+      154.0,
+      79.5,
+      11.5
+     ],
+     "font_px": 21.1,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_2_078",
+     "ko": "비밀번호 초기화",
+     "tr": "パスワード初期化",
+     "box_px_orig": [
+      453.5,
+      154.0,
+      79.5,
+      11.5
+     ],
+     "font_px": 21.1,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     517.3,
     148.3
@@ -271,7 +2143,7 @@
    "effective_dpi": 235.0,
    "meets_300dpi_pixels": false
   },
-  {
+  "s3_1_1.png": {
    "name": "s3_1_1.png",
    "source_xref_image": "p08_1.png",
    "source_px": [
@@ -293,7 +2165,168 @@
     590
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 7,
+   "segments": [
+    {
+     "id": "s3_1_1_079",
+     "ko": "사용자 비활성화",
+     "tr": "ユーザーの無効化",
+     "box_px_orig": [
+      83.0,
+      48.5,
+      120.0,
+      17.5
+     ],
+     "font_px": 37,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_080",
+     "ko": "홍길동 (test@naver.com) 에 대한 작업을 수행합니다.",
+     "tr": "ホン・ギルドン (test@naver.com) に対する作業を実行します。",
+     "box_px_orig": [
+      83.0,
+      78.0,
+      311.5,
+      14.0
+     ],
+     "font_px": 27.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_081",
+     "ko": "사유 *",
+     "tr": "理由 *",
+     "box_px_orig": [
+      83.5,
+      114.0,
+      42.0,
+      19.5
+     ],
+     "font_px": 31.8,
+     "scale": 0.859,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_082",
+     "ko": "퇴사",
+     "tr": "退職",
+     "box_px_orig": [
+      96.5,
+      140.5,
+      26.0,
+      19.0
+     ],
+     "font_px": 32.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_083",
+     "ko": "종속 ProjectRole 이 자동 해제됩니다 (Audit Trail 기록).",
+     "tr": "従属する ProjectRole は自動で解除されます (Audit Trail に記録)。",
+     "box_px_orig": [
+      83.5,
+      175.0,
+      276.5,
+      12.0
+     ],
+     "font_px": 23.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_084",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      456.0,
+      215.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 15.5,
+     "scale": 0.63,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 7
+    },
+    {
+     "id": "s3_1_1_085",
+     "ko": "실행",
+     "tr": "実行",
+     "box_px_orig": [
+      511.0,
+      214.5,
+      21.5,
+      12.0
+     ],
+     "font_px": 22.6,
+     "scale": 0.879,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_1_1_084",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      456.0,
+      215.0,
+      21.5,
+      11.0
+     ],
+     "font_px": 15.5,
+     "scale": 0.63,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 7
+    }
+   ],
    "placed_css_px": [
     361.6,
     173.9
@@ -309,7 +2342,7 @@
    "effective_dpi": 326.5,
    "meets_300dpi_pixels": false
   },
-  {
+  "s3_2_1.png": {
    "name": "s3_2_1.png",
    "source_xref_image": "p09_1.png",
    "source_px": [
@@ -331,7 +2364,242 @@
     492
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": true,
+   "replaced": 10,
+   "segments": [
+    {
+     "id": "s3_2_1_086",
+     "ko": "사용자 관리",
+     "tr": "ユーザー管理",
+     "box_px_orig": [
+      20.0,
+      18.5,
+      103.0,
+      30.5
+     ],
+     "font_px": 36,
+     "scale": 0.741,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_087",
+     "ko": "플랫폼 사용자 조회·상태 관리·초대",
+     "tr": "プラットフォームユーザー照会·状態管理·招待",
+     "box_px_orig": [
+      20.0,
+      46.0,
+      195.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_088",
+     "ko": "이메일·이름·기관 검색",
+     "tr": "メール·氏名·機関で検索",
+     "box_px_orig": [
+      70.5,
+      103.0,
+      123.5,
+      13.0
+     ],
+     "font_px": 25,
+     "scale": 0.88,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_089",
+     "ko": "이메일",
+     "tr": "メール",
+     "box_px_orig": [
+      33.0,
+      168.0,
+      32.5,
+      11.0
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_090",
+     "ko": "이름",
+     "tr": "氏名",
+     "box_px_orig": [
+      674.5,
+      168.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_091",
+     "ko": "홍길동",
+     "tr": "ホン・ギルドン",
+     "box_px_orig": [
+      674.5,
+      210.0,
+      38.5,
+      13.5
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_092",
+     "ko": "최근 로그인",
+     "tr": "最終ログイン",
+     "box_px_orig": [
+      1586.0,
+      168.0,
+      57.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_093",
+     "ko": "전체",
+     "tr": "全体",
+     "box_px_orig": [
+      1949.5,
+      103.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_094",
+     "ko": "전체 기관",
+     "tr": "全機関",
+     "box_px_orig": [
+      2089.5,
+      103.0,
+      54.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_095",
+     "ko": "신규 사용자 등록",
+     "tr": "新規ユーザー登録",
+     "box_px_orig": [
+      2182.0,
+      40.5,
+      83.5,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_1_086",
+     "ko": "사용자 관리",
+     "tr": "ユーザー管理",
+     "box_px_orig": [
+      20.0,
+      18.5,
+      103.0,
+      30.5
+     ],
+     "font_px": 36,
+     "scale": 0.741,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_095",
+     "ko": "신규 사용자 등록",
+     "tr": "新規ユーザー登録",
+     "box_px_orig": [
+      2182.0,
+      40.5,
+      83.5,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     560,
     60.5
@@ -347,5 +2615,5 @@
    "effective_dpi": 783.4,
    "meets_300dpi_pixels": true
   }
- ]
+ }
 }

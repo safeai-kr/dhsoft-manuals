@@ -226,7 +226,7 @@
   let firstToc = true;
   flow(tocBlocks, () => {
     const p = newPage('toc');
-    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><span class="brand">SMART EDC</span></div><div class="area"></div>`;
+    p.innerHTML = `<div class="toc-h"><h1>${src.querySelector('section.toc').dataset.title}</h1><img class="brand" src="img/smart-edc-logo-gray.png" alt="SMART EDC"></div><div class="area"></div>`;
     if (firstToc) { p.id = 'toc'; pageMap.toc = +p.dataset.pno; firstToc = false; }
     return p.querySelector('.area');
   });

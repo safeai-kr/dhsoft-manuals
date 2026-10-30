@@ -1,77 +1,608 @@
 [
-{"ko": "사용자 관리", "tr": "ユーザー管理", "type": "menu", "note": ""},
-{"ko": "사용자 목록", "tr": "ユーザー一覧", "type": "path", "note": ""},
-{"ko": "사용자", "tr": "ユーザー", "type": "term", "note": ""},
-{"ko": "사용자 등록", "tr": "ユーザー登録", "type": "path", "note": ""},
-{"ko": "신규 사용자 등록", "tr": "新規ユーザー登録", "type": "button", "note": ""},
-{"ko": "신규 등록", "tr": "新規登録", "type": "term", "note": ""},
-{"ko": "플랫폼 메뉴", "tr": "プラットフォームメニュー", "type": "menu", "note": ""},
-{"ko": "플랫폼 사용자", "tr": "プラットフォームユーザー", "type": "term", "note": ""},
-{"ko": "워크스페이스", "tr": "ワークスペース", "type": "term", "note": ""},
-{"ko": "워크스페이스 관리자", "tr": "ワークスペース管理者", "type": "term", "note": ""},
-{"ko": "시스템 관리자", "tr": "システム管理者", "type": "term", "note": ""},
-{"ko": "연구책임자", "tr": "研究責任者", "type": "term", "note": "PI 는 CRF 볼륨과 같이 Latin 유지 원칙이라 본문에는 쓰지 않음"},
-{"ko": "감사자", "tr": "監査者", "type": "term", "note": ""},
-{"ko": "역할", "tr": "ロール", "type": "term", "note": ""},
-{"ko": "역할별 대시보드", "tr": "ロール別ダッシュボード", "type": "menu", "note": ""},
-{"ko": "거버넌스 위젯", "tr": "ガバナンスウィジェット", "type": "label", "note": ""},
-{"ko": "권한 관리", "tr": "権限管理", "type": "menu", "note": ""},
-{"ko": "기관", "tr": "機関", "type": "term", "note": ""},
-{"ko": "기관 관리", "tr": "機関管理", "type": "menu", "note": ""},
-{"ko": "기관명", "tr": "機関名", "type": "label", "note": ""},
-{"ko": "소속 기관", "tr": "所属機関", "type": "label", "note": ""},
-{"ko": "기관 필터", "tr": "機関フィルター", "type": "label", "note": ""},
-{"ko": "목록", "tr": "一覧", "type": "term", "note": ""},
-{"ko": "목록 표", "tr": "一覧表", "type": "term", "note": ""},
-{"ko": "상태", "tr": "状態", "type": "label", "note": ""},
-{"ko": "상태 필터", "tr": "状態フィルター", "type": "label", "note": ""},
-{"ko": "배지", "tr": "バッジ", "type": "term", "note": ""},
-{"ko": "필터", "tr": "フィルター", "type": "label", "note": ""},
-{"ko": "검색", "tr": "検索", "type": "button", "note": ""},
-{"ko": "이름", "tr": "氏名", "type": "label", "note": "UI 열 이름·필드 라벨. 일본 실무 표기 확인 필요"},
-{"ko": "최근 로그인", "tr": "最終ログイン", "type": "label", "note": ""},
-{"ko": "생성일", "tr": "作成日", "type": "label", "note": ""},
-{"ko": "휴대전화", "tr": "携帯電話", "type": "label", "note": ""},
-{"ko": "직책 / 부서", "tr": "役職 / 部署", "type": "label", "note": ""},
-{"ko": "사유", "tr": "理由", "type": "label", "note": ""},
-{"ko": "초대 대기", "tr": "招待待ち", "type": "status", "note": ""},
-{"ko": "비활성", "tr": "無効", "type": "status", "note": ""},
-{"ko": "잠금", "tr": "ロック", "type": "status", "note": ""},
-{"ko": "서명 잠금", "tr": "署名ロック", "type": "status", "note": ""},
-{"ko": "잠금 해제", "tr": "ロック解除", "type": "button", "note": ""},
-{"ko": "전자서명 잠금 해제", "tr": "電子署名ロック解除", "type": "button", "note": ""},
-{"ko": "활성화", "tr": "有効化", "type": "button", "note": ""},
-{"ko": "비활성화", "tr": "無効化", "type": "button", "note": ""},
-{"ko": "상세 보기", "tr": "詳細表示", "type": "button", "note": ""},
-{"ko": "상세 화면", "tr": "詳細画面", "type": "term", "note": ""},
-{"ko": "비밀번호", "tr": "パスワード", "type": "term", "note": ""},
-{"ko": "비밀번호 초기화", "tr": "パスワード初期化", "type": "button", "note": ""},
-{"ko": "임시 비밀번호", "tr": "仮パスワード", "type": "term", "note": ""},
-{"ko": "초대 메일", "tr": "招待メール", "type": "term", "note": ""},
-{"ko": "초대 메일 재발송", "tr": "招待メールの再送信", "type": "button", "note": ""},
-{"ko": "재발송 중…", "tr": "再送信中…", "type": "message", "note": ""},
-{"ko": "초대 링크", "tr": "招待リンク", "type": "term", "note": ""},
-{"ko": "등록 + 초대 발송", "tr": "登録 + 招待送信", "type": "button", "note": ""},
-{"ko": "등록", "tr": "登録", "type": "button", "note": ""},
-{"ko": "취소", "tr": "キャンセル", "type": "button", "note": ""},
-{"ko": "실행", "tr": "実行", "type": "button", "note": ""},
-{"ko": "닫기", "tr": "閉じる", "type": "button", "note": ""},
-{"ko": "확인 창", "tr": "確認ダイアログ", "type": "term", "note": ""},
-{"ko": "확인 창 없이 즉시 실행", "tr": "確認ダイアログなしで即時実行", "type": "message", "note": ""},
-{"ko": "행 액션 메뉴", "tr": "行アクションメニュー", "type": "menu", "note": ""},
-{"ko": "액션 메뉴", "tr": "アクションメニュー", "type": "menu", "note": ""},
-{"ko": "메뉴", "tr": "メニュー", "type": "term", "note": ""},
-{"ko": "항목", "tr": "項目", "type": "term", "note": ""},
-{"ko": "부제", "tr": "サブタイトル", "type": "term", "note": ""},
-{"ko": "정상", "tr": "正常", "type": "value", "note": ""},
-{"ko": "대상 사용자", "tr": "対象ユーザー", "type": "term", "note": ""},
-{"ko": "유효 기간", "tr": "有効期限", "type": "term", "note": ""},
-{"ko": "만료", "tr": "期限切れ", "type": "term", "note": ""},
-{"ko": "중복 오류", "tr": "重複エラー", "type": "message", "note": ""},
-{"ko": "로그인 실패", "tr": "ログイン失敗", "type": "message", "note": ""},
-{"ko": "로그인", "tr": "ログイン", "type": "term", "note": ""},
-{"ko": "계정", "tr": "アカウント", "type": "term", "note": ""},
-{"ko": "자기 자신 불가", "tr": "自分自身では不可", "type": "message", "note": ""},
-{"ko": "권한 부족 안내", "tr": "権限不足の案内", "type": "message", "note": ""},
-{"ko": "흐리게 표시", "tr": "薄く表示", "type": "term", "note": ""}
+ {
+  "ko": "사용자 관리",
+  "tr": "ユーザー管理",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "사용자 목록",
+  "tr": "ユーザー一覧",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "사용자",
+  "tr": "ユーザー",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "사용자 등록",
+  "tr": "ユーザー登録",
+  "type": "path",
+  "note": ""
+ },
+ {
+  "ko": "신규 사용자 등록",
+  "tr": "新規ユーザー登録",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "신규 등록",
+  "tr": "新規登録",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "플랫폼 메뉴",
+  "tr": "プラットフォームメニュー",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "플랫폼 사용자",
+  "tr": "プラットフォームユーザー",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스",
+  "tr": "ワークスペース",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 관리자",
+  "tr": "ワークスペース管理者",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "시스템 관리자",
+  "tr": "システム管理者",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "연구책임자",
+  "tr": "研究責任者",
+  "type": "term",
+  "note": "PI 는 CRF 볼륨과 같이 Latin 유지 원칙이라 본문에는 쓰지 않음"
+ },
+ {
+  "ko": "감사자",
+  "tr": "監査者",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "역할",
+  "tr": "ロール",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "역할별 대시보드",
+  "tr": "ロール別ダッシュボード",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "거버넌스 위젯",
+  "tr": "ガバナンスウィジェット",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "권한 관리",
+  "tr": "権限管理",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "기관",
+  "tr": "機関",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "기관 관리",
+  "tr": "機関管理",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "기관명",
+  "tr": "機関名",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "소속 기관",
+  "tr": "所属機関",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "기관 필터",
+  "tr": "機関フィルター",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "목록",
+  "tr": "一覧",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "목록 표",
+  "tr": "一覧表",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "상태",
+  "tr": "状態",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "상태 필터",
+  "tr": "状態フィルター",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "배지",
+  "tr": "バッジ",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "필터",
+  "tr": "フィルター",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "검색",
+  "tr": "検索",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "이름",
+  "tr": "氏名",
+  "type": "label",
+  "note": "UI 열 이름·필드 라벨. 일본 실무 표기 확인 필요"
+ },
+ {
+  "ko": "최근 로그인",
+  "tr": "最終ログイン",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "생성일",
+  "tr": "作成日",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "휴대전화",
+  "tr": "携帯電話",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "직책 / 부서",
+  "tr": "役職 / 部署",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "사유",
+  "tr": "理由",
+  "type": "label",
+  "note": ""
+ },
+ {
+  "ko": "초대 대기",
+  "tr": "招待待ち",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "비활성",
+  "tr": "無効",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "잠금",
+  "tr": "ロック",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "서명 잠금",
+  "tr": "署名ロック",
+  "type": "status",
+  "note": ""
+ },
+ {
+  "ko": "잠금 해제",
+  "tr": "ロック解除",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "전자서명 잠금 해제",
+  "tr": "電子署名ロック解除",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "활성화",
+  "tr": "有効化",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "비활성화",
+  "tr": "無効化",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "상세 보기",
+  "tr": "詳細表示",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "상세 화면",
+  "tr": "詳細画面",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "비밀번호",
+  "tr": "パスワード",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "비밀번호 초기화",
+  "tr": "パスワード初期化",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "임시 비밀번호",
+  "tr": "仮パスワード",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "초대 메일",
+  "tr": "招待メール",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "초대 메일 재발송",
+  "tr": "招待メールの再送信",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "재발송 중…",
+  "tr": "再送信中…",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "초대 링크",
+  "tr": "招待リンク",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "등록 + 초대 발송",
+  "tr": "登録 + 招待送信",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "등록",
+  "tr": "登録",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "취소",
+  "tr": "キャンセル",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "실행",
+  "tr": "実行",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "닫기",
+  "tr": "閉じる",
+  "type": "button",
+  "note": ""
+ },
+ {
+  "ko": "확인 창",
+  "tr": "確認ダイアログ",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "확인 창 없이 즉시 실행",
+  "tr": "確認ダイアログなしで即時実行",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "행 액션 메뉴",
+  "tr": "行アクションメニュー",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "액션 메뉴",
+  "tr": "アクションメニュー",
+  "type": "menu",
+  "note": ""
+ },
+ {
+  "ko": "메뉴",
+  "tr": "メニュー",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "항목",
+  "tr": "項目",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "부제",
+  "tr": "サブタイトル",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "정상",
+  "tr": "正常",
+  "type": "value",
+  "note": ""
+ },
+ {
+  "ko": "대상 사용자",
+  "tr": "対象ユーザー",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "유효 기간",
+  "tr": "有効期限",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "만료",
+  "tr": "期限切れ",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "중복 오류",
+  "tr": "重複エラー",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "로그인 실패",
+  "tr": "ログイン失敗",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "로그인",
+  "tr": "ログイン",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "계정",
+  "tr": "アカウント",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "자기 자신 불가",
+  "tr": "自分自身では不可",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "권한 부족 안내",
+  "tr": "権限不足の案内",
+  "type": "message",
+  "note": ""
+ },
+ {
+  "ko": "흐리게 표시",
+  "tr": "薄く表示",
+  "type": "term",
+  "note": ""
+ },
+ {
+  "ko": "워크스페이스 선택",
+  "tr": "ワークスペースを選択",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "프로젝트 선택",
+  "tr": "プロジェクトを選択",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "플랫폼 사용자 조회·상태 관리·초대",
+  "tr": "プラットフォームユーザー照会·状態管理·招待",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "이메일·이름·기관 검색",
+  "tr": "メール·氏名·機関で検索",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "이메일",
+  "tr": "メール",
+  "type": "field",
+  "note": "image"
+ },
+ {
+  "ko": "내 메뉴",
+  "tr": "マイメニュー",
+  "type": "menu",
+  "note": "image"
+ },
+ {
+  "ko": "활성",
+  "tr": "有効",
+  "type": "status",
+  "note": "image"
+ },
+ {
+  "ko": "연세대학교",
+  "tr": "延世大学校",
+  "type": "value",
+  "note": "image"
+ },
+ {
+  "ko": "플랫폼 대시보드",
+  "tr": "プラットフォームダッシュボード",
+  "type": "menu",
+  "note": "image"
+ },
+ {
+  "ko": "워크스페이스 관리",
+  "tr": "ワークスペース管理",
+  "type": "menu",
+  "note": "image"
+ },
+ {
+  "ko": "시스템 설정",
+  "tr": "システム設定",
+  "type": "menu",
+  "note": "image"
+ },
+ {
+  "ko": "코드 관리",
+  "tr": "コード管理",
+  "type": "menu",
+  "note": "image"
+ },
+ {
+  "ko": "접속 로그",
+  "tr": "アクセスログ",
+  "type": "menu",
+  "note": "image"
+ },
+ {
+  "ko": "운영 이력",
+  "tr": "運用履歴",
+  "type": "menu",
+  "note": "image"
+ },
+ {
+  "ko": "신동환",
+  "tr": "シン・ドンファン",
+  "type": "value",
+  "note": "image"
+ },
+ {
+  "ko": "이승준",
+  "tr": "イ・スンジュン",
+  "type": "value",
+  "note": "image"
+ },
+ {
+  "ko": "황민승",
+  "tr": "ファン・ミンスン",
+  "type": "value",
+  "note": "image"
+ },
+ {
+  "ko": "홍길동",
+  "tr": "ホン・ギルドン",
+  "type": "value",
+  "note": "image"
+ },
+ {
+  "ko": "선택하세요",
+  "tr": "選択してください",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "연구원",
+  "tr": "研究員",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "통합병원 제2기관",
+  "tr": "統合病院第2機関",
+  "type": "value",
+  "note": "image"
+ },
+ {
+  "ko": "국가임상시험지원재단 (KoNECT)",
+  "tr": "国家臨床試験支援財団 (KoNECT)",
+  "type": "value",
+  "note": "image"
+ },
+ {
+  "ko": "전체",
+  "tr": "全体",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "전체 기관",
+  "tr": "全機関",
+  "type": "label",
+  "note": "image"
+ },
+ {
+  "ko": "사용자 비활성화",
+  "tr": "ユーザーの無効化",
+  "type": "path",
+  "note": "image"
+ },
+ {
+  "ko": "퇴사",
+  "tr": "退職",
+  "type": "label",
+  "note": "image"
+ }
 ]

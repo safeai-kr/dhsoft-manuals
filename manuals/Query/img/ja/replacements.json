@@ -1,0 +1,4003 @@
+{
+ "lang": "ja",
+ "method": "한국어 글자 자리를 바탕색으로 덮고 번역어를 Pretendard(일본어 Pretendard JP)로 다시 그림. 생성형 AI 사용 안 함",
+ "files": {
+  "s1_1_1.png": {
+   "replaced": 14,
+   "segments": [
+    {
+     "id": "s1_1_1_000",
+     "ko": "Query 목록",
+     "tr": "Query一覧",
+     "box_px_orig": [
+      21.5,
+      16.0,
+      58.5,
+      12.5
+     ],
+     "font_px": 24.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "breadcrumb",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "Query 목록",
+     "tr": "Query一覧",
+     "box_px_orig": [
+      22.0,
+      50.0,
+      99.0,
+      20.5
+     ],
+     "font_px": 39.7,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_002",
+     "ko": "본 프로젝트의 Data Query 를 조회하고 답변·종료·재질의를 처리합니다.",
+     "tr": "本プロジェクトのData Queryを照会し、回答・終了・再照会を処理します。",
+     "box_px_orig": [
+      22.0,
+      77.0,
+      410.0,
+      14.5
+     ],
+     "font_px": 25.1,
+     "scale": 0.903,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_003",
+     "ko": "상태",
+     "tr": "状態",
+     "box_px_orig": [
+      35.0,
+      226.5,
+      18.5,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_004",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      52.5,
+      252.0,
+      21.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_005",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      428.0,
+      251.5,
+      21.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_006",
+     "ko": "대상",
+     "tr": "対象",
+     "box_px_orig": [
+      30.5,
+      315.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 27.2,
+     "scale": 0.922,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_007",
+     "ko": "입력값 오타",
+     "tr": "入力値の誤字",
+     "box_px_orig": [
+      30.0,
+      354.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_008",
+     "ko": "지연 Query (>30일 OPEN)",
+     "tr": "期限超過Query (>30日 OPEN)",
+     "box_px_orig": [
+      1175.0,
+      126.0,
+      125.0,
+      11.0
+     ],
+     "font_px": 21.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_009",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      804.0,
+      252.0,
+      21.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_010",
+     "ko": "생성 경로",
+     "tr": "作成経路",
+     "box_px_orig": [
+      1162.0,
+      226.5,
+      39.0,
+      10.0
+     ],
+     "font_px": 20.6,
+     "scale": 0.941,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_011",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      1179.5,
+      252.0,
+      21.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_1_1_012",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      971.0,
+      360.0,
+      50.0,
+      19.5
+     ],
+     "font_px": 15.2,
+     "scale": 0.521,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1251.5,
+      362.0,
+      23.5,
+      13.5
+     ],
+     "font_px": 25,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_1_1_012",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      971.0,
+      360.0,
+      50.0,
+      19.5
+     ],
+     "font_px": 15.2,
+     "scale": 0.521,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1251.5,
+      362.0,
+      23.5,
+      13.5
+     ],
+     "font_px": 25,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s1_2_1.png": {
+   "replaced": 18,
+   "segments": [
+    {
+     "id": "s1_2_1_014",
+     "ko": "지연 Query (>30일 OPEN)",
+     "tr": "期限超過Query (>30日 OPEN)",
+     "box_px_orig": [
+      19.0,
+      96.0,
+      125.0,
+      11.0
+     ],
+     "font_px": 21.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_015",
+     "ko": "생성 경로",
+     "tr": "作成経路",
+     "box_px_orig": [
+      6.0,
+      196.0,
+      41.0,
+      17.5
+     ],
+     "font_px": 21.8,
+     "scale": 0.92,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_016",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      23.5,
+      222.0,
+      21.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_017",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      101.0,
+      335.5,
+      18.0,
+      10.0
+     ],
+     "font_px": 22.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_018",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      96.5,
+      384.5,
+      22.5,
+      19.0
+     ],
+     "font_px": 23.9,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_019",
+     "ko": "검색",
+     "tr": "検索",
+     "box_px_orig": [
+      382.0,
+      196.0,
+      22.5,
+      17.5
+     ],
+     "font_px": 23.7,
+     "scale": 0.798,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_020",
+     "ko": "메시지·필드·담당",
+     "tr": "メッセージ·フィールド·担当",
+     "box_px_orig": [
+      382.0,
+      214.0,
+      111.0,
+      28.0
+     ],
+     "font_px": 36,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_021",
+     "ko": "상태",
+     "tr": "状態",
+     "box_px_orig": [
+      358.5,
+      285.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_022",
+     "ko": "답변됨",
+     "tr": "回答済み",
+     "box_px_orig": [
+      360.0,
+      331.5,
+      38.0,
+      19.0
+     ],
+     "font_px": 19.9,
+     "scale": 0.599,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_023",
+     "ko": "미처리",
+     "tr": "未処理",
+     "box_px_orig": [
+      362.0,
+      384.5,
+      42.5,
+      19.0
+     ],
+     "font_px": 29.8,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_024",
+     "ko": "표시 중",
+     "tr": "表示中",
+     "box_px_orig": [
+      589.0,
+      96.0,
+      32.5,
+      10.0
+     ],
+     "font_px": 22.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_025",
+     "ko": "담당",
+     "tr": "担当",
+     "box_px_orig": [
+      585.5,
+      285.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 26.7,
+     "scale": 0.899,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_026",
+     "ko": "필터 초기화",
+     "tr": "フィルター初期化",
+     "box_px_orig": [
+      770.5,
+      221.5,
+      58.5,
+      12.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_028",
+     "ko": "신규 Query",
+     "tr": "新規Query",
+     "box_px_orig": [
+      1067.0,
+      33.5,
+      59.0,
+      13.0
+     ],
+     "font_px": 25,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_029",
+     "ko": "경과(일)",
+     "tr": "経過(日)",
+     "box_px_orig": [
+      944.0,
+      285.0,
+      46.0,
+      14.0
+     ],
+     "font_px": 25.8,
+     "scale": 0.938,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_030",
+     "ko": "데이터 입력 화면",
+     "tr": "データ入力画面",
+     "box_px_orig": [
+      957.5,
+      374.0,
+      82.0,
+      11.5
+     ],
+     "font_px": 25.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_031",
+     "ko": "답변",
+     "tr": "回答",
+     "box_px_orig": [
+      957.5,
+      402.0,
+      20.5,
+      11.5
+     ],
+     "font_px": 25.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s1_2_1_032",
+     "ko": "종료",
+     "tr": "終了",
+     "box_px_orig": [
+      957.5,
+      430.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 26.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s1_2_1_018",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      96.5,
+      384.5,
+      22.5,
+      19.0
+     ],
+     "font_px": 23.9,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_019",
+     "ko": "검색",
+     "tr": "検索",
+     "box_px_orig": [
+      382.0,
+      196.0,
+      22.5,
+      17.5
+     ],
+     "font_px": 23.7,
+     "scale": 0.798,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_022",
+     "ko": "답변됨",
+     "tr": "回答済み",
+     "box_px_orig": [
+      360.0,
+      331.5,
+      38.0,
+      19.0
+     ],
+     "font_px": 19.9,
+     "scale": 0.599,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_2_1_023",
+     "ko": "미처리",
+     "tr": "未処理",
+     "box_px_orig": [
+      362.0,
+      384.5,
+      42.5,
+      19.0
+     ],
+     "font_px": 29.8,
+     "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_2_1_026",
+     "ko": "필터 초기화",
+     "tr": "フィルター初期化",
+     "box_px_orig": [
+      770.5,
+      221.5,
+      58.5,
+      12.0
+     ],
+     "font_px": 17.8,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s2_1_1.png": {
+   "replaced": 21,
+   "segments": [
+    {
+     "id": "s2_1_1_033",
+     "ko": "Manual Query 생성",
+     "tr": "Manual Query作成",
+     "box_px_orig": [
+      68.0,
+      33.5,
+      154.5,
+      18.5
+     ],
+     "font_px": 35.2,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_034",
+     "ko": "⓪ 대상 피험자 *",
+     "tr": "⓪ 対象被験者 *",
+     "box_px_orig": [
+      39.0,
+      82.0,
+      94.0,
+      13.5
+     ],
+     "font_px": 28.7,
+     "scale": 0.98,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_035",
+     "ko": "피험자 선택",
+     "tr": "被験者を選択",
+     "box_px_orig": [
+      52.5,
+      117.0,
+      57.0,
+      11.0
+     ],
+     "font_px": 24.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_036",
+     "ko": "① 대상 필드 *",
+     "tr": "① 対象フィールド *",
+     "box_px_orig": [
+      39.0,
+      166.0,
+      81.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_037",
+     "ko": "+ 대상 추가",
+     "tr": "+ 対象を追加",
+     "box_px_orig": [
+      419.5,
+      167.0,
+      68.5,
+      12.0
+     ],
+     "font_px": 24.3,
+     "scale": 0.838,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_038",
+     "ko": "먼저 대상 피험자를 선택하세요.",
+     "tr": "まず対象被験者を選択してください。",
+     "box_px_orig": [
+      193.5,
+      216.0,
+      153.5,
+      11.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_039",
+     "ko": "② Query 범위",
+     "tr": "② Query範囲",
+     "box_px_orig": [
+      39.0,
+      268.0,
+      84.5,
+      14.5
+     ],
+     "font_px": 28.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_040",
+     "ko": "대상을 고르면 범위가 정해집니다.",
+     "tr": "対象を選ぶと範囲が決まります。",
+     "box_px_orig": [
+      74.5,
+      303.0,
+      151.5,
+      10.0
+     ],
+     "font_px": 22.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_041",
+     "ko": "범위는 고른 대상의 분포로 서버가 정합니다. 위 표시는 미리보기이며 생성 결과가 정본입니다.",
+     "tr": "範囲は選んだ対象の分布からサーバーが決めます。上の表示はプレビューで、作成結果が正本です。",
+     "box_px_orig": [
+      39.5,
+      331.5,
+      380.5,
+      9.5
+     ],
+     "font_px": 20.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_042",
+     "ko": "③ Query 제목 *",
+     "tr": "③ Queryタイトル *",
+     "box_px_orig": [
+      39.0,
+      365.0,
+      95.0,
+      14.5
+     ],
+     "font_px": 28,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_043",
+     "ko": "예: 체중 단위 불일치 확인 요청",
+     "tr": "例: 体重の単位不一致の確認依頼",
+     "box_px_orig": [
+      52.5,
+      395.0,
+      174.5,
+      13.0
+     ],
+     "font_px": 28.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_044",
+     "ko": "내용 * (5자 이상)",
+     "tr": "内容 * (5文字以上)",
+     "box_px_orig": [
+      39.5,
+      441.0,
+      80.5,
+      13.5
+     ],
+     "font_px": 25.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_045",
+     "ko": "원자료와 입력값의 차이 또는 모순을 구체적으로 기술",
+     "tr": "原資料と入力値の差異または矛盾を具体的に記述",
+     "box_px_orig": [
+      52.5,
+      472.0,
+      303.5,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_046",
+     "ko": "MAJOR — 분석 영향 우려",
+     "tr": "MAJOR — 分析への影響の懸念",
+     "box_px_orig": [
+      57.0,
+      609.0,
+      151.0,
+      13.5
+     ],
+     "font_px": 22.2,
+     "scale": 0.76,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_047",
+     "ko": "⑤ 담당 (assignedTo) *",
+     "tr": "⑤ 担当 (assignedTo) *",
+     "box_px_orig": [
+      276.0,
+      579.0,
+      137.5,
+      14.5
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_048",
+     "ko": "담당자 userId 직접 입력",
+     "tr": "担当者のuserIdを直接入力",
+     "box_px_orig": [
+      290.5,
+      609.5,
+      137.5,
+      12.5
+     ],
+     "font_px": 27.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_049",
+     "ko": "이 기관에 배정된 활성 연구자가 없습니다. 기관 배정은 먼저 완료하세요.",
+     "tr": "この施設に割り当てられた有効な研究者がいません。先に施設の割り当てを完了してください。",
+     "box_px_orig": [
+      276.5,
+      640.5,
+      220.5,
+      9.5
+     ],
+     "font_px": 20.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_1_1_051",
+     "ko": "생성 시 자동 처리",
+     "tr": "作成時の自動処理",
+     "box_px_orig": [
+      76.0,
+      699.0,
+      90.0,
+      22.5
+     ],
+     "font_px": 23.9,
+     "scale": 0.839,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_052",
+     "ko": "Query 생성 즉시 담당자에게 알림 발송, DataInstance qualityStatus=QUERY_OPEN 반영, DataQueryLog에 CREATE 이력 append.",
+     "tr": "Query作成直後に担当者へ通知を送り、DataInstance qualityStatus=QUERY_OPEN を反映し、DataQueryLogにCREATE履歴を追加します。",
+     "box_px_orig": [
+      76.0,
+      717.0,
+      271.0,
+      19.0
+     ],
+     "font_px": 21.7,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_054",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      326.0,
+      787.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_1_1_055",
+     "ko": "Query 생성",
+     "tr": "Query作成",
+     "box_px_orig": [
+      416.5,
+      787.0,
+      67.5,
+      14.0
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_1_1_037",
+     "ko": "+ 대상 추가",
+     "tr": "+ 対象を追加",
+     "box_px_orig": [
+      419.5,
+      167.0,
+      68.5,
+      12.0
+     ],
+     "font_px": 24.3,
+     "scale": 0.838,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_038",
+     "ko": "먼저 대상 피험자를 선택하세요.",
+     "tr": "まず対象被験者を選択してください。",
+     "box_px_orig": [
+      193.5,
+      216.0,
+      153.5,
+      11.0
+     ],
+     "font_px": 18.8,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_046",
+     "ko": "MAJOR — 분석 영향 우려",
+     "tr": "MAJOR — 分析への影響の懸念",
+     "box_px_orig": [
+      57.0,
+      609.0,
+      151.0,
+      13.5
+     ],
+     "font_px": 22.2,
+     "scale": 0.76,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_051",
+     "ko": "생성 시 자동 처리",
+     "tr": "作成時の自動処理",
+     "box_px_orig": [
+      76.0,
+      699.0,
+      90.0,
+      22.5
+     ],
+     "font_px": 23.9,
+     "scale": 0.839,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_052",
+     "ko": "Query 생성 즉시 담당자에게 알림 발송, DataInstance qualityStatus=QUERY_OPEN 반영, DataQueryLog에 CREATE 이력 append.",
+     "tr": "Query作成直後に担当者へ通知を送り、DataInstance qualityStatus=QUERY_OPEN を反映し、DataQueryLogにCREATE履歴を追加します。",
+     "box_px_orig": [
+      76.0,
+      717.0,
+      271.0,
+      19.0
+     ],
+     "font_px": 21.7,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_054",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      326.0,
+      787.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s2_2_1.png": {
+   "replaced": 22,
+   "segments": [
+    {
+     "id": "s2_2_1_056",
+     "ko": "⓪ 대상 피험자 *",
+     "tr": "⓪ 対象被験者 *",
+     "box_px_orig": [
+      44.0,
+      23.0,
+      94.0,
+      13.5
+     ],
+     "font_px": 28.7,
+     "scale": 0.98,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_057",
+     "ko": "① 대상 필드 *",
+     "tr": "① 対象フィールド *",
+     "box_px_orig": [
+      44.0,
+      107.0,
+      81.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_058",
+     "ko": "+ 대상 추가",
+     "tr": "+ 対象を追加",
+     "box_px_orig": [
+      424.0,
+      108.0,
+      69.0,
+      11.5
+     ],
+     "font_px": 27.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_059",
+     "ko": "방문",
+     "tr": "来院",
+     "box_px_orig": [
+      57.5,
+      159.5,
+      18.0,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_060",
+     "ko": "필드",
+     "tr": "フィールド",
+     "box_px_orig": [
+      57.5,
+      223.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 9.7,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_061",
+     "ko": "활력징후",
+     "tr": "バイタルサイン",
+     "box_px_orig": [
+      296.5,
+      184.0,
+      51.0,
+      13.5
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_062",
+     "ko": "수축기혈압",
+     "tr": "収縮期血圧",
+     "box_px_orig": [
+      74.5,
+      248.0,
+      63.5,
+      13.5
+     ],
+     "font_px": 29.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_063",
+     "ko": "② Query 범위",
+     "tr": "② Query範囲",
+     "box_px_orig": [
+      44.0,
+      305.0,
+      84.5,
+      14.5
+     ],
+     "font_px": 28.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_064",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      79.0,
+      338.5,
+      62.0,
+      18.5
+     ],
+     "font_px": 18.8,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_065",
+     "ko": "대상이 1건입니다 — 예: 체중 단위 오류",
+     "tr": "対象は1件です — 例: 体重の単位エラー",
+     "box_px_orig": [
+      152.5,
+      342.0,
+      174.5,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_066",
+     "ko": "범위는 고른 대상의 분포로 서버가 정합니다. 위 표시는 미리보기이며 생성 결과가 정본입니다.",
+     "tr": "範囲は選んだ対象の分布からサーバーが決めます。上の表示はプレビューで、作成結果が正本です。",
+     "box_px_orig": [
+      44.5,
+      374.5,
+      380.5,
+      9.5
+     ],
+     "font_px": 20.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_067",
+     "ko": "③ Query 제목 *",
+     "tr": "③ Queryタイトル *",
+     "box_px_orig": [
+      44.0,
+      408.0,
+      101.0,
+      21.5
+     ],
+     "font_px": 23.7,
+     "scale": 0.72,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_068",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      57.5,
+      439.0,
+      134.0,
+      13.5
+     ],
+     "font_px": 29.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_069",
+     "ko": "내용 *",
+     "tr": "内容 *",
+     "box_px_orig": [
+      44.5,
+      484.0,
+      34.5,
+      13.5
+     ],
+     "font_px": 27.2,
+     "scale": 0.922,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_070",
+     "ko": "(5자 이상)",
+     "tr": "(5文字以上)",
+     "box_px_orig": [
+      82.5,
+      487.5,
+      42.5,
+      9.5
+     ],
+     "font_px": 20.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_071",
+     "ko": "통계값이 맞지 않아보입니다.",
+     "tr": "統計値が合っていないようです。",
+     "box_px_orig": [
+      56.5,
+      515.0,
+      164.5,
+      17.5
+     ],
+     "font_px": 31.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_072",
+     "ko": "MAJOR — 분석 영향 우려",
+     "tr": "MAJOR — 分析への影響の懸念",
+     "box_px_orig": [
+      62.0,
+      652.0,
+      151.0,
+      13.5
+     ],
+     "font_px": 22.2,
+     "scale": 0.76,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_073",
+     "ko": "⑤ 담당 (assignedTo) *",
+     "tr": "⑤ 担当 (assignedTo) *",
+     "box_px_orig": [
+      281.0,
+      622.0,
+      137.5,
+      14.5
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_2_1_074",
+     "ko": "생성 시 자동 처리",
+     "tr": "作成時の自動処理",
+     "box_px_orig": [
+      81.0,
+      708.0,
+      85.0,
+      19.5
+     ],
+     "font_px": 22.6,
+     "scale": 0.84,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_075",
+     "ko": "Query 생성 즉시 담당자에게 알림 발송, DataInstance qualityStatus=QUERY_OPEN 반영, DataQueryLog에 CREATE 이력 append.",
+     "tr": "Query作成直後に担当者へ通知を送り、DataInstance qualityStatus=QUERY_OPEN を反映し、DataQueryLogにCREATE履歴を追加します。",
+     "box_px_orig": [
+      81.0,
+      726.0,
+      269.5,
+      17.5
+     ],
+     "font_px": 21.5,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_077",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      331.0,
+      796.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_078",
+     "ko": "Query 생성",
+     "tr": "Query作成",
+     "box_px_orig": [
+      421.5,
+      796.0,
+      67.5,
+      14.5
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_2_1_060",
+     "ko": "필드",
+     "tr": "フィールド",
+     "box_px_orig": [
+      57.5,
+      223.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 9.7,
+     "scale": 0.439,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_064",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      79.0,
+      338.5,
+      62.0,
+      18.5
+     ],
+     "font_px": 18.8,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_2_1_067",
+     "ko": "③ Query 제목 *",
+     "tr": "③ Queryタイトル *",
+     "box_px_orig": [
+      44.0,
+      408.0,
+      101.0,
+      21.5
+     ],
+     "font_px": 23.7,
+     "scale": 0.72,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_072",
+     "ko": "MAJOR — 분석 영향 우려",
+     "tr": "MAJOR — 分析への影響の懸念",
+     "box_px_orig": [
+      62.0,
+      652.0,
+      151.0,
+      13.5
+     ],
+     "font_px": 22.2,
+     "scale": 0.76,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_074",
+     "ko": "생성 시 자동 처리",
+     "tr": "作成時の自動処理",
+     "box_px_orig": [
+      81.0,
+      708.0,
+      85.0,
+      19.5
+     ],
+     "font_px": 22.6,
+     "scale": 0.84,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_075",
+     "ko": "Query 생성 즉시 담당자에게 알림 발송, DataInstance qualityStatus=QUERY_OPEN 반영, DataQueryLog에 CREATE 이력 append.",
+     "tr": "Query作成直後に担当者へ通知を送り、DataInstance qualityStatus=QUERY_OPEN を反映し、DataQueryLogにCREATE履歴を追加します。",
+     "box_px_orig": [
+      81.0,
+      726.0,
+      269.5,
+      17.5
+     ],
+     "font_px": 21.5,
+     "scale": 0.817,
+     "weight": 400,
+     "paragraph_lines": 2,
+     "lines_in_segment": 2,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_2_1_077",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      331.0,
+      796.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s2_3_1.png": {
+   "replaced": 16,
+   "segments": [
+    {
+     "id": "s2_3_1_079",
+     "ko": "Query 목록",
+     "tr": "Query一覧",
+     "box_px_orig": [
+      7.0,
+      0.0,
+      99.0,
+      19.5
+     ],
+     "font_px": 39.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_080",
+     "ko": "본 프로젝트의 Data Query 를 조회하고 답변·종료·재질의를 처리합니다.",
+     "tr": "本プロジェクトのData Queryを照会し、回答・終了・再照会を処理します。",
+     "box_px_orig": [
+      7.0,
+      26.0,
+      410.0,
+      14.5
+     ],
+     "font_px": 25.1,
+     "scale": 0.903,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_081",
+     "ko": "상태",
+     "tr": "状態",
+     "box_px_orig": [
+      20.0,
+      175.5,
+      18.5,
+      10.0
+     ],
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_082",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      37.5,
+      201.0,
+      21.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_083",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      413.0,
+      200.5,
+      21.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_084",
+     "ko": "대상",
+     "tr": "対象",
+     "box_px_orig": [
+      15.5,
+      264.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 27.2,
+     "scale": 0.922,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_085",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      15.0,
+      303.0,
+      135.0,
+      13.5
+     ],
+     "font_px": 29.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_086",
+     "ko": "입력값 오타",
+     "tr": "入力値の誤字",
+     "box_px_orig": [
+      15.0,
+      356.0,
+      68.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_087",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      789.0,
+      201.0,
+      21.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_088",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      959.0,
+      309.0,
+      49.5,
+      20.0
+     ],
+     "font_px": 15,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_089",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      959.0,
+      362.0,
+      49.5,
+      20.0
+     ],
+     "font_px": 15,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_090",
+     "ko": "지연 Query (>30일 OPEN)",
+     "tr": "期限超過Query (>30日 OPEN)",
+     "box_px_orig": [
+      1160.0,
+      75.0,
+      125.0,
+      11.0
+     ],
+     "font_px": 21.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_091",
+     "ko": "생성 경로",
+     "tr": "作成経路",
+     "box_px_orig": [
+      1147.0,
+      175.0,
+      39.0,
+      10.5
+     ],
+     "font_px": 20.7,
+     "scale": 0.92,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_092",
+     "ko": "전체",
+     "tr": "すべて",
+     "box_px_orig": [
+      1164.5,
+      201.0,
+      21.0,
+      11.5
+     ],
+     "font_px": 25.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s2_3_1_093",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1237.0,
+      311.0,
+      23.0,
+      13.5
+     ],
+     "font_px": 24.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_094",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1237.0,
+      364.0,
+      24.0,
+      18.0
+     ],
+     "font_px": 25.5,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s2_3_1_088",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      959.0,
+      309.0,
+      49.5,
+      20.0
+     ],
+     "font_px": 15,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_089",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      959.0,
+      362.0,
+      49.5,
+      20.0
+     ],
+     "font_px": 15,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_093",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1237.0,
+      311.0,
+      23.0,
+      13.5
+     ],
+     "font_px": 24.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_094",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1237.0,
+      364.0,
+      24.0,
+      18.0
+     ],
+     "font_px": 25.5,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_1_1.png": {
+   "replaced": 15,
+   "segments": [
+    {
+     "id": "s3_1_1_095",
+     "ko": "미처리",
+     "tr": "未処理",
+     "box_px_orig": [
+      47.5,
+      71.5,
+      26.5,
+      9.5
+     ],
+     "font_px": 21,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_096",
+     "ko": "Query 답변",
+     "tr": "Query回答",
+     "box_px_orig": [
+      67.5,
+      39.5,
+      88.0,
+      18.5
+     ],
+     "font_px": 35.3,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_097",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      94.5,
+      71.5,
+      45.5,
+      14.5
+     ],
+     "font_px": 13.8,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_098",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      160.0,
+      71.5,
+      18.0,
+      10.0
+     ],
+     "font_px": 22.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_099",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      52.0,
+      118.0,
+      134.5,
+      13.5
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_100",
+     "ko": "통계값이 맞지 않아보입니다.",
+     "tr": "統計値が合っていないようです。",
+     "box_px_orig": [
+      52.5,
+      142.0,
+      163.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_101",
+     "ko": "현재 값",
+     "tr": "現在値",
+     "box_px_orig": [
+      52.5,
+      228.5,
+      29.5,
+      9.5
+     ],
+     "font_px": 20.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_102",
+     "ko": "수축기혈압 *",
+     "tr": "収縮期血圧 *",
+     "box_px_orig": [
+      39.5,
+      284.0,
+      73.5,
+      13.5
+     ],
+     "font_px": 26.8,
+     "scale": 0.918,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_103",
+     "ko": "변경 사유 * (5자 이상)",
+     "tr": "変更理由 * (5文字以上)",
+     "box_px_orig": [
+      39.5,
+      360.0,
+      109.5,
+      13.5
+     ],
+     "font_px": 26,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_104",
+     "ko": "1이 잘못 기재되었습니다.",
+     "tr": "1が誤って記載されています。",
+     "box_px_orig": [
+      52.0,
+      391.0,
+      144.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_105",
+     "ko": "답변 내용 * (5자 이상)",
+     "tr": "回答内容 * (5文字以上)",
+     "box_px_orig": [
+      39.5,
+      436.0,
+      109.5,
+      13.5
+     ],
+     "font_px": 26,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_106",
+     "ko": "처리완료했습니다.",
+     "tr": "処理が完了しました。",
+     "box_px_orig": [
+      51.5,
+      467.0,
+      106.0,
+      17.5
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_107",
+     "ko": "≤ 300 mmHg",
+     "tr": "≤ 300 mmHg",
+     "box_px_orig": [
+      415.0,
+      316.5,
+      85.5,
+      19.0
+     ],
+     "font_px": 31.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_1_108",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      312.0,
+      600.0,
+      26.0,
+      13.5
+     ],
+     "font_px": 20.2,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_109",
+     "ko": "답변 + 값 저장",
+     "tr": "回答 + 値保存",
+     "box_px_orig": [
+      380.0,
+      600.0,
+      105.0,
+      14.0
+     ],
+     "font_px": 33.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_1_1_097",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      94.5,
+      71.5,
+      45.5,
+      14.5
+     ],
+     "font_px": 13.8,
+     "scale": 0.519,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_1_1_108",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      312.0,
+      600.0,
+      26.0,
+      13.5
+     ],
+     "font_px": 20.2,
+     "scale": 0.68,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s3_1_2.png": {
+   "replaced": 2,
+   "segments": [
+    {
+     "id": "s3_1_2_110",
+     "ko": "대상",
+     "tr": "対象",
+     "box_px_orig": [
+      18.5,
+      18.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 27.2,
+     "scale": 0.922,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_1_2_111",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      18.0,
+      57.0,
+      135.0,
+      13.5
+     ],
+     "font_px": 29.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    }
+   ],
+   "flags": []
+  },
+  "s3_2_1.png": {
+   "replaced": 23,
+   "segments": [
+    {
+     "id": "s3_2_1_112",
+     "ko": "필수 3/3 완료 · 100%",
+     "tr": "必須 3/3 完了 · 100%",
+     "box_px_orig": [
+      74.5,
+      13.5,
+      129.0,
+      19.0
+     ],
+     "font_px": 28.2,
+     "scale": 0.901,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_113",
+     "ko": "모든 필수 입력 완료",
+     "tr": "必須入力がすべて完了",
+     "box_px_orig": [
+      216.0,
+      16.0,
+      115.5,
+      14.0
+     ],
+     "font_px": 28.7,
+     "scale": 0.938,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_114",
+     "ko": "품질",
+     "tr": "品質",
+     "box_px_orig": [
+      380.0,
+      16.0,
+      24.5,
+      13.0
+     ],
+     "font_px": 26,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_115",
+     "ko": "검증 대기",
+     "tr": "検証待ち",
+     "box_px_orig": [
+      421.0,
+      16.5,
+      46.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_116",
+     "ko": "수축기혈압 *",
+     "tr": "収縮期血圧 *",
+     "box_px_orig": [
+      29.0,
+      57.0,
+      78.0,
+      22.5
+     ],
+     "font_px": 33,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_117",
+     "ko": "답변됨",
+     "tr": "回答済み",
+     "box_px_orig": [
+      66.0,
+      134.5,
+      45.5,
+      15.5
+     ],
+     "font_px": 23.7,
+     "scale": 0.658,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_118",
+     "ko": "Query 미처리 1건",
+     "tr": "未処理のQuery 1件",
+     "box_px_orig": [
+      483.5,
+      16.5,
+      87.5,
+      13.0
+     ],
+     "font_px": 22.5,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_119",
+     "ko": "종결 대기 1건",
+     "tr": "終了待ち 1件",
+     "box_px_orig": [
+      580.5,
+      16.5,
+      64.5,
+      12.0
+     ],
+     "font_px": 26.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "status",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_120",
+     "ko": "중요 수축기 혈압 아웃라이어",
+     "tr": "重要 · 収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      112.5,
+      135.5,
+      150.5,
+      15.0
+     ],
+     "font_px": 28.8,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_121",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      51.0,
+      179.5,
+      134.5,
+      14.0
+     ],
+     "font_px": 21.9,
+     "scale": 0.74,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_122",
+     "ko": "통계값이 맞지 않아보입니다.",
+     "tr": "統計値が合っていないようです。",
+     "box_px_orig": [
+      51.0,
+      204.0,
+      164.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_123",
+     "ko": "답변이 기록됐습니다. 검토 후 종결하세요.",
+     "tr": "回答が記録されました。確認後に終結してください。",
+     "box_px_orig": [
+      42.5,
+      237.0,
+      257.0,
+      22.0
+     ],
+     "font_px": 22.8,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_124",
+     "ko": "이력·상세 보기",
+     "tr": "履歴 · 詳細表示",
+     "box_px_orig": [
+      48.0,
+      273.5,
+      65.0,
+      11.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_125",
+     "ko": "미처리",
+     "tr": "未処理",
+     "box_px_orig": [
+      64.5,
+      316.5,
+      38.0,
+      14.5
+     ],
+     "font_px": 26.6,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_126",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      109.5,
+      316.5,
+      31.0,
+      14.5
+     ],
+     "font_px": 32.7,
+     "scale": 0.921,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_127",
+     "ko": "입력값 오타",
+     "tr": "入力値の誤字",
+     "box_px_orig": [
+      148.0,
+      318.0,
+      57.5,
+      11.0
+     ],
+     "font_px": 20.4,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_128",
+     "ko": "입력값 오타",
+     "tr": "入力値の誤字",
+     "box_px_orig": [
+      51.0,
+      360.5,
+      68.0,
+      14.0
+     ],
+     "font_px": 23.9,
+     "scale": 0.799,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_129",
+     "ko": "입력값 오타로 수정 필요",
+     "tr": "入力値の誤字により修正が必要",
+     "box_px_orig": [
+      51.5,
+      385.0,
+      138.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_130",
+     "ko": "이 필드의 해소 방식 현행 유지",
+     "tr": "この項目の解消方法: 現行維持",
+     "box_px_orig": [
+      42.5,
+      417.0,
+      156.0,
+      21.5
+     ],
+     "font_px": 24,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_131",
+     "ko": "값을 수정하지 않았습니다. 위 입력을 고치면 자동으로 정정이 됩니다.",
+     "tr": "値は修正していません。上の入力を修正すると自動で訂正されます。",
+     "box_px_orig": [
+      204.0,
+      418.0,
+      318.0,
+      18.0
+     ],
+     "font_px": 21.6,
+     "scale": 0.861,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_132",
+     "ko": "답변 코멘트 * (5자 이상)",
+     "tr": "回答コメント * (5文字以上)",
+     "box_px_orig": [
+      42.5,
+      449.0,
+      111.0,
+      11.0
+     ],
+     "font_px": 22.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_133",
+     "ko": "원자료 확인 결과와 수정 여부를 기술하세요",
+     "tr": "原資料の確認結果と修正の有無を記述してください",
+     "box_px_orig": [
+      55.0,
+      476.0,
+      214.0,
+      11.0
+     ],
+     "font_px": 24.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s3_2_1_134",
+     "ko": "이 코멘트를 변경 사유로 함께 사용 이력·상세 보기",
+     "tr": "このコメントを変更理由としても使用 · 履歴 · 詳細表示",
+     "box_px_orig": [
+      42.0,
+      535.0,
+      258.0,
+      14.5
+     ],
+     "font_px": 28.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s3_2_1_117",
+     "ko": "답변됨",
+     "tr": "回答済み",
+     "box_px_orig": [
+      66.0,
+      134.5,
+      45.5,
+      15.5
+     ],
+     "font_px": 23.7,
+     "scale": 0.658,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_121",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      51.0,
+      179.5,
+      134.5,
+      14.0
+     ],
+     "font_px": 21.9,
+     "scale": 0.74,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_123",
+     "ko": "답변이 기록됐습니다. 검토 후 종결하세요.",
+     "tr": "回答が記録されました。確認後に終結してください。",
+     "box_px_orig": [
+      42.5,
+      237.0,
+      257.0,
+      22.0
+     ],
+     "font_px": 22.8,
+     "scale": 0.679,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_124",
+     "ko": "이력·상세 보기",
+     "tr": "履歴 · 詳細表示",
+     "box_px_orig": [
+      48.0,
+      273.5,
+      65.0,
+      11.0
+     ],
+     "font_px": 20.2,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_125",
+     "ko": "미처리",
+     "tr": "未処理",
+     "box_px_orig": [
+      64.5,
+      316.5,
+      38.0,
+      14.5
+     ],
+     "font_px": 26.6,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_127",
+     "ko": "입력값 오타",
+     "tr": "入力値の誤字",
+     "box_px_orig": [
+      148.0,
+      318.0,
+      57.5,
+      11.0
+     ],
+     "font_px": 20.4,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_128",
+     "ko": "입력값 오타",
+     "tr": "入力値の誤字",
+     "box_px_orig": [
+      51.0,
+      360.5,
+      68.0,
+      14.0
+     ],
+     "font_px": 23.9,
+     "scale": 0.799,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_130",
+     "ko": "이 필드의 해소 방식 현행 유지",
+     "tr": "この項目の解消方法: 現行維持",
+     "box_px_orig": [
+      42.5,
+      417.0,
+      156.0,
+      21.5
+     ],
+     "font_px": 24,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s4_1_1.png": {
+   "replaced": 9,
+   "segments": [
+    {
+     "id": "s4_1_1_135",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      44.0,
+      68.5,
+      21.5,
+      13.5
+     ],
+     "font_px": 22.9,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_136",
+     "ko": "Query 종료",
+     "tr": "Query終了",
+     "box_px_orig": [
+      64.5,
+      38.0,
+      88.5,
+      18.0
+     ],
+     "font_px": 35.6,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "title",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_137",
+     "ko": "답변 검토 후 CLOSED 전환 · 이후 Reopen 으로 재질의 가능",
+     "tr": "回答確認後にCLOSEDへ切り替え · 以後Reopenで再照会可能。",
+     "box_px_orig": [
+      77.0,
+      68.5,
+      247.0,
+      10.5
+     ],
+     "font_px": 20.1,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_138",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      49.0,
+      114.0,
+      134.5,
+      13.5
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_139",
+     "ko": "통계값이 맞지 않아보입니다.",
+     "tr": "統計値が合っていないようです。",
+     "box_px_orig": [
+      49.5,
+      138.0,
+      163.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_140",
+     "ko": "종료 사유 * (해소 근거·감사 증빙 — 필수)",
+     "tr": "終了理由 * (解消の根拠·監査証跡 — 必須)",
+     "box_px_orig": [
+      36.5,
+      212.0,
+      191.0,
+      13.5
+     ],
+     "font_px": 24.9,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_141",
+     "ko": "해소되었습니다.",
+     "tr": "解消されました。",
+     "box_px_orig": [
+      49.5,
+      240.5,
+      93.0,
+      18.5
+     ],
+     "font_px": 31.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_1_142",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      336.5,
+      336.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_1_143",
+     "ko": "종료 실행",
+     "tr": "終了実行",
+     "box_px_orig": [
+      427.0,
+      336.0,
+      54.5,
+      14.0
+     ],
+     "font_px": 28.9,
+     "scale": 0.941,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s4_1_1_135",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      44.0,
+      68.5,
+      21.5,
+      13.5
+     ],
+     "font_px": 22.9,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_1_1_142",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      336.5,
+      336.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 13,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    }
+   ]
+  },
+  "s4_1_2.png": {
+   "replaced": 2,
+   "segments": [
+    {
+     "id": "s4_1_2_144",
+     "ko": "대상",
+     "tr": "対象",
+     "box_px_orig": [
+      15.5,
+      21.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 27.2,
+     "scale": 0.922,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_1_2_145",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      15.0,
+      60.0,
+      135.0,
+      23.5
+     ],
+     "font_px": 22.1,
+     "scale": 0.702,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s4_1_2_145",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      15.0,
+      60.0,
+      135.0,
+      23.5
+     ],
+     "font_px": 22.1,
+     "scale": 0.702,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  },
+  "s4_2_1.png": {
+   "replaced": 11,
+   "segments": [
+    {
+     "id": "s4_2_1_146",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      42.0,
+      70.5,
+      21.5,
+      13.5
+     ],
+     "font_px": 22.9,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_147",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      47.0,
+      116.0,
+      134.5,
+      13.5
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_148",
+     "ko": "통계값이 맞지 않아보입니다.",
+     "tr": "統計値が合っていないようです。",
+     "box_px_orig": [
+      47.5,
+      140.0,
+      163.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_149",
+     "ko": "Reopen 사유 *",
+     "tr": "Reopen理由 *",
+     "box_px_orig": [
+      34.5,
+      214.0,
+      94.5,
+      14.0
+     ],
+     "font_px": 29.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_150",
+     "ko": "(5자 이상)",
+     "tr": "(5文字以上)",
+     "box_px_orig": [
+      126.0,
+      217.5,
+      42.0,
+      9.5
+     ],
+     "font_px": 16.6,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_151",
+     "ko": "기존 답변으로 해소되지 않은 근거",
+     "tr": "既存の回答で解消されなかった根拠",
+     "box_px_orig": [
+      48.0,
+      245.0,
+      192.0,
+      13.0
+     ],
+     "font_px": 28.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_152",
+     "ko": "추가 질의 내용 * (5자 이상)",
+     "tr": "追加照会内容 * (5文字以上)",
+     "box_px_orig": [
+      34.5,
+      332.0,
+      138.5,
+      13.5
+     ],
+     "font_px": 23.4,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_153",
+     "ko": "담당자에게 추가로 확인받을 사항",
+     "tr": "担当者に追加で確認してもらう事項",
+     "box_px_orig": [
+      48.0,
+      363.0,
+      189.5,
+      13.0
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "placeholder",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_154",
+     "ko": "담당 (assignedTo) *",
+     "tr": "担当 (assignedTo) *",
+     "box_px_orig": [
+      34.5,
+      450.0,
+      119.5,
+      14.5
+     ],
+     "font_px": 27.6,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_1_155",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      310.5,
+      532.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 18.9,
+     "scale": 0.641,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_2_1_156",
+     "ko": "Reopen 실행",
+     "tr": "Reopen実行",
+     "box_px_orig": [
+      401.5,
+      532.0,
+      77.5,
+      14.0
+     ],
+     "font_px": 28.2,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": ""
+    }
+   ],
+   "flags": [
+    {
+     "id": "s4_2_1_146",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      42.0,
+      70.5,
+      21.5,
+      13.5
+     ],
+     "font_px": 22.9,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_150",
+     "ko": "(5자 이상)",
+     "tr": "(5文字以上)",
+     "box_px_orig": [
+      126.0,
+      217.5,
+      42.0,
+      9.5
+     ],
+     "font_px": 16.6,
+     "scale": 0.822,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_1_155",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      310.5,
+      532.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 18.9,
+     "scale": 0.641,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ]
+  },
+  "s4_2_2.png": {
+   "replaced": 9,
+   "segments": [
+    {
+     "id": "s4_2_2_157",
+     "ko": "대상",
+     "tr": "対象",
+     "box_px_orig": [
+      9.5,
+      12.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 27.2,
+     "scale": 0.922,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_2_158",
+     "ko": "추가 질의 필요",
+     "tr": "追加照会が必要",
+     "box_px_orig": [
+      9.0,
+      51.0,
+      84.0,
+      13.5
+     ],
+     "font_px": 25.3,
+     "scale": 0.878,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_2_159",
+     "ko": "수축기 혈압 아웃라이어",
+     "tr": "収縮期血圧のアウトライアー",
+     "box_px_orig": [
+      9.0,
+      104.0,
+      135.0,
+      13.5
+     ],
+     "font_px": 28.5,
+     "scale": 1.0,
+     "weight": 700,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "text",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_2_160",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      874.0,
+      110.0,
+      60.5,
+      21.0
+     ],
+     "font_px": 18.4,
+     "scale": 0.521,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_2_2_161",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1138.5,
+      59.0,
+      26.5,
+      18.0
+     ],
+     "font_px": 28.2,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_2_162",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1138.5,
+      112.0,
+      26.5,
+      13.5
+     ],
+     "font_px": 28,
+     "scale": 0.9,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_2_163",
+     "ko": "상태",
+     "tr": "状態",
+     "box_px_orig": [
+      1382.0,
+      12.0,
+      25.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "s4_2_2_164",
+     "ko": "미처리",
+     "tr": "未処理",
+     "box_px_orig": [
+      1385.5,
+      59.0,
+      33.5,
+      13.0
+     ],
+     "font_px": 23.3,
+     "scale": 0.82,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_2_165",
+     "ko": "재질의",
+     "tr": "再照会",
+     "box_px_orig": [
+      1382.5,
+      111.5,
+      37.5,
+      19.0
+     ],
+     "font_px": 26.4,
+     "scale": 0.82,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
+   "flags": [
+    {
+     "id": "s4_2_2_160",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      874.0,
+      110.0,
+      60.5,
+      21.0
+     ],
+     "font_px": 18.4,
+     "scale": 0.521,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s4_2_2_161",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1138.5,
+      59.0,
+      26.5,
+      18.0
+     ],
+     "font_px": 28.2,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_2_164",
+     "ko": "미처리",
+     "tr": "未処理",
+     "box_px_orig": [
+      1385.5,
+      59.0,
+      33.5,
+      13.0
+     ],
+     "font_px": 23.3,
+     "scale": 0.82,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s4_2_2_165",
+     "ko": "재질의",
+     "tr": "再照会",
+     "box_px_orig": [
+      1382.5,
+      111.5,
+      37.5,
+      19.0
+     ],
+     "font_px": 26.4,
+     "scale": 0.82,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ]
+  }
+ }
+}
