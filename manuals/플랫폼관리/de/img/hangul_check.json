@@ -1,15 +1,16 @@
 {
  "vol": "플랫폼관리",
  "lang": "de",
+ "untranslated_images": [],
  "remaining_korean": [
   {
-   "file": "s1_1_1.png",
-   "text": "네뉴",
+   "file": "s2_1_1.png",
+   "text": "ㅇ",
    "box": [
-    0,
-    151,
-    41,
-    14
+    2808,
+    735,
+    34,
+    39
    ],
    "changed_ink_ratio": 0.0
   },
@@ -17,21 +18,10 @@
    "file": "s2_1_1.png",
    "text": "황",
    "box": [
-    4997,
-    30,
-    39,
-    34
-   ],
-   "changed_ink_ratio": 0.0
-  },
-  {
-   "file": "s3_2_1.png",
-   "text": "ㅁ",
-   "box": [
-    299,
-    226,
-    40,
-    40
+    5004,
+    32,
+    28,
+    32
    ],
    "changed_ink_ratio": 0.0
   },
@@ -39,58 +29,71 @@
    "file": "s3_3_1.png",
    "text": "황",
    "box": [
-    1858,
+    1856,
     160,
-    31,
-    31
-   ],
-   "changed_ink_ratio": 0.0
-  },
-  {
-   "file": "s4_1_1.png",
-   "text": "ㅁ",
-   "box": [
-    2981,
-    506,
-    40,
-    40
+    30,
+    32
    ],
    "changed_ink_ratio": 0.0
   }
  ],
- "false_positive_changed_pixels": [
+ "behind_overlay_kept": [
   {
    "file": "s1_2_1.png",
-   "text": "Wert옓",
+   "text": "보아",
    "box": [
-    131,
-    388,
-    74,
-    28
+    192,
+    35,
+    46,
+    20
    ],
-   "changed_ink_ratio": 0.989
+   "why": "모달 바깥"
   },
   {
-   "file": "s2_1_1.png",
-   "text": "ㅁ Einrichtungsverwaltung",
+   "file": "s1_2_1.png",
+   "text": "[ 저수",
    "box": [
-    43,
-    361,
-    353,
-    31
+    1203,
+    33,
+    57,
+    22
    ],
-   "changed_ink_ratio": 0.887
+   "why": "모달 바깥"
   },
   {
    "file": "s2_2_1.png",
-   "text": "Werttyp옓",
+   "text": "찰성",
    "box": [
-    192,
-    542,
-    94,
-    26
+    1184,
+    34,
+    36,
+    20
    ],
-   "changed_ink_ratio": 0.98
+   "why": "모달 바깥"
+  }
+ ],
+ "false_positive_changed_pixels": [
+  {
+   "file": "s2_1_1.png",
+   "text": "경 Zugriffsprotokoll",
+   "box": [
+    47,
+    701,
+    262,
+    34
+   ],
+   "changed_ink_ratio": 0.862
+  },
+  {
+   "file": "s3_1_1.png",
+   "text": "ㅁ Workspace-Verwaltung",
+   "box": [
+    49,
+    426,
+    357,
+    42
+   ],
+   "changed_ink_ratio": 0.913
   },
   {
    "file": "s3_1_1.png",
@@ -98,19 +101,63 @@
    "box": [
     56,
     699,
-    279,
+    280,
     42
    ],
    "changed_ink_ratio": 0.887
   },
   {
-   "file": "s3_2_1.png",
+   "file": "s3_1_1.png",
    "text": "JJJJ-MM-TT ㅁ",
    "box": [
-    3094,
-    93,
-    232,
+    566,
+    510,
+    231,
+    35
+   ],
+   "changed_ink_ratio": 0.864
+  },
+  {
+   "file": "s3_1_1.png",
+   "text": "JJJJ-MM-TT ㅁ",
+   "box": [
+    3559,
+    377,
+    231,
+    35
+   ],
+   "changed_ink_ratio": 0.863
+  },
+  {
+   "file": "s4_1_1.png",
+   "text": "즈 Zugriffsprotokoll",
+   "box": [
+    40,
+    699,
+    266,
     33
+   ],
+   "changed_ink_ratio": 0.867
+  },
+  {
+   "file": "s4_1_1.png",
+   "text": "JJJJ-MM-TT ㅁ",
+   "box": [
+    2797,
+    506,
+    233,
+    40
+   ],
+   "changed_ink_ratio": 0.863
+  },
+  {
+   "file": "s4_1_1.png",
+   "text": "JJJJ-MM-TT ㅁ",
+   "box": [
+    3542,
+    506,
+    226,
+    40
    ],
    "changed_ink_ratio": 0.863
   }

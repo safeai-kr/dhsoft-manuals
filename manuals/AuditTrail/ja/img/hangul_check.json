@@ -1,6 +1,7 @@
 {
  "vol": "AuditTrail",
  "lang": "ja",
+ "untranslated_images": [],
  "remaining_korean": [
   {
    "file": "s1_1_1.png",
@@ -12,30 +13,65 @@
     34
    ],
    "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s1_3_1.png",
+   "text": "홍비구 01a1810c-6529-7905-8e0a-d6af06c79c6a",
+   "box": [
+    106,
+    414,
+    532,
+    26
+   ],
+   "changed_ink_ratio": 0.12
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "SYSTEM_A DataQuen 01a18107-ebaa-7060-be71-843|ANSWER (OPEN ANSWERE 서디완됴습느",
+   "box": [
+    780,
+    387,
+    1357,
+    37
+   ],
+   "changed_ink_ratio": 0.027
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "60 1이 잘못 기재도",
+   "box": [
+    1797,
+    468,
+    346,
+    34
+   ],
+   "changed_ink_ratio": 0.0
+  }
+ ],
+ "behind_overlay_kept": [
+  {
+   "file": "s4_1_1.png",
+   "text": "시작일",
+   "box": [
+    48,
+    50,
+    62,
+    26
+   ],
+   "changed_ink_ratio": 0.0
   }
  ],
  "false_positive_changed_pixels": [
   {
    "file": "s1_1_1.png",
-   "text": "SyJz당- / Audit rai",
-   "box": [
-    27,
-    40,
-    276,
-    21
-   ],
-   "changed_ink_ratio": 0.997
-  },
-  {
-   "file": "s1_1_1.png",
-   "text": "닭카기-4S*E제EO#슴BA (append-ony•977JJ)",
+   "text": "따카기-너S꽃토제KO#슴W슉 (append-only·9월/구근))",
    "box": [
     20,
-    127,
+    128,
     667,
     34
    ],
-   "changed_ink_ratio": 0.983
+   "changed_ink_ratio": 0.98
   },
   {
    "file": "s1_1_1.png",
@@ -50,80 +86,14 @@
   },
   {
    "file": "s1_1_1.png",
-   "text": "차 Subject",
-   "box": [
-    47,
-    443,
-    148,
-    34
-   ],
-   "changed_ink_ratio": 0.989
-  },
-  {
-   "file": "s1_1_1.png",
-   "text": "트슴.",
-   "box": [
-    882,
-    255,
-    446,
-    21
-   ],
-   "changed_ink_ratio": 0.994
-  },
-  {
-   "file": "s1_1_1.png",
-   "text": "Lock)ㅁ-JU꽃토출구몰섬 #/#()",
-   "box": [
-    856,
-    342,
-    512,
-    41
-   ],
-   "changed_ink_ratio": 0.904
-  },
-  {
-   "file": "s1_1_1.png",
-   "text": "크(구욥 D",
-   "box": [
-    802,
-    443,
-    88,
-    14
-   ],
-   "changed_ink_ratio": 0.973
-  },
-  {
-   "file": "s1_1_1.png",
-   "text": "UUID (유숲-잣)",
-   "box": [
-    829,
-    484,
-    182,
-    34
-   ],
-   "changed_ink_ratio": 0.986
-  },
-  {
-   "file": "s1_1_1.png",
-   "text": "15 : age (CRF ㄱ4-JUH)",
-   "box": [
-    1489,
-    484,
-    472,
-    54
-   ],
-   "changed_ink_ratio": 0.951
-  },
-  {
-   "file": "s1_1_1.png",
-   "text": "JAI는 패향띠",
+   "text": "JAl는 #졌면",
    "box": [
     667,
     1304,
-    108,
+    101,
     14
    ],
-   "changed_ink_ratio": 0.894
+   "changed_ink_ratio": 0.952
   },
   {
    "file": "s1_1_1.png",
@@ -149,62 +119,139 @@
   },
   {
    "file": "s1_1_1.png",
-   "text": "#쬬뽑ㅈJ-9지",
+   "text": "#B1x가",
    "box": [
     667,
-    1653,
+    1559,
     121,
     34
    ],
-   "changed_ink_ratio": 0.917
+   "changed_ink_ratio": 0.997
   },
   {
    "file": "s1_1_1.png",
-   "text": "#뇸o포p • 00000000..",
+   "text": "#쬬뽑ㅈJ-ㅾ지",
+   "box": [
+    667,
+    1653,
+    128,
+    34
+   ],
+   "changed_ink_ratio": 0.87
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "Lock)ㅁ-JU꽃토출구몰섬 #/#()",
+   "box": [
+    856,
+    342,
+    512,
+    41
+   ],
+   "changed_ink_ratio": 0.904
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "크(욥 D",
+   "box": [
+    802,
+    443,
+    88,
+    14
+   ],
+   "changed_ink_ratio": 0.973
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "UUID (휴숲-쫘)",
+   "box": [
+    829,
+    484,
+    175,
+    34
+   ],
+   "changed_ink_ratio": 0.986
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "#뇹O포p ·00000000..",
    "box": [
     916,
     1559,
-    276,
+    270,
     34
    ],
-   "changed_ink_ratio": 0.995
+   "changed_ink_ratio": 0.996
   },
   {
    "file": "s1_1_1.png",
-   "text": "SITE-01-0001 • 터즐1",
+   "text": "거-‡-",
    "box": [
-    916,
-    1646,
-    256,
+    1563,
+    436,
+    155,
     34
    ],
-   "changed_ink_ratio": 0.99
+   "changed_ink_ratio": 0.989
   },
   {
    "file": "s1_1_1.png",
-   "text": "슈-R-B",
+   "text": "ㄱ (Biage (ORF J1-LA)",
    "box": [
-    2284,
+    1503,
+    470,
+    350,
+    61
+   ],
+   "changed_ink_ratio": 0.756
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "ㅷㅑㅡB",
+   "box": [
+    2271,
     484,
-    229,
+    182,
     41
    ],
-   "changed_ink_ratio": 0.963
+   "changed_ink_ratio": 0.9
   },
   {
    "file": "s1_1_1.png",
-   "text": "ㄱpY • =YRY• SYSTEM ADMN",
+   "text": "ㄱ Y•EVRY•SYSTEM_ADMIN",
    "box": [
-    2305,
-    779,
-    222,
-    13
+    2298,
+    685,
+    364,
+    20
    ],
-   "changed_ink_ratio": 0.782
+   "changed_ink_ratio": 0.998
   },
   {
    "file": "s1_1_1.png",
-   "text": "sbp: 160 -60 (10)큼못 >CB해th*Uto)",
+   "text": "ㄱPV•EIRY•SYSTEM_ADMIN",
+   "box": [
+    2298,
+    1216,
+    344,
+    20
+   ],
+   "changed_ink_ratio": 0.998
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "표ㅅ챱ㅊ",
+   "box": [
+    3834,
+    436,
+    94,
+    34
+   ],
+   "changed_ink_ratio": 0.988
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "sbp: 160 -60 (10)큼못 >CB해th*UTo)",
    "box": [
     3019,
     1115,
@@ -215,14 +262,14 @@
   },
   {
    "file": "s1_1_1.png",
-   "text": "ENROLLED~3*3 (뽀H: TRANSITION_VIALAPI)",
+   "text": "ENROLLEDA3*3 (T포E: TRANSITION VIALAPI)",
    "box": [
     3026,
     1646,
-    458,
+    431,
     34
    ],
-   "changed_ink_ratio": 0.984
+   "changed_ink_ratio": 0.989
   },
   {
    "file": "s1_1_1.png",
@@ -266,7 +313,7 @@
     94,
     54
    ],
-   "changed_ink_ratio": 0.998
+   "changed_ink_ratio": 0.999
   },
   {
    "file": "s1_1_1.png",
@@ -321,183 +368,172 @@
     108,
     61
    ],
-   "changed_ink_ratio": 0.998
+   "changed_ink_ratio": 0.997
   },
   {
    "file": "s1_1_1.png",
-   "text": "체돼",
+   "text": "체리",
    "box": [
     4481,
     1290,
     101,
     54
    ],
-   "changed_ink_ratio": 0.998
+   "changed_ink_ratio": 0.999
   },
   {
    "file": "s1_1_1.png",
-   "text": "체눼'",
+   "text": "초웨",
    "box": [
-    4481,
-    1639,
-    94,
+    4494,
+    1646,
+    74,
     34
    ],
-   "changed_ink_ratio": 0.857
+   "changed_ink_ratio": 0.987
   },
   {
    "file": "s1_2_1.png",
-   "text": "ㅉ큽ㅈㅋㅡㅺㅈ",
+   "text": "참큽ㅈㅋㅡㅺㅈ",
    "box": [
     124,
     54,
     120,
-    19
+    18
    ],
-   "changed_ink_ratio": 0.997
+   "changed_ink_ratio": 0.996
   },
   {
    "file": "s1_2_1.png",
-   "text": "ㄱA-나꽃토",
+   "text": "ㄱㅓㅡN트꽃토",
    "box": [
-    449,
-    52,
-    128,
-    21
+    444,
+    54,
+    134,
+    18
    ],
-   "changed_ink_ratio": 0.997
+   "changed_ink_ratio": 0.998
   },
   {
    "file": "s1_2_1.png",
-   "text": "ㅁ-JV꽃토",
+   "text": "ㅁ-JU꽃토",
    "box": [
-    947,
-    49,
-    87,
-    19
+    942,
+    47,
+    102,
+    25
    ],
-   "changed_ink_ratio": 0.999
+   "changed_ink_ratio": 0.996
   },
   {
    "file": "s1_2_1.png",
-   "text": "좁구꼽솜",
+   "text": "출구꼽솜",
    "box": [
-    1089,
-    45,
-    87,
+    1090,
+    46,
+    86,
     27
    ],
    "changed_ink_ratio": 0.988
   },
   {
-   "file": "s1_2_1.png",
-   "text": "#샤F# |",
-   "box": [
-    1224,
-    45,
-    110,
-    27
-   ],
-   "changed_ink_ratio": 0.994
-  },
-  {
    "file": "s1_2_2.png",
-   "text": "붓뽑D",
+   "text": "붓」욥ID",
    "box": [
-    790,
-    29,
+    792,
+    30,
     86,
-    27
+    25
    ],
    "changed_ink_ratio": 0.974
   },
   {
    "file": "s1_2_2.png",
-   "text": "] UUID (#조-조치)",
+   "text": "UUID (#죽-최)",
    "box": [
-    733,
-    70,
-    275,
-    53
-   ],
-   "changed_ink_ratio": 0.957
-  },
-  {
-   "file": "s1_2_2.png",
-   "text": "ㄱA-#-",
-   "box": [
-    1550,
-    29,
-    149,
-    23
-   ],
-   "changed_ink_ratio": 0.989
-  },
-  {
-   "file": "s1_2_2.png",
-   "text": "1l:age (CRF ㄱ4-JLH)",
-   "box": [
-    1557,
-    78,
-    291,
-    36
-   ],
-   "changed_ink_ratio": 0.969
-  },
-  {
-   "file": "s1_2_3.png",
-   "text": "묶퉈찻슴ㅁ",
-   "box": [
-    41,
-    34,
-    65,
+    816,
+    80,
+    174,
     28
    ],
    "changed_ink_ratio": 0.985
   },
   {
-   "file": "s1_2_3.png",
-   "text": "_ #-ㅒ-B",
+   "file": "s1_2_2.png",
+   "text": "ㄱAㅡJK#ㅡ",
    "box": [
-    751,
-    66,
-    286,
-    64
+    1550,
+    32,
+    150,
+    22
    ],
-   "changed_ink_ratio": 0.949
+   "changed_ink_ratio": 0.989
+  },
+  {
+   "file": "s1_2_2.png",
+   "text": "13: age (CRF ㄱ4-JUH)",
+   "box": [
+    1570,
+    82,
+    270,
+    28
+   ],
+   "changed_ink_ratio": 0.984
   },
   {
    "file": "s1_2_3.png",
-   "text": "표ㅅ챱ㅊ",
+   "text": "ㅌ튀핫슴ㅁ",
    "box": [
-    1555,
-    31,
-    89,
-    31
+    44,
+    32,
+    62,
+    24
+   ],
+   "changed_ink_ratio": 0.985
+  },
+  {
+   "file": "s1_2_3.png",
+   "text": "#-F-ㅁ",
+   "box": [
+    68,
+    83,
+    106,
+    29
+   ],
+   "changed_ink_ratio": 0.996
+  },
+  {
+   "file": "s1_2_3.png",
+   "text": "표ㅅ쳡ㅊ",
+   "box": [
+    1558,
+    30,
+    88,
+    27
    ],
    "changed_ink_ratio": 0.99
   },
   {
    "file": "s1_2_3.png",
-   "text": "꽃FUCJIE",
+   "text": "훗F UCIE",
    "box": [
-    1531,
-    86,
-    137,
-    38
+    1536,
+    88,
+    130,
+    36
    ],
    "changed_ink_ratio": 0.994
   },
   {
-   "file": "s1_3_1.png",
-   "text": "포토죠①¾",
+   "file": "s1_2_3.png",
+   "text": "체#t",
    "box": [
-    108,
-    48,
-    226,
-    34
+    2200,
+    86,
+    76,
+    24
    ],
-   "changed_ink_ratio": 0.915
+   "changed_ink_ratio": 0.992
   },
   {
    "file": "s1_3_1.png",
@@ -519,29 +555,40 @@
     46,
     24
    ],
-   "changed_ink_ratio": 0.949
-  },
-  {
-   "file": "s1_3_1.png",
-   "text": "포또#",
-   "box": [
-    104,
-    482,
-    42,
-    22
-   ],
    "changed_ink_ratio": 0.947
   },
   {
    "file": "s1_3_1.png",
-   "text": "#포;#",
+   "text": "포#",
    "box": [
-    134,
-    516,
-    70,
-    26
+    106,
+    480,
+    44,
+    24
    ],
-   "changed_ink_ratio": 0.975
+   "changed_ink_ratio": 0.944
+  },
+  {
+   "file": "s1_3_1.png",
+   "text": "#팝/1",
+   "box": [
+    106,
+    581,
+    106,
+    25
+   ],
+   "changed_ink_ratio": 0.924
+  },
+  {
+   "file": "s1_3_1.png",
+   "text": "< 팝^",
+   "box": [
+    136,
+    785,
+    81,
+    28
+   ],
+   "changed_ink_ratio": 0.777
   },
   {
    "file": "s1_3_1.png",
@@ -555,191 +602,224 @@
    "changed_ink_ratio": 0.839
   },
   {
-   "file": "s2_1_2.png",
-   "text": "• 21 CFR Part 11 초3L",
+   "file": "s2_1_1.png",
+   "text": "~ 몸원",
    "box": [
-    46,
-    61,
-    233,
+    1120,
+    47,
+    74,
+    22
+   ],
+   "changed_ink_ratio": 0.894
+  },
+  {
+   "file": "s2_1_2.png",
+   "text": "• 21 CFR Part 11 촉",
+   "box": [
+    48,
+    60,
+    232,
     28
    ],
-   "changed_ink_ratio": 0.85
+   "changed_ink_ratio": 0.856
   },
   {
    "file": "s2_1_2.png",
-   "text": "p nd- ny EL뜻슴#UUEEL]- DE까IM£g",
+   "text": "☆g: 12체7JLUO제m(SubjectStatus• Randomization·VisitEvent • Datalnstance • FieldChange•SDV · DataQuery • BatchValidation• DataLock• R",
    "box": [
-    220,
-    99,
-    901,
-    23
+    85,
+    261,
+    1110,
+    25
    ],
-   "changed_ink_ratio": 0.995
-  },
-  {
-   "file": "s2_1_2.png",
-   "text": "산삶: 12월나H나JS제표 (SubjectStatus• Randomization• VisitEvent• Datalnstance• FieldChange• SDV • DataQuery • BatchValidation• DataLock • RoleChange • ESignature• DataForm)",
-   "box": [
-    91,
-    263,
-    1472,
-    20
-   ],
-   "changed_ink_ratio": 0.988
+   "changed_ink_ratio": 0.99
   },
   {
    "file": "s3_1_1.png",
-   "text": "#마채네",
+   "text": "*마채키",
    "box": [
-    18,
-    63,
-    87,
+    20,
+    62,
+    86,
     25
    ],
    "changed_ink_ratio": 0.97
   },
   {
    "file": "s3_1_1.png",
-   "text": "참맛숯#ㅈ누ㅡ쇠ㅈ1",
+   "text": "참통숯뽑ㅈㅎㅡ쇠ㅈ1",
    "box": [
-    158,
+    146,
     66,
-    133,
-    18
-   ],
-   "changed_ink_ratio": 0.94
-  },
-  {
-   "file": "s3_1_1.png",
-   "text": "찌B1N가71",
-   "box": [
-    342,
-    64,
-    153,
-    23
-   ],
-   "changed_ink_ratio": 0.907
-  },
-  {
-   "file": "s3_1_1.png",
-   "text": "ㄱA-J5깥E 7",
-   "box": [
-    551,
-    64,
-    145,
+    144,
     20
    ],
-   "changed_ink_ratio": 0.936
+   "changed_ink_ratio": 0.939
   },
   {
    "file": "s3_1_1.png",
-   "text": "ㅁ-JU꽃토 0",
+   "text": "ㄱA-J나세꽃토 ?",
    "box": [
-    1170,
+    548,
+    66,
+    148,
+    20
+   ],
+   "changed_ink_ratio": 0.933
+  },
+  {
+   "file": "s3_1_1.png",
+   "text": "n-JL꽃토 0",
+   "box": [
+    1168,
     63,
-    125,
+    130,
     24
    ],
-   "changed_ink_ratio": 0.885
+   "changed_ink_ratio": 0.9
   },
   {
    "file": "s3_1_1.png",
-   "text": "출구뽑섬 2",
+   "text": "출구몹솜 2",
    "box": [
-    1349,
-    63,
-    128,
-    24
+    1340,
+    60,
+    126,
+    26
+   ],
+   "changed_ink_ratio": 0.9
+  },
+  {
+   "file": "s3_1_1.png",
+   "text": "ㅷㅼㅑ#뽄ㅏㅇ",
+   "box": [
+    1518,
+    60,
+    138,
+    29
    ],
    "changed_ink_ratio": 0.903
   },
   {
-   "file": "s3_1_1.png",
-   "text": "표1F#4《O",
+   "file": "s3_1_2.png",
+   "text": "ㄱPV•ENRY•SYSTEM_ADMIN",
    "box": [
-    1519,
-    64,
-    133,
-    23
+    332,
+    228,
+    356,
+    26
    ],
-   "changed_ink_ratio": 0.902
+   "changed_ink_ratio": 0.998
   },
   {
    "file": "s3_1_2.png",
-   "text": "JVㅋY",
+   "text": "ㄱ V•ENXY•SYSTEM_ADMIN",
    "box": [
-    1977,
-    60,
-    105,
+    332,
+    316,
+    356,
     24
    ],
-   "changed_ink_ratio": 0.984
+   "changed_ink_ratio": 0.998
   },
   {
    "file": "s3_1_2.png",
-   "text": "쵸뒈",
+   "text": "ㄱ V•ENXY•SYSTEM_ADMIN",
    "box": [
-    2649,
-    133,
-    52,
-    32
+    332,
+    404,
+    356,
+    24
+   ],
+   "changed_ink_ratio": 0.998
+  },
+  {
+   "file": "s3_1_2.png",
+   "text": "PㄱㅋㅋY",
+   "box": [
+    1978,
+    62,
+    110,
+    23
+   ],
+   "changed_ink_ratio": 0.986
+  },
+  {
+   "file": "s3_1_2.png",
+   "text": "배숲",
+   "box": [
+    2680,
+    60,
+    44,
+    24
+   ],
+   "changed_ink_ratio": 0.959
+  },
+  {
+   "file": "s3_1_2.png",
+   "text": "체류",
+   "box": [
+    2654,
+    134,
+    46,
+    24
    ],
    "changed_ink_ratio": 0.987
   },
   {
    "file": "s3_1_2.png",
-   "text": "초돼",
+   "text": "체류",
    "box": [
-    2649,
-    221,
-    52,
-    32
+    2654,
+    224,
+    48,
+    24
    ],
    "changed_ink_ratio": 0.987
   },
   {
    "file": "s3_1_2.png",
-   "text": "쵸돼",
+   "text": "체류",
    "box": [
-    2649,
-    309,
-    56,
-    32
+    2654,
+    312,
+    46,
+    24
    ],
    "changed_ink_ratio": 0.987
   },
   {
    "file": "s3_1_2.png",
-   "text": "체리",
+   "text": "체류",
    "box": [
-    2645,
-    398,
-    56,
-    28
+    2654,
+    400,
+    48,
+    24
    ],
    "changed_ink_ratio": 0.987
   },
   {
    "file": "s4_1_2.png",
-   "text": "또쥴.ROIOㅈ×-r",
+   "text": "뜸잡hTOIㄱㅈ☆-r",
    "box": [
     100,
     72,
-    354,
+    342,
     34
    ],
-   "changed_ink_ratio": 0.924
+   "changed_ink_ratio": 0.935
   },
   {
    "file": "s4_1_2.png",
-   "text": "Iㄱㅈ당-ㅷ#",
+   "text": "IㄱㅈS-#",
    "box": [
-    124,
-    248,
-    168,
-    24
+    126,
+    250,
+    164,
+    22
    ],
-   "changed_ink_ratio": 0.968
+   "changed_ink_ratio": 0.967
   },
   {
    "file": "s4_1_2.png",
@@ -754,23 +834,23 @@
   },
   {
    "file": "s4_1_2.png",
-   "text": "2026-10-21 ~ 포(포",
+   "text": "2026-10-21 ~포호",
    "box": [
     230,
-    330,
-    176,
-    20
+    328,
+    182,
+    22
    ],
-   "changed_ink_ratio": 0.967
+   "changed_ink_ratio": 0.93
   },
   {
    "file": "s4_1_2.png",
-   "text": "주쳐사쐈-",
+   "text": "구쳐1쐈 -",
    "box": [
     124,
     362,
     134,
-    24
+    25
    ],
    "changed_ink_ratio": 0.898
   },
@@ -798,25 +878,14 @@
   },
   {
    "file": "s4_2_1.png",
-   "text": "롯콥",
+   "text": "롯1콥",
    "box": [
     129,
     210,
-    49,
+    53,
     19
    ],
-   "changed_ink_ratio": 0.987
-  },
-  {
-   "file": "s4_2_1.png",
-   "text": "ㄴㄱㅡㅽ출",
-   "box": [
-    754,
-    208,
-    89,
-    21
-   ],
-   "changed_ink_ratio": 0.963
+   "changed_ink_ratio": 0.979
   },
   {
    "file": "s4_2_1.png",
@@ -831,6 +900,28 @@
   },
   {
    "file": "s4_2_1.png",
+   "text": "11지",
+   "box": [
+    155,
+    540,
+    53,
+    19
+   ],
+   "changed_ink_ratio": 0.99
+  },
+  {
+   "file": "s4_2_1.png",
+   "text": "Vㄱ-P축",
+   "box": [
+    456,
+    542,
+    87,
+    20
+   ],
+   "changed_ink_ratio": 0.985
+  },
+  {
+   "file": "s4_2_1.png",
    "text": "J4-시y",
    "box": [
     757,
@@ -842,14 +933,14 @@
   },
   {
    "file": "s4_2_1.png",
-   "text": "#숲1치품E (SHA-256)",
+   "text": "#숲1보차품E (SHA-256)",
    "box": [
     125,
     748,
     256,
     34
    ],
-   "changed_ink_ratio": 0.937
+   "changed_ink_ratio": 0.935
   },
   {
    "file": "s4_2_1.png",
@@ -875,12 +966,12 @@
   },
   {
    "file": "s4_3_1.png",
-   "text": "수*체데C있드",
+   "text": "수1초리V학니",
    "box": [
-    1634,
+    1631,
     28,
-    175,
-    25
+    178,
+    28
    ],
    "changed_ink_ratio": 0.983
   },
@@ -897,14 +988,25 @@
   },
   {
    "file": "s4_3_1.png",
-   "text": "*포표;*",
+   "text": "2026-10-2 8a2651f0- ㄱpY• ER",
    "box": [
-    1956,
-    259,
-    125,
-    37
+    349,
+    271,
+    377,
+    22
    ],
-   "changed_ink_ratio": 1.0
+   "changed_ink_ratio": 0.998
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "2026-10-2 8a2651f0- ㄱpY• ER",
+   "box": [
+    349,
+    315,
+    377,
+    22
+   ],
+   "changed_ink_ratio": 0.999
   },
   {
    "file": "s4_3_1.png",
@@ -919,91 +1021,113 @@
   },
   {
    "file": "s4_3_1.png",
-   "text": "SYSTEMLA DataQuen 01a18107-ebaa-7060-be71-843| CLOSE ANANSWERE (LUSEU| B#꼽라",
+   "text": "표;긋쵸어",
    "box": [
-    777,
-    340,
-    1326,
-    44
-   ],
-   "changed_ink_ratio": 0.227
-  },
-  {
-   "file": "s4_3_1.png",
-   "text": "ANSWERE 신뽀큐 ]",
-   "box": [
-    1787,
-    396,
-    293,
-    31
-   ],
-   "changed_ink_ratio": 0.998
-  },
-  {
-   "file": "s4_3_1.png",
-   "text": "7 FIELD_CHA CRF_FIELD 2026-10-28a26510-ㄱPY• =TM",
-   "box": [
-    12,
-    480,
-    708,
-    28
+    1940,
+    349,
+    159,
+    34
    ],
    "changed_ink_ratio": 0.999
   },
   {
    "file": "s4_3_1.png",
-   "text": "60 10 R > C2화",
-   "box": [
-    1884,
-    461,
-    253,
-    35
-   ],
-   "changed_ink_ratio": 0.999
-  },
-  {
-   "file": "s4_3_1.png",
-   "text": "2026-10-2 8 26510-ㄱ7Y• ERM",
+   "text": "2026-10-2 8 26510- 가 Y• ER",
    "box": [
     349,
-    524,
-    377,
+    436,
+    374,
     22
    ],
-   "changed_ink_ratio": 0.999
+   "changed_ink_ratio": 0.998
   },
   {
    "file": "s4_3_1.png",
-   "text": "9 FIELD_CHA CRF_FIELD 2026-10-2 8a2051f0- ㄱpV • =RM",
+   "text": "1. 못 > C 2하",
    "box": [
-    12,
-    570,
-    708,
+    1934,
+    427,
+    193,
+    31
+   ],
+   "changed_ink_ratio": 0.997
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "7 FIELD_CHA CRF_FIELD 2026-10-2 8a26510- ㄱPV •=12V",
+   "box": [
+    16,
+    480,
+    702,
     25
    ],
    "changed_ink_ratio": 0.998
   },
   {
    "file": "s4_3_1.png",
-   "text": "10 FIELD_CHA CRF_FIELD 2026-10-2 82051f0- ㄱpY. =/R",
+   "text": "8 DATA_QU QUERY 2026-10-28a205190-JJ2 :=2지2",
    "box": [
-    9,
-    614,
-    708,
-    25
+    12,
+    517,
+    711,
+    35
    ],
-   "changed_ink_ratio": 0.999
+   "changed_ink_ratio": 0.636
   },
   {
    "file": "s4_3_1.png",
-   "text": "11 FIELD_CHA CRF_FIELD 2026-10-2 8 2651f0-ㄱ7V. =R/",
+   "text": "9 FIELD_CHA CRF_FIELD 2026-10-282651f0-ㄱpY• =T2",
+   "box": [
+    16,
+    574,
+    705,
+    28
+   ],
+   "changed_ink_ratio": 0.998
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "10 FIELD_CHA CRF_FIELD 2026-10-2 8 26510- ㄱPV. ERM",
    "box": [
     9,
-    658,
+    611,
     711,
     25
    ],
-   "changed_ink_ratio": 0.995
+   "changed_ink_ratio": 0.999
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "11 FIELD_CHA CRF_FIELD 2026-10-2 8 2651f0-ㄱ7Y. =R/",
+   "box": [
+    9,
+    664,
+    714,
+    25
+   ],
+   "changed_ink_ratio": 0.996
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "2026-10-2 8 26510- 가 Y• ER",
+   "box": [
+    349,
+    876,
+    374,
+    22
+   ],
+   "changed_ink_ratio": 0.998
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "2026-10-2 8 20510-ㄱ V• ER",
+   "box": [
+    349,
+    920,
+    377,
+    22
+   ],
+   "changed_ink_ratio": 0.998
   }
  ]
 }

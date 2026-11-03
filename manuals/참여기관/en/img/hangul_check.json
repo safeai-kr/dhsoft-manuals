@@ -1,7 +1,9 @@
 {
  "vol": "참여기관",
  "lang": "en",
- "remaining_korean": [
+ "untranslated_images": [],
+ "remaining_korean": [],
+ "behind_overlay_kept": [
   {
    "file": "s3_2_1.png",
    "text": "섹트",
@@ -11,20 +13,53 @@
     28,
     24
    ],
-   "changed_ink_ratio": 0.0
+   "why": "모달 바깥"
   }
  ],
  "false_positive_changed_pixels": [
   {
    "file": "s1_1_1.png",
-   "text": "스 E-signature",
+   "text": "탑 CRF Management",
    "box": [
-    30,
-    969,
-    204,
+    34,
+    561,
+    280,
     30
    ],
+   "changed_ink_ratio": 0.853
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "스 E-signature",
+   "box": [
+    26,
+    969,
+    208,
+    34
+   ],
    "changed_ink_ratio": 0.85
+  },
+  {
+   "file": "s2_1_1.png",
+   "text": "Register Site쵸",
+   "box": [
+    25,
+    98,
+    254,
+    48
+   ],
+   "changed_ink_ratio": 0.981
+  },
+  {
+   "file": "s2_3_1.png",
+   "text": "Edit site쵸",
+   "box": [
+    24,
+    95,
+    166,
+    42
+   ],
+   "changed_ink_ratio": 0.978
   }
  ]
 }

@@ -1,18 +1,54 @@
 {
  "vol": "Query",
  "lang": "en",
- "remaining_korean": [],
+ "untranslated_images": [],
+ "remaining_korean": [
+  {
+   "file": "s2_3_1.png",
+   "text": "Severity옓",
+   "box": [
+    791,
+    352,
+    82,
+    20
+   ],
+   "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s4_2_2.png",
+   "text": "Severity옓",
+   "box": [
+    2272,
+    25,
+    116,
+    29
+   ],
+   "changed_ink_ratio": 0.0
+  }
+ ],
+ "behind_overlay_kept": [],
  "false_positive_changed_pixels": [
   {
-   "file": "s2_1_1.png",
-   "text": "② Query scope옓",
+   "file": "s1_2_1.png",
+   "text": "스 Answer",
    "box": [
-    75,
-    537,
-    200,
-    35
+    1867,
+    805,
+    137,
+    24
    ],
-   "changed_ink_ratio": 0.984
+   "changed_ink_ratio": 0.714
+  },
+  {
+   "file": "s4_2_1.png",
+   "text": "Reopen 사뉴 * (5 characters or more)",
+   "box": [
+    64,
+    430,
+    392,
+    28
+   ],
+   "changed_ink_ratio": 0.52
   }
  ]
 }

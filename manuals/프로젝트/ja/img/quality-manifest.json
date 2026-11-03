@@ -58,11 +58,11 @@
      "tr": "新規プロジェクト作成",
      "box_px_orig": [
       13.0,
-      44.5,
+      45.0,
       155.5,
-      20.0
+      19.0
      ],
-     "font_px": 42.8,
+     "font_px": 40.7,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -77,12 +77,12 @@
      "tr": "ワークスペース: HelpTrial · 初期状態:",
      "box_px_orig": [
       13.0,
-      76.0,
+      76.5,
       214.0,
-      14.0
+      12.5
      ],
-     "font_px": 28,
-     "scale": 0.979,
+     "font_px": 26.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -96,11 +96,11 @@
      "tr": "基本情報",
      "box_px_orig": [
       38.0,
-      138.0,
+      138.5,
       61.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -117,16 +117,16 @@
       38.0,
       188.0,
       202.0,
-      14.0
+      13.5
      ],
-     "font_px": 22.9,
-     "scale": 0.821,
+     "font_px": 27.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_005",
@@ -210,12 +210,12 @@
      "tr": "研究種別 *",
      "box_px_orig": [
       38.0,
-      384.5,
+      385.0,
       64.0,
-      14.0
+      13.5
      ],
-     "font_px": 28.5,
-     "scale": 0.941,
+     "font_px": 29.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -229,9 +229,9 @@
      "tr": "研究者主導(IIT)",
      "box_px_orig": [
       55.0,
-      415.0,
+      415.5,
       93.5,
-      14.0
+      13.0
      ],
      "font_px": 27.5,
      "scale": 1.0,
@@ -305,11 +305,11 @@
      "tr": "例: Phase III ABC Study",
      "box_px_orig": [
       1170.0,
-      218.0,
+      219.5,
       147.5,
-      14.5
+      11.0
      ],
-     "font_px": 27.9,
+     "font_px": 23.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -357,27 +357,7 @@
      "flag": ""
     }
    ],
-   "flags": [
-    {
-     "id": "s1_1_1_004",
-     "ko": "프로젝트 코드 * (생성 후 변경 불가)",
-     "tr": "プロジェクトコード * (作成後は変更不可)",
-     "box_px_orig": [
-      38.0,
-      188.0,
-      202.0,
-      14.0
-     ],
-     "font_px": 22.9,
-     "scale": 0.821,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    }
-   ],
+   "flags": [],
    "placed_css_px": [
     560,
     135.6
@@ -391,7 +371,135 @@
     600
    ],
    "effective_dpi": 787.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      46.94,
+      9.608
+     ],
+     "to_pct": [
+      46.94,
+      8.738
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      9.608
+     ],
+     "to_pct": [
+      94.999,
+      8.738
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      14.407
+     ],
+     "to_pct": [
+      94.999,
+      14.146
+     ],
+     "dx_px": 0,
+     "dy_px": -12,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      18.076
+     ],
+     "to_pct": [
+      29.932,
+      15.77
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      21.393
+     ],
+     "to_pct": [
+      29.932,
+      15.779
+     ],
+     "dx_px": 0,
+     "dy_px": -258,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      21.393
+     ],
+     "to_pct": [
+      74.957,
+      20.61
+     ],
+     "dx_px": 0,
+     "dy_px": -36,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      6.926,
+      0.716
+     ],
+     "to_pct": [
+      6.926,
+      5.633
+     ],
+     "dx_px": 0,
+     "dy_px": 226,
+     "ink_before": 1.0,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      12.995,
+      3.539
+     ],
+     "to_pct": [
+      15.862,
+      3.539
+     ],
+     "dx_px": 132,
+     "dy_px": 0,
+     "ink_before": 0.026,
+     "ink_after": 0.011
+    },
+    {
+     "from_pct": [
+      13.419,
+      10.949
+     ],
+     "to_pct": [
+      15.862,
+      10.949
+     ],
+     "dx_px": 112,
+     "dy_px": 0,
+     "ink_before": 0.047,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s1_2_1.png": {
    "name": "s1_2_1.png",
@@ -428,9 +536,9 @@
       38.0,
       36.0,
       145.5,
-      16.0
+      15.5
      ],
-     "font_px": 33.9,
+     "font_px": 32.9,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -466,7 +574,7 @@
       68.0,
       125.0,
       112.0,
-      14.0
+      13.5
      ],
      "font_px": 27.5,
      "scale": 1.0,
@@ -485,7 +593,7 @@
       68.5,
       171.0,
       111.5,
-      14.0
+      13.5
      ],
      "font_px": 28.3,
      "scale": 1.0,
@@ -502,18 +610,18 @@
      "tr": "初期ロール",
      "box_px_orig": [
       38.0,
-      217.5,
+      218.0,
       55.0,
-      14.0
+      13.5
      ],
-     "font_px": 23.2,
-     "scale": 0.781,
+     "font_px": 28.7,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_2_1_022",
@@ -575,25 +683,6 @@
    ],
    "flags": [
     {
-     "id": "s1_2_1_021",
-     "ko": "초기 역할",
-     "tr": "初期ロール",
-     "box_px_orig": [
-      38.0,
-      217.5,
-      55.0,
-      14.0
-     ],
-     "font_px": 23.2,
-     "scale": 0.781,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s1_2_1_023",
      "ko": "취소",
      "tr": "キャンセル",
@@ -645,7 +734,79 @@
     600
    ],
    "effective_dpi": 787.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.999,
+      5.585
+     ],
+     "to_pct": [
+      97.28,
+      4.715
+     ],
+     "dx_px": 105,
+     "dy_px": -40,
+     "ink_before": 0.035,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      88.93,
+      7.561
+     ],
+     "to_pct": [
+      88.93,
+      8.736
+     ],
+     "dx_px": 0,
+     "dy_px": 54,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.294,
+      11.866
+     ],
+     "to_pct": [
+      97.28,
+      11.3
+     ],
+     "dx_px": 137,
+     "dy_px": -26,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      97.681,
+      11.866
+     ],
+     "to_pct": [
+      97.28,
+      10.952
+     ],
+     "dx_px": -18,
+     "dy_px": -42,
+     "ink_before": 0.036,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      26.404,
+      10.666
+     ],
+     "to_pct": [
+      29.058,
+      10.666
+     ],
+     "dx_px": 122,
+     "dy_px": 0,
+     "ink_before": 0.053,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s2_1_1.png": {
    "name": "s2_1_1.png",
@@ -718,11 +879,11 @@
      "tr": "乳がん2相 SGS-ONCO-01",
      "box_px_orig": [
       184.5,
-      25.0,
+      25.5,
       163.0,
-      13.5
+      13.0
      ],
-     "font_px": 28.8,
+     "font_px": 27.8,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -736,13 +897,13 @@
      "ko": "운영 중",
      "tr": "運用中",
      "box_px_orig": [
-      405.5,
-      14.5,
-      49.0,
-      19.0
+      411.0,
+      18.0,
+      36.0,
+      12.0
      ],
-     "font_px": 34.2,
-     "scale": 0.922,
+     "font_px": 25.3,
+     "scale": 0.962,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -912,8 +1073,8 @@
       79.0,
       13.0
      ],
-     "font_px": 27.9,
-     "scale": 0.982,
+     "font_px": 28.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -950,14 +1111,14 @@
       82.5,
       13.0
      ],
-     "font_px": 19.3,
-     "scale": 0.68,
+     "font_px": 28.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_040",
@@ -1024,7 +1185,7 @@
       42.5,
       594.0,
       105.5,
-      14.0
+      13.0
      ],
      "font_px": 27.6,
      "scale": 1.0,
@@ -1197,8 +1358,8 @@
       240.5,
       19.0
      ],
-     "font_px": 32.8,
-     "scale": 0.94,
+     "font_px": 34.9,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1231,11 +1392,11 @@
      "tr": "基本情報",
      "box_px_orig": [
       275.0,
-      246.0,
+      246.5,
       61.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1273,8 +1434,8 @@
       20.5,
       11.0
      ],
-     "font_px": 21.6,
-     "scale": 0.882,
+     "font_px": 24.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1290,16 +1451,16 @@
       275.5,
       362.0,
       372.0,
-      14.5
+      13.5
      ],
-     "font_px": 23.3,
-     "scale": 0.841,
+     "font_px": 27.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_058",
@@ -1311,8 +1472,8 @@
       21.0,
       11.0
      ],
-     "font_px": 22.1,
-     "scale": 0.88,
+     "font_px": 25.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1326,9 +1487,9 @@
      "tr": "研究者主導(IIT)",
      "box_px_orig": [
       275.0,
-      412.0,
+      412.5,
       93.5,
-      14.0
+      13.0
      ],
      "font_px": 27.5,
      "scale": 1.0,
@@ -1402,14 +1563,14 @@
      "tr": "状態ワークフロー",
      "box_px_orig": [
       275.0,
-      696.0,
+      696.5,
       89.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32.1,
      "scale": 1.0,
      "weight": 700,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
@@ -1442,9 +1603,9 @@
       275.0,
       840.0,
       60.0,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1459,11 +1620,11 @@
      "tr": "参加施設管理",
      "box_px_orig": [
       312.0,
-      900.5,
+      901.0,
       83.5,
-      14.0
+      13.5
      ],
-     "font_px": 29.7,
+     "font_px": 28.7,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1482,14 +1643,14 @@
       88.0,
       20.0
      ],
-     "font_px": 20.6,
-     "scale": 0.841,
+     "font_px": 24.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_068",
@@ -1555,11 +1716,11 @@
      "box_px_orig": [
       312.5,
       971.0,
-      62.0,
-      23.0
+      53.5,
+      13.5
      ],
-     "font_px": 32.4,
-     "scale": 0.88,
+     "font_px": 28.8,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1572,13 +1733,13 @@
      "ko": "권한 변경 이력",
      "tr": "権限変更履歴",
      "box_px_orig": [
-      312.0,
+      314.0,
       980.5,
-      65.0,
-      19.5
+      52.0,
+      4.0
      ],
-     "font_px": 22.6,
-     "scale": 0.919,
+     "font_px": 9.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1611,11 +1772,11 @@
      "tr": "乳がん2相 SGS-ONCO-01",
      "box_px_orig": [
       1392.0,
-      312.0,
+      312.5,
       161.5,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1748,14 +1909,14 @@
       108.5,
       20.0
      ],
-     "font_px": 19.2,
-     "scale": 0.78,
+     "font_px": 24.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_082",
@@ -1786,8 +1947,8 @@
       74.5,
       10.0
      ],
-     "font_px": 19.4,
-     "scale": 0.878,
+     "font_px": 22.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1805,8 +1966,8 @@
       50.5,
       11.0
      ],
-     "font_px": 23,
-     "scale": 0.958,
+     "font_px": 24,
+     "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1843,14 +2004,14 @@
       64.5,
       20.0
      ],
-     "font_px": 12.7,
-     "scale": 0.518,
+     "font_px": 24.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_1_1_087",
@@ -1895,13 +2056,13 @@
      "ko": "상태 변경",
      "tr": "状態変更",
      "box_px_orig": [
-      2413.5,
+      2437.0,
       689.0,
-      83.5,
+      60.0,
       32.0
      ],
-     "font_px": 44.2,
-     "scale": 0.9,
+     "font_px": 31.8,
+     "scale": 0.901,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1929,101 +2090,6 @@
      "align": "left",
      "role": "title",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_039",
-     "ko": "설계 버전 관리",
-     "tr": "設計バージョン管理",
-     "box_px_orig": [
-      42.5,
-      422.0,
-      82.5,
-      13.0
-     ],
-     "font_px": 19.3,
-     "scale": 0.68,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_057",
-     "ko": "HER2+ 유방암 2-Arm 21일 주기 항암 치료 2상 (cycle 시나리오)",
-     "tr": "HER2陽性乳がん、2群、21日周期の抗がん剤治療、2相 (サイクルシナリオ)",
-     "box_px_orig": [
-      275.5,
-      362.0,
-      372.0,
-      14.5
-     ],
-     "font_px": 23.3,
-     "scale": 0.841,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_067",
-     "ko": "참여 기관 목록·집계",
-     "tr": "参加施設一覧・集計",
-     "box_px_orig": [
-      312.0,
-      910.0,
-      88.0,
-      20.0
-     ],
-     "font_px": 20.6,
-     "scale": 0.841,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_081",
-     "ko": "참여 기관별 연구자 관리",
-     "tr": "参加施設ごとの研究者管理",
-     "box_px_orig": [
-      1055.5,
-      910.0,
-      108.5,
-      20.0
-     ],
-     "font_px": 19.2,
-     "scale": 0.78,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_086",
-     "ko": "역할·권한 배정",
-     "tr": "ロール · 権限の割り当て",
-     "box_px_orig": [
-      1799.0,
-      910.0,
-      64.5,
-      20.0
-     ],
-     "font_px": 12.7,
-     "scale": 0.518,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_1_1_087",
@@ -2058,7 +2124,65 @@
     900
    ],
    "effective_dpi": 867.8,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      15.959,
+      33.32
+     ],
+     "to_pct": [
+      8.416,
+      33.32
+     ],
+     "dx_px": -382,
+     "dy_px": 0,
+     "ink_before": 0.052,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      6.432,
+      30.356
+     ],
+     "to_pct": [
+      8.416,
+      30.356
+     ],
+     "dx_px": 100,
+     "dy_px": 0,
+     "ink_before": 0.024,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      16.947,
+      3.397
+     ],
+     "to_pct": [
+      16.95,
+      9.442
+     ],
+     "dx_px": 0,
+     "dy_px": 306,
+     "ink_before": 0.052,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      15.395,
+      9.961
+     ],
+     "to_pct": [
+      16.95,
+      9.961
+     ],
+     "dx_px": 79,
+     "dy_px": 0,
+     "ink_before": 0.012,
+     "ink_after": 0.012
+    }
+   ]
   },
   "s2_2_1.png": {
    "name": "s2_2_1.png",
@@ -2131,11 +2255,11 @@
      "tr": "SGS-ONCO-01 · · 作成 2026-07-30T06:00:31.7394952Z",
      "box_px_orig": [
       40.0,
-      91.0,
+      92.0,
       295.0,
-      11.0
+      9.5
      ],
-     "font_px": 24.1,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2150,11 +2274,11 @@
      "tr": "基本情報",
      "box_px_orig": [
       40.0,
-      174.0,
+      174.5,
       61.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2169,9 +2293,9 @@
      "tr": "ACTIVE以降 — プロトコル番号は変更不可 (PM決定 #1A)",
      "box_px_orig": [
       47.5,
-      229.5,
+      230.0,
       263.5,
-      11.0
+      10.5
      ],
      "font_px": 21.5,
      "scale": 1.0,
@@ -2190,16 +2314,16 @@
       40.0,
       273.0,
       118.0,
-      14.0
+      13.5
      ],
-     "font_px": 22.5,
-     "scale": 0.801,
+     "font_px": 28.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_096",
@@ -2228,16 +2352,16 @@
       53.5,
       380.0,
       372.0,
-      14.5
+      13.5
      ],
-     "font_px": 23.3,
-     "scale": 0.841,
+     "font_px": 27.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_098",
@@ -2245,18 +2369,18 @@
      "tr": "種別",
      "box_px_orig": [
       40.0,
-      448.5,
-      30.5,
-      21.0
+      449.0,
+      25.0,
+      13.5
      ],
-     "font_px": 32.2,
-     "scale": 0.799,
+     "font_px": 29.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_099",
@@ -2264,9 +2388,9 @@
      "tr": "研究者主導(IIT)",
      "box_px_orig": [
       57.0,
-      479.0,
+      479.5,
       93.5,
-      14.0
+      13.0
      ],
      "font_px": 27.5,
      "scale": 1.0,
@@ -2359,11 +2483,11 @@
      "tr": "乳がん2相 SGS-ONCO-01",
      "box_px_orig": [
       1163.0,
-      304.0,
+      304.5,
       161.0,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2380,7 +2504,7 @@
       1150.0,
       449.0,
       121.0,
-      14.0
+      13.5
      ],
      "font_px": 28.1,
      "scale": 1.0,
@@ -2420,8 +2544,8 @@
       67.0,
       13.5
      ],
-     "font_px": 28.2,
-     "scale": 0.943,
+     "font_px": 29.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2434,12 +2558,12 @@
      "ko": "연도-월-일",
      "tr": "年-月-日",
      "box_px_orig": [
-      1136.0,
-      622.5,
-      94.0,
-      30.0
+      1163.5,
+      631.0,
+      66.5,
+      13.5
      ],
-     "font_px": 47.1,
+     "font_px": 30.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2458,15 +2582,14 @@
       22.0,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 15.2,
+     "scale": 0.578,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 81
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_2_1_114",
@@ -2478,8 +2601,8 @@
       22.5,
       12.0
      ],
-     "font_px": 23.6,
-     "scale": 0.901,
+     "font_px": 26.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2490,61 +2613,23 @@
    ],
    "flags": [
     {
-     "id": "s2_2_1_095",
-     "ko": "프로토콜 번호 (잠금)",
-     "tr": "プロトコル番号 (ロック)",
+     "id": "s2_2_1_112",
+     "ko": "취소",
+     "tr": "キャンセル",
      "box_px_orig": [
-      40.0,
-      273.0,
-      118.0,
-      14.0
+      2134.0,
+      74.5,
+      22.0,
+      12.0
      ],
-     "font_px": 22.5,
-     "scale": 0.801,
+     "font_px": 15.2,
+     "scale": 0.578,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_097",
-     "ko": "HER2+ 유방암 2-Arm 21일 주기 항암 치료 2상 (cycle 시나리오)",
-     "tr": "HER2陽性乳がん、2群、21日周期の抗がん剤治療、2相 (サイクルシナリオ)",
-     "box_px_orig": [
-      53.5,
-      380.0,
-      372.0,
-      14.5
-     ],
-     "font_px": 23.3,
-     "scale": 0.841,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_098",
-     "ko": "유형",
-     "tr": "種別",
-     "box_px_orig": [
-      40.0,
-      448.5,
-      30.5,
-      21.0
-     ],
-     "font_px": 32.2,
-     "scale": 0.799,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "placed_css_px": [
@@ -2560,7 +2645,177 @@
     600
    ],
    "effective_dpi": 781.4,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.999,
+      13.418
+     ],
+     "to_pct": [
+      96.314,
+      12.54
+     ],
+     "dx_px": 60,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      17.229
+     ],
+     "to_pct": [
+      96.314,
+      17.053
+     ],
+     "dx_px": 60,
+     "dy_px": -8,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      21.04
+     ],
+     "to_pct": [
+      29.932,
+      18.714
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      24.428
+     ],
+     "to_pct": [
+      29.932,
+      18.724
+     ],
+     "dx_px": 0,
+     "dy_px": -260,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      24.428
+     ],
+     "to_pct": [
+      74.957,
+      18.724
+     ],
+     "dx_px": 0,
+     "dy_px": -260,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      27.674
+     ],
+     "to_pct": [
+      29.932,
+      18.723
+     ],
+     "dx_px": 0,
+     "dy_px": -408,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      27.674
+     ],
+     "to_pct": [
+      74.957,
+      18.723
+     ],
+     "dx_px": 0,
+     "dy_px": -408,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      96.834,
+      1.351
+     ],
+     "to_pct": [
+      96.314,
+      7.362
+     ],
+     "dx_px": -24,
+     "dy_px": 274,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      15.959,
+      0.574
+     ],
+     "to_pct": [
+      15.95,
+      2.022
+     ],
+     "dx_px": 0,
+     "dy_px": 66,
+     "ink_before": 1.0,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      15.395,
+      10.172
+     ],
+     "to_pct": [
+      15.95,
+      10.172
+     ],
+     "dx_px": 25,
+     "dy_px": 0,
+     "ink_before": 0.002,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      46.94,
+      13.418
+     ],
+     "to_pct": [
+      46.94,
+      12.54
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      21.04
+     ],
+     "to_pct": [
+      74.957,
+      18.714
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s3_1_1.png": {
    "name": "s3_1_1.png",
@@ -2633,11 +2888,11 @@
      "tr": "状態変更",
      "box_px_orig": [
       168.0,
-      13.5,
+      14.0,
       46.5,
-      12.0
+      11.5
      ],
-     "font_px": 25.7,
+     "font_px": 24.6,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2671,11 +2926,11 @@
      "tr": "サンプルプロジェクト005 (PRJ-005)",
      "box_px_orig": [
       43.5,
-      77.0,
+      77.5,
       182.5,
-      14.0
+      12.5
      ],
-     "font_px": 28.3,
+     "font_px": 26.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2692,9 +2947,9 @@
       36.0,
       138.0,
       60.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2713,8 +2968,8 @@
       41.5,
       13.5
      ],
-     "font_px": 29,
-     "scale": 0.983,
+     "font_px": 29.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2728,11 +2983,11 @@
      "tr": "最終変更: 2026-07-30T06:00:00.674062Z",
      "box_px_orig": [
       106.5,
-      189.0,
+      189.5,
       245.0,
-      11.0
+      10.5
      ],
-     "font_px": 24,
+     "font_px": 23.8,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2806,9 +3061,9 @@
       36.0,
       352.0,
       92.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.1,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2823,11 +3078,11 @@
      "tr": "設定中 → テスト",
      "box_px_orig": [
       48.0,
-      406.5,
+      407.0,
       88.0,
-      12.0
+      11.5
      ],
-     "font_px": 26.3,
+     "font_px": 25.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2842,11 +3097,11 @@
      "tr": "設定中 → テスト 移行の検証",
      "box_px_orig": [
       36.0,
-      498.0,
+      498.5,
       177.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2917,12 +3172,12 @@
      "ko": "예: CRF 설계 완료 및 내부 검증 통과",
      "tr": "例: CRF設計の完了と社内検証の合格",
      "box_px_orig": [
-      36.0,
-      628.0,
-      224.0,
-      32.0
+      48.5,
+      639.0,
+      211.5,
+      13.0
      ],
-     "font_px": 33.2,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2941,15 +3196,14 @@
       22.0,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 14.2,
+     "scale": 0.54,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 117
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_1_1_134",
@@ -2971,7 +3225,27 @@
      "flag": ""
     }
    ],
-   "flags": [],
+   "flags": [
+    {
+     "id": "s3_1_1_133",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      2169.0,
+      730.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 14.2,
+     "scale": 0.54,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ],
    "placed_css_px": [
     560,
     201.9
@@ -2985,7 +3259,107 @@
     900
    ],
    "effective_dpi": 784.5,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      8.479,
+      17.935
+     ],
+     "to_pct": [
+      20.476,
+      17.935
+     ],
+     "dx_px": 549,
+     "dy_px": 0,
+     "ink_before": 0.006,
+     "ink_after": 0.006
+    },
+    {
+     "from_pct": [
+      94.999,
+      28.944
+     ],
+     "to_pct": [
+      97.268,
+      26.016
+     ],
+     "dx_px": 104,
+     "dy_px": -134,
+     "ink_before": 0.029,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      97.258,
+      34.308
+     ],
+     "to_pct": [
+      97.268,
+      26.048
+     ],
+     "dx_px": 0,
+     "dy_px": -378,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      11.443,
+      0.716
+     ],
+     "to_pct": [
+      20.476,
+      2.027
+     ],
+     "dx_px": 413,
+     "dy_px": 60,
+     "ink_before": 1.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      16.947,
+      8.478
+     ],
+     "to_pct": [
+      20.476,
+      8.478
+     ],
+     "dx_px": 162,
+     "dy_px": 0,
+     "ink_before": 0.008,
+     "ink_after": 0.008
+    },
+    {
+     "from_pct": [
+      20.476,
+      12.007
+     ],
+     "to_pct": [
+      20.476,
+      9.166
+     ],
+     "dx_px": 0,
+     "dy_px": -130,
+     "ink_before": 0.034,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.407,
+      24.992
+     ],
+     "to_pct": [
+      20.476,
+      24.992
+     ],
+     "dx_px": 278,
+     "dy_px": 0,
+     "ink_before": 0.022,
+     "ink_after": 0.0
+    }
+   ]
   },
   "s3_2_1.png": {
    "name": "s3_2_1.png",
@@ -3020,11 +3394,11 @@
      "tr": "ダッシュボード / プロジェクト設定 / 状態変更",
      "box_px_orig": [
       14.5,
-      13.5,
+      14.0,
       203.0,
-      12.0
+      11.5
      ],
-     "font_px": 27.4,
+     "font_px": 27,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3058,11 +3432,11 @@
      "tr": "サンプルプロジェクト005 (PRJ-005)",
      "box_px_orig": [
       46.5,
-      77.0,
+      77.5,
       182.5,
-      14.0
+      12.5
      ],
-     "font_px": 28.3,
+     "font_px": 26.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3079,9 +3453,9 @@
       39.0,
       138.0,
       60.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3095,13 +3469,13 @@
      "ko": "테스트",
      "tr": "テスト",
      "box_px_orig": [
-      40.5,
-      183.0,
-      53.5,
-      22.5
+      47.5,
+      188.5,
+      38.0,
+      12.5
      ],
-     "font_px": 41.5,
-     "scale": 0.92,
+     "font_px": 28.4,
+     "scale": 0.979,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3115,11 +3489,11 @@
      "tr": "最終変更: 2026-10-27T01:25:34.847398Z",
      "box_px_orig": [
       106.0,
-      189.0,
+      189.5,
       237.0,
-      11.0
+      10.5
      ],
-     "font_px": 24,
+     "font_px": 23.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3153,9 +3527,9 @@
      "tr": "テスト (現在)",
      "box_px_orig": [
       110.0,
-      264.5,
+      265.0,
       98.0,
-      24.5
+      24.0
      ],
      "font_px": 34.7,
      "scale": 0.859,
@@ -3193,9 +3567,9 @@
       39.0,
       352.0,
       92.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.1,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3209,13 +3583,13 @@
      "ko": "테스트 → 설정 중",
      "tr": "テスト → 設定中",
      "box_px_orig": [
-      43.0,
-      397.5,
-      95.5,
-      21.0
+      51.0,
+      407.0,
+      87.5,
+      11.5
      ],
-     "font_px": 26.8,
-     "scale": 0.902,
+     "font_px": 25.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3248,11 +3622,11 @@
      "tr": "テスト → 運用中 移行の検証",
      "box_px_orig": [
       39.5,
-      498.0,
+      498.5,
       176.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3305,11 +3679,11 @@
      "tr": "副作用",
      "box_px_orig": [
       52.5,
-      617.0,
+      617.5,
       52.5,
-      14.0
+      13.5
      ],
-     "font_px": 33.1,
+     "font_px": 31.9,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3324,11 +3698,11 @@
      "tr": "テストデータが物理削除されることがあります。",
      "box_px_orig": [
       69.5,
-      637.5,
+      638.0,
       202.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.2,
+     "font_px": 25.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3385,15 +3759,14 @@
       22.0,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 14.2,
+     "scale": 0.54,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 116
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_2_1_155",
@@ -3415,7 +3788,27 @@
      "flag": ""
     }
    ],
-   "flags": [],
+   "flags": [
+    {
+     "id": "s3_2_1_154",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      2172.0,
+      808.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 14.2,
+     "scale": 0.54,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    }
+   ],
    "placed_css_px": [
     560,
     214.6
@@ -3429,7 +3822,107 @@
     900
    ],
    "effective_dpi": 783.4,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      4.033,
+      20.193
+     ],
+     "to_pct": [
+      6.937,
+      33.76
+     ],
+     "dx_px": 133,
+     "dy_px": 620,
+     "ink_before": 0.08,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      13.701,
+      17.935
+     ],
+     "to_pct": [
+      20.897,
+      17.935
+     ],
+     "dx_px": 329,
+     "dy_px": 0,
+     "ink_before": 0.016,
+     "ink_after": 0.005
+    },
+    {
+     "from_pct": [
+      97.54,
+      33.32
+     ],
+     "to_pct": [
+      95.965,
+      33.32
+     ],
+     "dx_px": -72,
+     "dy_px": 0,
+     "ink_before": 0.067,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      16.947,
+      8.478
+     ],
+     "to_pct": [
+      20.897,
+      8.478
+     ],
+     "dx_px": 181,
+     "dy_px": 0,
+     "ink_before": 0.008,
+     "ink_after": 0.008
+    },
+    {
+     "from_pct": [
+      20.899,
+      12.007
+     ],
+     "to_pct": [
+      20.897,
+      9.162
+     ],
+     "dx_px": 0,
+     "dy_px": -130,
+     "ink_before": 0.027,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.407,
+      24.992
+     ],
+     "to_pct": [
+      20.897,
+      24.992
+     ],
+     "dx_px": 297,
+     "dy_px": 0,
+     "ink_before": 0.039,
+     "ink_after": 0.015
+    },
+    {
+     "from_pct": [
+      6.926,
+      27.109
+     ],
+     "to_pct": [
+      6.937,
+      33.717
+     ],
+     "dx_px": 0,
+     "dy_px": 302,
+     "ink_before": 0.105,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s3_3_1.png": {
    "name": "s3_3_1.png",
@@ -3525,15 +4018,14 @@
       21.5,
       11.0
      ],
-     "font_px": 16.5,
-     "scale": 0.671,
+     "font_px": 15.2,
+     "scale": 0.618,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 11
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_3_1_160",
@@ -3541,11 +4033,11 @@
      "tr": "削除して続行",
      "box_px_orig": [
       426.0,
-      176.5,
+      177.0,
       69.0,
-      12.0
+      11.0
      ],
-     "font_px": 26.3,
+     "font_px": 24.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3566,15 +4058,14 @@
       21.5,
       11.0
      ],
-     "font_px": 16.5,
-     "scale": 0.671,
+     "font_px": 15.2,
+     "scale": 0.618,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 11
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "placed_css_px": [
@@ -3590,7 +4081,23 @@
     900
    ],
    "effective_dpi": 206.6,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      80.028,
+      16.512
+     ],
+     "to_pct": [
+      80.365,
+      16.512
+     ],
+     "dx_px": 4,
+     "dy_px": 0,
+     "ink_before": 0.025,
+     "ink_after": 0.015
+    }
+   ]
   },
   "s3_4_1.png": {
    "name": "s3_4_1.png",
@@ -3627,7 +4134,7 @@
       81.0,
       37.0,
       157.5,
-      14.0
+      13.5
      ],
      "font_px": 27.1,
      "scale": 1.0,
@@ -3731,8 +4238,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 1
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_4_1_167",
@@ -3740,18 +4246,18 @@
      "tr": "ACTIVEに切り替える",
      "box_px_orig": [
       409.5,
-      207.5,
+      208.0,
       77.5,
-      12.0
+      11.5
      ],
-     "font_px": 16.9,
-     "scale": 0.643,
+     "font_px": 19.5,
+     "scale": 0.759,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "flags": [
@@ -3791,8 +4297,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 1
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_4_1_167",
@@ -3800,18 +4305,18 @@
      "tr": "ACTIVEに切り替える",
      "box_px_orig": [
       409.5,
-      207.5,
+      208.0,
       77.5,
-      12.0
+      11.5
      ],
-     "font_px": 16.9,
-     "scale": 0.643,
+     "font_px": 19.5,
+     "scale": 0.759,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -3827,7 +4332,51 @@
     900
    ],
    "effective_dpi": 206.9,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      44.539,
+      7.226
+     ],
+     "to_pct": [
+      53.109,
+      7.226
+     ],
+     "dx_px": 102,
+     "dy_px": 0,
+     "ink_before": 0.244,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      88.486,
+      15.683
+     ],
+     "to_pct": [
+      90.336,
+      15.683
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      59.962,
+      23.643
+     ],
+     "to_pct": [
+      59.962,
+      26.5
+     ],
+     "dx_px": 0,
+     "dy_px": 34,
+     "ink_before": 0.1,
+     "ink_after": 0.017
+    }
+   ]
   },
   "s3_5_1.png": {
    "name": "s3_5_1.png",
@@ -3864,9 +4413,9 @@
       26.0,
       10.5,
       91.0,
-      28.0
+      19.5
      ],
-     "font_px": 53.2,
+     "font_px": 46.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3881,11 +4430,11 @@
      "tr": "乳がん2相 SGS-ONCO-01 (SGS-ONCO-01)",
      "box_px_orig": [
       40.0,
-      40.0,
+      41.0,
       268.0,
-      14.0
+      12.0
      ],
-     "font_px": 27.2,
+     "font_px": 25.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3902,9 +4451,9 @@
       33.0,
       101.0,
       60.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3918,13 +4467,13 @@
      "ko": "운영 중",
      "tr": "運用中",
      "box_px_orig": [
-      36.5,
-      146.5,
-      54.0,
-      23.0
+      41.0,
+      151.0,
+      42.0,
+      13.5
      ],
-     "font_px": 37.6,
-     "scale": 0.919,
+     "font_px": 29.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3938,11 +4487,11 @@
      "tr": "最終変更: 2026-07-30T06:00:31.7394952Z",
      "box_px_orig": [
       103.5,
-      152.0,
+      152.5,
       241.0,
-      11.0
+      10.5
      ],
-     "font_px": 24,
+     "font_px": 22.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3978,9 +4527,9 @@
       33.0,
       315.0,
       92.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.1,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3999,8 +4548,8 @@
       77.0,
       12.0
      ],
-     "font_px": 24.7,
-     "scale": 0.939,
+     "font_px": 26.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4014,11 +4563,11 @@
      "tr": "運用中 → 終了 移行の検証",
      "box_px_orig": [
       33.0,
-      461.0,
+      461.5,
       162.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4071,18 +4620,18 @@
      "tr": "この移行には電子署名 (21 CFR Part 11) が必要です。実行すると電子署名のモーダルが表示されます。",
      "box_px_orig": [
       70.5,
-      580.5,
+      581.0,
       265.0,
-      12.5
+      11.5
      ],
-     "font_px": 19.8,
-     "scale": 0.822,
+     "font_px": 24.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_5_1_181",
@@ -4127,19 +4676,19 @@
      "ko": "취소",
      "tr": "キャンセル",
      "box_px_orig": [
-      2159.5,
+      2166.0,
       770.5,
-      33.5,
-      22.5
+      22.0,
+      11.5
      ],
-     "font_px": 18.6,
-     "scale": 0.439,
+     "font_px": 12.1,
+     "scale": 0.48,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_5_1_184",
@@ -4163,42 +4712,23 @@
    ],
    "flags": [
     {
-     "id": "s3_5_1_179",
-     "ko": "이 전이에는 전자서명(21 CFR Part 11)이 필요합니다. 실행 시 전자서명 모달이 표시됩니다.",
-     "tr": "この移行には電子署名 (21 CFR Part 11) が必要です。実行すると電子署名のモーダルが表示されます。",
-     "box_px_orig": [
-      70.5,
-      580.5,
-      265.0,
-      12.5
-     ],
-     "font_px": 19.8,
-     "scale": 0.822,
-     "weight": 400,
-     "paragraph_lines": 2,
-     "lines_in_segment": 2,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s3_5_1_183",
      "ko": "취소",
      "tr": "キャンセル",
      "box_px_orig": [
-      2159.5,
+      2166.0,
       770.5,
-      33.5,
-      22.5
+      22.0,
+      11.5
      ],
-     "font_px": 18.6,
-     "scale": 0.439,
+     "font_px": 12.1,
+     "scale": 0.48,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "placed_css_px": [
@@ -4214,7 +4744,93 @@
     900
    ],
    "effective_dpi": 781.4,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.943,
+      30.743
+     ],
+     "to_pct": [
+      96.029,
+      30.743
+     ],
+     "dx_px": 49,
+     "dy_px": 0,
+     "ink_before": 0.014,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      97.437,
+      36.375
+     ],
+     "to_pct": [
+      96.029,
+      36.507
+     ],
+     "dx_px": -64,
+     "dy_px": 6,
+     "ink_before": 0.023,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      16.906,
+      6.93
+     ],
+     "to_pct": [
+      19.965,
+      6.93
+     ],
+     "dx_px": 139,
+     "dy_px": 0,
+     "ink_before": 0.009,
+     "ink_after": 0.009
+    },
+    {
+     "from_pct": [
+      19.963,
+      10.47
+     ],
+     "to_pct": [
+      19.965,
+      7.574
+     ],
+     "dx_px": 0,
+     "dy_px": -132,
+     "ink_before": 0.042,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.492,
+      23.422
+     ],
+     "to_pct": [
+      19.965,
+      23.422
+     ],
+     "dx_px": 249,
+     "dy_px": 0,
+     "ink_before": 0.035,
+     "ink_after": 0.015
+    },
+    {
+     "from_pct": [
+      19.963,
+      25.916
+     ],
+     "to_pct": [
+      19.965,
+      25.389
+     ],
+     "dx_px": 0,
+     "dy_px": -24,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s3_5_2.png": {
    "name": "s3_5_2.png",
@@ -4234,7 +4850,7 @@
     246
    ],
    "output_px": [
-    4648,
+    4574,
     492
    ],
    "scale": 2,
@@ -4268,9 +4884,9 @@
      "tr": "終了",
      "box_px_orig": [
       44.0,
-      50.5,
+      51.0,
       26.5,
-      19.0
+      18.0
      ],
      "font_px": 33.5,
      "scale": 1.0,
@@ -4291,15 +4907,14 @@
       30.5,
       31.0
      ],
-     "font_px": 36.0,
-     "scale": 0.9,
+     "font_px": 32,
+     "scale": 0.8,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "x_s3_5_2_000",
@@ -4322,6 +4937,25 @@
     }
    ],
    "flags": [
+    {
+     "id": "s3_5_2_187",
+     "ko": "실행",
+     "tr": "実行",
+     "box_px_orig": [
+      2210.0,
+      135.5,
+      30.5,
+      31.0
+     ],
+     "font_px": 32,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
     {
      "id": "x_s3_5_2_000",
      "ko": "취소",
@@ -4356,7 +4990,16 @@
    ],
    "effective_dpi": 784.1,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 74
+   "markers_moved": [
+    {
+     "from_pct": [
+      97.035,
+      8.941
+     ],
+     "stuck": true,
+     "ink": 1.0
+    }
+   ]
   },
   "s3_6_1.png": {
    "name": "s3_6_1.png",
@@ -4391,11 +5034,11 @@
      "tr": "プロジェクト終了の確認 (ACTIVE → CLOSED)",
      "box_px_orig": [
       70.0,
-      39.0,
+      39.5,
       248.0,
-      14.0
+      13.0
      ],
-     "font_px": 27.4,
+     "font_px": 27.2,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4409,19 +5052,19 @@
      "ko": "종료 시 프로젝트 단위 HARD_LOCK이 자동 적용되어 데이터 편집이 차단 됩니다 (읽기·추출만 가능). 하위 모든 Site도 자동 종료됩니다.",
      "tr": "終了時にはプロジェクト単位のHARD_LOCKが自動的に適用され、データ編集がブロックされます (閲覧・抽出のみ可能)。下位のSiteもすべて自動的に終了します。",
      "box_px_orig": [
-      102.5,
-      96.5,
-      365.0,
-      18.5
+      103.0,
+      113.0,
+      294.5,
+      2.0
      ],
-     "font_px": 21,
-     "scale": 0.781,
+     "font_px": 11.3,
+     "scale": 0.481,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_6_1_191",
@@ -4429,18 +5072,18 @@
      "tr": "電子署名 (21 CFR Part 11) が必要です。同意したうえで電子署名パスワードで署名すると、終了が実行されます。",
      "box_px_orig": [
       103.5,
-      158.0,
-      366.0,
-      18.0
+      174.0,
+      209.0,
+      2.0
      ],
-     "font_px": 30.2,
-     "scale": 0.88,
+     "font_px": 15.6,
+     "scale": 0.78,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_6_1_193",
@@ -4448,18 +5091,18 @@
      "tr": "プロジェクト単位のHARD_LOCKの適用とデータ編集のブロックに同意します。",
      "box_px_orig": [
       91.5,
-      210.5,
+      211.0,
       339.0,
-      12.0
+      11.5
      ],
-     "font_px": 19.7,
-     "scale": 0.758,
+     "font_px": 23.9,
+     "scale": 0.96,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_6_1_194",
@@ -4471,15 +5114,14 @@
       21.5,
       11.0
      ],
-     "font_px": 15.5,
-     "scale": 0.63,
+     "font_px": 15.2,
+     "scale": 0.618,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 8
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_6_1_195",
@@ -4487,12 +5129,12 @@
      "tr": "終了を実行",
      "box_px_orig": [
       429.0,
-      263.5,
+      264.0,
       46.5,
-      12.0
+      11.5
      ],
-     "font_px": 23.5,
-     "scale": 0.893,
+     "font_px": 25.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4507,37 +5149,37 @@
      "ko": "종료 시 프로젝트 단위 HARD_LOCK이 자동 적용되어 데이터 편집이 차단 됩니다 (읽기·추출만 가능). 하위 모든 Site도 자동 종료됩니다.",
      "tr": "終了時にはプロジェクト単位のHARD_LOCKが自動的に適用され、データ編集がブロックされます (閲覧・抽出のみ可能)。下位のSiteもすべて自動的に終了します。",
      "box_px_orig": [
-      102.5,
-      96.5,
-      365.0,
-      18.5
+      103.0,
+      113.0,
+      294.5,
+      2.0
      ],
-     "font_px": 21,
-     "scale": 0.781,
+     "font_px": 11.3,
+     "scale": 0.481,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
-     "id": "s3_6_1_193",
-     "ko": "프로젝트 단위 HARD_LOCK 적용 및 데이터 편집 차단에 동의합니다.",
-     "tr": "プロジェクト単位のHARD_LOCKの適用とデータ編集のブロックに同意します。",
+     "id": "s3_6_1_191",
+     "ko": "전자서명(21 CFR Part 11)이 필요합니다. 동의 후 전자서 명 비밀번호로 서명하면 종료가 실행됩니다.",
+     "tr": "電子署名 (21 CFR Part 11) が必要です。同意したうえで電子署名パスワードで署名すると、終了が実行されます。",
      "box_px_orig": [
-      91.5,
-      210.5,
-      339.0,
-      12.0
+      103.5,
+      174.0,
+      209.0,
+      2.0
      ],
-     "font_px": 19.7,
-     "scale": 0.758,
+     "font_px": 15.6,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
-     "lines_in_segment": 1,
+     "lines_in_segment": 2,
      "align": "left",
-     "role": "label",
+     "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4550,15 +5192,14 @@
       21.5,
       11.0
      ],
-     "font_px": 15.5,
-     "scale": 0.63,
+     "font_px": 15.2,
+     "scale": 0.618,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 8
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "placed_css_px": [
@@ -4574,7 +5215,73 @@
     900
    ],
    "effective_dpi": 242.2,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      80.396,
+      37.539
+     ],
+     "stuck": true,
+     "ink": 0.131
+    },
+    {
+     "from_pct": [
+      92.066,
+      46.594
+     ],
+     "to_pct": [
+      92.073,
+      48.336
+     ],
+     "dx_px": 0,
+     "dy_px": 20,
+     "ink_before": 0.039,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      58.062,
+      7.962
+     ],
+     "to_pct": [
+      62.243,
+      7.962
+     ],
+     "dx_px": 48,
+     "dy_px": 0,
+     "ink_before": 0.214,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      90.054,
+      13.596
+     ],
+     "to_pct": [
+      92.073,
+      4.014
+     ],
+     "dx_px": 23,
+     "dy_px": -110,
+     "ink_before": 0.073,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      90.054,
+      23.455
+     ],
+     "to_pct": [
+      92.073,
+      23.455
+     ],
+     "dx_px": 23,
+     "dy_px": 0,
+     "ink_before": 0.038,
+     "ink_after": 0.0
+    }
+   ]
   },
   "s3_7_1.png": {
    "name": "s3_7_1.png",
@@ -4609,11 +5316,11 @@
      "tr": "電子署名の実行",
      "box_px_orig": [
       80.5,
-      31.0,
+      31.5,
       90.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32.3,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4632,8 +5339,8 @@
       212.5,
       10.0
      ],
-     "font_px": 19.5,
-     "scale": 0.92,
+     "font_px": 21.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4651,8 +5358,8 @@
       38.5,
       9.5
      ],
-     "font_px": 20.3,
-     "scale": 0.981,
+     "font_px": 20.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4670,15 +5377,14 @@
       57.0,
       10.0
      ],
-     "font_px": 14.9,
-     "scale": 0.68,
+     "font_px": 16.6,
+     "scale": 0.758,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 1
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_7_1_200",
@@ -4686,11 +5392,11 @@
      "tr": "サンプルプロジェクト005",
      "box_px_orig": [
       69.5,
-      156.0,
+      156.5,
       111.0,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4724,9 +5430,9 @@
      "tr": "署名の意味 (meaningCode)",
      "box_px_orig": [
       56.5,
-      298.0,
+      298.5,
       157.0,
-      14.5
+      13.5
      ],
      "font_px": 28.4,
      "scale": 1.0,
@@ -4743,12 +5449,12 @@
      "tr": "承認者確認 (APPROVAL) (ポリシー固定)",
      "box_px_orig": [
       69.5,
-      329.0,
+      329.5,
       202.0,
-      14.0
+      13.0
      ],
-     "font_px": 23.5,
-     "scale": 0.88,
+     "font_px": 25.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4804,14 +5510,14 @@
       204.5,
       9.0
      ],
-     "font_px": 15.3,
-     "scale": 0.761,
+     "font_px": 20.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_7_1_207",
@@ -4819,11 +5525,11 @@
      "tr": "署名の意味と責任を理解しました。",
      "box_px_orig": [
       90.0,
-      480.5,
+      481.0,
       165.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.2,
+     "font_px": 25.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4838,12 +5544,12 @@
      "tr": "本署名は法的効力を持ち、21 CFR Part 11 §11.10(e)に従い、IP・UA・署名の意味とともにappend-onlyで記録されます。",
      "box_px_orig": [
       90.5,
-      498.5,
+      499.0,
       414.0,
-      10.5
+      9.0
      ],
-     "font_px": 18.4,
-     "scale": 0.92,
+     "font_px": 19,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -4861,14 +5567,14 @@
       25.5,
       13.5
      ],
-     "font_px": 18.5,
-     "scale": 0.628,
+     "font_px": 19.5,
+     "scale": 0.661,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_7_1_211",
@@ -4901,33 +5607,13 @@
       57.0,
       10.0
      ],
-     "font_px": 14.9,
-     "scale": 0.68,
+     "font_px": 16.6,
+     "scale": 0.758,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 1
-    },
-    {
-     "id": "s3_7_1_206",
-     "ko": "전자서명 비밀번호는 로그인 비밀번호와 다릅니다.",
-     "tr": "電子署名パスワードは、ログインパスワードとは異なります。",
-     "box_px_orig": [
-      56.5,
-      438.0,
-      204.5,
-      9.0
-     ],
-     "font_px": 15.3,
-     "scale": 0.761,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4940,14 +5626,14 @@
       25.5,
       13.5
      ],
-     "font_px": 18.5,
-     "scale": 0.628,
+     "font_px": 19.5,
+     "scale": 0.661,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -4963,7 +5649,81 @@
     1200
    ],
    "effective_dpi": 377.6,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.13,
+      68.601
+     ],
+     "stuck": true,
+     "ink": 0.127
+    },
+    {
+     "from_pct": [
+      50.021,
+      80.988
+     ],
+     "to_pct": [
+      51.846,
+      96.089
+     ],
+     "dx_px": 22,
+     "dy_px": 180,
+     "ink_before": 0.055,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      94.13,
+      97.453
+     ],
+     "stuck": true,
+     "ink": 0.127
+    },
+    {
+     "from_pct": [
+      51.23,
+      10.142
+     ],
+     "to_pct": [
+      51.846,
+      10.142
+     ],
+     "dx_px": 7,
+     "dy_px": 0,
+     "ink_before": 0.012,
+     "ink_after": 0.011
+    },
+    {
+     "from_pct": [
+      67.242,
+      42.921
+     ],
+     "to_pct": [
+      67.242,
+      43.928
+     ],
+     "dx_px": 0,
+     "dy_px": 12,
+     "ink_before": 0.026,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      61.502,
+      73.888
+     ],
+     "to_pct": [
+      61.502,
+      63.653
+     ],
+     "dx_px": 0,
+     "dy_px": -122,
+     "ink_before": 0.024,
+     "ink_after": 0.02
+    }
+   ]
   }
  }
 }

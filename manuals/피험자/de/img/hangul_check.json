@@ -1,15 +1,16 @@
 {
  "vol": "피험자",
  "lang": "de",
+ "untranslated_images": [],
  "remaining_korean": [
   {
    "file": "s1_1_1.png",
    "text": "황",
    "box": [
-    4976,
-    33,
-    39,
-    39
+    4982,
+    36,
+    34,
+    28
    ],
    "changed_ink_ratio": 0.0
   },
@@ -23,41 +24,31 @@
     34
    ],
    "changed_ink_ratio": 0.0
-  },
-  {
-   "file": "s3_1_1.png",
-   "text": "ㅊ",
-   "box": [
-    202,
-    420,
-    48,
-    52
-   ],
-   "changed_ink_ratio": 0.0
   }
  ],
+ "behind_overlay_kept": [],
  "false_positive_changed_pixels": [
   {
    "file": "s1_1_1.png",
-   "text": "탑 cRF-Verwaltung",
+   "text": "Behandlung beendet Screening fehigeschlagen Nicht nachverfolgbar Verstorben Studienende듃",
    "box": [
-    28,
-    573,
-    161,
+    1139,
+    556,
+    726,
     33
    ],
-   "changed_ink_ratio": 0.779
+   "changed_ink_ratio": 0.993
   },
   {
-   "file": "s1_1_1.png",
-   "text": "즈 LAB-Normalbereich",
+   "file": "s1_4_2.png",
+   "text": "Speichern헸",
    "box": [
-    28,
-    706,
-    211,
-    34
+    34,
+    794,
+    129,
+    28
    ],
-   "changed_ink_ratio": 0.866
+   "changed_ink_ratio": 0.955
   }
  ]
 }

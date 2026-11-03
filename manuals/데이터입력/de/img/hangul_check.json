@@ -1,6 +1,7 @@
 {
  "vol": "데이터입력",
  "lang": "de",
+ "untranslated_images": [],
  "remaining_korean": [
   {
    "file": "s1_1_1.png",
@@ -12,9 +13,43 @@
     38
    ],
    "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s3_1_1.png",
+   "text": "드 300 mmHg",
+   "box": [
+    2564,
+    524,
+    164,
+    28
+   ],
+   "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s3_3_1.png",
+   "text": "드 300 mmHg",
+   "box": [
+    2570,
+    423,
+    165,
+    34
+   ],
+   "changed_ink_ratio": 0.0
   }
  ],
+ "behind_overlay_kept": [],
  "false_positive_changed_pixels": [
+  {
+   "file": "s1_1_1.png",
+   "text": "업 CRF-Verwaltung",
+   "box": [
+    47,
+    550,
+    264,
+    42
+   ],
+   "changed_ink_ratio": 0.833
+  },
   {
    "file": "s1_1_1.png",
    "text": "스 Elektronische Signatur",

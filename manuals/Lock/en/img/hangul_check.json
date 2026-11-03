@@ -1,6 +1,31 @@
 {
  "vol": "Lock",
  "lang": "en",
+ "untranslated_images": [],
  "remaining_korean": [],
- "false_positive_changed_pixels": []
+ "behind_overlay_kept": [],
+ "false_positive_changed_pixels": [
+  {
+   "file": "s1_1_1.png",
+   "text": "ㅁ Visit definition",
+   "box": [
+    37,
+    602,
+    210,
+    28
+   ],
+   "changed_ink_ratio": 0.835
+  },
+  {
+   "file": "s4_1_2.png",
+   "text": "Table옓",
+   "box": [
+    2108,
+    332,
+    69,
+    24
+   ],
+   "changed_ink_ratio": 0.984
+  }
+ ]
 }

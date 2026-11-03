@@ -1,13 +1,14 @@
 {
  "vol": "플랫폼관리",
  "lang": "en",
+ "untranslated_images": [],
  "remaining_korean": [
   {
    "file": "s1_1_1.png",
-   "text": "네거",
+   "text": "에무",
    "box": [
     0,
-    151,
+    150,
     34,
     14
    ],
@@ -15,23 +16,12 @@
   },
   {
    "file": "s2_1_1.png",
-   "text": "ㅆ",
+   "text": "ㅇ",
    "box": [
-    388,
-    129,
-    47,
-    47
-   ],
-   "changed_ink_ratio": 0.0
-  },
-  {
-   "file": "s2_1_1.png",
-   "text": "프",
-   "box": [
-    47,
-    697,
-    26,
-    34
+    2808,
+    735,
+    34,
+    39
    ],
    "changed_ink_ratio": 0.0
   },
@@ -40,20 +30,9 @@
    "text": "황",
    "box": [
     4997,
-    30,
-    39,
-    34
-   ],
-   "changed_ink_ratio": 0.0
-  },
-  {
-   "file": "s3_2_1.png",
-   "text": "ㅁ",
-   "box": [
-    299,
-    226,
-    40,
-    40
+    32,
+    35,
+    32
    ],
    "changed_ink_ratio": 0.0
   },
@@ -61,58 +40,82 @@
    "file": "s3_3_1.png",
    "text": "황",
    "box": [
-    1855,
+    1856,
     160,
-    31,
-    31
-   ],
-   "changed_ink_ratio": 0.0
-  },
-  {
-   "file": "s4_1_1.png",
-   "text": "ㅁ",
-   "box": [
-    2981,
-    506,
-    40,
-    40
+    30,
+    32
    ],
    "changed_ink_ratio": 0.0
   }
  ],
- "false_positive_changed_pixels": [
+ "behind_overlay_kept": [
   {
    "file": "s1_2_1.png",
-   "text": "Reason for change옓",
+   "text": "보아",
    "box": [
-    133,
-    529,
-    260,
-    31
+    192,
+    35,
+    46,
+    20
    ],
-   "changed_ink_ratio": 0.986
+   "why": "모달 바깥"
   },
+  {
+   "file": "s1_2_1.png",
+   "text": "[ 저수",
+   "box": [
+    1203,
+    33,
+    57,
+    22
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s2_2_1.png",
+   "text": "팔성",
+   "box": [
+    1184,
+    36,
+    34,
+    18
+   ],
+   "why": "모달 바깥"
+  }
+ ],
+ "false_positive_changed_pixels": [
   {
    "file": "s2_1_1.png",
    "text": "ㅁ Institution management",
    "box": [
     43,
     361,
-    358,
-    31
+    357,
+    30
    ],
    "changed_ink_ratio": 0.884
   },
   {
-   "file": "s2_2_1.png",
-   "text": "Active옓",
+   "file": "s2_1_1.png",
+   "text": "Country옓",
    "box": [
-    1174,
-    36,
-    56,
-    18
+    533,
+    619,
+    102,
+    35
    ],
-   "changed_ink_ratio": 0.984
+   "changed_ink_ratio": 0.998
+  },
+  {
+   "file": "s3_1_1.png",
+   "text": "YYYY-MM-DD ㅁ",
+   "box": [
+    566,
+    510,
+    231,
+    35
+   ],
+   "changed_ink_ratio": 0.87
   }
  ]
 }

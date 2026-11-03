@@ -4,8 +4,9 @@
  "lang": "ko",
  "localized_text": true,
  "note": "",
- "files": [
-  {
+ "method": "PIL Lanczos ×2 + UnsharpMask(r=1.0, 35%, t=3)",
+ "files": {
+  "s1_1_1.png": {
    "name": "s1_1_1.png",
    "source_xref_image": "p03_1.png",
    "source_px": [
@@ -27,7 +28,12 @@
     806
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     560,
     150.1
@@ -41,9 +47,137 @@
     600
    ],
    "effective_dpi": 515.0,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      24.058,
+      16.935
+     ],
+     "to_pct": [
+      29.993,
+      19.998
+     ],
+     "dx_px": 178,
+     "dy_px": 92,
+     "ink_before": 0.039,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      48.599,
+      16.935
+     ],
+     "to_pct": [
+      48.599,
+      19.998
+     ],
+     "dx_px": 0,
+     "dy_px": 92,
+     "ink_before": 0.035,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      73.705,
+      16.935
+     ],
+     "to_pct": [
+      73.702,
+      19.998
+     ],
+     "dx_px": 0,
+     "dy_px": 92,
+     "ink_before": 0.035,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      96.836,
+      16.935
+     ],
+     "to_pct": [
+      96.838,
+      19.998
+     ],
+     "dx_px": 0,
+     "dy_px": 92,
+     "ink_before": 0.035,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      29.982,
+      5.581
+     ],
+     "to_pct": [
+      29.993,
+      5.182
+     ],
+     "dx_px": 0,
+     "dy_px": -12,
+     "ink_before": 0.041,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      71.449,
+      10.518
+     ],
+     "to_pct": [
+      73.702,
+      10.518
+     ],
+     "dx_px": 68,
+     "dy_px": 0,
+     "ink_before": 0.006,
+     "ink_after": 0.006
+    },
+    {
+     "from_pct": [
+      95.99,
+      10.518
+     ],
+     "to_pct": [
+      96.838,
+      10.518
+     ],
+     "dx_px": 25,
+     "dy_px": 0,
+     "ink_before": 0.006,
+     "ink_after": 0.006
+    },
+    {
+     "from_pct": [
+      71.449,
+      22.295
+     ],
+     "to_pct": [
+      73.702,
+      22.295
+     ],
+     "dx_px": 68,
+     "dy_px": 0,
+     "ink_before": 0.02,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      26.597,
+      24.904
+     ],
+     "to_pct": [
+      29.993,
+      24.704
+     ],
+     "dx_px": 102,
+     "dy_px": -6,
+     "ink_before": 1.0,
+     "ink_after": 0.008
+    }
+   ]
   },
-  {
+  "s1_2_1.png": {
    "name": "s1_2_1.png",
    "source_xref_image": "p04_1.png",
    "source_px": [
@@ -65,7 +199,12 @@
     952
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     560,
     232.2
@@ -79,9 +218,95 @@
     900
    ],
    "effective_dpi": 393.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      61.011,
+      19.686
+     ],
+     "to_pct": [
+      61.01,
+      16.466
+     ],
+     "dx_px": 0,
+     "dy_px": -74,
+     "ink_before": 0.04,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      94.298,
+      32.803
+     ],
+     "to_pct": [
+      94.298,
+      32.89
+     ],
+     "dx_px": 0,
+     "dy_px": 2,
+     "ink_before": 0.02,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      86.963,
+      35.2
+     ],
+     "to_pct": [
+      86.963,
+      35.461
+     ],
+     "dx_px": 0,
+     "dy_px": 6,
+     "ink_before": 0.032,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      28.994,
+      19.686
+     ],
+     "to_pct": [
+      28.994,
+      16.466
+     ],
+     "dx_px": 0,
+     "dy_px": -74,
+     "ink_before": 0.04,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      37.034,
+      25.186
+     ],
+     "to_pct": [
+      38.033,
+      25.186
+     ],
+     "dx_px": 23,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      57.979,
+      25.186
+     ],
+     "to_pct": [
+      61.01,
+      25.186
+     ],
+     "dx_px": 70,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    }
+   ]
   },
-  {
+  "s2_1_1.png": {
    "name": "s2_1_1.png",
    "source_xref_image": "p05_1.png",
    "source_px": [
@@ -103,7 +328,12 @@
     1692
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     185.8,
     285.6
@@ -117,9 +347,139 @@
     900
    ],
    "effective_dpi": 568.2,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      78.852,
+      22.448
+     ],
+     "to_pct": [
+      83.0,
+      14.812
+     ],
+     "dx_px": 46,
+     "dy_px": -84,
+     "ink_before": 0.052,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      81.069,
+      72.695
+     ],
+     "to_pct": [
+      83.0,
+      65.422
+     ],
+     "dx_px": 21,
+     "dy_px": -80,
+     "ink_before": 0.048,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      81.069,
+      86.488
+     ],
+     "to_pct": [
+      83.0,
+      88.124
+     ],
+     "dx_px": 21,
+     "dy_px": 18,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      37.227,
+      111.118
+     ],
+     "to_pct": [
+      37.227,
+      96.936
+     ],
+     "dx_px": 0,
+     "dy_px": -156,
+     "ink_before": 0.105,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      83.04,
+      111.118
+     ],
+     "to_pct": [
+      83.0,
+      110.209
+     ],
+     "dx_px": 0,
+     "dy_px": -10,
+     "ink_before": 0.032,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      81.069,
+      5.7
+     ],
+     "to_pct": [
+      83.0,
+      7.336
+     ],
+     "dx_px": 21,
+     "dy_px": 18,
+     "ink_before": 1.0,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      47.572,
+      55.453
+     ],
+     "to_pct": [
+      48.727,
+      55.271
+     ],
+     "dx_px": 13,
+     "dy_px": -2,
+     "ink_before": 0.022,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      3.237,
+      118.015
+     ],
+     "stuck": true,
+     "ink": 1.0
+    },
+    {
+     "from_pct": [
+      95.355,
+      130.577
+     ],
+     "stuck": true,
+     "ink": 1.0
+    },
+    {
+     "from_pct": [
+      49.788,
+      143.384
+     ],
+     "to_pct": [
+      48.727,
+      143.384
+     ],
+     "dx_px": -12,
+     "dy_px": 0,
+     "ink_before": 0.01,
+     "ink_after": 0.01
+    }
+   ]
   },
-  {
+  "s2_2_1.png": {
    "name": "s2_2_1.png",
    "source_xref_image": "p06_1.png",
    "source_px": [
@@ -141,7 +501,12 @@
     1730
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     185.8,
     297.5
@@ -155,9 +520,159 @@
     1200
    ],
    "effective_dpi": 558.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      41.66,
+      35.256
+     ],
+     "to_pct": [
+      41.682,
+      26.938
+     ],
+     "dx_px": 0,
+     "dy_px": -90,
+     "ink_before": 0.061,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      81.562,
+      35.256
+     ],
+     "to_pct": [
+      81.562,
+      54.48
+     ],
+     "dx_px": 0,
+     "dy_px": 208,
+     "ink_before": 0.058,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      81.562,
+      46.586
+     ],
+     "to_pct": [
+      81.562,
+      54.349
+     ],
+     "dx_px": 0,
+     "dy_px": 84,
+     "ink_before": 0.05,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      67.769,
+      63.828
+     ],
+     "to_pct": [
+      69.778,
+      63.828
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.011,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      81.562,
+      154.468
+     ],
+     "stuck": true,
+     "ink": 1.0
+    },
+    {
+     "from_pct": [
+      69.739,
+      11.611
+     ],
+     "to_pct": [
+      69.778,
+      20.853
+     ],
+     "dx_px": 0,
+     "dy_px": 100,
+     "ink_before": 0.064,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      69.739,
+      81.562
+     ],
+     "to_pct": [
+      69.778,
+      98.198
+     ],
+     "dx_px": 0,
+     "dy_px": 180,
+     "ink_before": 0.056,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      69.739,
+      95.847
+     ],
+     "to_pct": [
+      69.778,
+      98.25
+     ],
+     "dx_px": 0,
+     "dy_px": 26,
+     "ink_before": 0.033,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      37.719,
+      120.97
+     ],
+     "to_pct": [
+      41.682,
+      106.367
+     ],
+     "dx_px": 43,
+     "dy_px": -158,
+     "ink_before": 0.122,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      79.591,
+      120.97
+     ],
+     "to_pct": [
+      79.591,
+      106.367
+     ],
+     "dx_px": 0,
+     "dy_px": -158,
+     "ink_before": 0.065,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      52.005,
+      154.468
+     ],
+     "to_pct": [
+      52.005,
+      149.477
+     ],
+     "dx_px": 0,
+     "dy_px": -54,
+     "ink_before": 1.0,
+     "ink_after": 0.018
+    }
+   ]
   },
-  {
+  "s2_3_1.png": {
    "name": "s2_3_1.png",
    "source_xref_image": "p07_1.png",
    "source_px": [
@@ -179,7 +694,12 @@
     798
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     560,
     162.8
@@ -193,9 +713,67 @@
     600
    ],
    "effective_dpi": 470.4,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      14.124,
+      22.381
+     ],
+     "to_pct": [
+      14.124,
+      20.34
+     ],
+     "dx_px": 0,
+     "dy_px": -56,
+     "ink_before": 0.066,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      33.249,
+      23.651
+     ],
+     "to_pct": [
+      36.625,
+      23.651
+     ],
+     "dx_px": 93,
+     "dy_px": 0,
+     "ink_before": 0.016,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      77.498,
+      22.381
+     ],
+     "to_pct": [
+      78.207,
+      22.381
+     ],
+     "dx_px": 19,
+     "dy_px": 0,
+     "ink_before": 0.018,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      16.665,
+      26.192
+     ],
+     "to_pct": [
+      19.435,
+      26.192
+     ],
+     "dx_px": 76,
+     "dy_px": 0,
+     "ink_before": 0.077,
+     "ink_after": 0.019
+    }
+   ]
   },
-  {
+  "s3_1_1.png": {
    "name": "s3_1_1.png",
    "source_xref_image": "p08_1.png",
    "source_px": [
@@ -217,7 +795,12 @@
     1348
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     234.4,
     286.5
@@ -231,9 +814,81 @@
     900
    ],
    "effective_dpi": 452.2,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      66.629,
+      58.816
+     ],
+     "to_pct": [
+      66.629,
+      51.388
+     ],
+     "dx_px": 0,
+     "dy_px": -82,
+     "ink_before": 0.044,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      80.887,
+      72.098
+     ],
+     "to_pct": [
+      80.888,
+      86.591
+     ],
+     "dx_px": 0,
+     "dy_px": 160,
+     "ink_before": 0.043,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      80.887,
+      85.574
+     ],
+     "to_pct": [
+      80.888,
+      86.661
+     ],
+     "dx_px": 0,
+     "dy_px": 12,
+     "ink_before": 0.027,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      78.934,
+      116.238
+     ],
+     "to_pct": [
+      80.888,
+      101.202
+     ],
+     "dx_px": 22,
+     "dy_px": -166,
+     "ink_before": 0.051,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      80.887,
+      7.254
+     ],
+     "to_pct": [
+      80.888,
+      8.884
+     ],
+     "dx_px": 0,
+     "dy_px": 18,
+     "ink_before": 0.143,
+     "ink_after": 0.017
+    }
+   ]
   },
-  {
+  "s3_1_2.png": {
    "name": "s3_1_2.png",
    "source_xref_image": "p08_2.png",
    "source_px": [
@@ -255,7 +910,12 @@
     196
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     560,
     35.2
@@ -271,7 +931,7 @@
    "effective_dpi": 536.6,
    "meets_300dpi_pixels": false
   },
-  {
+  "s3_2_1.png": {
    "name": "s3_2_1.png",
    "source_xref_image": "p09_1.png",
    "source_px": [
@@ -293,7 +953,12 @@
     1110
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     560,
     271.7
@@ -307,9 +972,123 @@
     900
    ],
    "effective_dpi": 392.6,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      30.193,
+      20.673
+     ],
+     "to_pct": [
+      30.175,
+      21.284
+     ],
+     "dx_px": 0,
+     "dy_px": 14,
+     "ink_before": 0.024,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      88.938,
+      40.56
+     ],
+     "to_pct": [
+      88.938,
+      39.25
+     ],
+     "dx_px": 0,
+     "dy_px": -30,
+     "ink_before": 0.026,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.982,
+      45.638
+     ],
+     "to_pct": [
+      30.175,
+      43.891
+     ],
+     "dx_px": 4,
+     "dy_px": -40,
+     "ink_before": 0.039,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      60.024,
+      1.914
+     ],
+     "to_pct": [
+      60.024,
+      2.089
+     ],
+     "dx_px": 0,
+     "dy_px": 4,
+     "ink_before": 1.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      28.007,
+      11.787
+     ],
+     "to_pct": [
+      30.175,
+      16.241
+     ],
+     "dx_px": 50,
+     "dy_px": 102,
+     "ink_before": 0.055,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      11.999,
+      23.423
+     ],
+     "to_pct": [
+      11.999,
+      23.772
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.047,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      23.0,
+      27.02
+     ],
+     "to_pct": [
+      23.0,
+      32.086
+     ],
+     "dx_px": 0,
+     "dy_px": 116,
+     "ink_before": 0.075,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      53.959,
+      35.905
+     ],
+     "to_pct": [
+      53.959,
+      37.04
+     ],
+     "dx_px": 0,
+     "dy_px": 26,
+     "ink_before": 0.026,
+     "ink_after": 0.02
+    }
+   ]
   },
-  {
+  "s4_1_1.png": {
    "name": "s4_1_1.png",
    "source_xref_image": "p10_1.png",
    "source_px": [
@@ -331,7 +1110,12 @@
     798
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     310.4,
     225.2
@@ -345,9 +1129,95 @@
     900
    ],
    "effective_dpi": 340.3,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      83.059,
+      45.006
+     ],
+     "to_pct": [
+      83.091,
+      45.733
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.037,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      79.814,
+      66.835
+     ],
+     "to_pct": [
+      83.091,
+      52.471
+     ],
+     "dx_px": 36,
+     "dy_px": -158,
+     "ink_before": 0.075,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      45.596,
+      26.127
+     ],
+     "to_pct": [
+      47.818,
+      26.127
+     ],
+     "dx_px": 24,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      47.808,
+      39.696
+     ],
+     "to_pct": [
+      47.818,
+      38.241
+     ],
+     "dx_px": 0,
+     "dy_px": -16,
+     "ink_before": 0.049,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      53.266,
+      66.835
+     ],
+     "to_pct": [
+      53.266,
+      66.29
+     ],
+     "dx_px": 0,
+     "dy_px": -6,
+     "ink_before": 0.027,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      81.584,
+      6.658
+     ],
+     "to_pct": [
+      83.091,
+      6.658
+     ],
+     "dx_px": 17,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    }
+   ]
   },
-  {
+  "s4_1_2.png": {
    "name": "s4_1_2.png",
    "source_xref_image": "p10_2.png",
    "source_px": [
@@ -369,7 +1239,12 @@
     190
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     560,
     32.8
@@ -385,7 +1260,7 @@
    "effective_dpi": 549.9,
    "meets_300dpi_pixels": false
   },
-  {
+  "s4_2_1.png": {
    "name": "s4_2_1.png",
    "source_xref_image": "p11_1.png",
    "source_px": [
@@ -407,7 +1282,12 @@
     1192
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     258.2,
     282.0
@@ -421,9 +1301,89 @@
     900
    ],
    "effective_dpi": 406.1,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      81.053,
+      45.592
+     ],
+     "to_pct": [
+      81.053,
+      46.691
+     ],
+     "dx_px": 0,
+     "dy_px": 12,
+     "ink_before": 0.029,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      81.053,
+      67.223
+     ],
+     "to_pct": [
+      81.053,
+      68.322
+     ],
+     "dx_px": 0,
+     "dy_px": 12,
+     "ink_before": 0.029,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      78.926,
+      88.5
+     ],
+     "to_pct": [
+      78.926,
+      75.679
+     ],
+     "dx_px": 0,
+     "dy_px": -140,
+     "ink_before": 0.045,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      78.926,
+      104.103
+     ],
+     "stuck": true,
+     "ink": 0.235
+    },
+    {
+     "from_pct": [
+      18.642,
+      13.677
+     ],
+     "to_pct": [
+      18.642,
+      14.226
+     ],
+     "dx_px": 0,
+     "dy_px": 6,
+     "ink_before": 0.035,
+     "ink_after": 0.015
+    },
+    {
+     "from_pct": [
+      47.72,
+      104.103
+     ],
+     "to_pct": [
+      47.72,
+      101.173
+     ],
+     "dx_px": 0,
+     "dy_px": -32,
+     "ink_before": 0.127,
+     "ink_after": 0.013
+    }
+   ]
   },
-  {
+  "s4_2_2.png": {
    "name": "s4_2_2.png",
    "source_xref_image": "p11_2.png",
    "source_px": [
@@ -445,7 +1405,12 @@
     278
    ],
    "scale": 2,
+   "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
+   "localized": false,
+   "replaced": 0,
+   "segments": [],
+   "flags": [],
    "placed_css_px": [
     560,
     51.8
@@ -461,5 +1426,5 @@
    "effective_dpi": 509.8,
    "meets_300dpi_pixels": false
   }
- ]
+ }
 }

@@ -1,28 +1,40 @@
 {
  "vol": "방문정의",
  "lang": "en",
+ "untranslated_images": [],
  "remaining_korean": [
   {
-   "file": "s1_2_1.png",
-   "text": "ㅊ",
+   "file": "s1_1_1.png",
+   "text": "치식 be-mode 검증 프로젝트 0...",
    "box": [
-    1118,
-    342,
-    20,
-    26
+    378,
+    54,
+    396,
+    37
    ],
    "changed_ink_ratio": 0.0
   },
   {
-   "file": "s1_2_1.png",
-   "text": "시",
+   "file": "s2_1_1.png",
+   "text": "Vicit Jㄷ",
    "box": [
-    1116,
-    448,
-    22,
-    30
+    35,
+    495,
+    98,
+    16
    ],
    "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s3_2_1.png",
+   "text": "검퓨 규칙 테스",
+   "box": [
+    592,
+    488,
+    110,
+    26
+   ],
+   "changed_ink_ratio": 0.113
   },
   {
    "file": "s3_3_1.png",
@@ -36,61 +48,140 @@
    "changed_ink_ratio": 0.0
   }
  ],
+ "behind_overlay_kept": [
+  {
+   "file": "s1_2_1.png",
+   "text": "너C LO 일 시 켜세)",
+   "box": [
+    490,
+    0,
+    234,
+    16
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s1_2_1.png",
+   "text": "버시 Hㅋ ㅐㅁ /",
+   "box": [
+    428,
+    68,
+    276,
+    20
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s1_2_1.png",
+   "text": "새 버전 생성",
+   "box": [
+    988,
+    203,
+    124,
+    29
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s1_2_1.png",
+   "text": "ㅊ",
+   "box": [
+    1118,
+    342,
+    20,
+    28
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s1_2_1.png",
+   "text": "시",
+   "box": [
+    1118,
+    448,
+    20,
+    32
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s2_2_1.png",
+   "text": "발행: 2",
+   "box": [
+    1216,
+    432,
+    66,
+    26
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s3_3_1.png",
+   "text": "이미",
+   "box": [
+    0,
+    187,
+    39,
+    17
+   ],
+   "why": "모달 바깥"
+  },
+  {
+   "file": "s3_3_1.png",
+   "text": "정'",
+   "box": [
+    1379,
+    187,
+    33,
+    19
+   ],
+   "why": "모달 바깥"
+  }
+ ],
  "false_positive_changed_pixels": [
   {
    "file": "s1_1_1.png",
-   "text": "B금 CRF Visit Matrix",
+   "text": "Informed consent/signature뎳",
    "box": [
-    4795,
-    293,
-    232,
+    3111,
+    903,
+    382,
     37
    ],
-   "changed_ink_ratio": 0.792
+   "changed_ink_ratio": 0.996
   },
   {
    "file": "s1_3_1.png",
-   "text": "오o",
+   "text": "Visit code쵸",
    "box": [
-    619,
-    47,
-    30,
-    30
+    114,
+    153,
+    138,
+    28
    ],
-   "changed_ink_ratio": 0.919
+   "changed_ink_ratio": 0.992
+  },
+  {
+   "file": "s2_1_1.png",
+   "text": "타 Delete",
+   "box": [
+    1110,
+    394,
+    100,
+    29
+   ],
+   "changed_ink_ratio": 0.651
   },
   {
    "file": "s3_1_1.png",
-   "text": "글= Fomoder",
+   "text": "로= Fomorder",
    "box": [
     2022,
     75,
     120,
     35
    ],
-   "changed_ink_ratio": 0.773
-  },
-  {
-   "file": "s3_2_1.png",
-   "text": "※ Arm branching is handled at the parent VisitGroup level. The tab is the Arm filter for the group.듔",
-   "box": [
-    144,
-    164,
-    780,
-    24
-   ],
-   "changed_ink_ratio": 0.989
-  },
-  {
-   "file": "s3_2_1.png",
-   "text": "로그 Fom order",
-   "box": [
-    1733,
-    75,
-    120,
-    31
-   ],
-   "changed_ink_ratio": 0.772
+   "changed_ink_ratio": 0.769
   }
  ]
 }

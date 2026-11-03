@@ -60,9 +60,9 @@
       52.5,
       52.0,
       54.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -96,12 +96,12 @@
      "tr": "the “SAE flag”. The moment its value changes from No to Yes, the SAE notification goes out.",
      "box_px_orig": [
       119.0,
-      78.5,
+      79.0,
       426.0,
-      10.5
+      10.0
      ],
-     "font_px": 20.6,
-     "scale": 0.941,
+     "font_px": 21.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -134,11 +134,11 @@
      "tr": "SAE flag",
      "box_px_orig": [
       556.5,
-      116.0,
+      116.5,
       50.0,
-      12.5
+      11.5
      ],
-     "font_px": 27.1,
+     "font_px": 25.3,
      "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
@@ -191,11 +191,11 @@
      "tr": "The SAE flag can only be assigned to BOOLEAN, SELECT or RADIO type fields. If the assigned field disappears because of a form revision, publishing of that version is blocked.",
      "box_px_orig": [
       27.0,
-      332.5,
+      333.0,
       590.5,
-      9.5
+      9.0
      ],
-     "font_px": 20.5,
+     "font_px": 20.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -296,7 +296,93 @@
     600
    ],
    "effective_dpi": 539.7,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      18.557,
+      16.159
+     ],
+     "to_pct": [
+      18.557,
+      14.189
+     ],
+     "dx_px": 0,
+     "dy_px": -62,
+     "ink_before": 0.085,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      10.518,
+      3.889
+     ],
+     "to_pct": [
+      10.518,
+      7.574
+     ],
+     "dx_px": 0,
+     "dy_px": 116,
+     "ink_before": 0.108,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      37.88,
+      5.299
+     ],
+     "to_pct": [
+      42.122,
+      5.299
+     ],
+     "dx_px": 134,
+     "dy_px": 0,
+     "ink_before": 0.001,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      43.522,
+      7.697
+     ],
+     "to_pct": [
+      42.122,
+      7.697
+     ],
+     "dx_px": -44,
+     "dy_px": 0,
+     "ink_before": 0.015,
+     "ink_after": 0.015
+    },
+    {
+     "from_pct": [
+      41.829,
+      21.237
+     ],
+     "to_pct": [
+      42.122,
+      16.154
+     ],
+     "dx_px": 9,
+     "dy_px": -160,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      97.542,
+      7.697
+     ],
+     "to_pct": [
+      97.542,
+      5.727
+     ],
+     "dx_px": 0,
+     "dy_px": -62,
+     "ink_before": 0.076,
+     "ink_after": 0.016
+    }
+   ]
   },
   "s1_2_1.png": {
    "name": "s1_2_1.png",
@@ -331,11 +417,11 @@
      "tr": "AE assignment — MED_COMMON",
      "box_px_orig": [
       26.5,
-      34.5,
+      35.5,
       178.0,
-      14.5
+      13.0
      ],
-     "font_px": 30.3,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -350,9 +436,9 @@
      "tr": "Choose the field to use as the “SAE flag”. The moment this field changes to Yes, the SAE notification goes out and the extraction filter narrows by this field.",
      "box_px_orig": [
       33.0,
-      58.5,
+      59.0,
       358.0,
-      16.5
+      16.0
      ],
      "font_px": 20.3,
      "scale": 0.839,
@@ -371,7 +457,7 @@
       27.0,
       99.5,
       83.0,
-      12.5
+      12.0
      ],
      "font_px": 24.9,
      "scale": 1.0,
@@ -428,7 +514,7 @@
       27.0,
       195.5,
       67.5,
-      12.5
+      12.0
      ],
      "font_px": 25.1,
      "scale": 1.0,
@@ -445,11 +531,11 @@
      "tr": "Not set",
      "box_px_orig": [
       38.0,
-      222.0,
+      222.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -468,8 +554,8 @@
       358.0,
       9.0
      ],
-     "font_px": 16.2,
-     "scale": 0.818,
+     "font_px": 16.6,
+     "scale": 0.838,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -483,11 +569,11 @@
      "tr": "This form has no DATE or DATETIME type field. Please create one first.",
      "box_px_orig": [
       27.0,
-      283.5,
+      284.0,
       304.0,
-      10.0
+      9.0
      ],
-     "font_px": 21.5,
+     "font_px": 19.7,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -542,9 +628,9 @@
      "tr": "Choose the field to use as the “SAE flag”. The moment this field changes to Yes, the SAE notification goes out and the extraction filter narrows by this field.",
      "box_px_orig": [
       33.0,
-      58.5,
+      59.0,
       358.0,
-      16.5
+      16.0
      ],
      "font_px": 20.3,
      "scale": 0.839,
@@ -565,8 +651,8 @@
       358.0,
       9.0
      ],
-     "font_px": 16.2,
-     "scale": 0.818,
+     "font_px": 16.6,
+     "scale": 0.838,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -588,7 +674,75 @@
     900
    ],
    "effective_dpi": 256.0,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      78.372,
+      29.768
+     ],
+     "to_pct": [
+      82.265,
+      23.361
+     ],
+     "dx_px": 34,
+     "dy_px": -56,
+     "ink_before": 0.023,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      78.372,
+      51.835
+     ],
+     "to_pct": [
+      82.265,
+      45.428
+     ],
+     "dx_px": 34,
+     "dy_px": -56,
+     "ink_before": 0.023,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      94.852,
+      75.299
+     ],
+     "stuck": true,
+     "ink": 0.108
+    },
+    {
+     "from_pct": [
+      54.629,
+      9.377
+     ],
+     "to_pct": [
+      60.579,
+      9.377
+     ],
+     "dx_px": 52,
+     "dy_px": 0,
+     "ink_before": 0.211,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      91.779,
+      37.031
+     ],
+     "stuck": true,
+     "ink": 0.099
+    },
+    {
+     "from_pct": [
+      91.779,
+      59.517
+     ],
+     "stuck": true,
+     "ink": 0.105
+    }
+   ]
   },
   "s1_3_1.png": {
    "name": "s1_3_1.png",
@@ -615,19 +769,19 @@
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 2,
+   "replaced": 3,
    "segments": [
     {
      "id": "s1_3_1_026",
      "ko": "양식",
      "tr": "Form",
      "box_px_orig": [
-      11.5,
       18.0,
-      30.5,
+      18.0,
+      22.0,
       12.5
      ],
-     "font_px": 30,
+     "font_px": 27.1,
      "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
@@ -642,17 +796,36 @@
      "tr": "Medical Common",
      "box_px_orig": [
       101.0,
-      60.0,
+      60.5,
       56.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.3,
+     "font_px": 26.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "r_s1_3_1_106",
+     "ko": "SAE 여부",
+     "tr": "SAE flag",
+     "box_px_orig": [
+      1224.5,
+      18.5,
+      50.0,
+      12.0
+     ],
+     "font_px": 26,
+     "scale": 1.0,
+     "weight": 500,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "header",
      "flag": ""
     }
    ],
@@ -670,7 +843,23 @@
     300
    ],
    "effective_dpi": 513.3,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      14.548,
+      4.315
+     ],
+     "to_pct": [
+      15.283,
+      4.315
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.033,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s1_3_2.png": {
    "name": "s1_3_2.png",
@@ -771,7 +960,45 @@
     300
    ],
    "effective_dpi": 384.4,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      79.196,
+      9.435
+     ],
+     "to_pct": [
+      72.394,
+      9.435
+     ],
+     "dx_px": -94,
+     "dy_px": 0,
+     "ink_before": 0.098,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      88.082,
+      13.679
+     ],
+     "to_pct": [
+      88.082,
+      13.1
+     ],
+     "dx_px": 0,
+     "dy_px": -8,
+     "ink_before": 1.0,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      96.968,
+      13.679
+     ],
+     "stuck": true,
+     "ink": 1.0
+    }
+   ]
   },
   "s1_4_1.png": {
    "name": "s1_4_1.png",
@@ -806,11 +1033,11 @@
      "tr": "AE assignment — MED_COMMON",
      "box_px_orig": [
       36.5,
-      36.5,
+      37.5,
       178.0,
-      14.5
+      13.0
      ],
-     "font_px": 30.3,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -825,9 +1052,9 @@
      "tr": "Choose the field to use as the “SAE flag”. The moment this field changes to Yes, the SAE notification goes out and the extraction filter narrows by this field.",
      "box_px_orig": [
       43.0,
-      60.5,
+      61.0,
       358.0,
-      16.5
+      16.0
      ],
      "font_px": 20.3,
      "scale": 0.839,
@@ -846,7 +1073,7 @@
       37.0,
       101.5,
       83.0,
-      12.5
+      12.0
      ],
      "font_px": 24.9,
      "scale": 1.0,
@@ -884,7 +1111,7 @@
       37.0,
       197.5,
       67.5,
-      12.5
+      12.0
      ],
      "font_px": 25.1,
      "scale": 1.0,
@@ -901,11 +1128,11 @@
      "tr": "Not set",
      "box_px_orig": [
       48.0,
-      224.0,
+      224.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -924,8 +1151,8 @@
       358.0,
       9.0
      ],
-     "font_px": 16.2,
-     "scale": 0.818,
+     "font_px": 16.6,
+     "scale": 0.838,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -939,11 +1166,11 @@
      "tr": "This form has no DATE or DATETIME type field. Please create one first.",
      "box_px_orig": [
       37.0,
-      285.5,
+      286.0,
       304.0,
-      10.0
+      9.0
      ],
-     "font_px": 21.5,
+     "font_px": 19.7,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -981,8 +1208,8 @@
       23.0,
       12.5
      ],
-     "font_px": 24.6,
-     "scale": 0.9,
+     "font_px": 27.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -998,9 +1225,9 @@
      "tr": "Choose the field to use as the “SAE flag”. The moment this field changes to Yes, the SAE notification goes out and the extraction filter narrows by this field.",
      "box_px_orig": [
       43.0,
-      60.5,
+      61.0,
       358.0,
-      16.5
+      16.0
      ],
      "font_px": 20.3,
      "scale": 0.839,
@@ -1021,8 +1248,8 @@
       358.0,
       9.0
      ],
-     "font_px": 16.2,
-     "scale": 0.818,
+     "font_px": 16.6,
+     "scale": 0.838,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -1044,7 +1271,73 @@
     900
    ],
    "effective_dpi": 277.8,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      79.814,
+      29.667
+     ],
+     "to_pct": [
+      82.294,
+      22.985
+     ],
+     "dx_px": 22,
+     "dy_px": -60,
+     "ink_before": 0.03,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      96.333,
+      73.472
+     ],
+     "stuck": true,
+     "ink": 1.0
+    },
+    {
+     "from_pct": [
+      52.381,
+      29.667
+     ],
+     "to_pct": [
+      52.381,
+      22.985
+     ],
+     "dx_px": 0,
+     "dy_px": -60,
+     "ink_before": 0.03,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      32.322,
+      50.906
+     ],
+     "to_pct": [
+      32.322,
+      68.723
+     ],
+     "dx_px": 0,
+     "dy_px": 160,
+     "ink_before": 0.028,
+     "ink_after": 0.015
+    },
+    {
+     "from_pct": [
+      54.888,
+      9.46
+     ],
+     "to_pct": [
+      61.347,
+      9.46
+     ],
+     "dx_px": 58,
+     "dy_px": 0,
+     "ink_before": 0.208,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s1_5_1.png": {
    "name": "s1_5_1.png",
@@ -1081,9 +1374,9 @@
       42.5,
       43.0,
       148.0,
-      16.0
+      15.5
      ],
-     "font_px": 33.9,
+     "font_px": 32.9,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1097,19 +1390,19 @@
      "ko": "해제하면 이 양식은 더 이상 AE 양식으로 취급되지 않습니다 — SAE 통보와 추출 필터가 함께 멈춥니다. 지정된 서식 슬롯 1건도 함께 해제됩니다.",
      "tr": "Once removed, this form is no longer treated as an AE form. The SAE notification and extraction filter stop together. One assigned form slot is removed with it.",
      "box_px_orig": [
-      43.0,
-      72.5,
-      411.5,
-      20.5
+      43.5,
+      90.5,
+      319.0,
+      2.5
      ],
-     "font_px": 23.3,
-     "scale": 0.838,
+     "font_px": 12,
+     "scale": 0.482,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_5_1_048",
@@ -1121,8 +1414,8 @@
       22.5,
       11.5
      ],
-     "font_px": 23.1,
-     "scale": 0.9,
+     "font_px": 25.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1138,10 +1431,10 @@
       420.0,
       129.0,
       23.0,
-      12.5
+      12.0
      ],
-     "font_px": 21.9,
-     "scale": 0.799,
+     "font_px": 22.3,
+     "scale": 0.82,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1156,19 +1449,19 @@
      "ko": "해제하면 이 양식은 더 이상 AE 양식으로 취급되지 않습니다 — SAE 통보와 추출 필터가 함께 멈춥니다. 지정된 서식 슬롯 1건도 함께 해제됩니다.",
      "tr": "Once removed, this form is no longer treated as an AE form. The SAE notification and extraction filter stop together. One assigned form slot is removed with it.",
      "box_px_orig": [
-      43.0,
-      72.5,
-      411.5,
-      20.5
+      43.5,
+      90.5,
+      319.0,
+      2.5
      ],
-     "font_px": 23.3,
-     "scale": 0.838,
+     "font_px": 12,
+     "scale": 0.482,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_5_1_049",
@@ -1178,10 +1471,10 @@
       420.0,
       129.0,
       23.0,
-      12.5
+      12.0
      ],
-     "font_px": 21.9,
-     "scale": 0.799,
+     "font_px": 22.3,
+     "scale": 0.82,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1203,7 +1496,45 @@
     600
    ],
    "effective_dpi": 258.9,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      93.374,
+      25.983
+     ],
+     "stuck": true,
+     "ink": 0.038
+    },
+    {
+     "from_pct": [
+      43.495,
+      9.679
+     ],
+     "to_pct": [
+      52.301,
+      9.679
+     ],
+     "dx_px": 90,
+     "dy_px": 0,
+     "ink_before": 0.222,
+     "ink_after": 0.011
+    },
+    {
+     "from_pct": [
+      96.998,
+      16.563
+     ],
+     "to_pct": [
+      96.771,
+      16.563
+     ],
+     "dx_px": -2,
+     "dy_px": 0,
+     "ink_before": 1.0,
+     "ink_after": 0.018
+    }
+   ]
   },
   "s2_1_1.png": {
    "name": "s2_1_1.png",
@@ -1238,11 +1569,11 @@
      "tr": "Form slot assignment — MED_COMMON",
      "box_px_orig": [
       50.5,
-      32.5,
+      33.0,
       215.0,
-      14.5
+      13.5
      ],
-     "font_px": 30.3,
+     "font_px": 28.7,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1337,8 +1668,8 @@
       28.5,
       10.5
      ],
-     "font_px": 20.2,
-     "scale": 0.882,
+     "font_px": 22.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1375,8 +1706,8 @@
       18.5,
       10.5
      ],
-     "font_px": 22.6,
-     "scale": 0.983,
+     "font_px": 23,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1413,14 +1744,14 @@
       39.0,
       10.5
      ],
-     "font_px": 17.9,
-     "scale": 0.782,
+     "font_px": 22.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_061",
@@ -1451,14 +1782,14 @@
       38.5,
       10.0
      ],
-     "font_px": 11.5,
-     "scale": 0.52,
+     "font_px": 22.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_1_1_063",
@@ -1470,14 +1801,14 @@
       97.5,
       17.0
      ],
-     "font_px": 17.8,
-     "scale": 0.679,
+     "font_px": 26.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_064",
@@ -1546,8 +1877,8 @@
       48.0,
       10.5
      ],
-     "font_px": 10.1,
-     "scale": 0.441,
+     "font_px": 11.5,
+     "scale": 0.502,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1561,11 +1892,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      419.0,
+      419.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1577,63 +1908,6 @@
    ],
    "flags": [
     {
-     "id": "s2_1_1_060",
-     "ko": "출생연도",
-     "tr": "Birth year",
-     "box_px_orig": [
-      59.0,
-      242.0,
-      39.0,
-      10.5
-     ],
-     "font_px": 17.9,
-     "scale": 0.782,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_062",
-     "ko": "이상사례",
-     "tr": "Adverse event",
-     "box_px_orig": [
-      29.0,
-      290.0,
-      38.5,
-      10.0
-     ],
-     "font_px": 11.5,
-     "scale": 0.52,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_1_1_063",
-     "ko": "중대성 여부 f_0002",
-     "tr": "Seriousness flag f_0002",
-     "box_px_orig": [
-      58.5,
-      315.0,
-      97.5,
-      17.0
-     ],
-     "font_px": 17.8,
-     "scale": 0.679,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s2_1_1_067",
      "ko": "이상사례명",
      "tr": "Adverse event name",
@@ -1643,8 +1917,8 @@
       48.0,
       10.5
      ],
-     "font_px": 10.1,
-     "scale": 0.441,
+     "font_px": 11.5,
+     "scale": 0.502,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1666,7 +1940,67 @@
     900
    ],
    "effective_dpi": 344.3,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      90.337,
+      68.321
+     ],
+     "to_pct": [
+      90.337,
+      63.151
+     ],
+     "dx_px": 0,
+     "dy_px": -64,
+     "ink_before": 0.068,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      47.101,
+      6.517
+     ],
+     "to_pct": [
+      54.694,
+      6.517
+     ],
+     "dx_px": 94,
+     "dy_px": 0,
+     "ink_before": 0.2,
+     "ink_after": 0.015
+    },
+    {
+     "from_pct": [
+      14.873,
+      16.464
+     ],
+     "stuck": true,
+     "ink": 0.139
+    },
+    {
+     "from_pct": [
+      41.796,
+      26.676
+     ],
+     "to_pct": [
+      50.358,
+      26.676
+     ],
+     "dx_px": 106,
+     "dy_px": 0,
+     "ink_before": 0.051,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      12.883,
+      47.366
+     ],
+     "stuck": true,
+     "ink": 0.118
+    }
+   ]
   },
   "s2_2_1.png": {
    "name": "s2_2_1.png",
@@ -1702,17 +2036,17 @@
      "box_px_orig": [
       41.0,
       16.0,
-      95.5,
-      18.0
+      92.0,
+      10.5
      ],
-     "font_px": 17,
-     "scale": 0.739,
+     "font_px": 22.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_071",
@@ -1720,11 +2054,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      41.0,
+      41.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1739,12 +2073,12 @@
      "tr": "This box has no field type that can be set in this form (DATETIME·DATE required)",
      "box_px_orig": [
       41.0,
-      69.5,
+      70.0,
       309.5,
-      10.0
+      9.0
      ],
-     "font_px": 17.1,
-     "scale": 0.877,
+     "font_px": 19,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1777,11 +2111,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      122.0,
+      122.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1796,12 +2130,12 @@
      "tr": "This box has no field type that can be set in this form (DATETIME·DATE required)",
      "box_px_orig": [
       41.0,
-      149.5,
+      150.0,
       309.5,
-      10.0
+      9.0
      ],
-     "font_px": 17.1,
-     "scale": 0.877,
+     "font_px": 19,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1834,11 +2168,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      203.0,
+      203.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1857,8 +2191,8 @@
       51.5,
       10.5
      ],
-     "font_px": 11.5,
-     "scale": 0.5,
+     "font_px": 12.4,
+     "scale": 0.539,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1872,11 +2206,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      265.0,
+      265.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1895,8 +2229,8 @@
       29.5,
       10.5
      ],
-     "font_px": 16,
-     "scale": 0.661,
+     "font_px": 18.4,
+     "scale": 0.76,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1910,11 +2244,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      327.0,
+      327.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1948,11 +2282,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      389.0,
+      389.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2005,11 +2339,11 @@
      "tr": "Not set",
      "box_px_orig": [
       52.0,
-      485.0,
+      485.5,
       52.0,
-      12.5
+      12.0
      ],
-     "font_px": 27.1,
+     "font_px": 26.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2066,8 +2400,8 @@
       23.0,
       12.5
      ],
-     "font_px": 24.6,
-     "scale": 0.9,
+     "font_px": 27.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2077,25 +2411,6 @@
     }
    ],
    "flags": [
-    {
-     "id": "s2_2_1_070",
-     "ko": "발현일 ONSET_DATE",
-     "tr": "Onset date ONSET_DATE",
-     "box_px_orig": [
-      41.0,
-      16.0,
-      95.5,
-      18.0
-     ],
-     "font_px": 17,
-     "scale": 0.739,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
     {
      "id": "s2_2_1_073",
      "ko": "종료일",
@@ -2125,8 +2440,8 @@
       51.5,
       10.5
      ],
-     "font_px": 11.5,
-     "scale": 0.5,
+     "font_px": 12.4,
+     "scale": 0.539,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2144,8 +2459,8 @@
       29.5,
       10.5
      ],
-     "font_px": 16,
-     "scale": 0.661,
+     "font_px": 18.4,
+     "scale": 0.76,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2224,7 +2539,99 @@
     900
    ],
    "effective_dpi": 492.0,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      90.331,
+      43.943
+     ],
+     "stuck": true,
+     "ink": 0.054
+    },
+    {
+     "from_pct": [
+      90.331,
+      53.639
+     ],
+     "stuck": true,
+     "ink": 0.054
+    },
+    {
+     "from_pct": [
+      91.852,
+      99.076
+     ],
+     "stuck": true,
+     "ink": 1.0
+    },
+    {
+     "from_pct": [
+      62.194,
+      12.004
+     ],
+     "to_pct": [
+      66.57,
+      12.004
+     ],
+     "dx_px": 54,
+     "dy_px": 0,
+     "ink_before": 0.051,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      90.331,
+      33.677
+     ],
+     "stuck": true,
+     "ink": 0.054
+    },
+    {
+     "from_pct": [
+      90.331,
+      63.715
+     ],
+     "stuck": true,
+     "ink": 0.066
+    },
+    {
+     "from_pct": [
+      17.707,
+      70.939
+     ],
+     "to_pct": [
+      17.707,
+      91.685
+     ],
+     "dx_px": 0,
+     "dy_px": 256,
+     "ink_before": 0.115,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      90.331,
+      79.114
+     ],
+     "stuck": true,
+     "ink": 0.053
+    },
+    {
+     "from_pct": [
+      74.361,
+      99.076
+     ],
+     "to_pct": [
+      74.361,
+      92.269
+     ],
+     "dx_px": 0,
+     "dy_px": -84,
+     "ink_before": 1.0,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s3_1_1.png": {
    "name": "s3_1_1.png",
@@ -2282,10 +2689,10 @@
       69.5,
       10.0
      ],
-     "font_px": 21.9,
-     "scale": 1.0,
+     "font_px": 19.3,
+     "scale": 0.881,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "breadcrumb",
@@ -2318,16 +2725,16 @@
       52.5,
       46.0,
       93.5,
-      16.0
+      15.5
      ],
-     "font_px": 20.5,
-     "scale": 0.599,
+     "font_px": 33.1,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_094",
@@ -2339,14 +2746,14 @@
       527.0,
       10.0
      ],
-     "font_px": 16.8,
-     "scale": 0.778,
+     "font_px": 21.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_095",
@@ -2354,12 +2761,12 @@
      "tr": "Saving does not change the flags already set on values entered. Re-flagging is a separate action (see",
      "box_px_orig": [
       38.0,
-      105.5,
+      106.0,
       379.0,
-      11.0
+      10.5
      ],
-     "font_px": 16.5,
-     "scale": 0.737,
+     "font_px": 17,
+     "scale": 0.762,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2373,11 +2780,11 @@
      "tr": "“Normal range re-flagging”). It is designed so regulatory data does not change in bulk without the user noticing.",
      "box_px_orig": [
       426.5,
-      105.5,
+      106.0,
       382.0,
-      11.0
+      10.5
      ],
-     "font_px": 21.8,
+     "font_px": 21.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2396,15 +2803,14 @@
       45.5,
       12.5
      ],
-     "font_px": 24.6,
-     "scale": 0.9,
+     "font_px": 20.2,
+     "scale": 0.74,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "tab",
-     "flag": "",
-     "button_widened_px": 62
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_098",
@@ -2414,10 +2820,10 @@
       1171.5,
       150.5,
       79.5,
-      12.0
+      11.5
      ],
-     "font_px": 21.9,
-     "scale": 0.88,
+     "font_px": 22,
+     "scale": 0.902,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2469,11 +2875,11 @@
      "tr": "Select",
      "box_px_orig": [
       42.0,
-      216.0,
+      216.5,
       57.5,
-      12.5
+      12.0
      ],
-     "font_px": 27.4,
+     "font_px": 26.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2488,11 +2894,11 @@
      "tr": "Select",
      "box_px_orig": [
       283.0,
-      216.0,
+      216.5,
       57.5,
-      12.5
+      12.0
      ],
-     "font_px": 27.4,
+     "font_px": 26.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2511,12 +2917,12 @@
       37.5,
       11.5
      ],
-     "font_px": 23.9,
-     "scale": 0.937,
+     "font_px": 25,
+     "scale": 0.98,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "button",
      "flag": ""
     },
@@ -2580,60 +2986,41 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s3_1_1_093",
-     "ko": "LAB 정상범위",
-     "tr": "LAB normal ranges",
-     "box_px_orig": [
-      52.5,
-      46.0,
-      93.5,
-      16.0
-     ],
-     "font_px": 20.5,
-     "scale": 0.599,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_1_1_094",
-     "ko": "검사 항목별 정상범위를 기관 × 성별 × 연령 단위로 저작합니다. 저장 이후 입력되는 검사값은 이 범위로 자동 판정됩니다.",
-     "tr": "Create normal ranges for each test item by site × sex × age. Test values entered after saving are automatically flagged against these ranges.",
-     "box_px_orig": [
-      27.0,
-      76.0,
-      527.0,
-      10.0
-     ],
-     "font_px": 16.8,
-     "scale": 0.778,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s3_1_1_095",
      "ko": "저장해도 이미 입력된 값의 판정은 바뀌지 않습니다 — 재판정은 별 동작입니다(아래",
      "tr": "Saving does not change the flags already set on values entered. Re-flagging is a separate action (see",
      "box_px_orig": [
       38.0,
-      105.5,
+      106.0,
       379.0,
-      11.0
+      10.5
      ],
-     "font_px": 16.5,
-     "scale": 0.737,
+     "font_px": 17,
+     "scale": 0.762,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_097",
+     "ko": "정상범위",
+     "tr": "Normal ranges",
+     "box_px_orig": [
+      1103.0,
+      150.0,
+      45.5,
+      12.5
+     ],
+     "font_px": 20.2,
+     "scale": 0.74,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "tab",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -2650,7 +3037,101 @@
     600
    ],
    "effective_dpi": 470.7,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      15.736,
+      16.018
+     ],
+     "to_pct": [
+      15.736,
+      14.124
+     ],
+     "dx_px": 0,
+     "dy_px": -52,
+     "ink_before": 0.039,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      32.379,
+      16.018
+     ],
+     "to_pct": [
+      32.379,
+      14.124
+     ],
+     "dx_px": 0,
+     "dy_px": -52,
+     "ink_before": 0.037,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      40.419,
+      13.973
+     ],
+     "to_pct": [
+      40.419,
+      13.755
+     ],
+     "dx_px": 0,
+     "dy_px": -6,
+     "ink_before": 0.03,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      14.749,
+      3.889
+     ],
+     "to_pct": [
+      16.424,
+      3.889
+     ],
+     "dx_px": 46,
+     "dy_px": 0,
+     "ink_before": 0.084,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      45.355,
+      5.722
+     ],
+     "to_pct": [
+      45.355,
+      3.901
+     ],
+     "dx_px": 0,
+     "dy_px": -50,
+     "ink_before": 0.083,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      72.154,
+      7.979
+     ],
+     "to_pct": [
+      72.154,
+      6.085
+     ],
+     "dx_px": 0,
+     "dy_px": -52,
+     "ink_before": 0.047,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      98.106,
+      20.32
+     ],
+     "stuck": true,
+     "ink": 1.0
+    }
+   ]
   }
  }
 }

@@ -18,12 +18,23 @@ HAN = re.compile('[가-힣ㄱ-ㅎㅏ-ㅣ]')
 ap = argparse.ArgumentParser()
 ap.add_argument('vol')
 ap.add_argument('--ocr-bin', default=os.environ.get('IMG_OCR_BIN', ''))
+ap.add_argument('--add', action='store_true', help='이미 segments.json 에 있는 파일은 건너뛰고 새 파일 덩어리만 덧붙인다')
+ap.add_argument('--reocr', action='store_true', help='가로로 긴 캡처(폭이 높이의 2.5배 넘고 1200px 넘음)를 조각 OCR로 다시 읽어, 기존 덩어리와 겹치지 않는 것만 r_ id로 덧붙인다 (2026-11-03)')
+ap.add_argument('--files', nargs='*', default=None, help='--reocr 에서 다시 읽을 파일만 고른다')
 a = ap.parse_args()
 V = f'{ROOT}/manuals/{a.vol}'
 KO = f'{V}/ko/img'
 LOC = f'{V}/img/loc'
 os.makedirs(f'{LOC}/sheets', exist_ok=True)
-files = sorted(f for f in os.listdir(KO) if re.match(r's\d+_\d+_\d+\.png$', f))
+files = sorted(f for f in os.listdir(KO) if re.match(r's\d+_\d+[a-z]?_\d+\.png$', f))   # s2_4b_1.png 처럼 절 번호에 글자가 붙은 파일도 포함
+old_segs = json.load(open(f'{LOC}/segments.json')) if (a.add or a.reocr) and os.path.exists(f'{LOC}/segments.json') else []
+if a.add:
+    have = {s['file'] for s in old_segs}; files = [f for f in files if f not in have]
+if a.reocr:
+    def wide(f):
+        im = Image.open(f'{KO}/{f}'); return im.width > 2.5 * im.height and im.width > 1200
+    files = [f for f in files if (f in a.files if a.files else wide(f))]
+    if not files: sys.exit('새 파일 없음')
 
 
 def ocr(paths, lang='ko'):
@@ -61,7 +72,11 @@ for f in files:
         if any(overlap(it['box'], o['box']) > 0.5 for o in items): continue
         items.append(it)
     merged.append({'file': f, 'W': res1[f]['W'], 'H': res1[f]['H'], 'items': items})
-json.dump(merged, open(f'{LOC}/ocr.json', 'w'), ensure_ascii=False)
+if (a.add or a.reocr) and os.path.exists(f'{LOC}/ocr.json'):
+    redo = {d['file'] for d in merged}
+    merged_all = [d for d in json.load(open(f'{LOC}/ocr.json')) if d['file'] not in redo] + merged
+else: merged_all = merged
+json.dump(merged_all, open(f'{LOC}/ocr.json', 'w'), ensure_ascii=False)
 
 
 # ---------- 2. 한글이 든 줄을 픽셀 간격으로 덩어리로 나눈다
@@ -83,6 +98,14 @@ def runs_of(cols):
 
 
 segs = []
+n_old = len(old_segs)
+def covered(f, gx0, gx1, ty0, ty1):
+    # --reocr: 이미 있는 덩어리(검수 끝난 것)와 겹치면 새로 만들지 않는다
+    for o in old_segs:
+        if o['file'] != f: continue
+        ix = max(0, min(gx1, o['x1']) - max(gx0, o['x0'])); iy = max(0, min(ty1, o['y1']) - max(ty0, o['y0']))
+        if ix * iy > 0.3 * min((gx1 - gx0) * (ty1 - ty0), (o['x1'] - o['x0']) * (o['y1'] - o['y0'])): return True
+    return False
 for d in merged:
     im = np.asarray(Image.open(f'{KO}/{d["file"]}').convert('RGB')).astype(float)
     H, W = im.shape[:2]
@@ -119,14 +142,15 @@ for d in merged:
             for r in wr[1:]:
                 if r[0] - words[-1][1] < 0.28 * h: words[-1][1] = r[1]
                 else: words.append(r[:])
+            if a.reocr and covered(d['file'], gx0, gx1, ty0, ty1): continue
             px = a_[:, bs:be][sub]; dd = diff[:, bs:be][sub]
             col = px[dd >= np.percentile(dd, 90)].mean(0) if len(px) else np.array([0, 0, 0])
             if col.max() - col.min() < 45: col = np.array([col.mean()] * 3)
-            segs.append({'id': f'{d["file"][:-4]}_{len(segs):03d}', 'file': d['file'], 'line': li, 'ocr': txt, 'line_text': it['t'],
+            segs.append({'id': ('r_' if a.reocr else '') + f'{d["file"][:-4]}_{n_old + len(segs):03d}', 'file': d['file'], 'line': li, 'ocr': txt, 'line_text': it['t'],
                          'x0': int(gx0), 'x1': int(gx1), 'y0': int(ty0), 'y1': int(ty1), 'line_y0': int(y), 'line_h': round(h, 1),
                          'words': [[int(gx0 + p), int(gx0 + q)] for p, q in words],
                          'bg': [int(round(v)) for v in bg], 'fg': [int(round(v)) for v in col], 'conf': round(it['conf'], 2), 'src': it['src']})
-json.dump(segs, open(f'{LOC}/segments.json', 'w'), ensure_ascii=False, indent=0)
+json.dump(old_segs + segs, open(f'{LOC}/segments.json', 'w'), ensure_ascii=False, indent=0)
 
 # ---------- 3. 확인 시트 (덩어리마다 확대 crop + id + OCR 글)
 F = ImageFont.truetype(f'{HERE}/assets/fonts/Pretendard-700.ttf', 15)
@@ -160,10 +184,10 @@ for f, lst in by.items():
         if not cur: return
         S = Image.new('RGB', (SW, sum(r.height for r in cur)), 'white'); y = 0
         for r in cur: S.paste(r, (0, y)); y += r.height
-        p = f'{LOC}/sheets/{f[:-4]}_{n}.png'; S.save(p); sheets.append(os.path.relpath(p, ROOT)); cur = []; hh = 0; n += 1
+        p = f'{LOC}/sheets/{"r_" if a.reocr else ""}{f[:-4]}_{n}.png'; S.save(p); sheets.append(os.path.relpath(p, ROOT)); cur = []; hh = 0; n += 1
     for r in rows:
         if hh + r.height > 1800: flush()
         cur.append(r); hh += r.height
     flush()
-json.dump({s['id']: s['ocr'] for s in segs}, open(f'{LOC}/strings.json', 'w'), ensure_ascii=False, indent=0)
+json.dump({s['id']: s['ocr'] for s in old_segs + segs}, open(f'{LOC}/strings.json', 'w'), ensure_ascii=False, indent=0)
 print(json.dumps({'vol': a.vol, 'images': len(files), 'segments': len(segs), 'sheets': len(sheets)}, ensure_ascii=False))

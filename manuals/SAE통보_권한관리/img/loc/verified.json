@@ -3049,15 +3049,15 @@
 },
 {
 "id": "s4_3_2_254",
-"ko": "간 (from)",
+"ko": "기간 (from)",
 "skip": false,
 "join_next": null,
 "bold": false,
 "align": "left",
 "role": "label",
-"truncated": true,
+"truncated": false,
 "icon_lead": false,
-"note": "왼쪽 '기' 잘림"
+"note": "OCR이 '기'를 빼고 읽음. 2026-10-30 상자를 '기'까지 넓히고 글을 고침"
 },
 {
 "id": "s4_3_2_255",
@@ -3069,7 +3069,8 @@
 "role": "placeholder",
 "truncated": false,
 "icon_lead": false,
-"note": ""
+"note": "끝에 아이콘(2026-11-03)",
+"icon_trail": true
 },
 {
 "id": "s4_3_2_256",

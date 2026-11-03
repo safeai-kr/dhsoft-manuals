@@ -1,7 +1,77 @@
 {
  "vol": "AuditTrail",
  "lang": "de",
- "remaining_korean": [],
+ "untranslated_images": [],
+ "remaining_korean": [
+  {
+   "file": "s1_1_1.png",
+   "text": "종료일",
+   "box": [
+    3079,
+    436,
+    67,
+    41
+   ],
+   "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": ")연도-월.일 ㅁ",
+   "box": [
+    3032,
+    470,
+    276,
+    48
+   ],
+   "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s2_1_2.png",
+   "text": "G 트U Annex 11812 - Security",
+   "box": [
+    90,
+    228,
+    250,
+    24
+   ],
+   "changed_ink_ratio": 0.0
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "SYSTEM_A DataQuen 01a18107-ebaa-7060-be71-843|ANSWER (OPEN ANSWERE 서디완됴습느",
+   "box": [
+    780,
+    387,
+    1357,
+    37
+   ],
+   "changed_ink_ratio": 0.027
+  },
+  {
+   "file": "s4_3_1.png",
+   "text": "60 1이 잘못 기재도",
+   "box": [
+    1887,
+    471,
+    253,
+    34
+   ],
+   "changed_ink_ratio": 0.0
+  }
+ ],
+ "behind_overlay_kept": [
+  {
+   "file": "s4_1_1.png",
+   "text": "시작일",
+   "box": [
+    48,
+    50,
+    62,
+    26
+   ],
+   "changed_ink_ratio": 0.0
+  }
+ ],
  "false_positive_changed_pixels": [
   {
    "file": "s1_1_1.png",
@@ -13,6 +83,28 @@
     14
    ],
    "changed_ink_ratio": 0.936
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "JJJMMTT ㅁ",
+   "box": [
+    2271,
+    484,
+    283,
+    41
+   ],
+   "changed_ink_ratio": 0.801
+  },
+  {
+   "file": "s1_2_1.png",
+   "text": "Alle옓",
+   "box": [
+    34,
+    48,
+    45,
+    24
+   ],
+   "changed_ink_ratio": 0.891
   }
  ]
 }

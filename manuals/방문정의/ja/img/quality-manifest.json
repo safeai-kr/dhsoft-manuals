@@ -31,7 +31,7 @@
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 47,
+   "replaced": 48,
    "segments": [
     {
      "id": "s1_1_1_000",
@@ -57,38 +57,38 @@
      "ko": "치식 be-mode 검증 프로젝트 0...",
      "tr": "歯式 be-mode 検証プロジェクト 0...",
      "box_px_orig": [
-      191.0,
+      192.5,
       22.0,
-      193.5,
-      22.5
+      132.5,
+      3.0
      ],
-     "font_px": 24.5,
-     "scale": 0.798,
+     "font_px": 7.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_002",
      "ko": "테스트",
      "tr": "テスト",
      "box_px_orig": [
-      446.0,
-      20.0,
-      44.0,
-      19.5
+      453.5,
+      24.0,
+      33.0,
+      11.0
      ],
-     "font_px": 31.2,
-     "scale": 0.841,
+     "font_px": 25.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_003",
@@ -100,14 +100,14 @@
       55.0,
       16.0
      ],
-     "font_px": 16.6,
-     "scale": 0.641,
+     "font_px": 25.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "center",
+     "align": "left",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s1_1_1_004",
@@ -115,9 +115,9 @@
      "tr": "ダッシュボード / 来院定義管理",
      "box_px_orig": [
       256.5,
-      75.5,
+      76.0,
       137.0,
-      12.0
+      11.5
      ],
      "font_px": 26.6,
      "scale": 1.0,
@@ -153,9 +153,9 @@
      "tr": "新規 VisitGroup",
      "box_px_orig": [
       412.5,
-      105.5,
+      106.0,
       73.0,
-      12.5
+      11.5
      ],
      "font_px": 24.3,
      "scale": 1.0,
@@ -248,12 +248,12 @@
      "tr": "共通",
      "box_px_orig": [
       268.0,
-      148.5,
+      149.0,
       22.0,
-      12.0
+      11.5
      ],
-     "font_px": 23.3,
-     "scale": 0.86,
+     "font_px": 26,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -304,9 +304,9 @@
      "ko": "치식 치료 방문",
      "tr": "歯式治療の来院",
      "box_px_orig": [
-      268.5,
+      277.0,
       242.5,
-      115.5,
+      95.0,
       11.0
      ],
      "font_px": 26.6,
@@ -385,8 +385,8 @@
       79.0,
       13.0
      ],
-     "font_px": 27.9,
-     "scale": 0.982,
+     "font_px": 28.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -423,14 +423,14 @@
       82.5,
       13.0
      ],
-     "font_px": 19.3,
-     "scale": 0.68,
+     "font_px": 28.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_021",
@@ -497,7 +497,7 @@
       48.5,
       600.0,
       105.5,
-      14.0
+      13.0
      ],
      "font_px": 27.6,
      "scale": 1.0,
@@ -591,7 +591,7 @@
      "box_px_orig": [
       1255.5,
       268.0,
-      197.5,
+      197.0,
       42.0
      ],
      "font_px": 58.8,
@@ -649,9 +649,9 @@
       1244.5,
       339.0,
       512.5,
-      11.0
+      10.0
      ],
-     "font_px": 21.8,
+     "font_px": 21.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -668,16 +668,16 @@
       1216.0,
       382.0,
       48.5,
-      9.5
+      9.0
      ],
-     "font_px": 19,
-     "scale": 0.779,
+     "font_px": 24,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_036",
@@ -708,8 +708,8 @@
       83.5,
       13.5
      ],
-     "font_px": 25.4,
-     "scale": 0.861,
+     "font_px": 29.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -723,11 +723,11 @@
      "tr": "TREATMENT — 治療の来院",
      "box_px_orig": [
       1215.5,
-      454.0,
+      454.5,
       153.5,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -744,9 +744,9 @@
       1560.0,
       454.0,
       83.0,
-      14.0
+      13.5
      ],
-     "font_px": 29.7,
+     "font_px": 29.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -761,11 +761,11 @@
      "tr": "Window Before (日)",
      "box_px_orig": [
       1216.0,
-      543.0,
+      543.5,
       104.0,
-      11.5
+      10.5
      ],
-     "font_px": 23.3,
+     "font_px": 22.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -780,11 +780,11 @@
      "tr": "Window After (日)",
      "box_px_orig": [
       1560.0,
-      543.0,
+      543.5,
       95.0,
-      11.5
+      10.5
      ],
-     "font_px": 23.2,
+     "font_px": 22.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -817,13 +817,13 @@
      "ko": "수정",
      "tr": "編集",
      "box_px_orig": [
-      1829.5,
-      273.0,
-      45.0,
-      23.5
+      1853.0,
+      283.0,
+      21.5,
+      11.5
      ],
-     "font_px": 47.4,
-     "scale": 0.879,
+     "font_px": 24.7,
+     "scale": 0.961,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -875,11 +875,11 @@
      "tr": "発行: 2026-07-30 by usr_0000000000000000000145",
      "box_px_orig": [
       1562.0,
-      685.0,
+      686.0,
       312.0,
-      12.0
+      10.0
      ],
-     "font_px": 24.7,
+     "font_px": 21.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -894,12 +894,12 @@
      "tr": "Plan プレビュー",
      "box_px_orig": [
       2294.5,
-      149.5,
+      150.0,
       71.5,
-      12.0
+      11.0
      ],
-     "font_px": 25.2,
-     "scale": 0.962,
+     "font_px": 25,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -913,17 +913,36 @@
      "tr": "CRF Visit Matrix",
      "box_px_orig": [
       2424.5,
-      150.5,
+      151.0,
       90.5,
-      10.0
+      9.5
      ],
-     "font_px": 25.6,
+     "font_px": 24.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
+     "flag": ""
+    },
+    {
+     "id": "r_s1_1_1_203",
+     "ko": "황",
+     "tr": "フ",
+     "box_px_orig": [
+      2506.0,
+      23.0,
+      12.5,
+      13.5
+     ],
+     "font_px": 29.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
      "flag": ""
     }
    ],
@@ -940,82 +959,6 @@
      ],
      "font_px": 19.1,
      "scale": 0.799,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_001",
-     "ko": "치식 be-mode 검증 프로젝트 0...",
-     "tr": "歯式 be-mode 検証プロジェクト 0...",
-     "box_px_orig": [
-      191.0,
-      22.0,
-      193.5,
-      22.5
-     ],
-     "font_px": 24.5,
-     "scale": 0.798,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_002",
-     "ko": "테스트",
-     "tr": "テスト",
-     "box_px_orig": [
-      446.0,
-      20.0,
-      44.0,
-      19.5
-     ],
-     "font_px": 31.2,
-     "scale": 0.841,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_003",
-     "ko": "테스트 메뉴",
-     "tr": "テストメニュー",
-     "box_px_orig": [
-      4.0,
-      74.0,
-      55.0,
-      16.0
-     ],
-     "font_px": 16.6,
-     "scale": 0.641,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_020",
-     "ko": "설계 버전 관리",
-     "tr": "設計バージョン管理",
-     "box_px_orig": [
-      48.5,
-      428.0,
-      82.5,
-      13.0
-     ],
-     "font_px": 19.3,
-     "scale": 0.68,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1049,7 +992,7 @@
      "box_px_orig": [
       1255.5,
       268.0,
-      197.5,
+      197.0,
       42.0
      ],
      "font_px": 58.8,
@@ -1079,25 +1022,6 @@
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_035",
-     "ko": "Visit 코드",
-     "tr": "Visit コード",
-     "box_px_orig": [
-      1216.0,
-      382.0,
-      48.5,
-      9.5
-     ],
-     "font_px": 19,
-     "scale": 0.779,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -1113,7 +1037,163 @@
     600
    ],
    "effective_dpi": 870.2,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      21.181,
+      4.385
+     ],
+     "to_pct": [
+      22.892,
+      4.385
+     ],
+     "dx_px": 87,
+     "dy_px": 0,
+     "ink_before": 0.01,
+     "ink_after": 0.003
+    },
+    {
+     "from_pct": [
+      22.452,
+      8.337
+     ],
+     "to_pct": [
+      22.892,
+      8.337
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.041,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      92.247,
+      6.079
+     ],
+     "to_pct": [
+      88.377,
+      6.079
+     ],
+     "dx_px": -196,
+     "dy_px": 0,
+     "ink_before": 0.063,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      66.065,
+      11.301
+     ],
+     "to_pct": [
+      66.765,
+      9.725
+     ],
+     "dx_px": 36,
+     "dy_px": -80,
+     "ink_before": 0.067,
+     "ink_after": 0.005
+    },
+    {
+     "from_pct": [
+      5.444,
+      15.677
+     ],
+     "to_pct": [
+      7.493,
+      15.677
+     ],
+     "dx_px": 104,
+     "dy_px": 0,
+     "ink_before": 0.075,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      17.088,
+      3.115
+     ],
+     "to_pct": [
+      22.892,
+      3.115
+     ],
+     "dx_px": 295,
+     "dy_px": 0,
+     "ink_before": 0.131,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      87.942,
+      6.079
+     ],
+     "to_pct": [
+      88.377,
+      6.079
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.013,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.971,
+      6.079
+     ],
+     "to_pct": [
+      22.892,
+      6.079
+     ],
+     "dx_px": 402,
+     "dy_px": 0,
+     "ink_before": 0.043,
+     "ink_after": 0.011
+    },
+    {
+     "from_pct": [
+      43.905,
+      13.419
+     ],
+     "to_pct": [
+      47.439,
+      13.419
+     ],
+     "dx_px": 179,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      47.716,
+      11.301
+     ],
+     "to_pct": [
+      47.439,
+      11.301
+     ],
+     "dx_px": -14,
+     "dy_px": 0,
+     "ink_before": 0.014,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      57.949,
+      8.761
+     ],
+     "to_pct": [
+      59.131,
+      8.761
+     ],
+     "dx_px": 60,
+     "dy_px": 0,
+     "ink_before": 0.048,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s1_2_1.png": {
    "name": "s1_2_1.png",
@@ -1140,93 +1220,17 @@
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 19,
+   "replaced": 14,
    "segments": [
-    {
-     "id": "s1_2_1_049",
-     "ko": "터는 운영",
-     "tr": "…タは運用",
-     "box_px_orig": [
-      246.5,
-      0.0,
-      45.5,
-      6.0
-     ],
-     "font_px": 14.5,
-     "scale": 1.0,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": ""
-    },
-    {
-     "id": "s1_2_1_050",
-     "ko": "전환",
-     "tr": "切り替え",
-     "box_px_orig": [
-      297.0,
-      0.0,
-      20.0,
-      6.0
-     ],
-     "font_px": 10.7,
-     "scale": 0.723,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_2_1_051",
-     "ko": "시 삭제)",
-     "tr": "…時に削除)",
-     "box_px_orig": [
-      322.0,
-      0.0,
-      38.5,
-      6.5
-     ],
-     "font_px": 13.8,
-     "scale": 1.0,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": ""
-    },
-    {
-     "id": "s1_2_1_052",
-     "ko": "치식 치료 방문 v2",
-     "tr": "歯式治療の来院 v2",
-     "box_px_orig": [
-      213.0,
-      33.0,
-      152.5,
-      9.5
-     ],
-     "font_px": 22.4,
-     "scale": 1.0,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": ""
-    },
     {
      "id": "s1_2_1_053",
      "ko": "신규 VisitGroup 추가",
      "tr": "新規 VisitGroup 追加",
      "box_px_orig": [
       72.5,
-      66.5,
+      67.0,
       165.5,
-      18.5
+      17.0
      ],
      "font_px": 35.2,
      "scale": 1.0,
@@ -1247,8 +1251,8 @@
       59.0,
       12.5
      ],
-     "font_px": 27.7,
-     "scale": 0.982,
+     "font_px": 28.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1283,10 +1287,10 @@
       72.5,
       201.0,
       351.0,
-      11.5
+      11.0
      ],
-     "font_px": 20.3,
-     "scale": 0.86,
+     "font_px": 20.6,
+     "scale": 0.88,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1302,9 +1306,9 @@
       72.0,
       232.0,
       110.5,
-      13.5
+      11.5
      ],
-     "font_px": 27.8,
+     "font_px": 26,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1319,11 +1323,11 @@
      "tr": "例: CYCLE1",
      "box_px_orig": [
       85.5,
-      262.0,
+      263.0,
       67.0,
-      13.0
+      11.5
      ],
-     "font_px": 28.5,
+     "font_px": 26.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1340,10 +1344,10 @@
       72.5,
       295.0,
       167.0,
-      11.5
+      11.0
      ],
-     "font_px": 23.7,
-     "scale": 0.937,
+     "font_px": 25.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1357,11 +1361,11 @@
      "tr": "Visit Group 名 *",
      "box_px_orig": [
       72.0,
-      325.0,
+      326.0,
       97.5,
-      14.5
+      12.5
      ],
-     "font_px": 27.9,
+     "font_px": 26.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1397,7 +1401,7 @@
       93.5,
       400.0,
       107.0,
-      14.5
+      13.5
      ],
      "font_px": 28,
      "scale": 1.0,
@@ -1416,9 +1420,9 @@
       72.5,
       425.0,
       270.5,
-      12.0
+      11.0
      ],
-     "font_px": 23.9,
+     "font_px": 23.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1435,9 +1439,9 @@
       72.0,
       465.0,
       156.5,
-      12.0
+      11.0
      ],
-     "font_px": 23.8,
+     "font_px": 23.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1447,26 +1451,6 @@
      "flag": ""
     },
     {
-     "id": "s1_2_1_065",
-     "ko": "새 버전 생성",
-     "tr": "新しいバージョン作成",
-     "box_px_orig": [
-      491.5,
-      97.5,
-      62.5,
-      23.0
-     ],
-     "font_px": 25.2,
-     "scale": 0.9,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "",
-     "button_widened_px": 149
-    },
-    {
      "id": "s1_2_1_068",
      "ko": "취소",
      "tr": "キャンセル",
@@ -1474,17 +1458,16 @@
       362.0,
       498.0,
       25.0,
-      13.5
+      13.0
      ],
-     "font_px": 26.5,
-     "scale": 0.9,
+     "font_px": 18.9,
+     "scale": 0.661,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 40
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_2_1_069",
@@ -1508,22 +1491,22 @@
    ],
    "flags": [
     {
-     "id": "s1_2_1_050",
-     "ko": "전환",
-     "tr": "切り替え",
+     "id": "s1_2_1_068",
+     "ko": "취소",
+     "tr": "キャンセル",
      "box_px_orig": [
-      297.0,
-      0.0,
-      20.0,
-      6.0
+      362.0,
+      498.0,
+      25.0,
+      13.0
      ],
-     "font_px": 10.7,
-     "scale": 0.723,
+     "font_px": 18.9,
+     "scale": 0.661,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
+     "align": "center",
+     "role": "button",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -1540,7 +1523,135 @@
     1200
    ],
    "effective_dpi": 373.6,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      67.991,
+      30.491
+     ],
+     "to_pct": [
+      67.991,
+      24.702
+     ],
+     "dx_px": 0,
+     "dy_px": -66,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      75.803,
+      46.741
+     ],
+     "to_pct": [
+      75.789,
+      41.127
+     ],
+     "dx_px": 0,
+     "dy_px": -64,
+     "ink_before": 0.035,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      75.803,
+      62.991
+     ],
+     "to_pct": [
+      75.789,
+      57.728
+     ],
+     "dx_px": 0,
+     "dy_px": -60,
+     "ink_before": 0.033,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      42.053,
+      70.803
+     ],
+     "to_pct": [
+      48.246,
+      70.803
+     ],
+     "dx_px": 71,
+     "dy_px": 0,
+     "ink_before": 0.058,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      88.616,
+      87.991
+     ],
+     "to_pct": [
+      92.125,
+      87.991
+     ],
+     "dx_px": 40,
+     "dy_px": 0,
+     "ink_before": 0.26,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      79.866,
+      35.959
+     ],
+     "to_pct": [
+      79.866,
+      40.52
+     ],
+     "dx_px": 0,
+     "dy_px": 52,
+     "ink_before": 0.103,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      47.991,
+      52.366
+     ],
+     "to_pct": [
+      48.246,
+      53.068
+     ],
+     "dx_px": 3,
+     "dy_px": 8,
+     "ink_before": 0.023,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      65.803,
+      74.866
+     ],
+     "to_pct": [
+      75.789,
+      74.866
+     ],
+     "dx_px": 114,
+     "dy_px": 0,
+     "ink_before": 0.114,
+     "ink_after": 0.008
+    },
+    {
+     "from_pct": [
+      45.803,
+      82.053
+     ],
+     "to_pct": [
+      48.246,
+      82.053
+     ],
+     "dx_px": 28,
+     "dy_px": 0,
+     "ink_before": 0.044,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s1_3_1.png": {
    "name": "s1_3_1.png",
@@ -1617,15 +1728,14 @@
       59.5,
       11.0
      ],
-     "font_px": 15.5,
-     "scale": 0.643,
+     "font_px": 14.9,
+     "scale": 0.618,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 8
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_3_1_073",
@@ -1656,15 +1766,14 @@
       22.0,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 15.2,
+     "scale": 0.578,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 52
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_3_1_075",
@@ -1710,11 +1819,11 @@
      "tr": "作成後は変更不可",
      "box_px_orig": [
       58.0,
-      136.5,
+      137.0,
       72.0,
-      9.5
+      9.0
      ],
-     "font_px": 20.6,
+     "font_px": 20.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1729,12 +1838,12 @@
      "tr": "TREATMENT — 治療の来院",
      "box_px_orig": [
       75.0,
-      200.0,
+      201.0,
       152.5,
-      13.0
+      12.0
      ],
-     "font_px": 25.6,
-     "scale": 0.898,
+     "font_px": 26.8,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1769,9 +1878,9 @@
       58.0,
       264.5,
       139.0,
-      13.0
+      11.5
      ],
-     "font_px": 25,
+     "font_px": 23.8,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1809,8 +1918,8 @@
       83.5,
       13.5
      ],
-     "font_px": 25.4,
-     "scale": 0.861,
+     "font_px": 29.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1826,9 +1935,9 @@
       419.0,
       200.0,
       83.0,
-      14.0
+      13.5
      ],
-     "font_px": 29.7,
+     "font_px": 29.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1843,11 +1952,11 @@
      "tr": "Window Before (日)",
      "box_px_orig": [
       58.0,
-      339.0,
+      339.5,
       124.0,
-      14.0
+      13.0
      ],
-     "font_px": 27.7,
+     "font_px": 27.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1881,12 +1990,12 @@
      "tr": "制限なし",
      "box_px_orig": [
       95.0,
-      439.5,
+      440.0,
       47.0,
-      22.5
+      11.5
      ],
-     "font_px": 25.4,
-     "scale": 0.937,
+     "font_px": 25.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1900,11 +2009,11 @@
      "tr": "以下の状態でのみ入力を許可",
      "box_px_orig": [
       95.0,
-      461.5,
+      462.0,
       130.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.2,
+     "font_px": 25.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1995,11 +2104,11 @@
      "tr": "Window After (日)",
      "box_px_orig": [
       402.0,
-      339.0,
+      339.5,
       114.0,
-      14.0
+      13.0
      ],
-     "font_px": 27.9,
+     "font_px": 27.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2018,14 +2127,14 @@
       39.5,
       10.0
      ],
-     "font_px": 11.8,
-     "scale": 0.52,
+     "font_px": 22.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s1_3_1_094",
@@ -2094,14 +2203,14 @@
       62.5,
       10.0
      ],
-     "font_px": 14.7,
-     "scale": 0.659,
+     "font_px": 22.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_3_1_098",
@@ -2128,12 +2237,12 @@
      "tr": "選択した状態の被験者だけが、この来院の CRF を新たに作成できます。状態は順序ではなく集合として扱うため、選んだ状態にだけ開きます。すでに入力された記録の訂正は制限されません。",
      "box_px_orig": [
       71.0,
-      572.5,
+      573.0,
       641.5,
-      9.5
+      9.0
      ],
      "font_px": 16,
-     "scale": 0.777,
+     "scale": 0.796,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2191,15 +2300,33 @@
       59.5,
       11.0
      ],
-     "font_px": 15.5,
-     "scale": 0.643,
+     "font_px": 14.9,
+     "scale": 0.618,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 8
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_3_1_074",
+     "ko": "취소",
+     "tr": "キャンセル",
+     "box_px_orig": [
+      619.0,
+      24.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 15.2,
+     "scale": 0.578,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_3_1_085",
@@ -2221,55 +2348,17 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s1_3_1_093",
-     "ko": "스크리닝",
-     "tr": "スクリーニング",
-     "box_px_orig": [
-      326.5,
-      487.0,
-      39.5,
-      10.0
-     ],
-     "font_px": 11.8,
-     "scale": 0.52,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_3_1_097",
-     "ko": "스크리닝 실패",
-     "tr": "スクリーニング失敗",
-     "box_px_orig": [
-      538.0,
-      507.0,
-      62.5,
-      10.0
-     ],
-     "font_px": 14.7,
-     "scale": 0.659,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s1_3_1_099",
      "ko": "선택한 상태의 피험자만 이 방문의 CRF 를 새로 만들 수 있습니다. 순서가 아니라 집합이라 고른 상태에만 열립니다. 이미 입력된 기록의 정정은 막지 않습니다.",
      "tr": "選択した状態の被験者だけが、この来院の CRF を新たに作成できます。状態は順序ではなく集合として扱うため、選んだ状態にだけ開きます。すでに入力された記録の訂正は制限されません。",
      "box_px_orig": [
       71.0,
-      572.5,
+      573.0,
       641.5,
-      9.5
+      9.0
      ],
      "font_px": 16,
-     "scale": 0.777,
+     "scale": 0.796,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2291,7 +2380,163 @@
     1200
    ],
    "effective_dpi": 356.7,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      70.185,
+      14.24
+     ],
+     "to_pct": [
+      70.185,
+      18.485
+     ],
+     "dx_px": 0,
+     "dy_px": 68,
+     "ink_before": 0.036,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      70.185,
+      25.811
+     ],
+     "to_pct": [
+      70.185,
+      30.056
+     ],
+     "dx_px": 0,
+     "dy_px": 68,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.688,
+      37.488
+     ],
+     "to_pct": [
+      5.243,
+      37.488
+     ],
+     "dx_px": -295,
+     "dy_px": 0,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.185,
+      37.488
+     ],
+     "to_pct": [
+      70.185,
+      41.608
+     ],
+     "dx_px": 0,
+     "dy_px": 66,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.688,
+      46.83
+     ],
+     "to_pct": [
+      23.658,
+      54.196
+     ],
+     "dx_px": 0,
+     "dy_px": 118,
+     "ink_before": 0.035,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      21.353,
+      61.055
+     ],
+     "to_pct": [
+      23.658,
+      61.18
+     ],
+     "dx_px": 37,
+     "dy_px": 2,
+     "ink_before": 0.024,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      92.478,
+      3.943
+     ],
+     "to_pct": [
+      93.695,
+      3.943
+     ],
+     "dx_px": 20,
+     "dy_px": 0,
+     "ink_before": 0.167,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      18.592,
+      17.743
+     ],
+     "to_pct": [
+      23.658,
+      18.991
+     ],
+     "dx_px": 81,
+     "dy_px": 20,
+     "ink_before": 0.04,
+     "ink_after": 0.011
+    },
+    {
+     "from_pct": [
+      24.325,
+      29.208
+     ],
+     "to_pct": [
+      5.243,
+      29.208
+     ],
+     "dx_px": -306,
+     "dy_px": 0,
+     "ink_before": 0.124,
+     "ink_after": 0.009
+    },
+    {
+     "from_pct": [
+      70.185,
+      46.83
+     ],
+     "to_pct": [
+      70.185,
+      42.71
+     ],
+     "dx_px": 0,
+     "dy_px": -66,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      92.265,
+      71.034
+     ],
+     "to_pct": [
+      93.695,
+      71.034
+     ],
+     "dx_px": 23,
+     "dy_px": 0,
+     "ink_before": 0.026,
+     "ink_after": 0.009
+    }
+   ]
   },
   "s2_1_1.png": {
    "name": "s2_1_1.png",
@@ -2311,7 +2556,7 @@
     256
    ],
    "output_px": [
-    1437,
+    1433,
     512
    ],
    "scale": 2,
@@ -2345,11 +2590,11 @@
      "tr": "CRF 2件を紐付け (v1: 2件)",
      "box_px_orig": [
       49.5,
-      34.5,
+      35.0,
       116.5,
-      12.5
+      11.5
      ],
-     "font_px": 24,
+     "font_px": 23.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2364,9 +2609,9 @@
      "tr": "発行すると旧バージョン v1 が有効なまま残ります — 発行直後に無効化の案内が表示されます。",
      "box_px_orig": [
       50.0,
-      54.5,
+      55.0,
       404.0,
-      12.5
+      11.5
      ],
      "font_px": 23.9,
      "scale": 1.0,
@@ -2383,9 +2628,9 @@
      "tr": "旧バージョンの来院を持つ被験者が 1 名います。既存の計画来院は旧バージョンに残ります (必要なら被験者タイムラインでバージョンを昇格 · 構築段階のデータは運用切り替え時に削除)。",
      "box_px_orig": [
       50.0,
-      74.5,
+      75.0,
       626.5,
-      12.5
+      11.5
      ],
      "font_px": 24,
      "scale": 1.0,
@@ -2441,10 +2686,10 @@
      "box_px_orig": [
       30.0,
       196.0,
-      27.0,
+      26.0,
       16.0
      ],
-     "font_px": 16.1,
+     "font_px": 16,
      "scale": 0.461,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2489,8 +2734,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 6
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_1_1_110",
@@ -2521,8 +2765,8 @@
       21.5,
       12.0
      ],
-     "font_px": 22.6,
-     "scale": 0.859,
+     "font_px": 26.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2536,11 +2780,11 @@
      "tr": "編集",
      "box_px_orig": [
       656.0,
-      198.5,
+      199.0,
       21.5,
-      12.0
+      11.5
      ],
-     "font_px": 23.7,
+     "font_px": 23.1,
      "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2597,10 +2841,10 @@
      "box_px_orig": [
       30.0,
       196.0,
-      27.0,
+      26.0,
       16.0
      ],
-     "font_px": 16.1,
+     "font_px": 16,
      "scale": 0.461,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2645,8 +2889,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 6
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "placed_css_px": [
@@ -2663,7 +2906,121 @@
    ],
    "effective_dpi": 254.3,
    "meets_300dpi_pixels": false,
-   "right_margin_added_px": 67
+   "right_margin_added_px": 63,
+   "markers_moved": [
+    {
+     "from_pct": [
+      15.833,
+      32.246
+     ],
+     "to_pct": [
+      15.833,
+      33.223
+     ],
+     "dx_px": 0,
+     "dy_px": 14,
+     "ink_before": 0.068,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      43.922,
+      32.246
+     ],
+     "to_pct": [
+      43.894,
+      33.083
+     ],
+     "dx_px": 0,
+     "dy_px": 12,
+     "ink_before": 0.036,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      57.628,
+      32.246
+     ],
+     "to_pct": [
+      57.628,
+      33.223
+     ],
+     "dx_px": 0,
+     "dy_px": 14,
+     "ink_before": 0.143,
+     "ink_after": 0.008
+    },
+    {
+     "from_pct": [
+      80.471,
+      32.246
+     ],
+     "to_pct": [
+      80.471,
+      32.804
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.029,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      91.131,
+      32.246
+     ],
+     "to_pct": [
+      91.131,
+      32.804
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.029,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      26.832,
+      2.719
+     ],
+     "to_pct": [
+      29.867,
+      2.719
+     ],
+     "dx_px": 43,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      34.277,
+      19.217
+     ],
+     "to_pct": [
+      34.962,
+      19.217
+     ],
+     "dx_px": 10,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      39.353,
+      22.517
+     ],
+     "to_pct": [
+      43.894,
+      22.517
+     ],
+     "dx_px": 65,
+     "dy_px": 0,
+     "ink_before": 0.049,
+     "ink_after": 0.0
+    }
+   ]
   },
   "s2_2_1.png": {
    "name": "s2_2_1.png",
@@ -2683,14 +3040,14 @@
     349
    ],
    "output_px": [
-    1358,
+    1284,
     698
    ],
    "scale": 2,
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 8,
+   "replaced": 7,
    "segments": [
     {
      "id": "s2_2_1_114",
@@ -2698,11 +3055,11 @@
      "tr": "VisitPlan プレビュー (Arm別 · design-time)",
      "box_px_orig": [
       87.0,
-      50.5,
+      51.5,
       329.0,
-      18.5
+      16.5
      ],
-     "font_px": 34.8,
+     "font_px": 34.3,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2717,11 +3074,11 @@
      "tr": "登録された VisitDefinition を Arm 別に SubjectVisitDefinition へ展開して投影します (anchor=Day 0 からの相対日 · 実際の被験者とは無関係)。",
      "box_px_orig": [
       87.5,
-      80.0,
+      80.5,
       439.0,
-      14.0
+      12.5
      ],
-     "font_px": 27.7,
+     "font_px": 26.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
@@ -2738,10 +3095,10 @@
       87.0,
       136.0,
       449.0,
-      11.0
+      10.0
      ],
-     "font_px": 19.4,
-     "scale": 0.902,
+     "font_px": 19.2,
+     "scale": 0.919,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2814,9 +3171,9 @@
       164.5,
       254.0,
       321.5,
-      10.5
+      10.0
      ],
-     "font_px": 22.3,
+     "font_px": 21.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2824,26 +3181,6 @@
      "align": "left",
      "role": "text",
      "flag": ""
-    },
-    {
-     "id": "s2_2_1_122",
-     "ko": "발행: 2",
-     "tr": "発行: 2",
-     "box_px_orig": [
-      608.5,
-      217.0,
-      33.5,
-      11.0
-     ],
-     "font_px": 21.7,
-     "scale": 0.9,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "",
-     "button_completed": true
     }
    ],
    "flags": [],
@@ -2861,7 +3198,64 @@
    ],
    "effective_dpi": 311.0,
    "meets_300dpi_pixels": false,
-   "right_margin_added_px": 74
+   "markers_moved": [
+    {
+     "from_pct": [
+      92.049,
+      7.753
+     ],
+     "to_pct": [
+      82.399,
+      7.753
+     ],
+     "dx_px": -124,
+     "dy_px": 0,
+     "ink_before": 0.07,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      51.864,
+      16.529
+     ],
+     "to_pct": [
+      51.864,
+      24.94
+     ],
+     "dx_px": 0,
+     "dy_px": 108,
+     "ink_before": 0.194,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      89.277,
+      21.61
+     ],
+     "to_pct": [
+      92.548,
+      21.61
+     ],
+     "dx_px": 42,
+     "dy_px": 0,
+     "ink_before": 0.113,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      80.963,
+      40.085
+     ],
+     "to_pct": [
+      82.399,
+      40.085
+     ],
+     "dx_px": 18,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.008
+    }
+   ]
   },
   "s3_1_1.png": {
    "name": "s3_1_1.png",
@@ -2934,11 +3328,11 @@
      "tr": "CRFマッピング",
      "box_px_orig": [
       161.5,
-      8.5,
+      9.0,
       61.5,
-      12.0
+      11.5
      ],
-     "font_px": 28.4,
+     "font_px": 27.2,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2953,12 +3347,12 @@
      "tr": "Visit × DataForm マッピング",
      "box_px_orig": [
       15.0,
-      35.5,
+      36.0,
       180.0,
-      17.5
+      16.5
      ],
-     "font_px": 27.7,
-     "scale": 0.741,
+     "font_px": 29,
+     "scale": 0.822,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2976,15 +3370,14 @@
       38.5,
       10.0
      ],
-     "font_px": 13.6,
-     "scale": 0.621,
+     "font_px": 16.2,
+     "scale": 0.74,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 11
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_128",
@@ -2992,12 +3385,12 @@
      "tr": "フォーム順序",
      "box_px_orig": [
       1034.0,
-      38.5,
+      39.0,
       35.5,
-      12.0
+      11.5
      ],
      "font_px": 12.6,
-     "scale": 0.481,
+     "scale": 0.502,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3013,9 +3406,9 @@
       1112.5,
       37.5,
       41.0,
-      15.0
+      14.5
      ],
-     "font_px": 36.3,
+     "font_px": 35.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3030,12 +3423,12 @@
      "tr": "共通",
      "box_px_orig": [
       27.0,
-      80.5,
+      81.0,
       22.0,
-      12.0
+      11.5
      ],
-     "font_px": 23.3,
-     "scale": 0.86,
+     "font_px": 26,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3051,12 +3444,12 @@
       78.0,
       83.0,
       391.0,
-      11.0
+      10.0
      ],
-     "font_px": 22.1,
+     "font_px": 21.2,
      "scale": 1.0,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
@@ -3087,11 +3480,11 @@
      "tr": "出典(原本ファイル)",
      "box_px_orig": [
       20.5,
-      173.5,
+      174.0,
       75.5,
-      9.5
+      9.0
      ],
-     "font_px": 20,
+     "font_px": 19,
      "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
@@ -3108,9 +3501,9 @@
       961.0,
       144.0,
       203.0,
-      14.0
+      13.0
      ],
-     "font_px": 27.9,
+     "font_px": 27.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
@@ -3182,9 +3575,9 @@
      "tr": "デザイナー編集用 DRAFT",
      "box_px_orig": [
       365.0,
-      242.0,
+      246.0,
       49.5,
-      14.0
+      10.0
      ],
      "font_px": 17.5,
      "scale": 0.879,
@@ -3201,11 +3594,11 @@
      "tr": "カード順は、来院行の順番ボタンからすぐに開けます。",
      "box_px_orig": [
       962.0,
-      212.5,
+      213.0,
       200.5,
-      10.5
+      10.0
      ],
-     "font_px": 22.9,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
@@ -3257,19 +3650,19 @@
      "ko": "v2 · 초안",
      "tr": "v2 · 下書き",
      "box_px_orig": [
-      37.5,
-      355.0,
-      55.0,
-      14.0
+      40.5,
+      360.5,
+      51.0,
+      8.5
      ],
-     "font_px": 23.2,
-     "scale": 0.741,
+     "font_px": 21,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_147",
@@ -3300,8 +3693,8 @@
       17.5,
       9.0
      ],
-     "font_px": 18.3,
-     "scale": 0.88,
+     "font_px": 20.8,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3334,18 +3727,18 @@
      "tr": "フォーム列はカード順(原本 Excel ファイル.シート順)で並べ替えられます — 基準: 歯式治療の来院",
      "box_px_orig": [
       163.0,
-      399.5,
+      400.0,
       325.5,
-      9.5
+      9.0
      ],
-     "font_px": 19.9,
-     "scale": 1.0,
+     "font_px": 16.1,
+     "scale": 0.843,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_151",
@@ -3353,14 +3746,14 @@
      "tr": "紐付けられたセルを押すと右側に CRF 項目が表示されます · 紐付けを変更するには「編集」を押してください",
      "box_px_orig": [
       512.5,
-      399.5,
+      400.0,
       311.5,
-      9.5
+      9.0
      ],
-     "font_px": 20.6,
-     "scale": 1.0,
+     "font_px": 18,
+     "scale": 0.9,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
@@ -3393,12 +3786,12 @@
      "tr": "Visit × DataForm マッピング",
      "box_px_orig": [
       15.0,
-      35.5,
+      36.0,
       180.0,
-      17.5
+      16.5
      ],
-     "font_px": 27.7,
-     "scale": 0.741,
+     "font_px": 29,
+     "scale": 0.822,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3416,15 +3809,14 @@
       38.5,
       10.0
      ],
-     "font_px": 13.6,
-     "scale": 0.621,
+     "font_px": 16.2,
+     "scale": 0.74,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 11
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_128",
@@ -3432,12 +3824,12 @@
      "tr": "フォーム順序",
      "box_px_orig": [
       1034.0,
-      38.5,
+      39.0,
       35.5,
-      12.0
+      11.5
      ],
      "font_px": 12.6,
-     "scale": 0.481,
+     "scale": 0.502,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3484,22 +3876,22 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s3_1_1_146",
-     "ko": "v2 · 초안",
-     "tr": "v2 · 下書き",
+     "id": "s3_1_1_150",
+     "ko": "폼 열은 카드 순서(원본 엑셀 파일.시트 순)로 정렬됩니다 — 기준: 치식 치료 방문",
+     "tr": "フォーム列はカード順(原本 Excel ファイル.シート順)で並べ替えられます — 基準: 歯式治療の来院",
      "box_px_orig": [
-      37.5,
-      355.0,
-      55.0,
-      14.0
+      163.0,
+      400.0,
+      325.5,
+      9.0
      ],
-     "font_px": 23.2,
-     "scale": 0.741,
+     "font_px": 16.1,
+     "scale": 0.843,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
+     "align": "left",
+     "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
@@ -3516,7 +3908,93 @@
     900
    ],
    "effective_dpi": 404.9,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      95.705,
+      6.079
+     ],
+     "to_pct": [
+      95.705,
+      7.095
+     ],
+     "dx_px": 0,
+     "dy_px": 24,
+     "ink_before": 0.204,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      87.942,
+      6.079
+     ],
+     "to_pct": [
+      87.942,
+      6.418
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.027,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.722,
+      3.68
+     ],
+     "to_pct": [
+      23.878,
+      3.68
+     ],
+     "dx_px": 4,
+     "dy_px": 0,
+     "ink_before": 0.025,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      20.899,
+      12.148
+     ],
+     "to_pct": [
+      23.878,
+      12.148
+     ],
+     "dx_px": 70,
+     "dy_px": 0,
+     "ink_before": 0.009,
+     "ink_after": 0.009
+    },
+    {
+     "from_pct": [
+      30.497,
+      31.203
+     ],
+     "to_pct": [
+      30.497,
+      30.61
+     ],
+     "dx_px": 0,
+     "dy_px": -14,
+     "ink_before": 0.026,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      71.993,
+      33.955
+     ],
+     "to_pct": [
+      71.993,
+      31.161
+     ],
+     "dx_px": 0,
+     "dy_px": -66,
+     "ink_before": 0.094,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s3_2_1.png": {
    "name": "s3_2_1.png",
@@ -3589,11 +4067,11 @@
      "tr": "CRFマッピング",
      "box_px_orig": [
       170.5,
-      7.5,
+      8.0,
       48.5,
-      12.0
+      11.5
      ],
-     "font_px": 25.7,
+     "font_px": 24.6,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3608,11 +4086,11 @@
      "tr": "Visit × DataForm マッピング",
      "box_px_orig": [
       11.0,
-      34.5,
+      35.0,
       180.0,
-      17.5
+      16.5
      ],
-     "font_px": 37.4,
+     "font_px": 35.3,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 2,
@@ -3631,15 +4109,14 @@
       38.5,
       10.0
      ],
-     "font_px": 16.5,
-     "scale": 0.753,
+     "font_px": 16.2,
+     "scale": 0.74,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 32
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_2_1_157",
@@ -3647,12 +4124,12 @@
      "tr": "フォーム順序",
      "box_px_orig": [
       889.0,
-      37.5,
+      38.0,
       35.5,
-      12.0
+      11.5
      ],
      "font_px": 12.6,
-     "scale": 0.481,
+     "scale": 0.502,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3670,8 +4147,8 @@
       22.0,
       11.5
      ],
-     "font_px": 23.4,
-     "scale": 0.9,
+     "font_px": 26,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3687,16 +4164,16 @@
       74.0,
       82.0,
       391.0,
-      11.0
+      10.0
      ],
-     "font_px": 18.1,
-     "scale": 0.819,
+     "font_px": 21.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_2_1_160",
@@ -3723,11 +4200,11 @@
      "tr": "出典(原本ファイル)",
      "box_px_orig": [
       16.5,
-      172.5,
+      173.0,
       75.5,
-      9.5
+      9.0
      ],
-     "font_px": 20,
+     "font_px": 19,
      "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
@@ -3765,8 +4242,8 @@
       53.0,
       8.5
      ],
-     "font_px": 16.7,
-     "scale": 0.898,
+     "font_px": 17.1,
+     "scale": 0.919,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3779,15 +4256,15 @@
      "ko": "검증 규칙 테스 트 020",
      "tr": "検証ルール テスト 020",
      "box_px_orig": [
-      296.0,
+      306.0,
       241.5,
-      53.5,
-      13.5
+      33.5,
+      2.0
      ],
-     "font_px": 18.4,
-     "scale": 0.92,
+     "font_px": 4.8,
+     "scale": 1.0,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "label",
@@ -3799,9 +4276,9 @@
      "tr": "デザイナー編集用 DRAFT",
      "box_px_orig": [
       361.0,
-      242.0,
+      245.0,
       49.5,
-      13.0
+      10.0
      ],
      "font_px": 17.5,
      "scale": 0.879,
@@ -3932,12 +4409,12 @@
      "tr": "フォーム列はカード順(原本 Excel ファイル.シート順)で並べ替えられます — 基準: 歯式治療の来院",
      "box_px_orig": [
       138.0,
-      398.5,
+      399.0,
       249.5,
-      17.0
+      16.5
      ],
-     "font_px": 20.2,
-     "scale": 0.922,
+     "font_px": 20.6,
+     "scale": 0.941,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -3993,14 +4470,14 @@
       22.0,
       12.0
      ],
-     "font_px": 13.5,
-     "scale": 0.513,
+     "font_px": 15.2,
+     "scale": 0.578,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_2_1_182",
@@ -4008,12 +4485,12 @@
      "tr": "完了",
      "box_px_orig": [
       1128.0,
-      37.5,
+      38.0,
       22.0,
-      12.0
+      11.5
      ],
-     "font_px": 23.1,
-     "scale": 0.859,
+     "font_px": 25.8,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4046,11 +4523,11 @@
      "tr": "カード順は、来院行の順番ボタンからすぐに開けます。",
      "box_px_orig": [
       958.0,
-      191.5,
+      192.0,
       200.5,
-      10.5
+      10.0
      ],
-     "font_px": 22.9,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
@@ -4090,15 +4567,14 @@
       38.5,
       10.0
      ],
-     "font_px": 16.5,
-     "scale": 0.753,
+     "font_px": 16.2,
+     "scale": 0.74,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 32
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_2_1_157",
@@ -4106,37 +4582,18 @@
      "tr": "フォーム順序",
      "box_px_orig": [
       889.0,
-      37.5,
+      38.0,
       35.5,
-      12.0
+      11.5
      ],
      "font_px": 12.6,
-     "scale": 0.481,
+     "scale": 0.502,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_159",
-     "ko": "※ Arm 분기는 상위 VisitGroup 계층에서 처리됩니다. 탭은 그룹의 Arm 축 필터입니다.",
-     "tr": "※ Arm による分岐は上位の VisitGroup 階層で処理されます。タブはグループの Arm 絞り込みです。",
-     "box_px_orig": [
-      74.0,
-      82.0,
-      391.0,
-      11.0
-     ],
-     "font_px": 18.1,
-     "scale": 0.819,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_2_1_160",
@@ -4205,14 +4662,14 @@
       22.0,
       12.0
      ],
-     "font_px": 13.5,
-     "scale": 0.513,
+     "font_px": 15.2,
+     "scale": 0.578,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_2_1_183",
@@ -4247,7 +4704,121 @@
     900
    ],
    "effective_dpi": 403.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      95.705,
+      6.22
+     ],
+     "to_pct": [
+      96.986,
+      6.984
+     ],
+     "dx_px": 30,
+     "dy_px": 18,
+     "ink_before": 0.17,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      90.059,
+      6.22
+     ],
+     "to_pct": [
+      90.059,
+      6.39
+     ],
+     "dx_px": 0,
+     "dy_px": 4,
+     "ink_before": 0.021,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      83.849,
+      6.22
+     ],
+     "to_pct": [
+      83.829,
+      6.39
+     ],
+     "dx_px": 0,
+     "dy_px": 4,
+     "ink_before": 0.021,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      75.945,
+      6.22
+     ],
+     "to_pct": [
+      75.945,
+      6.39
+     ],
+     "dx_px": 0,
+     "dy_px": 4,
+     "ink_before": 0.021,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      23.581,
+      3.68
+     ],
+     "to_pct": [
+      23.921,
+      3.68
+     ],
+     "dx_px": 8,
+     "dy_px": 0,
+     "ink_before": 0.044,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      78.486,
+      34.025
+     ],
+     "to_pct": [
+      83.829,
+      34.025
+     ],
+     "dx_px": 126,
+     "dy_px": 0,
+     "ink_before": 0.046,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      70.934,
+      35.155
+     ],
+     "to_pct": [
+      70.934,
+      36.174
+     ],
+     "dx_px": 0,
+     "dy_px": 24,
+     "ink_before": 0.063,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      96.975,
+      17.653
+     ],
+     "to_pct": [
+      96.986,
+      18.757
+     ],
+     "dx_px": 0,
+     "dy_px": 26,
+     "ink_before": 0.048,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s3_3_1.png": {
    "name": "s3_3_1.png",
@@ -4274,38 +4845,19 @@
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 13,
+   "replaced": 11,
    "segments": [
-    {
-     "id": "s3_3_1_186",
-     "ko": "이미",
-     "tr": "すでに",
-     "box_px_orig": [
-      4.0,
-      89.5,
-      18.0,
-      15.5
-     ],
-     "font_px": 12.7,
-     "scale": 0.52,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
     {
      "id": "s3_3_1_187",
      "ko": "CRF 폼 순서",
      "tr": "CRFフォーム順序",
      "box_px_orig": [
       44.0,
-      35.5,
+      36.0,
       92.5,
-      17.5
+      17.0
      ],
-     "font_px": 37.3,
+     "font_px": 36.3,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4320,11 +4872,11 @@
      "tr": "来院を選ぶと、その来院のフォーム一覧と順序が表示されます。被験者の来院画面の CRF カードはこの順で表示され、マトリクスのフォーム列も同じ順で並べ替えられます。",
      "box_px_orig": [
       44.5,
-      65.0,
+      65.5,
       614.5,
-      14.0
+      12.5
      ],
-     "font_px": 28,
+     "font_px": 26.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
@@ -4377,18 +4929,18 @@
      "tr": "カード順: 歯式治療の来院",
      "box_px_orig": [
       63.5,
-      169.0,
+      169.5,
       126.5,
-      13.5
+      13.0
      ],
-     "font_px": 22.9,
-     "scale": 0.821,
+     "font_px": 27.7,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_3_1_193",
@@ -4434,11 +4986,11 @@
      "tr": "2 検証ルール テスト 020",
      "box_px_orig": [
       80.0,
-      278.5,
+      279.0,
       111.0,
-      11.0
+      10.5
      ],
-     "font_px": 23.4,
+     "font_px": 22.4,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4453,9 +5005,9 @@
      "tr": "並び順の値が重なっているフォームが 2 件あります。重なる位置ではフォームコード順にずれるため、表示順が変わることがあります (0: CRF_DENTAL_020 · CRF_VALUE_V1)。一度並べ替えると、並び順の値は 10 刻みで振り直されます。",
      "box_px_orig": [
       71.0,
-      332.5,
+      333.0,
       529.0,
-      11.0
+      10.5
      ],
      "font_px": 21.2,
      "scale": 0.959,
@@ -4465,25 +5017,6 @@
      "align": "left",
      "role": "status",
      "flag": ""
-    },
-    {
-     "id": "s3_3_1_198",
-     "ko": "정",
-     "tr": "並び…",
-     "box_px_orig": [
-      687.5,
-      90.5,
-      19.5,
-      15.5
-     ],
-     "font_px": 16.5,
-     "scale": 0.44,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_3_1_199",
@@ -4510,12 +5043,12 @@
      "tr": "閉じる",
      "box_px_orig": [
       632.0,
-      395.5,
+      396.0,
       21.0,
-      12.0
+      11.5
      ],
-     "font_px": 24.7,
-     "scale": 0.939,
+     "font_px": 24.9,
+     "scale": 0.961,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4525,63 +5058,6 @@
     }
    ],
    "flags": [
-    {
-     "id": "s3_3_1_186",
-     "ko": "이미",
-     "tr": "すでに",
-     "box_px_orig": [
-      4.0,
-      89.5,
-      18.0,
-      15.5
-     ],
-     "font_px": 12.7,
-     "scale": 0.52,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_3_1_192",
-     "ko": "카드 순서 치식 치료 방문",
-     "tr": "カード順: 歯式治療の来院",
-     "box_px_orig": [
-      63.5,
-      169.0,
-      126.5,
-      13.5
-     ],
-     "font_px": 22.9,
-     "scale": 0.821,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_3_1_198",
-     "ko": "정",
-     "tr": "並び…",
-     "box_px_orig": [
-      687.5,
-      90.5,
-      19.5,
-      15.5
-     ],
-     "font_px": 16.5,
-     "scale": 0.44,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
     {
      "id": "s3_3_1_199",
      "ko": "폼 열 정렬 해제",
@@ -4615,7 +5091,101 @@
     1200
    ],
    "effective_dpi": 262.4,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      52.136,
+      18.773
+     ],
+     "to_pct": [
+      52.136,
+      23.582
+     ],
+     "dx_px": 0,
+     "dy_px": 68,
+     "ink_before": 0.043,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      5.057,
+      33.995
+     ],
+     "to_pct": [
+      30.057,
+      33.995
+     ],
+     "dx_px": 353,
+     "dy_px": 0,
+     "ink_before": 0.115,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      95.853,
+      40.986
+     ],
+     "to_pct": [
+      87.482,
+      40.986
+     ],
+     "dx_px": -118,
+     "dy_px": 0,
+     "ink_before": 0.1,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      96.738,
+      56.65
+     ],
+     "stuck": true,
+     "ink": 0.267
+    },
+    {
+     "from_pct": [
+      35.853,
+      13.021
+     ],
+     "to_pct": [
+      35.853,
+      7.222
+     ],
+     "dx_px": 0,
+     "dy_px": -82,
+     "ink_before": 0.164,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      29.216,
+      40.986
+     ],
+     "to_pct": [
+      30.057,
+      40.986
+     ],
+     "dx_px": 12,
+     "dy_px": 0,
+     "ink_before": 0.047,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      71.694,
+      49.835
+     ],
+     "to_pct": [
+      87.482,
+      49.835
+     ],
+     "dx_px": 223,
+     "dy_px": 0,
+     "ink_before": 0.199,
+     "ink_after": 0.014
+    }
+   ]
   }
  }
 }

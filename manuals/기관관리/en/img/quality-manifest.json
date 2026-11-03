@@ -24,7 +24,7 @@
     848
    ],
    "output_px": [
-    5066,
+    5169,
     1696
    ],
    "scale": 2,
@@ -60,7 +60,7 @@
       187.0,
       16.0,
       79.5,
-      21.5
+      21.0
      ],
      "font_px": 25.8,
      "scale": 0.822,
@@ -96,11 +96,11 @@
      "tr": "Platform dashboard",
      "box_px_orig": [
       44.0,
-      147.0,
+      147.5,
       93.5,
-      13.5
+      12.5
      ],
-     "font_px": 29.5,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -157,14 +157,14 @@
       66.5,
       13.0
      ],
-     "font_px": 15.9,
-     "scale": 0.558,
+     "font_px": 28.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_007",
@@ -210,9 +210,9 @@
      "tr": "Access log",
      "box_px_orig": [
       44.5,
-      351.0,
+      351.5,
       54.5,
-      13.0
+      12.5
      ],
      "font_px": 28.5,
      "scale": 1.0,
@@ -290,14 +290,14 @@
       24.0,
       13.0
      ],
-     "font_px": 12.8,
-     "scale": 0.44,
+     "font_px": 29.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s1_1_1_014",
@@ -307,9 +307,9 @@
       252.5,
       82.5,
       76.5,
-      20.0
+      19.5
      ],
-     "font_px": 42.7,
+     "font_px": 41.6,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -326,10 +326,10 @@
       252.5,
       110.0,
       357.5,
-      14.0
+      13.0
      ],
-     "font_px": 26.3,
-     "scale": 0.943,
+     "font_px": 27.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -404,14 +404,14 @@
       21.0,
       11.0
      ],
-     "font_px": 15,
-     "scale": 0.598,
+     "font_px": 25.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "center",
+     "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s1_1_1_020",
@@ -428,7 +428,7 @@
      "weight": 500,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "header",
      "flag": ""
     },
@@ -438,9 +438,9 @@
      "tr": "National Clinical Trial Support Foundation (KoNECT)",
      "box_px_orig": [
       687.0,
-      359.5,
+      360.0,
       193.5,
-      23.0
+      22.5
      ],
      "font_px": 30.8,
      "scale": 1.0,
@@ -457,9 +457,9 @@
      "tr": "Department of Environmental Engineering, Seoul National University (Prof. Kyeongho Choi)",
      "box_px_orig": [
       687.0,
-      452.5,
+      453.0,
       211.5,
-      14.5
+      13.5
      ],
      "font_px": 22,
      "scale": 0.783,
@@ -476,11 +476,11 @@
      "tr": "Seoul National University",
      "box_px_orig": [
       687.0,
-      504.5,
+      505.0,
       64.5,
-      14.0
+      13.5
      ],
-     "font_px": 30.4,
+     "font_px": 29.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -495,11 +495,11 @@
      "tr": "Integrated hospital institution 2",
      "box_px_orig": [
       687.0,
-      555.5,
+      556.0,
       102.5,
-      14.0
+      13.5
      ],
-     "font_px": 30.4,
+     "font_px": 29.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -514,11 +514,11 @@
      "tr": "Integrated hospital institution 1",
      "box_px_orig": [
       687.0,
-      606.5,
-      99.5,
-      23.5
+      627.0,
+      84.0,
+      3.0
      ],
-     "font_px": 31.3,
+     "font_px": 7.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -533,11 +533,11 @@
      "tr": "Jeonbuk National University",
      "box_px_orig": [
       687.0,
-      657.5,
+      658.0,
       64.5,
-      14.0
+      13.5
      ],
-     "font_px": 30.5,
+     "font_px": 29.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -551,12 +551,12 @@
      "ko": "부산대학교",
      "tr": "Busan National University",
      "box_px_orig": [
-      687.0,
-      709.5,
-      64.5,
-      23.5
+      687.5,
+      730.0,
+      51.5,
+      3.0
      ],
-     "font_px": 31.9,
+     "font_px": 7.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -571,11 +571,11 @@
      "tr": "Yonsei University",
      "box_px_orig": [
       687.0,
-      760.5,
+      761.0,
       64.5,
-      14.0
+      13.5
      ],
-     "font_px": 30.5,
+     "font_px": 29.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -594,14 +594,14 @@
       31.5,
       11.0
      ],
-     "font_px": 18,
-     "scale": 0.723,
+     "font_px": 21.9,
+     "scale": 0.88,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_030",
@@ -609,9 +609,9 @@
      "tr": "Type",
      "box_px_orig": [
       1401.0,
-      325.5,
+      326.0,
       22.0,
-      11.5
+      11.0
      ],
      "font_px": 26.1,
      "scale": 1.0,
@@ -782,9 +782,9 @@
       1387.0,
       771.0,
       51.0,
-      9.5
+      9.0
      ],
-     "font_px": 19.2,
+     "font_px": 18.9,
      "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
@@ -792,7 +792,7 @@
      "align": "center",
      "role": "badge",
      "flag": "",
-     "button_widened_px": 137
+     "button_widened_px": 136
     },
     {
      "id": "s1_1_1_040",
@@ -819,11 +819,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      367.5,
+      368.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -838,11 +838,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      414.5,
+      415.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -857,9 +857,9 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      461.5,
+      462.0,
       64.5,
-      10.0
+      9.5
      ],
      "font_px": 22.2,
      "scale": 1.0,
@@ -876,11 +876,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      512.5,
+      513.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -895,11 +895,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      563.5,
+      564.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -914,11 +914,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      614.5,
+      615.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -933,11 +933,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      666.5,
+      667.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -952,11 +952,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      717.5,
+      718.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -971,11 +971,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1618.0,
-      768.5,
+      769.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 22.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -994,14 +994,14 @@
       58.0,
       11.5
      ],
-     "font_px": 11.7,
-     "scale": 0.5,
+     "font_px": 23.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s1_1_1_051",
@@ -1047,9 +1047,9 @@
      "tr": "Active",
      "box_px_orig": [
       2063.0,
-      325.5,
+      326.0,
       22.0,
-      11.5
+      11.0
      ],
      "font_px": 26.1,
      "scale": 1.0,
@@ -1065,165 +1065,173 @@
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      367.5,
-      33.0,
-      17.0
+      2065.0,
+      370.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_055",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      413.5,
-      33.0,
-      17.0
+      2065.0,
+      416.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_056",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      460.5,
-      33.0,
-      17.0
+      2065.0,
+      463.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_057",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      511.5,
-      33.0,
-      17.0
+      2065.0,
+      514.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_058",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      562.5,
-      33.0,
-      18.0
+      2065.0,
+      565.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_059",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      614.5,
-      33.0,
-      17.0
+      2065.0,
+      617.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_060",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      665.5,
-      33.0,
-      17.0
+      2065.0,
+      668.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_061",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      716.5,
-      33.0,
-      17.0
+      2065.0,
+      719.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_1_1_062",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      767.5,
-      33.0,
-      18.0
+      2065.0,
+      770.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 13.5,
+     "scale": 0.622,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1279,15 +1287,15 @@
       47.5,
       12.0
      ],
-     "font_px": 23.5,
-     "scale": 0.894,
+     "font_px": 23.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
      "flag": "",
-     "button_widened_px": 59
+     "button_completed": true
     },
     {
      "id": "s1_1_1_066",
@@ -1337,7 +1345,7 @@
       187.0,
       16.0,
       79.5,
-      21.5
+      21.0
      ],
      "font_px": 25.8,
      "scale": 0.822,
@@ -1349,71 +1357,14 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s1_1_1_006",
-     "ko": "사용자 관리",
-     "tr": "User management",
-     "box_px_orig": [
-      44.0,
-      249.0,
-      66.5,
-      13.0
-     ],
-     "font_px": 15.9,
-     "scale": 0.558,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_013",
-     "ko": "알림",
-     "tr": "Notifications",
-     "box_px_orig": [
-      44.5,
-      489.0,
-      24.0,
-      13.0
-     ],
-     "font_px": 12.8,
-     "scale": 0.44,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s1_1_1_019",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      858.0,
-      158.0,
-      21.0,
-      11.0
-     ],
-     "font_px": 15,
-     "scale": 0.598,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
      "id": "s1_1_1_022",
      "ko": "서울대학교 환경공학과 (최경호 교수)",
      "tr": "Department of Environmental Engineering, Seoul National University (Prof. Kyeongho Choi)",
      "box_px_orig": [
       687.0,
-      452.5,
+      453.0,
       211.5,
-      14.5
+      13.5
      ],
      "font_px": 22,
      "scale": 0.783,
@@ -1425,207 +1376,17 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s1_1_1_029",
-     "ko": "비활성",
-     "tr": "Inactive",
-     "box_px_orig": [
-      1429.5,
-      158.0,
-      31.5,
-      11.0
-     ],
-     "font_px": 18,
-     "scale": 0.723,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_050",
-     "ko": "국가별 (1국)",
-     "tr": "By country (1 country)",
-     "box_px_orig": [
-      2000.0,
-      158.0,
-      58.0,
-      11.5
-     ],
-     "font_px": 11.7,
-     "scale": 0.5,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_054",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      367.5,
-      33.0,
-      17.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_055",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      413.5,
-      33.0,
-      17.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_056",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      460.5,
-      33.0,
-      17.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_057",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      511.5,
-      33.0,
-      17.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_058",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      562.5,
-      33.0,
-      18.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_059",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      614.5,
-      33.0,
-      17.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_060",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      665.5,
-      33.0,
-      17.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_1_1_061",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      2057.5,
-      716.5,
-      33.0,
-      17.0
-     ],
-     "font_px": 23.6,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
      "id": "s1_1_1_062",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      2057.5,
-      767.5,
-      33.0,
-      18.0
+      2065.0,
+      770.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.6,
-     "scale": 0.599,
+     "font_px": 13.5,
+     "scale": 0.622,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1647,7 +1408,66 @@
     600
    ],
    "effective_dpi": 868.5,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "right_margin_added_px": 103,
+   "markers_moved": [
+    {
+     "from_pct": [
+      8.31,
+      7.203
+     ],
+     "to_pct": [
+      15.816,
+      7.203
+     ],
+     "dx_px": 388,
+     "dy_px": 0,
+     "ink_before": 0.061,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      44.69,
+      10.247
+     ],
+     "to_pct": [
+      44.69,
+      13.072
+     ],
+     "dx_px": 0,
+     "dy_px": 146,
+     "ink_before": 0.056,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      21.451,
+      4.437
+     ],
+     "to_pct": [
+      25.165,
+      4.437
+     ],
+     "dx_px": 192,
+     "dy_px": 0,
+     "ink_before": 0.054,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      48.979,
+      12.736
+     ],
+     "to_pct": [
+      48.979,
+      13.084
+     ],
+     "dx_px": 0,
+     "dy_px": 18,
+     "ink_before": 0.028,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s1_2_1.png": {
    "name": "s1_2_1.png",
@@ -1729,7 +1549,7 @@
      "weight": 500,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "header",
      "flag": ""
     },
@@ -1739,9 +1559,9 @@
      "tr": "National Clinical Trial Support Foundation (KoNECT)",
      "box_px_orig": [
       458.0,
-      142.5,
+      143.0,
       193.5,
-      14.5
+      13.5
      ],
      "font_px": 27.9,
      "scale": 1.0,
@@ -1758,9 +1578,9 @@
      "tr": "Type",
      "box_px_orig": [
       1172.0,
-      108.5,
+      109.0,
       22.0,
-      11.5
+      11.0
      ],
      "font_px": 26.1,
      "scale": 1.0,
@@ -1781,14 +1601,14 @@
       21.0,
       8.5
      ],
-     "font_px": 11.4,
-     "scale": 0.559,
+     "font_px": 20.4,
+     "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "header",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s1_2_1_073",
@@ -1834,9 +1654,9 @@
      "tr": "Active",
      "box_px_orig": [
       1834.0,
-      108.5,
+      109.0,
       22.0,
-      11.5
+      11.0
      ],
      "font_px": 26.1,
      "scale": 1.0,
@@ -1852,19 +1672,20 @@
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1829.5,
-      150.5,
-      31.0,
-      14.5
+      1836.0,
+      153.5,
+      18.0,
+      10.0
      ],
-     "font_px": 22.3,
-     "scale": 0.641,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s1_2_1_077",
@@ -1933,14 +1754,14 @@
       36.0,
       17.0
      ],
-     "font_px": 27.8,
-     "scale": 0.68,
+     "font_px": 40.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "x_s1_2_1_002",
@@ -1948,11 +1769,11 @@
      "tr": "South Korea",
      "box_px_orig": [
       1389.0,
-      150.5,
+      151.0,
       64.5,
-      10.5
+      10.0
      ],
-     "font_px": 25.4,
+     "font_px": 24.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1962,65 +1783,7 @@
      "flag": ""
     }
    ],
-   "flags": [
-    {
-     "id": "s1_2_1_072",
-     "ko": "국가",
-     "tr": "Country",
-     "box_px_orig": [
-      1410.0,
-      109.0,
-      21.0,
-      8.5
-     ],
-     "font_px": 11.4,
-     "scale": 0.559,
-     "weight": 500,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "header",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s1_2_1_076",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      1829.5,
-      150.5,
-      31.0,
-      14.5
-     ],
-     "font_px": 22.3,
-     "scale": 0.641,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "x_s1_2_1_000",
-     "ko": "기타",
-     "tr": "Other",
-     "box_px_orig": [
-      1165.0,
-      148.0,
-      36.0,
-      17.0
-     ],
-     "font_px": 27.8,
-     "scale": 0.68,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    }
-   ],
+   "flags": [],
    "placed_css_px": [
     560,
     42.7
@@ -2034,7 +1797,67 @@
     300
    ],
    "effective_dpi": 789.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      40.137,
+      2.055
+     ],
+     "to_pct": [
+      40.137,
+      5.18
+     ],
+     "dx_px": 0,
+     "dy_px": 144,
+     "ink_before": 0.053,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      82.873,
+      2.055
+     ],
+     "stuck": true,
+     "ink": 0.078
+    },
+    {
+     "from_pct": [
+      89.502,
+      2.055
+     ],
+     "to_pct": [
+      89.502,
+      5.18
+     ],
+     "dx_px": 0,
+     "dy_px": 144,
+     "ink_before": 0.084,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      95.99,
+      2.055
+     ],
+     "to_pct": [
+      95.99,
+      5.18
+     ],
+     "dx_px": 0,
+     "dy_px": 144,
+     "ink_before": 0.09,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      2.76,
+      4.735
+     ],
+     "stuck": true,
+     "ink": 0.078
+    }
+   ]
   },
   "s1_3_1.png": {
    "name": "s1_3_1.png",
@@ -2081,7 +1904,7 @@
      "align": "center",
      "role": "badge",
      "flag": "",
-     "button_widened_px": 55
+     "button_widened_px": 56
     },
     {
      "id": "s1_3_1_081",
@@ -2101,7 +1924,7 @@
      "align": "center",
      "role": "badge",
      "flag": "",
-     "button_widened_px": 55
+     "button_widened_px": 56
     },
     {
      "id": "s1_3_1_082",
@@ -2121,26 +1944,26 @@
      "align": "center",
      "role": "badge",
      "flag": "",
-     "button_widened_px": 55
+     "button_widened_px": 56
     },
     {
      "id": "s1_3_1_083",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      213.5,
-      177.5,
-      31.5,
-      16.5
+      221.0,
+      180.5,
+      18.0,
+      10.0
      ],
-     "font_px": 22.6,
-     "scale": 0.601,
+     "font_px": 15.7,
+     "scale": 0.724,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_3_1_084",
@@ -2225,19 +2048,19 @@
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      213.5,
-      177.5,
-      31.5,
-      16.5
+      221.0,
+      180.5,
+      18.0,
+      10.0
      ],
-     "font_px": 22.6,
-     "scale": 0.601,
+     "font_px": 15.7,
+     "scale": 0.724,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -2253,7 +2076,65 @@
     600
    ],
    "effective_dpi": 235.5,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      95.285,
+      5.863
+     ],
+     "to_pct": [
+      93.102,
+      5.863
+     ],
+     "dx_px": -30,
+     "dy_px": 0,
+     "ink_before": 0.035,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      67.64,
+      10.659
+     ],
+     "to_pct": [
+      67.64,
+      11.532
+     ],
+     "dx_px": 0,
+     "dy_px": 12,
+     "ink_before": 0.036,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      67.64,
+      14.82
+     ],
+     "to_pct": [
+      67.64,
+      13.51
+     ],
+     "dx_px": 0,
+     "dy_px": -18,
+     "ink_before": 0.039,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      67.64,
+      22.93
+     ],
+     "to_pct": [
+      67.64,
+      21.183
+     ],
+     "dx_px": 0,
+     "dy_px": -24,
+     "ink_before": 0.041,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s2_1_1.png": {
    "name": "s2_1_1.png",
@@ -2273,7 +2154,7 @@
     677
    ],
    "output_px": [
-    4640,
+    4582,
     1354
    ],
    "scale": 2,
@@ -2288,9 +2169,9 @@
      "tr": "Register new institution",
      "box_px_orig": [
       14.0,
-      17.5,
+      18.0,
       125.0,
-      30.5
+      30.0
      ],
      "font_px": 21.6,
      "scale": 0.461,
@@ -2311,14 +2192,14 @@
       280.5,
       13.0
      ],
-     "font_px": 18.6,
-     "scale": 0.662,
+     "font_px": 28.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_090",
@@ -2326,11 +2207,11 @@
      "tr": "Register new institution",
      "box_px_orig": [
       35.0,
-      93.5,
+      94.0,
       84.0,
-      14.0
+      13.5
      ],
-     "font_px": 29.9,
+     "font_px": 28.9,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2345,11 +2226,11 @@
      "tr": "e.g. SNUH, AMC",
      "box_px_orig": [
       48.0,
-      175.0,
+      176.0,
       97.0,
-      14.0
+      11.5
      ],
-     "font_px": 27.4,
+     "font_px": 24.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2368,14 +2249,14 @@
       47.0,
       13.5
      ],
-     "font_px": 13.2,
-     "scale": 0.439,
+     "font_px": 30.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s2_1_1_093",
@@ -2478,11 +2359,11 @@
      "tr": "Detailed address (building, unit, etc.)",
      "box_px_orig": [
       48.5,
-      487.0,
+      487.5,
       120.0,
-      14.0
+      12.5
      ],
-     "font_px": 27.7,
+     "font_px": 26.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2497,11 +2378,11 @@
      "tr": "Register as active",
      "box_px_orig": [
       1177.0,
-      173.5,
+      174.0,
       83.5,
-      12.0
+      11.5
      ],
-     "font_px": 26,
+     "font_px": 24.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2517,17 +2398,17 @@
      "box_px_orig": [
       1156.0,
       221.0,
-      125.0,
-      23.0
+      119.5,
+      13.5
      ],
-     "font_px": 23.3,
-     "scale": 0.719,
+     "font_px": 28,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_101",
@@ -2535,11 +2416,11 @@
      "tr": "KR - South Korea",
      "box_px_orig": [
       1169.5,
-      327.5,
+      328.0,
       70.5,
-      12.0
+      11.0
      ],
-     "font_px": 26.3,
+     "font_px": 24.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2553,19 +2434,20 @@
      "ko": "주소 검색",
      "tr": "Address search",
      "box_px_orig": [
-      2168.0,
-      368.0,
-      87.0,
-      32.0
+      2182.5,
+      376.5,
+      69.0,
+      14.5
      ],
      "font_px": 24.5,
-     "scale": 0.48,
+     "scale": 0.698,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 18
     },
     {
      "id": "s2_1_1_103",
@@ -2577,15 +2459,14 @@
       25.5,
       13.5
      ],
-     "font_px": 26.6,
-     "scale": 0.9,
+     "font_px": 24.2,
+     "scale": 0.82,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 11
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s2_1_1_104",
@@ -2597,15 +2478,14 @@
       25.5,
       13.5
      ],
-     "font_px": 27.3,
-     "scale": 0.9,
+     "font_px": 18.2,
+     "scale": 0.599,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "flags": [
@@ -2615,9 +2495,9 @@
      "tr": "Register new institution",
      "box_px_orig": [
       14.0,
-      17.5,
+      18.0,
       125.0,
-      30.5
+      30.0
      ],
      "font_px": 21.6,
      "scale": 0.461,
@@ -2629,74 +2509,56 @@
      "flag": "[확인 필요] 축소 한계 미만"
     },
     {
-     "id": "s2_1_1_089",
-     "ko": "시스템 전역 기관 관리에 신규 기관을 등록합니다.",
-     "tr": "Registers a new institution in system-wide institution management.",
-     "box_px_orig": [
-      14.5,
-      45.0,
-      280.5,
-      13.0
-     ],
-     "font_px": 18.6,
-     "scale": 0.662,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_092",
-     "ko": "기관명*",
-     "tr": "Institution name*",
-     "box_px_orig": [
-      35.5,
-      221.0,
-      47.0,
-      13.5
-     ],
-     "font_px": 13.2,
-     "scale": 0.439,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s2_1_1_100",
-     "ko": "영문 명칭 (nameEn)",
-     "tr": "English name (nameEn)",
-     "box_px_orig": [
-      1156.0,
-      221.0,
-      125.0,
-      23.0
-     ],
-     "font_px": 23.3,
-     "scale": 0.719,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s2_1_1_102",
      "ko": "주소 검색",
      "tr": "Address search",
      "box_px_orig": [
-      2168.0,
-      368.0,
-      87.0,
-      32.0
+      2182.5,
+      376.5,
+      69.0,
+      14.5
      ],
      "font_px": 24.5,
-     "scale": 0.48,
+     "scale": 0.698,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 18
+    },
+    {
+     "id": "s2_1_1_103",
+     "ko": "취소",
+     "tr": "Cancel",
+     "box_px_orig": [
+      2132.5,
+      628.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 24.2,
+     "scale": 0.82,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_1_1_104",
+     "ko": "등록",
+     "tr": "Register",
+     "box_px_orig": [
+      2223.5,
+      628.0,
+      25.5,
+      13.5
+     ],
+     "font_px": 18.2,
+     "scale": 0.599,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2719,7 +2581,114 @@
    ],
    "effective_dpi": 785.5,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 58
+   "markers_moved": [
+    {
+     "from_pct": [
+      25.557,
+      7.773
+     ],
+     "to_pct": [
+      25.557,
+      3.583
+     ],
+     "dx_px": 0,
+     "dy_px": -192,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      25.557,
+      11.019
+     ],
+     "to_pct": [
+      25.557,
+      15.602
+     ],
+     "dx_px": 0,
+     "dy_px": 210,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      25.557,
+      14.406
+     ],
+     "to_pct": [
+      25.557,
+      15.628
+     ],
+     "dx_px": 0,
+     "dy_px": 56,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      73.969,
+      14.406
+     ],
+     "to_pct": [
+      73.969,
+      15.628
+     ],
+     "dx_px": 0,
+     "dy_px": 56,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      90.483,
+      16.524
+     ],
+     "to_pct": [
+      90.483,
+      16.088
+     ],
+     "dx_px": 0,
+     "dy_px": -20,
+     "ink_before": 0.022,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      99.234,
+      27.392
+     ],
+     "stuck": true,
+     "ink": 1.0
+    },
+    {
+     "from_pct": [
+      73.969,
+      11.019
+     ],
+     "to_pct": [
+      73.969,
+      10.19
+     ],
+     "dx_px": 0,
+     "dy_px": -38,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      36.989,
+      24.569
+     ],
+     "to_pct": [
+      36.989,
+      18.676
+     ],
+     "dx_px": 0,
+     "dy_px": -270,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s2_2_1.png": {
    "name": "s2_2_1.png",
@@ -2755,17 +2724,17 @@
      "box_px_orig": [
       27.5,
       16.0,
-      52.5,
-      22.0
+      47.0,
+      13.5
      ],
-     "font_px": 16.3,
-     "scale": 0.439,
+     "font_px": 30.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s2_2_1_106",
@@ -2830,11 +2799,11 @@
      "tr": "KONECT · National Clinical Trial Support Foundation (KoNECT) (South Korea)",
      "box_px_orig": [
       82.0,
-      197.5,
+      198.0,
       267.0,
-      12.5
+      11.5
      ],
-     "font_px": 23.8,
+     "font_px": 22.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2851,10 +2820,10 @@
       82.0,
       216.0,
       207.5,
-      12.0
+      11.0
      ],
-     "font_px": 20.3,
-     "scale": 0.879,
+     "font_px": 21.8,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2868,18 +2837,18 @@
      "tr": "SNU_ENV_001 · Department of Environmental Engineering, Seoul National University (Prof. Kyeongho Choi) (South Korea)",
      "box_px_orig": [
       82.0,
-      233.5,
+      234.0,
       313.0,
-      12.5
+      11.5
      ],
-     "font_px": 11.5,
-     "scale": 0.481,
+     "font_px": 23.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_2_1_112",
@@ -2887,18 +2856,18 @@
      "tr": "SEOUL_NATIONAL_UNIV · Seoul National University (South Korea)",
      "box_px_orig": [
       82.0,
-      251.5,
+      252.0,
       235.0,
-      12.5
+      11.5
      ],
-     "font_px": 15.8,
-     "scale": 0.661,
+     "font_px": 22,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_113",
@@ -2906,9 +2875,9 @@
      "tr": "UNI-INST-01 · Integrated hospital institution 1 (South Korea)",
      "box_px_orig": [
       82.0,
-      269.5,
+      270.0,
       217.0,
-      12.0
+      11.5
      ],
      "font_px": 23.7,
      "scale": 1.0,
@@ -2925,9 +2894,9 @@
      "tr": "UNI-INST-02 · Integrated hospital institution 2 (South Korea)",
      "box_px_orig": [
       82.0,
-      287.5,
+      288.0,
       220.0,
-      12.0
+      11.5
      ],
      "font_px": 23.6,
      "scale": 1.0,
@@ -2944,18 +2913,18 @@
      "tr": "JEONBUK_UNIV_00 · Jeonbuk National University (South Korea)",
      "box_px_orig": [
       82.0,
-      305.5,
+      306.0,
       211.0,
-      12.5
+      11.5
      ],
-     "font_px": 14.8,
-     "scale": 0.619,
+     "font_px": 22.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_116",
@@ -2963,18 +2932,18 @@
      "tr": "BUSAN_UNIV · Busan National University (South Korea)",
      "box_px_orig": [
       82.0,
-      323.5,
+      324.0,
       181.0,
-      12.5
+      11.5
      ],
-     "font_px": 14.4,
-     "scale": 0.603,
+     "font_px": 22.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_117",
@@ -2982,18 +2951,18 @@
      "tr": "YONSEI_UNIV_00 · Yonsei University (South Korea)",
      "box_px_orig": [
       82.0,
-      341.5,
+      342.0,
       205.0,
-      12.5
+      11.5
      ],
-     "font_px": 18.2,
-     "scale": 0.762,
+     "font_px": 22.8,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_118",
@@ -3001,18 +2970,18 @@
      "tr": "JBNU_MEDICAL_LAB01 · Jeonbuk National University College of Medicine (South Korea)",
      "box_px_orig": [
       82.0,
-      359.5,
+      360.0,
       276.5,
-      12.5
+      11.5
      ],
-     "font_px": 13.9,
-     "scale": 0.582,
+     "font_px": 22.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_119",
@@ -3020,18 +2989,18 @@
      "tr": "BSUH_MEDICAL_LAB01 · Busan National University College of Medicine (South Korea)",
      "box_px_orig": [
       82.0,
-      377.5,
+      378.0,
       276.5,
-      12.5
+      11.5
      ],
-     "font_px": 14.4,
-     "scale": 0.603,
+     "font_px": 22.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_120",
@@ -3039,18 +3008,18 @@
      "tr": "BSUH_DENTAL_LAB01 · Busan National University College of Dentistry (South Korea)",
      "box_px_orig": [
       82.0,
-      395.5,
+      396.0,
       270.5,
-      12.5
+      11.5
      ],
-     "font_px": 13.9,
-     "scale": 0.582,
+     "font_px": 22.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_121",
@@ -3058,18 +3027,18 @@
      "tr": "YSUH_MEDICAL_LAB01 · Yonsei University College of Medicine (South Korea)",
      "box_px_orig": [
       82.0,
-      413.5,
+      414.0,
       276.5,
-      12.5
+      11.0
      ],
-     "font_px": 15.8,
-     "scale": 0.661,
+     "font_px": 22.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_122",
@@ -3077,18 +3046,18 @@
      "tr": "JBNUH_DENTAL_LAB01 · Jeonbuk National University College of Dentistry (South Korea)",
      "box_px_orig": [
       82.0,
-      431.5,
+      432.0,
       276.5,
-      12.5
+      11.5
      ],
-     "font_px": 13.9,
-     "scale": 0.582,
+     "font_px": 22.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_123",
@@ -3096,11 +3065,11 @@
      "tr": "YSUH_DENTAL_LAB01 · Pediatric Dentistry Research Institute, Yonsei University College of Dentistry (South Korea)",
      "box_px_orig": [
       82.0,
-      449.5,
+      450.0,
       351.0,
-      12.5
+      11.0
      ],
-     "font_px": 23.9,
+     "font_px": 22.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3115,11 +3084,11 @@
      "tr": "INST-003 · Test institution 003 (South Korea)",
      "box_px_orig": [
       82.0,
-      467.5,
+      468.0,
       199.0,
-      12.5
+      11.5
      ],
-     "font_px": 24,
+     "font_px": 23.7,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3134,9 +3103,9 @@
      "tr": "INST-005 · Test institution 005 (South Korea)",
      "box_px_orig": [
       82.0,
-      485.5,
+      486.0,
       199.0,
-      12.0
+      11.5
      ],
      "font_px": 23.7,
      "scale": 1.0,
@@ -3153,9 +3122,9 @@
      "tr": "INST-001 · Test institution 001 (South Korea)",
      "box_px_orig": [
       82.0,
-      503.5,
+      504.0,
       196.0,
-      12.0
+      11.5
      ],
      "font_px": 23.9,
      "scale": 1.0,
@@ -3176,8 +3145,8 @@
       315.0,
       11.5
      ],
-     "font_px": 22.4,
-     "scale": 0.9,
+     "font_px": 24.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3193,7 +3162,7 @@
       1148.0,
       16.0,
       119.5,
-      14.0
+      13.5
      ],
      "font_px": 28,
      "scale": 1.0,
@@ -3209,12 +3178,12 @@
      "ko": "KR - 대한민국",
      "tr": "KR - South Korea",
      "box_px_orig": [
-      1148.0,
-      114.0,
-      90.5,
-      32.0
+      1161.5,
+      123.0,
+      70.5,
+      11.0
      ],
-     "font_px": 34.5,
+     "font_px": 24.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3224,217 +3193,7 @@
      "flag": ""
     }
    ],
-   "flags": [
-    {
-     "id": "s2_2_1_105",
-     "ko": "기관명*",
-     "tr": "Institution name*",
-     "box_px_orig": [
-      27.5,
-      16.0,
-      52.5,
-      22.0
-     ],
-     "font_px": 16.3,
-     "scale": 0.439,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s2_2_1_111",
-     "ko": "SNU_ENV_001 · 서울대학교 환경공학과 (최경호 교수) (대한민국)",
-     "tr": "SNU_ENV_001 · Department of Environmental Engineering, Seoul National University (Prof. Kyeongho Choi) (South Korea)",
-     "box_px_orig": [
-      82.0,
-      233.5,
-      313.0,
-      12.5
-     ],
-     "font_px": 11.5,
-     "scale": 0.481,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_2_1_112",
-     "ko": "SEOUL_NATIONAL_UNIV · 서울대학교 (대한민국)",
-     "tr": "SEOUL_NATIONAL_UNIV · Seoul National University (South Korea)",
-     "box_px_orig": [
-      82.0,
-      251.5,
-      235.0,
-      12.5
-     ],
-     "font_px": 15.8,
-     "scale": 0.661,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_115",
-     "ko": "JEONBUK_UNIV_00 · 전북대학교 (대한민국)",
-     "tr": "JEONBUK_UNIV_00 · Jeonbuk National University (South Korea)",
-     "box_px_orig": [
-      82.0,
-      305.5,
-      211.0,
-      12.5
-     ],
-     "font_px": 14.8,
-     "scale": 0.619,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_116",
-     "ko": "BUSAN_UNIV · 부산대학교 (대한민국)",
-     "tr": "BUSAN_UNIV · Busan National University (South Korea)",
-     "box_px_orig": [
-      82.0,
-      323.5,
-      181.0,
-      12.5
-     ],
-     "font_px": 14.4,
-     "scale": 0.603,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_117",
-     "ko": "YONSEI_UNIV_00 · 연세대학교 (대한민국)",
-     "tr": "YONSEI_UNIV_00 · Yonsei University (South Korea)",
-     "box_px_orig": [
-      82.0,
-      341.5,
-      205.0,
-      12.5
-     ],
-     "font_px": 18.2,
-     "scale": 0.762,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_118",
-     "ko": "JBNU_MEDICAL_LAB01 · 전북대학교 의과대학 (대한민국)",
-     "tr": "JBNU_MEDICAL_LAB01 · Jeonbuk National University College of Medicine (South Korea)",
-     "box_px_orig": [
-      82.0,
-      359.5,
-      276.5,
-      12.5
-     ],
-     "font_px": 13.9,
-     "scale": 0.582,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_119",
-     "ko": "BSUH_MEDICAL_LAB01 · 부산대학교 의과대학 (대한민국)",
-     "tr": "BSUH_MEDICAL_LAB01 · Busan National University College of Medicine (South Korea)",
-     "box_px_orig": [
-      82.0,
-      377.5,
-      276.5,
-      12.5
-     ],
-     "font_px": 14.4,
-     "scale": 0.603,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_120",
-     "ko": "BSUH_DENTAL_LAB01 · 부산대학교 치과대학 (대한민국)",
-     "tr": "BSUH_DENTAL_LAB01 · Busan National University College of Dentistry (South Korea)",
-     "box_px_orig": [
-      82.0,
-      395.5,
-      270.5,
-      12.5
-     ],
-     "font_px": 13.9,
-     "scale": 0.582,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_121",
-     "ko": "YSUH_MEDICAL_LAB01 · 연세대학교 의과대학 (대한민국)",
-     "tr": "YSUH_MEDICAL_LAB01 · Yonsei University College of Medicine (South Korea)",
-     "box_px_orig": [
-      82.0,
-      413.5,
-      276.5,
-      12.5
-     ],
-     "font_px": 15.8,
-     "scale": 0.661,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_122",
-     "ko": "JBNUH_DENTAL_LAB01 · 전북대학교 치과대학 (대한민국)",
-     "tr": "JBNUH_DENTAL_LAB01 · Jeonbuk National University College of Dentistry (South Korea)",
-     "box_px_orig": [
-      82.0,
-      431.5,
-      276.5,
-      12.5
-     ],
-     "font_px": 13.9,
-     "scale": 0.582,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    }
-   ],
+   "flags": [],
    "placed_css_px": [
     560,
     237.9
@@ -3448,7 +3207,37 @@
     900
    ],
    "effective_dpi": 467.7,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      42.635,
+      3.891
+     ],
+     "to_pct": [
+      42.635,
+      13.862
+     ],
+     "dx_px": 0,
+     "dy_px": 272,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      66.63,
+      13.348
+     ],
+     "to_pct": [
+      66.63,
+      13.861
+     ],
+     "dx_px": 0,
+     "dy_px": 14,
+     "ink_before": 0.034,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s2_3_1.png": {
    "name": "s2_3_1.png",
@@ -3483,11 +3272,11 @@
      "tr": "Edit institution",
      "box_px_orig": [
       13.5,
-      16.5,
+      17.0,
       76.5,
-      20.0
+      19.0
      ],
-     "font_px": 42.7,
+     "font_px": 40.7,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3520,12 +3309,12 @@
      "ko": "참조 중 — 변경사항은 즉시 모든 ProjectSite에 반영됩니다",
      "tr": "Referenced — changes apply to all ProjectSites immediately",
      "box_px_orig": [
-      50.0,
-      91.5,
-      296.0,
-      22.5
+      50.5,
+      110.0,
+      231.0,
+      4.0
      ],
-     "font_px": 26.7,
+     "font_px": 8.4,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3542,7 +3331,7 @@
       50.5,
       102.5,
       234.5,
-      19.5
+      19.0
      ],
      "font_px": 22.4,
      "scale": 0.821,
@@ -3559,18 +3348,18 @@
      "tr": "Edit basic information",
      "box_px_orig": [
       34.5,
-      184.5,
+      185.0,
       82.5,
-      14.0
+      13.5
      ],
-     "font_px": 15.5,
-     "scale": 0.518,
+     "font_px": 28.8,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_3_1_135",
@@ -3601,14 +3390,14 @@
       47.0,
       13.5
      ],
-     "font_px": 13.2,
-     "scale": 0.439,
+     "font_px": 30.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s2_3_1_137",
@@ -3711,11 +3500,11 @@
      "tr": "Detailed address (building, unit, etc.)",
      "box_px_orig": [
       47.5,
-      578.0,
+      578.5,
       120.0,
-      14.0
+      12.5
      ],
-     "font_px": 27.7,
+     "font_px": 26.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3730,11 +3519,11 @@
      "tr": "Register as active",
      "box_px_orig": [
       1176.0,
-      264.5,
+      265.0,
       83.5,
-      12.0
+      11.5
      ],
-     "font_px": 26,
+     "font_px": 24.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3750,55 +3539,56 @@
      "box_px_orig": [
       1155.0,
       312.0,
-      124.5,
-      22.0
+      119.5,
+      13.5
      ],
-     "font_px": 23.2,
-     "scale": 0.718,
+     "font_px": 28,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_3_1_145",
      "ko": "KR - 대한민국",
      "tr": "KR - South Korea",
      "box_px_orig": [
-      1155.0,
-      391.5,
-      93.5,
-      50.5
+      1168.5,
+      419.0,
+      70.5,
+      11.0
      ],
-     "font_px": 24.2,
-     "scale": 0.68,
+     "font_px": 24.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_3_1_146",
      "ko": "주소 검색",
      "tr": "Address search",
      "box_px_orig": [
-      2167.0,
-      459.0,
-      86.5,
-      30.5
+      2181.5,
+      467.5,
+      69.0,
+      14.5
      ],
-     "font_px": 24.3,
-     "scale": 0.479,
+     "font_px": 24.5,
+     "scale": 0.698,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 18
     },
     {
      "id": "s2_3_1_147",
@@ -3810,27 +3600,27 @@
       25.5,
       13.5
      ],
-     "font_px": 16.5,
-     "scale": 0.559,
+     "font_px": 23,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s2_3_1_148",
      "ko": "저장",
      "tr": "Save",
      "box_px_orig": [
-      2171.0,
-      708.0,
-      80.0,
-      36.0
+      2182.5,
+      708.5,
+      65.5,
+      35.0
      ],
-     "font_px": 73,
-     "scale": 0.84,
+     "font_px": 59.6,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3848,7 +3638,7 @@
       50.5,
       102.5,
       234.5,
-      19.5
+      19.0
      ],
      "font_px": 22.4,
      "scale": 0.821,
@@ -3860,99 +3650,24 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s2_3_1_134",
-     "ko": "메타 정보 수정",
-     "tr": "Edit basic information",
-     "box_px_orig": [
-      34.5,
-      184.5,
-      82.5,
-      14.0
-     ],
-     "font_px": 15.5,
-     "scale": 0.518,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_3_1_136",
-     "ko": "기관명*",
-     "tr": "Institution name*",
-     "box_px_orig": [
-      34.5,
-      312.0,
-      47.0,
-      13.5
-     ],
-     "font_px": 13.2,
-     "scale": 0.439,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s2_3_1_144",
-     "ko": "영문 명칭 (nameEn)",
-     "tr": "English name (nameEn)",
-     "box_px_orig": [
-      1155.0,
-      312.0,
-      124.5,
-      22.0
-     ],
-     "font_px": 23.2,
-     "scale": 0.718,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_3_1_145",
-     "ko": "KR - 대한민국",
-     "tr": "KR - South Korea",
-     "box_px_orig": [
-      1155.0,
-      391.5,
-      93.5,
-      50.5
-     ],
-     "font_px": 24.2,
-     "scale": 0.68,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s2_3_1_146",
      "ko": "주소 검색",
      "tr": "Address search",
      "box_px_orig": [
-      2167.0,
-      459.0,
-      86.5,
-      30.5
+      2181.5,
+      467.5,
+      69.0,
+      14.5
      ],
-     "font_px": 24.3,
-     "scale": 0.479,
+     "font_px": 24.5,
+     "scale": 0.698,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 18
     },
     {
      "id": "s2_3_1_147",
@@ -3964,27 +3679,27 @@
       25.5,
       13.5
      ],
-     "font_px": 16.5,
-     "scale": 0.559,
+     "font_px": 23,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s2_3_1_148",
      "ko": "저장",
      "tr": "Save",
      "box_px_orig": [
-      2171.0,
-      708.0,
-      80.0,
-      36.0
+      2182.5,
+      708.5,
+      65.5,
+      35.0
      ],
-     "font_px": 73,
-     "scale": 0.84,
+     "font_px": 59.6,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4006,7 +3721,93 @@
     600
    ],
    "effective_dpi": 784.8,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      74.392,
+      15.112
+     ],
+     "to_pct": [
+      74.392,
+      14.195
+     ],
+     "dx_px": 0,
+     "dy_px": -42,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      54.209,
+      22.805
+     ],
+     "to_pct": [
+      54.209,
+      22.674
+     ],
+     "dx_px": 0,
+     "dy_px": -6,
+     "ink_before": 0.024,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      96.834,
+      33.037
+     ],
+     "to_pct": [
+      93.032,
+      14.164
+     ],
+     "dx_px": -174,
+     "dy_px": -864,
+     "ink_before": 1.0,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      49.975,
+      4.95
+     ],
+     "to_pct": [
+      49.975,
+      5.081
+     ],
+     "dx_px": 0,
+     "dy_px": 6,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      25.557,
+      11.795
+     ],
+     "to_pct": [
+      25.557,
+      5.591
+     ],
+     "dx_px": 0,
+     "dy_px": -284,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      92.882,
+      33.037
+     ],
+     "to_pct": [
+      93.032,
+      22.683
+     ],
+     "dx_px": 7,
+     "dy_px": -474,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s3_1_1.png": {
    "name": "s3_1_1.png",
@@ -4026,7 +3827,7 @@
     457
    ],
    "output_px": [
-    4444,
+    4422,
     914
    ],
    "scale": 2,
@@ -4083,15 +3884,14 @@
       17.5,
       10.0
      ],
-     "font_px": 12.6,
-     "scale": 0.581,
+     "font_px": 17.4,
+     "scale": 0.802,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 2
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_153",
@@ -4101,16 +3901,16 @@
       29.0,
       71.5,
       251.5,
-      18.0
+      17.5
      ],
-     "font_px": 21.7,
-     "scale": 0.599,
+     "font_px": 36.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_154",
@@ -4118,11 +3918,11 @@
      "tr": "Contact and address",
      "box_px_orig": [
       29.0,
-      163.5,
+      164.0,
       55.0,
-      14.0
+      13.5
      ],
-     "font_px": 30,
+     "font_px": 28.9,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4175,11 +3975,11 @@
      "tr": "Practice-00",
      "box_px_orig": [
       25.0,
-      395.5,
+      396.0,
       43.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.6,
+     "font_px": 25.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4194,11 +3994,11 @@
      "tr": "Practice-15",
      "box_px_orig": [
       25.0,
-      433.5,
+      434.0,
       39.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.6,
+     "font_px": 25.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4213,11 +4013,11 @@
      "tr": "Training principal investigator",
      "box_px_orig": [
       844.0,
-      395.5,
+      396.0,
       80.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.2,
+     "font_px": 25.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4232,11 +4032,11 @@
      "tr": "Training principal investigator",
      "box_px_orig": [
       844.0,
-      433.5,
+      434.0,
       80.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.2,
+     "font_px": 25.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4270,12 +4070,12 @@
      "tr": "Referenced PROJECTSITE",
      "box_px_orig": [
       1171.0,
-      190.5,
+      191.0,
       85.5,
-      9.5
+      9.0
      ],
      "font_px": 15.5,
-     "scale": 0.738,
+     "scale": 0.779,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4289,11 +4089,11 @@
      "tr": "16",
      "box_px_orig": [
       1269.0,
-      190.5,
+      191.0,
       22.0,
-      12.0
+      11.0
      ],
-     "font_px": 26,
+     "font_px": 24.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4308,18 +4108,18 @@
      "tr": "Participating projects",
      "box_px_orig": [
       1171.0,
-      212.5,
+      213.0,
       69.5,
-      9.5
+      9.0
      ],
-     "font_px": 17.3,
-     "scale": 0.836,
+     "font_px": 17.5,
+     "scale": 0.858,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_1_1_165",
@@ -4327,11 +4127,11 @@
      "tr": "16",
      "box_px_orig": [
       1269.0,
-      212.5,
+      213.0,
       22.0,
-      12.0
+      11.0
      ],
-     "font_px": 26,
+     "font_px": 24.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4384,11 +4184,11 @@
      "tr": "Edit",
      "box_px_orig": [
       1971.5,
-      44.5,
+      45.0,
       21.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.3,
+     "font_px": 25.7,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4407,8 +4207,8 @@
       43.5,
       12.0
      ],
-     "font_px": 18.2,
-     "scale": 0.7,
+     "font_px": 20.8,
+     "scale": 0.8,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4426,15 +4226,14 @@
       21.0,
       11.0
      ],
-     "font_px": 22.3,
-     "scale": 0.9,
+     "font_px": 18.4,
+     "scale": 0.742,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_171",
@@ -4480,11 +4279,11 @@
      "tr": "Referenced ProjectSite",
      "box_px_orig": [
       33.0,
-      319.5,
+      320.0,
       104.5,
-      15.0
+      13.5
      ],
-     "font_px": 29.4,
+     "font_px": 28.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4543,33 +4342,13 @@
       17.5,
       10.0
      ],
-     "font_px": 12.6,
-     "scale": 0.581,
+     "font_px": 17.4,
+     "scale": 0.802,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만",
-     "button_widened_px": 2
-    },
-    {
-     "id": "s3_1_1_153",
-     "ko": "국가임상시험지원재단 (KoNECT)",
-     "tr": "National Clinical Trial Support Foundation (KoNECT)",
-     "box_px_orig": [
-      29.0,
-      71.5,
-      251.5,
-      18.0
-     ],
-     "font_px": 21.7,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4578,31 +4357,12 @@
      "tr": "Referenced PROJECTSITE",
      "box_px_orig": [
       1171.0,
-      190.5,
+      191.0,
       85.5,
-      9.5
+      9.0
      ],
      "font_px": 15.5,
-     "scale": 0.738,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_1_1_164",
-     "ko": "참여 프로젝트 수",
-     "tr": "Participating projects",
-     "box_px_orig": [
-      1171.0,
-      212.5,
-      69.5,
-      9.5
-     ],
-     "font_px": 17.3,
-     "scale": 0.836,
+     "scale": 0.779,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4620,8 +4380,27 @@
       43.5,
       12.0
      ],
-     "font_px": 18.2,
-     "scale": 0.7,
+     "font_px": 20.8,
+     "scale": 0.8,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_170",
+     "ko": "삭제",
+     "tr": "Delete",
+     "box_px_orig": [
+      2153.0,
+      45.0,
+      21.0,
+      11.0
+     ],
+     "font_px": 18.4,
+     "scale": 0.742,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4644,7 +4423,78 @@
    ],
    "effective_dpi": 758.1,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 22
+   "markers_moved": [
+    {
+     "from_pct": [
+      88.93,
+      4.103
+     ],
+     "to_pct": [
+      87.121,
+      4.103
+     ],
+     "dx_px": -80,
+     "dy_px": 0,
+     "ink_before": 0.045,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      92.953,
+      4.103
+     ],
+     "to_pct": [
+      87.119,
+      4.103
+     ],
+     "dx_px": -258,
+     "dy_px": 0,
+     "ink_before": 0.044,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      97.046,
+      4.103
+     ],
+     "to_pct": [
+      97.046,
+      7.495
+     ],
+     "dx_px": 0,
+     "dy_px": 150,
+     "ink_before": 0.111,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      15.959,
+      2.127
+     ],
+     "to_pct": [
+      21.122,
+      2.127
+     ],
+     "dx_px": 228,
+     "dy_px": 0,
+     "ink_before": 0.061,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      19.911,
+      8.761
+     ],
+     "to_pct": [
+      21.122,
+      8.761
+     ],
+     "dx_px": 54,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    }
+   ]
   },
   "s3_2_1.png": {
    "name": "s3_2_1.png",
@@ -4719,9 +4569,9 @@
       430.0,
       71.0,
       63.0,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4736,9 +4586,9 @@
      "tr": "National Clinical Trial Support Foundation (KoNECT)",
      "box_px_orig": [
       429.5,
-      109.5,
+      110.0,
       193.0,
-      14.5
+      13.5
      ],
      "font_px": 27.8,
      "scale": 1.0,
@@ -4755,9 +4605,9 @@
      "tr": "Department of Environmental Engineering, Seoul National University (Prof. Kyeongho Choi)",
      "box_px_orig": [
       429.5,
-      202.5,
+      203.0,
       211.5,
-      14.5
+      13.5
      ],
      "font_px": 22,
      "scale": 0.783,
@@ -4774,18 +4624,18 @@
      "tr": "Seoul National University",
      "box_px_orig": [
       429.5,
-      254.5,
+      255.0,
       64.0,
-      14.0
+      13.5
      ],
-     "font_px": 13.4,
-     "scale": 0.441,
+     "font_px": 29.3,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s3_2_1_179",
@@ -4793,9 +4643,9 @@
      "tr": "Integrated hospital institution 1",
      "box_px_orig": [
       429.5,
-      305.5,
+      306.0,
       99.0,
-      22.0
+      21.5
      ],
      "font_px": 31.1,
      "scale": 1.0,
@@ -4812,11 +4662,11 @@
      "tr": "Integrated hospital institution 2",
      "box_px_orig": [
       429.5,
-      356.5,
+      357.0,
       102.5,
-      14.0
+      13.5
      ],
-     "font_px": 30.4,
+     "font_px": 29.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4831,18 +4681,18 @@
      "tr": "Jeonbuk National University",
      "box_px_orig": [
       429.5,
-      407.5,
+      408.0,
       64.0,
-      14.0
+      13.5
      ],
-     "font_px": 13.4,
-     "scale": 0.439,
+     "font_px": 29.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s3_2_1_182",
@@ -4850,18 +4700,18 @@
      "tr": "Busan National University",
      "box_px_orig": [
       429.5,
-      459.5,
+      460.0,
       64.0,
-      14.0
+      13.5
      ],
-     "font_px": 13.4,
-     "scale": 0.439,
+     "font_px": 29.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s3_2_1_183",
@@ -4869,18 +4719,18 @@
      "tr": "Yonsei University",
      "box_px_orig": [
       429.5,
-      510.5,
+      511.0,
       64.0,
-      14.0
+      13.5
      ],
-     "font_px": 16.5,
-     "scale": 0.541,
+     "font_px": 29.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s3_2_1_184",
@@ -4907,9 +4757,9 @@
      "tr": "Type",
      "box_px_orig": [
       1133.0,
-      33.5,
+      34.0,
       22.0,
-      11.5
+      11.0
      ],
      "font_px": 26.1,
      "scale": 1.0,
@@ -4930,14 +4780,14 @@
       36.0,
       21.0
      ],
-     "font_px": 20.3,
-     "scale": 0.44,
+     "font_px": 46.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s3_2_1_187",
@@ -5025,14 +4875,14 @@
       36.0,
       20.0
      ],
-     "font_px": 19.3,
-     "scale": 0.44,
+     "font_px": 43.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s3_2_1_192",
@@ -5061,10 +4911,10 @@
       1110.0,
       413.0,
       66.0,
-      19.0
+      14.0
      ],
-     "font_px": 13.4,
-     "scale": 0.441,
+     "font_px": 13,
+     "scale": 0.439,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -5353,7 +5203,7 @@
      "weight": 500,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "header",
      "flag": ""
     },
@@ -5372,7 +5222,7 @@
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "badge",
      "flag": ""
     },
@@ -5381,76 +5231,79 @@
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1790.0,
-      117.5,
-      32.5,
-      17.0
+      1796.5,
+      120.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.3,
-     "scale": 0.601,
+     "font_px": 15.2,
+     "scale": 0.7,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_2_1_211",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1789.5,
-      163.5,
-      29.0,
-      17.0
+      1796.5,
+      166.5,
+      18.0,
+      10.0
      ],
-     "font_px": 20.7,
-     "scale": 0.559,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s3_2_1_212",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1792.0,
-      210.5,
-      28.5,
-      17.0
+      1796.5,
+      213.5,
+      18.0,
+      10.0
      ],
-     "font_px": 20,
-     "scale": 0.541,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s3_2_1_213",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1790.0,
-      261.5,
-      30.5,
-      17.0
+      1796.5,
+      264.5,
+      18.0,
+      10.0
      ],
-     "font_px": 21.4,
-     "scale": 0.578,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s3_2_1_214",
@@ -5470,7 +5323,7 @@
      "align": "center",
      "role": "badge",
      "flag": "",
-     "button_widened_px": 85
+     "button_widened_px": 56
     },
     {
      "id": "s3_2_1_215",
@@ -5482,52 +5335,55 @@
       28.5,
       14.0
      ],
-     "font_px": 20.2,
-     "scale": 0.601,
+     "font_px": 30.2,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 58
     },
     {
      "id": "s3_2_1_216",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1790.0,
-      414.5,
-      30.0,
-      16.5
+      1796.5,
+      418.5,
+      18.0,
+      10.0
      ],
-     "font_px": 21.5,
-     "scale": 0.599,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s3_2_1_217",
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1790.0,
-      466.5,
-      30.0,
-      15.0
+      1796.5,
+      469.5,
+      18.0,
+      10.0
      ],
-     "font_px": 21.5,
-     "scale": 0.601,
+     "font_px": 19.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 28
     },
     {
      "id": "s3_2_1_218",
@@ -5547,7 +5403,7 @@
      "align": "center",
      "role": "badge",
      "flag": "",
-     "button_widened_px": 85
+     "button_widened_px": 56
     },
     {
      "id": "s3_2_1_219",
@@ -5576,9 +5432,9 @@
      "tr": "Department of Environmental Engineering, Seoul National University (Prof. Kyeongho Choi)",
      "box_px_orig": [
       429.5,
-      202.5,
+      203.0,
       211.5,
-      14.5
+      13.5
      ],
      "font_px": 22,
      "scale": 0.783,
@@ -5588,101 +5444,6 @@
      "align": "left",
      "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_2_1_178",
-     "ko": "서울대학교",
-     "tr": "Seoul National University",
-     "box_px_orig": [
-      429.5,
-      254.5,
-      64.0,
-      14.0
-     ],
-     "font_px": 13.4,
-     "scale": 0.441,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s3_2_1_181",
-     "ko": "전북대학교",
-     "tr": "Jeonbuk National University",
-     "box_px_orig": [
-      429.5,
-      407.5,
-      64.0,
-      14.0
-     ],
-     "font_px": 13.4,
-     "scale": 0.439,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s3_2_1_182",
-     "ko": "부산대학교",
-     "tr": "Busan National University",
-     "box_px_orig": [
-      429.5,
-      459.5,
-      64.0,
-      14.0
-     ],
-     "font_px": 13.4,
-     "scale": 0.439,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s3_2_1_183",
-     "ko": "연세대학교",
-     "tr": "Yonsei University",
-     "box_px_orig": [
-      429.5,
-      510.5,
-      64.0,
-      14.0
-     ],
-     "font_px": 16.5,
-     "scale": 0.541,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_186",
-     "ko": "병원",
-     "tr": "Hospital",
-     "box_px_orig": [
-      1126.0,
-      68.0,
-      36.0,
-      21.0
-     ],
-     "font_px": 20.3,
-     "scale": 0.44,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 45%로도 넘침"
     },
     {
      "id": "s3_2_1_188",
@@ -5723,25 +5484,6 @@
      "flag": "[확인 필요] 45%로도 넘침"
     },
     {
-     "id": "s3_2_1_191",
-     "ko": "병원",
-     "tr": "Hospital",
-     "box_px_orig": [
-      1126.0,
-      311.0,
-      36.0,
-      20.0
-     ],
-     "font_px": 19.3,
-     "scale": 0.44,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
      "id": "s3_2_1_193",
      "ko": "대학/연구소",
      "tr": "University/research institute",
@@ -5749,10 +5491,10 @@
       1110.0,
       413.0,
       66.0,
-      19.0
+      14.0
      ],
-     "font_px": 13.4,
-     "scale": 0.441,
+     "font_px": 13,
+     "scale": 0.439,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -5765,133 +5507,19 @@
      "ko": "활성",
      "tr": "Active",
      "box_px_orig": [
-      1790.0,
-      117.5,
-      32.5,
-      17.0
+      1796.5,
+      120.5,
+      18.0,
+      10.0
      ],
-     "font_px": 23.3,
-     "scale": 0.601,
+     "font_px": 15.2,
+     "scale": 0.7,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_211",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      1789.5,
-      163.5,
-      29.0,
-      17.0
-     ],
-     "font_px": 20.7,
-     "scale": 0.559,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_212",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      1792.0,
-      210.5,
-      28.5,
-      17.0
-     ],
-     "font_px": 20,
-     "scale": 0.541,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_213",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      1790.0,
-      261.5,
-      30.5,
-      17.0
-     ],
-     "font_px": 21.4,
-     "scale": 0.578,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_215",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      1792.0,
-      363.5,
-      28.5,
-      14.0
-     ],
-     "font_px": 20.2,
-     "scale": 0.601,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_216",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      1790.0,
-      414.5,
-      30.0,
-      16.5
-     ],
-     "font_px": 21.5,
-     "scale": 0.599,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_2_1_217",
-     "ko": "활성",
-     "tr": "Active",
-     "box_px_orig": [
-      1790.0,
-      466.5,
-      30.0,
-      15.0
-     ],
-     "font_px": 21.5,
-     "scale": 0.601,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -5907,7 +5535,51 @@
     600
    ],
    "effective_dpi": 777.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      98.246,
+      3.397
+     ],
+     "to_pct": [
+      97.585,
+      3.397
+     ],
+     "dx_px": -30,
+     "dy_px": 0,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      82.72,
+      3.397
+     ],
+     "to_pct": [
+      82.015,
+      3.397
+     ],
+     "dx_px": -32,
+     "dy_px": 0,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      27.956,
+      3.397
+     ],
+     "to_pct": [
+      27.956,
+      3.088
+     ],
+     "dx_px": 0,
+     "dy_px": -14,
+     "ink_before": 0.04,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s3_3_1.png": {
    "name": "s3_3_1.png",
@@ -5944,9 +5616,9 @@
       7.5,
       18.5,
       118.0,
-      20.0
+      19.5
      ],
-     "font_px": 42.7,
+     "font_px": 41.6,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -5982,9 +5654,9 @@
       20.0,
       100.0,
       18.5,
-      10.5
+      10.0
      ],
-     "font_px": 23,
+     "font_px": 21.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -5998,19 +5670,19 @@
      "ko": "UNI-INST-01 · 통합병원 제1기관",
      "tr": "UNI-INST-01 · Integrated hospital institution 1",
      "box_px_orig": [
-      30.0,
-      100.0,
-      174.5,
-      37.5
+      37.0,
+      126.0,
+      161.0,
+      11.5
      ],
-     "font_px": 16.8,
-     "scale": 0.6,
+     "font_px": 24.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_3_1_224",
@@ -6022,8 +5694,8 @@
       36.0,
       9.0
      ],
-     "font_px": 19,
-     "scale": 0.922,
+     "font_px": 20.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -6041,14 +5713,14 @@
       21.0,
       11.0
      ],
-     "font_px": 11.2,
-     "scale": 0.441,
+     "font_px": 25.4,
+     "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "center",
+     "align": "left",
      "role": "header",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s3_3_1_226",
@@ -6132,18 +5804,18 @@
      "tr": "Period (from)",
      "box_px_orig": [
       1147.0,
-      100.0,
+      100.5,
       49.0,
-      10.5
+      9.5
      ],
-     "font_px": 16.6,
-     "scale": 0.818,
+     "font_px": 20.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_3_1_231",
@@ -6189,9 +5861,9 @@
      "tr": "Period (to)",
      "box_px_orig": [
       1523.0,
-      100.0,
+      100.5,
       36.5,
-      10.5
+      10.0
      ],
      "font_px": 20.3,
      "scale": 1.0,
@@ -6246,11 +5918,11 @@
      "tr": "Code · name · Memo",
      "box_px_orig": [
       1927.0,
-      126.0,
+      127.0,
       97.0,
-      11.0
+      9.5
      ],
-     "font_px": 24.1,
+     "font_px": 23,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -6279,65 +5951,7 @@
      "flag": ""
     }
    ],
-   "flags": [
-    {
-     "id": "s3_3_1_223",
-     "ko": "UNI-INST-01 · 통합병원 제1기관",
-     "tr": "UNI-INST-01 · Integrated hospital institution 1",
-     "box_px_orig": [
-      30.0,
-      100.0,
-      174.5,
-      37.5
-     ],
-     "font_px": 16.8,
-     "scale": 0.6,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_3_1_225",
-     "ko": "일시",
-     "tr": "Date and time",
-     "box_px_orig": [
-      20.0,
-      211.0,
-      21.0,
-      11.0
-     ],
-     "font_px": 11.2,
-     "scale": 0.441,
-     "weight": 500,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "header",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s3_3_1_230",
-     "ko": "기간 (from)",
-     "tr": "Period (from)",
-     "box_px_orig": [
-      1147.0,
-      100.0,
-      49.0,
-      10.5
-     ],
-     "font_px": 16.6,
-     "scale": 0.818,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    }
-   ],
+   "flags": [],
    "placed_css_px": [
     560,
     84.2
@@ -6351,7 +5965,107 @@
     300
    ],
    "effective_dpi": 783.8,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      8.831,
+      5.656
+     ],
+     "to_pct": [
+      8.831,
+      9.68
+     ],
+     "dx_px": 0,
+     "dy_px": 184,
+     "ink_before": 0.098,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      25.275,
+      5.656
+     ],
+     "to_pct": [
+      25.284,
+      3.206
+     ],
+     "dx_px": 0,
+     "dy_px": -112,
+     "ink_before": 0.026,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      41.647,
+      5.656
+     ],
+     "to_pct": [
+      41.647,
+      3.25
+     ],
+     "dx_px": 0,
+     "dy_px": -110,
+     "ink_before": 0.026,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      58.02,
+      5.656
+     ],
+     "to_pct": [
+      58.02,
+      3.25
+     ],
+     "dx_px": 0,
+     "dy_px": -110,
+     "ink_before": 0.026,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      90.836,
+      5.656
+     ],
+     "to_pct": [
+      90.836,
+      3.25
+     ],
+     "dx_px": 0,
+     "dy_px": -110,
+     "ink_before": 0.027,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      15.959,
+      2.268
+     ],
+     "to_pct": [
+      25.284,
+      2.268
+     ],
+     "dx_px": 426,
+     "dy_px": 0,
+     "ink_before": 0.06,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      49.975,
+      9.325
+     ],
+     "to_pct": [
+      49.975,
+      9.719
+     ],
+     "dx_px": 0,
+     "dy_px": 18,
+     "ink_before": 0.024,
+     "ink_after": 0.02
+    }
+   ]
   }
  }
 }

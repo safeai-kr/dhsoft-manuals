@@ -6,6 +6,7 @@ for v in 로그인 내계정 플랫폼관리 워크스페이스 프로젝트 참
   for l in $LANGS; do
     if [ "$l" = ko ] || [ -f "manuals/$v/data/$l.json" ]; then
       python3 -W ignore template/build.py "$v" "$l" >/dev/null || { echo "BUILD FAIL $v $l"; continue; }
+      python3 tools/place_markers.py manuals --only "$v/$l" | tail -1 | sed "s/^/markers $v $l /"
       python3 template/check.py "$v" "$l" | tail -1 | python3 -c "import sys,json; c=json.loads(sys.stdin.read()); print(c['manual'], c['lang'], c['pages'], 'PASS' if c['pass'] else 'FAIL '+str({k:v for k,v in c['checks'].items() if not v['pass']}))"
     fi
   done

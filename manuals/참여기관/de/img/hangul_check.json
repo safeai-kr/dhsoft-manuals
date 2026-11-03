@@ -1,7 +1,9 @@
 {
  "vol": "참여기관",
  "lang": "de",
- "remaining_korean": [
+ "untranslated_images": [],
+ "remaining_korean": [],
+ "behind_overlay_kept": [
   {
    "file": "s3_2_1.png",
    "text": "섹트",
@@ -11,10 +13,32 @@
     28,
     24
    ],
-   "changed_ink_ratio": 0.0
+   "why": "모달 바깥"
   }
  ],
  "false_positive_changed_pixels": [
+  {
+   "file": "s1_1_1.png",
+   "text": "탑 CRF-Verwaltung",
+   "box": [
+    34,
+    561,
+    255,
+    30
+   ],
+   "changed_ink_ratio": 0.841
+  },
+  {
+   "file": "s1_1_1.png",
+   "text": "경 LAB-Normalbereich",
+   "box": [
+    34,
+    697,
+    302,
+    30
+   ],
+   "changed_ink_ratio": 0.894
+  },
   {
    "file": "s1_1_1.png",
    "text": "스 elektronische Signatur",

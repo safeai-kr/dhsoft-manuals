@@ -58,11 +58,11 @@
      "tr": "Create new project",
      "box_px_orig": [
       13.0,
-      44.5,
+      45.0,
       155.5,
-      20.0
+      19.0
      ],
-     "font_px": 42.8,
+     "font_px": 40.7,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -77,12 +77,12 @@
      "tr": "Workspace: HelpTrial · Initial status:",
      "box_px_orig": [
       13.0,
-      76.0,
+      76.5,
       214.0,
-      14.0
+      12.5
      ],
-     "font_px": 27.5,
-     "scale": 0.962,
+     "font_px": 26.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -96,11 +96,11 @@
      "tr": "Basic information",
      "box_px_orig": [
       38.0,
-      138.0,
+      138.5,
       61.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -117,16 +117,16 @@
       38.0,
       188.0,
       202.0,
-      14.0
+      13.5
      ],
-     "font_px": 17.8,
-     "scale": 0.638,
+     "font_px": 27.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_005",
@@ -210,18 +210,18 @@
      "tr": "Study type *",
      "box_px_orig": [
       38.0,
-      384.5,
+      385.0,
       64.0,
-      14.0
+      13.5
      ],
-     "font_px": 22.4,
-     "scale": 0.739,
+     "font_px": 29.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_010",
@@ -229,18 +229,18 @@
      "tr": "Investigator-initiated (IIT)",
      "box_px_orig": [
       55.0,
-      415.0,
+      415.5,
       93.5,
-      14.0
+      13.0
      ],
-     "font_px": 16.5,
-     "scale": 0.6,
+     "font_px": 27.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_011",
@@ -271,14 +271,14 @@
       66.5,
       13.5
      ],
-     "font_px": 20.5,
-     "scale": 0.681,
+     "font_px": 28.3,
+     "scale": 0.94,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_013",
@@ -305,11 +305,11 @@
      "tr": "e.g.: Phase III ABC Study",
      "box_px_orig": [
       1170.0,
-      218.0,
+      219.5,
       147.5,
-      14.5
+      11.0
      ],
-     "font_px": 27.9,
+     "font_px": 23.4,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -347,36 +347,17 @@
       66.5,
       13.5
      ],
-     "font_px": 20.5,
-     "scale": 0.681,
+     "font_px": 28.3,
+     "scale": 0.94,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     }
    ],
    "flags": [
-    {
-     "id": "s1_1_1_004",
-     "ko": "프로젝트 코드 * (생성 후 변경 불가)",
-     "tr": "Project code * (cannot be changed after creation)",
-     "box_px_orig": [
-      38.0,
-      188.0,
-      202.0,
-      14.0
-     ],
-     "font_px": 17.8,
-     "scale": 0.638,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
     {
      "id": "s1_1_1_005",
      "ko": "예:",
@@ -389,82 +370,6 @@
      ],
      "font_px": 25.8,
      "scale": 0.822,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_009",
-     "ko": "연구 유형 *",
-     "tr": "Study type *",
-     "box_px_orig": [
-      38.0,
-      384.5,
-      64.0,
-      14.0
-     ],
-     "font_px": 22.4,
-     "scale": 0.739,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_010",
-     "ko": "연구자 주도 (IIT)",
-     "tr": "Investigator-initiated (IIT)",
-     "box_px_orig": [
-      55.0,
-      415.0,
-      93.5,
-      14.0
-     ],
-     "font_px": 16.5,
-     "scale": 0.6,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_012",
-     "ko": "연도-월-일",
-     "tr": "YYYY-MM-DD",
-     "box_px_orig": [
-      52.0,
-      491.0,
-      66.5,
-      13.5
-     ],
-     "font_px": 20.5,
-     "scale": 0.681,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_1_1_016",
-     "ko": "연도-월-일",
-     "tr": "YYYY-MM-DD",
-     "box_px_orig": [
-      1171.0,
-      491.0,
-      66.5,
-      13.5
-     ],
-     "font_px": 20.5,
-     "scale": 0.681,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -486,7 +391,129 @@
     600
    ],
    "effective_dpi": 787.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      46.94,
+      9.608
+     ],
+     "to_pct": [
+      46.94,
+      8.738
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      9.608
+     ],
+     "to_pct": [
+      94.999,
+      8.738
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      14.407
+     ],
+     "to_pct": [
+      94.999,
+      14.146
+     ],
+     "dx_px": 0,
+     "dy_px": -12,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      18.076
+     ],
+     "to_pct": [
+      29.932,
+      15.77
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      21.393
+     ],
+     "to_pct": [
+      29.932,
+      15.779
+     ],
+     "dx_px": 0,
+     "dy_px": -258,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      21.393
+     ],
+     "to_pct": [
+      74.957,
+      20.61
+     ],
+     "dx_px": 0,
+     "dy_px": -36,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      6.926,
+      0.716
+     ],
+     "stuck": true,
+     "ink": 1.0
+    },
+    {
+     "from_pct": [
+      12.995,
+      3.539
+     ],
+     "to_pct": [
+      13.343,
+      3.539
+     ],
+     "dx_px": 16,
+     "dy_px": 0,
+     "ink_before": 0.026,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      13.419,
+      10.949
+     ],
+     "to_pct": [
+      20.686,
+      10.949
+     ],
+     "dx_px": 334,
+     "dy_px": 0,
+     "ink_before": 0.054,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s1_2_1.png": {
    "name": "s1_2_1.png",
@@ -523,9 +550,9 @@
       38.0,
       36.0,
       145.5,
-      16.0
+      15.5
      ],
-     "font_px": 33.9,
+     "font_px": 32.9,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -561,7 +588,7 @@
       68.0,
       125.0,
       112.0,
-      14.0
+      13.5
      ],
      "font_px": 27.5,
      "scale": 1.0,
@@ -580,7 +607,7 @@
       68.5,
       171.0,
       111.5,
-      14.0
+      13.5
      ],
      "font_px": 28.3,
      "scale": 1.0,
@@ -597,18 +624,18 @@
      "tr": "Initial roles",
      "box_px_orig": [
       38.0,
-      217.5,
+      218.0,
       55.0,
-      14.0
+      13.5
      ],
-     "font_px": 21.4,
-     "scale": 0.721,
+     "font_px": 28.7,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_2_1_022",
@@ -668,27 +695,7 @@
      "flag": ""
     }
    ],
-   "flags": [
-    {
-     "id": "s1_2_1_021",
-     "ko": "초기 역할",
-     "tr": "Initial roles",
-     "box_px_orig": [
-      38.0,
-      217.5,
-      55.0,
-      14.0
-     ],
-     "font_px": 21.4,
-     "scale": 0.721,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
-    }
-   ],
+   "flags": [],
    "placed_css_px": [
     560,
     100.4
@@ -702,7 +709,79 @@
     600
    ],
    "effective_dpi": 787.9,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.999,
+      5.585
+     ],
+     "to_pct": [
+      97.28,
+      4.715
+     ],
+     "dx_px": 105,
+     "dy_px": -40,
+     "ink_before": 0.035,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      88.93,
+      7.561
+     ],
+     "to_pct": [
+      88.93,
+      8.736
+     ],
+     "dx_px": 0,
+     "dy_px": 54,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.294,
+      11.866
+     ],
+     "to_pct": [
+      97.28,
+      11.3
+     ],
+     "dx_px": 137,
+     "dy_px": -26,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      97.681,
+      11.866
+     ],
+     "to_pct": [
+      97.28,
+      10.952
+     ],
+     "dx_px": -18,
+     "dy_px": -42,
+     "ink_before": 0.036,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      26.404,
+      10.666
+     ],
+     "to_pct": [
+      32.888,
+      10.666
+     ],
+     "dx_px": 298,
+     "dy_px": 0,
+     "ink_before": 0.05,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s2_1_1.png": {
    "name": "s2_1_1.png",
@@ -775,12 +854,12 @@
      "tr": "Breast cancer Phase II SGS-ONCO-01",
      "box_px_orig": [
       184.5,
-      25.0,
+      25.5,
       163.0,
-      13.5
+      13.0
      ],
-     "font_px": 21.9,
-     "scale": 0.76,
+     "font_px": 21.7,
+     "scale": 0.781,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -793,13 +872,13 @@
      "ko": "운영 중",
      "tr": "Active",
      "box_px_orig": [
-      405.5,
-      14.5,
-      49.0,
-      19.0
+      411.0,
+      18.0,
+      36.0,
+      12.0
      ],
-     "font_px": 34.9,
-     "scale": 0.941,
+     "font_px": 25.8,
+     "scale": 0.981,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -931,14 +1010,14 @@
       55.5,
       13.0
      ],
-     "font_px": 13.8,
-     "scale": 0.481,
+     "font_px": 28.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_1_1_036",
@@ -969,14 +1048,14 @@
       79.0,
       13.0
      ],
-     "font_px": 19.3,
-     "scale": 0.68,
+     "font_px": 28.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_038",
@@ -1007,14 +1086,14 @@
       82.5,
       13.0
      ],
-     "font_px": 12.5,
-     "scale": 0.44,
+     "font_px": 27.3,
+     "scale": 0.961,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_1_1_040",
@@ -1081,16 +1160,16 @@
       42.5,
       594.0,
       105.5,
-      14.0
+      13.0
      ],
-     "font_px": 22.1,
-     "scale": 0.801,
+     "font_px": 27.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_044",
@@ -1254,14 +1333,14 @@
       240.5,
       19.0
      ],
-     "font_px": 22.3,
-     "scale": 0.639,
+     "font_px": 34.9,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_053",
@@ -1288,11 +1367,11 @@
      "tr": "Basic information",
      "box_px_orig": [
       275.0,
-      246.0,
+      246.5,
       61.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1330,14 +1409,14 @@
       20.5,
       11.0
      ],
-     "font_px": 10.8,
-     "scale": 0.441,
+     "font_px": 24.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s2_1_1_057",
@@ -1347,16 +1426,16 @@
       275.5,
       362.0,
       372.0,
-      14.5
+      13.5
      ],
-     "font_px": 19.9,
-     "scale": 0.718,
+     "font_px": 27.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_058",
@@ -1368,14 +1447,14 @@
       21.0,
       11.0
      ],
-     "font_px": 19.1,
-     "scale": 0.761,
+     "font_px": 25.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_059",
@@ -1383,18 +1462,18 @@
      "tr": "Investigator-initiated (IIT)",
      "box_px_orig": [
       275.0,
-      412.0,
+      412.5,
       93.5,
-      14.0
+      13.0
      ],
-     "font_px": 16.5,
-     "scale": 0.6,
+     "font_px": 27.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_060",
@@ -1459,14 +1538,14 @@
      "tr": "Status workflow",
      "box_px_orig": [
       275.0,
-      696.0,
+      696.5,
       89.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32.1,
      "scale": 1.0,
      "weight": 700,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
@@ -1499,9 +1578,9 @@
       275.0,
       840.0,
       60.0,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1516,11 +1595,11 @@
      "tr": "Site management",
      "box_px_orig": [
       312.0,
-      900.5,
+      901.0,
       83.5,
-      14.0
+      13.5
      ],
-     "font_px": 29.7,
+     "font_px": 28.7,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -1612,36 +1691,36 @@
      "box_px_orig": [
       312.5,
       971.0,
-      62.0,
-      23.0
+      53.5,
+      13.5
      ],
-     "font_px": 16.9,
-     "scale": 0.459,
+     "font_px": 28.8,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_1_1_072",
      "ko": "권한 변경 이력",
      "tr": "Role change history",
      "box_px_orig": [
-      312.0,
+      314.0,
       980.5,
-      65.0,
-      19.5
+      52.0,
+      4.0
      ],
-     "font_px": 14.3,
-     "scale": 0.581,
+     "font_px": 9.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_073",
@@ -1668,11 +1747,11 @@
      "tr": "Breast cancer Phase II SGS-ONCO-01",
      "box_px_orig": [
       1392.0,
-      312.0,
+      312.5,
       161.5,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -1805,14 +1884,14 @@
       108.5,
       20.0
      ],
-     "font_px": 14.8,
-     "scale": 0.602,
+     "font_px": 24.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_082",
@@ -1843,10 +1922,10 @@
       74.5,
       10.0
      ],
-     "font_px": 20.8,
-     "scale": 0.941,
+     "font_px": 22.1,
+     "scale": 1.0,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
@@ -1862,14 +1941,14 @@
       50.5,
       11.0
      ],
-     "font_px": 19.2,
-     "scale": 0.8,
+     "font_px": 24,
+     "scale": 1.0,
      "weight": 500,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "header",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_1_1_085",
@@ -1900,14 +1979,14 @@
       64.5,
       20.0
      ],
-     "font_px": 10.8,
-     "scale": 0.441,
+     "font_px": 24.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": ""
     },
     {
      "id": "s2_1_1_087",
@@ -1938,28 +2017,27 @@
       46.5,
       12.0
      ],
-     "font_px": 19.5,
-     "scale": 0.742,
+     "font_px": 16.3,
+     "scale": 0.62,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 22
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_1_1_089",
      "ko": "상태 변경",
      "tr": "Change status",
      "box_px_orig": [
-      2413.5,
+      2437.0,
       689.0,
-      83.5,
+      60.0,
       32.0
      ],
-     "font_px": 25.5,
-     "scale": 0.519,
+     "font_px": 18.3,
+     "scale": 0.518,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2013,188 +2091,17 @@
      "tr": "Breast cancer Phase II SGS-ONCO-01",
      "box_px_orig": [
       184.5,
-      25.0,
+      25.5,
       163.0,
-      13.5
+      13.0
      ],
-     "font_px": 21.9,
-     "scale": 0.76,
+     "font_px": 21.7,
+     "scale": 0.781,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_035",
-     "ko": "CRF 관리",
-     "tr": "CRF Management",
-     "box_px_orig": [
-      42.0,
-      286.0,
-      55.5,
-      13.0
-     ],
-     "font_px": 13.8,
-     "scale": 0.481,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_1_1_037",
-     "ko": "LAB 정상범위",
-     "tr": "LAB normal range",
-     "box_px_orig": [
-      43.0,
-      354.0,
-      79.0,
-      13.0
-     ],
-     "font_px": 19.3,
-     "scale": 0.68,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_039",
-     "ko": "설계 버전 관리",
-     "tr": "Design version management",
-     "box_px_orig": [
-      42.5,
-      422.0,
-      82.5,
-      13.0
-     ],
-     "font_px": 12.5,
-     "scale": 0.44,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_1_1_043",
-     "ko": "데이터 검증 (DVS)",
-     "tr": "Data validation (DVS)",
-     "box_px_orig": [
-      42.5,
-      594.0,
-      105.5,
-      14.0
-     ],
-     "font_px": 22.1,
-     "scale": 0.801,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_052",
-     "ko": "유방암 2상 SGS-ONCO-01 운영 중",
-     "tr": "Breast cancer Phase II SGS-ONCO-01, Active",
-     "box_px_orig": [
-      303.0,
-      137.5,
-      240.5,
-      19.0
-     ],
-     "font_px": 22.3,
-     "scale": 0.639,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_056",
-     "ko": "설명",
-     "tr": "Description",
-     "box_px_orig": [
-      275.5,
-      343.0,
-      20.5,
-      11.0
-     ],
-     "font_px": 10.8,
-     "scale": 0.441,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 45%로도 넘침"
-    },
-    {
-     "id": "s2_1_1_057",
-     "ko": "HER2+ 유방암 2-Arm 21일 주기 항암 치료 2상 (cycle 시나리오)",
-     "tr": "HER2+ breast cancer, 2-arm, 21-day cycle chemotherapy, Phase II (cycle scenario)",
-     "box_px_orig": [
-      275.5,
-      362.0,
-      372.0,
-      14.5
-     ],
-     "font_px": 19.9,
-     "scale": 0.718,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_058",
-     "ko": "유형",
-     "tr": "Type",
-     "box_px_orig": [
-      275.0,
-      393.0,
-      21.0,
-      11.0
-     ],
-     "font_px": 19.1,
-     "scale": 0.761,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_059",
-     "ko": "연구자 주도 (IIT)",
-     "tr": "Investigator-initiated (IIT)",
-     "box_px_orig": [
-      275.0,
-      412.0,
-      93.5,
-      14.0
-     ],
-     "font_px": 16.5,
-     "scale": 0.6,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -2217,63 +2124,6 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s2_1_1_071",
-     "ko": "변경 이력",
-     "tr": "Change history",
-     "box_px_orig": [
-      312.5,
-      971.0,
-      62.0,
-      23.0
-     ],
-     "font_px": 16.9,
-     "scale": 0.459,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_1_1_072",
-     "ko": "권한 변경 이력",
-     "tr": "Role change history",
-     "box_px_orig": [
-      312.0,
-      980.5,
-      65.0,
-      19.5
-     ],
-     "font_px": 14.3,
-     "scale": 0.581,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_081",
-     "ko": "참여 기관별 연구자 관리",
-     "tr": "Investigator management by site",
-     "box_px_orig": [
-      1055.5,
-      910.0,
-      108.5,
-      20.0
-     ],
-     "font_px": 14.8,
-     "scale": 0.602,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s2_1_1_082",
      "ko": "SAE 통보",
      "tr": "SAE notification",
@@ -2291,44 +2141,6 @@
      "align": "left",
      "role": "title",
      "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_1_1_084",
-     "ko": "Lock 상태",
-     "tr": "Lock status",
-     "box_px_orig": [
-      1976.5,
-      585.0,
-      50.5,
-      11.0
-     ],
-     "font_px": 19.2,
-     "scale": 0.8,
-     "weight": 500,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "header",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_086",
-     "ko": "역할·권한 배정",
-     "tr": "Role · permission assignment",
-     "box_px_orig": [
-      1799.0,
-      910.0,
-      64.5,
-      20.0
-     ],
-     "font_px": 10.8,
-     "scale": 0.441,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 45%로도 넘침"
     },
     {
      "id": "s2_1_1_087",
@@ -2359,28 +2171,27 @@
       46.5,
       12.0
      ],
-     "font_px": 19.5,
-     "scale": 0.742,
+     "font_px": 16.3,
+     "scale": 0.62,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 22
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_1_1_089",
      "ko": "상태 변경",
      "tr": "Change status",
      "box_px_orig": [
-      2413.5,
+      2437.0,
       689.0,
-      83.5,
+      60.0,
       32.0
      ],
-     "font_px": 25.5,
-     "scale": 0.519,
+     "font_px": 18.3,
+     "scale": 0.518,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2402,7 +2213,65 @@
     900
    ],
    "effective_dpi": 867.8,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      15.959,
+      33.32
+     ],
+     "to_pct": [
+      8.416,
+      33.32
+     ],
+     "dx_px": -382,
+     "dy_px": 0,
+     "ink_before": 0.041,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      6.432,
+      30.356
+     ],
+     "to_pct": [
+      8.416,
+      30.356
+     ],
+     "dx_px": 100,
+     "dy_px": 0,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      16.947,
+      3.397
+     ],
+     "to_pct": [
+      17.641,
+      10.706
+     ],
+     "dx_px": 35,
+     "dy_px": 370,
+     "ink_before": 0.042,
+     "ink_after": 0.006
+    },
+    {
+     "from_pct": [
+      15.395,
+      9.961
+     ],
+     "to_pct": [
+      17.641,
+      9.961
+     ],
+     "dx_px": 114,
+     "dy_px": 0,
+     "ink_before": 0.062,
+     "ink_after": 0.019
+    }
+   ]
   },
   "s2_2_1.png": {
    "name": "s2_2_1.png",
@@ -2475,11 +2344,11 @@
      "tr": "SGS-ONCO-01 · · Created 2026-07-30T06:00:31.7394952Z",
      "box_px_orig": [
       40.0,
-      91.0,
+      92.0,
       295.0,
-      11.0
+      9.5
      ],
-     "font_px": 24.1,
+     "font_px": 22.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2494,11 +2363,11 @@
      "tr": "Basic information",
      "box_px_orig": [
       40.0,
-      174.0,
+      174.5,
       61.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.2,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -2513,9 +2382,9 @@
      "tr": "After ACTIVE — protocol number cannot be changed (PM decision #1A)",
      "box_px_orig": [
       47.5,
-      229.5,
+      230.0,
       263.5,
-      11.0
+      10.5
      ],
      "font_px": 21.5,
      "scale": 1.0,
@@ -2534,16 +2403,16 @@
       40.0,
       273.0,
       118.0,
-      14.0
+      13.5
      ],
-     "font_px": 20.8,
-     "scale": 0.74,
+     "font_px": 28.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_096",
@@ -2572,12 +2441,12 @@
       53.5,
       380.0,
       372.0,
-      14.5
+      13.5
      ],
-     "font_px": 27.7,
+     "font_px": 27.6,
      "scale": 1.0,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
@@ -2589,18 +2458,18 @@
      "tr": "Type",
      "box_px_orig": [
       40.0,
-      448.5,
-      30.5,
-      21.0
+      449.0,
+      25.0,
+      13.5
      ],
-     "font_px": 27.4,
-     "scale": 0.68,
+     "font_px": 29.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_099",
@@ -2608,18 +2477,18 @@
      "tr": "Investigator-initiated (IIT)",
      "box_px_orig": [
       57.0,
-      479.0,
+      479.5,
       93.5,
-      14.0
+      13.0
      ],
-     "font_px": 16.5,
-     "scale": 0.6,
+     "font_px": 27.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_100",
@@ -2650,14 +2519,14 @@
       63.5,
       13.5
      ],
-     "font_px": 16,
-     "scale": 0.542,
+     "font_px": 29.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_2_1_102",
@@ -2669,14 +2538,14 @@
       66.5,
       13.5
      ],
-     "font_px": 20.5,
-     "scale": 0.681,
+     "font_px": 28.3,
+     "scale": 0.94,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_104",
@@ -2703,11 +2572,11 @@
      "tr": "Breast cancer Phase II SGS-ONCO-01",
      "box_px_orig": [
       1163.0,
-      304.0,
+      304.5,
       161.0,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2724,7 +2593,7 @@
       1150.0,
       449.0,
       121.0,
-      14.0
+      13.5
      ],
      "font_px": 28.1,
      "scale": 1.0,
@@ -2764,33 +2633,33 @@
       67.0,
       13.5
      ],
-     "font_px": 13.8,
-     "scale": 0.462,
+     "font_px": 29.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_2_1_110",
      "ko": "연도-월-일",
      "tr": "YYYY-MM-DD",
      "box_px_orig": [
-      1136.0,
-      622.5,
-      94.0,
-      30.0
+      1163.5,
+      631.0,
+      66.5,
+      13.5
      ],
-     "font_px": 29.2,
-     "scale": 0.62,
+     "font_px": 27.7,
+     "scale": 0.92,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s2_2_1_112",
@@ -2802,15 +2671,14 @@
       22.0,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 23.1,
+     "scale": 0.878,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 41
+     "flag": ""
     },
     {
      "id": "s2_2_1_114",
@@ -2827,7 +2695,7 @@
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "button",
      "flag": ""
     }
@@ -2851,139 +2719,6 @@
      "align": "left",
      "role": "title",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_095",
-     "ko": "프로토콜 번호 (잠금)",
-     "tr": "Protocol number (locked)",
-     "box_px_orig": [
-      40.0,
-      273.0,
-      118.0,
-      14.0
-     ],
-     "font_px": 20.8,
-     "scale": 0.74,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_098",
-     "ko": "유형",
-     "tr": "Type",
-     "box_px_orig": [
-      40.0,
-      448.5,
-      30.5,
-      21.0
-     ],
-     "font_px": 27.4,
-     "scale": 0.68,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_099",
-     "ko": "연구자 주도 (IIT)",
-     "tr": "Investigator-initiated (IIT)",
-     "box_px_orig": [
-      57.0,
-      479.0,
-      93.5,
-      14.0
-     ],
-     "font_px": 16.5,
-     "scale": 0.6,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_101",
-     "ko": "IRB 승인일",
-     "tr": "IRB approval date",
-     "box_px_orig": [
-      40.5,
-      601.0,
-      63.5,
-      13.5
-     ],
-     "font_px": 16,
-     "scale": 0.542,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_2_1_102",
-     "ko": "연도-월-일",
-     "tr": "YYYY-MM-DD",
-     "box_px_orig": [
-      54.0,
-      631.0,
-      66.5,
-      13.5
-     ],
-     "font_px": 20.5,
-     "scale": 0.681,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_2_1_109",
-     "ko": "보관 만료일",
-     "tr": "Retention expiry date",
-     "box_px_orig": [
-      1149.5,
-      601.0,
-      67.0,
-      13.5
-     ],
-     "font_px": 13.8,
-     "scale": 0.462,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s2_2_1_110",
-     "ko": "연도-월-일",
-     "tr": "YYYY-MM-DD",
-     "box_px_orig": [
-      1136.0,
-      622.5,
-      94.0,
-      30.0
-     ],
-     "font_px": 29.2,
-     "scale": 0.62,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -2999,7 +2734,177 @@
     600
    ],
    "effective_dpi": 781.4,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.999,
+      13.418
+     ],
+     "to_pct": [
+      96.314,
+      12.54
+     ],
+     "dx_px": 60,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      17.229
+     ],
+     "to_pct": [
+      96.314,
+      17.053
+     ],
+     "dx_px": 60,
+     "dy_px": -8,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      21.04
+     ],
+     "to_pct": [
+      29.932,
+      18.714
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      24.428
+     ],
+     "to_pct": [
+      29.932,
+      18.724
+     ],
+     "dx_px": 0,
+     "dy_px": -260,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      24.428
+     ],
+     "to_pct": [
+      74.957,
+      18.724
+     ],
+     "dx_px": 0,
+     "dy_px": -260,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      27.674
+     ],
+     "to_pct": [
+      29.932,
+      18.723
+     ],
+     "dx_px": 0,
+     "dy_px": -408,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      27.674
+     ],
+     "to_pct": [
+      74.957,
+      18.723
+     ],
+     "dx_px": 0,
+     "dy_px": -408,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      96.834,
+      1.351
+     ],
+     "to_pct": [
+      96.314,
+      7.362
+     ],
+     "dx_px": -24,
+     "dy_px": 274,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      15.959,
+      0.574
+     ],
+     "to_pct": [
+      17.332,
+      2.022
+     ],
+     "dx_px": 63,
+     "dy_px": 66,
+     "ink_before": 1.0,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      15.395,
+      10.172
+     ],
+     "to_pct": [
+      17.332,
+      10.172
+     ],
+     "dx_px": 88,
+     "dy_px": 0,
+     "ink_before": 0.043,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      46.94,
+      13.418
+     ],
+     "to_pct": [
+      46.94,
+      12.54
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      21.04
+     ],
+     "to_pct": [
+      74.957,
+      18.714
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s3_1_1.png": {
    "name": "s3_1_1.png",
@@ -3038,8 +2943,8 @@
       43.5,
       11.0
      ],
-     "font_px": 19.2,
-     "scale": 0.78,
+     "font_px": 19.7,
+     "scale": 0.801,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3072,11 +2977,11 @@
      "tr": "Change status",
      "box_px_orig": [
       168.0,
-      13.5,
+      14.0,
       46.5,
-      12.0
+      11.5
      ],
-     "font_px": 25.7,
+     "font_px": 24.6,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3110,11 +3015,11 @@
      "tr": "Sample project 005 (PRJ-005)",
      "box_px_orig": [
       43.5,
-      77.0,
+      77.5,
       182.5,
-      14.0
+      12.5
      ],
-     "font_px": 28.3,
+     "font_px": 26.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3131,9 +3036,9 @@
       36.0,
       138.0,
       60.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3167,11 +3072,11 @@
      "tr": "Last changed: 2026-07-30T06:00:00.674062Z",
      "box_px_orig": [
       106.5,
-      189.0,
+      189.5,
       245.0,
-      11.0
+      10.5
      ],
-     "font_px": 24,
+     "font_px": 23.8,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3245,9 +3150,9 @@
       36.0,
       352.0,
       92.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.1,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3262,11 +3167,11 @@
      "tr": "Setup → Test",
      "box_px_orig": [
       48.0,
-      406.5,
+      407.0,
       88.0,
-      12.0
+      11.5
      ],
-     "font_px": 26.3,
+     "font_px": 25.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3281,11 +3186,11 @@
      "tr": "Verify transition from Setup to Test",
      "box_px_orig": [
       36.0,
-      498.0,
+      498.5,
       177.0,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3356,12 +3261,12 @@
      "ko": "예: CRF 설계 완료 및 내부 검증 통과",
      "tr": "e.g.: CRF design completed and internal validation passed",
      "box_px_orig": [
-      36.0,
-      628.0,
-      224.0,
-      32.0
+      48.5,
+      639.0,
+      211.5,
+      13.0
      ],
-     "font_px": 33.2,
+     "font_px": 28.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3380,15 +3285,14 @@
       22.0,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 22.1,
+     "scale": 0.84,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 77
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_134",
@@ -3421,8 +3325,8 @@
       43.5,
       11.0
      ],
-     "font_px": 19.2,
-     "scale": 0.78,
+     "font_px": 19.7,
+     "scale": 0.801,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3505,6 +3409,25 @@
      "align": "center",
      "role": "badge",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_133",
+     "ko": "취소",
+     "tr": "Cancel",
+     "box_px_orig": [
+      2169.0,
+      730.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -3520,7 +3443,107 @@
     900
    ],
    "effective_dpi": 784.5,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      8.479,
+      17.935
+     ],
+     "to_pct": [
+      20.476,
+      17.935
+     ],
+     "dx_px": 549,
+     "dy_px": 0,
+     "ink_before": 0.012,
+     "ink_after": 0.006
+    },
+    {
+     "from_pct": [
+      94.999,
+      28.944
+     ],
+     "to_pct": [
+      97.268,
+      26.016
+     ],
+     "dx_px": 104,
+     "dy_px": -134,
+     "ink_before": 0.029,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      97.258,
+      34.308
+     ],
+     "to_pct": [
+      97.268,
+      26.048
+     ],
+     "dx_px": 0,
+     "dy_px": -378,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      11.443,
+      0.716
+     ],
+     "to_pct": [
+      20.476,
+      2.027
+     ],
+     "dx_px": 413,
+     "dy_px": 60,
+     "ink_before": 1.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      16.947,
+      8.478
+     ],
+     "to_pct": [
+      20.476,
+      8.478
+     ],
+     "dx_px": 162,
+     "dy_px": 0,
+     "ink_before": 0.017,
+     "ink_after": 0.008
+    },
+    {
+     "from_pct": [
+      20.476,
+      12.007
+     ],
+     "to_pct": [
+      20.476,
+      9.166
+     ],
+     "dx_px": 0,
+     "dy_px": -130,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.407,
+      24.992
+     ],
+     "to_pct": [
+      20.476,
+      23.2
+     ],
+     "dx_px": 278,
+     "dy_px": -82,
+     "ink_before": 0.05,
+     "ink_after": 0.0
+    }
+   ]
   },
   "s3_2_1.png": {
    "name": "s3_2_1.png",
@@ -3555,11 +3578,11 @@
      "tr": "Dashboard / Project settings / Change status",
      "box_px_orig": [
       14.5,
-      13.5,
+      14.0,
       203.0,
-      12.0
+      11.5
      ],
-     "font_px": 27.4,
+     "font_px": 27,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3593,11 +3616,11 @@
      "tr": "Sample project 005 (PRJ-005)",
      "box_px_orig": [
       46.5,
-      77.0,
+      77.5,
       182.5,
-      14.0
+      12.5
      ],
-     "font_px": 28.3,
+     "font_px": 26.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3614,9 +3637,9 @@
       39.0,
       138.0,
       60.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3630,12 +3653,12 @@
      "ko": "테스트",
      "tr": "Test",
      "box_px_orig": [
-      40.5,
-      183.0,
-      53.5,
-      22.5
+      47.5,
+      188.5,
+      38.0,
+      12.5
      ],
-     "font_px": 45.1,
+     "font_px": 29,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3650,11 +3673,11 @@
      "tr": "Last changed: 2026-10-27T01:25:34.847398Z",
      "box_px_orig": [
       106.0,
-      189.0,
+      189.5,
       237.0,
-      11.0
+      10.5
      ],
-     "font_px": 24,
+     "font_px": 23.3,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3688,9 +3711,9 @@
      "tr": "Test (current)",
      "box_px_orig": [
       110.0,
-      264.5,
+      265.0,
       98.0,
-      24.5
+      24.0
      ],
      "font_px": 32.3,
      "scale": 0.8,
@@ -3728,9 +3751,9 @@
       39.0,
       352.0,
       92.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.1,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3744,12 +3767,12 @@
      "ko": "테스트 → 설정 중",
      "tr": "Test → Setup",
      "box_px_orig": [
-      43.0,
-      397.5,
-      95.5,
-      21.0
+      51.0,
+      407.0,
+      87.5,
+      11.5
      ],
-     "font_px": 29.7,
+     "font_px": 25.2,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3783,11 +3806,11 @@
      "tr": "Verify transition from Test to Active",
      "box_px_orig": [
       39.5,
-      498.0,
+      498.5,
       176.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3840,11 +3863,11 @@
      "tr": "Side effects",
      "box_px_orig": [
       52.5,
-      617.0,
+      617.5,
       52.5,
-      14.0
+      13.5
      ],
-     "font_px": 33.1,
+     "font_px": 31.9,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -3859,11 +3882,11 @@
      "tr": "Test data may be permanently deleted.",
      "box_px_orig": [
       69.5,
-      637.5,
+      638.0,
       202.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.2,
+     "font_px": 25.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3920,15 +3943,14 @@
       22.0,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 22.1,
+     "scale": 0.84,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 76
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_2_1_155",
@@ -3976,9 +3998,9 @@
      "tr": "Test (current)",
      "box_px_orig": [
       110.0,
-      264.5,
+      265.0,
       98.0,
-      24.5
+      24.0
      ],
      "font_px": 32.3,
      "scale": 0.8,
@@ -4007,6 +4029,25 @@
      "align": "center",
      "role": "badge",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_154",
+     "ko": "취소",
+     "tr": "Cancel",
+     "box_px_orig": [
+      2172.0,
+      808.5,
+      22.0,
+      12.0
+     ],
+     "font_px": 22.1,
+     "scale": 0.84,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -4022,7 +4063,107 @@
     900
    ],
    "effective_dpi": 783.4,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      4.033,
+      20.193
+     ],
+     "to_pct": [
+      5.055,
+      33.716
+     ],
+     "dx_px": 47,
+     "dy_px": 618,
+     "ink_before": 0.083,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      13.701,
+      17.935
+     ],
+     "to_pct": [
+      20.897,
+      17.935
+     ],
+     "dx_px": 329,
+     "dy_px": 0,
+     "ink_before": 0.016,
+     "ink_after": 0.005
+    },
+    {
+     "from_pct": [
+      97.54,
+      33.32
+     ],
+     "to_pct": [
+      95.965,
+      33.32
+     ],
+     "dx_px": -72,
+     "dy_px": 0,
+     "ink_before": 0.067,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      16.947,
+      8.478
+     ],
+     "to_pct": [
+      20.897,
+      8.478
+     ],
+     "dx_px": 181,
+     "dy_px": 0,
+     "ink_before": 0.013,
+     "ink_after": 0.008
+    },
+    {
+     "from_pct": [
+      20.899,
+      12.007
+     ],
+     "to_pct": [
+      20.897,
+      9.162
+     ],
+     "dx_px": 0,
+     "dy_px": -130,
+     "ink_before": 0.027,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.407,
+      24.992
+     ],
+     "to_pct": [
+      20.897,
+      23.154
+     ],
+     "dx_px": 297,
+     "dy_px": -84,
+     "ink_before": 0.064,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      6.926,
+      27.109
+     ],
+     "to_pct": [
+      5.055,
+      33.805
+     ],
+     "dx_px": -86,
+     "dy_px": 306,
+     "ink_before": 0.113,
+     "ink_after": 0.016
+    }
+   ]
   },
   "s3_3_1.png": {
    "name": "s3_3_1.png",
@@ -4133,12 +4274,12 @@
      "tr": "Delete and continue",
      "box_px_orig": [
       426.0,
-      176.5,
+      177.0,
       69.0,
-      12.0
+      11.0
      ],
-     "font_px": 17.9,
-     "scale": 0.681,
+     "font_px": 18.1,
+     "scale": 0.742,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4173,12 +4314,12 @@
      "tr": "Delete and continue",
      "box_px_orig": [
       426.0,
-      176.5,
+      177.0,
       69.0,
-      12.0
+      11.0
      ],
-     "font_px": 17.9,
-     "scale": 0.681,
+     "font_px": 18.1,
+     "scale": 0.742,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4200,7 +4341,51 @@
     900
    ],
    "effective_dpi": 206.6,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      43.046,
+      8.055
+     ],
+     "to_pct": [
+      46.581,
+      8.055
+     ],
+     "dx_px": 42,
+     "dy_px": 0,
+     "ink_before": 0.201,
+     "ink_after": 0.009
+    },
+    {
+     "from_pct": [
+      80.028,
+      16.512
+     ],
+     "to_pct": [
+      80.028,
+      19.711
+     ],
+     "dx_px": 0,
+     "dy_px": 38,
+     "ink_before": 0.139,
+     "ink_after": 0.01
+    },
+    {
+     "from_pct": [
+      49.182,
+      21.653
+     ],
+     "to_pct": [
+      60.125,
+      21.653
+     ],
+     "dx_px": 130,
+     "dy_px": 0,
+     "ink_before": 0.128,
+     "ink_after": 0.014
+    }
+   ]
   },
   "s3_4_1.png": {
    "name": "s3_4_1.png",
@@ -4237,7 +4422,7 @@
       81.0,
       37.0,
       157.5,
-      14.0
+      13.5
      ],
      "font_px": 27.1,
      "scale": 1.0,
@@ -4349,18 +4534,18 @@
      "tr": "Switch to ACTIVE",
      "box_px_orig": [
       409.5,
-      207.5,
+      208.0,
       77.5,
-      12.0
+      11.5
      ],
-     "font_px": 19.5,
-     "scale": 0.741,
+     "font_px": 22.6,
+     "scale": 0.879,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     }
    ],
    "flags": [
@@ -4382,25 +4567,6 @@
      "align": "left",
      "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_4_1_167",
-     "ko": "ACTIVE로 전환",
-     "tr": "Switch to ACTIVE",
-     "box_px_orig": [
-      409.5,
-      207.5,
-      77.5,
-      12.0
-     ],
-     "font_px": 19.5,
-     "scale": 0.741,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -4416,7 +4582,51 @@
     900
    ],
    "effective_dpi": 206.9,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      44.539,
+      7.226
+     ],
+     "to_pct": [
+      60.0,
+      7.226
+     ],
+     "dx_px": 184,
+     "dy_px": 0,
+     "ink_before": 0.24,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      88.486,
+      15.683
+     ],
+     "to_pct": [
+      90.336,
+      15.683
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      59.962,
+      23.643
+     ],
+     "to_pct": [
+      60.0,
+      21.458
+     ],
+     "dx_px": 0,
+     "dy_px": -26,
+     "ink_before": 0.157,
+     "ink_after": 0.017
+    }
+   ]
   },
   "s3_5_1.png": {
    "name": "s3_5_1.png",
@@ -4453,9 +4663,9 @@
       26.0,
       10.5,
       91.0,
-      28.0
+      19.5
      ],
-     "font_px": 53.2,
+     "font_px": 46.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4470,11 +4680,11 @@
      "tr": "Breast cancer Phase II SGS-ONCO-01 (SGS-ONCO-01)",
      "box_px_orig": [
       40.0,
-      40.0,
+      41.0,
       268.0,
-      14.0
+      12.0
      ],
-     "font_px": 27.2,
+     "font_px": 25.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4491,9 +4701,9 @@
       33.0,
       101.0,
       60.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.2,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4507,13 +4717,13 @@
      "ko": "운영 중",
      "tr": "Active",
      "box_px_orig": [
-      36.5,
-      146.5,
-      54.0,
-      23.0
+      41.0,
+      151.0,
+      42.0,
+      13.5
      ],
-     "font_px": 38.5,
-     "scale": 0.941,
+     "font_px": 29.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4527,11 +4737,11 @@
      "tr": "Last changed: 2026-07-30T06:00:31.7394952Z",
      "box_px_orig": [
       103.5,
-      152.0,
+      152.5,
       241.0,
-      11.0
+      10.5
      ],
-     "font_px": 24,
+     "font_px": 22.9,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -4550,14 +4760,14 @@
       400.5,
       27.0
      ],
-     "font_px": 28.2,
-     "scale": 0.76,
+     "font_px": 37.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "center",
+     "align": "left",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_5_1_174",
@@ -4567,9 +4777,9 @@
       33.0,
       315.0,
       92.5,
-      16.0
+      15.5
      ],
-     "font_px": 34.1,
+     "font_px": 33.1,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4588,14 +4798,14 @@
       77.0,
       12.0
      ],
-     "font_px": 20.5,
-     "scale": 0.779,
+     "font_px": 23.7,
+     "scale": 0.901,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_5_1_176",
@@ -4603,11 +4813,11 @@
      "tr": "Verify transition from Active to Closed",
      "box_px_orig": [
       33.0,
-      461.0,
+      461.5,
       162.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -4660,18 +4870,18 @@
      "tr": "This transition requires an electronic signature (21 CFR Part 11). A signature dialog opens when you run it.",
      "box_px_orig": [
       70.5,
-      580.5,
+      581.0,
       265.0,
-      12.5
+      11.5
      ],
-     "font_px": 18.3,
-     "scale": 0.759,
+     "font_px": 22.2,
+     "scale": 0.921,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_5_1_181",
@@ -4716,19 +4926,19 @@
      "ko": "취소",
      "tr": "Cancel",
      "box_px_orig": [
-      2159.5,
+      2166.0,
       770.5,
-      33.5,
-      22.5
+      22.0,
+      11.5
      ],
-     "font_px": 21.2,
-     "scale": 0.5,
+     "font_px": 18.6,
+     "scale": 0.738,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_5_1_184",
@@ -4752,80 +4962,23 @@
    ],
    "flags": [
     {
-     "id": "s3_5_1_173",
-     "ko": "설정 중 → 테스트 → 운영 중 (현재) → 종료 (대상) → 보관",
-     "tr": "Setup → Test → Active (current) → Closed (target) → Archived",
-     "box_px_orig": [
-      26.5,
-      227.5,
-      400.5,
-      27.0
-     ],
-     "font_px": 28.2,
-     "scale": 0.76,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_5_1_175",
-     "ko": "운영 중 → 종료",
-     "tr": "Active → Closed",
-     "box_px_orig": [
-      45.0,
-      369.5,
-      77.0,
-      12.0
-     ],
-     "font_px": 20.5,
-     "scale": 0.779,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_5_1_179",
-     "ko": "이 전이에는 전자서명(21 CFR Part 11)이 필요합니다. 실행 시 전자서명 모달이 표시됩니다.",
-     "tr": "This transition requires an electronic signature (21 CFR Part 11). A signature dialog opens when you run it.",
-     "box_px_orig": [
-      70.5,
-      580.5,
-      265.0,
-      12.5
-     ],
-     "font_px": 18.3,
-     "scale": 0.759,
-     "weight": 400,
-     "paragraph_lines": 2,
-     "lines_in_segment": 2,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s3_5_1_183",
      "ko": "취소",
      "tr": "Cancel",
      "box_px_orig": [
-      2159.5,
+      2166.0,
       770.5,
-      33.5,
-      22.5
+      22.0,
+      11.5
      ],
-     "font_px": 21.2,
-     "scale": 0.5,
+     "font_px": 18.6,
+     "scale": 0.738,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -4841,7 +4994,93 @@
     900
    ],
    "effective_dpi": 781.4,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.943,
+      30.743
+     ],
+     "to_pct": [
+      96.029,
+      30.743
+     ],
+     "dx_px": 49,
+     "dy_px": 0,
+     "ink_before": 0.014,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      97.437,
+      36.375
+     ],
+     "to_pct": [
+      96.029,
+      36.507
+     ],
+     "dx_px": -64,
+     "dy_px": 6,
+     "ink_before": 0.023,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      16.906,
+      6.93
+     ],
+     "to_pct": [
+      21.391,
+      6.93
+     ],
+     "dx_px": 204,
+     "dy_px": 0,
+     "ink_before": 0.015,
+     "ink_after": 0.009
+    },
+    {
+     "from_pct": [
+      19.963,
+      10.47
+     ],
+     "to_pct": [
+      21.391,
+      7.574
+     ],
+     "dx_px": 65,
+     "dy_px": -132,
+     "ink_before": 0.089,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.492,
+      23.422
+     ],
+     "to_pct": [
+      21.391,
+      23.422
+     ],
+     "dx_px": 314,
+     "dy_px": 0,
+     "ink_before": 0.062,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      19.963,
+      25.916
+     ],
+     "to_pct": [
+      21.391,
+      26.969
+     ],
+     "dx_px": 65,
+     "dy_px": 48,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    }
+   ]
   },
   "s3_5_2.png": {
    "name": "s3_5_2.png",
@@ -4895,9 +5134,9 @@
      "tr": "Closed",
      "box_px_orig": [
       44.0,
-      50.5,
+      51.0,
       26.5,
-      19.0
+      18.0
      ],
      "font_px": 33.5,
      "scale": 1.0,
@@ -4981,7 +5220,17 @@
     300
    ],
    "effective_dpi": 784.1,
-   "meets_300dpi_pixels": true
+   "meets_300dpi_pixels": true,
+   "markers_moved": [
+    {
+     "from_pct": [
+      97.035,
+      8.941
+     ],
+     "stuck": true,
+     "ink": 1.0
+    }
+   ]
   },
   "s3_6_1.png": {
    "name": "s3_6_1.png",
@@ -5016,11 +5265,11 @@
      "tr": "Confirm project closure (ACTIVE → CLOSED)",
      "box_px_orig": [
       70.0,
-      39.0,
+      39.5,
       248.0,
-      14.0
+      13.0
      ],
-     "font_px": 27.4,
+     "font_px": 27.2,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -5034,19 +5283,19 @@
      "ko": "종료 시 프로젝트 단위 HARD_LOCK이 자동 적용되어 데이터 편집이 차단 됩니다 (읽기·추출만 가능). 하위 모든 Site도 자동 종료됩니다.",
      "tr": "On closure, a project-level HARD_LOCK is applied automatically and data editing is blocked (reading and export only). All subordinate Sites are closed automatically too.",
      "box_px_orig": [
-      102.5,
-      96.5,
-      365.0,
-      18.5
+      103.0,
+      113.0,
+      294.5,
+      2.0
      ],
-     "font_px": 19.3,
-     "scale": 0.717,
+     "font_px": 10.3,
+     "scale": 0.438,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_6_1_191",
@@ -5054,14 +5303,14 @@
      "tr": "An electronic signature (21 CFR Part 11) is required. After you agree, sign with your electronic signature password to run the closure.",
      "box_px_orig": [
       103.5,
-      158.0,
-      366.0,
-      18.0
+      174.0,
+      209.0,
+      2.0
      ],
-     "font_px": 24.7,
-     "scale": 0.72,
+     "font_px": 12.4,
+     "scale": 0.62,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
@@ -5073,12 +5322,12 @@
      "tr": "I agree to project-level HARD_LOCK and blocking of data editing.",
      "box_px_orig": [
       91.5,
-      210.5,
+      211.0,
       339.0,
-      12.0
+      11.5
      ],
-     "font_px": 23.4,
-     "scale": 0.9,
+     "font_px": 24.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -5111,12 +5360,12 @@
      "tr": "Run closure",
      "box_px_orig": [
       429.0,
-      263.5,
+      264.0,
       46.5,
-      12.0
+      11.5
      ],
-     "font_px": 22.5,
-     "scale": 0.856,
+     "font_px": 22.7,
+     "scale": 0.901,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -5131,19 +5380,19 @@
      "ko": "종료 시 프로젝트 단위 HARD_LOCK이 자동 적용되어 데이터 편집이 차단 됩니다 (읽기·추출만 가능). 하위 모든 Site도 자동 종료됩니다.",
      "tr": "On closure, a project-level HARD_LOCK is applied automatically and data editing is blocked (reading and export only). All subordinate Sites are closed automatically too.",
      "box_px_orig": [
-      102.5,
-      96.5,
-      365.0,
-      18.5
+      103.0,
+      113.0,
+      294.5,
+      2.0
      ],
-     "font_px": 19.3,
-     "scale": 0.717,
+     "font_px": 10.3,
+     "scale": 0.438,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_6_1_191",
@@ -5151,14 +5400,14 @@
      "tr": "An electronic signature (21 CFR Part 11) is required. After you agree, sign with your electronic signature password to run the closure.",
      "box_px_orig": [
       103.5,
-      158.0,
-      366.0,
-      18.0
+      174.0,
+      209.0,
+      2.0
      ],
-     "font_px": 24.7,
-     "scale": 0.72,
+     "font_px": 12.4,
+     "scale": 0.62,
      "weight": 400,
-     "paragraph_lines": 2,
+     "paragraph_lines": 1,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
@@ -5178,7 +5427,65 @@
     900
    ],
    "effective_dpi": 242.2,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      92.066,
+      46.594
+     ],
+     "to_pct": [
+      92.073,
+      48.336
+     ],
+     "dx_px": 0,
+     "dy_px": 20,
+     "ink_before": 0.039,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      58.062,
+      7.962
+     ],
+     "to_pct": [
+      64.16,
+      7.962
+     ],
+     "dx_px": 70,
+     "dy_px": 0,
+     "ink_before": 0.244,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      90.054,
+      13.596
+     ],
+     "to_pct": [
+      92.073,
+      4.014
+     ],
+     "dx_px": 23,
+     "dy_px": -110,
+     "ink_before": 0.073,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      90.054,
+      23.455
+     ],
+     "to_pct": [
+      92.073,
+      23.455
+     ],
+     "dx_px": 23,
+     "dy_px": 0,
+     "ink_before": 0.038,
+     "ink_after": 0.0
+    }
+   ]
   },
   "s3_7_1.png": {
    "name": "s3_7_1.png",
@@ -5213,11 +5520,11 @@
      "tr": "Perform electronic signature",
      "box_px_orig": [
       80.5,
-      31.0,
+      31.5,
       90.5,
-      16.0
+      15.0
      ],
-     "font_px": 34.1,
+     "font_px": 32.3,
      "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
@@ -5236,14 +5543,14 @@
       212.5,
       10.0
      ],
-     "font_px": 17.4,
-     "scale": 0.821,
+     "font_px": 21.2,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_7_1_198",
@@ -5255,14 +5562,14 @@
       38.5,
       9.5
      ],
-     "font_px": 10.4,
-     "scale": 0.502,
+     "font_px": 20.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s3_7_1_199",
@@ -5274,15 +5581,14 @@
       57.0,
       10.0
      ],
-     "font_px": 17.1,
-     "scale": 0.781,
+     "font_px": 18.8,
+     "scale": 0.858,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 1
+     "flag": ""
     },
     {
      "id": "s3_7_1_200",
@@ -5290,11 +5596,11 @@
      "tr": "Sample project 005",
      "box_px_orig": [
       69.5,
-      156.0,
+      156.5,
       111.0,
-      13.5
+      13.0
      ],
-     "font_px": 29.5,
+     "font_px": 28.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -5328,9 +5634,9 @@
      "tr": "Signature meaning (meaningCode)",
      "box_px_orig": [
       56.5,
-      298.0,
+      298.5,
       157.0,
-      14.5
+      13.5
      ],
      "font_px": 28.4,
      "scale": 1.0,
@@ -5347,18 +5653,18 @@
      "tr": "Approver confirmation (APPROVAL) (policy fixed)",
      "box_px_orig": [
       69.5,
-      329.0,
+      329.5,
       202.0,
-      14.0
+      13.0
      ],
-     "font_px": 18.2,
-     "scale": 0.682,
+     "font_px": 25.7,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_7_1_204",
@@ -5408,14 +5714,14 @@
       204.5,
       9.0
      ],
-     "font_px": 12.5,
-     "scale": 0.622,
+     "font_px": 20.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_7_1_207",
@@ -5423,11 +5729,11 @@
      "tr": "I understand the meaning and responsibility of this signature.",
      "box_px_orig": [
       90.0,
-      480.5,
+      481.0,
       165.5,
-      12.0
+      11.5
      ],
-     "font_px": 26.2,
+     "font_px": 25.1,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -5442,18 +5748,18 @@
      "tr": "This signature has legal effect and is recorded append-only with IP, UA and signature meaning under 21 CFR Part 11 §11.10(e).",
      "box_px_orig": [
       90.5,
-      498.5,
+      499.0,
       414.0,
-      10.5
+      9.0
      ],
-     "font_px": 16.4,
-     "scale": 0.82,
+     "font_px": 19,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_7_1_210",
@@ -5465,8 +5771,8 @@
       25.5,
       13.5
      ],
-     "font_px": 26.6,
-     "scale": 0.9,
+     "font_px": 29.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -5494,123 +5800,7 @@
      "flag": ""
     }
    ],
-   "flags": [
-    {
-     "id": "s3_7_1_197",
-     "ko": "서명 목적: 프로젝트 종결 (PROJECT_CLOSE)",
-     "tr": "Signature purpose: Project closure (PROJECT_CLOSE)",
-     "box_px_orig": [
-      56.5,
-      57.0,
-      212.5,
-      10.0
-     ],
-     "font_px": 17.4,
-     "scale": 0.821,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_7_1_198",
-     "ko": "서명 대상",
-     "tr": "Signature target",
-     "box_px_orig": [
-      69.5,
-      113.5,
-      38.5,
-      9.5
-     ],
-     "font_px": 10.4,
-     "scale": 0.502,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_7_1_199",
-     "ko": "프로젝트 종결",
-     "tr": "Project closure",
-     "box_px_orig": [
-      78.0,
-      134.5,
-      57.0,
-      10.0
-     ],
-     "font_px": 17.1,
-     "scale": 0.781,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 1
-    },
-    {
-     "id": "s3_7_1_203",
-     "ko": "승인자 확인 (APPROVAL) (정책 고정)",
-     "tr": "Approver confirmation (APPROVAL) (policy fixed)",
-     "box_px_orig": [
-      69.5,
-      329.0,
-      202.0,
-      14.0
-     ],
-     "font_px": 18.2,
-     "scale": 0.682,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_7_1_206",
-     "ko": "전자서명 비밀번호는 로그인 비밀번호와 다릅니다.",
-     "tr": "The electronic signature password is different from your login password.",
-     "box_px_orig": [
-      56.5,
-      438.0,
-      204.5,
-      9.0
-     ],
-     "font_px": 12.5,
-     "scale": 0.622,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_7_1_208",
-     "ko": "본 서명은 법적 효력은 가지며, 21 CFR Part 11 §11.10(e)에 따라 IP·UA·서명 의미와 함께 append-only 로 기록됩니다.",
-     "tr": "This signature has legal effect and is recorded append-only with IP, UA and signature meaning under 21 CFR Part 11 §11.10(e).",
-     "box_px_orig": [
-      90.5,
-      498.5,
-      414.0,
-      10.5
-     ],
-     "font_px": 16.4,
-     "scale": 0.82,
-     "weight": 400,
-     "paragraph_lines": 2,
-     "lines_in_segment": 2,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    }
-   ],
+   "flags": [],
    "placed_css_px": [
     303.0,
     318.6
@@ -5624,7 +5814,95 @@
     1200
    ],
    "effective_dpi": 377.6,
-   "meets_300dpi_pixels": false
+   "meets_300dpi_pixels": false,
+   "markers_moved": [
+    {
+     "from_pct": [
+      94.13,
+      68.601
+     ],
+     "stuck": true,
+     "ink": 0.127
+    },
+    {
+     "from_pct": [
+      50.021,
+      80.988
+     ],
+     "to_pct": [
+      50.021,
+      96.089
+     ],
+     "dx_px": 0,
+     "dy_px": 180,
+     "ink_before": 0.156,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      94.13,
+      97.453
+     ],
+     "stuck": true,
+     "ink": 0.127
+    },
+    {
+     "from_pct": [
+      51.23,
+      10.142
+     ],
+     "to_pct": [
+      55.425,
+      10.142
+     ],
+     "dx_px": 50,
+     "dy_px": 0,
+     "ink_before": 0.075,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      24.19,
+      19.205
+     ],
+     "to_pct": [
+      27.378,
+      19.205
+     ],
+     "dx_px": 38,
+     "dy_px": 0,
+     "ink_before": 0.058,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      67.242,
+      42.921
+     ],
+     "to_pct": [
+      67.242,
+      43.928
+     ],
+     "dx_px": 0,
+     "dy_px": 12,
+     "ink_before": 0.026,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      61.502,
+      73.888
+     ],
+     "to_pct": [
+      61.502,
+      63.653
+     ],
+     "dx_px": 0,
+     "dy_px": -122,
+     "ink_before": 0.085,
+     "ink_after": 0.02
+    }
+   ]
   }
  }
 }

@@ -825,7 +825,8 @@
 "role": "tab",
 "truncated": false,
 "icon_lead": false,
-"note": "오른쪽 x는 닫기 아이콘이라 뺌"
+"note": "오른쪽 x는 닫기 아이콘이라 뺌 끝에 아이콘(2026-11-03)",
+"icon_trail": true
 },
 {
 "id": "s2_2_1_069",
@@ -1630,5 +1631,137 @@
 "truncated": false,
 "icon_lead": false,
 "note": "2차(한글 잔존 검사)에서 추가"
+},
+{
+"id": "s2_4b_1_136",
+"ko": "새 비밀번호 설정",
+"skip": false,
+"join_next": null,
+"bold": true,
+"align": "center",
+"role": "title",
+"truncated": false,
+"icon_lead": false,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_137",
+"ko": "대상 계정: b***@dhsoft.co.kr",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "text",
+"truncated": false,
+"icon_lead": false,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_138",
+"ko": "새로 사용하실 비밀번호를 설정해 주세요.",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "text",
+"truncated": false,
+"icon_lead": false,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_139",
+"ko": "신규 비밀번호",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "label",
+"truncated": false,
+"icon_lead": false,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_140",
+"ko": "8자 이상",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "status",
+"truncated": false,
+"icon_lead": true,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_141",
+"ko": "영문 포함",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "status",
+"truncated": false,
+"icon_lead": true,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_142",
+"ko": "숫자 포함",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "status",
+"truncated": false,
+"icon_lead": true,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_144",
+"ko": "영문·숫자·특수문자만 사용 (한글·공백 불가)",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "status",
+"truncated": false,
+"icon_lead": true,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_145",
+"ko": "비밀번호 확인",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "label",
+"truncated": false,
+"icon_lead": false,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_146",
+"ko": "재설정 완료",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "center",
+"role": "button",
+"truncated": false,
+"icon_lead": false,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
+},
+{
+"id": "s2_4b_1_143",
+"ko": "특수문자 포함",
+"skip": false,
+"join_next": null,
+"bold": false,
+"align": "left",
+"role": "status",
+"truncated": false,
+"icon_lead": true,
+"note": "2026-10-30 s2_4b_1 추가. 같은 화면(s2_4_1)의 검수 결과를 같은 글에 옮김"
 }
 ]

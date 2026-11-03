@@ -10,6 +10,9 @@ import json, re, os, argparse, glob
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from widen_buttons import dist, find_container, font_path, TOL_IN
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'template'))
+from img_common import modal_bbox
 
 WHITE = np.array([255, 255, 255], np.uint8)
 
@@ -30,6 +33,8 @@ def process(manuals, vol, lang, dry, sheet_dir, log):
         tr0 = np.asarray(Image.open(tp).convert('RGB'))
         if ko.shape != tr0.shape:
             continue   # 이미 넓힌 이미지
+        if modal_bbox(ko.astype(int)):
+            continue   # 모달 화면에는 흰 여백을 붙이지 않는다. 잘린 것은 모달이 아니라 뒤 배경이다 (2026-11-03)
         H, W = ko.shape[:2]
         sc = info.get('scale_from_orig', 2.0)
         diff = np.abs(ko.astype(int) - tr0.astype(int)).sum(-1) > 30
@@ -67,6 +72,7 @@ def process(manuals, vol, lang, dry, sheet_dir, log):
             dd = dist(sub, c['bg'])
             ink = sub[np.unravel_index(dd.argmax(), dd.shape)]
             bgc = np.round(c['bg']).astype(np.uint8)
+            erased = tr[ey0:ey1, ex0:ex1].copy()   # 넓히지 않기로 하면 되돌린다 (2026-11-03 빈 버튼 41곳: 지운 뒤 건너뛰어 글자가 사라졌다)
             tr[ey0:ey1, ex0:ex1] = bgc
             # 아이콘 오른쪽 끝 = 글자 띠에서 왼쪽으로 처음 만나는 배경 아닌 열
             band = tr[max(c['y0'], ey0 - 2):min(c['y1'], ey1 + 2) + 1]
@@ -95,10 +101,20 @@ def process(manuals, vol, lang, dry, sheet_dir, log):
                     old_right += 1
                 old_right += 1
             right_edge = max(old_right, int(text_x + tw + pad_right + radius))
+            if not cut:
+                # 이미지 끝에서 잘리지 않은 버튼은 오른쪽에 있는 다른 요소(카드 테두리·선)를 넘어 넓히지 않는다
+                # (2026-10-30 로그인 3.1 「만료 29일」 칩이 카드 테두리를 넘어간 문제). 넘게 되면 넓히지 않고 둔다
+                band_rows = tr[c['y0']:c['y1'] + 1, old_right:]
+                obs = np.where((np.abs(band_rows.astype(int) - WHITE).sum(-1) > 30).any(0))[0]
+                if len(obs) and old_right + obs[0] - max(int(0.9 * hh), 10) < right_edge:
+                    tr[ey0:ey1, ex0:ex1] = erased
+                    continue
             margin = max(int(1.2 * hh), 24)
             new_right = max(new_right, right_edge + margin)
             jobs.append(dict(s=s, c=c, ex0=ex0, le=le, radius=radius, right_edge=right_edge, text_x=text_x, f=f, bb=bb, ink=ink,
                              cy=(ey0 + ey1) / 2, bgc=bgc))
+        if not jobs:
+            continue
         W2 = new_right
         out = np.empty((H, W2, 3), np.uint8); out[:] = WHITE
         out[:, :W] = tr

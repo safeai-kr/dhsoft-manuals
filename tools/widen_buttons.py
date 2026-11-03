@@ -8,6 +8,8 @@
 import json, re, sys, os, argparse
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'template'))
+from img_common import modal_bbox
 
 TOL_FILL = 12    # 버튼 안쪽을 찾을 때 같은 색으로 볼 차이(RGB 합). 흰 칩과 연회색 묶음을 구분할 만큼 좁게
 TOL_IN = 26      # 글자 칸이 비었는지 볼 때의 차이
@@ -59,11 +61,17 @@ def find_container(ko, box, h):
     win = ko[Y0:Y1, X0:X1]
     # 글자 상자 바로 바깥 고리의 대표색 = 버튼 안 배경
     r = 4
-    ring = np.concatenate([ko[max(0, y - r):y - 1, x:x + w].reshape(-1, 3), ko[y + hh + 1:y + hh + r, x:x + w].reshape(-1, 3),
-                           ko[y:y + hh, max(0, x - r):x - 1].reshape(-1, 3), ko[y:y + hh, x + w + 1:x + w + r].reshape(-1, 3)])
-    if len(ring) == 0:
+    sides = [ko[max(0, y - r):y - 1, x:x + w].reshape(-1, 3), ko[y + hh + 1:y + hh + r, x:x + w].reshape(-1, 3),
+             ko[y:y + hh, max(0, x - r):x - 1].reshape(-1, 3), ko[y:y + hh, x + w + 1:x + w + r].reshape(-1, 3)]
+    sides = [v for v in sides if len(v)]
+    if not sides:
         return None
-    bg = np.median(ring, 0)
+    # 글자 상자가 버튼 위아래 테두리에 거의 닿으면 위·아래 고리에 바깥 흰색이 섞인다. 네 방향 고리의 대표색 가운데
+    # 다른 고리와 가장 많이 일치하는 색을 버튼 안 배경으로 본다 (2026-10-30 워크스페이스 「신규 워크스페이스 생성」 검은 버튼이 회색으로 바뀐 문제)
+    meds = [np.median(v, 0) for v in sides]
+    agree = [sum(1 for o in meds if dist(np.array([m]), o)[0] < TOL_FILL) for m in meds]
+    best = max(agree)
+    bg = [m for m, a in zip(meds, agree) if a == best][-1]   # 동률이면 좌우 띠(뒤쪽 후보)를 우선: 글자가 칸을 거의 채운 버튼은 위·아래 띠가 바깥색이다
     allowed = dist(win, bg) < TOL_FILL
     allowed[y - Y0 - 2:y - Y0 + hh + 2, x - X0 - 2:x - X0 + w + 2] = True     # 원래 글자 자리(번짐 2px 포함)는 배경으로
     seed = np.zeros_like(allowed); seed[y - Y0 + hh // 2, x - X0 + w // 2] = True
@@ -160,6 +168,7 @@ def process(manuals, vol, lang, dry, sheet_dir, log):
         sc = info.get('scale_from_orig', 2.0)
         H, W = ko.shape[:2]
         obst = markers(html, name, W)
+        mb = modal_bbox(ko.astype(int))   # 모달 화면이면 버튼은 모달 안에서만 넓힌다 (2026-11-03 방문정의 1.2 ja)
         diff = np.abs(ko.astype(int) - tr0.astype(int)).sum(-1) > 30
         tasks = []
         for s in segs:
@@ -272,12 +281,48 @@ def process(manuals, vol, lang, dry, sheet_dir, log):
                 if re_ is not None:
                     rows_r = band_rows(tr, min(re_ - 4, c['x1'] - 2), c['y0'], c['y1'], outer_r)
                     fr = free_run(tr, rows_r, re_, 1, outer_r, int(extra) + gap + 2, obst, gap)
-                if s.get('align') == 'center' and fl and fr:
-                    dl = min(fl, (extra + 1) // 2); dr = min(fr, extra - dl)
-                    dl = min(fl, extra - dr)
+                if s.get('align') == 'center':
+                    # 가운데 정렬 버튼은 양쪽을 똑같이 넓힌다. 한쪽만 넓히면 버튼이 위 아이콘·안내문의 중심에서 벗어난다
+                    # (2026-10-30 워크스페이스 3.4 「Erneut versuchen」이 왼쪽으로만 115px 늘어난 문제). 한쪽이 막혀 있으면 넓히지 않고 글자를 줄인다
+                    dl = dr = min(fl, fr, (extra + 1) // 2)
                 else:
                     dr = min(fr, extra); dl = min(fl, extra - dr)
                 dl, dr = int(dl), int(dr)
+                # 넓히기 전 세 가지 확인 (hy0909 결정 2026-11-03, 방문정의 1.2 ja 「キャンセル」 회색이 모달 밖으로 나가고 옆 버튼을 침범한 문제):
+                #  ① 모달 화면이면 모달 안에서만, 버튼 바깥 바탕이 모달 바탕과 다르면(흐린 회색) 넓히지 않는다
+                #  ② 새로 덮을 열은 버튼 위아래 글자 높이 0.5배 여유 행까지 모두 바깥 바탕색이어야 한다(옆 버튼·글자·선 침범 금지)
+                #  ③ 새로 덮을 자리에 한국어판 글자(잉크 2% 초과)가 있으면 넓히지 않는다
+                skipped = []
+                if dl or dr:
+                    Lx0, Rx0 = (le if le is not None else c['x0']), (re_ if re_ is not None else c['x1'])
+                    vm = max(int(0.5 * t['hh']), 4)
+                    ry0, ry1 = max(0, c['y0'] - vm), min(H, c['y1'] + vm + 1)
+                    def side_ok(xa, xb, outer):
+                        if xa < 2 or xb > W - 2: return '이미지 끝'
+                        if mb and not (mb[0] + 2 <= xa and xb <= mb[2] - 2): return '모달 밖'
+                        if mb and outer is not None and dist(np.array([[outer]]), np.array(c['bg']))[0, 0] >= TOL_OUT * 2 and (np.abs(np.array(outer, float) - 255).max() > 30): return '모달 바탕 아님'
+                        reg = tr[ry0:ry1, xa:xb]
+                        if outer is None or (dist(reg, outer) >= TOL_OUT).any(): return '위아래 요소 침범'
+                        kreg = ko[ry0:ry1, xa:xb].astype(int)
+                        kbg = np.median(kreg.reshape(-1, 3), 0)
+                        if (np.abs(kreg - kbg).max(-1) > 40).mean() > 0.02: return '한국어판 글자 덮음'
+                        return ''
+                    if dl:
+                        why = side_ok(Lx0 - dl, Lx0, outer_l)
+                        if why: skipped.append('왼쪽: ' + why); dl = 0
+                    if dr:
+                        why = side_ok(Rx0 + 1, Rx0 + 1 + dr, outer_r)
+                        if why: skipped.append('오른쪽: ' + why); dr = 0
+                    if s.get('align') == 'center' and (dl == 0 or dr == 0): dl = dr = 0   # 가운데 정렬 버튼은 양쪽이 같이 가야 한다
+                    if skipped:
+                        s['widen_skipped'] = skipped
+                        # 넓히지 못하면 칸에 맞게 줄인다
+                        lo, hi = s['font_px'], full
+                        for _ in range(14):
+                            mid = (lo + hi) / 2
+                            if text_w(mid)[0] <= avail + dl + dr: lo = mid
+                            else: hi = mid
+                        size = lo
                 avail += dl + dr
                 # 그래도 모자라면 칸에 맞게 줄인다
                 lo, hi = s['font_px'], full
