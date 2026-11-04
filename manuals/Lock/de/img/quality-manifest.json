@@ -24,7 +24,7 @@
     560
    ],
    "output_px": [
-    5165,
+    5058,
     1120
    ],
    "scale": 2,
@@ -373,8 +373,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "status",
-     "flag": "[확인 필요] 45%로도 넘침",
-     "button_widened_px": 14
+     "flag": "[확인 필요] 45%로도 넘침"
     },
     {
      "id": "s1_1_1_018",
@@ -557,15 +556,14 @@
       22.5,
       12.5
      ],
-     "font_px": 24.7,
-     "scale": 0.9,
+     "font_px": 12.7,
+     "scale": 0.462,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_028",
@@ -890,8 +888,26 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "status",
-     "flag": "[확인 필요] 45%로도 넘침",
-     "button_widened_px": 14
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s1_1_1_027",
+     "ko": "이력",
+     "tr": "Historie",
+     "box_px_orig": [
+      2492.5,
+      34.0,
+      22.5,
+      12.5
+     ],
+     "font_px": 12.7,
+     "scale": 0.462,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_028",
@@ -946,124 +962,123 @@
    ],
    "effective_dpi": 867.1,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 107,
    "markers_moved": [
     {
      "from_pct": [
-      91.027,
-      1.461
+      92.953,
+      1.492
      ],
      "to_pct": [
-      91.152,
-      2.003
+      93.12,
+      2.006
      ],
-     "dx_px": 6,
-     "dy_px": 28,
+     "dx_px": 8,
+     "dy_px": 26,
      "ink_before": 1.0,
      "ink_after": 0.009
     },
     {
      "from_pct": [
-      96.349,
-      3.12
+      98.387,
+      3.186
      ],
      "to_pct": [
-      91.152,
-      3.12
+      93.12,
+      3.186
      ],
-     "dx_px": -268,
+     "dx_px": -266,
      "dy_px": 0,
-     "ink_before": 0.043,
+     "ink_before": 1.0,
      "ink_after": 0.011
     },
     {
      "from_pct": [
-      91.995,
-      5.331
+      93.941,
+      5.444
      ],
      "to_pct": [
-      91.152,
-      5.331
+      93.12,
+      5.444
      ],
-     "dx_px": -44,
+     "dx_px": -42,
      "dy_px": 0,
-     "ink_before": 0.032,
+     "ink_before": 0.033,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      23.438,
-      3.12
+      23.934,
+      3.186
      ],
      "to_pct": [
-      23.446,
-      5.211
+      23.934,
+      5.321
      ],
      "dx_px": 0,
      "dy_px": 108,
-     "ink_before": 0.049,
-     "ink_after": 0.02
+     "ink_before": 0.051,
+     "ink_after": 0.018
     },
     {
      "from_pct": [
-      14.661,
-      5.745
+      14.971,
+      5.867
      ],
      "to_pct": [
-      23.446,
-      5.745
+      19.909,
+      5.867
      ],
-     "dx_px": 454,
+     "dx_px": 250,
      "dy_px": 0,
-     "ink_before": 0.016,
-     "ink_after": 0.012
+     "ink_before": 0.014,
+     "ink_after": 0.011
     },
     {
      "from_pct": [
-      19.499,
-      9.893
+      19.911,
+      10.102
      ],
      "to_pct": [
-      23.446,
-      6.989
+      19.909,
+      7.136
      ],
-     "dx_px": 204,
+     "dx_px": 0,
      "dy_px": -150,
      "ink_before": 0.025,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      15.628,
-      12.242
+      15.959,
+      12.501
      ],
      "to_pct": [
-      23.446,
-      15.378
+      19.909,
+      15.743
      ],
-     "dx_px": 404,
-     "dy_px": 162,
+     "dx_px": 200,
+     "dy_px": 164,
      "ink_before": 0.038,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      57.716,
-      19.291
+      58.937,
+      19.699
      ],
      "to_pct": [
-      57.716,
-      16.619
+      58.937,
+      17.01
      ],
      "dx_px": 0,
-     "dy_px": -138,
+     "dy_px": -136,
      "ink_before": 0.045,
-     "ink_after": 0.019
+     "ink_after": 0.02
     },
     {
      "from_pct": [
-      4.847,
-      19.982
+      4.95,
+      20.405
      ],
      "stuck": true,
      "ink": 1.0
@@ -1133,8 +1148,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "status",
-     "flag": "[확인 필요] 45%로도 넘침",
-     "button_widened_px": 14
+     "flag": "[확인 필요] 45%로도 넘침"
     },
     {
      "id": "s1_2_1_039",
@@ -1212,8 +1226,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "status",
-     "flag": "[확인 필요] 45%로도 넘침",
-     "button_widened_px": 14
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "placed_css_px": [
@@ -1449,15 +1462,14 @@
       43.5,
       8.0
      ],
-     "font_px": 16.5,
-     "scale": 0.9,
+     "font_px": 14.3,
+     "scale": 0.781,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 20
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_3_1_046",
@@ -1488,15 +1500,14 @@
       43.5,
       8.0
      ],
-     "font_px": 16.5,
-     "scale": 0.9,
+     "font_px": 14.3,
+     "scale": 0.781,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 18
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_3_1_048",
@@ -1508,15 +1519,14 @@
       43.5,
       8.0
      ],
-     "font_px": 16.5,
-     "scale": 0.9,
+     "font_px": 14.3,
+     "scale": 0.781,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 18
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_3_1_049",
@@ -1652,7 +1662,65 @@
      "flag": ""
     }
    ],
-   "flags": [],
+   "flags": [
+    {
+     "id": "s1_3_1_045",
+     "ko": "HARD 가능",
+     "tr": "HARD möglich",
+     "box_px_orig": [
+      510.0,
+      119.0,
+      43.5,
+      8.0
+     ],
+     "font_px": 14.3,
+     "scale": 0.781,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_3_1_047",
+     "ko": "HARD 가능",
+     "tr": "HARD möglich",
+     "box_px_orig": [
+      510.0,
+      327.0,
+      43.5,
+      8.0
+     ],
+     "font_px": 14.3,
+     "scale": 0.781,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_3_1_048",
+     "ko": "HARD 가능",
+     "tr": "HARD möglich",
+     "box_px_orig": [
+      510.0,
+      383.0,
+      43.5,
+      8.0
+     ],
+     "font_px": 14.3,
+     "scale": 0.781,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     560,
     150.9
@@ -4370,7 +4438,7 @@
     203
    ],
    "output_px": [
-    2584,
+    2560,
     406
    ],
    "scale": 2,
@@ -4617,15 +4685,14 @@
       19.5,
       10.0
      ],
-     "font_px": 20.8,
-     "scale": 0.9,
+     "font_px": 23.1,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "",
-     "button_completed": true
+     "flag": ""
     }
    ],
    "flags": [
@@ -4682,16 +4749,15 @@
    ],
    "effective_dpi": 438.9,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 24,
    "markers_moved": [
     {
      "from_pct": [
-      72.024,
-      13.014
+      72.699,
+      13.136
      ],
      "to_pct": [
-      72.024,
-      5.971
+      72.699,
+      6.027
      ],
      "dx_px": 0,
      "dy_px": -182,
@@ -4700,12 +4766,12 @@
     },
     {
      "from_pct": [
-      53.985,
-      7.98
+      54.491,
+      8.055
      ],
      "to_pct": [
-      53.985,
-      5.968
+      54.491,
+      6.024
      ],
      "dx_px": 0,
      "dy_px": -52,
@@ -5059,15 +5125,14 @@
       16.0,
       8.5
      ],
-     "font_px": 16.7,
-     "scale": 0.9,
+     "font_px": 8.2,
+     "scale": 0.441,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 54
+     "flag": "[확인 필요] 45%로도 넘침"
     },
     {
      "id": "s4_1_3_162",
@@ -5079,15 +5144,14 @@
       29.0,
       9.0
      ],
-     "font_px": 19.6,
-     "scale": 0.9,
+     "font_px": 13.1,
+     "scale": 0.601,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 50
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s4_1_3_163",
@@ -5148,6 +5212,44 @@
     }
    ],
    "flags": [
+    {
+     "id": "s4_1_3_161",
+     "ko": "적용",
+     "tr": "Anwenden",
+     "box_px_orig": [
+      874.0,
+      69.5,
+      16.0,
+      8.5
+     ],
+     "font_px": 8.2,
+     "scale": 0.441,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s4_1_3_162",
+     "ko": "적용",
+     "tr": "Anwenden",
+     "box_px_orig": [
+      861.0,
+      105.0,
+      29.0,
+      9.0
+     ],
+     "font_px": 13.1,
+     "scale": 0.601,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
     {
      "id": "s4_1_3_163",
      "ko": "잠금 기준시점",

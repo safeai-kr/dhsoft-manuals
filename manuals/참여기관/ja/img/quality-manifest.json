@@ -24,7 +24,7 @@
     510
    ],
    "output_px": [
-    3321,
+    3216,
     1020
    ],
    "scale": 2,
@@ -822,15 +822,14 @@
       12.5,
       13.5
      ],
-     "font_px": 26.4,
-     "scale": 0.9,
+     "font_px": 12.9,
+     "scale": 0.44,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "text",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "flags": [
@@ -909,6 +908,25 @@
      "align": "center",
      "role": "badge",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "황",
+     "tr": "ファン",
+     "box_px_orig": [
+      1578.0,
+      11.0,
+      12.5,
+      13.5
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "placed_css_px": [
@@ -925,175 +943,146 @@
    ],
    "effective_dpi": 551.3,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 105,
    "markers_moved": [
     {
      "from_pct": [
-      24.612,
-      18.119
+      25.416,
+      18.711
      ],
      "to_pct": [
-      24.601,
-      14.445
+      25.404,
+      14.98
      ],
      "dx_px": 0,
-     "dy_px": -122,
-     "ink_before": 0.087,
-     "ink_after": 0.018
-    },
-    {
-     "from_pct": [
-      31.856,
-      18.119
-     ],
-     "to_pct": [
-      36.373,
-      18.119
-     ],
-     "dx_px": 150,
-     "dy_px": 0,
-     "ink_before": 0.119,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      55.638,
-      24.612
-     ],
-     "to_pct": [
-      55.638,
-      19.132
-     ],
-     "dx_px": 0,
-     "dy_px": -182,
-     "ink_before": 0.051,
-     "ink_after": 0.017
-    },
-    {
-     "from_pct": [
-      91.995,
-      24.612
-     ],
-     "to_pct": [
-      91.995,
-      24.552
-     ],
-     "dx_px": 0,
-     "dy_px": -2,
-     "ink_before": 0.021,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      84.205,
-      24.612
-     ],
-     "to_pct": [
-      84.205,
-      24.552
-     ],
-     "dx_px": 0,
-     "dy_px": -2,
-     "ink_before": 0.021,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      24.886,
-      7.117
-     ],
-     "to_pct": [
-      29.268,
-      7.117
-     ],
-     "dx_px": 146,
-     "dy_px": 0,
-     "ink_before": 0.045,
-     "ink_after": 0.011
-    },
-    {
-     "from_pct": [
-      46.891,
-      11.218
-     ],
-     "to_pct": [
-      46.891,
-      8.809
-     ],
-     "dx_px": 0,
-     "dy_px": -80,
-     "ink_before": 0.114,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      23.656,
-      14.088
-     ],
-     "to_pct": [
-      24.601,
-      14.389
-     ],
-     "dx_px": 31,
-     "dy_px": 10,
-     "ink_before": 0.034,
-     "ink_after": 0.016
-    },
-    {
-     "from_pct": [
-      27.483,
-      21.742
-     ],
-     "to_pct": [
-      12.849,
-      21.742
-     ],
-     "dx_px": -486,
-     "dy_px": 0,
-     "ink_before": 0.043,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      42.107,
-      21.742
-     ],
-     "to_pct": [
-      42.107,
-      23.308
-     ],
-     "dx_px": 0,
-     "dy_px": 52,
-     "ink_before": 0.043,
+     "dy_px": -120,
+     "ink_before": 0.085,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      63.84,
-      21.742
+      32.896,
+      18.711
      ],
      "to_pct": [
-      63.84,
-      19.152
+      37.374,
+      18.711
+     ],
+     "dx_px": 144,
+     "dy_px": 0,
+     "ink_before": 0.118,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      57.455,
+      25.416
+     ],
+     "to_pct": [
+      58.077,
+      25.416
+     ],
+     "dx_px": 20,
+     "dy_px": 0,
+     "ink_before": 0.049,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      25.698,
+      7.349
+     ],
+     "to_pct": [
+      30.224,
+      7.349
+     ],
+     "dx_px": 146,
+     "dy_px": 0,
+     "ink_before": 0.038,
+     "ink_after": 0.01
+    },
+    {
+     "from_pct": [
+      48.422,
+      11.584
+     ],
+     "to_pct": [
+      48.422,
+      9.096
      ],
      "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.051,
+     "dy_px": -80,
+     "ink_before": 0.117,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      24.428,
+      14.548
+     ],
+     "to_pct": [
+      25.404,
+      14.797
+     ],
+     "dx_px": 31,
+     "dy_px": 8,
+     "ink_before": 0.032,
+     "ink_after": 0.016
+    },
+    {
+     "from_pct": [
+      28.38,
+      22.452
+     ],
+     "to_pct": [
+      13.268,
+      22.452
+     ],
+     "dx_px": -486,
+     "dy_px": 0,
+     "ink_before": 0.043,
      "ink_after": 0.018
     },
     {
      "from_pct": [
-      76.961,
-      21.742
+      43.482,
+      22.452
      ],
      "to_pct": [
-      76.961,
-      19.152
+      43.482,
+      24.007
      ],
      "dx_px": 0,
-     "dy_px": -86,
+     "dy_px": 50,
      "ink_before": 0.043,
-     "ink_after": 0.018
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      65.924,
+      22.452
+     ],
+     "to_pct": [
+      65.924,
+      19.84
+     ],
+     "dx_px": 0,
+     "dy_px": -84,
+     "ink_before": 0.05,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      79.474,
+      22.452
+     ],
+     "to_pct": [
+      79.474,
+      19.84
+     ],
+     "dx_px": 0,
+     "dy_px": -84,
+     "ink_before": 0.043,
+     "ink_after": 0.019
     }
    ]
   },
@@ -1589,7 +1578,7 @@
     569
    ],
    "output_px": [
-    2804,
+    2752,
     1138
    ],
    "scale": 2,
@@ -1779,15 +1768,14 @@
       22.0,
       11.0
      ],
-     "font_px": 22.7,
-     "scale": 0.9,
+     "font_px": 23.2,
+     "scale": 0.921,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": ""
     }
    ],
    "flags": [
@@ -1825,16 +1813,15 @@
    ],
    "effective_dpi": 471.8,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 52,
    "markers_moved": [
     {
      "from_pct": [
-      91.714,
-      14.693
+      93.447,
+      14.971
      ],
      "to_pct": [
-      85.877,
-      18.188
+      87.5,
+      18.532
      ],
      "dx_px": -164,
      "dy_px": 98,
@@ -1843,26 +1830,26 @@
     },
     {
      "from_pct": [
-      20.096,
-      18.157
+      20.476,
+      18.5
      ],
      "to_pct": [
-      20.078,
-      21.652
+      26.962,
+      18.5
      ],
-     "dx_px": 0,
-     "dy_px": 98,
-     "ink_before": 0.09,
-     "ink_after": 0.02
+     "dx_px": 179,
+     "dy_px": 0,
+     "ink_before": 0.088,
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      84.372,
-      10.607
+      85.966,
+      10.807
      ],
      "to_pct": [
-      85.877,
-      10.607
+      87.5,
+      10.807
      ],
      "dx_px": 42,
      "dy_px": 0,
@@ -1871,68 +1858,54 @@
     },
     {
      "from_pct": [
-      96.146,
-      38.104
+      97.963,
+      38.824
      ],
      "to_pct": [
-      85.877,
-      38.104
+      87.5,
+      38.824
      ],
      "dx_px": -288,
      "dy_px": 0,
-     "ink_before": 0.122,
+     "ink_before": 1.0,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      9.291,
-      1.326
+      9.467,
+      1.351
      ],
      "to_pct": [
-      9.308,
-      8.601
+      9.484,
+      8.836
      ],
      "dx_px": 0,
-     "dy_px": 204,
+     "dy_px": 206,
      "ink_before": 1.0,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      17.118,
-      5.966
+      6.432,
+      10.737
      ],
      "to_pct": [
-      20.078,
-      5.966
-     ],
-     "dx_px": 83,
-     "dy_px": 0,
-     "ink_before": 0.021,
-     "ink_after": 0.011
-    },
-    {
-     "from_pct": [
-      6.313,
-      10.538
-     ],
-     "to_pct": [
-      9.308,
-      10.538
+      9.484,
+      10.737
      ],
      "dx_px": 84,
      "dy_px": 0,
-     "ink_before": 0.031,
+     "ink_before": 0.03,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      92.199,
-      19.403
+      93.941,
+      19.77
      ],
      "to_pct": [
-      85.877,
-      19.403
+      87.5,
+      19.77
      ],
      "dx_px": -177,
      "dy_px": 0,
@@ -1941,12 +1914,12 @@
     },
     {
      "from_pct": [
-      88.25,
-      38.104
+      89.918,
+      38.824
      ],
      "to_pct": [
-      85.877,
-      38.104
+      87.5,
+      38.824
      ],
      "dx_px": -67,
      "dy_px": 0,

@@ -24,7 +24,7 @@
     510
    ],
    "output_px": [
-    3331,
+    3216,
     1020
    ],
    "scale": 2,
@@ -822,15 +822,14 @@
       12.5,
       13.5
      ],
-     "font_px": 26.4,
-     "scale": 0.9,
+     "font_px": 12.9,
+     "scale": 0.44,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "text",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "flags": [
@@ -966,6 +965,25 @@
      "align": "left",
      "role": "header",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "황",
+     "tr": "Hwang",
+     "box_px_orig": [
+      1578.0,
+      11.0,
+      12.5,
+      13.5
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "placed_css_px": [
@@ -982,188 +1000,159 @@
    ],
    "effective_dpi": 551.3,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 115,
    "markers_moved": [
     {
      "from_pct": [
-      24.539,
-      18.065
+      25.416,
+      18.711
      ],
      "to_pct": [
-      36.325,
-      18.065
+      37.407,
+      18.711
      ],
-     "dx_px": 393,
+     "dx_px": 386,
      "dy_px": 0,
-     "ink_before": 0.089,
+     "ink_before": 0.09,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      31.76,
-      18.065
+      32.896,
+      18.711
      ],
      "to_pct": [
-      36.325,
-      18.065
+      37.407,
+      18.711
      ],
-     "dx_px": 152,
+     "dx_px": 145,
      "dy_px": 0,
-     "ink_before": 0.1,
+     "ink_before": 0.099,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      55.471,
-      24.539
+      57.455,
+      25.416
      ],
      "to_pct": [
-      55.471,
-      19.075
+      45.18,
+      25.416
      ],
-     "dx_px": 0,
-     "dy_px": -182,
-     "ink_before": 0.094,
-     "ink_after": 0.017
-    },
-    {
-     "from_pct": [
-      91.719,
-      24.539
-     ],
-     "to_pct": [
-      91.719,
-      24.419
-     ],
-     "dx_px": 0,
-     "dy_px": -4,
-     "ink_before": 0.021,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      83.952,
-      24.539
-     ],
-     "to_pct": [
-      83.952,
-      24.419
-     ],
-     "dx_px": 0,
-     "dy_px": -4,
-     "ink_before": 0.021,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      29.172,
-      4.848
-     ],
-     "to_pct": [
-      31.702,
-      4.848
-     ],
-     "dx_px": 84,
+     "dx_px": -395,
      "dy_px": 0,
-     "ink_before": 0.008,
-     "ink_after": 0.008
-    },
-    {
-     "from_pct": [
-      24.811,
-      7.095
-     ],
-     "to_pct": [
-      31.702,
-      7.095
-     ],
-     "dx_px": 230,
-     "dy_px": 0,
-     "ink_before": 0.047,
+     "ink_before": 0.096,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      46.75,
-      11.184
+      30.215,
+      5.021
      ],
      "to_pct": [
-      46.75,
-      8.782
+      32.774,
+      5.021
      ],
-     "dx_px": 0,
+     "dx_px": 82,
+     "dy_px": 0,
+     "ink_before": 0.007,
+     "ink_after": 0.007
+    },
+    {
+     "from_pct": [
+      25.698,
+      7.349
+     ],
+     "to_pct": [
+      32.774,
+      7.349
+     ],
+     "dx_px": 228,
+     "dy_px": 0,
+     "ink_before": 0.04,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      48.422,
+      11.584
+     ],
+     "to_pct": [
+      45.18,
+      9.096
+     ],
+     "dx_px": -104,
      "dy_px": -80,
-     "ink_before": 0.082,
+     "ink_before": 0.085,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      23.585,
-      14.046
+      24.428,
+      14.548
      ],
      "to_pct": [
-      13.318,
-      14.046
+      13.308,
+      14.548
      ],
-     "dx_px": -342,
+     "dx_px": -358,
      "dy_px": 0,
      "ink_before": 0.082,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      28.38,
+      22.452
+     ],
+     "to_pct": [
+      13.308,
+      22.452
+     ],
+     "dx_px": -485,
+     "dy_px": 0,
+     "ink_before": 0.058,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      27.4,
-      21.677
+      43.482,
+      22.452
      ],
      "to_pct": [
-      12.81,
-      21.677
+      45.18,
+      24.38
      ],
-     "dx_px": -486,
-     "dy_px": 0,
-     "ink_before": 0.057,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      41.981,
-      21.677
-     ],
-     "to_pct": [
-      41.981,
-      23.538
-     ],
-     "dx_px": 0,
+     "dx_px": 55,
      "dy_px": 62,
-     "ink_before": 0.053,
-     "ink_after": 0.02
+     "ink_before": 0.052,
+     "ink_after": 0.018
     },
     {
      "from_pct": [
-      63.648,
-      21.677
+      65.924,
+      22.452
      ],
      "to_pct": [
-      63.648,
-      19.095
+      65.924,
+      19.84
      ],
      "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.079,
+     "dy_px": -84,
+     "ink_before": 0.08,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      76.73,
-      21.677
+      79.474,
+      22.452
      ],
      "to_pct": [
-      76.73,
-      19.095
+      79.474,
+      19.84
      ],
      "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.11,
+     "dy_px": -84,
+     "ink_before": 0.114,
      "ink_after": 0.019
     }
    ]
@@ -1471,15 +1460,14 @@
       19.0,
       10.5
      ],
-     "font_px": 20.5,
-     "scale": 0.9,
+     "font_px": 16.4,
+     "scale": 0.719,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 28
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_2_1_057",
@@ -1636,6 +1624,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s1_2_1_056",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      443.0,
+      299.5,
+      19.0,
+      10.5
+     ],
+     "font_px": 16.4,
+     "scale": 0.719,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s1_2_1_058",
      "ko": "등록",
      "tr": "Register",
@@ -1732,7 +1739,7 @@
     569
    ],
    "output_px": [
-    2847,
+    2752,
     1138
    ],
    "scale": 2,
@@ -1922,15 +1929,14 @@
       22.0,
       11.0
      ],
-     "font_px": 22.7,
-     "scale": 0.9,
+     "font_px": 11.6,
+     "scale": 0.46,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "flags": [
@@ -1946,6 +1952,25 @@
      ],
      "font_px": 15.2,
      "scale": 0.582,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_071",
+     "ko": "등록",
+     "tr": "Register",
+     "box_px_orig": [
+      1343.0,
+      494.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 11.6,
+     "scale": 0.46,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -1968,44 +1993,43 @@
    ],
    "effective_dpi": 471.8,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 95,
    "markers_moved": [
     {
      "from_pct": [
-      90.329,
-      14.471
+      93.447,
+      14.971
      ],
      "to_pct": [
-      96.581,
-      14.471
+      87.5,
+      18.532
      ],
-     "dx_px": 178,
-     "dy_px": 0,
-     "ink_before": 0.034,
-     "ink_after": 0.02
+     "dx_px": -164,
+     "dy_px": 98,
+     "ink_before": 0.035,
+     "ink_after": 0.018
     },
     {
      "from_pct": [
-      19.793,
-      17.883
+      20.476,
+      18.5
      ],
      "to_pct": [
-      19.81,
-      21.395
+      20.458,
+      22.061
      ],
      "dx_px": 0,
-     "dy_px": 100,
-     "ink_before": 0.178,
-     "ink_after": 0.016
+     "dy_px": 98,
+     "ink_before": 0.176,
+     "ink_after": 0.017
     },
     {
      "from_pct": [
-      83.097,
-      10.446
+      85.966,
+      10.807
      ],
      "to_pct": [
-      84.58,
-      10.446
+      87.5,
+      10.807
      ],
      "dx_px": 42,
      "dy_px": 0,
@@ -2014,82 +2038,82 @@
     },
     {
      "from_pct": [
-      94.694,
-      37.529
+      97.963,
+      38.824
      ],
      "to_pct": [
-      84.58,
-      37.529
+      87.5,
+      38.824
      ],
      "dx_px": -288,
      "dy_px": 0,
-     "ink_before": 0.125,
+     "ink_before": 1.0,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      9.151,
-      1.306
+      9.467,
+      1.351
      ],
      "to_pct": [
-      9.168,
-      8.471
+      9.484,
+      2.078
      ],
      "dx_px": 0,
-     "dy_px": 204,
+     "dy_px": 20,
      "ink_before": 1.0,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      17.441,
+      6.079
+     ],
+     "to_pct": [
+      20.458,
+      6.079
+     ],
+     "dx_px": 83,
+     "dy_px": 0,
+     "ink_before": 0.02,
+     "ink_after": 0.01
+    },
+    {
+     "from_pct": [
+      6.432,
+      10.737
+     ],
+     "to_pct": [
+      9.484,
+      10.737
+     ],
+     "dx_px": 84,
+     "dy_px": 0,
+     "ink_before": 0.019,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      26.968,
+      19.77
+     ],
+     "to_pct": [
+      28.349,
+      19.77
+     ],
+     "dx_px": 38,
+     "dy_px": 0,
+     "ink_before": 0.051,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      16.859,
-      5.876
+      93.941,
+      19.77
      ],
      "to_pct": [
-      19.81,
-      5.876
-     ],
-     "dx_px": 84,
-     "dy_px": 0,
-     "ink_before": 0.021,
-     "ink_after": 0.011
-    },
-    {
-     "from_pct": [
-      6.217,
-      10.379
-     ],
-     "to_pct": [
-      9.168,
-      10.379
-     ],
-     "dx_px": 84,
-     "dy_px": 0,
-     "ink_before": 0.02,
-     "ink_after": 0.0
-    },
-    {
-     "from_pct": [
-      26.068,
-      19.11
-     ],
-     "to_pct": [
-      27.473,
-      19.11
-     ],
-     "dx_px": 40,
-     "dy_px": 0,
-     "ink_before": 0.05,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      90.806,
-      19.11
-     ],
-     "to_pct": [
-      84.58,
-      19.11
+      87.5,
+      19.77
      ],
      "dx_px": -177,
      "dy_px": 0,
@@ -2098,12 +2122,12 @@
     },
     {
      "from_pct": [
-      86.918,
-      37.529
+      89.918,
+      38.824
      ],
      "to_pct": [
-      84.58,
-      37.529
+      87.5,
+      38.824
      ],
      "dx_px": -67,
      "dy_px": 0,
@@ -3122,7 +3146,7 @@
     421
    ],
    "output_px": [
-    2833,
+    2746,
     842
    ],
    "scale": 2,
@@ -3388,15 +3412,14 @@
       17.5,
       10.0
      ],
-     "font_px": 19.5,
-     "scale": 0.9,
+     "font_px": 17,
+     "scale": 0.783,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 28
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_120",
@@ -3408,15 +3431,14 @@
       17.5,
       10.0
      ],
-     "font_px": 19.5,
-     "scale": 0.9,
+     "font_px": 17.4,
+     "scale": 0.802,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 28
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_121",
@@ -3428,15 +3450,14 @@
       45.0,
       11.0
      ],
-     "font_px": 21.9,
-     "scale": 0.9,
+     "font_px": 16,
+     "scale": 0.658,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_122",
@@ -3536,6 +3557,63 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s3_1_1_119",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      1122.0,
+      328.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 17,
+     "scale": 0.783,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_120",
+     "ko": "활성",
+     "tr": "Active",
+     "box_px_orig": [
+      1122.0,
+      373.5,
+      17.5,
+      10.0
+     ],
+     "font_px": 17.4,
+     "scale": 0.802,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_1_1_121",
+     "ko": "변경 이력",
+     "tr": "Change history",
+     "box_px_orig": [
+      1308.0,
+      75.0,
+      45.0,
+      11.0
+     ],
+     "font_px": 16,
+     "scale": 0.658,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s3_1_1_122",
      "ko": "해제",
      "tr": "Release",
@@ -3607,72 +3685,71 @@
    ],
    "effective_dpi": 470.7,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 87,
    "markers_moved": [
     {
      "from_pct": [
-      85.241,
-      14.921
+      87.942,
+      15.394
      ],
      "to_pct": [
-      85.316,
-      14.921
+      88.092,
+      15.394
      ],
-     "dx_px": 2,
+     "dx_px": 4,
      "dy_px": 0,
-     "ink_before": 0.007,
-     "ink_after": 0.014
+     "ink_before": 0.002,
+     "ink_after": 0.016
     },
     {
      "from_pct": [
-      89.62,
-      23.267
+      92.459,
+      24.004
      ],
      "to_pct": [
-      85.316,
-      23.267
+      88.092,
+      24.004
      ],
-     "dx_px": -122,
+     "dx_px": -120,
      "dy_px": 0,
-     "ink_before": 0.011,
-     "ink_after": 0.011
+     "ink_before": 0.01,
+     "ink_after": 0.01
     },
     {
      "from_pct": [
-      22.72,
-      1.652
+      23.44,
+      1.704
      ],
      "to_pct": [
-      22.732,
-      3.911
+      23.452,
+      3.962
      ],
      "dx_px": 0,
-     "dy_px": 64,
+     "dy_px": 62,
      "ink_before": 1.0,
-     "ink_after": 0.014
+     "ink_after": 0.016
     },
     {
      "from_pct": [
-      87.157,
-      5.619
+      89.918,
+      5.797
      ],
      "to_pct": [
-      85.316,
-      5.619
+      88.092,
+      5.797
      ],
-     "dx_px": -52,
+     "dx_px": -50,
      "dy_px": 0,
      "ink_before": 0.0,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      17.932,
-      14.238
+      18.5,
+      14.689
      ],
      "to_pct": [
-      22.732,
-      14.238
+      23.452,
+      14.689
      ],
      "dx_px": 136,
      "dy_px": 0,
@@ -3681,59 +3758,45 @@
     },
     {
      "from_pct": [
-      48.85,
-      20.463
+      59.431,
+      21.111
      ],
      "to_pct": [
-      48.85,
-      20.534
-     ],
-     "dx_px": 0,
-     "dy_px": 2,
-     "ink_before": 0.021,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      57.606,
-      20.463
-     ],
-     "to_pct": [
-      57.606,
-      17.427
-     ],
-     "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.08,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      82.368,
-      20.463
-     ],
-     "to_pct": [
-      85.316,
-      17.427
+      62.49,
+      21.111
      ],
      "dx_px": 84,
-     "dy_px": -86,
-     "ink_before": 0.04,
-     "ink_after": 0.019
+     "dy_px": 0,
+     "ink_before": 0.082,
+     "ink_after": 0.02
     },
     {
      "from_pct": [
-      19.847,
-      20.463
+      84.978,
+      21.111
      ],
      "to_pct": [
-      22.732,
-      20.534
+      88.092,
+      21.111
+     ],
+     "dx_px": 86,
+     "dy_px": 0,
+     "ink_before": 0.04,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      20.476,
+      21.111
+     ],
+     "to_pct": [
+      23.452,
+      21.111
      ],
      "dx_px": 82,
-     "dy_px": 2,
-     "ink_before": 0.021,
-     "ink_after": 0.019
+     "dy_px": 0,
+     "ink_before": 0.02,
+     "ink_after": 0.02
     }
    ]
   },

@@ -3114,7 +3114,7 @@
     429
    ],
    "output_px": [
-    4669,
+    4596,
     858
    ],
    "scale": 2,
@@ -3323,15 +3323,14 @@
       67.5,
       14.0
      ],
-     "font_px": 27.3,
-     "scale": 0.9,
+     "font_px": 25.5,
+     "scale": 0.842,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s2_2_1_132",
@@ -3429,6 +3428,25 @@
      "align": "left",
      "role": "tab",
      "flag": "[확인 필요] 45%로도 넘침"
+    },
+    {
+     "id": "s2_2_1_131",
+     "ko": "신규 시험군",
+     "tr": "New study arm",
+     "box_px_orig": [
+      2201.5,
+      106.0,
+      67.5,
+      14.0
+     ],
+     "font_px": 25.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -3445,58 +3463,57 @@
    ],
    "effective_dpi": 787.9,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 73,
    "markers_moved": [
     {
      "from_pct": [
-      90.457,
-      4.734
+      91.894,
+      4.809
      ],
      "to_pct": [
-      86.55,
-      4.734
+      87.924,
+      4.809
      ],
      "dx_px": -182,
      "dy_px": 0,
      "ink_before": 0.103,
-     "ink_after": 0.02
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      25.852,
-      2.441
+      26.263,
+      2.48
      ],
      "to_pct": [
-      28.379,
-      2.441
+      28.83,
+      2.48
      ],
      "dx_px": 118,
      "dy_px": 0,
-     "ink_before": 0.075,
-     "ink_after": 0.02
+     "ink_before": 0.076,
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      58.502,
-      10.36
+      59.431,
+      10.525
      ],
      "to_pct": [
-      59.787,
-      10.36
+      60.736,
+      10.525
      ],
      "dx_px": 60,
      "dy_px": 0,
-     "ink_before": 0.035,
+     "ink_before": 0.036,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      41.83,
-      14.459
+      42.494,
+      14.689
      ],
      "to_pct": [
-      44.486,
-      14.459
+      45.192,
+      14.689
      ],
      "dx_px": 124,
      "dy_px": 0,
@@ -3505,17 +3522,17 @@
     },
     {
      "from_pct": [
-      85.872,
-      4.664
+      87.236,
+      4.738
      ],
      "to_pct": [
-      86.55,
-      4.664
+      87.924,
+      4.738
      ],
      "dx_px": 32,
      "dy_px": 0,
      "ink_before": 0.01,
-     "ink_after": 0.02
+     "ink_after": 0.019
     }
    ]
   },

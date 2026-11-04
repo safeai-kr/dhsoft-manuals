@@ -2741,7 +2741,7 @@
     256
    ],
    "output_px": [
-    1504,
+    1370,
     512
    ],
    "scale": 2,
@@ -2969,15 +2969,14 @@
       21.5,
       11.5
      ],
-     "font_px": 23.1,
-     "scale": 0.9,
+     "font_px": 11.3,
+     "scale": 0.44,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 45%로도 넘침"
     },
     {
      "id": "s2_1_1_113",
@@ -3113,6 +3112,25 @@
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_112",
+     "ko": "수정",
+     "tr": "Bearbeiten",
+     "box_px_orig": [
+      656.0,
+      199.0,
+      21.5,
+      11.5
+     ],
+     "font_px": 11.3,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "placed_css_px": [
@@ -3129,108 +3147,99 @@
    ],
    "effective_dpi": 254.3,
    "meets_300dpi_pixels": false,
-   "right_margin_added_px": 134,
    "markers_moved": [
     {
      "from_pct": [
-      15.085,
-      30.724
+      16.561,
+      33.729
      ],
      "to_pct": [
-      23.596,
-      30.724
-     ],
-     "dx_px": 128,
-     "dy_px": 0,
-     "ink_before": 0.067,
-     "ink_after": 0.016
-    },
-    {
-     "from_pct": [
-      41.849,
-      30.724
-     ],
-     "to_pct": [
-      41.849,
-      31.522
+      16.561,
+      34.605
      ],
      "dx_px": 0,
      "dy_px": 12,
-     "ink_before": 0.036,
-     "ink_after": 0.018
-    },
-    {
-     "from_pct": [
-      54.907,
-      30.724
-     ],
-     "to_pct": [
-      60.891,
-      30.724
-     ],
-     "dx_px": 90,
-     "dy_px": 0,
-     "ink_before": 0.144,
+     "ink_before": 0.069,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      76.673,
-      30.724
+      45.942,
+      33.729
      ],
      "to_pct": [
-      76.673,
-      31.389
+      45.942,
+      34.459
      ],
      "dx_px": 0,
      "dy_px": 10,
-     "ink_before": 0.029,
+     "ink_before": 0.037,
      "ink_after": 0.017
     },
     {
      "from_pct": [
-      86.829,
-      30.724
+      60.278,
+      33.729
      ],
      "to_pct": [
-      86.829,
-      31.389
+      66.555,
+      33.729
      ],
-     "dx_px": 0,
-     "dy_px": 10,
-     "ink_before": 0.029,
-     "ink_after": 0.017
-    },
-    {
-     "from_pct": [
-      25.565,
-      2.591
-     ],
-     "stuck": true,
-     "ink": 0.181
-    },
-    {
-     "from_pct": [
-      33.304,
-      5.251
-     ],
-     "to_pct": [
-      33.311,
-      5.384
-     ],
-     "dx_px": 0,
-     "dy_px": 2,
-     "ink_before": 0.022,
+     "dx_px": 86,
+     "dy_px": 0,
+     "ink_before": 0.142,
      "ink_after": 0.015
     },
     {
      "from_pct": [
-      32.659,
-      18.31
+      84.172,
+      33.729
      ],
      "to_pct": [
-      33.311,
-      18.31
+      84.172,
+      34.313
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.029,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      95.322,
+      33.729
+     ],
+     "to_pct": [
+      95.322,
+      34.313
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.029,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      28.066,
+      2.844
+     ],
+     "to_pct": [
+      31.241,
+      5.764
+     ],
+     "dx_px": 43,
+     "dy_px": 40,
+     "ink_before": 0.201,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      35.853,
+      20.101
+     ],
+     "to_pct": [
+      36.569,
+      20.101
      ],
      "dx_px": 10,
      "dy_px": 0,
@@ -3239,17 +3248,17 @@
     },
     {
      "from_pct": [
-      37.496,
-      21.454
+      41.163,
+      23.552
      ],
      "to_pct": [
-      37.496,
-      19.193
+      41.163,
+      21.362
      ],
      "dx_px": 0,
-     "dy_px": -34,
-     "ink_before": 0.107,
-     "ink_after": 0.01
+     "dy_px": -30,
+     "ink_before": 0.126,
+     "ink_after": 0.018
     }
    ]
   },
@@ -3545,7 +3554,7 @@
     442
    ],
    "output_px": [
-    2458,
+    2362,
     884
    ],
    "scale": 2,
@@ -3678,15 +3687,14 @@
       41.0,
       14.5
      ],
-     "font_px": 31.6,
-     "scale": 0.9,
+     "font_px": 21,
+     "scale": 0.598,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_1_1_130",
@@ -4128,6 +4136,25 @@
      "flag": "[확인 필요] 45%로도 넘침"
     },
     {
+     "id": "s3_1_1_129",
+     "ko": "수정",
+     "tr": "Bearbeiten",
+     "box_px_orig": [
+      1112.5,
+      37.5,
+      41.0,
+      14.5
+     ],
+     "font_px": 21,
+     "scale": 0.598,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
      "id": "s3_1_1_130",
      "ko": "공통",
      "tr": "Gemeinsam",
@@ -4294,105 +4321,104 @@
    ],
    "effective_dpi": 404.9,
    "meets_300dpi_pixels": false,
-   "right_margin_added_px": 96,
    "markers_moved": [
     {
      "from_pct": [
-      91.967,
-      5.842
+      95.705,
+      6.079
      ],
      "to_pct": [
-      91.967,
-      6.9
+      95.705,
+      7.095
      ],
      "dx_px": 0,
-     "dy_px": 26,
-     "ink_before": 0.219,
-     "ink_after": 0.012
+     "dy_px": 24,
+     "ink_before": 0.211,
+     "ink_after": 0.013
     },
     {
      "from_pct": [
-      84.507,
-      5.842
+      87.942,
+      6.079
      ],
      "to_pct": [
-      84.507,
-      6.167
+      87.942,
+      6.418
      ],
      "dx_px": 0,
      "dy_px": 8,
-     "ink_before": 0.035,
+     "ink_before": 0.03,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      22.796,
-      3.536
+      23.722,
+      3.68
      ],
      "to_pct": [
-      23.922,
-      3.536
+      24.809,
+      3.68
      ],
-     "dx_px": 28,
+     "dx_px": 26,
      "dy_px": 0,
-     "ink_before": 0.024,
+     "ink_before": 0.023,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      20.083,
-      11.674
+      20.899,
+      12.148
      ],
      "to_pct": [
-      23.922,
-      11.674
+      24.809,
+      12.148
      ],
-     "dx_px": 94,
+     "dx_px": 92,
      "dy_px": 0,
-     "ink_before": 0.01,
-     "ink_after": 0.01
+     "ink_before": 0.009,
+     "ink_after": 0.009
     },
     {
      "from_pct": [
-      13.844,
-      28.086
+      14.407,
+      29.227
      ],
      "to_pct": [
-      23.922,
-      28.086
+      24.809,
+      29.227
      ],
-     "dx_px": 248,
+     "dx_px": 246,
      "dy_px": 0,
-     "ink_before": 0.088,
-     "ink_after": 0.019
+     "ink_before": 0.092,
+     "ink_after": 0.02
     },
     {
      "from_pct": [
-      29.306,
-      29.984
+      30.497,
+      31.203
      ],
      "to_pct": [
-      29.306,
-      29.333
+      30.497,
+      30.61
      ],
      "dx_px": 0,
-     "dy_px": -16,
+     "dy_px": -14,
      "ink_before": 0.026,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      69.181,
-      32.629
+      71.993,
+      33.955
      ],
      "to_pct": [
-      69.181,
-      30.025
+      71.993,
+      31.161
      ],
      "dx_px": 0,
-     "dy_px": -64,
-     "ink_before": 0.078,
-     "ink_after": 0.02
+     "dy_px": -66,
+     "ink_before": 0.079,
+     "ink_after": 0.019
     }
    ]
   },
@@ -4737,15 +4763,14 @@
       33.5,
       8.5
      ],
-     "font_px": 17.1,
-     "scale": 0.9,
+     "font_px": 14.8,
+     "scale": 0.779,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 16
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_2_1_171",
@@ -5109,6 +5134,25 @@
      "align": "left",
      "role": "label",
      "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s3_2_1_170",
+     "ko": "v2 · 초안",
+     "tr": "v2 · Entwurf",
+     "box_px_orig": [
+      36.5,
+      359.5,
+      33.5,
+      8.5
+     ],
+     "font_px": 14.8,
+     "scale": 0.779,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_2_1_171",

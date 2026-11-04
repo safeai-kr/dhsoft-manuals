@@ -24,7 +24,7 @@
     510
    ],
    "output_px": [
-    3331,
+    3216,
     1020
    ],
    "scale": 2,
@@ -81,15 +81,14 @@
       36.0,
       12.0
      ],
-     "font_px": 17.5,
-     "scale": 0.666,
+     "font_px": 16.3,
+     "scale": 0.62,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 16
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_003",
@@ -823,15 +822,14 @@
       12.5,
       13.5
      ],
-     "font_px": 26.4,
-     "scale": 0.9,
+     "font_px": 12.9,
+     "scale": 0.44,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "text",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "flags": [
@@ -864,15 +862,14 @@
       36.0,
       12.0
      ],
-     "font_px": 17.5,
-     "scale": 0.666,
+     "font_px": 16.3,
+     "scale": 0.62,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 16
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_012",
@@ -1101,6 +1098,25 @@
      "align": "left",
      "role": "header",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_041",
+     "ko": "황",
+     "tr": "Hwang",
+     "box_px_orig": [
+      1578.0,
+      11.0,
+      12.5,
+      13.5
+     ],
+     "font_px": 12.9,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "text",
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "placed_css_px": [
@@ -1117,188 +1133,159 @@
    ],
    "effective_dpi": 551.3,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 115,
    "markers_moved": [
     {
      "from_pct": [
-      24.539,
-      18.065
+      25.416,
+      18.711
      ],
      "to_pct": [
-      36.325,
-      18.065
+      37.407,
+      18.711
      ],
-     "dx_px": 393,
+     "dx_px": 386,
      "dy_px": 0,
      "ink_before": 0.079,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      31.76,
-      18.065
+      32.896,
+      18.711
      ],
      "to_pct": [
-      36.325,
-      18.065
+      37.407,
+      18.711
      ],
-     "dx_px": 152,
+     "dx_px": 145,
      "dy_px": 0,
-     "ink_before": 0.092,
+     "ink_before": 0.09,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      55.471,
-      24.539
+      57.455,
+      25.416
      ],
      "to_pct": [
-      55.471,
-      19.075
+      58.388,
+      25.416
      ],
-     "dx_px": 0,
-     "dy_px": -182,
-     "ink_before": 0.035,
-     "ink_after": 0.017
-    },
-    {
-     "from_pct": [
-      91.719,
-      24.539
-     ],
-     "to_pct": [
-      91.719,
-      24.419
-     ],
-     "dx_px": 0,
-     "dy_px": -4,
-     "ink_before": 0.021,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      83.952,
-      24.539
-     ],
-     "to_pct": [
-      83.952,
-      24.419
-     ],
-     "dx_px": 0,
-     "dy_px": -4,
-     "ink_before": 0.021,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      29.172,
-      4.848
-     ],
-     "to_pct": [
-      29.172,
-      2.626
-     ],
-     "dx_px": 0,
-     "dy_px": -74,
-     "ink_before": 0.102,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      24.811,
-      7.095
-     ],
-     "to_pct": [
-      36.325,
-      7.095
-     ],
-     "dx_px": 384,
+     "dx_px": 30,
      "dy_px": 0,
-     "ink_before": 0.174,
-     "ink_after": 0.0
-    },
-    {
-     "from_pct": [
-      46.75,
-      11.184
-     ],
-     "to_pct": [
-      46.75,
-      8.782
-     ],
-     "dx_px": 0,
-     "dy_px": -80,
-     "ink_before": 0.121,
+     "ink_before": 0.033,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      23.585,
-      14.046
+      30.215,
+      5.021
      ],
      "to_pct": [
-      13.318,
-      14.046
+      30.215,
+      2.782
      ],
-     "dx_px": -342,
+     "dx_px": 0,
+     "dy_px": -72,
+     "ink_before": 0.103,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      25.698,
+      7.349
+     ],
+     "to_pct": [
+      37.407,
+      7.349
+     ],
+     "dx_px": 377,
+     "dy_px": 0,
+     "ink_before": 0.172,
+     "ink_after": 0.006
+    },
+    {
+     "from_pct": [
+      48.422,
+      11.584
+     ],
+     "to_pct": [
+      48.422,
+      9.096
+     ],
+     "dx_px": 0,
+     "dy_px": -80,
+     "ink_before": 0.125,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      24.428,
+      14.548
+     ],
+     "to_pct": [
+      13.308,
+      14.548
+     ],
+     "dx_px": -358,
+     "dy_px": 0,
+     "ink_before": 0.108,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      28.38,
+      22.452
+     ],
+     "to_pct": [
+      13.308,
+      22.452
+     ],
+     "dx_px": -485,
      "dy_px": 0,
      "ink_before": 0.107,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      27.4,
-      21.677
+      43.482,
+      22.452
      ],
      "to_pct": [
-      12.81,
-      21.677
-     ],
-     "dx_px": -486,
-     "dy_px": 0,
-     "ink_before": 0.104,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      41.981,
-      21.677
-     ],
-     "to_pct": [
-      41.981,
-      23.538
+      43.482,
+      24.38
      ],
      "dx_px": 0,
      "dy_px": 62,
-     "ink_before": 0.053,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      63.648,
-      21.677
-     ],
-     "to_pct": [
-      63.648,
-      19.095
-     ],
-     "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.072,
+     "ink_before": 0.052,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      76.73,
-      21.677
+      65.924,
+      22.452
      ],
      "to_pct": [
-      76.73,
-      19.095
+      65.924,
+      19.84
      ],
      "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.1,
+     "dy_px": -84,
+     "ink_before": 0.073,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      79.474,
+      22.452
+     ],
+     "to_pct": [
+      79.474,
+      19.84
+     ],
+     "dx_px": 0,
+     "dy_px": -84,
+     "ink_before": 0.102,
      "ink_after": 0.019
     }
    ]
@@ -1975,7 +1962,7 @@
     569
    ],
    "output_px": [
-    2881,
+    2752,
     1138
    ],
    "scale": 2,
@@ -2165,15 +2152,14 @@
       22.0,
       11.0
      ],
-     "font_px": 22.7,
-     "scale": 0.9,
+     "font_px": 11.1,
+     "scale": 0.44,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "flags": [
@@ -2214,6 +2200,25 @@
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_1_1_071",
+     "ko": "등록",
+     "tr": "Registrieren",
+     "box_px_orig": [
+      1343.0,
+      494.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 11.1,
+     "scale": 0.44,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "placed_css_px": [
@@ -2230,44 +2235,43 @@
    ],
    "effective_dpi": 471.8,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 129,
    "markers_moved": [
     {
      "from_pct": [
-      89.263,
-      14.301
+      93.447,
+      14.971
      ],
      "to_pct": [
-      95.372,
-      14.301
+      87.5,
+      18.532
      ],
-     "dx_px": 176,
-     "dy_px": 0,
-     "ink_before": 0.034,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      19.559,
-      17.672
-     ],
-     "to_pct": [
-      19.542,
-      21.143
-     ],
-     "dx_px": 0,
-     "dy_px": 100,
-     "ink_before": 0.176,
+     "dx_px": -164,
+     "dy_px": 98,
+     "ink_before": 0.035,
      "ink_after": 0.018
     },
     {
      "from_pct": [
-      82.117,
-      10.323
+      20.476,
+      18.5
      ],
      "to_pct": [
-      83.582,
-      10.323
+      20.458,
+      22.061
+     ],
+     "dx_px": 0,
+     "dy_px": 98,
+     "ink_before": 0.176,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      85.966,
+      10.807
+     ],
+     "to_pct": [
+      87.5,
+      10.807
      ],
      "dx_px": 42,
      "dy_px": 0,
@@ -2276,76 +2280,76 @@
     },
     {
      "from_pct": [
-      93.577,
-      37.086
+      97.963,
+      38.824
      ],
      "to_pct": [
-      83.582,
-      37.086
+      87.5,
+      38.824
      ],
      "dx_px": -288,
      "dy_px": 0,
-     "ink_before": 0.127,
+     "ink_before": 1.0,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      9.043,
-      1.291
+      9.467,
+      1.351
      ],
      "stuck": true,
      "ink": 1.0
     },
     {
      "from_pct": [
-      16.66,
-      5.807
+      17.441,
+      6.079
      ],
      "to_pct": [
-      19.542,
-      8.237
+      20.458,
+      8.841
      ],
      "dx_px": 83,
-     "dy_px": 70,
-     "ink_before": 0.12,
+     "dy_px": 76,
+     "ink_before": 0.109,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      6.144,
-      10.256
+      6.432,
+      10.737
      ],
      "to_pct": [
-      10.448,
-      10.256
+      10.865,
+      10.737
      ],
-     "dx_px": 124,
+     "dx_px": 122,
      "dy_px": 0,
-     "ink_before": 0.127,
-     "ink_after": 0.018
-    },
-    {
-     "from_pct": [
-      25.76,
-      18.885
-     ],
-     "to_pct": [
-      27.148,
-      18.885
-     ],
-     "dx_px": 40,
-     "dy_px": 0,
-     "ink_before": 0.049,
+     "ink_before": 0.131,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      89.735,
-      18.885
+      26.968,
+      19.77
      ],
      "to_pct": [
-      83.582,
-      18.885
+      28.349,
+      19.77
+     ],
+     "dx_px": 38,
+     "dy_px": 0,
+     "ink_before": 0.051,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      93.941,
+      19.77
+     ],
+     "to_pct": [
+      87.5,
+      19.77
      ],
      "dx_px": -177,
      "dy_px": 0,
@@ -2354,12 +2358,12 @@
     },
     {
      "from_pct": [
-      85.892,
-      37.086
+      89.918,
+      38.824
      ],
      "to_pct": [
-      83.582,
-      37.086
+      87.5,
+      38.824
      ],
      "dx_px": -67,
      "dy_px": 0,
@@ -2857,7 +2861,7 @@
     696
    ],
    "output_px": [
-    2854,
+    2756,
     1392
    ],
    "scale": 2,
@@ -3199,15 +3203,14 @@
       22.0,
       11.0
      ],
-     "font_px": 22.4,
-     "scale": 0.9,
+     "font_px": 10.9,
+     "scale": 0.438,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "flags": [
@@ -3248,6 +3251,25 @@
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s2_3_1_105",
+     "ko": "저장",
+     "tr": "Speichern",
+     "box_px_orig": [
+      1343.0,
+      604.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 10.9,
+     "scale": 0.438,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 45%로도 넘침"
     }
    ],
    "placed_css_px": [
@@ -3264,152 +3286,151 @@
    ],
    "effective_dpi": 472.5,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 98,
    "markers_moved": [
     {
      "from_pct": [
-      45.282,
-      26.037
+      46.892,
+      26.963
      ],
      "to_pct": [
-      45.27,
-      21.692
+      46.892,
+      22.319
      ],
      "dx_px": 0,
-     "dy_px": -124,
-     "ink_before": 0.034,
+     "dy_px": -128,
+     "ink_before": 0.035,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      91.107,
-      26.037
+      94.347,
+      26.963
      ],
      "to_pct": [
-      96.286,
-      26.037
+      96.916,
+      22.319
      ],
-     "dx_px": 148,
-     "dy_px": 0,
-     "ink_before": 0.034,
-     "ink_after": 0.02
+     "dx_px": 71,
+     "dy_px": -128,
+     "ink_before": 0.035,
+     "ink_after": 0.012
     },
     {
      "from_pct": [
-      45.282,
-      31.022
+      46.892,
+      32.125
      ],
      "to_pct": [
-      45.27,
-      33.194
+      46.892,
+      22.328
      ],
      "dx_px": 0,
-     "dy_px": 62,
-     "ink_before": 0.034,
+     "dy_px": -270,
+     "ink_before": 0.035,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      91.107,
-      31.022
+      94.347,
+      32.125
      ],
      "to_pct": [
-      96.286,
-      31.022
+      96.916,
+      34.52
      ],
-     "dx_px": 148,
-     "dy_px": 0,
-     "ink_before": 0.034,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      44.312,
-      36.213
-     ],
-     "to_pct": [
-      45.27,
-      34.601
-     ],
-     "dx_px": 27,
-     "dy_px": -46,
-     "ink_before": 0.033,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      94.568,
-      45.974
-     ],
-     "to_pct": [
-      96.286,
-      45.974
-     ],
-     "dx_px": 49,
-     "dy_px": 0,
-     "ink_before": 0.0,
-     "ink_after": 0.0
-    },
-    {
-     "from_pct": [
-      36.144,
-      8.663
-     ],
-     "to_pct": [
-      36.16,
-      5.65
-     ],
-     "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.134,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      27.422,
-      20.776
-     ],
-     "to_pct": [
-      27.422,
-      19.024
-     ],
-     "dx_px": 0,
-     "dy_px": -50,
-     "ink_before": 0.066,
-     "ink_after": 0.017
-    },
-    {
-     "from_pct": [
-      14.408,
-      17.592
-     ],
-     "to_pct": [
-      16.3,
-      17.592
-     ],
-     "dx_px": 54,
-     "dy_px": 0,
-     "ink_before": 0.063,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      34.69,
-      23.823
-     ],
-     "to_pct": [
-      36.16,
-      18.988
-     ],
-     "dx_px": 42,
-     "dy_px": -138,
-     "ink_before": 0.095,
+     "dx_px": 71,
+     "dy_px": 66,
+     "ink_before": 0.035,
      "ink_after": 0.018
     },
     {
      "from_pct": [
-      9.147,
-      1.255
+      45.888,
+      37.501
+     ],
+     "to_pct": [
+      50.968,
+      37.501
+     ],
+     "dx_px": 140,
+     "dy_px": 0,
+     "ink_before": 0.034,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      97.931,
+      47.609
+     ],
+     "to_pct": [
+      96.916,
+      47.609
+     ],
+     "dx_px": -28,
+     "dy_px": 0,
+     "ink_before": 1.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      37.429,
+      8.971
+     ],
+     "to_pct": [
+      37.446,
+      5.923
+     ],
+     "dx_px": 0,
+     "dy_px": -84,
+     "ink_before": 0.139,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      28.397,
+      21.515
+     ],
+     "to_pct": [
+      28.397,
+      19.773
+     ],
+     "dx_px": 0,
+     "dy_px": -48,
+     "ink_before": 0.069,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      14.92,
+      18.218
+     ],
+     "to_pct": [
+      16.879,
+      18.218
+     ],
+     "dx_px": 54,
+     "dy_px": 0,
+     "ink_before": 0.064,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      35.924,
+      24.67
+     ],
+     "to_pct": [
+      37.446,
+      19.735
+     ],
+     "dx_px": 42,
+     "dy_px": -136,
+     "ink_before": 0.097,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      9.472,
+      1.3
      ],
      "stuck": true,
      "ink": 1.0
@@ -3434,7 +3455,7 @@
     421
    ],
    "output_px": [
-    2864,
+    2746,
     842
    ],
    "scale": 2,
@@ -3738,15 +3759,14 @@
       45.0,
       11.0
      ],
-     "font_px": 21.9,
-     "scale": 0.9,
+     "font_px": 13.6,
+     "scale": 0.56,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_1_1_122",
@@ -3865,6 +3885,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s3_1_1_121",
+     "ko": "변경 이력",
+     "tr": "Änderungshistorie",
+     "box_px_orig": [
+      1308.0,
+      75.0,
+      45.0,
+      11.0
+     ],
+     "font_px": 13.6,
+     "scale": 0.56,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
      "id": "s3_1_1_122",
      "ko": "해제",
      "tr": "Zuweisung aufheben",
@@ -3936,146 +3975,117 @@
    ],
    "effective_dpi": 470.7,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 118,
    "markers_moved": [
     {
      "from_pct": [
-      84.319,
-      14.76
+      87.942,
+      15.394
      ],
      "to_pct": [
-      84.392,
-      14.76
+      88.092,
+      15.394
      ],
-     "dx_px": 2,
+     "dx_px": 4,
      "dy_px": 0,
-     "ink_before": 0.009,
-     "ink_after": 0.017
+     "ink_before": 0.002,
+     "ink_after": 0.016
     },
     {
      "from_pct": [
-      12.866,
-      9.076
+      92.459,
+      24.004
      ],
      "to_pct": [
-      12.936,
-      9.076
+      88.092,
+      24.004
      ],
-     "dx_px": 2,
+     "dx_px": -120,
      "dy_px": 0,
-     "ink_before": 0.02,
-     "ink_after": 0.018
+     "ink_before": 0.01,
+     "ink_after": 0.01
     },
     {
      "from_pct": [
-      88.65,
-      23.015
+      23.44,
+      1.704
      ],
      "to_pct": [
-      84.392,
-      23.015
-     ],
-     "dx_px": -122,
-     "dy_px": 0,
-     "ink_before": 0.011,
-     "ink_after": 0.011
-    },
-    {
-     "from_pct": [
-      22.474,
-      1.634
-     ],
-     "to_pct": [
-      22.486,
-      6.662
+      23.452,
+      6.875
      ],
      "dx_px": 0,
-     "dy_px": 144,
+     "dy_px": 142,
      "ink_before": 1.0,
      "ink_after": 0.017
     },
     {
      "from_pct": [
-      86.213,
-      5.558
+      89.918,
+      5.797
      ],
      "to_pct": [
-      84.392,
-      5.558
+      88.092,
+      5.797
      ],
-     "dx_px": -52,
+     "dx_px": -50,
      "dy_px": 0,
      "ink_before": 0.0,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      17.738,
-      14.084
+      18.5,
+      14.689
      ],
      "to_pct": [
-      22.486,
-      14.084
+      23.452,
+      14.689
      ],
      "dx_px": 136,
      "dy_px": 0,
-     "ink_before": 0.121,
+     "ink_before": 0.13,
      "ink_after": 0.0
     },
     {
      "from_pct": [
-      48.322,
-      20.241
+      59.431,
+      21.111
      ],
      "to_pct": [
-      48.322,
-      20.311
+      64.165,
+      21.111
      ],
-     "dx_px": 0,
-     "dy_px": 2,
-     "ink_before": 0.022,
-     "ink_after": 0.019
-    },
-    {
-     "from_pct": [
-      56.982,
-      20.241
-     ],
-     "to_pct": [
-      56.982,
-      17.238
-     ],
-     "dx_px": 0,
-     "dy_px": -86,
-     "ink_before": 0.109,
+     "dx_px": 130,
+     "dy_px": 0,
+     "ink_before": 0.11,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      81.477,
-      20.241
+      84.978,
+      21.111
      ],
      "to_pct": [
-      84.392,
-      21.428
+      88.092,
+      21.111
      ],
-     "dx_px": 83,
-     "dy_px": 34,
-     "ink_before": 0.041,
-     "ink_after": 0.003
+     "dx_px": 86,
+     "dy_px": 0,
+     "ink_before": 0.04,
+     "ink_after": 0.02
     },
     {
      "from_pct": [
-      19.632,
-      20.241
+      20.476,
+      21.111
      ],
      "to_pct": [
-      22.486,
-      17.238
+      23.452,
+      21.111
      ],
      "dx_px": 82,
-     "dy_px": -86,
-     "ink_before": 0.032,
+     "dy_px": 0,
+     "ink_before": 0.03,
      "ink_after": 0.02
     }
    ]

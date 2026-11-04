@@ -2072,15 +2072,14 @@
       46.5,
       12.0
      ],
-     "font_px": 19.5,
-     "scale": 0.742,
+     "font_px": 16.3,
+     "scale": 0.62,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 29
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_1_1_101",
@@ -2246,15 +2245,14 @@
       46.5,
       12.0
      ],
-     "font_px": 19.5,
-     "scale": 0.742,
+     "font_px": 16.3,
+     "scale": 0.62,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 29
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_1_1_101",
@@ -3451,7 +3449,7 @@
     535
    ],
    "output_px": [
-    4643,
+    4582,
     1070
    ],
    "scale": 2,
@@ -3983,15 +3981,14 @@
       58.5,
       12.0
      ],
-     "font_px": 23.6,
-     "scale": 0.9,
+     "font_px": 21.5,
+     "scale": 0.821,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_1_1_176",
@@ -4281,6 +4278,25 @@
    ],
    "flags": [
     {
+     "id": "s3_1_1_175",
+     "ko": "사용자 추가",
+     "tr": "ユーザー追加",
+     "box_px_orig": [
+      2213.0,
+      160.5,
+      58.5,
+      12.0
+     ],
+     "font_px": 21.5,
+     "scale": 0.821,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "button",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "x_s3_1_1_014",
      "ko": "현재 할당 사용자 (19)",
      "tr": "現在の割り当てユーザー (19)",
@@ -4314,75 +4330,74 @@
    ],
    "effective_dpi": 785.5,
    "meets_300dpi_pixels": true,
-   "right_margin_added_px": 61,
    "markers_moved": [
     {
      "from_pct": [
-      90.269,
-      7.113
+      91.471,
+      7.208
      ],
      "to_pct": [
-      91.471,
-      7.113
+      92.689,
+      7.208
      ],
      "dx_px": 56,
      "dy_px": 0,
-     "ink_before": 0.02,
-     "ink_after": 0.02
+     "ink_before": 0.019,
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      12.268,
-      7.113
+      12.431,
+      7.208
      ],
      "to_pct": [
-      14.775,
-      7.113
+      14.972,
+      7.208
      ],
      "dx_px": 116,
      "dy_px": 0,
-     "ink_before": 0.022,
-     "ink_after": 0.02
+     "ink_before": 0.02,
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      91.035,
-      10.874
+      92.247,
+      11.019
      ],
      "to_pct": [
-      91.471,
-      10.874
+      92.689,
+      11.019
      ],
      "dx_px": 20,
      "dy_px": 0,
      "ink_before": 0.011,
-     "ink_after": 0.02
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      97.93,
-      10.874
+      99.234,
+      11.019
      ],
      "to_pct": [
-      91.471,
-      10.874
+      92.689,
+      11.019
      ],
      "dx_px": -300,
      "dy_px": 0,
-     "ink_before": 0.044,
-     "ink_after": 0.02
+     "ink_before": 1.0,
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      14.774,
-      0.566
+      14.971,
+      0.574
      ],
      "to_pct": [
-      14.775,
-      2.031
+      14.972,
+      2.014
      ],
      "dx_px": 0,
-     "dy_px": 68,
+     "dy_px": 66,
      "ink_before": 1.0,
      "ink_after": 0.014
     }
@@ -4919,15 +4934,14 @@
       46.5,
       12.0
      ],
-     "font_px": 23.7,
-     "scale": 0.9,
+     "font_px": 16.3,
+     "scale": 0.62,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "",
-     "button_widened_px": 58
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_2_1_217",
@@ -5006,6 +5020,25 @@
      "align": "left",
      "role": "button",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s3_2_1_216",
+     "ko": "메타 편집",
+     "tr": "メタ情報の編集",
+     "box_px_orig": [
+      2176.0,
+      75.5,
+      46.5,
+      12.0
+     ],
+     "font_px": 16.3,
+     "scale": 0.62,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "button",
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_2_1_217",

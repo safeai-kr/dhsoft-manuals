@@ -290,15 +290,14 @@
       23.5,
       13.5
      ],
-     "font_px": 26.7,
-     "scale": 0.9,
+     "font_px": 25,
+     "scale": 0.842,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 30
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "flags": [
@@ -320,6 +319,25 @@
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "s1_1_1_013",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1251.5,
+      362.0,
+      23.5,
+      13.5
+     ],
+     "font_px": 25,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -2658,8 +2676,7 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 2
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s2_3_1_094",
@@ -2671,15 +2688,14 @@
       23.0,
       18.0
      ],
-     "font_px": 26.2,
-     "scale": 0.9,
+     "font_px": 24.5,
+     "scale": 0.842,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 34
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "flags": [
@@ -2738,8 +2754,26 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소",
-     "button_widened_px": 2
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s2_3_1_094",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1237.0,
+      364.0,
+      23.0,
+      18.0
+     ],
+     "font_px": 24.5,
+     "scale": 0.842,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
    "placed_css_px": [
@@ -3273,7 +3307,7 @@
     98
    ],
    "output_px": [
-    3170,
+    3130,
     196
    ],
    "scale": 2,
@@ -3330,15 +3364,14 @@
       39.0,
       10.5
      ],
-     "font_px": 20.5,
-     "scale": 0.9,
+     "font_px": 13.2,
+     "scale": 0.579,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 66
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "r_s3_1_2_168",
@@ -3388,18 +3421,56 @@
       27.5,
       10.5
      ],
-     "font_px": 21.0,
-     "scale": 0.9,
+     "font_px": 15.8,
+     "scale": 0.678,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_completed": true
+     "flag": "[확인 필요] 85% 미만 축소"
     }
    ],
-   "flags": [],
+   "flags": [
+    {
+     "id": "r_s3_1_2_167",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      968.0,
+      67.0,
+      39.0,
+      10.5
+     ],
+     "font_px": 13.2,
+     "scale": 0.579,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "r_s3_1_2_170",
+     "ko": "답변됨",
+     "tr": "回答済み",
+     "box_px_orig": [
+      1510.5,
+      68.0,
+      27.5,
+      10.5
+     ],
+     "font_px": 15.8,
+     "scale": 0.678,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    }
+   ],
    "placed_css_px": [
     560,
     35.2
@@ -3413,8 +3484,7 @@
     300
    ],
    "effective_dpi": 536.6,
-   "meets_300dpi_pixels": false,
-   "right_margin_added_px": 40
+   "meets_300dpi_pixels": false
   },
   "s3_2_1.png": {
    "name": "s3_2_1.png",
@@ -4465,15 +4535,14 @@
       39.0,
       10.5
      ],
-     "font_px": 20.5,
-     "scale": 0.9,
+     "font_px": 13.2,
+     "scale": 0.579,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 66
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "r_s4_1_2_172",
@@ -4552,6 +4621,25 @@
      "align": "left",
      "role": "text",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "r_s4_1_2_171",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      965.0,
+      70.0,
+      39.0,
+      10.5
+     ],
+     "font_px": 13.2,
+     "scale": 0.579,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "placed_css_px": [
@@ -5073,15 +5161,14 @@
       24.0,
       13.5
      ],
-     "font_px": 27.4,
-     "scale": 0.9,
+     "font_px": 25.5,
+     "scale": 0.839,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 30
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s4_2_2_163",
@@ -5150,15 +5237,14 @@
       39.0,
       10.0
      ],
-     "font_px": 19.9,
-     "scale": 0.9,
+     "font_px": 13.3,
+     "scale": 0.602,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "",
-     "button_widened_px": 58
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "flags": [
@@ -5182,6 +5268,25 @@
      "flag": "[확인 필요] 축소 한계 미만"
     },
     {
+     "id": "s4_2_2_162",
+     "ko": "중요",
+     "tr": "重要",
+     "box_px_orig": [
+      1138.5,
+      112.0,
+      24.0,
+      13.5
+     ],
+     "font_px": 25.5,
+     "scale": 0.839,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s4_2_2_165",
      "ko": "재질의",
      "tr": "再照会",
@@ -5199,6 +5304,25 @@
      "align": "center",
      "role": "badge",
      "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "r_s4_2_2_175",
+     "ko": "단일 필드",
+     "tr": "単一フィールド",
+     "box_px_orig": [
+      888.0,
+      61.5,
+      39.0,
+      10.0
+     ],
+     "font_px": 13.3,
+     "scale": 0.602,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": "[확인 필요] 축소 한계 미만"
     }
    ],
    "placed_css_px": [

@@ -11,8 +11,8 @@
   let pno = 0;
   const pageMap = {};
 
-  // [표 제목 열 너비, 고정프롬프트 표 절] 첫 열 글이 단어 중간에서 잘리거나 3줄 이상이면 첫 열을 4px씩 넓혀 본다.
-  // 표 전체 높이가 가장 낮아지는 너비를 고르되, 오른쪽 칸이 빽빽해져 높이가 늘면 넓히지 않는다. 최대 표 너비의 30%.
+  // [표 제목 열 너비, 고정프롬프트 표 절] 첫 열 글이 단어 중간에서 잘리거나 3줄 이상이거나 마지막 줄에 낱말 하나(3글자 이하)만 떨어지면
+  // 첫 열을 4px씩 좁히거나(96px까지) 넓혀(표 너비의 30%까지) 본다. 표 높이가 늘거나 어느 칸이든 3줄이 되는 너비는 쓰지 않는다 (2026-11-04).
   {
     const probe = document.createElement('div');
     probe.className = 'page body';
@@ -44,8 +44,12 @@
       return n;
     };
     // 너비를 정하고, 모든 단어가 들어가면 자동 하이픈을 끈다(들어가는 단어를 억지로 쪼개지 않게)
+    // 머리글 칸에는 build.py가 적은 % 너비가 있어, 첫 열만 px로 바꾸면 나머지 % 합이 100%라 무시된다. 첫 열을 바꿀 때 나머지 머리글 칸은 남은 너비를 원래 비율로 나눠 갖는다 (2026-11-04)
+    let hdrs = [], hdrPct = [];
     const setW = (cells, w) => {
       cells.forEach(c => { c.style.width = w === null ? '' : w + 'px'; c.style.hyphens = c.style.webkitHyphens = ''; });
+      const sum = hdrPct.slice(1).reduce((a, b) => a + b, 0);
+      if (sum > 0) hdrs.forEach((h, i) => { if (i) h.style.width = w === null ? (hdrPct[i] ? hdrPct[i] + '%' : '') : `calc((100% - ${w}px) * ${(hdrPct[i] / sum).toFixed(4)})`; });
       if (w === null) return 0;
       const b = cells.reduce((s, c) => s + broken(c), 0);
       if (!b) cells.forEach(c => { c.style.hyphens = c.style.webkitHyphens = 'manual'; });
@@ -56,19 +60,31 @@
       if (!t || !t.rows.length || t.rows[0].cells.length < 2) continue;
       const mark = document.createComment(''); wrap.replaceWith(mark); pa.appendChild(wrap);
       const cells = firstCells(t);
+      const all = [...t.querySelectorAll('td,th')];
+      hdrs = [...t.rows[0].cells]; hdrPct = hdrs.map(h => parseFloat(h.style.width) || 0);
       const base = Math.round(cells[0].getBoundingClientRect().width);
       const cap = Math.round(t.getBoundingClientRect().width * 0.3);
-      const state = b => ({ h: t.getBoundingClientRect().height, b, l: Math.max(...cells.map(lineCount)) });
+      const floor = Math.min(base, 96);
+      // 낱말 하나 떨어짐: 첫 열 칸이 두 줄 이상인데 마지막 줄에 3글자 이하(「Priorität / 1」)만 남은 것 (hy0909 결정, 2026-11-04 데이터내보내기 1.1 독일어)
+      const orphans = () => cells.reduce((n, c) => { const s = lastLineChars(c); return n + (s.lines >= 2 && s.last <= 3 ? 1 : 0); }, 0);
+      const state = b => ({ h: t.getBoundingClientRect().height, b, l: Math.max(...cells.map(lineCount)), la: Math.max(...all.map(lineCount)), o: orphans() });
       const s0 = state(cells.reduce((s, c) => s + broken(c), 0));
-      if (base < cap && (s0.b > 0 || s0.l > 2)) {
-        let best = { w: base, ...s0 };
-        for (let w = base + 4; w <= cap; w += 4) {
+      if (s0.b > 0 || s0.l > 2 || s0.o > 0) {
+        // 후보 너비: 좁히기(96px까지)와 넓히기(표 너비의 30%까지) 모두 4px씩. 조건: 표 높이가 처음보다 늘지 않고, 어느 칸도 3줄이 되지 않는다(원래 3줄이던 칸은 그 줄 수까지).
+        // 고르는 순서: 잘린 낱말 적음 → 떨어진 낱말 적음 → 첫 열 3줄 없음 → 표 높이 낮음 → 원래 너비에 가까움
+        const key = (s, w) => [s.b, s.o, s.l > 2 ? 1 : 0, Math.round(s.h), Math.abs(w - base)];
+        const better = (a, b) => { for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) return a[i] < b[i]; return false; };
+        let best = { w: base, k: key(s0, base) }; const cands = [];
+        for (let w = floor; w <= cap; w += 4) {
+          if (w === base) continue;
           const s = state(setW(cells, w));
-          // 표 높이가 처음보다 늘면 제외. 잘린 단어가 줄면 우선, 같으면 표 높이가 낮은 쪽, 같으면 좁은 쪽
-          if (s.h > s0.h + 0.5) continue;
-          if (s.b < best.b || (s.b === best.b && s.h < best.h - 0.5)) best = { w, ...s };
+          cands.push([w, Math.round(s.h), s.b, s.o, s.l, s.la]);
+          if (s.h > s0.h + 0.5 || s.la > Math.max(2, s0.la)) continue;
+          const k = key(s, w);
+          if (better(k, best.k)) best = { w, k };
         }
         if (best.w !== base) { setW(cells, best.w); t.dataset.c0w = best.w; } else setW(cells, null);
+        (window.__c0 = window.__c0 || []).push({ base, cap, s0, best, cands });   // 검사용 기록
       }
       mark.replaceWith(wrap);
     }
