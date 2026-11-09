@@ -5,7 +5,7 @@
 - 빈자리는 가리키던 요소 가까이: 같은 줄 오른쪽·왼쪽, 같은 열 아래·위로 2px씩 넓혀 가며 찾는다. 위아래 거리는 2.5배로 쳐서 같은 줄을 우선한다(위아래로 옮기면 다른 줄·다른 상자 안으로 들어가 엉뚱한 것을 가리킨다).
   최대 이동은 이미지 폭의 25%다. 그 안에 빈자리가 없으면 그대로 둔다(기록에 남긴다).
 - 이미지 밖으로는 나가지 않는다(원 전체가 이미지 안, 가장자리 2px 여유).
-- 원끼리 겹치지 않는다(2026-11-09, Query 2.1 일본어 「1·①」「4·6」「5·5」가 포개짐): 원 중심 사이 거리가 지름 + 4px 이상이어야 한다. 먼저 놓인 원이 자리를 차지하고, 뒤 원이 빈자리를 찾는다.
+- 원끼리 겹치지 않는다(2026-11-09, Query 2.1 일본어 「1·①」「4·6」「5·5」가 포개짐): 원 중심 사이 거리가 지름 + 4px 이상이어야 한다. 4px은 화면(CSS) px 기준이다(같은 날, 검사패널 3.4·3.8에서 이미지 px로 재서 틈이 1~2px만 남음). 먼저 놓인 원이 자리를 차지하고, 뒤 원이 빈자리를 찾는다.
 - 세로로 비슷한 열에 있는 원들(x 차가 이미지 폭의 4% 안)은 같은 x에서 시작하게 맞춘다. 묶음 가운데 가장 오른쪽 x부터 시도해, 모두 빈자리인 x를 찾으면 거기에 맞춘다.
   없으면 각자 자리에 둔다.
 사용: python3 tools/place_markers.py manuals [--only <분권>/<lang>] [--dry]   (lang: ko en de ja)
@@ -40,6 +40,7 @@ class Field:
     B = 48
     def __init__(self, im, r):
         self.im = im; self.r = r; self.H, self.W = im.shape[:2]
+        self.gap = MK_GAP * r / R_CSS   # 틈 4px은 화면(CSS) 기준이라 이미지 배율만큼 키운다(2026-11-09, 큰 캡처에서 원이 1~2px 틈으로 붙어 보임)
         B = self.B; H, W = self.H, self.W
         bg = np.zeros((H, W, 3))
         for y in range(0, H, B):
@@ -61,7 +62,7 @@ class Field:
 
     def clear_of(self, cx, cy, occupied):
         # 다른 원과 겹치지 않는다: 중심 거리 >= 지름 + MK_GAP
-        d = 2 * self.r + MK_GAP
+        d = 2 * self.r + self.gap
         return all((cx - ox) ** 2 + (cy - oy) ** 2 >= d * d for ox, oy in occupied)
 
     def free(self, cx, cy, occupied=()):
@@ -84,7 +85,7 @@ class Field:
         if y1 < y0 or x1 < x0: return None
         Y, X = np.mgrid[y0:y1 + 1, x0:x1 + 1]
         mask = self.ratio[y0:y1 + 1, x0:x1 + 1] <= INK_MAX
-        d2 = (2 * self.r + MK_GAP) ** 2
+        d2 = (2 * self.r + self.gap) ** 2
         for ox, oy in occupied: mask &= ((X - ox) ** 2 + (Y - oy) ** 2) >= d2
         if not mask.any(): return None
         cost = np.abs(X - cx) + V_PENALTY * np.abs(Y - cy)
@@ -101,7 +102,7 @@ class Field:
         x0, x1 = max(m, int(cx - limit)), min(self.W - 1 - m, int(cx + limit))
         if y1 < y0 or x1 < x0: return None
         Y, X = np.mgrid[y0:y1 + 1, x0:x1 + 1]
-        mask = np.ones(Y.shape, bool); d2 = (2 * self.r + MK_GAP) ** 2
+        mask = np.ones(Y.shape, bool); d2 = (2 * self.r + self.gap) ** 2
         for ox, oy in occupied: mask &= ((X - ox) ** 2 + (Y - oy) ** 2) >= d2
         if not mask.any(): return None
         cost = self.ratio[y0:y1 + 1, x0:x1 + 1] + (np.abs(X - cx) + V_PENALTY * np.abs(Y - cy)) / (limit * 20.0)

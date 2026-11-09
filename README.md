@@ -12,9 +12,9 @@ GitHub Pages로 배포한 매뉴얼 목록 페이지입니다. 분권별·언어
 
 ```
 prompt/
-  SMART-EDC_매뉴얼_디자인_고정프롬프트.md   디자인·제작·검수 고정 규칙 (v107 기준, 2-1절 색 토큰)
-  기준PDF/SMART-EDC_검사패널_매뉴얼_리디자인_v107.pdf        최종 디자인 템플릿 · 화면용 RGB(sRGB)
-  기준PDF/SMART-EDC_검사패널_매뉴얼_리디자인_v107_CMYK.pdf   최종 디자인 템플릿 · 인쇄용 CMYK(216×303mm, 재단 여백 3mm)
+  SMART-EDC_매뉴얼_디자인_고정프롬프트.md   디자인·제작·검수 고정 규칙 (v108 기준, 2-1절 색 토큰)
+  기준PDF/SMART-EDC_검사패널_매뉴얼_리디자인_v108.pdf        최종 디자인 템플릿 · 화면용 RGB(sRGB)
+  기준PDF/SMART-EDC_검사패널_매뉴얼_리디자인_v108_CMYK.pdf   최종 디자인 템플릿 · 인쇄용 CMYK(216×303mm, 재단 여백 3mm)
 manuals/
   <분권>/<언어>/
     SMART-EDC_사용자매뉴얼_CRF_<분권>_<언어>.html   A4 쪽 형태 HTML (PDF와 같은 템플릿)

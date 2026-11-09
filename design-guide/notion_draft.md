@@ -1,11 +1,11 @@
 # SMART EDC 사용자 매뉴얼 디자인 가이드
 
-기준 템플릿 검사패널 v107 · 2026-11-09
+기준 템플릿 검사패널 v108 · 2026-11-09
 
 <callout icon="📐" color="blue_bg">
 **대상**: SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어
 **매뉴얼 제작 방식**: 같은 원본에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만듭니다. 이 가이드는 그 방식을 한 권에 설명합니다
-**기준 템플릿**: 검사패널 v107 화면용 RGB · 인쇄용 CMYK (저장소 `prompt/기준PDF/`)
+**기준 템플릿**: 검사패널 v108 화면용 RGB · 인쇄용 CMYK (저장소 `prompt/기준PDF/`)
 **화면용 판**: 210 × 297mm, 모든 RGB를 sRGB로 선언
 **인쇄용 판**: 재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK
 **단위**: CSS px. pt = px × 0.75
@@ -76,8 +76,8 @@
 | card-bg-red-mark | 필수 확인 강조 | #F6DCDE | 246 220 222 | 2 15 6 0 | 필수 확인 카드 안 강조 바탕 |
 | card-bg-yellow | 오해하기 쉬운 동작 카드 | #FEF9F0 | 254 249 240 | 0 2 5 0 | 오해하기 쉬운 동작 카드 바탕 |
 | card-bg-yellow-mark | 오해 카드 강조 | #FCE8BF | 252 232 191 | 1 8 28 0 | 오해하기 쉬운 동작 카드 안 강조 바탕 |
-| result-text | 결과 「└」 | #1D4ED8 | 29 78 216 | 85 72 0 0 | CLAUDE.md: 결과 항목 앞 「└」. 현재 템플릿(v107)에는 쓰지 않음 (결정 대기) |
-| result-dark | 결과 설명 글씨 | #1E3A8A | 30 58 138 | 100 91 13 2 | CLAUDE.md: 결과 설명 글씨. 현재 템플릿(v107)에는 쓰지 않음 (결정 대기) |
+| result-text | 결과 「└」 | #1D4ED8 | 29 78 216 | 85 72 0 0 | CLAUDE.md: 결과 항목 앞 「└」. 현재 템플릿(v108)에는 쓰지 않음 (결정 대기) |
+| result-dark | 결과 설명 글씨 | #1E3A8A | 30 58 138 | 100 91 13 2 | CLAUDE.md: 결과 설명 글씨. 현재 템플릿(v108)에는 쓰지 않음 (결정 대기) |
 | notice-red | 유의사항 빨강 | #B91C1C | 185 28 28 | 19 100 100 10 | 유의사항 글씨 빨강 (원본 색), 필수 확인 카드 제목 |
 | notice-yellow | 오해 카드 제목 | #885910 | 136 89 16 | 36 61 100 26 | 오해하기 쉬운 동작 카드 제목 |
 | ref-red | 필수 확인 참조 | #A15E61 | 161 94 97 | 31 70 53 12 | 필수 확인 카드 안 참조 번호 |
@@ -256,7 +256,7 @@
 | `tools/place_markers.py` | 화면 위 번호 원 자리 잡기(가림·겹침 없이) |
 | `tools/widen_buttons.py` · `extend_cut_buttons.py` | 긴 번역 글자 버튼·칩 넓히기, 잘린 버튼 완성 |
 | `tools/export_pdf.py` | 분권 HTML → 화면용 RGB PDF(sRGB 선언), `--cmyk`로 인쇄용 CMYK PDF |
-| `prompt/기준PDF/` | 최종 디자인 템플릿 검사패널 v107 (화면용 RGB · 인쇄용 CMYK) |
+| `prompt/기준PDF/` | 최종 디자인 템플릿 검사패널 v108 (화면용 RGB · 인쇄용 CMYK) |
 | `template/check.py` · `check_img_*.py` · `check_tr.py` | 쪽 구조·얼룩·남은 한글·번역 검사 (같은 이름의 원본 대조 `check.py`는 `v6-tools/`에 따로 있습니다) |
 | `v6-tools/check.py` · `check_colors.py` · `check_copy.py` | 원본 대조 글자·색·미리보기 복사 검사(`/Users/khy/Documents/Codex/output/pdf/smart-edc-source/v6-tools/`). 모두 불일치 0이어야 넘깁니다 |
 | `tools/pdf_srgb.py` · `pdf_cmyk_print.py` | `export_pdf.py`가 쓰는 sRGB 선언 · 인쇄판 변환 |

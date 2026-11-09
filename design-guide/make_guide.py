@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, f'{ROOT}/template')
 
 DATE = '2026-11-09'
-VER = '기준 템플릿 검사패널 v107 · 2026-11-09'
+VER = '기준 템플릿 검사패널 v108 · 2026-11-09'
 
 
 _CMYK_CACHE = {}
@@ -56,8 +56,8 @@ COLORS = [
     ('card-bg-yellow', '오해하기 쉬운 동작 카드', '#FEF9F0', '오해하기 쉬운 동작 카드 바탕'),
     ('card-bg-yellow-mark', '오해 카드 강조', '#FCE8BF', '오해하기 쉬운 동작 카드 안 강조 바탕'),
     # 고유 색 (6) — 원본이 색으로 뜻을 나눈 곳. 값과 이름을 바꾸지 않는다
-    ('result-text', '결과 「└」', '#1D4ED8', 'CLAUDE.md: 결과 항목 앞 「└」. 현재 템플릿(v107)에는 쓰지 않음 (결정 대기)'),
-    ('result-dark', '결과 설명 글씨', '#1E3A8A', 'CLAUDE.md: 결과 설명 글씨. 현재 템플릿(v107)에는 쓰지 않음 (결정 대기)'),
+    ('result-text', '결과 「└」', '#1D4ED8', 'CLAUDE.md: 결과 항목 앞 「└」. 현재 템플릿(v108)에는 쓰지 않음 (결정 대기)'),
+    ('result-dark', '결과 설명 글씨', '#1E3A8A', 'CLAUDE.md: 결과 설명 글씨. 현재 템플릿(v108)에는 쓰지 않음 (결정 대기)'),
     ('notice-red', '유의사항 빨강', '#B91C1C', '유의사항 글씨 빨강 (원본 색), 필수 확인 카드 제목'),
     ('notice-yellow', '오해 카드 제목', '#885910', '오해하기 쉬운 동작 카드 제목'),
     ('ref-red', '필수 확인 참조', '#A15E61', '필수 확인 카드 안 참조 번호'),
@@ -188,7 +188,7 @@ def build_html():
     toc = ''.join(f'<li><span class="tn">{n}</span><span class="tt">{esc(t)}</span><span class="tp">{i + 3}</span></li>' for i, (n, t) in enumerate(toc_items))
     pages.append(page('gtoc', f'''
 <div class="toc-h"><h1>차례</h1><img class="brand" src="img/smart-edc-logo-gray.png" alt="SMART EDC"></div>
-<div class="area">{kv([('대상', 'SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어'), ('매뉴얼 제작 방식', '같은 원본에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만든다. 이 가이드는 그 방식을 한 권에 설명한다'), ('기준 템플릿', '검사패널 v107 화면용 RGB · 인쇄용 CMYK (prompt/기준PDF/)'), ('화면용 판', '210 × 297mm, 모든 RGB를 sRGB로 선언'), ('인쇄용 판', '재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK'), ('단위', 'CSS px. pt = px × 0.75')], 'kv lead')}
+<div class="area">{kv([('대상', 'SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어'), ('매뉴얼 제작 방식', '같은 원본에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만든다. 이 가이드는 그 방식을 한 권에 설명한다'), ('기준 템플릿', '검사패널 v108 화면용 RGB · 인쇄용 CMYK (prompt/기준PDF/)'), ('화면용 판', '210 × 297mm, 모든 RGB를 sRGB로 선언'), ('인쇄용 판', '재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK'), ('단위', 'CSS px. pt = px × 0.75')], 'kv lead')}
 <ul class="gtoclist">{toc}</ul></div>''', True, label='차례'))
     # 1. 인쇄 사양
     pages.append(page('spec', f'''
@@ -294,7 +294,7 @@ def build_html():
 <tr><td><b>tools/place_markers.py</b></td><td>화면 위 번호 원 자리 잡기(가림·겹침 없이)</td></tr>
 <tr><td><b>tools/widen_buttons.py · extend_cut_buttons.py</b></td><td>번역 글자가 긴 버튼·칩 넓히기, 잘린 버튼 완성</td></tr>
 <tr><td><b>tools/export_pdf.py</b></td><td>분권 HTML → 화면용 RGB PDF(sRGB 선언), --cmyk로 인쇄용 CMYK PDF</td></tr>
-<tr><td><b>prompt/기준PDF/</b></td><td>최종 디자인 템플릿 검사패널 v107 (화면용 RGB · 인쇄용 CMYK)</td></tr>
+<tr><td><b>prompt/기준PDF/</b></td><td>최종 디자인 템플릿 검사패널 v108 (화면용 RGB · 인쇄용 CMYK)</td></tr>
 <tr><td><b>template/check*.py</b></td><td>글자·색·복사·얼룩·남은 한글 검사. 모두 불일치 0이어야 넘긴다</td></tr>
 </tbody></table></div>
 <h3 class="gsub">제작 순서</h3>
