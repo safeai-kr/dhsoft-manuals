@@ -2,10 +2,9 @@
 
 만드는 것
   design-guide/SMART-EDC_매뉴얼_디자인_가이드.html        가이드 HTML (쪽마다 A4 + 재단 여백 3mm = 216×303mm)
-  design-guide/SMART-EDC_매뉴얼_디자인_가이드_RGB.pdf     Chrome으로 찍은 화면용 PDF
-  design-guide/SMART-EDC_매뉴얼_디자인_가이드_CMYK.pdf    모든 색을 DeviceCMYK로 바꾼 인쇄용 PDF (PyMuPDF recolor)
+  design-guide/SMART-EDC_매뉴얼_디자인_가이드.pdf         가이드 PDF 한 권 (가이드는 한 권이고, 매뉴얼을 화면용 RGB·인쇄용 CMYK 두 판으로 만드는 방식을 설명한다)
   design-guide/preview/p*.png                            확인용 쪽 그림
-사용: python3 design-guide/make_guide.py
+사용: python3 design-guide/make_guide.py            (--cmyk 를 붙이면 인쇄소 확인용으로 DeviceCMYK 변환본 _CMYK.pdf 도 하나 더 낸다)
 """
 import asyncio, os, re, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
@@ -182,7 +181,7 @@ def build_html():
     toc = ''.join(f'<li><span class="tn">{n}</span><span class="tt">{esc(t)}</span><span class="tp">{i + 3}</span></li>' for i, (n, t) in enumerate(toc_items))
     pages.append(page('gtoc', f'''
 <div class="toc-h"><h1>차례</h1><img class="brand" src="img/smart-edc-logo-gray.png" alt="SMART EDC"></div>
-<div class="area">{kv([('대상', 'SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어'), ('제작 판', '화면용 RGB · 인쇄용 CMYK. 같은 원본에서 두 판을 만든다'), ('화면용', 'sRGB 그대로, 210 × 297mm'), ('인쇄용', '재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK'), ('단위', 'CSS px. pt = px × 0.75')], 'kv lead')}
+<div class="area">{kv([('대상', 'SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어'), ('매뉴얼 제작 방식', '같은 원본에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만든다. 이 가이드는 그 방식을 한 권에 설명한다'), ('화면용 판', 'sRGB 그대로, 210 × 297mm'), ('인쇄용 판', '재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK'), ('단위', 'CSS px. pt = px × 0.75')], 'kv lead')}
 <ul class="gtoclist">{toc}</ul></div>''', True, label='차례'))
     # 1. 인쇄 사양
     pages.append(page('spec', f'''
@@ -194,7 +193,8 @@ def build_html():
    <li><b>인쇄용 크기</b><span>216 × 303mm. 사방 3mm 재단 여백, 모서리에 재단선</span></li>
    <li><b>재단 여백까지 채우는 곳</b><span>표지·간지·본문 헤더 바탕, 끝까지 닿는 이미지</span></li>
    <li><b>안전 영역</b><span>재단선 안쪽 5mm. 글자·번호 원은 이 안에만. 좌우 기본 여백 56px(14.8mm)</span></li>
-   <li><b>화면용 판</b><span>같은 HTML을 sRGB 그대로 Chrome PDF로 낸다</span></li>
+   <li><b>두 판 제작</b><span>매뉴얼은 같은 HTML에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만든다</span></li>
+   <li><b>화면용 판</b><span>sRGB 그대로 Chrome PDF로 낸다</span></li>
    <li><b>인쇄용 판</b><span>화면용 PDF의 글·선·이미지를 모두 DeviceCMYK로 바꾼다(검정 분리 K = min). 인쇄소 프로파일로 최종 확인</span></li>
    <li><b>이미지</b><span>화면 캡처 2배 확대본(300dpi 충족), 웨이브·로고 원본. 캡처 안 글자는 언어별 글자 교체본</span></li>
    <li><b>글꼴</b><span>한국어·영어·독일어: Pretendard 400 · 500 · 700 · 800 / 일본어: Pretendard JP. PDF에 포함, 외곽선 변환 없음</span></li>
@@ -218,7 +218,7 @@ def build_html():
     head = '<thead><tr><th style="width:34px"></th><th style="width:150px">이름 · 토큰</th><th style="width:72px">HEX</th><th style="width:84px">RGB</th><th style="width:84px">CMYK</th><th>쓰임</th></tr></thead>'
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">2</span><h2>디자인 토큰 — 색 (바탕 · 구조)</h2></div>
-{kv([('화면용 판', 'HEX · RGB 값'), ('인쇄용 판', '같은 색을 CMYK로 바꾼 값. K = min 계산값이라 인쇄소 프로파일로 다시 맞춘다'), ('원본 색 유지', '유의사항 글씨, 결과 설명처럼 원본 화면이 색으로 뜻을 나눈 곳'), ('번호 원', '템플릿 파랑 #3C55EB로 통일 (hy0909 결정, 2026-10-30)')])}
+{kv([('표의 두 값', '토큰마다 화면용 판 HEX · RGB 값과 인쇄용 판 CMYK 값을 함께 둔다'), ('인쇄용 CMYK', 'K = min 계산값이라 인쇄소 프로파일로 다시 맞춘다'), ('원본 색 유지', '유의사항 글씨, 결과 설명처럼 원본 화면이 색으로 뜻을 나눈 곳'), ('번호 원', '템플릿 파랑 #3C55EB로 통일 (hy0909 결정, 2026-10-30)')])}
 <div class="tblwrap gtbl"><table>{head}<tbody>{color_rows(COLORS[:14])}</tbody></table></div>''', True, label='디자인 토큰 — 색'))
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">3</span><h2>디자인 토큰 — 색 (글 · 카드 · 표)</h2></div>
@@ -326,7 +326,7 @@ async def render(html_path, back_path):
         el = await pg.query_selector('.page'); await el.screenshot(path=f'{HERE}/img/sample_backcover.png')
         await pg.goto('file://' + html_path); await pg.wait_for_timeout(1500)
         await pg.evaluate('document.fonts.ready')
-        await pg.pdf(path=f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드_RGB.pdf', width='216mm', height='303mm', print_background=True, prefer_css_page_size=True)
+        await pg.pdf(path=f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드.pdf', width='216mm', height='303mm', print_background=True, prefer_css_page_size=True)
         await b.close()
 
 
@@ -355,7 +355,8 @@ def previews(pdf):
 if __name__ == '__main__':
     html = build_html(); back = back_cover_sample()
     asyncio.run(render(html, back))
-    n, left = to_cmyk(f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드_RGB.pdf', f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드_CMYK.pdf')
-    m = previews(f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드_CMYK.pdf')
-    os.remove(back)
-    print(f'pages {n}, RGB operators left after recolor {left}, previews {m}')
+    pdf = f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드.pdf'
+    m = previews(pdf); os.remove(back); msg = f'pages {m}, previews {m}'
+    if '--cmyk' in sys.argv:
+        n, left = to_cmyk(pdf, f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드_CMYK.pdf'); msg += f', CMYK copy pages {n}, RGB operators left {left}'
+    print(msg)
