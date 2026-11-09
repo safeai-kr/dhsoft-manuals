@@ -1,4 +1,4 @@
-"""SMART EDC 사용자 매뉴얼 디자인 가이드(제출용 PDF)를 만든다 (2026-11-09, hy0909).
+"""SMART EDC 사용자 매뉴얼 디자인 가이드(제출용 PDF)를 만든다 (2026-11-09).
 
 만드는 것
   design-guide/SMART-EDC_매뉴얼_디자인_가이드.html        가이드 HTML (쪽마다 A4 + 재단 여백 3mm = 216×303mm)
@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, f'{ROOT}/template')
 
 DATE = '2026-11-09'
-VER = '템플릿 v6 · 2026-11-09'
+VER = '기준 템플릿 검사패널 v107 · 2026-11-09'
 
 
 def cmyk(hexv):
@@ -108,7 +108,7 @@ def esc(t): return t.replace('&', '&amp;').replace('<', '&lt;')
 
 
 def kv(items, cls='kv'):
-    """「항목: 값」 목록. 줄글 대신 쓴다 (hy0909 요청 2026-11-09)"""
+    """「항목: 값」 목록. 줄글 대신 쓴다 (2026-11-09 요청)"""
     if isinstance(items, str): return f'<p class="intro">{esc(items)}</p>'
     return '<ul class="' + cls + '">' + ''.join(f'<li><b>{esc(k)}</b><span>{esc(v)}</span></li>' for k, v in items) + '</ul>'
 
@@ -181,7 +181,7 @@ def build_html():
     toc = ''.join(f'<li><span class="tn">{n}</span><span class="tt">{esc(t)}</span><span class="tp">{i + 3}</span></li>' for i, (n, t) in enumerate(toc_items))
     pages.append(page('gtoc', f'''
 <div class="toc-h"><h1>차례</h1><img class="brand" src="img/smart-edc-logo-gray.png" alt="SMART EDC"></div>
-<div class="area">{kv([('대상', 'SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어'), ('매뉴얼 제작 방식', '같은 원본에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만든다. 이 가이드는 그 방식을 한 권에 설명한다'), ('화면용 판', 'sRGB 그대로, 210 × 297mm'), ('인쇄용 판', '재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK'), ('단위', 'CSS px. pt = px × 0.75')], 'kv lead')}
+<div class="area">{kv([('대상', 'SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어'), ('매뉴얼 제작 방식', '같은 원본에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만든다. 이 가이드는 그 방식을 한 권에 설명한다'), ('기준 템플릿', '검사패널 v107 화면용 RGB · 인쇄용 CMYK (prompt/기준PDF/)'), ('화면용 판', '210 × 297mm, 모든 RGB를 sRGB로 선언'), ('인쇄용 판', '재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK'), ('단위', 'CSS px. pt = px × 0.75')], 'kv lead')}
 <ul class="gtoclist">{toc}</ul></div>''', True, label='차례'))
     # 1. 인쇄 사양
     pages.append(page('spec', f'''
@@ -194,8 +194,9 @@ def build_html():
    <li><b>재단 여백까지 채우는 곳</b><span>표지·간지·본문 헤더 바탕, 끝까지 닿는 이미지</span></li>
    <li><b>안전 영역</b><span>재단선 안쪽 5mm. 글자·번호 원은 이 안에만. 좌우 기본 여백 56px(14.8mm)</span></li>
    <li><b>두 판 제작</b><span>매뉴얼은 같은 HTML에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만든다</span></li>
-   <li><b>화면용 판</b><span>sRGB 그대로 Chrome PDF로 낸다</span></li>
-   <li><b>인쇄용 판</b><span>화면용 PDF의 글·선·이미지를 모두 DeviceCMYK로 바꾼다(검정 분리 K = min). 인쇄소 프로파일로 최종 확인</span></li>
+   <li><b>화면용 판</b><span>Chrome PDF로 낸 뒤 모든 RGB를 sRGB로 선언한다(DefaultRGB · OutputIntent). 뷰어마다 색이 달라 보이지 않게 한다</span></li>
+   <li><b>인쇄용 판</b><span>화면용 PDF 둘레에 재단 여백 3mm를 붙이고(쪽 가장자리를 늘려 채움) 재단선·TrimBox를 넣은 뒤 글·선·이미지를 모두 DeviceCMYK로 바꾼다(검정 분리 K = min). 인쇄소 프로파일로 최종 확인</span></li>
+   <li><b>만드는 도구</b><span>tools/export_pdf.py 하나로 두 판을 낸다(--cmyk)</span></li>
    <li><b>이미지</b><span>화면 캡처 2배 확대본(300dpi 충족), 웨이브·로고 원본. 캡처 안 글자는 언어별 글자 교체본</span></li>
    <li><b>글꼴</b><span>한국어·영어·독일어: Pretendard 400 · 500 · 700 · 800 / 일본어: Pretendard JP. PDF에 포함, 외곽선 변환 없음</span></li>
    <li><b>검사</b><span>글자·띄어쓰기 check.py, 색 check_colors.py, 미리보기 복사 check_copy.py. 불일치 0일 때만 넘긴다</span></li>
@@ -218,7 +219,7 @@ def build_html():
     head = '<thead><tr><th style="width:34px"></th><th style="width:150px">이름 · 토큰</th><th style="width:72px">HEX</th><th style="width:84px">RGB</th><th style="width:84px">CMYK</th><th>쓰임</th></tr></thead>'
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">2</span><h2>디자인 토큰 — 색 (primary · 남색)</h2></div>
-{kv([('표의 두 값', '토큰마다 화면용 판 HEX · RGB 값과 인쇄용 판 CMYK 값을 함께 둔다'), ('인쇄용 CMYK', 'K = min 계산값이라 인쇄소 프로파일로 다시 맞춘다'), ('원본 색 유지', '유의사항 글씨, 결과 설명처럼 원본 화면이 색으로 뜻을 나눈 곳'), ('번호 원', '번호 원 설정 색으로 통일 (hy0909 결정, 2026-10-30)'), ('설명에 쓰는 이름', '가이드 본문은 HEX 대신 이 표의 토큰 이름으로 색을 적는다')])}
+{kv([('표의 두 값', '토큰마다 화면용 판 HEX · RGB 값과 인쇄용 판 CMYK 값을 함께 둔다'), ('인쇄용 CMYK', 'K = min 계산값이라 인쇄소 프로파일로 다시 맞춘다'), ('원본 색 유지', '유의사항 글씨, 결과 설명처럼 원본 화면이 색으로 뜻을 나눈 곳'), ('번호 원', 'primary로 통일 (2026-10-30 결정)'), ('설명에 쓰는 이름', '가이드 본문은 HEX 대신 이 표의 토큰 이름으로 색을 적는다')])}
 <div class="tblwrap gtbl compact"><table>{head}<tbody>{color_rows(COLORS[:6])}</tbody></table></div>''', True, label='디자인 토큰 — 색'))
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">3</span><h2>디자인 토큰 — 색 (글)</h2></div>
@@ -231,7 +232,7 @@ def build_html():
     # 3. 글자
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">5</span><h2>디자인 토큰 — 글자</h2></div>
-{kv([('한국어 · 영어 · 독일어', 'Pretendard'), ('일본어', 'Pretendard JP'), ('고정폭 글꼴', '쓰지 않는다 (코드·키값도 같은 글꼴)'), ('단위', 'px. pt = px × 0.75'), ('크기 규칙', '짝수 정수 px, 줄 높이도 정수 px (hy0909 결정, 2026-11-09)'), ('긴 글', '크기를 줄이지 않고 줄을 늘려 영역을 키운다')])}
+{kv([('한국어 · 영어 · 독일어', 'Pretendard'), ('일본어', 'Pretendard JP'), ('고정폭 글꼴', '쓰지 않는다 (코드·키값도 같은 글꼴)'), ('단위', 'px. pt = px × 0.75'), ('크기 규칙', '짝수 정수 px, 줄 높이도 정수 px (2026-11-09 결정)'), ('긴 글', '크기를 줄이지 않고 줄을 늘려 영역을 키운다')])}
 <div class="tblwrap gtbl compact"><table><thead><tr><th style="width:132px">자리</th><th style="width:100px">크기</th><th style="width:104px">굵기</th><th style="width:196px">색</th><th style="width:76px">줄 높이</th><th>자간</th></tr></thead><tbody>{typo_rows()}</tbody></table></div>
 <div class="gnote"><b>글꼴 파일</b> Pretendard-400 · 500 · 700 · 800.ttf, PretendardJP-Regular · Medium · Bold · ExtraBold.ttf (template/assets/fonts, fonts_ja). PDF에 모두 포함한다.</div>''', True, label='디자인 토큰 — 글자'))
     # 4. 간격·번호 원
@@ -269,7 +270,7 @@ def build_html():
          ('첫 열', '항목명. 너비는 글에 맞춰 96px~30% 사이 조절, 하이픈은 사전식(영어·독일어)'), ('참조 번호', '10px 700 참조 번호, 위첨자 3px'), ('쪽 나눔', '표가 쪽을 넘으면 행 단위로 나누고 머리글을 다음 쪽에 다시 둔다')],
         'img/sample_appendix.png', '실제 분권 표 쪽(데이터 내보내기 1.1 화면 구성 · 한국어판)'))
     # 11 뒤표지 템플릿
-    pages.append(tmpl_page(True, ('13', '페이지 템플릿 — 뒤표지'), [('적용', '모든 분권의 마지막 쪽 (hy0909 결정, 2026-11-09). paginate.js가 만든다'), ('구성', '왼쪽 위 DH 로고 / 문서 정보 / 하단 선 아래 회사 정보와 저작권'), ('웨이브 이미지', '쓰지 않는다'), ('오른쪽 아래 로고 · 쪽번호', '두지 않는다')],
+    pages.append(tmpl_page(True, ('13', '페이지 템플릿 — 뒤표지'), [('적용', '모든 분권의 마지막 쪽 (2026-11-09 결정). paginate.js가 만든다'), ('구성', '왼쪽 위 DH 로고 / 문서 정보 / 하단 선 아래 회사 정보와 저작권'), ('웨이브 이미지', '쓰지 않는다'), ('오른쪽 아래 로고 · 쪽번호', '두지 않는다')],
         [('바탕', '표지 바탕. 재단 여백까지 채운다'), ('로고', 'DH 로고 폭 110px, 왼쪽 56px · 위 73px'), ('문서 정보', '왼쪽 56px · 위 860px. 표지의 구분 문구 16px 표지 구분 문구 + 분권 제목 16px 표지 설명 글(위 간격 10px), 줄 22px'),
          ('하단 선', '쪽 아래 여백 56px(좌우 여백과 같음) 위에 표지와 같은 가로선, 위치 978px'), ('회사 정보', '선 아래 12px부터 왼쪽 세 줄 12px, 줄 18px, 표지 구분 문구 색. 홈페이지 바닥글 표기 그대로'), ('저작권 문구', '회사 정보 아래 4px 띄워 넷째 줄 「Copyright © 2026 DHSOFT All Rights Reserved.」 12px 간지 쪽번호 색. 연도는 발행 연도. 오른쪽은 비운다'), ('번역본', '한글을 둘 수 없어 회사 정보는 「DHSOFT」 「Tel.」 두 줄. 주소·대표 표기는 [확인 필요]')],
         'img/sample_backcover.png', '실제 분권 뒤표지(데이터 내보내기 · 한국어판)'))
@@ -285,6 +286,8 @@ def build_html():
 <tr><td><b>template/img_localize.py · localize_all.sh</b></td><td>번역본 화면 캡처의 글자 교체(OCR → 검수 → 번역 → 다시 그리기 → 검사)</td></tr>
 <tr><td><b>tools/place_markers.py</b></td><td>화면 위 번호 원 자리 잡기(가림·겹침 없이)</td></tr>
 <tr><td><b>tools/widen_buttons.py · extend_cut_buttons.py</b></td><td>번역 글자가 긴 버튼·칩 넓히기, 잘린 버튼 완성</td></tr>
+<tr><td><b>tools/export_pdf.py</b></td><td>분권 HTML → 화면용 RGB PDF(sRGB 선언), --cmyk로 인쇄용 CMYK PDF</td></tr>
+<tr><td><b>prompt/기준PDF/</b></td><td>최종 디자인 템플릿 검사패널 v107 (화면용 RGB · 인쇄용 CMYK)</td></tr>
 <tr><td><b>template/check*.py</b></td><td>글자·색·복사·얼룩·남은 한글 검사. 모두 불일치 0이어야 넘긴다</td></tr>
 </tbody></table></div>
 <h3 class="gsub">제작 순서</h3>
@@ -292,8 +295,8 @@ def build_html():
 <li>원본 PDF에서 글과 색을 뽑고 고정 프롬프트의 색 표와 맞는지 확인한다. 다르면 멈추고 묻는다.</li>
 <li>분권 데이터를 만들고 build.py로 HTML을 만든다. 캡처 위 번호 원은 place_markers.py가 자리를 잡는다.</li>
 <li>번역본은 캡처 글자를 OCR → 검수 → 번역 → 다시 그리기로 바꾸고, 한글 0 · 얼룩 0을 확인한다.</li>
-<li>Chrome으로 PDF를 만들고 check.py · check_colors.py · check_copy.py를 통과시킨다.</li>
-<li>인쇄용은 216 × 303mm로 내고 DeviceCMYK로 바꾼 뒤 재단선·안전 영역을 눈으로 확인한다.</li>
+<li>export_pdf.py로 화면용 PDF를 만들고 check.py · check_colors.py · check_copy.py를 통과시킨다.</li>
+<li>인쇄용은 export_pdf.py --cmyk로 216 × 303mm DeviceCMYK 판을 내고 재단선·안전 영역을 눈으로 확인한다.</li>
 </ol>''', True, label='파일 구성과 제작 순서'))
     # 가이드 뒤표지
     pages.append(page('gback', f'''

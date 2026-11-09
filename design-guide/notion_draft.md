@@ -1,11 +1,12 @@
 # SMART EDC 사용자 매뉴얼 디자인 가이드
 
-템플릿 v6 · 2026-11-09
+기준 템플릿 검사패널 v107 · 2026-11-09
 
 <callout icon="📐" color="blue_bg">
 **대상**: SMART EDC 사용자 매뉴얼 템플릿 · 화면별 분권 18권 · CRF 필드 16권 · 4개 언어
 **매뉴얼 제작 방식**: 같은 원본에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만듭니다. 이 가이드는 그 방식을 한 권에 설명합니다
-**화면용 판**: sRGB 그대로, 210 × 297mm
+**기준 템플릿**: 검사패널 v107 화면용 RGB · 인쇄용 CMYK (저장소 `prompt/기준PDF/`)
+**화면용 판**: 210 × 297mm, 모든 RGB를 sRGB로 선언
 **인쇄용 판**: 재단 여백 3mm를 더한 216 × 303mm, 모든 색 DeviceCMYK
 **단위**: CSS px. pt = px × 0.75
 **제출용 PDF**: 저장소 `design-guide/` 폴더에 한 권
@@ -23,8 +24,9 @@
 | 재단 여백 | 사방 3mm. 인쇄 PDF는 216 × 303mm, 모서리에 재단선. 끝까지 닿는 바탕과 이미지는 여백까지 늘립니다 |
 | 안전 영역 | 재단선 안쪽 5mm. 글자·번호 원은 이 안에만 둡니다. 좌우 기본 여백 56px(14.8mm)이 이를 채웁니다 |
 | 두 판 제작 | 매뉴얼은 같은 HTML에서 화면용 RGB · 인쇄용 CMYK 두 판으로 만듭니다 |
-| 화면용 판 | sRGB 그대로 Chrome PDF로 냅니다 |
-| 인쇄용 판 | 화면용 PDF의 글·선·이미지를 모두 DeviceCMYK로 바꿉니다(검정 분리 K = min). 인쇄소 프로파일로 최종 확인 |
+| 화면용 판 | Chrome PDF로 낸 뒤 모든 RGB를 sRGB로 선언합니다(DefaultRGB · OutputIntent). 뷰어마다 색이 달라 보이지 않게 합니다 |
+| 인쇄용 판 | 화면용 PDF 둘레에 재단 여백 3mm를 붙이고(쪽 가장자리를 늘려 채움) 재단선·TrimBox를 넣은 뒤 글·선·이미지를 모두 DeviceCMYK로 바꿉니다(검정 분리 K = min). 인쇄소 프로파일로 최종 확인 |
+| 만드는 도구 | `tools/export_pdf.py` 하나로 두 판을 냅니다(`--cmyk`) |
 | 이미지 | 화면 캡처는 2배 확대본(300dpi 기준 충족), 웨이브·로고는 원본. 캡처 안 글자는 언어별 글자 교체본을 씁니다 |
 | 글꼴 | 한국어·영어·독일어: Pretendard 400 · 500 · 700 · 800 / 일본어: Pretendard JP. PDF에 포함, 외곽선 변환 없음 |
 | 검사 | 글자·띄어쓰기 `check.py`, 색 `check_colors.py`, 미리보기 복사 `check_copy.py` 불일치 0일 때만 넘깁니다 |
@@ -249,11 +251,13 @@
 | `template/img_localize.py` · `localize_all.sh` | 번역본 캡처 글자 교체(OCR → 검수 → 번역 → 다시 그리기 → 검사) |
 | `tools/place_markers.py` | 화면 위 번호 원 자리 잡기(가림·겹침 없이) |
 | `tools/widen_buttons.py` · `extend_cut_buttons.py` | 긴 번역 글자 버튼·칩 넓히기, 잘린 버튼 완성 |
+| `tools/export_pdf.py` | 분권 HTML → 화면용 RGB PDF(sRGB 선언), `--cmyk`로 인쇄용 CMYK PDF |
+| `prompt/기준PDF/` | 최종 디자인 템플릿 검사패널 v107 (화면용 RGB · 인쇄용 CMYK) |
 | `template/check*.py` | 글자·색·복사·얼룩·남은 한글 검사. 모두 불일치 0이어야 넘깁니다 |
 | `design-guide/make_guide.py` | 이 가이드 PDF 생성 |
 
 1. 원본 PDF에서 글과 색을 뽑고 고정 프롬프트의 색 표와 맞는지 확인합니다. 다르면 멈추고 묻습니다.
 2. 분권 데이터를 만들고 `build.py`로 HTML을 만듭니다. 캡처 위 번호 원은 `place_markers.py`가 자리를 잡습니다.
 3. 번역본은 캡처 글자를 OCR → 검수 → 번역 → 다시 그리기로 바꾸고, 한글 0 · 얼룩 0을 확인합니다.
-4. Chrome으로 PDF를 만들고 `check.py` · `check_colors.py` · `check_copy.py`를 통과시킵니다.
-5. 인쇄용은 216 × 303mm로 내고 DeviceCMYK로 바꾼 뒤 재단선·안전 영역을 눈으로 확인합니다.
+4. `export_pdf.py`로 화면용 PDF를 만들고 `check.py` · `check_colors.py` · `check_copy.py`를 통과시킵니다.
+5. 인쇄용은 `export_pdf.py --cmyk`로 216 × 303mm DeviceCMYK 판을 내고 재단선·안전 영역을 눈으로 확인합니다.
