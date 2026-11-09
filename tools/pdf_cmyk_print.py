@@ -1,6 +1,6 @@
 """화면용 RGB PDF(A4) → 인쇄용 CMYK PDF(216×303mm, 재단 여백 3mm, 모서리 재단선, DeviceCMYK).
 재단 여백은 쪽 가장자리 1pt 띠를 늘려 채운다(바탕·헤더·이미지가 끝까지 이어짐). 글자는 안전 영역 안이라 영향 없다.
-사용: python3 make_print.py <rgb.pdf> <cmyk.pdf>"""
+사용: python3 tools/pdf_cmyk_print.py <rgb.pdf> <cmyk.pdf>"""
 import sys, re, pymupdf
 MM = 72 / 25.4
 B = 3 * MM            # 재단 여백
