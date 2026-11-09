@@ -175,7 +175,7 @@ def build_html():
     toc = ''.join(f'<li><span class="tn">{n}</span><span class="tt">{esc(t)}</span><span class="tp">{i + 3}</span></li>' for i, (n, t) in enumerate(toc_items))
     pages.append(page('gtoc', f'''
 <div class="toc-h"><h1>차례</h1><img class="brand" src="img/smart-edc-logo-gray.png" alt="SMART EDC"></div>
-<div class="area"><p class="lead">이 문서는 SMART EDC 사용자 매뉴얼 템플릿(화면별 분권 18권 · CRF 필드 16권 · 4개 언어)의 디자인 기준을 한 권에 모았다. 수치는 CSS px이고 pt는 0.75배다. 색은 화면용 HEX·RGB와 인쇄 참고용 CMYK를 함께 적었다.</p>
+<div class="area"><p class="lead">이 문서는 SMART EDC 사용자 매뉴얼 템플릿(화면별 분권 18권 · CRF 필드 16권 · 4개 언어)의 디자인 기준을 한 권에 모았다. 가이드와 매뉴얼은 같은 원본에서 화면용(RGB)과 인쇄용(CMYK) 두 판으로 만든다. 화면용은 sRGB 그대로, 인쇄용은 재단 여백 3mm를 더한 216 × 303mm에 모든 색을 DeviceCMYK로 바꿔 낸다. 수치는 CSS px이고 pt는 0.75배다.</p>
 <ul class="gtoclist">{toc}</ul></div>''', True, label='차례'))
     # 1. 인쇄 사양
     pages.append(page('spec', f'''
@@ -187,7 +187,7 @@ def build_html():
    <li><b>쪽 크기</b><span>210 × 297mm. 화면용 CSS 794 × 1123px (1px = 0.75pt)</span></li>
    <li><b>재단 여백</b><span>사방 3mm. 끝까지 닿는 바탕과 이미지는 여백까지 늘린다</span></li>
    <li><b>안전 영역</b><span>재단선 안쪽 5mm. 글자·번호 원은 이 안에만 둔다. 좌우 기본 여백 56px(14.8mm)이 이를 채운다</span></li>
-   <li><b>색</b><span>화면용은 sRGB. 인쇄용 PDF는 본문·이미지 모두 DeviceCMYK로 바꾼다(검정 분리 K = min). 인쇄소 프로파일(예: Japan Color 2001 Coated)로 최종 확인한다</span></li>
+   <li><b>두 판 제작</b><span>화면용(RGB)과 인쇄용(CMYK)을 같은 HTML에서 만든다. 화면용은 sRGB 그대로 Chrome PDF로 내고, 인쇄용은 그 PDF의 글·선·이미지를 모두 DeviceCMYK로 바꾼다(검정 분리 K = min). 인쇄소 프로파일로 최종 확인한다</span></li>
    <li><b>이미지</b><span>화면 캡처는 2배 확대본(300dpi 기준 충족), 웨이브·로고는 원본. 캡처 안 글자는 언어별로 글자 교체본을 쓴다</span></li>
    <li><b>글꼴</b><span>Pretendard 400 · 500 · 700 · 800 (일본어 Pretendard JP). 모두 PDF에 포함한다. 외곽선으로 바꾸지 않는다</span></li>
    <li><b>검사</b><span>글자·띄어쓰기(check.py), 색(check_colors.py), 미리보기 복사(check_copy.py) 불일치 0일 때만 넘긴다</span></li>
@@ -210,7 +210,7 @@ def build_html():
     head = '<thead><tr><th style="width:34px"></th><th style="width:150px">이름 · 토큰</th><th style="width:72px">HEX</th><th style="width:84px">RGB</th><th style="width:84px">CMYK</th><th>쓰임</th></tr></thead>'
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">2</span><h2>디자인 토큰 — 색 (바탕 · 구조)</h2></div>
-<p class="intro">색은 뜻이 있는 자리에만 쓴다. 원본 화면에서 색으로 뜻을 나눈 곳(유의사항 글씨, 결과 설명)은 원본 값을 그대로 쓰고, 번호 원만 템플릿 파랑 #3C55EB로 통일한다(hy0909 결정, 2026-10-30). CMYK는 K = min 검정 분리로 계산한 인쇄 참고값이라 인쇄소 프로파일로 다시 맞춘다.</p>
+<p class="intro">토큰마다 화면용 값(HEX·RGB)과 인쇄용 값(CMYK)을 함께 둔다. 화면용 판은 HEX 값을, 인쇄용 판은 같은 색을 CMYK로 바꾼 값을 쓴다. 색은 뜻이 있는 자리에만 쓰고, 원본 화면에서 색으로 뜻을 나눈 곳(유의사항 글씨, 결과 설명)은 원본 값을 그대로, 번호 원만 템플릿 파랑 #3C55EB로 통일한다(hy0909 결정, 2026-10-30). CMYK는 K = min 검정 분리 계산값이라 인쇄소 프로파일로 다시 맞춘다.</p>
 <div class="tblwrap gtbl"><table>{head}<tbody>{color_rows(COLORS[:14])}</tbody></table></div>''', True, label='디자인 토큰 — 색'))
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">3</span><h2>디자인 토큰 — 색 (글 · 카드 · 표)</h2></div>
