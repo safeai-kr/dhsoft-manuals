@@ -291,10 +291,10 @@ def build_html():
          ('첫 열', '항목명. 너비는 글에 맞춰 96px~30% 사이 조절, 하이픈은 사전식(영어·독일어)'), ('참조 번호', '10px 700 참조 번호, 위첨자 3px'), ('쪽 나눔', '표가 쪽을 넘으면 행 단위로 나누고 머리글을 다음 쪽에 다시 둔다')],
         'img/sample_appendix.png', '실제 분권 표 쪽(데이터 내보내기 1.1 화면 구성 · 한국어판)'))
     # 11 뒤표지 템플릿
-    pages.append(tmpl_page(True, ('13', '페이지 템플릿 — 뒤표지'), [('상태', '시안. 분권에는 아직 넣지 않는다'), ('구성', '남색 바탕 + 회사 로고 + 문서 정보'), ('웨이브 이미지', '쓰지 않는다'), ('발행 정보', '분권마다 같은 자리')],
-        [('바탕', '표지 바탕. 재단 여백까지 채운다'), ('로고', 'DH 로고 폭 110px, 왼쪽 56px · 위 73px'), ('문서 정보', '왼쪽 56px · 위 1021px 선 위에 「SMART EDC 사용자 매뉴얼 · 템플릿 v6」 16px 표지 구분 문구'),
-         ('발행 정보', '회사명 디에이치소프트, 연락처·주소·발행일 [확인 필요]. 16px 표지 설명 글, 줄 22px'), ('저작권 문구', '14px 간지 쪽번호, 아래 묶음 세로 중심 1057px'), ('쪽번호', '두지 않는다')],
-        'img/sample_backcover.png', '뒤표지 시안(이 가이드에서 새로 설계, 분권에는 아직 없음)'))
+    pages.append(tmpl_page(True, ('13', '페이지 템플릿 — 뒤표지'), [('적용', '모든 분권의 마지막 쪽 (hy0909 결정, 2026-11-09). paginate.js가 만든다'), ('구성', '왼쪽 위 DH 로고 / 문서 정보 / 하단 선 아래 회사 정보와 저작권'), ('웨이브 이미지', '쓰지 않는다'), ('오른쪽 아래 로고 · 쪽번호', '두지 않는다')],
+        [('바탕', '표지 바탕. 재단 여백까지 채운다'), ('로고', 'DH 로고 폭 110px, 왼쪽 56px · 위 73px'), ('문서 정보', '왼쪽 56px · 위 860px. 표지의 구분 문구 16px 표지 구분 문구 + 분권 제목 16px 표지 설명 글(위 간격 10px), 줄 22px'),
+         ('하단 선', '표지와 같은 1021px 가로선'), ('회사 정보', '선 아래 왼쪽 세 줄 12px, 줄 18px, 표지 구분 문구 색. 홈페이지 바닥글 표기 그대로'), ('저작권 문구', '선 아래 오른쪽 「Copyright © 2022 DHSOFT All Rights Reserved.」 12px 간지 쪽번호 색'), ('번역본', '한글을 둘 수 없어 회사 정보는 「DHSOFT」 「Tel.」 두 줄. 주소·대표 표기는 [확인 필요]')],
+        'img/sample_backcover.png', '실제 분권 뒤표지(데이터 내보내기 · 한국어판)'))
     # 12 파일 구성
     pages.append(page('tokens', f'''
 <div class="ghead"><span class="gnum">14</span><h2>파일 구성과 제작 순서</h2></div>
@@ -330,17 +330,8 @@ def build_html():
 
 
 def back_cover_sample():
-    """뒤표지 시안 그림: 가이드 안의 뒤표지 템플릿 쪽을 보여 주기 위해 A4(794×1123) 크기로 따로 찍는다"""
-    css = open(f'{ROOT}/template/style.css').read()
-    html = f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>{css}
-.page.cover .bk-info{{position:absolute;left:56px;right:56px;top:860px;color:표지 설명 글;font-size:16px;line-height:22px}}
-.page.cover .bk-t{{font-size:16px;color:표지 구분 문구;margin-bottom:10px}} .page.cover .bk-c{{position:absolute;left:56px;top:1046px;font-size:14px;color:간지 쪽번호}}
-</style></head><body class="lang-ko"><div class="page cover">
-<div class="cv-top"><img class="cv-logo" src="img/logo.png" alt="DH" style="width:110px"></div>
-<div class="bk-info"><p class="bk-t">SMART EDC 사용자 매뉴얼 · 템플릿 v6</p><p>디에이치소프트<br>연락처 · 주소 · 발행일 [확인 필요]</p></div>
-<div class="cv-bottom"><span class="cv-kind">© 디에이치소프트</span><img class="cv-logo" src="img/logo.png" alt="DH"></div>
-</div></body></html>'''
-    p = f'{HERE}/_backcover.html'; open(p, 'w').write(html); return p
+    """뒤표지 그림: 분권에 실제로 들어간 뒤표지(paginate.js가 만든 .page.back)를 찍는다 (2026-11-09, 시안 HTML 대신)"""
+    return f'{ROOT}/manuals/데이터내보내기/ko/SMART-EDC_사용자매뉴얼_데이터내보내기_ko.html'
 
 
 async def render(html_path, back_path):
@@ -348,8 +339,8 @@ async def render(html_path, back_path):
     async with async_playwright() as p:
         b = await p.chromium.launch(channel='chrome', args=['--allow-file-access-from-files'])
         pg = await b.new_page(device_scale_factor=2)
-        await pg.goto('file://' + back_path); await pg.wait_for_timeout(800)
-        el = await pg.query_selector('.page'); await el.screenshot(path=f'{HERE}/img/sample_backcover.png')
+        await pg.goto('file://' + back_path); await pg.wait_for_timeout(3000); await pg.evaluate('document.fonts.ready')
+        el = await pg.query_selector('.page.back'); await el.screenshot(path=f'{HERE}/img/sample_backcover.png')
         await pg.goto('file://' + html_path); await pg.wait_for_timeout(1500)
         await pg.evaluate('document.fonts.ready')
         # 노션용 인쇄 사양 그림: 틀 바깥의 치수 글(왼쪽 303mm, 위·아래)까지 들어가게 여백을 두고 찍는다 (2026-11-09 왼쪽 잘림 고침)
@@ -387,7 +378,7 @@ if __name__ == '__main__':
     html = build_html(); back = back_cover_sample()
     asyncio.run(render(html, back))
     pdf = f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드.pdf'
-    m = previews(pdf); os.remove(back); msg = f'pages {m}, previews {m}'
+    m = previews(pdf); msg = f'pages {m}, previews {m}'
     if '--cmyk' in sys.argv:
         n, left = to_cmyk(pdf, f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드_CMYK.pdf'); msg += f', CMYK copy pages {n}, RGB operators left {left}'
     print(msg)
