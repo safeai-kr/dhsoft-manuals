@@ -1,0 +1,482 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>SMART EDC 사용자 매뉴얼 디자인 가이드</title><style>@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-400.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-500.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-700.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-800.ttf) format("truetype");font-weight:800}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Medium.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-Bold.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"PretendardJPM";src:url(fonts/PretendardJP-ExtraBold.ttf) format("truetype");font-weight:800}
+@page{size:216mm 303mm;margin:0}
+/* 언어별: 자간(2절: 한국어 10pt 초과 -3%, 영어 -1%; 독일어는 영어와 같게, 일본어 0 [확인 필요]) · 글꼴 · 줄바꿈 */
+:root{--ls:-0.03em}
+body.lang-en,body.lang-de{--ls:-0.01em}
+body.lang-ja{--ls:0em}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
+body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
+body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal}
+body.lang-en td:first-child,body.lang-en th:first-child,body.lang-de td:first-child,body.lang-de th:first-child,body.lang-en table.wide th:nth-child(1),body.lang-de table.wide th:nth-child(1){width:96px}   /* 첫 열이 음절 단위로 쪼개질 만큼 좁아지지 않게 */   /* 좁은 표 열: 낱말을 하이픈 없이 끊지 않고 사전식 하이픈으로 나눈다 */
+body.lang-ja{font-family:"PretendardJPM",sans-serif;word-break:normal;line-break:strict}
+b{font-weight:700;color:#111B2B}
+ul{list-style:none}
+p,li,figcaption,td,th,h4{white-space:pre-wrap}
+/* 코드 칩: 배경은 위아래로만 넓힌다. 좌우로 넓히면 앞뒤 괄호·글자를 덮는다. 좌우 padding/margin은 복사 공백이 생길 수 있어 쓰지 않는다. */
+code{font-family:inherit;color:#202F86;background:#F1F3FE;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+a{color:inherit;text-decoration:none}
+
+.page{width:794px;height:1123px;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.page:last-child{break-after:auto;page-break-after:auto}
+
+/* ---------- 표지 ---------- */
+.page.cover{background:#071426;color:#fff}
+.cv-wave{position:absolute;left:-539px;top:484px;width:1872px;height:536px;background:url(img/wave.jpg) center/100% 100% no-repeat}
+.cv-grad{position:absolute;inset:0;background:linear-gradient(180deg,#071426 0,#071426 470px,rgba(7,20,38,.55) 560px,rgba(7,20,38,0) 700px,rgba(7,20,38,.15) 880px,#071426 1010px)}
+.cv-top{position:absolute;left:56px;top:73px;display:flex;align-items:center;gap:24px}
+.cv-brand{height:34px;width:auto;display:block}   /* SMART EDC 로고 이미지. 높이는 예전 글자 줄 높이(34px)와 같게 (hy0909 결정, 2026-10-30) */
+.cv-sys{font-size:16px;color:#D2DCEB;line-height:22px;letter-spacing:var(--ls)}
+.cv-main{position:absolute;left:56px;right:56px;top:322px}
+.cv-class{font-size:28.5px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
+.cv-title{font-size:82.5px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
+.cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
+.cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
+.cv-bottom{position:absolute;left:56px;right:56px;top:1021px;height:71px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:0}   /* 선 1021px, 글·로고 세로 중심 1057px (hy0909 결정, 2026-10-30) */
+.cv-kind{font-size:15px;color:#CBD5E1;letter-spacing:var(--ls)}
+.cv-logo{width:110px;height:auto}   /* 예전 138px의 80% */
+
+/* ---------- 목차 ---------- */
+.toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
+.toc-h h1{font-size:33.5px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
+.toc-h .brand{height:22px;width:auto;display:block}   /* 회색 로고(#94A3B8, 80%). 예전 글자(15px)보다 조금 크게 (hy0909 결정, 2026-10-30) */
+.page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
+.tch{margin-bottom:37.33px}
+.tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
+.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3349CA;flex:none}
+.tct{margin-left:5.33px;font-size:16px;font-weight:700;color:#111B2B;letter-spacing:var(--ls);line-height:24px}
+.tch ul{margin-top:6px}
+.tch li a{display:flex;align-items:flex-start;padding:3.33px 0;font-size:15.5px;line-height:24px}
+.tch li:first-child a{padding-top:5.33px}
+.tn{width:26px;margin-left:27.33px;font-weight:700;color:#94A3B8;flex:none;letter-spacing:-0.01em}
+.tt{margin-left:5.33px;flex:1;color:#263341;letter-spacing:var(--ls)}
+.tp{width:24px;text-align:center;font-size:13.5px;color:#8C96A8;flex:none}
+
+/* ---------- 간지 ---------- */
+.page.divider{background:#EFF1FA}
+.dlabel{position:absolute;left:56px;top:43px;font-size:14.5px;color:#405169;line-height:20px;letter-spacing:var(--ls)}
+.dhead{position:absolute;left:52px;top:140px;right:56px}
+.dnum{font-size:99.6px;font-weight:800;color:#45517E;line-height:1.2;letter-spacing:var(--ls)}
+.dtitle{font-size:52px;font-weight:700;color:#15233A;line-height:1.25;margin-top:4px;letter-spacing:var(--ls)}
+.dbar{position:absolute;right:0;width:19px;background:#45517E}
+.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #C8D0DD;padding-top:22px}
+.dlist li{display:flex;align-items:baseline;margin-bottom:20px}
+.dn{width:34px;padding-left:4px;flex:none;font-size:16.5px;font-weight:700;color:#94A3B8}
+.dt{font-size:18.5px;color:#26374B;line-height:1.3;letter-spacing:var(--ls)}
+.pno{position:absolute;right:56px;top:1063px;font-size:13.5px;color:#8590AE;line-height:20px}
+
+/* ---------- 본문 ---------- */
+.hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
+/* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
+.hx{min-width:0}
+.ht{display:flex;align-items:baseline;padding-top:38px;font-size:31.5px;line-height:44px;font-weight:700;color:#fff;letter-spacing:var(--ls)}
+.hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
+.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12.5px;line-height:19px;color:#8C96A8}
+.ftr .chn{flex:1}
+.ftr .brand{height:14px;width:auto;align-self:center;margin-right:20px;position:relative;top:-1px}   /* 푸터 글자색 #8C96A8 로고, 1px 위 */
+
+.blk{display:block}
+.path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12.5px;line-height:19.33px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
+.path .lbl{font-weight:700;color:#6B7689;margin-right:5px;white-space:pre}
+.path .chev{margin:0 2px;flex:none}
+.tab{margin-top:40px}
+.area>.blk:first-child{margin-top:0!important}
+.path+.tab{margin-top:38px}
+.tab h3{display:flex;align-items:flex-end;font-weight:700}
+.tab h3 span{background:#191F29;color:#fff;font-size:17px;line-height:23px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
+.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #191F29}
+.tab+.blk{margin-top:12px}
+.ov p{font-size:14.5px;line-height:1.5;color:#202630;letter-spacing:var(--ls)}
+.ov+.ov{margin-top:6px}
+
+.legend{border:1px solid #E2E8F0;border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:flex-start;font-size:13px;line-height:18px;color:#111B2B}
+/* 범례 항목: 위 정렬. 원 중심 = 첫 줄 글자 높이 중심(기준선 − 0.358em, 13px 기준 1.35px 내림), 제목(b)과 설명(span)은 같은 글자 크기·줄 높이라 첫 줄 기준선이 같다 */
+.lg{display:flex;align-items:flex-start}
+.lg>.lcir{margin-top:1.35px}
+.lg>b,.lg>span{line-height:18px}
+.lg>span{min-width:0}
+.lg b{margin:0 2.5px 0 5px;white-space:pre}
+.lg.note b{margin-right:0}
+.lg.note b{color:#475569}
+.lcir{width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;line-height:1;color:#fff;flex:none}
+/* 범례 원은 SVG(.cn)가 그린다 */
+.legend+.fig{margin-top:8px!important}
+
+.fig{background:#F6F7F9;border-radius:8px;padding:14px 16px 16px;display:flex;justify-content:center;gap:16px}
+.shot{flex:none}
+.imgbox{display:grid;width:100%;border-radius:8px;background:#fff}
+.imgbox>*{grid-area:1/1}
+.imgbox img{display:block;width:100%;height:auto;border-radius:8px}
+.mk{align-self:start;justify-self:start;margin-right:-22px;margin-bottom:-22px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11.4px;font-weight:700;line-height:1;color:#fff;box-shadow:0 0 0 0.5px rgba(100,116,139,.25),0 1px 3px rgba(100,116,139,.35)}
+/* 화면 위 번호: 흰 테두리 바깥에만 연한 회색 그림자(원 모양 그대로, 잘리지 않게 작게) */
+.mk-set,.mk-ref{}
+
+figcaption{margin-top:10px;font-size:12px;line-height:1.45;color:#475364;letter-spacing:0}
+figcaption code{color:#475364;background:#E9ECF3}
+.fig+.item{margin-top:8px}
+
+.item{display:flex;align-items:flex-start;padding:10px 0}
+.item+.item{background:linear-gradient(#F1F5F9,#F1F5F9) no-repeat 33px 0/calc(100% - 33px) 1px}
+.cir{width:23px;height:23px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;line-height:1;color:#fff}
+/* 번호 설명 원은 SVG(.cn)가 그린다 */
+.cir.c-res{width:22px;height:22px}
+.item .body{margin-left:10px;flex:1;min-width:0}
+.item .t{font-size:14.5px;line-height:1.55;color:#111B2B;letter-spacing:var(--ls)}
+.item.k-ref .t,.item.k-ref .t b{color:#475569}
+.ress{margin-top:12px;margin-left:0}
+.res{display:flex;align-items:flex-start}
+.res+.res{margin-top:8px}
+.res .t{margin-left:10px;flex:1;color:#263341}
+.res .t b{color:#111B2B}
+.res .cir{margin-top:0}
+.conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+
+.ref{font-size:10.5px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
+
+.card{border-radius:8px;padding:14px 14.7px 15px}
+.card+.card{margin-top:7.33px}
+.tab+.card{margin-top:12px}
+.card h4{display:flex;align-items:baseline;font-size:14.5px;font-weight:700;line-height:20px;white-space:normal}
+.card .ttl{white-space:pre}
+.card .sub{font-size:12px;font-weight:400;margin-left:4.5px}
+.card ul{margin-top:6px}
+.card li{font-size:13.5px;font-weight:500;line-height:1.52;color:#475569;padding-left:14px;text-indent:-14px}
+.card li+li{margin-top:4px}
+.card li b{color:inherit}
+.card .bul{display:inline-block;width:14px;text-indent:0}
+.card.must{background:#FDF2F3}.card.must h4{color:#B91C1C}.card.must .ref{color:#A15E61}.card.must code{background:#F6DCDE;color:inherit}
+.card.misc{background:#FEF9F0}.card.misc h4{color:#885910}.card.misc .ref{color:#927341}.card.misc code{background:#FCE8BF;color:inherit}
+.card.note{background:#F1F5F9}.card.note h4{color:#475569}.card.note .ref{color:#64748B}.card.note code{background:#E2E8F0;color:inherit}
+.card.note li b{color:#334155;font-weight:700}
+
+.plain ul li{font-size:14.5px;line-height:1.55;color:#202630;padding-left:14px;text-indent:-14px;letter-spacing:var(--ls)}
+.plain ul li+li{margin-top:6px}
+.plain .bul{display:inline-block;width:14px;text-indent:0}
+.box{border:1px solid #E2E8F0;border-radius:8px;padding:14px 16px}
+.box+.box{margin-top:8px}
+.box p{font-size:13.5px;line-height:1.52;color:#202630}
+
+.tblwrap table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:left;padding:11px 10.7px;vertical-align:top}
+td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
+td b{color:#111B2B}
+td.c0,td.c0 b{color:#475569}
+td .ref{vertical-align:3px}
+table.wide td{padding:8px 10.7px}
+table.wide th{padding:9px 10.7px}
+table.wide{table-layout:fixed}
+table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),body.lang-de table.wide th:nth-child(4),body.lang-ja table.wide th:nth-child(4){width:auto;min-width:82px}/* 번역본: 4열이 내용 열인 비교표가 82px에 갇히지 않게 */table.wide th:nth-child(2){width:164px}table.wide th:nth-child(4){width:82px}
+
+/* 원형 안 숫자: 가운데 정렬 후 paginate.js가 실제 글자 잉크 범위를 재서 원의 정중앙으로 보정한다 */
+/* 원형 숫자는 SVG(.cn): 좌표는 build.py가 글리프 잉크 경계로 계산. 원과 같은 크기, 테두리가 있으면 음수 margin으로 테두리까지 덮어 원 중심과 SVG 중심을 일치 */
+.cn{display:block;flex:none;overflow:visible}
+.cir,.lcir,.mk{background:none!important;border:none!important}
+.cn text{font-weight:700;letter-spacing:0}
+
+</style><style>/* 디자인 가이드 전용 CSS. 템플릿 style.css 위에 얹는다. 쪽 = A4 + 재단 여백 3mm (216×303mm), .trim = 재단선 안 210×297mm (= 템플릿 794×1123px) */
+@page{size:216mm 303mm;margin:0}
+.gp{width:216mm;height:303mm;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.gp:last-child{break-after:auto;page-break-after:auto}
+.trim{position:absolute;left:3mm;top:3mm;width:210mm;height:297mm}
+/* 재단선: 재단 여백 모서리에 짧게 */
+.cm{position:absolute;width:3mm;height:3mm;pointer-events:none}
+.cm::before,.cm::after{content:"";position:absolute;background:#000}
+.cm.tl{left:0;top:0}.cm.tr{right:0;top:0}.cm.bl{left:0;bottom:0}.cm.br{right:0;bottom:0}
+.cm.tl::before{left:0;top:3mm;width:2.4mm;height:0.25pt}.cm.tl::after{left:3mm;top:0;height:2.4mm;width:0.25pt}
+.cm.tr::before{right:0;top:3mm;width:2.4mm;height:0.25pt}.cm.tr::after{right:3mm;top:0;height:2.4mm;width:0.25pt}
+.cm.bl::before{left:0;bottom:3mm;width:2.4mm;height:0.25pt}.cm.bl::after{left:3mm;bottom:0;height:2.4mm;width:0.25pt}
+.cm.br::before{right:0;bottom:3mm;width:2.4mm;height:0.25pt}.cm.br::after{right:3mm;bottom:0;height:2.4mm;width:0.25pt}
+.gp.gcover .cm::before,.gp.gcover .cm::after,.gp.gback .cm::before,.gp.gback .cm::after{background:#fff}
+
+/* 가이드 표지·뒤표지: 템플릿 표지 규칙, 바탕은 재단 여백까지 */
+.gp.gcover,.gp.gback{background:#071426;color:#fff}
+.gp.gcover .cv-wave{left:calc(-539px);}
+.gp.gback .cv-top{top:73px}
+.gp.gback .bk-info{position:absolute;left:56px;right:56px;top:860px;color:#D2DCEB;font-size:16px;line-height:22px}
+.gp.gback .bk-t{font-size:15px;color:#CBD5E1;margin-bottom:10px}
+
+/* 차례 */
+.gp.gtoc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
+.gp.gtoc .lead{font-size:14.5px;line-height:1.55;color:#202630;letter-spacing:var(--ls);margin-bottom:28px}
+.gtoclist li{display:flex;align-items:baseline;padding:7px 0;border-bottom:1px solid #E2E8F0;font-size:15.5px;line-height:24px}
+.gtoclist .tn{width:30px;margin-left:3px;font-weight:700;color:#3349CA;flex:none}
+.gtoclist .tt{flex:1;color:#263341;letter-spacing:var(--ls)}
+.gtoclist .tp{width:24px;text-align:center;font-size:13.5px;color:#8C96A8}
+
+/* 가이드 본문 쪽 공통 */
+.ghead{height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;margin:-3mm -3mm 0;padding:38px calc(56px + 3mm) 0;display:flex;align-items:baseline;color:#fff}
+.ghead .gnum{font-size:31.5px;line-height:44px;font-weight:700;color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.ghead h2{font-size:31.5px;line-height:44px;font-weight:700;letter-spacing:var(--ls)}
+.gp.tokens,.gp.tmpl,.gp.spec{}
+.gp.tokens .trim>*:not(.ghead):not(.gfoot),.gp.tmpl .trim>*:not(.ghead):not(.gfoot),.gp.spec .trim>*:not(.ghead):not(.gfoot){margin-left:56px;margin-right:56px}
+.intro{margin-top:22px;font-size:14.5px;line-height:1.55;color:#202630;letter-spacing:var(--ls)}
+.gfoot{position:absolute;left:56px;right:56px;top:1064px;display:flex;align-items:center;font-size:12.5px;line-height:19px;color:#8C96A8}
+.gfoot span:first-child{flex:1}
+.gfoot img{height:14px;width:auto;margin-right:20px;position:relative;top:-1px}
+.gfoot .pn{width:auto}
+
+/* 표 */
+.gtbl{margin-top:16px}
+.gtbl table{font-size:12.5px;line-height:1.45}
+.gtbl th{padding:9px 8px;font-size:11.5px}
+.gtbl td{padding:7px 8px;font-size:12.5px;border-bottom:1px solid #DCE1E8;vertical-align:top}
+.gtbl td .tk{font-size:11px;color:#8C96A8}
+.gtbl .mono{font-variant-numeric:tabular-nums;color:#263341}
+.sw{display:inline-block;width:18px;height:18px;border-radius:4px;border:1px solid rgba(0,0,0,.08);vertical-align:middle}
+.gnote{margin-top:14px;background:#F1F5F9;border-radius:8px;padding:12px 14px;font-size:13px;line-height:1.5;color:#475569}
+.gnote b{color:#334155}
+.gsub{margin-top:26px;font-size:17px;font-weight:700;color:#111B2B;letter-spacing:var(--ls)}
+.gsmall{margin-top:10px;font-size:12.5px;line-height:1.5;color:#475569}
+.mklist{margin-top:10px}
+.mklist li{display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #F1F5F9;font-size:13.5px}
+.mklist .mkdemo{width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:11.4px;font-weight:700;margin-right:10px;flex:none;box-shadow:0 0 0 2px #fff,0 0 0 2.5px rgba(100,116,139,.25)}
+.mkdemo.mset{background:#3C55EB;color:#fff}
+.mkdemo.mres{background:#fff;color:#3C55EB;border:2px solid #3C55EB}
+.mkdemo.mnote{background:#64748B;color:#fff}
+.mklist b{width:48px;color:#111B2B}
+.mklist .mkd{width:220px;color:#263341}
+.mklist .mkd2{color:#475569}
+
+/* 템플릿 소개 쪽: 왼쪽 설명 + 오른쪽 A4 틀 */
+.tcols{display:flex;gap:28px;margin-top:22px;align-items:flex-start}
+.tleft{flex:1;min-width:0}
+.tleft .intro{margin-top:0}
+.specs{margin-top:16px}
+.specs li{display:flex;align-items:flex-start;padding:7px 0;border-bottom:1px solid #F1F5F9;font-size:12.5px;line-height:1.5}
+.specs b{width:84px;flex:none;color:#111B2B}
+.specs span{flex:1;color:#475569}
+.tright{flex:none;width:352px}
+/* A4 틀: 216×303mm를 폭 352px로 축소(0.431). 재단 여백 3mm = 4.9px */
+.a4frame{position:relative;width:352px;height:493.8px;background:#F6F7F9;border-radius:4px}
+.bleedbox{position:absolute;inset:0;border:1px dashed #94A3B8;border-radius:2px}
+.trimbox{position:absolute;left:4.9px;top:4.9px;right:4.9px;bottom:4.9px;border:1px solid #111B2B;z-index:3;pointer-events:none}
+.safebox{position:absolute;left:13px;top:13px;right:13px;bottom:13px;border:1px dotted #B91C1C;z-index:3;pointer-events:none}
+.a4frame .sample{position:absolute;left:4.9px;top:4.9px;width:342.2px;height:484px;z-index:2;display:block}
+.dim{position:absolute;font-size:8.5px;line-height:12px;color:#475569;background:rgba(255,255,255,.9);padding:0 3px;border-radius:2px;white-space:nowrap}
+.dtop{left:50%;top:-16px;transform:translateX(-50%)}
+.dleft{left:-14px;top:50%;transform:rotate(-90deg) translate(-50%,-100%);transform-origin:left top}
+.dtrim{left:50%;bottom:-2px;transform:translate(-50%,100%);color:#111B2B}
+.dsafe{right:4px;bottom:2px;color:#B91C1C}
+.tright .cap{margin-top:26px;font-size:12px;line-height:1.45;color:#475364}
+/* 인쇄 사양 쪽의 구역 그림 */
+.a4frame.diagram .zone{position:absolute;left:4.9px;right:4.9px;font-size:9px;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.3;z-index:1}
+.hdr-z{top:4.9px;height:42px;background:rgba(16,43,114,.85)}
+.body-z{top:51.7px;bottom:40px;left:29px!important;right:29px!important;background:#EEF1FB;color:#405169!important}
+.ftr-z{bottom:4.9px;height:30px;background:#E2E8F0;color:#475569!important}
+.mark-z{position:absolute;left:0;top:-30px;font-size:8.5px;color:#475569}
+.mark-z span{display:none}
+.steps{margin-top:10px;counter-reset:s}
+.steps li{display:flex;align-items:flex-start;font-size:13.5px;line-height:1.55;color:#202630;padding:7px 0;border-bottom:1px solid #F1F5F9;counter-increment:s}
+.steps li::before{content:counter(s);width:23px;height:23px;border-radius:50%;background:#3C55EB;color:#fff;font-size:12px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;margin-right:10px;flex:none}
+</style></head><body class="lang-ko">
+<section class="gp gcover"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="cv-wave"></div><div class="cv-grad"></div>
+<div class="cv-top"><img class="cv-brand" src="img/smart-edc-logo.png" alt="SMART EDC"><span class="cv-sys">임상시험 전자자료수집 시스템</span></div>
+<div class="cv-main noclass"><p class="cv-class">사용자 매뉴얼 템플릿</p><h1 class="cv-title">디자인 가이드</h1><p class="cv-sub">표지 · 목차 · 장 간지 · 본문 · 부록 표 · 뒤표지와 디자인 토큰, 인쇄 사양</p></div>
+<div class="cv-bottom"><span class="cv-kind">템플릿 v6 · 2026-11-09 · 작성 hy0909</span><img class="cv-logo" src="img/logo.png" alt="DH"></div></div></section>
+<section class="gp gtoc"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="toc-h"><h1>차례</h1><img class="brand" src="img/smart-edc-logo-gray.png" alt="SMART EDC"></div>
+<div class="area"><p class="lead">이 문서는 SMART EDC 사용자 매뉴얼 템플릿(화면별 분권 18권 · CRF 필드 16권 · 4개 언어)의 디자인 기준을 한 권에 모았다. 수치는 CSS px이고 pt는 0.75배다. 색은 화면용 HEX·RGB와 인쇄 참고용 CMYK를 함께 적었다.</p>
+<ul class="gtoclist"><li><span class="tn">1</span><span class="tt">인쇄 사양과 쪽 구조</span><span class="tp">3</span></li><li><span class="tn">2</span><span class="tt">디자인 토큰 — 색 (바탕 · 구조)</span><span class="tp">4</span></li><li><span class="tn">3</span><span class="tt">디자인 토큰 — 색 (글 · 카드 · 표)</span><span class="tp">5</span></li><li><span class="tn">4</span><span class="tt">디자인 토큰 — 글자</span><span class="tp">6</span></li><li><span class="tn">5</span><span class="tt">디자인 토큰 — 간격 · 번호 원</span><span class="tp">7</span></li><li><span class="tn">6</span><span class="tt">페이지 템플릿 — 표지</span><span class="tp">8</span></li><li><span class="tn">7</span><span class="tt">페이지 템플릿 — 목차</span><span class="tp">9</span></li><li><span class="tn">8</span><span class="tt">페이지 템플릿 — 장 간지</span><span class="tp">10</span></li><li><span class="tn">9</span><span class="tt">페이지 템플릿 — 본문 A (캡처 1장)</span><span class="tp">11</span></li><li><span class="tn">10</span><span class="tt">페이지 템플릿 — 본문 B (전후 비교 2장)</span><span class="tp">12</span></li><li><span class="tn">11</span><span class="tt">페이지 템플릿 — 부록 표</span><span class="tp">13</span></li><li><span class="tn">12</span><span class="tt">페이지 템플릿 — 뒤표지</span><span class="tp">14</span></li><li><span class="tn">13</span><span class="tt">파일 구성과 제작 순서</span><span class="tp">15</span></li></ul></div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 차례</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">2</span></div></div></section>
+<section class="gp spec"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">1</span><h2>인쇄 사양과 쪽 구조</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">매뉴얼은 A4 세로다. 인쇄용 PDF는 사방 3mm 재단 여백을 더한 216 × 303mm로 내고, 모서리에 재단선을 둔다. 바탕색이 끝까지 닿는 표지·간지·본문 헤더는 재단 여백까지 채운다.</p>
+  <ul class="specs">
+   <li><b>쪽 크기</b><span>210 × 297mm. 화면용 CSS 794 × 1123px (1px = 0.75pt)</span></li>
+   <li><b>재단 여백</b><span>사방 3mm. 끝까지 닿는 바탕과 이미지는 여백까지 늘린다</span></li>
+   <li><b>안전 영역</b><span>재단선 안쪽 5mm. 글자·번호 원은 이 안에만 둔다. 좌우 기본 여백 56px(14.8mm)이 이를 채운다</span></li>
+   <li><b>색</b><span>화면용은 sRGB. 인쇄용 PDF는 본문·이미지 모두 DeviceCMYK로 바꾼다(검정 분리 K = min). 인쇄소 프로파일(예: Japan Color 2001 Coated)로 최종 확인한다</span></li>
+   <li><b>이미지</b><span>화면 캡처는 2배 확대본(300dpi 기준 충족), 웨이브·로고는 원본. 캡처 안 글자는 언어별로 글자 교체본을 쓴다</span></li>
+   <li><b>글꼴</b><span>Pretendard 400 · 500 · 700 · 800 (일본어 Pretendard JP). 모두 PDF에 포함한다. 외곽선으로 바꾸지 않는다</span></li>
+   <li><b>검사</b><span>글자·띄어쓰기(check.py), 색(check_colors.py), 미리보기 복사(check_copy.py) 불일치 0일 때만 넘긴다</span></li>
+  </ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame diagram">
+   <div class="bleedbox"><span class="dim dtop">216 × 303mm · 재단 여백 3mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 (재단선 안쪽 5mm)</span></div>
+   <div class="zone hdr-z"><span>본문 헤더 98px · 재단 여백까지 채움</span></div>
+   <div class="zone body-z"><span>본문 영역 · 좌우 56px, 헤더 + 22px ~ 아래 84px</span></div>
+   <div class="zone ftr-z"><span>푸터 1064px</span></div>
+   <div class="mark-z"><span>재단선</span></div>
+  </div>
+  <p class="cap">본문 쪽의 구역과 재단 여백. 파선은 재단 여백 끝, 실선은 재단선, 점선은 안전 영역이다.</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 인쇄 사양과 쪽 구조</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">3</span></div></div></section>
+<section class="gp tokens"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">2</span><h2>디자인 토큰 — 색 (바탕 · 구조)</h2></div>
+<p class="intro">색은 뜻이 있는 자리에만 쓴다. 원본 화면에서 색으로 뜻을 나눈 곳(유의사항 글씨, 결과 설명)은 원본 값을 그대로 쓰고, 번호 원만 템플릿 파랑 #3C55EB로 통일한다(hy0909 결정, 2026-10-30). CMYK는 K = min 검정 분리로 계산한 인쇄 참고값이라 인쇄소 프로파일로 다시 맞춘다.</p>
+<div class="tblwrap gtbl"><table><thead><tr><th style="width:34px"></th><th style="width:150px">이름 · 토큰</th><th style="width:72px">HEX</th><th style="width:84px">RGB</th><th style="width:84px">CMYK</th><th>쓰임</th></tr></thead><tbody><tr><td><span class="sw" style="background:#071426"></span></td><td><b>표지 바탕</b><br><span class="tk">cover-bg</span></td><td class="mono">#071426</td><td class="mono">7 20 38</td><td class="mono">82 47 0 85</td><td>표지·뒤표지 바탕</td></tr><tr><td><span class="sw" style="background:#0B1B3A"></span></td><td><b>목차 헤더</b><br><span class="tk">toc-header</span></td><td class="mono">#0B1B3A</td><td class="mono">11 27 58</td><td class="mono">81 53 0 77</td><td>목차 쪽 윗띠</td></tr><tr><td><span class="sw" style="background:#102B72"></span></td><td><b>본문 헤더 덧색</b><br><span class="tk">header-tint</span></td><td class="mono">#102B72</td><td class="mono">16 43 114</td><td class="mono">86 62 0 55</td><td>웨이브 이미지 위 그라데이션 (92% → 55% → 24%)</td></tr><tr><td><span class="sw" style="background:#EFF1FA"></span></td><td><b>간지 바탕</b><br><span class="tk">divider-bg</span></td><td class="mono">#EFF1FA</td><td class="mono">239 241 250</td><td class="mono">4 4 0 2</td><td>장 간지 바탕</td></tr><tr><td><span class="sw" style="background:#45517E"></span></td><td><b>간지 번호·막대</b><br><span class="tk">divider-accent</span></td><td class="mono">#45517E</td><td class="mono">69 81 126</td><td class="mono">45 36 0 51</td><td>큰 장 번호, 오른쪽 세로 막대</td></tr><tr><td><span class="sw" style="background:#15233A"></span></td><td><b>간지 제목</b><br><span class="tk">divider-title</span></td><td class="mono">#15233A</td><td class="mono">21 35 58</td><td class="mono">64 40 0 77</td><td>간지 큰 제목</td></tr><tr><td><span class="sw" style="background:#3349CA"></span></td><td><b>목차 장 번호</b><br><span class="tk">toc-number</span></td><td class="mono">#3349CA</td><td class="mono">51 73 202</td><td class="mono">75 64 0 21</td><td>목차 큰 장 번호(800)</td></tr><tr><td><span class="sw" style="background:#3C55EB"></span></td><td><b>번호 원 설정</b><br><span class="tk">marker-set</span></td><td class="mono">#3C55EB</td><td class="mono">60 85 235</td><td class="mono">74 64 0 8</td><td>화면 위 설정 번호 채움, 결과 번호 테두리·숫자 (hy0909 결정 2026-10-30)</td></tr><tr><td><span class="sw" style="background:#64748B"></span></td><td><b>번호 원 참고</b><br><span class="tk">marker-note</span></td><td class="mono">#64748B</td><td class="mono">100 116 139</td><td class="mono">28 17 0 45</td><td>참고 번호 채움</td></tr><tr><td><span class="sw" style="background:#1D4ED8"></span></td><td><b>결과 설명 글</b><br><span class="tk">result-text</span></td><td class="mono">#1D4ED8</td><td class="mono">29 78 216</td><td class="mono">87 64 0 15</td><td>결과 항목 앞 기호와 결과 설명 (원본 색 그대로)</td></tr><tr><td><span class="sw" style="background:#1E3A8A"></span></td><td><b>결과 설명 진한 글</b><br><span class="tk">result-dark</span></td><td class="mono">#1E3A8A</td><td class="mono">30 58 138</td><td class="mono">78 58 0 46</td><td>결과 설명 강조</td></tr><tr><td><span class="sw" style="background:#202630"></span></td><td><b>본문 글</b><br><span class="tk">text</span></td><td class="mono">#202630</td><td class="mono">32 38 48</td><td class="mono">33 21 0 81</td><td>본문 기본 글자</td></tr><tr><td><span class="sw" style="background:#111B2B"></span></td><td><b>강조 글</b><br><span class="tk">text-strong</span></td><td class="mono">#111B2B</td><td class="mono">17 27 43</td><td class="mono">60 37 0 83</td><td>굵은 글자, 표 안 강조</td></tr><tr><td><span class="sw" style="background:#475569"></span></td><td><b>보조 글</b><br><span class="tk">text-muted</span></td><td class="mono">#475569</td><td class="mono">71 85 105</td><td class="mono">32 19 0 59</td><td>표 첫 열, 카드 본문, 참고 카드 제목</td></tr></tbody></table></div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 디자인 토큰 — 색</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">4</span></div></div></section>
+<section class="gp tokens"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">3</span><h2>디자인 토큰 — 색 (글 · 카드 · 표)</h2></div>
+<p class="intro">글자색은 본문 #202630, 강조 #111B2B, 보조 #475569 세 단계다. 유의사항 카드는 바탕·제목·강조 바탕이 한 계열로 묶이고, 표와 구분선은 회색 계열만 쓴다.</p>
+<div class="tblwrap gtbl"><table><thead><tr><th style="width:34px"></th><th style="width:150px">이름 · 토큰</th><th style="width:72px">HEX</th><th style="width:84px">RGB</th><th style="width:84px">CMYK</th><th>쓰임</th></tr></thead><tbody><tr><td><span class="sw" style="background:#64748B"></span></td><td><b>경로 글</b><br><span class="tk">path-text</span></td><td class="mono">#64748B</td><td class="mono">100 116 139</td><td class="mono">28 17 0 45</td><td>경로 항목</td></tr><tr><td><span class="sw" style="background:#EEF1FB"></span></td><td><b>경로 바탕</b><br><span class="tk">path-bg</span></td><td class="mono">#EEF1FB</td><td class="mono">238 241 251</td><td class="mono">5 4 0 2</td><td>경로 상자</td></tr><tr><td><span class="sw" style="background:#191F29"></span></td><td><b>소제목 탭</b><br><span class="tk">tab</span></td><td class="mono">#191F29</td><td class="mono">25 31 41</td><td class="mono">39 24 0 84</td><td>소제목 탭 채움과 밑선</td></tr><tr><td><span class="sw" style="background:#F6F7F9"></span></td><td><b>캡처 틀 바탕</b><br><span class="tk">fig-bg</span></td><td class="mono">#F6F7F9</td><td class="mono">246 247 249</td><td class="mono">1 1 0 2</td><td>화면 캡처 둘레</td></tr><tr><td><span class="sw" style="background:#EDF0F5"></span></td><td><b>표 머리 바탕</b><br><span class="tk">table-head</span></td><td class="mono">#EDF0F5</td><td class="mono">237 240 245</td><td class="mono">3 2 0 4</td><td>표 머리글 칸</td></tr><tr><td><span class="sw" style="background:#DCE1E8"></span></td><td><b>표 구분선</b><br><span class="tk">table-line</span></td><td class="mono">#DCE1E8</td><td class="mono">220 225 232</td><td class="mono">5 3 0 9</td><td>표 행 사이 선</td></tr><tr><td><span class="sw" style="background:#E2E8F0"></span></td><td><b>구분선</b><br><span class="tk">line</span></td><td class="mono">#E2E8F0</td><td class="mono">226 232 240</td><td class="mono">6 3 0 6</td><td>목차·범례 선, 상자 테두리</td></tr><tr><td><span class="sw" style="background:#5268B5"></span></td><td><b>참조 번호</b><br><span class="tk">ref</span></td><td class="mono">#5268B5</td><td class="mono">82 104 181</td><td class="mono">55 43 0 29</td><td>본문 안 위첨자 참조</td></tr><tr><td><span class="sw" style="background:#202F86"></span></td><td><b>키값 글·바탕</b><br><span class="tk">code</span></td><td class="mono">#202F86</td><td class="mono">32 47 134</td><td class="mono">76 65 0 47</td><td>코드 강조 글자 (바탕 #F1F3FE)</td></tr><tr><td><span class="sw" style="background:#FDF2F3"></span></td><td><b>필수 확인 카드</b><br><span class="tk">card-must</span></td><td class="mono">#FDF2F3</td><td class="mono">253 242 243</td><td class="mono">0 4 4 1</td><td>바탕. 제목 #B91C1C, 강조 바탕 #F6DCDE</td></tr><tr><td><span class="sw" style="background:#FEF9F0"></span></td><td><b>오해하기 쉬운 동작 카드</b><br><span class="tk">card-misc</span></td><td class="mono">#FEF9F0</td><td class="mono">254 249 240</td><td class="mono">0 2 6 0</td><td>바탕. 제목 #885910, 강조 바탕 #FCE8BF</td></tr><tr><td><span class="sw" style="background:#F1F5F9"></span></td><td><b>참고 카드</b><br><span class="tk">card-note</span></td><td class="mono">#F1F5F9</td><td class="mono">241 245 249</td><td class="mono">3 2 0 2</td><td>바탕. 제목 #475569, 강조 바탕 #E2E8F0</td></tr><tr><td><span class="sw" style="background:#B91C1C"></span></td><td><b>유의사항 빨강</b><br><span class="tk">notice-red</span></td><td class="mono">#B91C1C</td><td class="mono">185 28 28</td><td class="mono">0 85 85 27</td><td>유의사항 글씨 빨강 (원본 색)</td></tr><tr><td><span class="sw" style="background:#8C96A8"></span></td><td><b>푸터 글</b><br><span class="tk">footer</span></td><td class="mono">#8C96A8</td><td class="mono">140 150 168</td><td class="mono">17 11 0 34</td><td>푸터 장 제목, 쪽번호, 푸터 로고</td></tr></tbody></table></div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 디자인 토큰 — 색</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">5</span></div></div></section>
+<section class="gp tokens"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">4</span><h2>디자인 토큰 — 글자</h2></div>
+<p class="intro">글꼴은 모든 자리에서 Pretendard 하나다(일본어판은 Pretendard JP). 코드·키값에도 고정폭 글꼴을 쓰지 않는다. 크기는 px가 기준이고 pt는 0.75배다. 글이 길어지면 크기를 줄이지 않고 줄을 늘려 영역이 커진다.</p>
+<div class="tblwrap gtbl"><table><thead><tr><th style="width:150px">자리</th><th style="width:108px">크기</th><th style="width:96px">굵기</th><th style="width:150px">색</th><th style="width:78px">줄 높이</th><th>자간</th></tr></thead><tbody><tr><td><b>표지 제목</b></td><td class="mono">82.5px / 61.9pt</td><td class="mono">800</td><td class="mono">#FFFFFF</td><td class="mono">100px</td><td class="mono">-3%</td></tr><tr><td><b>표지 분류 문구</b></td><td class="mono">28.5px / 21.4pt</td><td class="mono">700</td><td class="mono">#A6B5FF</td><td class="mono">36px</td><td class="mono">-3%</td></tr><tr><td><b>표지 보조 설명</b></td><td class="mono">20px / 15pt</td><td class="mono">400</td><td class="mono">#DCE5F1</td><td class="mono">26px</td><td class="mono">-3%</td></tr><tr><td><b>목차 제목</b></td><td class="mono">33.5px / 25.1pt</td><td class="mono">700</td><td class="mono">#FFFFFF</td><td class="mono">40px</td><td class="mono">-3%</td></tr><tr><td><b>목차 장 제목 · 번호</b></td><td class="mono">16px / 12pt</td><td class="mono">700 · 800</td><td class="mono">#111B2B · #3349CA</td><td class="mono">24px</td><td class="mono">-3%</td></tr><tr><td><b>목차 항목</b></td><td class="mono">15.5px / 11.6pt</td><td class="mono">400 (번호 700)</td><td class="mono">#263341 (번호 #94A3B8)</td><td class="mono">24px</td><td class="mono">-3%</td></tr><tr><td><b>간지 큰 번호</b></td><td class="mono">99.6px / 74.7pt</td><td class="mono">800</td><td class="mono">#45517E</td><td class="mono">1.2</td><td class="mono">-3%</td></tr><tr><td><b>간지 제목</b></td><td class="mono">52px / 39pt</td><td class="mono">700</td><td class="mono">#15233A</td><td class="mono">1.25</td><td class="mono">-3%</td></tr><tr><td><b>간지 목록</b></td><td class="mono">18.5px / 13.9pt</td><td class="mono">400 (번호 16.5px 700)</td><td class="mono">#26374B (번호 #94A3B8)</td><td class="mono">1.3</td><td class="mono">-3%</td></tr><tr><td><b>본문 헤더 제목</b></td><td class="mono">31.5px / 23.6pt</td><td class="mono">700</td><td class="mono">#FFFFFF (번호 #B6C1D2)</td><td class="mono">44px</td><td class="mono">-3%</td></tr><tr><td><b>경로</b></td><td class="mono">12.5px / 9.4pt</td><td class="mono">400 (라벨 700)</td><td class="mono">#64748B (라벨 #6B7689)</td><td class="mono">19.33px</td><td class="mono">0</td></tr><tr><td><b>소제목 탭</b></td><td class="mono">17px / 12.8pt</td><td class="mono">700</td><td class="mono">#FFFFFF</td><td class="mono">23px</td><td class="mono">-3%</td></tr><tr><td><b>개요 · 번호 설명</b></td><td class="mono">14.5px / 10.9pt</td><td class="mono">400 (강조 700)</td><td class="mono">#202630 · #111B2B</td><td class="mono">1.5 · 1.55</td><td class="mono">-3%</td></tr><tr><td><b>캡션</b></td><td class="mono">12px / 9pt</td><td class="mono">400</td><td class="mono">#475364</td><td class="mono">1.45</td><td class="mono">0</td></tr><tr><td><b>유의사항 카드 제목 · 본문</b></td><td class="mono">14.5px · 13.5px</td><td class="mono">700 · 500</td><td class="mono">카드별 · #475569</td><td class="mono">20px · 1.52</td><td class="mono">-3%</td></tr><tr><td><b>표 머리 · 표 본문</b></td><td class="mono">12px · 13.5px</td><td class="mono">700 · 400</td><td class="mono">#263341</td><td class="mono">1.45</td><td class="mono">0</td></tr><tr><td><b>참조 번호</b></td><td class="mono">10.5px / 7.9pt</td><td class="mono">700</td><td class="mono">#5268B5</td><td class="mono">0 (위첨자 3px)</td><td class="mono">0</td></tr><tr><td><b>푸터</b></td><td class="mono">12.5px / 9.4pt</td><td class="mono">400</td><td class="mono">#8C96A8</td><td class="mono">19px</td><td class="mono">0</td></tr></tbody></table></div>
+<div class="gnote"><b>글꼴 파일</b> Pretendard-400 · 500 · 700 · 800.ttf, PretendardJP-Regular · Medium · Bold · ExtraBold.ttf (template/assets/fonts, fonts_ja). PDF에 모두 포함한다.</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 디자인 토큰 — 글자</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">6</span></div></div></section>
+<section class="gp tokens"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">5</span><h2>디자인 토큰 — 간격 · 번호 원</h2></div>
+<p class="intro">여백과 간격은 모든 쪽에서 같다. 영역 높이는 고정하지 않고 글 줄 수만큼 늘어나며, 아래 영역은 간격을 유지한 채 내려간다.</p>
+<div class="tblwrap gtbl"><table><thead><tr><th style="width:150px">항목</th><th>값</th></tr></thead><tbody><tr><td><b>쪽 크기</b></td><td>210 × 297mm (A4). CSS 794 × 1123px, 1px = 0.75pt</td></tr><tr><td><b>재단 여백(인쇄)</b></td><td>사방 3mm. 인쇄 PDF는 216 × 303mm, 재단선은 여백 모서리에 표시</td></tr><tr><td><b>좌우 여백</b></td><td>56px ≈ 14.8mm. 표지·목차·간지·본문·푸터 모두 같다</td></tr><tr><td><b>안전 영역</b></td><td>재단선 안쪽 5mm 안에는 글자를 두지 않는다. 좌우 여백 14.8mm와 본문 위아래 여백이 이를 채운다</td></tr><tr><td><b>본문 헤더</b></td><td>한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 길면 줄 수만큼 커지고 아래 내용이 함께 내려간다</td></tr><tr><td><b>본문 영역</b></td><td>헤더 아래끝 + 22px부터 푸터 위(쪽 아래 84px)까지</td></tr><tr><td><b>푸터</b></td><td>쪽 위 1064px, 왼쪽 상위 장 제목, 오른쪽 로고(높이 14px) + 20px + 쪽번호. 선은 긋지 않는다</td></tr><tr><td><b>모서리</b></td><td>카드·경로·캡처 틀 8px. 소제목 탭은 위 두 모서리만 8px</td></tr><tr><td><b>소제목 탭 간격</b></td><td>위 40px(경로 다음은 38px), 아래 12px</td></tr><tr><td><b>유의사항 카드</b></td><td>안쪽 14 / 14.7 / 15px, 카드 사이 7.33px, 제목↔본문 6px, 항목 사이 4px</td></tr><tr><td><b>번호 설명</b></td><td>항목 위아래 10px, 원 23px(결과 22px), 원↔글 10px, 항목 사이 1px 선 #F1F5F9</td></tr><tr><td><b>화면 캡처</b></td><td>틀 안쪽 14 / 16 / 16px, 캡처 사이 16px, 캡처 모서리 8px, 캡션 위 10px</td></tr><tr><td><b>번호 원(화면 위)</b></td><td>지름 22px, 흰 테두리 2px, 숫자 11.4px 700. 글자·아이콘을 가리면 옆 빈자리로, 원끼리 지름 + 4px 이상 띄움</td></tr><tr><td><b>자간</b></td><td>한국어 10pt 초과 -3%, 영어·독일어 -1%, 일본어 0. 10pt 이하 기본값</td></tr></tbody></table></div>
+<h3 class="gsub">번호 원</h3>
+<ul class="mklist"><li><span class="mkdemo mset">1</span><b>설정</b><span class="mkd">#3C55EB 채움, 흰 숫자</span><span class="mkd2">직접 조작하는 위치</span></li><li><span class="mkdemo mres">2</span><b>결과</b><span class="mkd">흰 채움, #3C55EB 테두리·숫자</span><span class="mkd2">바로 위 설정으로 바뀌는 위치</span></li><li><span class="mkdemo mnote">3</span><b>참고</b><span class="mkd">#64748B 채움, 흰 숫자</span><span class="mkd2">참고 위치</span></li></ul>
+<p class="gsmall">화면 위 번호 원은 글자·아이콘·테두리를 가리지 않는 가장 가까운 빈자리로 옮기고, 같은 열의 원은 같은 x에서 시작한다. 원끼리는 중심 거리가 지름 + 4px 이상이어야 하고 이미지 밖으로 나가지 않는다.</p><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 디자인 토큰 — 간격 · 번호 원</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">7</span></div></div></section>
+<section class="gp tmpl"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">6</span><h2>페이지 템플릿 — 표지</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">어두운 남색 바탕에 데이터 웨이브 이미지와 그라데이션을 겹친다. 위에는 SMART EDC 로고와 시스템 설명, 가운데 제목·보조 설명, 아래 선과 매뉴얼 구분 문구·회사 로고를 둔다. 제목 위 파란 네모와 날짜는 넣지 않는다.</p>
+  <ul class="specs"><li><b>바탕</b><span>#071426. 재단 여백까지 채운다</span></li><li><b>웨이브</b><span>wave.jpg, 쪽 위 484px부터, 위아래 그라데이션으로 제목 대비 확보</span></li><li><b>로고</b><span>SMART EDC 원색 로고 높이 34px, 왼쪽 56px · 위 73px, 설명 글 16px #D2DCEB, 간격 24px</span></li><li><b>제목</b><span>82.5px 800 흰색, 위 378px(분류 문구가 있으면 322px + 분류 28.5px #A6B5FF)</span></li><li><b>보조 설명</b><span>20px #DCE5F1, 제목 아래 14px</span></li><li><b>아래 묶음</b><span>선 1021px rgba(214,227,249,.35), 구분 문구 15px #CBD5E1와 DH 로고 110px의 세로 중심 1057px</span></li></ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame">
+   <div class="bleedbox"><span class="dim dtop">216mm (A4 210 + 재단 여백 3mm × 2)</span><span class="dim dleft">303mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 · 재단선 안쪽 5mm</span></div>
+   <img class="sample" src="img/sample_cover.png" alt="">
+  </div>
+  <p class="cap">실제 분권 표지(데이터 내보내기 · 한국어판)</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 페이지 템플릿 — 표지</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">8</span></div></div></section>
+<section class="gp tmpl"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">7</span><h2>페이지 템플릿 — 목차</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">윗띠는 이미지 없이 남색 단색이다. 장 번호는 점 없이 큰 파란 숫자, 항목은 번호·제목·쪽번호 세 칸이다. 목차 쪽에는 별도 쪽번호를 두지 않는다.</p>
+  <ul class="specs"><li><b>윗띠</b><span>높이 100px #0B1B3A, 「목차」 33.5px 700 흰색, 오른쪽 회색 로고 높이 22px</span></li><li><b>본문 영역</b><span>위 152px, 좌우 56px, 아래 60px</span></li><li><b>장 묶음</b><span>번호 16px 800 #3349CA(칸 20px) + 제목 16px 700, 밑선 1px #E2E8F0, 묶음 아래 37.33px</span></li><li><b>항목</b><span>번호 15.5px 700 #94A3B8(칸 26px, 왼쪽 27.33px) + 제목 15.5px #263341, 위아래 3.33px</span></li><li><b>쪽번호</b><span>13.5px #8C96A8, 24px 칸 가운데, 제목 첫 줄에 세로 중심</span></li><li><b>두 자리 번호</b><span>실제 글자 폭만큼 번호 칸을 넓히고 목차 전체에 같은 칸을 쓴다</span></li></ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame">
+   <div class="bleedbox"><span class="dim dtop">216mm (A4 210 + 재단 여백 3mm × 2)</span><span class="dim dleft">303mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 · 재단선 안쪽 5mm</span></div>
+   <img class="sample" src="img/sample_toc.png" alt="">
+  </div>
+  <p class="cap">실제 분권 목차(데이터 내보내기 · 한국어판)</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 페이지 템플릿 — 목차</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">9</span></div></div></section>
+<section class="gp tmpl"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">8</span><h2>페이지 템플릿 — 장 간지</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">연한 청보라 바탕에 큰 장 번호와 제목, 오른쪽 세로 막대, 아래 절 목록을 둔다. 번호는 01이 아니라 1이다.</p>
+  <ul class="specs"><li><b>바탕</b><span>#EFF1FA. 재단 여백까지 채운다</span></li><li><b>구분 문구</b><span>14.5px #405169, 왼쪽 56px · 위 43px</span></li><li><b>큰 번호 · 제목</b><span>99.6px 800 #45517E, 제목 52px 700 #15233A, 왼쪽 52px · 위 140px</span></li><li><b>막대</b><span>오른쪽 끝 폭 19px #45517E, 번호+제목 묶음의 위치와 높이에 맞춤</span></li><li><b>절 목록</b><span>위 665px, 윗선 1px #C8D0DD, 번호 16.5px 700 #94A3B8(칸 34px) + 제목 18.5px #26374B, 항목 사이 20px</span></li><li><b>쪽번호</b><span>13.5px #8590AE, 오른쪽 56px · 위 1063px</span></li></ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame">
+   <div class="bleedbox"><span class="dim dtop">216mm (A4 210 + 재단 여백 3mm × 2)</span><span class="dim dleft">303mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 · 재단선 안쪽 5mm</span></div>
+   <img class="sample" src="img/sample_divider.png" alt="">
+  </div>
+  <p class="cap">실제 분권 간지(데이터 내보내기 · 한국어판)</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 페이지 템플릿 — 장 간지</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">10</span></div></div></section>
+<section class="gp tmpl"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">9</span><h2>페이지 템플릿 — 본문 A (캡처 1장)</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">절 제목 헤더, 경로, 소제목 탭, 범례, 화면 캡처 한 장과 번호 설명, 유의사항 카드 순서다. 캡처 위 번호 원이 가리키는 요소를 아래 번호 설명이 같은 번호로 풀이한다.</p>
+  <ul class="specs"><li><b>헤더</b><span>98px, 웨이브 이미지 + #102B72 그라데이션, 제목 31.5px 700 흰색(번호 #B6C1D2)</span></li><li><b>경로</b><span>#EEF1FB 8px, 12.5px, 라벨 700 #6B7689, 꺾쇠 아이콘 12px #A3ADBF</span></li><li><b>소제목 탭</b><span>#191F29 위 모서리 8px, 17px 700 흰색, 아래 1.5px 선</span></li><li><b>범례</b><span>테두리 1px #E2E8F0 8px, 13px, 설정·결과·참고 원 14px</span></li><li><b>캡처 틀</b><span>#F6F7F9 8px, 안쪽 14/16/16px, 캡처 모서리 8px, 캡션 12px #475364</span></li><li><b>번호 설명</b><span>원 23px(결과 22px), 글 14.5px, 항목 사이 1px #F1F5F9</span></li><li><b>유의사항</b><span>필수 확인 #FDF2F3 · 오해하기 쉬운 동작 #FEF9F0 · 참고 #F1F5F9, 모서리 8px, 왼쪽 세로선 없음</span></li></ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame">
+   <div class="bleedbox"><span class="dim dtop">216mm (A4 210 + 재단 여백 3mm × 2)</span><span class="dim dleft">303mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 · 재단선 안쪽 5mm</span></div>
+   <img class="sample" src="img/sample_bodyA.png" alt="">
+  </div>
+  <p class="cap">실제 분권 본문(로그인 1.3 계정 잠금 · 한국어판)</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 페이지 템플릿 — 본문 A (캡처 1장)</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">11</span></div></div></section>
+<section class="gp tmpl"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">10</span><h2>페이지 템플릿 — 본문 B (전후 비교 2장)</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">한 캡처 틀 안에 두 장을 나란히 두어 조작 전과 후를 비교한다. 두 장의 폭은 비율대로 나누고 사이 간격은 16px이다. 캡션은 틀 아래 한 줄로 두 장을 함께 설명한다.</p>
+  <ul class="specs"><li><b>캡처 배치</b><span>한 틀 안 가로 배치, 사이 16px, 세로 가운데 맞춤</span></li><li><b>폭</b><span>원본 픽셀 비율대로 나눠 틀 안쪽 폭(762 − 32px)을 채움</span></li><li><b>번호 원</b><span>두 장에 이어서 번호를 매기고 겹치지 않게 옮김</span></li><li><b>캡션</b><span>12px #475364, 「전 — 후」 순서로 한 줄</span></li><li><b>표</b><span>캡처 아래 표는 머리글 #EDF0F5 12px 700, 본문 13.5px, 행 선 1px #DCE1E8, 첫 열 #475569</span></li><li><b>첫 열 너비</b><span>낱말이 잘리거나 한 낱말만 떨어지면 96px~표 폭 30% 사이에서 4px씩 조절. 표가 길어지거나 어느 칸이 3줄이 되는 너비는 쓰지 않음</span></li></ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame">
+   <div class="bleedbox"><span class="dim dtop">216mm (A4 210 + 재단 여백 3mm × 2)</span><span class="dim dleft">303mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 · 재단선 안쪽 5mm</span></div>
+   <img class="sample" src="img/sample_bodyB.png" alt="">
+  </div>
+  <p class="cap">실제 분권 본문(데이터 내보내기 2.1 · 한국어판)</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 페이지 템플릿 — 본문 B (전후 비교 2장)</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">12</span></div></div></section>
+<section class="gp tmpl"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">11</span><h2>페이지 템플릿 — 부록 표</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">표가 중심인 쪽이다. 머리글 아래 진한 선은 두지 않고 행 사이 선만 연하게 긋는다. 모든 칸은 위 정렬이며 참조 번호도 위에 맞춘다.</p>
+  <ul class="specs"><li><b>표 글자</b><span>머리글 12px 700 #263341 바탕 #EDF0F5, 본문 13.5px #263341, 첫 열 #475569 700</span></li><li><b>칸 안쪽</b><span>머리글 11 / 10.7px, 본문 12 / 10.7px (넓은 표 9·8px)</span></li><li><b>행 선</b><span>1px #DCE1E8, 머리글 아래 진한 선 없음</span></li><li><b>첫 열</b><span>항목명. 너비는 글에 맞춰 96px~30% 사이 조절, 하이픈은 사전식(영어·독일어)</span></li><li><b>참조 번호</b><span>10.5px 700 #5268B5, 위첨자 3px</span></li><li><b>쪽 나눔</b><span>표가 쪽을 넘으면 행 단위로 나누고 머리글을 다음 쪽에 다시 둔다</span></li></ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame">
+   <div class="bleedbox"><span class="dim dtop">216mm (A4 210 + 재단 여백 3mm × 2)</span><span class="dim dleft">303mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 · 재단선 안쪽 5mm</span></div>
+   <img class="sample" src="img/sample_appendix.png" alt="">
+  </div>
+  <p class="cap">실제 분권 표 쪽(데이터 내보내기 1.1 화면 구성 · 한국어판)</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 페이지 템플릿 — 부록 표</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">13</span></div></div></section>
+<section class="gp tmpl"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">12</span><h2>페이지 템플릿 — 뒤표지</h2></div>
+<div class="tcols">
+ <div class="tleft">
+  <p class="intro">표지와 같은 남색 바탕에 회사 로고와 문서 정보만 둔다. 웨이브 이미지는 쓰지 않아 표지보다 조용하다. 발행 정보는 분권마다 같은 자리에 적는다.</p>
+  <ul class="specs"><li><b>바탕</b><span>#071426. 재단 여백까지 채운다</span></li><li><b>로고</b><span>DH 로고 폭 110px, 왼쪽 56px · 위 73px</span></li><li><b>문서 정보</b><span>왼쪽 56px · 위 1021px 선 위에 「SMART EDC 사용자 매뉴얼 · 템플릿 v6」 15px #CBD5E1</span></li><li><b>발행 정보</b><span>회사명 디에이치소프트, 연락처·주소·발행일 [확인 필요]. 16px #D2DCEB, 줄 22px</span></li><li><b>저작권 문구</b><span>13.5px #8590AE, 아래 묶음 세로 중심 1057px</span></li><li><b>쪽번호</b><span>두지 않는다</span></li></ul>
+ </div>
+ <div class="tright">
+  <div class="a4frame">
+   <div class="bleedbox"><span class="dim dtop">216mm (A4 210 + 재단 여백 3mm × 2)</span><span class="dim dleft">303mm</span></div>
+   <div class="trimbox"><span class="dim dtrim">재단선 210 × 297mm</span></div>
+   <div class="safebox"><span class="dim dsafe">안전 영역 · 재단선 안쪽 5mm</span></div>
+   <img class="sample" src="img/sample_backcover.png" alt="">
+  </div>
+  <p class="cap">뒤표지 시안(이 가이드에서 새로 설계, 분권에는 아직 없음)</p>
+ </div>
+</div><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 페이지 템플릿 — 뒤표지</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">14</span></div></div></section>
+<section class="gp tokens"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="ghead"><span class="gnum">13</span><h2>파일 구성과 제작 순서</h2></div>
+<p class="intro">템플릿은 저장소 safeai-kr/dhsoft-manuals에 있다. 디자인 규칙은 고정 프롬프트 한 파일에 모으고, CSS와 쪽 나눔 스크립트 하나를 전 분권·전 언어가 같이 쓴다.</p>
+<div class="tblwrap gtbl"><table><thead><tr><th style="width:230px">파일</th><th>역할</th></tr></thead><tbody>
+<tr><td><b>prompt/SMART-EDC_매뉴얼_디자인_고정프롬프트.md</b></td><td>모든 디자인 규칙과 결정 기록. 바뀐 규칙은 날짜·사례와 함께 여기에 먼저 적는다</td></tr>
+<tr><td><b>template/style.css</b></td><td>표지·목차·간지·본문·표·카드의 모든 토큰 값</td></tr>
+<tr><td><b>template/paginate.js</b></td><td>쪽 나눔, 헤더 가변 높이, 표 첫 열 너비, 제목 끝 줄 보정</td></tr>
+<tr><td><b>template/build.py · make_all.sh</b></td><td>분권 데이터(data/&lt;lang&gt;.json)로 HTML을 만들고 검사까지 한 번에</td></tr>
+<tr><td><b>template/img_localize.py · localize_all.sh</b></td><td>번역본 화면 캡처의 글자 교체(OCR → 검수 → 번역 → 다시 그리기 → 검사)</td></tr>
+<tr><td><b>tools/place_markers.py</b></td><td>화면 위 번호 원 자리 잡기(가림·겹침 없이)</td></tr>
+<tr><td><b>tools/widen_buttons.py · extend_cut_buttons.py</b></td><td>번역 글자가 긴 버튼·칩 넓히기, 잘린 버튼 완성</td></tr>
+<tr><td><b>template/check*.py</b></td><td>글자·색·복사·얼룩·남은 한글 검사. 모두 불일치 0이어야 넘긴다</td></tr>
+</tbody></table></div>
+<h3 class="gsub">제작 순서</h3>
+<ol class="steps">
+<li>원본 PDF에서 글과 색을 뽑고 고정 프롬프트의 색 표와 맞는지 확인한다. 다르면 멈추고 묻는다.</li>
+<li>분권 데이터를 만들고 build.py로 HTML을 만든다. 캡처 위 번호 원은 place_markers.py가 자리를 잡는다.</li>
+<li>번역본은 캡처 글자를 OCR → 검수 → 번역 → 다시 그리기로 바꾸고, 한글 0 · 얼룩 0을 확인한다.</li>
+<li>Chrome으로 PDF를 만들고 check.py · check_colors.py · check_copy.py를 통과시킨다.</li>
+<li>인쇄용은 216 × 303mm로 내고 DeviceCMYK로 바꾼 뒤 재단선·안전 영역을 눈으로 확인한다.</li>
+</ol><div class="gfoot"><span>SMART EDC 사용자 매뉴얼 디자인 가이드 · 파일 구성과 제작 순서</span><img src="img/smart-edc-logo-footer.png" alt="SMART EDC"><span class="pn">15</span></div></div></section>
+<section class="gp gback"><i class="cm tl"></i><i class="cm tr"></i><i class="cm bl"></i><i class="cm br"></i><div class="trim">
+<div class="cv-top"><img class="cv-logo" src="img/logo.png" alt="DH"></div>
+<div class="bk-info"><p class="bk-t">SMART EDC 사용자 매뉴얼 디자인 가이드</p><p class="bk-s">템플릿 v6 · 2026-11-09<br>작성 hy0909 · 디에이치소프트<br>연락처 · 주소 [확인 필요]</p></div>
+<div class="cv-bottom"><span class="cv-kind">© 디에이치소프트. 이 문서의 디자인 토큰과 템플릿은 SMART EDC 매뉴얼 제작에만 쓴다.</span><img class="cv-logo" src="img/logo.png" alt="DH"></div></div></section>
+</body></html>
