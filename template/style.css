@@ -13,7 +13,7 @@ body.lang-en,body.lang-de{--ls:-0.01em}
 body.lang-ja{--ls:0em}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:#fff}
-body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:normal;word-break:keep-all;overflow-wrap:break-word}
+body{font-family:"PretendardM",sans-serif;color:#202630;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-kerning:none;word-break:keep-all;overflow-wrap:break-word}
 body.lang-en,body.lang-de{word-break:normal;hyphens:manual}
 body.lang-en td,body.lang-en th,body.lang-de td,body.lang-de th{hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal}
 body.lang-en td:first-child,body.lang-en th:first-child,body.lang-de td:first-child,body.lang-de th:first-child,body.lang-en table.wide th:nth-child(1),body.lang-de table.wide th:nth-child(1){width:96px}   /* 첫 열이 음절 단위로 쪼개질 만큼 좁아지지 않게 */   /* 좁은 표 열: 낱말을 하이픈 없이 끊지 않고 사전식 하이픈으로 나눈다 */
