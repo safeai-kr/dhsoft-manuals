@@ -1,6 +1,6 @@
 # 일본어(ja) 번역 검수 기록 — CRF 숫자
 
-작성: hy0909 · 2026-10-21
+2026-10-21
 대상: `숫자/data/ja.json`(527), `template/i18n/fixed_ja.json`(19), `숫자/i18n/image_ja.json`(595), `glossary/ja.json`(170)
 
 ## 자체 검사 결과

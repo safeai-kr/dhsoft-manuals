@@ -148,7 +148,7 @@ def process_image(g, name, width_px):
                                   effective_dpi=round(big.width / (mm[0] / 25.4), 1), meets_300dpi_pixels=big.width >= req[0] and big.height >= req[1])
 
 # ---------- 쪽(절) 단위 마크업
-CHEV = '<svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>'
+CHEV = '<svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>'
 def tab(label): return f'<div class="blk tab kwn"><h3><span>{label}</span></h3></div>'
 TONE = {'#b91c1c': 'must', '#1d4ed8': 'misc', '#1a1a1a': 'note'}
 def cards(items, key_prefix):
@@ -272,7 +272,7 @@ if EXPORT:
 
 css = open(f'{HERE}/style.css').read(); js = open(f'{HERE}/paginate.js').read()
 html_doc = ('<!doctype html>\n'
-            f'<html lang="{lang}"><head><meta charset="utf-8"><title>{plain(doc_title)}</title>\n<meta name="author" content="hy0909">\n'
+            f'<html lang="{lang}"><head><meta charset="utf-8"><title>{plain(doc_title)}</title>\n\n'
             f'<style>{css}</style></head>\n<body class="lang-{lang}">\n<div id="src" hidden>\n{cover_html}\n'
             f'<section class="toc" data-title="{FX("목차")}"><div class="flow">{toc_html}</div></section>\n'
             f'{secs_html}</div>\n<div id="book"></div>\n<script>{js}</script>\n</body></html>\n')

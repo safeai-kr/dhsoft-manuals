@@ -12,7 +12,9 @@ GitHub Pages로 배포한 매뉴얼 목록 페이지입니다. 분권별·언어
 
 ```
 prompt/
-  SMART-EDC_매뉴얼_디자인_고정프롬프트.md   디자인·제작·검수 고정 규칙 (v105 기준)
+  SMART-EDC_매뉴얼_디자인_고정프롬프트.md   디자인·제작·검수 고정 규칙 (v107 기준, 2-1절 색 토큰)
+  기준PDF/SMART-EDC_검사패널_매뉴얼_리디자인_v107.pdf        최종 디자인 템플릿 · 화면용 RGB(sRGB)
+  기준PDF/SMART-EDC_검사패널_매뉴얼_리디자인_v107_CMYK.pdf   최종 디자인 템플릿 · 인쇄용 CMYK(216×303mm, 재단 여백 3mm)
 manuals/
   <분권>/<언어>/
     SMART-EDC_사용자매뉴얼_CRF_<분권>_<언어>.html   A4 쪽 형태 HTML (PDF와 같은 템플릿)
@@ -25,6 +27,8 @@ glossary/                   언어별 화면 표기 용어집 (전 분권 공통
 tools/
   widen_buttons.py          번역 캡처의 좁은 버튼·칩 글자 키우기 (고정프롬프트 11절)
   extend_cut_buttons.py     이미지 끝에서 잘린 버튼에 흰 여백을 붙여 마무리 (widen_buttons 다음)
+  export_pdf.py             분권 HTML → 화면용 RGB PDF(sRGB 선언), --cmyk 로 인쇄용 CMYK PDF까지
+  pdf_srgb.py · pdf_cmyk_print.py   export_pdf.py가 쓰는 sRGB 선언 · 인쇄판 변환
 ```
 
 영어·독일어·일본어판의 화면 캡처는 한국어 캡처의 글자 영역만 번역어로 바꾼 것입니다(현지화 UI 재캡처 아님). 좁은 칸은 글자가 많이 축소돼 있으며 `img/quality-manifest.json`과 작업 기록에 정리돼 있습니다.

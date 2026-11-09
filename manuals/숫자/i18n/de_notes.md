@@ -1,6 +1,6 @@
 # 검수 기록 — CRF 숫자 · 독일어(de)
 
-작성: hy0909 · 2026-10-21 · 입력: `data/units_ko.json`(546) · `i18n/image_segments_ko.json`(595 / 22장)
+2026-10-21 · 입력: `data/units_ko.json`(546) · `i18n/image_segments_ko.json`(595 / 22장)
 
 출력: `glossary/de.json`(139항목, 전부 `status: "unconfirmed"`) · `template/i18n/fixed_de.json`(19) · `숫자/data/de.json`(527) · `숫자/i18n/image_de.json`(595)
 

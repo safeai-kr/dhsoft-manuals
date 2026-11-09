@@ -1,6 +1,6 @@
 # 사용자관리 일본어(ja) 번역 메모
 
-작성: hy0909 · 번역 기준: TRANSLATION_BRIEF.md
+번역 기준: TRANSLATION_BRIEF.md
 
 ## 판단이 필요했던 곳
 

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><title>SMART-EDC ユーザーマニュアル — SAE通知 · 権限管理</title>
-<meta name="author" content="hy0909">
 <style>@font-face{font-family:"PretendardM";src:url(fonts/Pretendard-400.ttf) format("truetype");font-weight:400}
 @font-face{font-family:"PretendardM";src:url(fonts/Pretendard-500.ttf) format("truetype");font-weight:500}
 @font-face{font-family:"PretendardM";src:url(fonts/Pretendard-700.ttf) format("truetype");font-weight:700}
@@ -25,7 +24,7 @@ b{font-weight:700;color:#111B2B}
 ul{list-style:none}
 p,li,figcaption,td,th,h4{white-space:pre-wrap}
 /* 코드 칩: 배경은 위아래로만 넓힌다. 좌우로 넓히면 앞뒤 괄호·글자를 덮는다. 좌우 padding/margin은 복사 공백이 생길 수 있어 쓰지 않는다. */
-code{font-family:inherit;color:#202F86;background:#F1F3FE;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+code{font-family:inherit;color:#202F86;background:#EEF1FB;border-radius:3px;padding:2px 0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 a{color:inherit;text-decoration:none}
 
 .page{width:794px;height:1123px;position:relative;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
@@ -42,71 +41,71 @@ a{color:inherit;text-decoration:none}
 .cv-class{font-size:28px;font-weight:700;color:#A6B5FF;line-height:36px;letter-spacing:var(--ls)}
 .cv-title{font-size:82px;font-weight:800;line-height:100px;margin:20px 0 0 -4px;letter-spacing:var(--ls);text-wrap:balance;word-break:keep-all;overflow-wrap:normal}   /* 긴 제목: 줄 균형, 한 낱말이 폭을 넘으면 paginate.js가 글자 크기를 줄인다 */
 .cv-main.noclass{top:378px}   /* 분류 문구(cv-class) 없는 분권: 제목 위치는 CRF 분권과 같게 (322 + 36 + 20) */
-.cv-sub{font-size:20px;color:#DCE5F1;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
+.cv-sub{font-size:20px;color:#D2DCEB;line-height:26px;margin-top:14px;letter-spacing:var(--ls)}
 .cv-bottom{position:absolute;left:56px;right:56px;top:1021px;height:71px;border-top:1px solid rgba(214,227,249,.35);display:flex;justify-content:space-between;align-items:center;padding-top:0}   /* 선 1021px, 글·로고 세로 중심 1057px (hy0909 결정, 2026-10-30) */
-.cv-kind{font-size:16px;color:#CBD5E1;letter-spacing:var(--ls)}
+.cv-kind{font-size:16px;color:#D2DCEB;letter-spacing:var(--ls)}
 .cv-logo{width:110px;height:auto}   /* 예전 138px의 80% */
 
 /* ---------- 뒤표지 (hy0909 결정, 2026-11-09) ---------- */
 .page.back{background:#071426;color:#fff}
 .bk-top{position:absolute;left:56px;top:73px}
 .bk-info{position:absolute;left:56px;right:56px;top:860px;letter-spacing:var(--ls)}
-.bk-kind{font-size:16px;color:#CBD5E1;line-height:22px}
+.bk-kind{font-size:16px;color:#D2DCEB;line-height:22px}
 .bk-title{font-size:16px;color:#D2DCEB;line-height:22px;margin-top:10px}
 .bk-bottom{position:absolute;left:56px;right:56px;bottom:56px;border-top:1px solid rgba(214,227,249,.35);padding-top:12px}   /* 표지와 같은 선. 선 아래 왼쪽에 회사 정보 3줄 + 저작권 1줄, 오른쪽 로고 없음. 쪽 아래 여백 56px, 좌우 여백과 같게 (hy0909 결정, 2026-11-09) */
-.bk-co p{font-size:12px;line-height:18px;color:#CBD5E1;margin:0}
-.bk-copy{display:block;font-size:12px;line-height:18px;color:#8590AE;margin-top:4px}   /* 저작권 줄: 회사 정보보다 한 단계 연한 색, 위 간격 4px */
+.bk-co p{font-size:12px;line-height:18px;color:#D2DCEB;margin:0}
+.bk-copy{display:block;font-size:12px;line-height:18px;color:#94A3B8;margin-top:4px}   /* 저작권 줄: 회사 정보보다 한 단계 연한 색, 위 간격 4px */
 
 /* ---------- 목차 ---------- */
-.toc-h{height:100px;background:#0B1B3A;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
+.toc-h{height:100px;background:#071426;padding:0 56px;display:flex;justify-content:space-between;align-items:center}
 .toc-h h1{font-size:34px;font-weight:700;color:#fff;line-height:40px;letter-spacing:var(--ls)}
 .toc-h .brand{height:22px;width:auto;display:block}   /* 회색 로고(#94A3B8, 80%). 예전 글자(15px)보다 조금 크게 (hy0909 결정, 2026-10-30) */
 .page.toc .area{position:absolute;top:152px;left:56px;right:56px;bottom:60px}
 .tch{margin-bottom:37.33px}
 .tchh{display:flex;align-items:baseline;border-bottom:1px solid #E2E8F0;padding:0 0 3.33px 0}
-.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3349CA;flex:none}
+.tcn{width:20px;padding-left:3px;font-size:16px;font-weight:800;color:#3C55EB;flex:none}
 .tct{margin-left:5.33px;font-size:16px;font-weight:700;color:#111B2B;letter-spacing:var(--ls);line-height:24px}
 .tch ul{margin-top:6px}
 .tch li a{display:flex;align-items:flex-start;padding:3.33px 0;font-size:16px;line-height:24px}
 .tch li:first-child a{padding-top:5.33px}
 .tn{width:26px;margin-left:27.33px;font-weight:700;color:#94A3B8;flex:none;letter-spacing:-0.01em}
-.tt{margin-left:5.33px;flex:1;color:#263341;letter-spacing:var(--ls)}
-.tp{width:24px;text-align:center;font-size:14px;color:#8C96A8;flex:none}
+.tt{margin-left:5.33px;flex:1;color:#202630;letter-spacing:var(--ls)}
+.tp{width:24px;text-align:center;font-size:14px;color:#94A3B8;flex:none}
 
 /* ---------- 간지 ---------- */
-.page.divider{background:#EFF1FA}
-.dlabel{position:absolute;left:56px;top:43px;font-size:14px;color:#405169;line-height:20px;letter-spacing:var(--ls)}
+.page.divider{background:#EEF1FB}
+.dlabel{position:absolute;left:56px;top:43px;font-size:14px;color:#475569;line-height:20px;letter-spacing:var(--ls)}
 .dhead{position:absolute;left:52px;top:140px;right:56px}
-.dnum{font-size:100px;font-weight:800;color:#45517E;line-height:120px;letter-spacing:var(--ls)}
-.dtitle{font-size:52px;font-weight:700;color:#15233A;line-height:66px;margin-top:4px;letter-spacing:var(--ls)}
-.dbar{position:absolute;right:0;width:19px;background:#45517E}
-.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #C8D0DD;padding-top:22px}
+.dnum{font-size:100px;font-weight:800;color:#202F86;line-height:120px;letter-spacing:var(--ls)}
+.dtitle{font-size:52px;font-weight:700;color:#111B2B;line-height:66px;margin-top:4px;letter-spacing:var(--ls)}
+.dbar{position:absolute;right:0;width:19px;background:#202F86}
+.dlist{position:absolute;left:56px;right:60px;top:665px;border-top:1px solid #E2E8F0;padding-top:22px}
 .dlist li{display:flex;align-items:baseline;margin-bottom:20px}
 .dn{width:34px;padding-left:4px;flex:none;font-size:16px;font-weight:700;color:#94A3B8}
-.dt{font-size:18px;color:#26374B;line-height:24px;letter-spacing:var(--ls)}
-.pno{position:absolute;right:56px;top:1063px;font-size:14px;color:#8590AE;line-height:20px}
+.dt{font-size:18px;color:#202630;line-height:24px;letter-spacing:var(--ls)}
+.pno{position:absolute;right:56px;top:1063px;font-size:14px;color:#94A3B8;line-height:20px}
 
 /* ---------- 본문 ---------- */
 .hdr{min-height:98px;background:linear-gradient(90deg,rgba(16,43,114,.92) 0%,rgba(16,43,114,.55) 58%,rgba(16,43,114,.24) 100%),url(img/wave.jpg) center 48%/cover no-repeat;padding:0 56px 16px}
 /* 가변 높이: 한 줄 98px(위 38 + 줄 44 + 아래 16). 제목이 늘면 헤더가 커지고 본문(.area)은 헤더 아래끝 + 22px에서 시작 (paginate.js) */
 .hx{min-width:0}
 .ht{display:flex;align-items:baseline;padding-top:38px;font-size:32px;line-height:44px;font-weight:700;color:#fff;letter-spacing:var(--ls)}
-.hn{color:#B6C1D2;margin-right:14.5px;letter-spacing:-0.01em}
+.hn{color:#94A3B8;margin-right:14.5px;letter-spacing:-0.01em}
 .area{position:absolute;top:120px;left:56px;right:56px;bottom:84px}
-.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12px;line-height:20px;color:#8C96A8}
+.ftr{position:absolute;left:56px;right:56px;top:1064px;display:flex;font-size:12px;line-height:20px;color:#94A3B8}
 .ftr .chn{flex:1}
-.ftr .brand{height:14px;width:auto;align-self:center;margin-right:20px;position:relative;top:-1px}   /* 푸터 글자색 #8C96A8 로고, 1px 위 */
+.ftr .brand{height:14px;width:auto;align-self:center;margin-right:20px;position:relative;top:-1px}   /* 푸터 글자색 #94A3B8 로고, 1px 위 */
 
 .blk{display:block}
 .path{background:#EEF1FB;border-radius:8px;padding:5.33px 10px;font-size:12px;line-height:20px;color:#64748B;display:flex;align-items:center;flex-wrap:wrap}
-.path .lbl{font-weight:700;color:#6B7689;margin-right:5px;white-space:pre}
+.path .lbl{font-weight:700;color:#64748B;margin-right:5px;white-space:pre}
 .path .chev{margin:0 2px;flex:none}
 .tab{margin-top:40px}
 .area>.blk:first-child{margin-top:0!important}
 .path+.tab{margin-top:38px}
 .tab h3{display:flex;align-items:flex-end;font-weight:700}
-.tab h3 span{background:#191F29;color:#fff;font-size:18px;line-height:24px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
-.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #191F29}
+.tab h3 span{background:#111B2B;color:#fff;font-size:18px;line-height:24px;padding:4px 15px;border-radius:8px 8px 0 0;letter-spacing:var(--ls)}
+.tab h3::after{content:"";flex:1;border-bottom:1.5px solid #111B2B}
 .tab+.blk{margin-top:12px}
 .ov p{font-size:14px;line-height:22px;color:#202630;letter-spacing:var(--ls)}
 .ov+.ov{margin-top:6px}
@@ -133,8 +132,8 @@ a{color:inherit;text-decoration:none}
 /* 화면 위 번호: 흰 테두리 바깥에만 연한 회색 그림자(원 모양 그대로, 잘리지 않게 작게) */
 .mk-set,.mk-ref{}
 
-figcaption{margin-top:10px;font-size:12px;line-height:18px;color:#475364;letter-spacing:0}
-figcaption code{color:#475364;background:#E9ECF3}
+figcaption{margin-top:10px;font-size:12px;line-height:18px;color:#475569;letter-spacing:0}
+figcaption code{color:#475569;background:#E2E8F0}
 .fig+.item{margin-top:8px}
 
 .item{display:flex;align-items:flex-start;padding:10px 0}
@@ -148,12 +147,12 @@ figcaption code{color:#475364;background:#E9ECF3}
 .ress{margin-top:12px;margin-left:0}
 .res{display:flex;align-items:flex-start}
 .res+.res{margin-top:8px}
-.res .t{margin-left:10px;flex:1;color:#263341}
+.res .t{margin-left:10px;flex:1;color:#202630}
 .res .t b{color:#111B2B}
 .res .cir{margin-top:0}
 .conn{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
 
-.ref{font-size:10px;font-weight:700;color:#5268B5;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
+.ref{font-size:10px;font-weight:700;color:#3C55EB;position:static;top:auto;vertical-align:3px;line-height:0;letter-spacing:0}
 
 .card{border-radius:8px;padding:14px 14.7px 15px}
 .card+.card{margin-top:7.33px}
@@ -169,7 +168,7 @@ figcaption code{color:#475364;background:#E9ECF3}
 .card.must{background:#FDF2F3}.card.must h4{color:#B91C1C}.card.must .ref{color:#A15E61}.card.must code{background:#F6DCDE;color:inherit}
 .card.misc{background:#FEF9F0}.card.misc h4{color:#885910}.card.misc .ref{color:#927341}.card.misc code{background:#FCE8BF;color:inherit}
 .card.note{background:#F1F5F9}.card.note h4{color:#475569}.card.note .ref{color:#64748B}.card.note code{background:#E2E8F0;color:inherit}
-.card.note li b{color:#334155;font-weight:700}
+.card.note li b{color:#202630;font-weight:700}
 
 .plain ul li{font-size:14px;line-height:22px;color:#202630;padding-left:14px;text-indent:-14px;letter-spacing:var(--ls)}
 .plain ul li+li{margin-top:6px}
@@ -179,8 +178,8 @@ figcaption code{color:#475364;background:#E9ECF3}
 .box p{font-size:14px;line-height:22px;color:#202630}
 
 .tblwrap table{width:100%;border-collapse:collapse;font-size:14px;line-height:20px}
-th{background:#EDF0F5;font-size:12px;font-weight:700;color:#263341;text-align:left;padding:11px 10.7px;vertical-align:top}
-td{padding:12px 10.7px;border-bottom:1px solid #DCE1E8;vertical-align:top;color:#263341}
+th{background:#F1F5F9;font-size:12px;font-weight:700;color:#202630;text-align:left;padding:11px 10.7px;vertical-align:top}
+td{padding:12px 10.7px;border-bottom:1px solid #E2E8F0;vertical-align:top;color:#202630}
 td b{color:#111B2B}
 td.c0,td.c0 b{color:#475569}
 td .ref{vertical-align:3px}
@@ -210,7 +209,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="dhead"><div class="dnum">1</div><h1 class="dtitle" id="ch1">SAE通知</h1></div>
 <ul class="dlist"><li><span class="dn">1.1</span><span class="dt">画面構成</span></li><li><span class="dn">1.2</span><span class="dt">受信者の追加と保存</span></li></ul></section><section class="sec" id="s1-1" data-num="1.1" data-chtitle="1. SAE通知">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">1.1</span><span class="hx">画面構成</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">プロジェクト設定</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">SAE通知</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">プロジェクト設定</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">SAE通知</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>重篤な有害事象（SAE）が発生したときに、<b>誰にメールを送るか</b>を設定し、<b>送信された結果を確認</b>する画面です。メールは人が送るのではなく、<b>有害事象の「SAE 有無」が「いいえ」から「はい」に変わった瞬間にシステムが自動で</b>送信します。どのフィールドがその「SAE 有無」なのかは<b>AE指定</b>画面で決めます。この画面では<b>受信者</b>だけを扱います。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -232,7 +231,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 </div></section>
 <section class="sec" id="s1-2" data-num="1.2" data-chtitle="1. SAE通知">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">1.2</span><span class="hx">受信者の追加と保存</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">SAE通知</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">受信者設定</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">SAE通知</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">受信者設定</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>受信者を<b>1行に1人ずつ</b>入力します。1行は<b>メール</b>と<b>表示名</b>の2つの欄になっており、すべて入力したあと<b>「保存」</b>を押すと反映されます。受信者が1人でも入ると、<b>カード見出しが「受信者 (N名)」に変わり</b>、上の黄色の案内も<b>別の文言に差し替えられます</b>。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -254,7 +253,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="dhead"><div class="dnum">2</div><h1 class="dtitle" id="ch2">ロール一覧・管理</h1></div>
 <ul class="dlist"><li><span class="dn">2.1</span><span class="dt">画面構成</span></li><li><span class="dn">2.2</span><span class="dt">行アクションメニュー</span></li><li><span class="dn">2.3</span><span class="dt">新規カスタムロール</span></li><li><span class="dn">2.4</span><span class="dt">ロールセットのインポート</span></li></ul></section><section class="sec" id="s2-1" data-num="2.1" data-chtitle="2. ロール一覧・管理">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">2.1</span><span class="hx">画面構成</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">プロジェクト設定</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロール一覧</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">プロジェクト設定</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロール一覧</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>このプロジェクトで<b>どのロールが使われているか</b>と<b>各ロールが何人に割り当てられているか</b>を、1つの画面で確認できます。ロールには2種類あります — システムがあらかじめ定めた<b>基本5種</b>と、プロジェクトで直接作成した<b>カスタムロール</b>です。基本ロールは<b>削除したり無効化したりできず</b>、権限だけを調整できます。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -279,7 +278,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 </div></section>
 <section class="sec" id="s2-2" data-num="2.2" data-chtitle="2. ロール一覧・管理">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">2.2</span><span class="hx">行アクションメニュー</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">行アクション</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">行アクション</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>ロールの1行に対してできることは<b>3つ</b>あります。最初の2つは<b>移動</b>で、最後の1つだけが<b>実際に変更する操作</b>です。メニューは<b>押したその行</b>にだけ適用されるため、どのロールの ⋯ を押したのかを先に確認してください。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -296,7 +295,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 </div></section>
 <section class="sec" id="s2-3" data-num="2.3" data-chtitle="2. ロール一覧・管理">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">2.3</span><span class="hx">新規カスタムロール</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">新規カスタムロール</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">新規カスタムロール</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>基本5種では足りないときに、<b>このプロジェクトだけで使うロール</b>を作成します。たとえば、<b>読み取りだけができる参観者</b>のように、基本ロールにない組み合わせが必要なときに使います。ここでは<b>ロールの枠だけ</b>を作成し、<b>どの権限を与えるかは作成後に</b>権限編集画面で決めます <span class="ref">4.1</span>。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -315,7 +314,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 </div></section>
 <section class="sec" id="s2-4" data-num="2.4" data-chtitle="2. ロール一覧・管理">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">2.4</span><span class="hx">ロールセットのインポート</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールセットのインポート</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールセットのインポート</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>他のプロジェクトで<b>「セットをエクスポート」で保存しておいたファイル</b>を、このプロジェクトに適用します。同じ構成を複数の試験で繰り返し使うときに使います。<b>適用すると権限がすぐに変わるため</b>、すぐには適用せず、<b>プレビューの段階を一度踏みます</b> — 何が変わるかを確認してから適用します。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -334,7 +333,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="dhead"><div class="dnum">3</div><h1 class="dtitle" id="ch3">ロールの割り当て</h1></div>
 <ul class="dlist"><li><span class="dn">3.1</span><span class="dt">割り当て一覧</span></li><li><span class="dn">3.2</span><span class="dt">新規ロール割り当て</span></li></ul></section><section class="sec" id="s3-1" data-num="3.1" data-chtitle="3. ロールの割り当て">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">3.1</span><span class="hx">割り当て一覧</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールの割り当て</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールの割り当て</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p><b>誰がどのロールでこのプロジェクトに参加するか</b>を管理する画面です。ロール一覧が<b>ロールの定義</b>を扱うのに対し、ここでは<b>人とロールの結びつき</b>を扱います。1人に<b>担当施設</b>と<b>有効期間</b>をあわせて指定でき、期間が終わると自動的に効力がなくなるようにすることもできます。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -355,7 +354,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 </div></section>
 <section class="sec" id="s3-2" data-num="3.2" data-chtitle="3. ロールの割り当て">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">3.2</span><span class="hx">新規ロール割り当て</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロールの割り当て</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">新規ロール割り当て</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロールの割り当て</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">新規ロール割り当て</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>1人にロールを割り当てるダイアログです。<b>ユーザー</b>と<b>ロール</b>の2つを決めれば割り当てられ、<b>担当施設</b>と<b>有効期間</b>は必要なときだけ指定します。ロール一覧の<b>「割り当てる」</b>から入った場合は、<b>ロールがすでに入力されているため</b>、人を選ぶだけで済みます — キャプチャがその状態です。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -378,7 +377,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 <div class="dhead"><div class="dnum">4</div><h1 class="dtitle" id="ch4">権限の確認と履歴</h1></div>
 <ul class="dlist"><li><span class="dn">4.1</span><span class="dt">ロール・権限マトリクス</span></li><li><span class="dn">4.2</span><span class="dt">基本ロールテンプレート</span></li><li><span class="dn">4.3</span><span class="dt">ロールの変更履歴</span></li></ul></section><section class="sec" id="s4-1" data-num="4.1" data-chtitle="4. 権限の確認と履歴">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">4.1</span><span class="hx">ロール・権限マトリクス</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">権限マトリクス</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">権限マトリクス</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p><b>どのロールが何をできるか</b>を1つの表で確認して編集します。<b>権限が行、ロールが列</b>で、交差する欄のチェックがそのロールの権限です。権限は数が多いため、<b>ドメインごとに折りたためるグループ</b>にまとめられ、上の<b>検索</b>で絞り込んで探せます。<b>変更内容は「保存」を押して初めて</b>反映されます。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -399,7 +398,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 </div></section>
 <section class="sec" id="s4-2" data-num="4.2" data-chtitle="4. 権限の確認と履歴">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">4.2</span><span class="hx">基本ロールテンプレート</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールテンプレート</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールテンプレート</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>基本5種のロールが<b>もともとどのようなロールか</b>を説明する<b>読み取り専用</b>の画面です。各ロールの<b>主な責任</b>と<b>その責任の規制上の根拠</b>がカードにまとめられており、権限を調整する前に、<b>そのロールがなぜその権限を持つのか</b>を確認するために使います。<b>プロジェクトごとのロールとは無関係の原本</b>なので、ここでは何も変更されません。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>
@@ -417,7 +416,7 @@ table.wide th:nth-child(1){width:61px}body.lang-en table.wide th:nth-child(4),bo
 </div></section>
 <section class="sec" id="s4-3" data-num="4.3" data-chtitle="4. 権限の確認と履歴">
 <template class="hdr-tpl"><h2 class="ht"><span class="hn">4.3</span><span class="hx">ロールの変更履歴</span></h2></template>
-<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#A3ADBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールの変更履歴</span></div>
+<div class="flow"><div class="blk path kwn"><span class="lbl">パス </span><span class="pi">ロール一覧</span><svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span class="pi">ロールの変更履歴</span></div>
 <div class="blk tab kwn"><h3><span>概要</span></h3></div>
 <div class="blk ov"><p>ロールと割り当てが<b>いつ · 誰に · 何からどう変わったか</b>をまとめて確認する画面です。<b>追記のみ可能</b>なので、一度記録された行は修正も削除もできません — 誤って記録されたものがある場合は、<b>訂正する新しい行を追加</b>する方法で正します。画面は<b>人の割り当て履歴</b>が基本で、<b>ロールそのものの変更</b>は一番下に別にあります。</p></div>
 <div class="blk tab kwn"><h3><span>画面説明</span></h3></div>

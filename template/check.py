@@ -8,6 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 vol, lang = sys.argv[1], sys.argv[2]
 png = sys.argv[sys.argv.index('--png') + 1] if '--png' in sys.argv else None
 OUT = f'{ROOT}/manuals/{vol}/{lang}'; F = f'{OUT}/SMART-EDC_사용자매뉴얼_{vol}_{lang}.html'
+if not os.path.exists(F): F = f'{OUT}/SMART-EDC_사용자매뉴얼_CRF_{vol}_{lang}.html'   # CRF 필드 분권은 파일 이름에 CRF_가 붙는다
 JS = r'''() => {
   const pages = [...document.querySelectorAll('.page')];
   const r = {pages: pages.length, header: [], overflow: [], fill: [], balanced: [], refs: [], hangul: 0, badTitles: []};

@@ -1,6 +1,6 @@
 # 교차 검수 기록 — CRF 숫자 · 독일어(de)
 
-작성: hy0909 · 2026-10-21 · 기준: REVIEW_BRIEF.md, TRANSLATION_BRIEF.md, 고정프롬프트 1·9·11절
+2026-10-21 · 기준: REVIEW_BRIEF.md, TRANSLATION_BRIEF.md, 고정프롬프트 1·9·11절
 대상: `숫자/data/de.json`(527) · `template/i18n/fixed_de.json`(19) · `숫자/i18n/image_de.json`(600, 교정·추가분 포함) · `glossary/de.json`
 
 결과: 본문 6건, 이미지 11건(같은 문구 반복 포함) 수정. 키 추가·삭제 없음. 한글 0자, `<b>`·`<code>`·엔티티·①~④·⛔/⚠·괄호 참조 개수 원문과 동일(스크립트 확인). 숫자 대조 차이는 `앞자리 0`→„führende Nullen“, `1차`→„primäre“뿐(의미 동일).
