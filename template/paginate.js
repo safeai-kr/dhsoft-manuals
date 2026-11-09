@@ -320,7 +320,7 @@
   // 표지 제목: 한 낱말(예: DE „Untersuchungspanel“)이 폭을 넘으면 넘지 않을 때까지 글자 크기를 줄인다(가변 높이 법칙과 같은 취지)
   document.querySelectorAll('.cv-title').forEach(t => {
     let fs = parseFloat(getComputedStyle(t).fontSize);
-    while (t.scrollWidth > t.clientWidth + 1 && fs > 48) { fs -= 1.5; t.style.fontSize = fs + 'px'; t.style.lineHeight = (fs * 1.21) + 'px'; }
+    while (t.scrollWidth > t.clientWidth + 1 && fs > 48) { fs -= 2; t.style.fontSize = fs + 'px'; t.style.lineHeight = (Math.round(fs * 1.21 / 2) * 2) + 'px'; }   // 글자 크기·줄 높이는 짝수 px (2026-11-09)
   });
   window.__pageMap = pageMap;
   window.__pageCount = pno;

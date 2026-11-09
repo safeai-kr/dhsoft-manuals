@@ -47,7 +47,7 @@ def _xy(dia, fs, s):
 BLUE, GRAY = '#3C55EB', '#64748B'
 def circle(kind, n, where):
     """kind: set/res/ref · where: legend(14) / mk(22, 그림 위) / item(23) / res(22, 결과 설명)"""
-    dia, fs = {'legend': (14, 9), 'mk': (22, 11.4), 'item': (23, 12), 'res': (22, 12)}[where]
+    dia, fs = {'legend': (14, 10), 'mk': (22, 12), 'item': (23, 12), 'res': (22, 12)}[where]
     c = dia / 2; x, y = _xy(dia, fs, str(n))
     if where == 'mk':
         shapes = f'<circle cx="{c}" cy="{c}" r="{c}" fill="#fff"/>'

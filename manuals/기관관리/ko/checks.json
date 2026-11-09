@@ -1,12 +1,12 @@
 {
  "manual": "기관관리",
  "lang": "ko",
- "pages": 18,
+ "pages": 19,
  "js_errors": [],
  "checks": {
   "header_position": {
    "pass": true,
-   "pages": 13,
+   "pages": 14,
    "bad_top": [],
    "bad_gap": [],
    "header_heights": [
@@ -20,7 +20,7 @@
   "no_large_blank": {
    "pass": true,
    "sparse": [],
-   "min_fill_mid_pages": 0.812
+   "min_fill_mid_pages": 0.801
   },
   "short_last_line": {
    "pass": true,
@@ -32,7 +32,7 @@
   },
   "no_hangul": {
    "pass": true,
-   "count": 3351,
+   "count": 3361,
    "applies": false
   }
  },
