@@ -293,7 +293,7 @@ def build_html():
     # 11 뒤표지 템플릿
     pages.append(tmpl_page(True, ('13', '페이지 템플릿 — 뒤표지'), [('적용', '모든 분권의 마지막 쪽 (hy0909 결정, 2026-11-09). paginate.js가 만든다'), ('구성', '왼쪽 위 DH 로고 / 문서 정보 / 하단 선 아래 회사 정보와 저작권'), ('웨이브 이미지', '쓰지 않는다'), ('오른쪽 아래 로고 · 쪽번호', '두지 않는다')],
         [('바탕', '표지 바탕. 재단 여백까지 채운다'), ('로고', 'DH 로고 폭 110px, 왼쪽 56px · 위 73px'), ('문서 정보', '왼쪽 56px · 위 860px. 표지의 구분 문구 16px 표지 구분 문구 + 분권 제목 16px 표지 설명 글(위 간격 10px), 줄 22px'),
-         ('하단 선', '표지와 같은 1021px 가로선'), ('회사 정보', '선 아래 왼쪽 세 줄 12px, 줄 18px, 표지 구분 문구 색. 홈페이지 바닥글 표기 그대로'), ('저작권 문구', '선 아래 오른쪽 「Copyright © 2022 DHSOFT All Rights Reserved.」 12px 간지 쪽번호 색'), ('번역본', '한글을 둘 수 없어 회사 정보는 「DHSOFT」 「Tel.」 두 줄. 주소·대표 표기는 [확인 필요]')],
+         ('하단 선', '쪽 아래 여백 56px(좌우 여백과 같음) 위에 표지와 같은 가로선, 위치 978px'), ('회사 정보', '선 아래 12px부터 왼쪽 세 줄 12px, 줄 18px, 표지 구분 문구 색. 홈페이지 바닥글 표기 그대로'), ('저작권 문구', '회사 정보 아래 4px 띄워 넷째 줄 「Copyright © 2026 DHSOFT All Rights Reserved.」 12px 간지 쪽번호 색. 연도는 발행 연도. 오른쪽은 비운다'), ('번역본', '한글을 둘 수 없어 회사 정보는 「DHSOFT」 「Tel.」 두 줄. 주소·대표 표기는 [확인 필요]')],
         'img/sample_backcover.png', '실제 분권 뒤표지(데이터 내보내기 · 한국어판)'))
     # 12 파일 구성
     pages.append(page('tokens', f'''
@@ -320,8 +320,8 @@ def build_html():
     # 가이드 뒤표지
     pages.append(page('gback', f'''
 <div class="cv-top"><img class="cv-logo" src="img/logo.png" alt="DH"></div>
-<div class="bk-info"><p class="bk-t">SMART EDC 사용자 매뉴얼 디자인 가이드</p><p class="bk-s">{VER}<br>작성 hy0909 · 디에이치소프트<br>연락처 · 주소 [확인 필요]</p></div>
-<div class="cv-bottom"><span class="cv-kind">© 디에이치소프트. 이 문서의 디자인 토큰과 템플릿은 SMART EDC 매뉴얼 제작에만 쓴다.</span><img class="cv-logo" src="img/logo.png" alt="DH"></div>''', None, dark=True))
+<div class="bk-info"><p class="bk-t">SMART EDC 사용자 매뉴얼 디자인 가이드</p><p class="bk-s">{VER} · 작성 hy0909</p></div>
+<div class="bk-bottom"><div class="bk-co"><p>(주)디에이치소프트 | 대표이사 남영광</p><p>Add. 강원도 원주시 마재2로 10, 3-2 디에이치소프트</p><p>Tel. 033-766-7833</p></div><span class="bk-copy">Copyright © 2026 DHSOFT All Rights Reserved.</span></div>''', None, dark=True))
 
     html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>SMART EDC 사용자 매뉴얼 디자인 가이드</title>'
             f'<style>{css}</style><style>{gcss}</style></head><body class="lang-ko">\n{"".join(pages)}</body></html>')
