@@ -29,10 +29,17 @@ Shared reference material (read first):
 - Output must contain NO Hangul at all (U+AC00–U+D7A3 etc.). No "[확인 필요]", no Korean in parentheses next to the translation.
 - Leading/trailing spaces in `ko` must be preserved.
 
-## Style per language (design prompt 1절 ‘언어별 매뉴얼 구성 방향’)
-- en: US English, concise manual style, imperative for instructions, "you" for the reader, sentence case for headings. Keep the source's item count and grouping; do not split items or add abbreviation explanations.
-- de: formal "Sie", clear technical German; make the relation between condition, action and result explicit; do not shorten long terms arbitrarily; no soft hyphens. Decimal numbers stay as in source (they are input values). Sentence-style headings.
-- ja: です・ます調 for explanations, polite instructions (「〜を選択してください」) for operations; state mandatory conditions and prohibitions clearly (do not soften). Standard IT terminology (フィールド, タブ, 保存, 発行, ログイン …). Full-width 、。 in Japanese sentences; Latin tokens half-width; no spaces between Japanese words, a space only around Latin tokens where natural.
+## Style per language (single source of truth — the design prompt 1절 points here; revised 2026-11-09)
+Common rules (all languages):
+- Procedure sentences: the action comes first and its condition stays in the same sentence. Keep the source's number and order of steps; only word order inside a sentence may change.
+- Precaution cards: the hazard, its consequence and how to avoid it must all survive translation. Keep the source sentence structure. After translating, compare every must / never / only / cannot against the source — same strength, nothing softened or sharpened.
+- Terminology: same function, same term. Reuse `glossary/<lang>.json` and `template/fixed.json`; one Korean UI label gets one translation, identical in body text and in screenshot text.
+- Review sheet (append to `i18n/<lang>_notes.md`): read the finished volume once against six questions — perceptibility (readable in the layout), simplicity (plain wording), structure (order and grouping intact), correctness (facts, numbers, references), concision (no padding), motivation (the reader can tell why a step matters). Record only the problems found; no scores.
+- Reader check (optional, decided by hy0909): one or two native users per language perform a task from the volume. Note here anything a reviewer could not judge alone.
+Per language:
+- en: US English, concise manual style, imperative for instructions, "you" for the reader, sentence case for headings. Keep the source's item count and grouping; do not split items or add abbreviation explanations. Do not split sentences by default — only when the meaning would otherwise blur. After translating, list procedure sentences longer than 20 words in `i18n/en_notes.md` (a checklist for review; do not rewrite them automatically).
+- de: formal "Sie", clear technical German. Render source conditions as German conditional clauses and keep the result in the same paragraph; split a sentence only when the meaning would otherwise blur. Do not shorten long compound terms — width and line breaks are the layout's job. No soft hyphens. Decimal numbers stay as in source (they are input values). Sentence-style headings.
+- ja: です・ます調 for explanations, polite instructions (「〜を選択してください」) for operations; state mandatory conditions and prohibitions clearly (do not soften). Keep every explanatory sentence of the source; where a Japanese reader would lose the link between two sentences, choose a connective within the source's meaning — never reorder items. Standard IT terminology (フィールド, タブ, 保存, 発行, ログイン …). Full-width 、。 in Japanese sentences; Latin tokens half-width; no spaces between Japanese words, a space only around Latin tokens where natural.
 
 ## Procedure
 1. Read `glossary/<lang>.json`, `template/fixed.json`, and the volume's `units_ko.json` (+ `data/model.json` only if you need more context).
