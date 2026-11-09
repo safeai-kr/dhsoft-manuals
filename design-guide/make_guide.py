@@ -198,7 +198,7 @@ def build_html():
 <div class="cv-wave"></div><div class="cv-grad"></div>
 <div class="cv-top"><img class="cv-brand" src="img/smart-edc-logo.png" alt="SMART EDC"><span class="cv-sys">임상시험 전자자료수집 시스템</span></div>
 <div class="cv-main noclass"><p class="cv-class">사용자 매뉴얼 템플릿</p><h1 class="cv-title">디자인 가이드</h1><p class="cv-sub">표지 · 목차 · 장 간지 · 본문 · 부록 표 · 뒤표지와 디자인 토큰, 인쇄 사양</p></div>
-<div class="cv-bottom"><span class="cv-kind">{VER} · 작성 hy0909</span><img class="cv-logo" src="img/logo.png" alt="DH"></div>''', None, dark=True))
+<div class="cv-bottom"><span class="cv-kind">{VER}</span><img class="cv-logo" src="img/logo.png" alt="DH"></div>''', None, dark=True))
     # 차례
     toc = ''.join(f'<li><span class="tn">{n}</span><span class="tt">{esc(t)}</span><span class="tp">{i + 3}</span></li>' for i, (n, t) in enumerate(toc_items))
     pages.append(page('gtoc', f'''
@@ -320,7 +320,7 @@ def build_html():
     # 가이드 뒤표지
     pages.append(page('gback', f'''
 <div class="cv-top"><img class="cv-logo" src="img/logo.png" alt="DH"></div>
-<div class="bk-info"><p class="bk-t">SMART EDC 사용자 매뉴얼 디자인 가이드</p><p class="bk-s">{VER} · 작성 hy0909</p></div>
+<div class="bk-info"><p class="bk-t">SMART EDC 사용자 매뉴얼 디자인 가이드</p><p class="bk-s">{VER}</p></div>
 <div class="bk-bottom"><div class="bk-co"><p>(주)디에이치소프트 | 대표이사 남영광</p><p>Add. 강원도 원주시 마재2로 10, 3-2 디에이치소프트</p><p>Tel. 033-766-7833</p></div><span class="bk-copy">Copyright © 2026 DHSOFT All Rights Reserved.</span></div>''', None, dark=True))
 
     html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>SMART EDC 사용자 매뉴얼 디자인 가이드</title>'
