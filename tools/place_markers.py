@@ -5,6 +5,7 @@
 - 빈자리는 가리키던 요소 가까이: 같은 줄 오른쪽·왼쪽, 같은 열 아래·위로 2px씩 넓혀 가며 찾는다. 위아래 거리는 2.5배로 쳐서 같은 줄을 우선한다(위아래로 옮기면 다른 줄·다른 상자 안으로 들어가 엉뚱한 것을 가리킨다).
   최대 이동은 이미지 폭의 25%다. 그 안에 빈자리가 없으면 그대로 둔다(기록에 남긴다).
 - 이미지 밖으로는 나가지 않는다(원 전체가 이미지 안, 가장자리 2px 여유).
+- 원끼리 겹치지 않는다(2026-11-09, Query 2.1 일본어 「1·①」「4·6」「5·5」가 포개짐): 원 중심 사이 거리가 지름 + 4px 이상이어야 한다. 먼저 놓인 원이 자리를 차지하고, 뒤 원이 빈자리를 찾는다.
 - 세로로 비슷한 열에 있는 원들(x 차가 이미지 폭의 4% 안)은 같은 x에서 시작하게 맞춘다. 묶음 가운데 가장 오른쪽 x부터 시도해, 모두 빈자리인 x를 찾으면 거기에 맞춘다.
   없으면 각자 자리에 둔다.
 사용: python3 tools/place_markers.py manuals [--only <분권>/<lang>] [--dry]   (lang: ko en de ja)
@@ -24,6 +25,7 @@ V_PENALTY = 2.5   # 위아래 이동 거리에 곱하는 가중치
 MARGIN = 4        # 원 둘레 여유(px): 이만큼 떨어진 글자도 가린 것으로 본다
 MAX_MOVE = 0.25   # 이미지 폭 대비 최대 이동
 COL_TOL = 0.04    # 같은 열로 묶는 x 차(이미지 폭 대비)
+MK_GAP = 4        # 원과 원 사이 최소 틈(px)
 
 
 def dominant(a):
@@ -57,25 +59,55 @@ class Field:
         if not self.inside(cx, cy): return 1.0
         return float(max(0.0, self.ratio[int(round(cy)), int(round(cx))]))
 
-    def free(self, cx, cy):
-        return self.ink(cx, cy) <= INK_MAX
+    def clear_of(self, cx, cy, occupied):
+        # 다른 원과 겹치지 않는다: 중심 거리 >= 지름 + MK_GAP
+        d = 2 * self.r + MK_GAP
+        return all((cx - ox) ** 2 + (cy - oy) ** 2 >= d * d for ox, oy in occupied)
 
-    def nearest_free(self, cx, cy):
-        """같은 줄 오른쪽·왼쪽, 같은 열 아래·위로 2px씩 찾아 가장 가까운 빈자리. 없으면 None.
-        원래 자리가 이미지 가장자리에 걸쳐 있으면(디자이너가 끝에 붙인 원) 안쪽으로 들어오는 방향에서 첫 빈자리를 찾는다."""
+    def free(self, cx, cy, occupied=()):
+        return self.ink(cx, cy) <= INK_MAX and self.clear_of(cx, cy, occupied)
+
+    def clamp(self, cx, cy):
+        m = self.r + 2
+        return min(max(cx, m), self.W - 1 - m), min(max(cy, m), self.H - 1 - m)
+
+    def nearest_free(self, cx, cy, occupied=()):
+        """가장 가까운 빈자리(모든 방향, 위아래 거리는 V_PENALTY배로 침). 없으면 None.
+        원래 자리가 이미지 가장자리에 걸쳐 있으면(디자이너가 끝에 붙인 원) 먼저 이미지 안으로 끌어들인 자리에서 찾는다.
+        2026-11-09: 네 방향 직선으로만 찾던 것을 격자 전체에서 찾게 바꿈(Query 2.1 일본어 「1·①」「3·4」가 서로 피하지 못하고 겹침)."""
         limit = int(self.W * MAX_MOVE)
-        best = None
-        for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
-            for d in range(STEP, limit + 1, STEP):
-                x, y = cx + dx * d, cy + dy * d
-                if not self.inside(x, y):
-                    if self.inside(cx, cy): break      # 안에서 밖으로 나가는 방향이면 그만
-                    continue                           # 밖에서 안으로 들어오는 중이면 계속
-                if self.free(x, y):
-                    cost = d if dy == 0 else d * V_PENALTY   # 같은 줄(좌우)을 위아래보다 우선: 위아래로 옮기면 다른 줄·다른 상자 안으로 들어간다
-                    if best is None or cost < best[0]: best = (cost, x, y)
-                    break
-        return None if best is None else (best[1], best[2])
+        cx, cy = self.clamp(cx, cy)
+        if self.free(cx, cy, occupied): return (cx, cy)
+        m = int(self.r + 2)
+        y0, y1 = max(m, int(cy - limit)), min(self.H - 1 - m, int(cy + limit))
+        x0, x1 = max(m, int(cx - limit)), min(self.W - 1 - m, int(cx + limit))
+        if y1 < y0 or x1 < x0: return None
+        Y, X = np.mgrid[y0:y1 + 1, x0:x1 + 1]
+        mask = self.ratio[y0:y1 + 1, x0:x1 + 1] <= INK_MAX
+        d2 = (2 * self.r + MK_GAP) ** 2
+        for ox, oy in occupied: mask &= ((X - ox) ** 2 + (Y - oy) ** 2) >= d2
+        if not mask.any(): return None
+        cost = np.abs(X - cx) + V_PENALTY * np.abs(Y - cy)
+        cost = np.where(mask, cost, np.inf)
+        k = int(cost.argmin()); yy, xx = divmod(k, cost.shape[1])
+        return (float(X[yy, xx]), float(Y[yy, xx]))
+
+    def least_ink(self, cx, cy, occupied=()):
+        """빈자리가 없을 때의 차선: 다른 원과 겹치지 않는 자리 가운데 글자를 가장 덜 가리는 곳(거리도 조금 침). 겹치는 것보다 글자를 조금 가리는 쪽이 낫다(2026-11-09)."""
+        limit = int(self.W * MAX_MOVE)
+        cx, cy = self.clamp(cx, cy)
+        m = int(self.r + 2)
+        y0, y1 = max(m, int(cy - limit)), min(self.H - 1 - m, int(cy + limit))
+        x0, x1 = max(m, int(cx - limit)), min(self.W - 1 - m, int(cx + limit))
+        if y1 < y0 or x1 < x0: return None
+        Y, X = np.mgrid[y0:y1 + 1, x0:x1 + 1]
+        mask = np.ones(Y.shape, bool); d2 = (2 * self.r + MK_GAP) ** 2
+        for ox, oy in occupied: mask &= ((X - ox) ** 2 + (Y - oy) ** 2) >= d2
+        if not mask.any(): return None
+        cost = self.ratio[y0:y1 + 1, x0:x1 + 1] + (np.abs(X - cx) + V_PENALTY * np.abs(Y - cy)) / (limit * 20.0)
+        cost = np.where(mask, cost, np.inf)
+        k = int(cost.argmin()); yy, xx = divmod(k, cost.shape[1])
+        return (float(X[yy, xx]), float(Y[yy, xx]))
 
 
 def process(manuals, vol, lang, dry):
@@ -85,7 +117,7 @@ def process(manuals, vol, lang, dry):
     if not hp or not os.path.exists(mf): return 0, 0
     hp = hp[0]; html = open(hp).read(); man = json.load(open(mf))
     img_dir = os.path.join(d, 'img')
-    moved_total = 0; stuck_total = 0
+    moved_total = 0; stuck_total = 0; nonlocal_left = []
 
     def fix_shot(m):
         nonlocal moved_total, stuck_total
@@ -100,12 +132,33 @@ def process(manuals, vol, lang, dry):
             X, Y = float(mk.group(2)), float(mk.group(4))
             cx, cy = X / 100 * W, Y / 100 * W      # margin-top % 도 폭 기준
             items.append({'mk': mk, 'X': X, 'Y': Y, 'cx': cx, 'cy': cy, 'ink0': F.ink(cx, cy), 'nx': cx, 'ny': cy, 'stuck': False})
-        # 1) 가리는 원은 가장 가까운 빈자리로
+        # 처음 자리에서 서로 겹치는 원 수(기록용)
+        overlap0 = sum(1 for a in range(len(items)) for b in range(a) if not F.clear_of(items[a]['cx'], items[a]['cy'], [(items[b]['cx'], items[b]['cy'])]))
+        # 1) 가리는 원, 또는 앞서 놓인 원과 겹치는 원은 가장 가까운 빈자리로 (앞 원이 자리를 차지한다)
+        placed = []
         for it in items:
-            if it['ink0'] <= INK_MAX and F.inside(it['cx'], it['cy']): continue
-            p = F.nearest_free(it['cx'], it['cy'])
-            if p is None: it['stuck'] = True; continue
-            it['nx'], it['ny'] = p
+            if not (it['ink0'] <= INK_MAX and F.inside(it['cx'], it['cy']) and F.clear_of(it['cx'], it['cy'], placed)):
+                p = F.nearest_free(it['cx'], it['cy'], placed)
+                if p is None: it['stuck'] = True; placed.append((it['cx'], it['cy'])); continue
+                it['nx'], it['ny'] = p
+            placed.append((it['nx'], it['ny']))
+        # 1-2) 그래도 서로 겹치는 원이 있으면 뒤 원을, 안 되면 앞 원을 다른 원 전부를 피해 옮긴다(세 번까지)
+        for _ in range(3):
+            moved_any = False
+            for bi in range(len(items)):
+                for ai in range(bi):
+                    a, b_ = items[ai], items[bi]
+                    if F.clear_of(b_['nx'], b_['ny'], [(a['nx'], a['ny'])]): continue
+                    done_ = False
+                    for who in (b_, a):
+                        occ = [(o['nx'], o['ny']) for o in items if o is not who]
+                        p = F.nearest_free(who['cx'], who['cy'], occ)
+                        if p is not None: who['nx'], who['ny'] = p; who['stuck'] = False; moved_any = done_ = True; break
+                    if not done_:   # 빈자리가 없으면 뒤 원을 글자를 가장 덜 가리는 자리로라도 옮긴다
+                        occ = [(o['nx'], o['ny']) for o in items if o is not b_]
+                        p = F.least_ink(b_['cx'], b_['cy'], occ)
+                        if p is not None: b_['nx'], b_['ny'] = p; b_['stuck'] = False; moved_any = True
+            if not moved_any: break
         # 2) 비슷한 열의 원들은 같은 x로: 가장 오른쪽 x부터 왼쪽으로 2px씩 내려가며 모두 빈자리인 x를 찾는다
         groups = []
         for it in sorted(items, key=lambda i: i['nx']):
@@ -116,15 +169,23 @@ def process(manuals, vol, lang, dry):
             xs = sorted({round(i['nx']) for i in g}, reverse=True)
             if len(xs) == 1: continue
             target = None
+            others = [(i['nx'], i['ny']) for i in items if i not in g]
+            def col_ok(x):
+                pts = [(x, i['ny']) for i in g]
+                return all(F.free(x, i['ny'], others) for i in g) and all(F.clear_of(pts[k][0], pts[k][1], pts[:k] + pts[k + 1:]) for k in range(len(pts)))
             for x in range(int(xs[0]), int(xs[-1]) - 1, -STEP):
-                if all(F.free(x, i['ny']) for i in g): target = x; break
+                if col_ok(x): target = x; break
             if target is None:
                 for x in range(int(xs[0]) + STEP, int(xs[0] + COL_TOL * W), STEP):
-                    if all(F.free(x, i['ny']) for i in g): target = x; break
+                    if col_ok(x): target = x; break
             if target is not None:
                 for i in g: i['nx'] = target
         # 3) 기록·치환
         rec = []; out = inner
+        left = sum(1 for a in range(len(items)) for b in range(a) if not F.clear_of(items[a]['nx'], items[a]['ny'], [(items[b]['nx'], items[b]['ny'])]))
+        if (overlap0 or left) and isinstance(man.get('files'), dict):   # CRF 권의 manifest는 files가 목록이라 기록을 건너뛴다
+            man['files'].setdefault(name, {})['markers_overlapped'] = overlap0; man['files'][name]['markers_overlap_left'] = left
+            if left: nonlocal_left.append((name, left))
         for it in reversed(items):
             moved = abs(it['nx'] - it['cx']) >= 1 or abs(it['ny'] - it['cy']) >= 1
             if it['stuck']:
@@ -138,12 +199,13 @@ def process(manuals, vol, lang, dry):
                         'ink_before': round(it['ink0'], 3), 'ink_after': round(F.ink(it['nx'], it['ny']), 3)})
         if rec:
             moved_total += sum(1 for x in rec if 'to_pct' in x); stuck_total += sum(1 for x in rec if x.get('stuck'))
-            if name in man.get('files', {}): man['files'][name]['markers_moved'] = list(reversed(rec))
+            if isinstance(man.get('files'), dict) and name in man['files']: man['files'][name]['markers_moved'] = list(reversed(rec))
         return m.group(0)[:m.start(3) - m.start()] + out + m.group(0)[m.end(3) - m.start():]
 
     new_html = RE_SHOT.sub(fix_shot, html)
     if not dry and new_html != html:
         open(hp, 'w').write(new_html); json.dump(man, open(mf, 'w'), ensure_ascii=False, indent=1)
+    if nonlocal_left: print(vol, lang, '겹침 남음', nonlocal_left)
     return moved_total, stuck_total
 
 
