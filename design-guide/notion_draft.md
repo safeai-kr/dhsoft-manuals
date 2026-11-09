@@ -27,7 +27,7 @@
 | 인쇄용 판 | 화면용 PDF의 글·선·이미지를 모두 DeviceCMYK로 바꿉니다(검정 분리 K = min). 인쇄소 프로파일로 최종 확인 |
 | 이미지 | 화면 캡처는 2배 확대본(300dpi 기준 충족), 웨이브·로고는 원본. 캡처 안 글자는 언어별 글자 교체본을 씁니다 |
 | 글꼴 | 한국어·영어·독일어: Pretendard 400 · 500 · 700 · 800 / 일본어: Pretendard JP. PDF에 포함, 외곽선 변환 없음 |
-| 검사 | 글자·띄어쓰기(check.py), 색(check_colors.py), 미리보기 복사(check_copy.py) 불일치 0일 때만 넘깁니다 |
+| 검사 | 글자·띄어쓰기 `check.py`, 색 `check_colors.py`, 미리보기 복사 `check_copy.py` 불일치 0일 때만 넘깁니다 |
 
 ## 2. 디자인 토큰 — 색
 
@@ -260,18 +260,18 @@
 
 | 파일 | 역할 |
 | --- | --- |
-| prompt/SMART-EDC_매뉴얼_디자인_고정프롬프트.md | 모든 디자인 규칙과 결정 기록. 바뀐 규칙은 날짜·사례와 함께 먼저 적습니다 |
-| template/style.css | 표지·목차·간지·본문·표·카드의 토큰 값 |
-| template/paginate.js | 쪽 나눔, 헤더 가변 높이, 표 첫 열 너비, 제목 끝 줄 보정 |
-| template/build.py · make_all.sh | 분권 데이터로 HTML을 만들고 검사까지 한 번에 |
-| template/img_localize.py · localize_all.sh | 번역본 캡처 글자 교체(OCR → 검수 → 번역 → 다시 그리기 → 검사) |
-| tools/place_markers.py | 화면 위 번호 원 자리 잡기(가림·겹침 없이) |
-| tools/widen_buttons.py · extend_cut_buttons.py | 긴 번역 글자 버튼·칩 넓히기, 잘린 버튼 완성 |
-| template/check*.py | 글자·색·복사·얼룩·남은 한글 검사. 모두 불일치 0이어야 넘깁니다 |
-| design-guide/make_guide.py | 이 가이드 PDF 생성 |
+| `prompt/SMART-EDC_매뉴얼_디자인_고정프롬프트.md` | 모든 디자인 규칙과 결정 기록. 바뀐 규칙은 날짜·사례와 함께 먼저 적습니다 |
+| `template/style.css` | 표지·목차·간지·본문·표·카드의 토큰 값 |
+| `template/paginate.js` | 쪽 나눔, 헤더 가변 높이, 표 첫 열 너비, 제목 끝 줄 보정 |
+| `template/build.py` · `make_all.sh` | 분권 데이터로 HTML을 만들고 검사까지 한 번에 |
+| `template/img_localize.py` · `localize_all.sh` | 번역본 캡처 글자 교체(OCR → 검수 → 번역 → 다시 그리기 → 검사) |
+| `tools/place_markers.py` | 화면 위 번호 원 자리 잡기(가림·겹침 없이) |
+| `tools/widen_buttons.py` · `extend_cut_buttons.py` | 긴 번역 글자 버튼·칩 넓히기, 잘린 버튼 완성 |
+| `template/check*.py` | 글자·색·복사·얼룩·남은 한글 검사. 모두 불일치 0이어야 넘깁니다 |
+| `design-guide/make_guide.py` | 이 가이드 PDF 생성 |
 
 1. 원본 PDF에서 글과 색을 뽑고 고정 프롬프트의 색 표와 맞는지 확인합니다. 다르면 멈추고 묻습니다.
-2. 분권 데이터를 만들고 build.py로 HTML을 만듭니다. 캡처 위 번호 원은 place_markers.py가 자리를 잡습니다.
+2. 분권 데이터를 만들고 `build.py`로 HTML을 만듭니다. 캡처 위 번호 원은 `place_markers.py`가 자리를 잡습니다.
 3. 번역본은 캡처 글자를 OCR → 검수 → 번역 → 다시 그리기로 바꾸고, 한글 0 · 얼룩 0을 확인합니다.
-4. Chrome으로 PDF를 만들고 check.py · check_colors.py · check_copy.py를 통과시킵니다.
+4. Chrome으로 PDF를 만들고 `check.py` · `check_colors.py` · `check_copy.py`를 통과시킵니다.
 5. 인쇄용은 216 × 303mm로 내고 DeviceCMYK로 바꾼 뒤 재단선·안전 영역을 눈으로 확인합니다.
