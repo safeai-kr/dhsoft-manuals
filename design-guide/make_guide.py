@@ -329,6 +329,12 @@ async def render(html_path, back_path):
         pg = await b.new_page(device_scale_factor=2)
         await pg.goto('file://' + back_path); await pg.wait_for_timeout(3000); await pg.evaluate('document.fonts.ready')
         el = await pg.query_selector('.page.back'); await el.screenshot(path=f'{HERE}/img/sample_backcover.png')
+        # 예시 그림도 실제 분권에서 다시 찍는다(2026-11-09). 색·글자를 바꾸면 그림이 따라 바뀐다
+        for sel, name in (('.page.cover', 'sample_cover'), ('#toc', 'sample_toc'), ('.page.divider', 'sample_divider'), ('#s2-1', 'sample_bodyB'), ('#s1-1', 'sample_appendix')):
+            el = await pg.query_selector(sel); await el.screenshot(path=f'{HERE}/img/{name}.png')
+        await pg.goto('file://' + f'{ROOT}/manuals/로그인/ko/SMART-EDC_사용자매뉴얼_로그인_ko.html'); await pg.wait_for_function('window.__done === true', timeout=120000)
+        el = await pg.query_selector('#s1-3'); await el.screenshot(path=f'{HERE}/img/sample_bodyA.png')
+        await pg.goto('file://' + back_path); await pg.wait_for_function('window.__done === true', timeout=120000)
         await pg.goto('file://' + html_path); await pg.wait_for_timeout(1500)
         await pg.evaluate('document.fonts.ready')
         # 노션용 인쇄 사양 그림: 틀 바깥의 치수 글(왼쪽 303mm, 위·아래)까지 들어가게 여백을 두고 찍는다 (2026-11-09 왼쪽 잘림 고침)
