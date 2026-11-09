@@ -352,6 +352,11 @@ async def render(html_path, back_path):
         el = await pg.query_selector('.page'); await el.screenshot(path=f'{HERE}/img/sample_backcover.png')
         await pg.goto('file://' + html_path); await pg.wait_for_timeout(1500)
         await pg.evaluate('document.fonts.ready')
+        # 노션용 인쇄 사양 그림: 틀 바깥의 치수 글(왼쪽 303mm, 위·아래)까지 들어가게 여백을 두고 찍는다 (2026-11-09 왼쪽 잘림 고침)
+        await pg.evaluate("""() => { const f = document.querySelector('.a4frame.diagram'); const w = document.createElement('div'); w.id = 'diagwrap';
+            w.style.cssText = 'display:inline-block;padding:28px 40px;background:#fff'; f.parentNode.insertBefore(w, f); w.appendChild(f); }""")
+        await (await pg.query_selector('#diagwrap')).screenshot(path=f'{HERE}/img/spec_diagram.png', timeout=120000)
+        await pg.evaluate("""() => { const w = document.getElementById('diagwrap'); w.parentNode.insertBefore(w.firstChild, w); w.remove(); }""")
         await pg.pdf(path=f'{HERE}/SMART-EDC_매뉴얼_디자인_가이드.pdf', width='216mm', height='303mm', print_background=True, prefer_css_page_size=True)
         await b.close()
 
