@@ -57,19 +57,19 @@
      "ko": "치식 be-mode 검증 프로젝트 0...",
      "tr": "歯式 be-mode 検証プロジェクト 0...",
      "box_px_orig": [
-      192.5,
-      22.0,
-      132.5,
-      3.0
+      191.0,
+      31.0,
+      193.5,
+      13.5
      ],
-     "font_px": 7.3,
-     "scale": 1.0,
+     "font_px": 24.8,
+     "scale": 0.841,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_1_1_002",
@@ -967,6 +967,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s1_1_1_001",
+     "ko": "치식 be-mode 검증 프로젝트 0...",
+     "tr": "歯式 be-mode 検証プロジェクト 0...",
+     "box_px_orig": [
+      191.0,
+      31.0,
+      193.5,
+      13.5
+     ],
+     "font_px": 24.8,
+     "scale": 0.841,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s1_1_1_029",
      "ko": "버전",
      "tr": "バージョン",
@@ -1038,50 +1057,106 @@
    ],
    "effective_dpi": 870.2,
    "meets_300dpi_pixels": true,
-   "markers_overlapped": 4,
+   "markers_overlapped": 5,
    "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      22.872,
-      8.333
+      22.452,
+      8.337
      ],
      "to_pct": [
-      23.641,
-      8.333
+      23.601,
+      8.353
      ],
-     "dx_px": 39,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 58,
+     "dy_px": 1,
+     "ink_before": 0.041,
      "ink_after": 0.015
     },
     {
      "from_pct": [
-      25.0,
-      3.113
+      92.247,
+      6.079
+     ],
+     "to_pct": [
+      88.396,
+      6.087
+     ],
+     "dx_px": -195,
+     "dy_px": 0,
+     "ink_before": 0.063,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      66.065,
+      11.301
+     ],
+     "to_pct": [
+      66.765,
+      10.52
+     ],
+     "dx_px": 36,
+     "dy_px": -40,
+     "ink_before": 0.067,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      5.444,
+      15.677
+     ],
+     "to_pct": [
+      7.053,
+      15.603
+     ],
+     "dx_px": 82,
+     "dy_px": -4,
+     "ink_before": 0.075,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      17.088,
+      3.115
      ],
      "to_pct": [
       25.65,
       3.113
      ],
-     "dx_px": 33,
+     "dx_px": 435,
      "dy_px": 0,
-     "ink_before": 0.012,
+     "ink_before": 0.131,
      "ink_after": 0.012
     },
     {
      "from_pct": [
-      84.377,
-      6.087
+      87.942,
+      6.079
      ],
      "to_pct": [
       83.747,
       6.087
      ],
-     "dx_px": -32,
+     "dx_px": -213,
      "dy_px": 0,
-     "ink_before": 0.01,
+     "ink_before": 0.013,
      "ink_after": 0.01
+    },
+    {
+     "from_pct": [
+      14.971,
+      6.079
+     ],
+     "to_pct": [
+      16.292,
+      6.58
+     ],
+     "dx_px": 67,
+     "dy_px": 25,
+     "ink_before": 0.043,
+     "ink_after": 0.02
     },
     {
      "from_pct": [
@@ -1095,6 +1170,20 @@
      "dx_px": -64,
      "dy_px": -90,
      "ink_before": 0.014,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      57.949,
+      8.761
+     ],
+     "to_pct": [
+      58.964,
+      8.727
+     ],
+     "dx_px": 52,
+     "dy_px": -2,
+     "ink_before": 0.048,
      "ink_after": 0.02
     }
    ]
@@ -2288,35 +2377,159 @@
    "markers_moved": [
     {
      "from_pct": [
-      29.838,
-      42.697
+      70.185,
+      14.24
+     ],
+     "to_pct": [
+      70.162,
+      18.414
+     ],
+     "dx_px": 0,
+     "dy_px": 67,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.185,
+      25.811
+     ],
+     "to_pct": [
+      70.162,
+      30.025
+     ],
+     "dx_px": 0,
+     "dy_px": 68,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.688,
+      37.488
+     ],
+     "to_pct": [
+      24.532,
+      41.635
+     ],
+     "dx_px": 14,
+     "dy_px": 66,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.185,
+      37.488
+     ],
+     "to_pct": [
+      70.162,
+      41.635
+     ],
+     "dx_px": 0,
+     "dy_px": 66,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.688,
+      46.83
      ],
      "to_pct": [
       30.524,
       42.697
      ],
-     "dx_px": 11,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 110,
+     "dy_px": -66,
+     "ink_before": 0.035,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      75.468,
-      42.697
+      21.353,
+      61.055
+     ],
+     "to_pct": [
+      21.348,
+      61.174
+     ],
+     "dx_px": 0,
+     "dy_px": 2,
+     "ink_before": 0.024,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      92.478,
+      3.943
+     ],
+     "to_pct": [
+      93.633,
+      3.933
+     ],
+     "dx_px": 19,
+     "dy_px": 0,
+     "ink_before": 0.167,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      18.592,
+      17.743
+     ],
+     "to_pct": [
+      19.288,
+      18.414
+     ],
+     "dx_px": 11,
+     "dy_px": 11,
+     "ink_before": 0.04,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      24.325,
+      29.208
+     ],
+     "to_pct": [
+      26.092,
+      32.147
+     ],
+     "dx_px": 28,
+     "dy_px": 47,
+     "ink_before": 0.124,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.185,
+      46.83
      ],
      "to_pct": [
       76.155,
       42.697
      ],
-     "dx_px": 11,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 96,
+     "dy_px": -66,
+     "ink_before": 0.035,
      "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      92.265,
+      71.034
+     ],
+     "to_pct": [
+      93.633,
+      71.036
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.026,
+     "ink_after": 0.011
     }
-   ],
-   "markers_overlapped": 2,
-   "markers_overlap_left": 0
+   ]
   },
   "s2_1_1.png": {
    "name": "s2_1_1.png",
@@ -2336,14 +2549,14 @@
     256
    ],
    "output_px": [
-    1370,
+    1433,
     512
    ],
    "scale": 2,
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 13,
+   "replaced": 14,
    "segments": [
     {
      "id": "s2_1_1_100",
@@ -2564,14 +2777,15 @@
       21.5,
       11.5
      ],
-     "font_px": 22.7,
-     "scale": 0.883,
+     "font_px": 23.1,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": ""
+     "flag": "",
+     "button_completed": true
     },
     {
      "id": "s2_1_1_113",
@@ -2585,6 +2799,25 @@
      ],
      "font_px": 19.4,
      "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_1_1_m01",
+     "ko": "Visit 코드",
+     "tr": "Visit コード",
+     "box_px_orig": [
+      19.0,
+      249.0,
+      48.0,
+      7.0
+     ],
+     "font_px": 19.1,
+     "scale": 0.965,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2685,85 +2918,86 @@
    ],
    "effective_dpi": 254.3,
    "meets_300dpi_pixels": false,
+   "right_margin_added_px": 63,
    "markers_moved": [
     {
      "from_pct": [
-      16.561,
-      33.729
+      15.833,
+      32.246
      ],
      "to_pct": [
-      16.569,
-      34.599
+      15.841,
+      33.217
      ],
      "dx_px": 0,
-     "dy_px": 12,
-     "ink_before": 0.069,
-     "ink_after": 0.02
+     "dy_px": 14,
+     "ink_before": 0.068,
+     "ink_after": 0.014
     },
     {
      "from_pct": [
-      45.942,
-      33.729
+      43.922,
+      32.246
      ],
      "to_pct": [
-      45.912,
-      34.453
+      43.894,
+      33.008
      ],
      "dx_px": 0,
-     "dy_px": 10,
-     "ink_before": 0.037,
+     "dy_px": 11,
+     "ink_before": 0.036,
      "ink_after": 0.017
     },
     {
      "from_pct": [
-      60.278,
-      33.729
+      57.628,
+      32.246
      ],
      "to_pct": [
-      60.292,
-      34.526
+      57.641,
+      33.147
      ],
      "dx_px": 0,
-     "dy_px": 11,
-     "ink_before": 0.142,
+     "dy_px": 13,
+     "ink_before": 0.143,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      80.471,
+      32.246
+     ],
+     "to_pct": [
+      80.461,
+      32.798
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.029,
      "ink_after": 0.019
     },
     {
      "from_pct": [
-      84.172,
-      33.729
+      91.131,
+      32.246
      ],
      "to_pct": [
-      84.161,
-      34.234
+      91.137,
+      32.798
      ],
      "dx_px": 0,
-     "dy_px": 7,
+     "dy_px": 8,
      "ink_before": 0.029,
-     "ink_after": 0.02
+     "ink_after": 0.019
     },
     {
      "from_pct": [
-      95.322,
-      33.729
+      26.832,
+      2.719
      ],
      "to_pct": [
-      95.328,
-      34.234
-     ],
-     "dx_px": 0,
-     "dy_px": 7,
-     "ink_before": 0.029,
-     "ink_after": 0.02
-    },
-    {
-     "from_pct": [
-      28.066,
-      2.844
-     ],
-     "to_pct": [
-      31.241,
-      2.844
+      29.867,
+      2.719
      ],
      "dx_px": 43,
      "dy_px": 0,
@@ -2772,12 +3006,12 @@
     },
     {
      "from_pct": [
-      35.853,
-      20.101
+      34.277,
+      19.217
      ],
      "to_pct": [
-      36.569,
-      20.101
+      34.962,
+      19.217
      ],
      "dx_px": 10,
      "dy_px": 0,
@@ -2786,16 +3020,16 @@
     },
     {
      "from_pct": [
-      41.163,
-      23.552
+      39.353,
+      22.517
      ],
      "to_pct": [
-      45.912,
-      23.577
+      43.894,
+      22.54
      ],
      "dx_px": 65,
      "dy_px": 0,
-     "ink_before": 0.052,
+     "ink_before": 0.049,
      "ink_after": 0.0
     }
    ]
@@ -3320,12 +3554,12 @@
      "tr": "検証ルール テスト 020",
      "box_px_orig": [
       300.0,
-      242.0,
+      247.5,
       53.5,
-      14.0
+      8.5
      ],
-     "font_px": 18.4,
-     "scale": 0.92,
+     "font_px": 18.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -4006,8 +4240,8 @@
       53.0,
       8.5
      ],
-     "font_px": 17.1,
-     "scale": 0.919,
+     "font_px": 16.7,
+     "scale": 0.898,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4020,15 +4254,15 @@
      "ko": "검증 규칙 테스 트 020",
      "tr": "検証ルール テスト 020",
      "box_px_orig": [
-      306.0,
-      241.5,
-      33.5,
-      2.0
+      296.0,
+      246.5,
+      53.5,
+      8.5
      ],
-     "font_px": 4.8,
+     "font_px": 18.5,
      "scale": 1.0,
      "weight": 400,
-     "paragraph_lines": 1,
+     "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "label",
@@ -4077,19 +4311,19 @@
      "ko": "치식 치료 방문",
      "tr": "歯式治療の来院",
      "box_px_orig": [
-      28.0,
+      28.5,
       325.5,
-      75.5,
-      18.5
+      71.5,
+      12.0
      ],
-     "font_px": 22.7,
-     "scale": 0.799,
+     "font_px": 25.6,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_2_1_170",
@@ -4376,25 +4610,6 @@
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_2_1_169",
-     "ko": "치식 치료 방문",
-     "tr": "歯式治療の来院",
-     "box_px_orig": [
-      28.0,
-      325.5,
-      75.5,
-      18.5
-     ],
-     "font_px": 22.7,
-     "scale": 0.799,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -4859,21 +5074,117 @@
    "markers_moved": [
     {
      "from_pct": [
-      65.912,
-      56.648
+      52.136,
+      18.773
+     ],
+     "to_pct": [
+      52.122,
+      23.55
+     ],
+     "dx_px": 0,
+     "dy_px": 68,
+     "ink_before": 0.043,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      5.057,
+      33.995
+     ],
+     "to_pct": [
+      5.728,
+      32.107
+     ],
+     "dx_px": 9,
+     "dy_px": -27,
+     "ink_before": 0.115,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      95.853,
+      40.986
+     ],
+     "to_pct": [
+      95.12,
+      40.594
+     ],
+     "dx_px": -10,
+     "dy_px": -6,
+     "ink_before": 0.1,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      96.738,
+      56.65
+     ],
+     "to_pct": [
+      91.584,
+      49.929
+     ],
+     "dx_px": -73,
+     "dy_px": -95,
+     "ink_before": 0.267,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      35.853,
+      13.021
+     ],
+     "to_pct": [
+      35.502,
+      7.426
+     ],
+     "dx_px": -5,
+     "dy_px": -79,
+     "ink_before": 0.164,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.216,
+      40.986
+     ],
+     "to_pct": [
+      29.986,
+      41.018
+     ],
+     "dx_px": 11,
+     "dy_px": 0,
+     "ink_before": 0.047,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      71.694,
+      49.835
+     ],
+     "to_pct": [
+      69.943,
+      54.455
+     ],
+     "dx_px": -25,
+     "dy_px": 65,
+     "ink_before": 0.199,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      69.127,
+      56.65
      ],
      "to_pct": [
       65.417,
       56.648
      ],
-     "dx_px": -7,
+     "dx_px": -52,
      "dy_px": 0,
      "ink_before": 0.0,
      "ink_after": 0.0
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   }
  }
 }

@@ -660,7 +660,7 @@
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 47,
+   "replaced": 48,
    "segments": [
     {
      "id": "s1_4_1_021",
@@ -1333,18 +1333,18 @@
      "tr": "Select workspace",
      "box_px_orig": [
       177.0,
-      9.0,
-      110.5,
-      27.5
+      16.0,
+      103.0,
+      11.0
      ],
-     "font_px": 27.7,
-     "scale": 0.839,
+     "font_px": 26.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "placeholder",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "x_s1_4_1_000",
@@ -1554,6 +1554,25 @@
      "align": "left",
      "role": "label",
      "flag": ""
+    },
+    {
+     "id": "x_s1_4_1_012",
+     "ko": "미읽음 2",
+     "tr": "Unread 2",
+     "box_px_orig": [
+      2460.5,
+      269.0,
+      33.0,
+      10.5
+     ],
+     "font_px": 18.6,
+     "scale": 0.882,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "center",
+     "role": "badge",
+     "flag": ""
     }
    ],
    "flags": [
@@ -1574,25 +1593,6 @@
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s1_4_1_056",
-     "ko": "워크스페이스 선택",
-     "tr": "Select workspace",
-     "box_px_orig": [
-      177.0,
-      9.0,
-      110.5,
-      27.5
-     ],
-     "font_px": 27.7,
-     "scale": 0.839,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "placeholder",
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
@@ -2545,37 +2545,18 @@
       67.5,
       13.5
      ],
-     "font_px": 24.8,
-     "scale": 0.841,
+     "font_px": 26.5,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "",
+     "button_widened_px": 22
     }
    ],
-   "flags": [
-    {
-     "id": "s2_3_1_086",
-     "ko": "재설정 완료",
-     "tr": "Complete reset",
-     "box_px_orig": [
-      389.5,
-      480.0,
-      67.5,
-      13.5
-     ],
-     "font_px": 24.8,
-     "scale": 0.841,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
-    }
-   ],
+   "flags": [],
    "placed_css_px": [
     361.6,
     355.2

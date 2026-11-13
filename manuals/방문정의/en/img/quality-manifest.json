@@ -57,19 +57,19 @@
      "ko": "치식 be-mode 검증 프로젝트 0...",
      "tr": "Dental be-mode validation project 0...",
      "box_px_orig": [
-      192.5,
-      22.0,
-      132.5,
-      3.0
+      191.0,
+      31.0,
+      193.5,
+      13.5
      ],
-     "font_px": 7.3,
-     "scale": 1.0,
+     "font_px": 23,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_1_1_002",
@@ -967,6 +967,25 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
+     "id": "s1_1_1_001",
+     "ko": "치식 be-mode 검증 프로젝트 0...",
+     "tr": "Dental be-mode validation project 0...",
+     "box_px_orig": [
+      191.0,
+      31.0,
+      193.5,
+      13.5
+     ],
+     "font_px": 23,
+     "scale": 0.78,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
      "id": "s1_1_1_005",
      "ko": "방문 정의 관리",
      "tr": "Visit definition management",
@@ -1114,64 +1133,134 @@
    ],
    "effective_dpi": 870.2,
    "meets_300dpi_pixels": true,
-   "markers_overlapped": 4,
+   "markers_overlapped": 5,
    "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      22.872,
-      8.333
+      22.452,
+      8.337
      ],
      "to_pct": [
-      23.641,
-      8.333
+      23.601,
+      8.353
      ],
-     "dx_px": 39,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 58,
+     "dy_px": 1,
+     "ink_before": 0.041,
      "ink_after": 0.015
     },
     {
      "from_pct": [
-      25.0,
-      3.113
+      92.247,
+      6.079
+     ],
+     "to_pct": [
+      88.574,
+      6.087
+     ],
+     "dx_px": -186,
+     "dy_px": 0,
+     "ink_before": 0.069,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      66.065,
+      11.301
+     ],
+     "to_pct": [
+      66.765,
+      10.52
+     ],
+     "dx_px": 36,
+     "dy_px": -40,
+     "ink_before": 0.065,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      5.444,
+      15.677
+     ],
+     "to_pct": [
+      8.373,
+      14.992
+     ],
+     "dx_px": 149,
+     "dy_px": -35,
+     "ink_before": 0.103,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      17.088,
+      3.115
      ],
      "to_pct": [
       25.65,
       3.113
      ],
-     "dx_px": 33,
+     "dx_px": 435,
      "dy_px": 0,
-     "ink_before": 0.012,
+     "ink_before": 0.139,
      "ink_after": 0.012
     },
     {
      "from_pct": [
-      84.555,
-      6.087
+      87.942,
+      6.079
      ],
      "to_pct": [
       83.924,
       6.087
      ],
-     "dx_px": -32,
+     "dx_px": -204,
      "dy_px": 0,
-     "ink_before": 0.01,
+     "ink_before": 0.013,
      "ink_after": 0.01
     },
     {
      "from_pct": [
-      47.577,
-      11.308
+      14.971,
+      6.079
+     ],
+     "to_pct": [
+      8.373,
+      6.087
+     ],
+     "dx_px": -335,
+     "dy_px": 0,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      47.716,
+      11.301
      ],
      "to_pct": [
       46.69,
       9.693
      ],
-     "dx_px": -45,
+     "dx_px": -52,
      "dy_px": -82,
-     "ink_before": 0.02,
+     "ink_before": 0.024,
      "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      57.949,
+      8.761
+     ],
+     "to_pct": [
+      57.939,
+      7.683
+     ],
+     "dx_px": 0,
+     "dy_px": -55,
+     "ink_before": 0.055,
+     "ink_after": 0.02
     }
    ]
   },
@@ -2378,21 +2467,159 @@
    "markers_moved": [
     {
      "from_pct": [
-      75.468,
-      42.697
+      70.185,
+      14.24
+     ],
+     "to_pct": [
+      70.162,
+      18.414
+     ],
+     "dx_px": 0,
+     "dy_px": 67,
+     "ink_before": 0.085,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.185,
+      25.811
+     ],
+     "to_pct": [
+      70.162,
+      30.025
+     ],
+     "dx_px": 0,
+     "dy_px": 68,
+     "ink_before": 0.163,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.688,
+      37.488
+     ],
+     "to_pct": [
+      28.652,
+      41.635
+     ],
+     "dx_px": 80,
+     "dy_px": 66,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.185,
+      37.488
+     ],
+     "to_pct": [
+      70.162,
+      41.635
+     ],
+     "dx_px": 0,
+     "dy_px": 66,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.688,
+      46.83
+     ],
+     "to_pct": [
+      28.652,
+      54.12
+     ],
+     "dx_px": 80,
+     "dy_px": 117,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      21.353,
+      61.055
+     ],
+     "to_pct": [
+      28.652,
+      61.236
+     ],
+     "dx_px": 117,
+     "dy_px": 3,
+     "ink_before": 0.08,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      92.478,
+      3.943
+     ],
+     "to_pct": [
+      93.633,
+      3.933
+     ],
+     "dx_px": 19,
+     "dy_px": 0,
+     "ink_before": 0.171,
+     "ink_after": 0.017
+    },
+    {
+     "from_pct": [
+      18.592,
+      17.743
+     ],
+     "to_pct": [
+      18.727,
+      20.35
+     ],
+     "dx_px": 2,
+     "dy_px": 42,
+     "ink_before": 0.107,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      24.325,
+      29.208
+     ],
+     "to_pct": [
+      28.652,
+      31.96
+     ],
+     "dx_px": 69,
+     "dy_px": 44,
+     "ink_before": 0.098,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.185,
+      46.83
      ],
      "to_pct": [
       76.155,
       42.697
      ],
-     "dx_px": 11,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 96,
+     "dy_px": -66,
+     "ink_before": 0.035,
      "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      92.265,
+      71.034
+     ],
+     "to_pct": [
+      93.633,
+      71.036
+     ],
+     "dx_px": 22,
+     "dy_px": 0,
+     "ink_before": 0.033,
+     "ink_after": 0.011
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   },
   "s2_1_1.png": {
    "name": "s2_1_1.png",
@@ -2412,14 +2639,14 @@
     256
    ],
    "output_px": [
-    1370,
+    1430,
     512
    ],
    "scale": 2,
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 13,
+   "replaced": 14,
    "segments": [
     {
      "id": "s2_1_1_100",
@@ -2640,14 +2867,15 @@
       21.5,
       11.5
      ],
-     "font_px": 25.2,
-     "scale": 0.981,
+     "font_px": 23.1,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": ""
+     "flag": "",
+     "button_completed": true
     },
     {
      "id": "s2_1_1_113",
@@ -2660,6 +2888,25 @@
       8.0
      ],
      "font_px": 19.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_1_1_m01",
+     "ko": "Visit 코드",
+     "tr": "Visit code",
+     "box_px_orig": [
+      19.0,
+      249.0,
+      48.0,
+      7.0
+     ],
+     "font_px": 19.8,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2799,24 +3046,121 @@
    ],
    "effective_dpi": 254.3,
    "meets_300dpi_pixels": false,
+   "right_margin_added_px": 60,
    "markers_moved": [
     {
      "from_pct": [
-      41.095,
-      21.241
+      15.866,
+      32.314
      ],
      "to_pct": [
-      41.533,
-      21.095
+      15.874,
+      33.287
      ],
-     "dx_px": 6,
-     "dy_px": -2,
-     "ink_before": 0.019,
-     "ink_after": 0.018
+     "dx_px": 0,
+     "dy_px": 14,
+     "ink_before": 0.068,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      44.014,
+      32.314
+     ],
+     "to_pct": [
+      43.986,
+      33.007
+     ],
+     "dx_px": 0,
+     "dy_px": 10,
+     "ink_before": 0.037,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      57.749,
+      32.314
+     ],
+     "to_pct": [
+      57.762,
+      33.287
+     ],
+     "dx_px": 0,
+     "dy_px": 14,
+     "ink_before": 0.143,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      80.64,
+      32.314
+     ],
+     "to_pct": [
+      80.629,
+      32.867
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.029,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      91.322,
+      32.314
+     ],
+     "to_pct": [
+      91.329,
+      32.867
+     ],
+     "dx_px": 0,
+     "dy_px": 8,
+     "ink_before": 0.029,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      26.888,
+      2.725
+     ],
+     "to_pct": [
+      33.776,
+      2.727
+     ],
+     "dx_px": 99,
+     "dy_px": 0,
+     "ink_before": 0.166,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      35.027,
+      5.523
+     ],
+     "to_pct": [
+      37.972,
+      5.524
+     ],
+     "dx_px": 42,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
+    },
+    {
+     "from_pct": [
+      39.436,
+      22.564
+     ],
+     "to_pct": [
+      39.441,
+      20.28
+     ],
+     "dx_px": 0,
+     "dy_px": -33,
+     "ink_before": 0.123,
+     "ink_after": 0.02
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   },
   "s2_2_1.png": {
    "name": "s2_2_1.png",
@@ -3391,12 +3735,12 @@
      "tr": "Validation rule test 020",
      "box_px_orig": [
       300.0,
-      242.0,
+      247.5,
       53.5,
-      14.0
+      8.5
      ],
-     "font_px": 17.2,
-     "scale": 0.86,
+     "font_px": 18.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -4110,8 +4454,8 @@
       53.0,
       8.5
      ],
-     "font_px": 9.7,
-     "scale": 0.522,
+     "font_px": 9.3,
+     "scale": 0.5,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4124,15 +4468,15 @@
      "ko": "검증 규칙 테스 트 020",
      "tr": "Validation rule test 020",
      "box_px_orig": [
-      306.0,
-      241.5,
-      33.5,
-      2.0
+      296.0,
+      246.5,
+      53.5,
+      8.5
      ],
-     "font_px": 4.8,
-     "scale": 1.0,
+     "font_px": 17,
+     "scale": 0.919,
      "weight": 400,
-     "paragraph_lines": 1,
+     "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "label",
@@ -4181,19 +4525,19 @@
      "ko": "치식 치료 방문",
      "tr": "Dental treatment visit",
      "box_px_orig": [
-      28.0,
+      28.5,
       325.5,
-      75.5,
-      18.5
+      71.5,
+      12.0
      ],
-     "font_px": 14.7,
-     "scale": 0.518,
+     "font_px": 25.6,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s3_2_1_170",
@@ -4492,8 +4836,8 @@
       53.0,
       8.5
      ],
-     "font_px": 9.7,
-     "scale": 0.522,
+     "font_px": 9.3,
+     "scale": 0.5,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -4519,25 +4863,6 @@
      "align": "left",
      "role": "label",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_2_1_169",
-     "ko": "치식 치료 방문",
-     "tr": "Dental treatment visit",
-     "box_px_orig": [
-      28.0,
-      325.5,
-      75.5,
-      18.5
-     ],
-     "font_px": 14.7,
-     "scale": 0.518,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_2_1_171",
@@ -5039,21 +5364,117 @@
    "markers_moved": [
     {
      "from_pct": [
-      65.912,
-      56.648
+      52.136,
+      18.773
+     ],
+     "to_pct": [
+      52.122,
+      23.55
+     ],
+     "dx_px": 0,
+     "dy_px": 68,
+     "ink_before": 0.043,
+     "ink_after": 0.012
+    },
+    {
+     "from_pct": [
+      5.057,
+      33.995
+     ],
+     "to_pct": [
+      5.728,
+      32.107
+     ],
+     "dx_px": 9,
+     "dy_px": -27,
+     "ink_before": 0.115,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      95.853,
+      40.986
+     ],
+     "to_pct": [
+      95.12,
+      40.594
+     ],
+     "dx_px": -10,
+     "dy_px": -6,
+     "ink_before": 0.1,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      96.738,
+      56.65
+     ],
+     "to_pct": [
+      91.584,
+      49.929
+     ],
+     "dx_px": -73,
+     "dy_px": -95,
+     "ink_before": 0.267,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      35.853,
+      13.021
+     ],
+     "to_pct": [
+      35.856,
+      7.567
+     ],
+     "dx_px": 0,
+     "dy_px": -77,
+     "ink_before": 0.119,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      29.216,
+      40.986
+     ],
+     "to_pct": [
+      31.683,
+      41.018
+     ],
+     "dx_px": 35,
+     "dy_px": 0,
+     "ink_before": 0.109,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      71.694,
+      49.835
+     ],
+     "to_pct": [
+      69.943,
+      54.455
+     ],
+     "dx_px": -25,
+     "dy_px": 65,
+     "ink_before": 0.166,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      69.127,
+      56.65
      ],
      "to_pct": [
       65.417,
       56.648
      ],
-     "dx_px": -7,
+     "dx_px": -52,
      "dy_px": 0,
      "ink_before": 0.0,
      "ink_after": 0.0
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   }
  }
 }

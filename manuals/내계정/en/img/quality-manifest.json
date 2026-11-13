@@ -343,18 +343,18 @@
      "tr": "16 days until expiry",
      "box_px_orig": [
       73.0,
-      645.0,
-      88.0,
-      16.0
+      651.0,
+      86.0,
+      10.0
      ],
-     "font_px": 20.2,
-     "scale": 0.818,
+     "font_px": 21.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_017",
@@ -739,25 +739,6 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s1_1_1_016",
-     "ko": "만료까지 16일 남음",
-     "tr": "16 days until expiry",
-     "box_px_orig": [
-      73.0,
-      645.0,
-      88.0,
-      16.0
-     ],
-     "font_px": 20.2,
-     "scale": 0.818,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s1_1_1_017",
      "ko": "변경",
      "tr": "Change",
@@ -913,6 +894,48 @@
      ],
      "stuck": true,
      "ink": 0.148
+    },
+    {
+     "from_pct": [
+      12.891,
+      44.044
+     ],
+     "to_pct": [
+      21.429,
+      44.077
+     ],
+     "dx_px": 147,
+     "dy_px": 1,
+     "ink_before": 0.118,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      16.006,
+      64.812
+     ],
+     "to_pct": [
+      29.617,
+      64.925
+     ],
+     "dx_px": 234,
+     "dy_px": 2,
+     "ink_before": 0.105,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      21.925,
+      104.48
+     ],
+     "to_pct": [
+      31.359,
+      104.472
+     ],
+     "dx_px": 162,
+     "dy_px": 0,
+     "ink_before": 0.106,
+     "ink_after": 0.019
     }
    ]
   },
@@ -2641,10 +2664,10 @@
       59.5,
       133.0,
       396.0,
-      19.5
+      11.5
      ],
-     "font_px": 25,
-     "scale": 0.94,
+     "font_px": 24.9,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -3022,7 +3045,7 @@
      ],
      "dx_px": 0,
      "dy_px": 97,
-     "ink_before": 0.232,
+     "ink_before": 0.201,
      "ink_after": 0.019
     },
     {
@@ -4251,31 +4274,101 @@
    "markers_moved": [
     {
      "from_pct": [
-      81.006,
-      21.802
+      13.903,
+      18.557
+     ],
+     "to_pct": [
+      17.161,
+      21.1
+     ],
+     "dx_px": 84,
+     "dy_px": 65,
+     "ink_before": 0.038,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      39.15,
+      18.557
+     ],
+     "to_pct": [
+      39.158,
+      21.1
+     ],
+     "dx_px": 0,
+     "dy_px": 65,
+     "ink_before": 0.038,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      62.845,
+      18.557
+     ],
+     "to_pct": [
+      62.832,
+      21.1
+     ],
+     "dx_px": 0,
+     "dy_px": 65,
+     "ink_before": 0.038,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      85.059,
+      18.557
+     ],
+     "to_pct": [
+      85.062,
+      21.1
+     ],
+     "dx_px": 0,
+     "dy_px": 65,
+     "ink_before": 0.042,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      87.104,
+      21.801
      ],
      "to_pct": [
       80.46,
       21.802
      ],
-     "dx_px": -14,
+     "dx_px": -170,
      "dy_px": 0,
      "ink_before": 0.012,
      "ink_after": 0.012
     },
     {
      "from_pct": [
-      81.006,
-      27.73
+      71.025,
+      27.725
      ],
      "to_pct": [
       80.46,
       27.73
      ],
-     "dx_px": -14,
+     "dx_px": 242,
      "dy_px": 0,
-     "ink_before": 0.014,
+     "ink_before": 0.084,
      "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      61.858,
+      40.842
+     ],
+     "to_pct": [
+      62.832,
+      40.842
+     ],
+     "dx_px": 25,
+     "dy_px": 0,
+     "ink_before": 0.0,
+     "ink_after": 0.0
     }
    ]
   },
@@ -4506,14 +4599,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_170",
@@ -4525,14 +4619,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_171",
@@ -4544,14 +4639,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_172",
@@ -4563,14 +4659,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.9,
-     "scale": 0.597,
+     "font_px": 14.5,
+     "scale": 0.671,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_173",
@@ -4582,14 +4679,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_174",
@@ -4601,14 +4699,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.9,
-     "scale": 0.597,
+     "font_px": 14.5,
+     "scale": 0.671,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_175",
@@ -4620,14 +4719,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_176",
@@ -4639,14 +4739,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_177",
@@ -4658,14 +4759,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_178",
@@ -4677,14 +4779,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_179",
@@ -4696,14 +4799,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_180",
@@ -4715,14 +4819,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_181",
@@ -4734,14 +4839,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     }
    ],
    "flags": [
@@ -4793,14 +4899,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_170",
@@ -4812,14 +4919,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_171",
@@ -4831,14 +4939,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_172",
@@ -4850,14 +4959,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.9,
-     "scale": 0.597,
+     "font_px": 14.5,
+     "scale": 0.671,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_173",
@@ -4869,14 +4979,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_174",
@@ -4888,14 +4999,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.9,
-     "scale": 0.597,
+     "font_px": 14.5,
+     "scale": 0.671,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_175",
@@ -4907,14 +5019,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_176",
@@ -4926,14 +5039,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_177",
@@ -4945,14 +5059,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_178",
@@ -4964,14 +5079,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_179",
@@ -4983,14 +5099,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_180",
@@ -5002,14 +5119,15 @@
       27.5,
       9.5
      ],
-     "font_px": 12.5,
-     "scale": 0.579,
+     "font_px": 14.5,
+     "scale": 0.672,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     },
     {
      "id": "s3_3_1_181",
@@ -5021,14 +5139,15 @@
       27.0,
       9.5
      ],
-     "font_px": 12.7,
-     "scale": 0.599,
+     "font_px": 14.5,
+     "scale": 0.684,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 20
     }
    ],
    "placed_css_px": [

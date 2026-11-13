@@ -3,7 +3,7 @@
  "method": "한국어 글자 자리를 바탕색으로 덮고 번역어를 Pretendard(일본어 Pretendard JP)로 다시 그림. 생성형 AI 사용 안 함",
  "files": {
   "s1_1_1.png": {
-   "replaced": 80,
+   "replaced": 81,
    "segments": [
     {
      "id": "s1_1_1_000",
@@ -1397,17 +1397,17 @@
      "ko": "편집",
      "tr": "編集",
      "box_px_orig": [
-      2467.0,
-      511.0,
-      46.0,
-      30.5
+      2478.0,
+      520.5,
+      21.5,
+      12.0
      ],
-     "font_px": 53.8,
-     "scale": 0.879,
+     "font_px": 26.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "button",
      "flag": ""
     },
@@ -1455,16 +1455,16 @@
      "tr": "編集",
      "box_px_orig": [
       2478.0,
-      658.0,
-      35.0,
-      30.5
+      667.5,
+      21.5,
+      12.0
      ],
-     "font_px": 41.9,
-     "scale": 0.901,
+     "font_px": 26.6,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
-     "align": "left",
+     "align": "center",
      "role": "button",
      "flag": ""
     },
@@ -1523,6 +1523,25 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_1_1_008",
+     "ko": "메뉴",
+     "tr": "メニュー",
+     "box_px_orig": [
+      2.0,
+      72.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 21.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
      "flag": ""
     }
    ],
@@ -4879,11 +4898,11 @@
      "box_px_orig": [
       252.0,
       81.5,
-      78.0,
-      32.0
+      77.0,
+      19.5
      ],
-     "font_px": 41.3,
-     "scale": 0.902,
+     "font_px": 41.6,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,

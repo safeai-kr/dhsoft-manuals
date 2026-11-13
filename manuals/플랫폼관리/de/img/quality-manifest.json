@@ -31,7 +31,7 @@
    "scale_from_orig": 2.0,
    "method": "PIL Lanczos + UnsharpMask(r=1.0, 35%, t=3)",
    "localized": true,
-   "replaced": 80,
+   "replaced": 81,
    "segments": [
     {
      "id": "s1_1_1_000",
@@ -1380,7 +1380,8 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 4
     },
     {
      "id": "s1_1_1_072",
@@ -1399,7 +1400,8 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 4
     },
     {
      "id": "s1_1_1_073",
@@ -1425,19 +1427,19 @@
      "ko": "편집",
      "tr": "Bearbeiten",
      "box_px_orig": [
-      2467.0,
-      511.0,
-      46.0,
-      30.5
+      2478.0,
+      520.5,
+      21.5,
+      12.0
      ],
-     "font_px": 26.9,
-     "scale": 0.44,
+     "font_px": 12.8,
+     "scale": 0.481,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_075",
@@ -1475,7 +1477,8 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 4
     },
     {
      "id": "s1_1_1_077",
@@ -1483,18 +1486,18 @@
      "tr": "Bearbeiten",
      "box_px_orig": [
       2478.0,
-      658.0,
-      35.0,
-      30.5
+      667.5,
+      21.5,
+      12.0
      ],
-     "font_px": 20.5,
-     "scale": 0.441,
+     "font_px": 12.8,
+     "scale": 0.481,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_078",
@@ -1551,6 +1554,25 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_1_1_008",
+     "ko": "메뉴",
+     "tr": "Menü",
+     "box_px_orig": [
+      2.0,
+      72.5,
+      18.5,
+      9.5
+     ],
+     "font_px": 21.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
      "flag": ""
     }
    ],
@@ -1667,7 +1689,8 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 4
     },
     {
      "id": "s1_1_1_072",
@@ -1686,7 +1709,8 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 4
     },
     {
      "id": "s1_1_1_073",
@@ -1712,19 +1736,19 @@
      "ko": "편집",
      "tr": "Bearbeiten",
      "box_px_orig": [
-      2467.0,
-      511.0,
-      46.0,
-      30.5
+      2478.0,
+      520.5,
+      21.5,
+      12.0
      ],
-     "font_px": 26.9,
-     "scale": 0.44,
+     "font_px": 12.8,
+     "scale": 0.481,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_075",
@@ -1762,7 +1786,8 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 축소 한계 미만",
+     "button_widened_px": 4
     },
     {
      "id": "s1_1_1_077",
@@ -1770,18 +1795,18 @@
      "tr": "Bearbeiten",
      "box_px_orig": [
       2478.0,
-      658.0,
-      35.0,
-      30.5
+      667.5,
+      21.5,
+      12.0
      ],
-     "font_px": 20.5,
-     "scale": 0.441,
+     "font_px": 12.8,
+     "scale": 0.481,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 45%로도 넘침"
+     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s1_1_1_078",
@@ -1841,17 +1866,157 @@
    "markers_moved": [
     {
      "from_pct": [
-      80.996,
+      25.98,
+      7.208
+     ],
+     "to_pct": [
+      35.112,
+      6.558
+     ],
+     "dx_px": 464,
+     "dy_px": -33,
+     "ink_before": 0.03,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      10.737
+     ],
+     "to_pct": [
+      29.933,
+      12.918
+     ],
+     "dx_px": 0,
+     "dy_px": 111,
+     "ink_before": 0.041,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      72.981,
+      10.737
+     ],
+     "to_pct": [
+      77.727,
+      10.89
+     ],
+     "dx_px": 241,
+     "dy_px": 8,
+     "ink_before": 0.037,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      93.447,
+      10.878
+     ],
+     "to_pct": [
+      94.289,
+      10.878
+     ],
+     "dx_px": 43,
+     "dy_px": 0,
+     "ink_before": 0.011,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      94.999,
+      20.617
+     ],
+     "to_pct": [
+      94.289,
+      20.126
+     ],
+     "dx_px": -36,
+     "dy_px": -25,
+     "ink_before": 0.022,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      5.938,
+      11.301
+     ],
+     "to_pct": [
+      8.33,
+      12.702
+     ],
+     "dx_px": 121,
+     "dy_px": 71,
+     "ink_before": 0.095,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      21.464,
+      5.444
+     ],
+     "to_pct": [
+      22.174,
+      2.659
+     ],
+     "dx_px": 36,
+     "dy_px": -141,
+     "ink_before": 0.066,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      61.548,
+      13.207
+     ],
+     "to_pct": [
+      62.406,
       13.214
+     ],
+     "dx_px": 44,
+     "dy_px": 0,
+     "ink_before": 0.041,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      70.723,
+      13.207
+     ],
+     "to_pct": [
+      71.17,
+      13.549
+     ],
+     "dx_px": 23,
+     "dy_px": 17,
+     "ink_before": 0.033,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      79.191,
+      13.207
      ],
      "to_pct": [
       81.764,
       13.214
      ],
-     "dx_px": 39,
+     "dx_px": 131,
      "dy_px": 0,
-     "ink_before": 0.01,
+     "ink_before": 0.019,
      "ink_after": 0.01
+    },
+    {
+     "from_pct": [
+      18.782,
+      15.112
+     ],
+     "to_pct": [
+      22.174,
+      15.104
+     ],
+     "dx_px": 172,
+     "dy_px": 0,
+     "ink_before": 0.066,
+     "ink_after": 0.02
     }
    ]
   },
@@ -3165,35 +3330,133 @@
    ],
    "effective_dpi": 869.1,
    "meets_300dpi_pixels": true,
-   "markers_overlapped": 2,
+   "markers_overlapped": 3,
    "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      93.945,
-      15.444
+      16.1,
+      7.208
      ],
      "to_pct": [
-      93.629,
-      16.134
+      16.075,
+      11.519
      ],
-     "dx_px": -16,
-     "dy_px": 35,
-     "ink_before": 0.018,
+     "dx_px": -1,
+     "dy_px": 219,
+     "ink_before": 0.057,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      28.757,
-      13.629
+      93.235,
+      11.301
+     ],
+     "to_pct": [
+      93.235,
+      11.499
+     ],
+     "dx_px": 0,
+     "dy_px": 10,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      93.941,
+      14.548
+     ],
+     "to_pct": [
+      89.724,
+      14.556
+     ],
+     "dx_px": -214,
+     "dy_px": 0,
+     "ink_before": 0.014,
+     "ink_after": 0.01
+    },
+    {
+     "from_pct": [
+      21.181,
+      12.289
+     ],
+     "to_pct": [
+      24.753,
+      13.432
+     ],
+     "dx_px": 181,
+     "dy_px": 58,
+     "ink_before": 0.078,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      5.938,
+      12.572
+     ],
+     "to_pct": [
+      8.008,
+      13.077
+     ],
+     "dx_px": 105,
+     "dy_px": 26,
+     "ink_before": 0.092,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      23.934,
+      5.373
+     ],
+     "to_pct": [
+      24.753,
+      2.564
+     ],
+     "dx_px": 42,
+     "dy_px": -142,
+     "ink_before": 0.056,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      32.473,
+      11.795
+     ],
+     "to_pct": [
+      33.274,
+      11.795
+     ],
+     "dx_px": 41,
+     "dy_px": 0,
+     "ink_before": 0.034,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      62.748,
+      14.548
+     ],
+     "to_pct": [
+      63.254,
+      14.556
+     ],
+     "dx_px": 26,
+     "dy_px": 0,
+     "ink_before": 0.049,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      24.428,
+      9.325
      ],
      "to_pct": [
       29.231,
       14.714
      ],
-     "dx_px": 24,
-     "dy_px": 55,
-     "ink_before": 0.02,
+     "dx_px": 244,
+     "dy_px": 273,
+     "ink_before": 0.074,
      "ink_after": 0.02
     }
    ]
@@ -3587,21 +3850,117 @@
    "markers_moved": [
     {
      "from_pct": [
-      63.318,
+      90.398,
+      22.423
+     ],
+     "to_pct": [
+      91.629,
+      22.451
+     ],
+     "dx_px": 16,
+     "dy_px": 0,
+     "ink_before": 0.136,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      90.398,
+      35.334
+     ],
+     "to_pct": [
+      91.629,
+      35.312
+     ],
+     "dx_px": 16,
+     "dy_px": 0,
+     "ink_before": 0.136,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      90.398,
+      45.461
+     ],
+     "to_pct": [
+      91.629,
+      45.434
+     ],
+     "dx_px": 16,
+     "dy_px": 0,
+     "ink_before": 0.136,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      90.398,
+      57.359
+     ],
+     "to_pct": [
+      91.629,
       57.382
+     ],
+     "dx_px": 16,
+     "dy_px": 0,
+     "ink_before": 0.136,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      54.575,
+      26.98
+     ],
+     "to_pct": [
+      54.566,
+      16.895
+     ],
+     "dx_px": 0,
+     "dy_px": -133,
+     "ink_before": 0.118,
+     "ink_after": 0.018
+    },
+    {
+     "from_pct": [
+      41.41,
+      49.891
+     ],
+     "to_pct": [
+      44.444,
+      51.674
+     ],
+     "dx_px": 40,
+     "dy_px": 23,
+     "ink_before": 0.095,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      76.853,
+      49.891
+     ],
+     "to_pct": [
+      68.645,
+      53.805
+     ],
+     "dx_px": -108,
+     "dy_px": 51,
+     "ink_before": 0.105,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      64.575,
+      57.359
      ],
      "to_pct": [
       62.405,
       57.382
      ],
-     "dx_px": -12,
+     "dx_px": -29,
      "dy_px": 0,
      "ink_before": 0.0,
      "ink_after": 0.0
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   },
   "s3_1_1.png": {
    "name": "s3_1_1.png",
@@ -4286,14 +4645,15 @@
       48.0,
       10.0
      ],
-     "font_px": 9.7,
-     "scale": 0.443,
+     "font_px": 19.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 118
     },
     {
      "id": "s3_1_1_183",
@@ -4305,14 +4665,15 @@
       48.0,
       10.0
      ],
-     "font_px": 11,
-     "scale": 0.502,
+     "font_px": 19.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 116
     },
     {
      "id": "s3_1_1_184",
@@ -4324,14 +4685,15 @@
       48.0,
       10.0
      ],
-     "font_px": 11,
-     "scale": 0.502,
+     "font_px": 19.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 116
     },
     {
      "id": "s3_1_1_185",
@@ -4343,14 +4705,15 @@
       48.0,
       10.0
      ],
-     "font_px": 9.7,
-     "scale": 0.443,
+     "font_px": 19.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 116
     },
     {
      "id": "s3_1_1_186",
@@ -4362,14 +4725,15 @@
       48.0,
       10.0
      ],
-     "font_px": 9.7,
-     "scale": 0.443,
+     "font_px": 19.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 118
     },
     {
      "id": "s3_1_1_187",
@@ -4646,101 +5010,6 @@
      "box_px_orig": [
       1030.0,
       589.5,
-      48.0,
-      10.0
-     ],
-     "font_px": 9.7,
-     "scale": 0.443,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_1_1_182",
-     "ko": "로그인 성공",
-     "tr": "Anmeldung erfolgreich",
-     "box_px_orig": [
-      1030.0,
-      636.5,
-      48.0,
-      10.0
-     ],
-     "font_px": 9.7,
-     "scale": 0.443,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_1_1_183",
-     "ko": "로그인 성공",
-     "tr": "Anmeldung erfolgreich",
-     "box_px_orig": [
-      1030.0,
-      682.5,
-      48.0,
-      10.0
-     ],
-     "font_px": 11,
-     "scale": 0.502,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_1_1_184",
-     "ko": "로그인 성공",
-     "tr": "Anmeldung erfolgreich",
-     "box_px_orig": [
-      1030.0,
-      728.5,
-      48.0,
-      10.0
-     ],
-     "font_px": 11,
-     "scale": 0.502,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_1_1_185",
-     "ko": "로그인 성공",
-     "tr": "Anmeldung erfolgreich",
-     "box_px_orig": [
-      1030.0,
-      775.5,
-      48.0,
-      10.0
-     ],
-     "font_px": 9.7,
-     "scale": 0.443,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_1_1_186",
-     "ko": "로그인 성공",
-     "tr": "Anmeldung erfolgreich",
-     "box_px_orig": [
-      1030.0,
-      821.5,
       48.0,
       10.0
      ],
@@ -5169,49 +5438,91 @@
    ],
    "effective_dpi": 783.1,
    "meets_300dpi_pixels": true,
-   "markers_overlapped": 3,
+   "markers_overlapped": 2,
    "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      39.164,
-      5.21
+      32.133,
+      2.36
+     ],
+     "to_pct": [
+      35.201,
+      4.553
+     ],
+     "dx_px": 140,
+     "dy_px": 100,
+     "ink_before": 0.03,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      64.326,
+      2.36
+     ],
+     "to_pct": [
+      62.5,
+      3.7
+     ],
+     "dx_px": -83,
+     "dy_px": 61,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      97.66,
+      2.36
+     ],
+     "to_pct": [
+      97.614,
+      3.503
+     ],
+     "dx_px": -2,
+     "dy_px": 52,
+     "ink_before": 0.03,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      32.133,
+      5.209
      ],
      "to_pct": [
       39.799,
       5.21
      ],
-     "dx_px": 29,
+     "dx_px": 350,
      "dy_px": 0,
-     "ink_before": 0.01,
+     "ink_before": 0.04,
      "ink_after": 0.01
     },
     {
      "from_pct": [
-      58.844,
-      5.363
+      61.05,
+      5.352
      ],
      "to_pct": [
       58.144,
-      5.363
+      5.342
      ],
-     "dx_px": -32,
+     "dx_px": -133,
      "dy_px": 0,
-     "ink_before": 0.011,
+     "ink_before": 0.01,
      "ink_after": 0.011
     },
     {
      "from_pct": [
-      44.067,
-      5.539
+      44.098,
+      7.346
      ],
      "to_pct": [
       44.44,
       5.517
      ],
-     "dx_px": 17,
-     "dy_px": -1,
-     "ink_before": 0.02,
+     "dx_px": 16,
+     "dy_px": -84,
+     "ink_before": 1.0,
      "ink_after": 0.019
     },
     {
@@ -5224,16 +5535,16 @@
     },
     {
      "from_pct": [
-      47.504,
-      3.437
+      43.813,
+      2.36
      ],
      "to_pct": [
       48.599,
       3.437
      ],
-     "dx_px": 50,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 219,
+     "dy_px": 49,
+     "ink_before": 0.074,
      "ink_after": 0.02
     }
    ]
@@ -5758,7 +6069,7 @@
     799
    ],
    "output_px": [
-    5010,
+    5127,
     1598
    ],
    "scale": 2,
@@ -6059,17 +6370,17 @@
      "box_px_orig": [
       252.0,
       81.5,
-      78.0,
-      32.0
+      77.0,
+      19.5
      ],
-     "font_px": 20.2,
-     "scale": 0.441,
+     "font_px": 41.6,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s4_1_1_237",
@@ -7069,14 +7380,15 @@
       33.0,
       12.0
      ],
-     "font_px": 11.6,
-     "scale": 0.441,
+     "font_px": 23.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_completed": true
     },
     {
      "id": "s4_1_1_292",
@@ -7309,25 +7621,6 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s4_1_1_236",
-     "ko": "운영 이력",
-     "tr": "Betriebshistorie",
-     "box_px_orig": [
-      252.0,
-      81.5,
-      78.0,
-      32.0
-     ],
-     "font_px": 20.2,
-     "scale": 0.441,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
      "id": "s4_1_1_239",
      "ko": "계정 관리",
      "tr": "Kontoverwaltung",
@@ -7510,25 +7803,6 @@
      ],
      "font_px": 20.4,
      "scale": 0.501,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s4_1_1_291",
-     "ko": "초기화",
-     "tr": "Zurücksetzen",
-     "box_px_orig": [
-      2450.0,
-      259.5,
-      33.0,
-      12.0
-     ],
-     "font_px": 11.6,
-     "scale": 0.441,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -7741,52 +8015,151 @@
    ],
    "effective_dpi": 858.9,
    "meets_300dpi_pixels": true,
+   "right_margin_added_px": 117,
+   "markers_overlapped": 2,
+   "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      38.922,
-      5.01
+      41.524,
+      6.906
      ],
      "to_pct": [
-      38.623,
-      4.571
+      42.149,
+      6.105
      ],
-     "dx_px": -15,
-     "dy_px": -22,
+     "dx_px": 32,
+     "dy_px": -41,
+     "ink_before": 0.044,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      22.422,
+      10.215
+     ],
+     "to_pct": [
+      21.514,
+      13.029
+     ],
+     "dx_px": -47,
+     "dy_px": 144,
+     "ink_before": 0.046,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      37.11,
+      10.215
+     ],
+     "to_pct": [
+      29.14,
+      13.029
+     ],
+     "dx_px": -409,
+     "dy_px": 144,
+     "ink_before": 0.046,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      51.731,
+      10.215
+     ],
+     "to_pct": [
+      51.726,
+      13.029
+     ],
+     "dx_px": 0,
+     "dy_px": 144,
+     "ink_before": 0.043,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      93.797,
+      14.284
+     ],
+     "to_pct": [
+      93.739,
+      14.277
+     ],
+     "dx_px": -3,
+     "dy_px": 0,
      "ink_before": 0.02,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      56.727,
-      14.611
+      5.802,
+      15.043
      ],
      "to_pct": [
-      57.405,
-      14.611
+      7.373,
+      15.038
      ],
-     "dx_px": 34,
+     "dx_px": 81,
      "dy_px": 0,
-     "ink_before": 0.016,
+     "ink_before": 0.057,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      25.387,
+      5.388
+     ],
+     "to_pct": [
+      25.395,
+      2.497
+     ],
+     "dx_px": 0,
+     "dy_px": -148,
+     "ink_before": 0.105,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      49.8,
+      14.284
+     ],
+     "to_pct": [
+      56.193,
+      14.297
+     ],
+     "dx_px": 328,
+     "dy_px": 1,
+     "ink_before": 0.028,
      "ink_after": 0.016
     },
     {
      "from_pct": [
-      87.745,
-      10.579
+      84.763,
+      14.284
      ],
      "to_pct": [
-      87.745,
-      9.96
+      85.742,
+      14.277
      ],
-     "dx_px": 0,
-     "dy_px": -31,
-     "ink_before": 0.013,
-     "ink_after": 0.015
+     "dx_px": 50,
+     "dy_px": 0,
+     "ink_before": 0.028,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      84.004,
+      10.215
+     ],
+     "to_pct": [
+      84.474,
+      9.791
+     ],
+     "dx_px": 24,
+     "dy_px": -22,
+     "ink_before": 0.024,
+     "ink_after": 0.02
     }
-   ],
-   "markers_overlapped": 3,
-   "markers_overlap_left": 0
+   ]
   },
   "s4_2_1.png": {
    "name": "s4_2_1.png",

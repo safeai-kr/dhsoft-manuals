@@ -30,18 +30,18 @@
      "tr": "Beispielprojekt 005",
      "box_px_orig": [
       186.0,
-      15.0,
+      24.0,
       111.5,
-      22.5
+      13.5
      ],
-     "font_px": 25.4,
-     "scale": 0.801,
+     "font_px": 29.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s1_1_1_002",
@@ -1015,25 +1015,6 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s1_1_1_001",
-     "ko": "샘플 프로젝트 005",
-     "tr": "Beispielprojekt 005",
-     "box_px_orig": [
-      186.0,
-      15.0,
-      111.5,
-      22.5
-     ],
-     "font_px": 25.4,
-     "scale": 0.801,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s1_1_1_002",
      "ko": "운영 중",
      "tr": "In Betrieb",
@@ -1519,11 +1500,11 @@
      "tr": "8 registriert",
      "box_px_orig": [
       558.0,
-      453.5,
+      461.0,
       43.5,
-      18.5
+      11.0
      ],
-     "font_px": 27.2,
+     "font_px": 24.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2107,7 +2088,7 @@
    ]
   },
   "s2_1_1.png": {
-   "replaced": 26,
+   "replaced": 27,
    "segments": [
     {
      "id": "s2_1_1_094",
@@ -2116,17 +2097,17 @@
      "box_px_orig": [
       65.0,
       42.0,
-      241.0,
-      22.5
+      237.0,
+      11.5
      ],
-     "font_px": 13,
-     "scale": 0.48,
+     "font_px": 24.5,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_1_1_095",
@@ -2602,28 +2583,28 @@
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
-    }
-   ],
-   "flags": [
+    },
     {
-     "id": "s2_1_1_094",
-     "ko": "배정 설정이 아직 없습니다 — 기본값으로 초기화",
-     "tr": "Noch keine Randomisierungseinstellungen — mit Standardwerten initialisiert",
+     "id": "x_s2_1_1_004",
+     "ko": "피험자+연구자+평가자 모두 모름. 최대 수준 맹검.",
+     "tr": "Probanden, Prüfer und Bewerter wissen es alle nicht. Höchste Verblindungsstufe.",
      "box_px_orig": [
-      65.0,
-      42.0,
-      241.0,
-      22.5
+      688.5,
+      391.0,
+      222.5,
+      10.0
      ],
-     "font_px": 13,
-     "scale": 0.48,
-     "weight": 700,
+     "font_px": 21.9,
+     "scale": 1.0,
+     "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
+     "role": "label",
+     "flag": ""
+    }
+   ],
+   "flags": [
     {
      "id": "s2_1_1_097",
      "ko": "외부 업로드 (External Upload)",

@@ -29,19 +29,19 @@
      "ko": "치식 be-mode 검증 프로젝트 0...",
      "tr": "Dental be-mode validation project 0...",
      "box_px_orig": [
-      192.5,
-      22.0,
-      132.5,
-      3.0
+      191.0,
+      31.0,
+      193.5,
+      13.5
      ],
-     "font_px": 7.3,
-     "scale": 1.0,
+     "font_px": 23,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": ""
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s1_1_1_002",
@@ -931,6 +931,25 @@
      ],
      "font_px": 19.1,
      "scale": 0.799,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": "[확인 필요] 85% 미만 축소"
+    },
+    {
+     "id": "s1_1_1_001",
+     "ko": "치식 be-mode 검증 프로젝트 0...",
+     "tr": "Dental be-mode validation project 0...",
+     "box_px_orig": [
+      191.0,
+      31.0,
+      193.5,
+      13.5
+     ],
+     "font_px": 23,
+     "scale": 0.78,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -2057,7 +2076,7 @@
    ]
   },
   "s2_1_1.png": {
-   "replaced": 13,
+   "replaced": 14,
    "segments": [
     {
      "id": "s2_1_1_100",
@@ -2298,6 +2317,25 @@
       8.0
      ],
      "font_px": 19.4,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s2_1_1_m01",
+     "ko": "Visit 코드",
+     "tr": "Visit code",
+     "box_px_orig": [
+      19.0,
+      249.0,
+      48.0,
+      7.0
+     ],
+     "font_px": 19.8,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -2877,12 +2915,12 @@
      "tr": "Validation rule test 020",
      "box_px_orig": [
       300.0,
-      242.0,
+      247.5,
       53.5,
-      14.0
+      8.5
      ],
-     "font_px": 17.2,
-     "scale": 0.86,
+     "font_px": 18.5,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 2,
      "lines_in_segment": 2,
@@ -3458,8 +3496,8 @@
       53.0,
       8.5
      ],
-     "font_px": 9.7,
-     "scale": 0.522,
+     "font_px": 9.3,
+     "scale": 0.5,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3472,15 +3510,15 @@
      "ko": "검증 규칙 테스 트 020",
      "tr": "Validation rule test 020",
      "box_px_orig": [
-      306.0,
-      241.5,
-      33.5,
-      2.0
+      296.0,
+      246.5,
+      53.5,
+      8.5
      ],
-     "font_px": 4.8,
-     "scale": 1.0,
+     "font_px": 17,
+     "scale": 0.919,
      "weight": 400,
-     "paragraph_lines": 1,
+     "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "label",
@@ -3529,19 +3567,19 @@
      "ko": "치식 치료 방문",
      "tr": "Dental treatment visit",
      "box_px_orig": [
-      28.0,
+      28.5,
       325.5,
-      75.5,
-      18.5
+      71.5,
+      12.0
      ],
-     "font_px": 14.7,
-     "scale": 0.518,
+     "font_px": 25.6,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s3_2_1_170",
@@ -3840,8 +3878,8 @@
       53.0,
       8.5
      ],
-     "font_px": 9.7,
-     "scale": 0.522,
+     "font_px": 9.3,
+     "scale": 0.5,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
@@ -3867,25 +3905,6 @@
      "align": "left",
      "role": "label",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s3_2_1_169",
-     "ko": "치식 치료 방문",
-     "tr": "Dental treatment visit",
-     "box_px_orig": [
-      28.0,
-      325.5,
-      75.5,
-      18.5
-     ],
-     "font_px": 14.7,
-     "scale": 0.518,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "label",
-     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s3_2_1_171",

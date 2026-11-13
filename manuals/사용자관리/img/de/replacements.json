@@ -675,7 +675,7 @@
    ]
   },
   "s1_2_1.png": {
-   "replaced": 11,
+   "replaced": 15,
    "segments": [
     {
      "id": "s1_2_1_037",
@@ -884,6 +884,82 @@
      "lines_in_segment": 1,
      "align": "center",
      "role": "header",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_2_1_010",
+     "ko": "신동환",
+     "tr": "Donghwan Shin",
+     "box_px_orig": [
+      608.0,
+      81.0,
+      38.5,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_2_1_011",
+     "ko": "이승준",
+     "tr": "Seungjun Lee",
+     "box_px_orig": [
+      608.0,
+      134.0,
+      38.0,
+      13.5
+     ],
+     "font_px": 29.5,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_2_1_012",
+     "ko": "황민승",
+     "tr": "Minseung Hwang",
+     "box_px_orig": [
+      607.5,
+      187.0,
+      38.5,
+      13.5
+     ],
+     "font_px": 29.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
+    },
+    {
+     "id": "x_s1_2_1_013",
+     "ko": "이름",
+     "tr": "Name",
+     "box_px_orig": [
+      608.0,
+      39.0,
+      22.0,
+      11.0
+     ],
+     "font_px": 25.7,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
      "flag": ""
     }
    ],
@@ -2553,17 +2629,17 @@
      "box_px_orig": [
       20.0,
       19.0,
-      103.0,
-      30.0
+      95.5,
+      19.0
      ],
-     "font_px": 21.4,
-     "scale": 0.44,
+     "font_px": 40.8,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s3_2_1_087",
@@ -2833,25 +2909,6 @@
     }
    ],
    "flags": [
-    {
-     "id": "s3_2_1_086",
-     "ko": "사용자 관리",
-     "tr": "Benutzerverwaltung",
-     "box_px_orig": [
-      20.0,
-      19.0,
-      103.0,
-      30.0
-     ],
-     "font_px": 21.4,
-     "scale": 0.44,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
     {
      "id": "s3_2_1_095",
      "ko": "신규 사용자 등록",

@@ -185,6 +185,15 @@ def ink_rows(s, x0, x1, exclude=(), ko_text=''):
         else: lines_.append(cur); cur = [i]
     lines_.append(cur)
     lines_ = [l_ for l_ in lines_ if len(l_) >= 4]
+    # 상자 위·아래 끝에 걸친 낮은 줄(가장 높은 줄의 0.4배 미만)은 이웃 덩어리 글자의 윗부분·아랫부분이 잘려 들어온 것이다.
+    # 이 조각을 줄로 세면 줄 높이 중앙값이 작아져 조각 줄이 뽑히고, 진짜 한글 줄은 안 지워진 채 번역이 조각 높이로 아주 작게 그려진다
+    # (2026-11-13 AE지정 「해제하면 이 양식은…」 두 줄 문단, 기관관리 「통합병원 제1기관」 아래 영문 작은 글자)
+    if len(lines_) >= 2:
+        tall = max(len(l_) for l_ in lines_)
+        frag = [l_ for l_ in lines_ if len(l_) < 0.4 * tall and (l_[0] <= 2 or l_[-1] >= len(keep) - 3)]
+        if frag:
+            lines_ = [l_ for l_ in lines_ if l_ not in frag]
+            if len(lines_) == 1: return int(ya + lines_[0][0]), int(ya + lines_[0][-1] + 1)
     if len(lines_) >= 2 and ko_text:
         hh_ = float(np.median([len(l_) for l_ in lines_]))
         est = est_width(ko_text) * hh_ / 0.88        # 잉크 높이 → 글자 크기 → 예상 폭

@@ -392,36 +392,134 @@
    ],
    "effective_dpi": 787.9,
    "meets_300dpi_pixels": true,
-   "markers_overlapped": 2,
+   "markers_overlapped": 1,
    "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      25.914,
+      46.94,
+      9.608
+     ],
+     "to_pct": [
+      46.932,
+      8.747
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      9.608
+     ],
+     "to_pct": [
+      94.996,
+      8.747
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.999,
+      14.407
+     ],
+     "to_pct": [
+      94.996,
+      14.143
+     ],
+     "dx_px": 0,
+     "dy_px": -12,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      18.076
+     ],
+     "to_pct": [
+      29.939,
       15.775
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      21.393
      ],
      "to_pct": [
       25.283,
       15.775
      ],
-     "dx_px": -29,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": -214,
+     "dy_px": -258,
+     "ink_before": 0.025,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      15.601,
-      3.547
+      74.957,
+      21.393
+     ],
+     "to_pct": [
+      74.956,
+      20.627
+     ],
+     "dx_px": 0,
+     "dy_px": -35,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      6.926,
+      0.716
+     ],
+     "to_pct": [
+      11.88,
+      2.002
+     ],
+     "dx_px": 228,
+     "dy_px": 59,
+     "ink_before": 1.0,
+     "ink_after": 1.0
+    },
+    {
+     "from_pct": [
+      12.995,
+      3.539
      ],
      "to_pct": [
       20.235,
       3.547
      ],
-     "dx_px": 213,
+     "dx_px": 333,
      "dy_px": 0,
-     "ink_before": 0.011,
+     "ink_before": 0.026,
      "ink_after": 0.011
+    },
+    {
+     "from_pct": [
+      13.419,
+      10.949
+     ],
+     "to_pct": [
+      20.235,
+      11.075
+     ],
+     "dx_px": 313,
+     "dy_px": 6,
+     "ink_before": 0.054,
+     "ink_after": 0.02
     }
    ]
   },
@@ -625,31 +723,73 @@
    "markers_moved": [
     {
      "from_pct": [
-      94.299,
-      11.314
+      94.999,
+      5.585
      ],
      "to_pct": [
       94.996,
-      11.314
+      4.743
      ],
-     "dx_px": 32,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 0,
+     "dy_px": -39,
+     "ink_before": 0.035,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      97.977,
-      9.682
+      88.93,
+      7.561
      ],
      "to_pct": [
-      84.378,
-      9.682
+      88.925,
+      8.725
      ],
-     "dx_px": -625,
+     "dx_px": 0,
+     "dy_px": 53,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.294,
+      11.866
+     ],
+     "to_pct": [
+      94.299,
+      11.314
+     ],
+     "dx_px": 0,
+     "dy_px": -25,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      97.681,
+      11.866
+     ],
+     "to_pct": [
+      90.426,
+      13.903
+     ],
+     "dx_px": -333,
+     "dy_px": 94,
+     "ink_before": 0.036,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      26.404,
+      10.666
+     ],
+     "to_pct": [
+      32.876,
+      10.661
+     ],
+     "dx_px": 297,
      "dy_px": 0,
-     "ink_before": 1.0,
-     "ink_after": 0.011
+     "ink_before": 0.05,
+     "ink_after": 0.02
     }
    ]
   },
@@ -1574,25 +1714,6 @@
      "flag": ""
     },
     {
-     "id": "s2_1_1_072",
-     "ko": "권한 변경 이력",
-     "tr": "Role change history",
-     "box_px_orig": [
-      314.0,
-      980.5,
-      52.0,
-      4.0
-     ],
-     "font_px": 9.7,
-     "scale": 1.0,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "text",
-     "flag": ""
-    },
-    {
      "id": "s2_1_1_073",
      "ko": "이름",
      "tr": "Name",
@@ -1770,17 +1891,17 @@
      "box_px_orig": [
       1055.5,
       971.5,
-      61.5,
-      22.0
+      55.5,
+      13.0
      ],
-     "font_px": 16.2,
-     "scale": 0.479,
+     "font_px": 28.5,
+     "scale": 1.0,
      "weight": 700,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": ""
     },
     {
      "id": "s2_1_1_083",
@@ -1914,6 +2035,25 @@
      "align": "center",
      "role": "button",
      "flag": "[확인 필요] 축소 한계 미만"
+    },
+    {
+     "id": "x_s2_1_1_001",
+     "ko": "권한 변경 이력",
+     "tr": "Role change history",
+     "box_px_orig": [
+      312.0,
+      990.0,
+      65.0,
+      10.0
+     ],
+     "font_px": 22.3,
+     "scale": 1.0,
+     "weight": 400,
+     "paragraph_lines": 1,
+     "lines_in_segment": 1,
+     "align": "left",
+     "role": "label",
+     "flag": ""
     }
    ],
    "flags": [
@@ -1992,25 +2132,6 @@
      "align": "center",
      "role": "badge",
      "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
-     "id": "s2_1_1_082",
-     "ko": "SAE 통보",
-     "tr": "SAE notification",
-     "box_px_orig": [
-      1055.5,
-      971.5,
-      61.5,
-      22.0
-     ],
-     "font_px": 16.2,
-     "scale": 0.479,
-     "weight": 700,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "title",
-     "flag": "[확인 필요] 축소 한계 미만"
     },
     {
      "id": "s2_1_1_087",
@@ -2610,72 +2731,170 @@
    "markers_moved": [
     {
      "from_pct": [
-      94.998,
-      17.047
+      94.999,
+      13.418
      ],
      "to_pct": [
-      96.161,
-      17.047
+      94.998,
+      12.549
      ],
-     "dx_px": 53,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      33.962,
+      94.999,
+      17.229
+     ],
+     "to_pct": [
+      94.998,
+      17.859
+     ],
+     "dx_px": 0,
+     "dy_px": 29,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      21.04
+     ],
+     "to_pct": [
+      29.925,
       18.714
+     ],
+     "dx_px": 0,
+     "dy_px": -106,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      24.428
      ],
      "to_pct": [
       34.577,
       18.714
      ],
-     "dx_px": 28,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 212,
+     "dy_px": -260,
+     "ink_before": 0.025,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      25.889,
-      18.67
+      74.957,
+      24.428
      ],
      "to_pct": [
-      39.228,
-      18.67
+      74.967,
+      18.714
      ],
-     "dx_px": 608,
-     "dy_px": 0,
-     "ink_before": 0.02,
-     "ink_after": 0.019
+     "dx_px": 0,
+     "dy_px": -260,
+     "ink_before": 0.025,
+     "ink_after": 0.02
     },
     {
      "from_pct": [
-      70.93,
+      29.932,
+      27.674
+     ],
+     "to_pct": [
+      39.228,
       18.714
+     ],
+     "dx_px": 424,
+     "dy_px": -408,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      27.674
      ],
      "to_pct": [
       70.316,
       18.714
      ],
-     "dx_px": -28,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": -212,
+     "dy_px": -408,
+     "ink_before": 0.025,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      79.004,
-      18.714
+      96.834,
+      1.351
+     ],
+     "to_pct": [
+      91.992,
+      1.996
+     ],
+     "dx_px": -221,
+     "dy_px": 29,
+     "ink_before": 1.0,
+     "ink_after": 1.0
+    },
+    {
+     "from_pct": [
+      15.959,
+      0.574
+     ],
+     "to_pct": [
+      17.332,
+      2.008
+     ],
+     "dx_px": 63,
+     "dy_px": 65,
+     "ink_before": 1.0,
+     "ink_after": 0.013
+    },
+    {
+     "from_pct": [
+      15.395,
+      10.172
+     ],
+     "to_pct": [
+      17.332,
+      10.18
+     ],
+     "dx_px": 88,
+     "dy_px": 0,
+     "ink_before": 0.043,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      46.94,
+      13.418
+     ],
+     "to_pct": [
+      46.95,
+      12.549
+     ],
+     "dx_px": 0,
+     "dy_px": -40,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      74.957,
+      21.04
      ],
      "to_pct": [
       79.618,
       18.714
      ],
-     "dx_px": 28,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 212,
+     "dy_px": -106,
+     "ink_before": 0.025,
      "ink_after": 0.02
     }
    ]
@@ -3221,63 +3440,75 @@
    "markers_moved": [
     {
      "from_pct": [
-      8.479,
-      17.935
+      94.999,
+      28.944
      ],
      "to_pct": [
-      16.936,
-      17.935
+      94.996,
+      26.005
      ],
-     "dx_px": 387,
-     "dy_px": 0,
-     "ink_before": 0.012,
-     "ink_after": 0.006
-    },
-    {
-     "from_pct": [
-      11.443,
-      2.008
-     ],
-     "to_pct": [
-      16.936,
-      2.008
-     ],
-     "dx_px": 251,
-     "dy_px": 0,
-     "ink_before": 0.02,
-     "ink_after": 0.0
-    },
-    {
-     "from_pct": [
-      20.913,
-      9.178
-     ],
-     "to_pct": [
-      21.547,
-      9.178
-     ],
-     "dx_px": 29,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 0,
+     "dy_px": -134,
+     "ink_before": 0.029,
      "ink_after": 0.02
     },
     {
      "from_pct": [
+      97.258,
+      34.308
+     ],
+     "to_pct": [
+      93.553,
+      34.047
+     ],
+     "dx_px": -170,
+     "dy_px": -12,
+     "ink_before": 1.0,
+     "ink_after": 1.0
+    },
+    {
+     "from_pct": [
+      11.443,
+      0.716
+     ],
+     "to_pct": [
+      11.443,
+      2.008
+     ],
+     "dx_px": 0,
+     "dy_px": 59,
+     "ink_before": 1.0,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      20.476,
+      12.007
+     ],
+     "to_pct": [
+      20.476,
+      15.101
+     ],
+     "dx_px": 0,
+     "dy_px": 142,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      14.407,
+      24.992
+     ],
+     "to_pct": [
       14.554,
       23.317
      ],
-     "to_pct": [
-      16.936,
-      23.317
-     ],
-     "dx_px": 109,
-     "dy_px": 0,
-     "ink_before": 0.02,
-     "ink_after": 0.015
+     "dx_px": 7,
+     "dy_px": -77,
+     "ink_before": 0.05,
+     "ink_after": 0.02
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   },
   "s3_2_1.png": {
    "name": "s3_2_1.png",
@@ -3445,18 +3676,18 @@
      "tr": "Test (current)",
      "box_px_orig": [
       110.0,
-      265.0,
+      272.0,
       98.0,
-      24.0
+      11.5
      ],
-     "font_px": 32.3,
-     "scale": 0.8,
+     "font_px": 24.4,
+     "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_2_1_143",
@@ -3727,25 +3958,6 @@
      "flag": "[확인 필요] 축소 한계 미만"
     },
     {
-     "id": "s3_2_1_142",
-     "ko": "테스트 (현재)",
-     "tr": "Test (current)",
-     "box_px_orig": [
-      110.0,
-      265.0,
-      98.0,
-      24.0
-     ],
-     "font_px": 32.3,
-     "scale": 0.8,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "badge",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "s3_2_1_143",
      "ko": "운영 중 (대상) → 종료 → 보관",
      "tr": "Active (target) → Closed → Archived",
@@ -3801,49 +4013,89 @@
    "markers_moved": [
     {
      "from_pct": [
-      17.702,
-      17.921
+      4.033,
+      20.193
+     ],
+     "to_pct": [
+      13.807,
+      18.906
+     ],
+     "dx_px": 447,
+     "dy_px": -59,
+     "ink_before": 0.083,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      13.701,
+      17.935
      ],
      "to_pct": [
       18.359,
-      17.921
+      17.943
      ],
-     "dx_px": 30,
+     "dx_px": 213,
      "dy_px": 0,
-     "ink_before": 0.005,
+     "ink_before": 0.016,
      "ink_after": 0.005
     },
     {
      "from_pct": [
-      20.919,
-      9.19
+      97.54,
+      33.32
+     ],
+     "to_pct": [
+      96.805,
+      33.042
+     ],
+     "dx_px": -34,
+     "dy_px": -13,
+     "ink_before": 0.067,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      20.899,
+      12.007
      ],
      "to_pct": [
       21.554,
       9.19
      ],
-     "dx_px": 29,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 30,
+     "dy_px": -129,
+     "ink_before": 0.027,
      "ink_after": 0.02
     },
     {
      "from_pct": [
-      14.442,
-      23.195
+      14.407,
+      24.992
      ],
      "to_pct": [
       15.033,
       23.392
      ],
-     "dx_px": 27,
-     "dy_px": 9,
-     "ink_before": 0.02,
+     "dx_px": 29,
+     "dy_px": -73,
+     "ink_before": 0.064,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      6.926,
+      27.109
+     ],
+     "to_pct": [
+      14.573,
+      28.49
+     ],
+     "dx_px": 349,
+     "dy_px": 63,
+     "ink_before": 0.113,
      "ink_after": 0.02
     }
-   ],
-   "markers_overlapped": 3,
-   "markers_overlap_left": 0
+   ]
   },
   "s3_3_1.png": {
    "name": "s3_3_1.png",
@@ -4955,19 +5207,19 @@
      "ko": "종료 시 프로젝트 단위 HARD_LOCK이 자동 적용되어 데이터 편집이 차단 됩니다 (읽기·추출만 가능). 하위 모든 Site도 자동 종료됩니다.",
      "tr": "On closure, a project-level HARD_LOCK is applied automatically and data editing is blocked (reading and export only). All subordinate Sites are closed automatically too.",
      "box_px_orig": [
-      103.0,
-      113.0,
-      294.5,
-      2.0
+      102.5,
+      97.0,
+      365.0,
+      11.5
      ],
-     "font_px": 10.3,
-     "scale": 0.438,
+     "font_px": 19.6,
+     "scale": 0.781,
      "weight": 400,
-     "paragraph_lines": 1,
+     "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소"
     },
     {
      "id": "s3_6_1_191",
@@ -4975,18 +5227,18 @@
      "tr": "An electronic signature (21 CFR Part 11) is required. After you agree, sign with your electronic signature password to run the closure.",
      "box_px_orig": [
       103.5,
-      174.0,
-      209.0,
-      2.0
+      158.0,
+      366.0,
+      11.5
      ],
-     "font_px": 12.4,
-     "scale": 0.62,
+     "font_px": 24.2,
+     "scale": 1.0,
      "weight": 400,
-     "paragraph_lines": 1,
+     "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": ""
     },
     {
      "id": "s3_6_1_193",
@@ -5052,34 +5304,15 @@
      "ko": "종료 시 프로젝트 단위 HARD_LOCK이 자동 적용되어 데이터 편집이 차단 됩니다 (읽기·추출만 가능). 하위 모든 Site도 자동 종료됩니다.",
      "tr": "On closure, a project-level HARD_LOCK is applied automatically and data editing is blocked (reading and export only). All subordinate Sites are closed automatically too.",
      "box_px_orig": [
-      103.0,
-      113.0,
-      294.5,
-      2.0
+      102.5,
+      97.0,
+      365.0,
+      11.5
      ],
-     "font_px": 10.3,
-     "scale": 0.438,
+     "font_px": 19.6,
+     "scale": 0.781,
      "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 2,
-     "align": "left",
-     "role": "text",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
-     "id": "s3_6_1_191",
-     "ko": "전자서명(21 CFR Part 11)이 필요합니다. 동의 후 전자서 명 비밀번호로 서명하면 종료가 실행됩니다.",
-     "tr": "An electronic signature (21 CFR Part 11) is required. After you agree, sign with your electronic signature password to run the closure.",
-     "box_px_orig": [
-      103.5,
-      174.0,
-      209.0,
-      2.0
-     ],
-     "font_px": 12.4,
-     "scale": 0.62,
-     "weight": 400,
-     "paragraph_lines": 1,
+     "paragraph_lines": 2,
      "lines_in_segment": 2,
      "align": "left",
      "role": "text",
@@ -5490,21 +5723,117 @@
    "markers_moved": [
     {
      "from_pct": [
-      42.534,
+      94.13,
+      68.601
+     ],
+     "to_pct": [
+      96.141,
+      68.624
+     ],
+     "dx_px": 24,
+     "dy_px": 0,
+     "ink_before": 0.127,
+     "ink_after": 1.0
+    },
+    {
+     "from_pct": [
+      50.021,
+      80.988
+     ],
+     "to_pct": [
+      50.0,
+      95.973
+     ],
+     "dx_px": 0,
+     "dy_px": 179,
+     "ink_before": 0.156,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      94.13,
+      97.453
+     ],
+     "to_pct": [
+      96.141,
       97.483
+     ],
+     "dx_px": 24,
+     "dy_px": 0,
+     "ink_before": 0.127,
+     "ink_after": 1.0
+    },
+    {
+     "from_pct": [
+      51.23,
+      10.142
+     ],
+     "to_pct": [
+      54.53,
+      9.815
+     ],
+     "dx_px": 39,
+     "dy_px": -4,
+     "ink_before": 0.075,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      24.19,
+      19.205
+     ],
+     "to_pct": [
+      26.342,
+      19.044
+     ],
+     "dx_px": 26,
+     "dy_px": -2,
+     "ink_before": 0.058,
+     "ink_after": 0.019
+    },
+    {
+     "from_pct": [
+      67.242,
+      42.921
+     ],
+     "to_pct": [
+      67.282,
+      43.876
+     ],
+     "dx_px": 0,
+     "dy_px": 11,
+     "ink_before": 0.026,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      61.502,
+      73.888
+     ],
+     "to_pct": [
+      61.493,
+      63.674
+     ],
+     "dx_px": 0,
+     "dy_px": -122,
+     "ink_before": 0.085,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      51.834,
+      97.453
      ],
      "to_pct": [
       41.527,
       97.483
      ],
-     "dx_px": -12,
+     "dx_px": -123,
      "dy_px": 0,
      "ink_before": 0.0,
      "ink_after": 0.0
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   }
  }
 }

@@ -1266,21 +1266,91 @@
    ],
    "effective_dpi": 869.1,
    "meets_300dpi_pixels": true,
-   "markers_overlapped": 1,
+   "markers_overlapped": 3,
    "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      19.191,
-      11.045
+      8.479,
+      11.443
      ],
      "to_pct": [
-      19.29,
-      11.677
+      8.402,
+      12.564
      ],
-     "dx_px": 5,
-     "dy_px": 32,
-     "ink_before": 0.02,
+     "dx_px": -4,
+     "dy_px": 57,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      48.281,
+      26.404
+     ],
+     "to_pct": [
+      50.671,
+      23.787
+     ],
+     "dx_px": 121,
+     "dy_px": -133,
+     "ink_before": 0.052,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      21.887,
+      4.527
+     ],
+     "to_pct": [
+      23.826,
+      4.536
+     ],
+     "dx_px": 98,
+     "dy_px": 0,
+     "ink_before": 0.045,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      18.5,
+      10.172
+     ],
+     "to_pct": [
+      21.42,
+      10.789
+     ],
+     "dx_px": 148,
+     "dy_px": 31,
+     "ink_before": 0.031,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      49.975,
+      28.874
+     ],
+     "to_pct": [
+      50.671,
+      30.375
+     ],
+     "dx_px": 35,
+     "dy_px": 76,
+     "ink_before": 0.035,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      98.387,
+      30.356
+     ],
+     "to_pct": [
+      97.239,
+      30.473
+     ],
+     "dx_px": -58,
+     "dy_px": 6,
+     "ink_before": 1.0,
      "ink_after": 0.02
     }
    ]
@@ -2010,14 +2080,15 @@
       46.5,
       12.0
      ],
-     "font_px": 16.3,
-     "scale": 0.62,
+     "font_px": 19.5,
+     "scale": 0.742,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 29
     },
     {
      "id": "s2_1_1_101",
@@ -2183,14 +2254,15 @@
       46.5,
       12.0
      ],
-     "font_px": 16.3,
-     "scale": 0.62,
+     "font_px": 19.5,
+     "scale": 0.742,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "[확인 필요] 85% 미만 축소",
+     "button_widened_px": 29
     },
     {
      "id": "s2_1_1_101",
@@ -2248,21 +2320,117 @@
    "markers_moved": [
     {
      "from_pct": [
-      14.635,
-      19.696
+      91.471,
+      3.821
+     ],
+     "to_pct": [
+      91.901,
+      3.821
+     ],
+     "dx_px": 20,
+     "dy_px": 0,
+     "ink_before": 0.008,
+     "ink_after": 0.008
+    },
+    {
+     "from_pct": [
+      91.894,
+      9.89
+     ],
+     "to_pct": [
+      91.901,
+      10.365
+     ],
+     "dx_px": 0,
+     "dy_px": 22,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      3.68,
+      25.275
+     ],
+     "to_pct": [
+      5.766,
+      20.158
+     ],
+     "dx_px": 95,
+     "dy_px": -232,
+     "ink_before": 0.096,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      10.737,
+      25.275
+     ],
+     "to_pct": [
+      10.739,
+      20.687
+     ],
+     "dx_px": 0,
+     "dy_px": -208,
+     "ink_before": 0.038,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      19.064,
+      25.275
+     ],
+     "to_pct": [
+      24.186,
+      25.286
+     ],
+     "dx_px": 233,
+     "dy_px": 1,
+     "ink_before": 0.034,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      10.949,
+      3.539
+     ],
+     "to_pct": [
+      11.928,
+      2.465
+     ],
+     "dx_px": 44,
+     "dy_px": -49,
+     "ink_before": 0.046,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      29.932,
+      12.431
+     ],
+     "to_pct": [
+      29.93,
+      11.576
+     ],
+     "dx_px": 0,
+     "dy_px": -39,
+     "ink_before": 0.024,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      12.642,
+      19.699
      ],
      "to_pct": [
       15.295,
       19.696
      ],
-     "dx_px": 30,
+     "dx_px": 121,
      "dy_px": 0,
      "ink_before": 0.014,
      "ink_after": 0.014
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   },
   "s2_2_1.png": {
    "name": "s2_2_1.png",
@@ -2484,16 +2652,58 @@
    "markers_moved": [
     {
      "from_pct": [
-      49.978,
-      9.63
+      49.975,
+      6.291
      ],
      "to_pct": [
-      51.631,
-      9.63
+      49.978,
+      5.289
      ],
-     "dx_px": 75,
-     "dy_px": 0,
-     "ink_before": 0.02,
+     "dx_px": 0,
+     "dy_px": -45,
+     "ink_before": 0.025,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      49.975,
+      9.819
+     ],
+     "to_pct": [
+      49.978,
+      10.445
+     ],
+     "dx_px": 0,
+     "dy_px": 28,
+     "ink_before": 0.021,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      97.116,
+      4.738
+     ],
+     "to_pct": [
+      97.113,
+      5.201
+     ],
+     "dx_px": 0,
+     "dy_px": 21,
+     "ink_before": 0.032,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      49.975,
+      13.489
+     ],
+     "to_pct": [
+      45.372,
+      11.15
+     ],
+     "dx_px": -209,
+     "dy_px": -106,
+     "ink_before": 1.0,
      "ink_after": 0.02
     }
    ]
@@ -2967,12 +3177,12 @@
      "ko": "김현경 2026. 10. 23. 15:44:49",
      "tr": "キム・ヒョンギョン 2026. 10. 23. 15:44:49",
      "box_px_orig": [
-      53.5,
-      769.0,
-      100.0,
-      2.5
+      53.0,
+      779.5,
+      145.0,
+      9.5
      ],
-     "font_px": 6.1,
+     "font_px": 21.5,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3005,12 +3215,12 @@
      "ko": "김현경 2026. 10. 23. 15:44:33",
      "tr": "キム・ヒョンギョン 2026. 10. 23. 15:44:33",
      "box_px_orig": [
-      53.5,
-      822.0,
-      100.0,
-      2.5
+      53.0,
+      832.5,
+      145.5,
+      9.5
      ],
-     "font_px": 6.1,
+     "font_px": 21.6,
      "scale": 1.0,
      "weight": 400,
      "paragraph_lines": 1,
@@ -3251,7 +3461,7 @@
     535
    ],
    "output_px": [
-    4582,
+    4643,
     1070
    ],
    "scale": 2,
@@ -3783,14 +3993,15 @@
       58.5,
       12.0
      ],
-     "font_px": 21.5,
-     "scale": 0.821,
+     "font_px": 23.6,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "center",
      "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
+     "flag": "",
+     "button_completed": true
     },
     {
      "id": "s3_1_1_176",
@@ -4080,25 +4291,6 @@
    ],
    "flags": [
     {
-     "id": "s3_1_1_175",
-     "ko": "사용자 추가",
-     "tr": "ユーザー追加",
-     "box_px_orig": [
-      2213.0,
-      160.5,
-      58.5,
-      12.0
-     ],
-     "font_px": 21.5,
-     "scale": 0.821,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "center",
-     "role": "button",
-     "flag": "[확인 필요] 85% 미만 축소"
-    },
-    {
      "id": "x_s3_1_1_014",
      "ko": "현재 할당 사용자 (19)",
      "tr": "現在の割り当てユーザー (19)",
@@ -4132,36 +4324,65 @@
    ],
    "effective_dpi": 785.5,
    "meets_300dpi_pixels": true,
-   "markers_overlapped": 2,
+   "right_margin_added_px": 61,
+   "markers_overlapped": 1,
    "markers_overlap_left": 0,
    "markers_moved": [
     {
      "from_pct": [
-      92.252,
-      11.152
+      12.268,
+      7.113
      ],
      "to_pct": [
-      92.252,
-      11.785
+      14.775,
+      7.107
+     ],
+     "dx_px": 116,
+     "dy_px": 0,
+     "ink_before": 0.022,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      91.035,
+      10.874
+     ],
+     "to_pct": [
+      91.04,
+      11.695
      ],
      "dx_px": 0,
-     "dy_px": 29,
-     "ink_before": 0.012,
+     "dy_px": 38,
+     "ink_before": 0.011,
      "ink_after": 0.013
     },
     {
      "from_pct": [
-      88.237,
-      11.021
+      97.93,
+      10.874
      ],
      "to_pct": [
-      87.669,
-      11.021
+      86.453,
+      10.877
      ],
-     "dx_px": -26,
+     "dx_px": -533,
      "dy_px": 0,
-     "ink_before": 0.011,
+     "ink_before": 0.044,
      "ink_after": 0.011
+    },
+    {
+     "from_pct": [
+      14.774,
+      0.566
+     ],
+     "to_pct": [
+      14.775,
+      2.007
+     ],
+     "dx_px": 0,
+     "dy_px": 67,
+     "ink_before": 1.0,
+     "ink_after": 0.014
     }
    ]
   },
@@ -4696,14 +4917,15 @@
       46.5,
       12.0
      ],
-     "font_px": 16.3,
-     "scale": 0.62,
+     "font_px": 23.7,
+     "scale": 0.9,
      "weight": 400,
      "paragraph_lines": 1,
      "lines_in_segment": 1,
      "align": "left",
      "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
+     "flag": "",
+     "button_widened_px": 58
     },
     {
      "id": "s3_2_1_217",
@@ -4784,25 +5006,6 @@
      "flag": "[확인 필요] 85% 미만 축소"
     },
     {
-     "id": "s3_2_1_216",
-     "ko": "메타 편집",
-     "tr": "メタ情報の編集",
-     "box_px_orig": [
-      2176.0,
-      75.5,
-      46.5,
-      12.0
-     ],
-     "font_px": 16.3,
-     "scale": 0.62,
-     "weight": 400,
-     "paragraph_lines": 1,
-     "lines_in_segment": 1,
-     "align": "left",
-     "role": "button",
-     "flag": "[확인 필요] 축소 한계 미만"
-    },
-    {
      "id": "s3_2_1_217",
      "ko": "바로가기 →",
      "tr": "ショートカット →",
@@ -4839,21 +5042,103 @@
    "markers_moved": [
     {
      "from_pct": [
-      13.622,
+      92.459,
+      9.466
+     ],
+     "to_pct": [
+      92.459,
+      9.951
+     ],
+     "dx_px": 0,
+     "dy_px": 22,
+     "ink_before": 0.028,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      3.397,
+      19.77
+     ],
+     "to_pct": [
+      9.598,
       20.411
+     ],
+     "dx_px": 280,
+     "dy_px": 29,
+     "ink_before": 0.182,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      10.455,
+      19.77
      ],
      "to_pct": [
       14.241,
       20.456
      ],
-     "dx_px": 28,
-     "dy_px": 2,
-     "ink_before": 0.02,
+     "dx_px": 171,
+     "dy_px": 31,
+     "ink_before": 0.037,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      26.827,
+      19.77
+     ],
+     "to_pct": [
+      26.824,
+      20.411
+     ],
+     "dx_px": 0,
+     "dy_px": 29,
+     "ink_before": 0.046,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      12.995,
+      0.857
+     ],
+     "to_pct": [
+      12.995,
+      2.009
+     ],
+     "dx_px": 0,
+     "dy_px": 52,
+     "ink_before": 1.0,
+     "ink_after": 0.014
+    },
+    {
+     "from_pct": [
+      10.949,
+      11.866
+     ],
+     "to_pct": [
+      10.946,
+      11.521
+     ],
+     "dx_px": 0,
+     "dy_px": -16,
+     "ink_before": 0.022,
+     "ink_after": 0.02
+    },
+    {
+     "from_pct": [
+      47.999,
+      20.899
+     ],
+     "to_pct": [
+      48.01,
+      18.753
+     ],
+     "dx_px": 0,
+     "dy_px": -97,
+     "ink_before": 0.055,
      "ink_after": 0.02
     }
-   ],
-   "markers_overlapped": 1,
-   "markers_overlap_left": 0
+   ]
   },
   "s3_3_1.png": {
    "name": "s3_3_1.png",
